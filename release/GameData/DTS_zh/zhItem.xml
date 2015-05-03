@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Items>
+  <Item scene="SPACECENTER"  type="SpriteText" path="panel_RnD/RDScreen(Clone)/panelManager/panel_technology/RightPanel/RDpanel/Panel_node/node_description">
+    <string name="How hard can Rocket Science be anyway?"><![CDATA[更强的引擎,更多的燃料,更高远的志向.]]></string>
+    <string name="Survivability"><![CDATA[成功着陆并安全走出舱外的科技支持.]]></string>
+    <string name="Basic Rocketry"><![CDATA[火箭科技这条路究竟有多艰难?]]></string>
+    <string name="Stability"><![CDATA[它基本上能让我们的飞船朝着正确的方向飞行并且到他其他星球.]]></string>
+    <string name="Advanced Rocketry"><![CDATA[这是火箭科学发展的一大步.]]></string>
+    <string name="Science Tech"><![CDATA[我们要探求这个广阔宇宙的秘密...至少最后是的.现在,我们还只是初窥门径.]]></string>
+    <string name="General Construction"><![CDATA[加固部件的新装备,当你自以为是地建造极其巨大的火箭时它们尤其有用.]]></string>
+    <string name="Flight Control"><![CDATA[像无头苍蝇一般乱飞可能很过瘾.但是我们的工程师认为火箭引擎的发展还有很长的路要走.]]></string>
+    <string name="Advanced Construction"><![CDATA[更先进的技术使得制造更大的结构体部件成为可能.]]></string>
+    <string name="Advanced Flight Control"><![CDATA[最新的技术升级能够准确地控制飞船朝向你希望的方向.]]></string>
+    <string name="Electrics"><![CDATA[我们在发明太空飞行技术之前就已经有了电子技术.重要的是如何将二者结合起来.]]></string>
+
+    <string name="Space Exploration"><![CDATA[让你能大胆地前往小绿人们从未踏足的地方.]]></string>
+    <string name="Landing"><![CDATA[如果心态不乐观的话,它们什么都不是.]]></string>
+    <string name="Heavy Rocketry"><![CDATA[这个十分重要的技术突破其实就是把火箭造得更大.]]></string>
+    <string name="Fuel Systems"><![CDATA[让你更好地了解火箭的燃料是如何供应的.]]></string>
+    <string name="Advanced Exploration"><![CDATA[这些是自行部署式移动增强装置,我不知道你所说的"梯子"是个啥意思.]]></string>
+    <string name="Precision Engineering"><![CDATA[精确的工程科技允许我们制造这些更小的部件.]]></string>
+    <string name="Advanced Electrics"><![CDATA[我们相当确定没人会需要功率高于64Kw的电源.]]></string>
+    <string name="Specialized Control"><![CDATA[控制技术的新成果. ]]></string>
+    <string name="Heavier Rocketry"><![CDATA[貌似已经能预计到火箭大小的极限了,但是我们现在还没有达到那个水平.]]></string>
+    <string name="Specialized Construction"><![CDATA[特殊构建技术提供了一种全新的以分离为目的的部件连接方法.]]></string>
+    <string name="Aerodynamics"><![CDATA[航空航天研究所的突破性研究成果允许我们建造一种新的载具.同时我们也打算把他们的一些工程师挖过来了.]]></string>
+    <string name="Advanced Landing"><![CDATA[辅助着陆设备的重大升级,可以明显提高着陆的可控制性和落地以后飞船上面剩余零件的数量.]]></string>
+    <string name="Meta-Materials"><![CDATA[飞船建造技术的革命性升级,这足以让你无视这个乱起的名字.]]></string>
+    <string name="Heavy Aerodynamics"><![CDATA[构建技术的兴起在材料方面为空气动力学研究带来了突破.]]></string>
+    <string name="Composites"><![CDATA[轻质而又坚固!别担心,那些胶水马上就干了.]]></string>
+    <string name="Field Science"><![CDATA[对未知的探索程度取决于你的好奇心有多强,也取决于你的电池续航有多长.]]></string>
+    <string name="Nuclear Propulsion"><![CDATA[核动力引擎不烧燃油,而是把燃油核裂解.我们只希望它不要反应得太剧烈.]]></string>
+    <string name="Ion Propulsion"><![CDATA[注意,这不是科幻小说.]]></string>
+    <string name="Very Heavy Rocketry"><![CDATA[越造越大的火箭也不是任何情况都适用,为了应付剩余的情况,我们造出了这个.]]></string>
+    <string name="Supersonic Flight"><![CDATA[一系列的飞机部件,能让飞机的机动性和速度达到史无前例的境界.]]></string>
+    <string name="Large Electrics"><![CDATA[提高电力产出与存储的最好方式就是在飞船上装更大的电池.]]></string>
+    <string name="Electronics"><![CDATA[希望这些东西不要在下个月就报废了.]]></string>
+    <string name="High Altitude Flight"><![CDATA[新型的引擎和进气技术让飞机能在上层大气巡航.]]></string>
+    <string name="Unmanned Tech"><![CDATA[警告: 该技术产物已有少许判断能力.]]></string>
+    <string name="Large Control"><![CDATA[采用了最先进的控制技术. ]]></string>
+    <string name="Advanced MetalWorks"><![CDATA[不久之前这些新型的构建技术还被认为是发疯才会想出来的...虽然现在也是这样.但是现在它们可以被造出来了!]]></string>
+    <string name="Advanced Motors"><![CDATA[车轮技术的发展现在"驶入正轨".甚至可以说我们的工程师在这方面早已"轻车熟路".]]></string>
+    <string name="Hypersonic Flight"><![CDATA[将你的飞机设计推上速度与智力的巅峰.]]></string>
+    <string name="Large Probes"><![CDATA[可以控制大型飞船而不用把宇航员置于险境之中的技术.]]></string>
+    <string name="Specialized Electrics"><![CDATA[不管是从字面上理解还是从隐喻上解释,感受这最新电子科技的"温暖"吧!实际上还是避免直接接触为妙.]]></string>
+    <string name="Advanced Unmanned Tech"><![CDATA[升级后的远程控制科技引领了新一代的探测器设计理念.]]></string>
+    <string name="Advanced Science Tech"><![CDATA[科学的进步让我们使用更先进的技术来探索科学.]]></string>
+    <string name="Advanced Aerodynamics"><![CDATA[流体力学研究的进展促进了飞机组件的开发.包括这里的这些部件.]]></string>
+    <string name="Experimental Rocketry"><![CDATA[不要小看"试验性"这三个字. ]]></string>
+    <string name="Aerospace Tech"><![CDATA[绝对尖端的空气动力学技术.顾名思义,这里的某些部件十分锋利.请小心处理.]]></string>
+    <string name="Experimental Electrics"><![CDATA[应用了电气系统的最新科技.我们的工程师们正在兴奋地谈论着它.这些设备好像在黑暗中还能发出光芒.太神奇了!]]></string>
+    <string name="Experimental Aerodynamics"><![CDATA[大气层内的飞行技术已经达到史无前例的高度.可以称得上名副其实的"起飞"了.]]></string>
+    <string name="Experimental Science"><![CDATA[探索在存在于科幻小说中的科学领域. ]]></string>
+    <string name="Experimental Motors"><![CDATA[最新的研究突破使得电动机技术"向前"迈进了一大步,同时也可以"倒退",甚至到了可以"转弯"的地步了.]]></string>
+    <string name="Robotics"><![CDATA[关于"由机器人引领的世界"的传闻其实是很夸张的.]]></string>
+    <string name="Automation"><![CDATA[实在想不出方方面面都由试验性AI操纵的太空任务能出什么岔子.]]></string>
+    <string name="Nanolathing"><![CDATA[构建技术领域的超新星科技.]]></string>
+ 
+  </Item>
+
+</Items>

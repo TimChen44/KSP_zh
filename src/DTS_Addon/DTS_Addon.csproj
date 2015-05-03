@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7E05DC0C-7DA6-4691-B258-109AB54617F9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DTS_Addon</RootNamespace>
+    <AssemblyName>DTS_Addon</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'x64|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'x32|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x32\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Steam\SteamApps\common\Kerbal Space Program\KSP_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Steam\SteamApps\common\Kerbal Space Program\KSP_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Steam\SteamApps\common\Kerbal Space Program\KSP_Data\Managed\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Steam\SteamApps\common\Kerbal Space Program\KSP_Data\Managed\System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Steam\SteamApps\common\Kerbal Space Program\KSP_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="SuperTool\ConfigTest.cs" />
+    <Compile Include="Scene\xEveryScene.cs" />
+    <Compile Include="Scene\xTrackingStation.cs" />
+    <Compile Include="Scene\xSpaceCentre.cs" />
+    <Compile Include="Scene\xSettings.cs" />
+    <Compile Include="Scene\xPSystemSpawn.cs" />
+    <Compile Include="Scene\xMainMenu.cs" />
+    <Compile Include="Scene\xInstantly.cs" />
+    <Compile Include="Scene\xFlight.cs" />
+    <Compile Include="Scene\xEditorVAB.cs" />
+    <Compile Include="Scene\xEditorSPH.cs" />
+    <Compile Include="Scene\xEditorAny.cs" />
+    <Compile Include="Scene\xCredits.cs" />
+    <Compile Include="SuperTool\SuperTools.cs" />
+    <Compile Include="SuperTool\Tools.cs" />
+    <Compile Include="VegaTextureReplacer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="xConfig.cs" />
+    <Compile Include="xItem.cs" />
+    <Compile Include="xImage.cs" />
+    <Compile Include="xLoading.cs" />
+    <Compile Include="xMenu.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DTS_zh\DTS_zh.csproj">
+      <Project>{71de13ea-3237-47e3-bfe7-7b12ad946d73}</Project>
+      <Name>DTS_zh</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\release\gamedata\dts_zh\cnfont\cn10.fnt.unity3d">
+      <Link>DTS_zh\cnfont\cn10.fnt.unity3d</Link>
+    </None>
+    <None Include="..\..\release\gamedata\dts_zh\cnfont\cn12.fnt.unity3d">
+      <Link>DTS_zh\cnfont\cn12.fnt.unity3d</Link>
+    </None>
+    <None Include="..\..\release\gamedata\dts_zh\cnfont\cn14.fnt.unity3d">
+      <Link>DTS_zh\cnfont\cn14.fnt.unity3d</Link>
+    </None>
+    <None Include="..\..\release\gamedata\dts_zh\cnfont\cn14b.fnt.unity3d">
+      <Link>DTS_zh\cnfont\cn14b.fnt.unity3d</Link>
+    </None>
+    <None Include="..\..\release\gamedata\dts_zh\cnfont\cn16.fnt.unity3d">
+      <Link>DTS_zh\cnfont\cn16.fnt.unity3d</Link>
+    </None>
+    <None Include="..\..\release\gamedata\dts_zh\cnfont\cn16b.fnt.unity3d">
+      <Link>DTS_zh\cnfont\cn16b.fnt.unity3d</Link>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\..\release\gamedata\dts_zh\cnfont\cn10.png">
+      <Link>DTS_zh\cnfont\cn10.png</Link>
+    </Content>
+    <Content Include="..\..\release\gamedata\dts_zh\cnfont\cn12.png">
+      <Link>DTS_zh\cnfont\cn12.png</Link>
+    </Content>
+    <Content Include="..\..\release\gamedata\dts_zh\cnfont\cn14.png">
+      <Link>DTS_zh\cnfont\cn14.png</Link>
+    </Content>
+    <Content Include="..\..\release\gamedata\dts_zh\cnfont\cn14b.png">
+      <Link>DTS_zh\cnfont\cn14b.png</Link>
+    </Content>
+    <Content Include="..\..\release\gamedata\dts_zh\cnfont\cn16.png">
+      <Link>DTS_zh\cnfont\cn16.png</Link>
+    </Content>
+    <Content Include="..\..\release\gamedata\dts_zh\cnfont\cn16b.png">
+      <Link>DTS_zh\cnfont\cn16b.png</Link>
+    </Content>
+    <Content Include="..\..\release\gamedata\dts_zh\en.xml">
+      <Link>DTS_zh\en.xml</Link>
+    </Content>
+    <Content Include="..\..\release\gamedata\dts_zh\image\Buttons_TimeMode_StateMap.png">
+      <Link>DTS_zh\Image\Buttons_TimeMode_StateMap.png</Link>
+    </Content>
+    <Content Include="..\..\release\gamedata\dts_zh\image\EditorAtlas.png">
+      <Link>DTS_zh\Image\EditorAtlas.png</Link>
+    </Content>
+    <Content Include="..\..\release\gamedata\dts_zh\image\EditorButtons_stageReset.png">
+      <Link>DTS_zh\Image\EditorButtons_stageReset.png</Link>
+    </Content>
+    <Content Include="..\..\release\gamedata\dts_zh\image\flightUI_linearQuadrantFrame_bg.png">
+      <Link>DTS_zh\Image\flightUI_linearQuadrantFrame_bg.png</Link>
+    </Content>
+    <Content Include="..\..\release\gamedata\dts_zh\image\FlightUI_RotQuadrant.png">
+      <Link>DTS_zh\Image\FlightUI_RotQuadrant.png</Link>
+    </Content>
+    <Content Include="..\..\release\gamedata\dts_zh\image\FlightUI_RotQuadrant_bg.png">
+      <Link>DTS_zh\Image\FlightUI_RotQuadrant_bg.png</Link>
+    </Content>
+    <Content Include="..\..\release\gamedata\dts_zh\image\Gauge_Atmos.png">
+      <Link>DTS_zh\Image\Gauge_Atmos.png</Link>
+    </Content>
+    <Content Include="..\..\release\gamedata\dts_zh\image\Gauge_Gee.png">
+      <Link>DTS_zh\Image\Gauge_Gee.png</Link>
+    </Content>
+    <Content Include="..\..\release\gamedata\dts_zh\image\Gauge_Throttle.png">
+      <Link>DTS_zh\Image\Gauge_Throttle.png</Link>
+    </Content>
+    <Content Include="..\..\release\gamedata\dts_zh\image\gauge_Vs.png">
+      <Link>DTS_zh\Image\gauge_Vs.png</Link>
+    </Content>
+    <Content Include="..\..\release\gamedata\dts_zh\image\GUI_TimeQuadrant.png">
+      <Link>DTS_zh\Image\GUI_TimeQuadrant.png</Link>
+    </Content>
+    <Content Include="..\..\release\gamedata\dts_zh\image\LED_lin_off.png">
+      <Link>DTS_zh\Image\LED_lin_off.png</Link>
+    </Content>
+    <Content Include="..\..\release\gamedata\dts_zh\image\LED_lin_on.png">
+      <Link>DTS_zh\Image\LED_lin_on.png</Link>
+    </Content>
+    <Content Include="..\..\release\gamedata\dts_zh\image\LED_rot_off.png">
+      <Link>DTS_zh\Image\LED_rot_off.png</Link>
+    </Content>
+    <Content Include="..\..\release\gamedata\dts_zh\image\LED_rot_on.png">
+      <Link>DTS_zh\Image\LED_rot_on.png</Link>
+    </Content>
+    <Content Include="..\..\release\gamedata\dts_zh\image\navBall_headingPane.png">
+      <Link>DTS_zh\Image\navBall_headingPane.png</Link>
+    </Content>
+    <Content Include="..\..\release\gamedata\dts_zh\image\RecoveryButton.png">
+      <Link>DTS_zh\Image\RecoveryButton.png</Link>
+    </Content>
+    <Content Include="..\..\release\gamedata\dts_zh\image\ResearchAndDevelopment.png">
+      <Link>DTS_zh\Image\ResearchAndDevelopment.png</Link>
+    </Content>
+    <Content Include="..\..\release\gamedata\dts_zh\image\StagingQuadrant_bg.png">
+      <Link>DTS_zh\Image\StagingQuadrant_bg.png</Link>
+    </Content>
+    <Content Include="..\..\release\gamedata\dts_zh\image\StagingQuadrant_Frame.png">
+      <Link>DTS_zh\Image\StagingQuadrant_Frame.png</Link>
+    </Content>
+    <Content Include="..\..\release\gamedata\dts_zh\image\VesselSpawnDialog.png">
+      <Link>DTS_zh\Image\VesselSpawnDialog.png</Link>
+    </Content>
+    <Content Include="..\..\release\gamedata\dts_zh\zh.xml">
+      <Link>DTS_zh\zh.xml</Link>
+    </Content>
+    <Content Include="..\..\release\gamedata\dts_zh\zhConfig.xml">
+      <Link>DTS_zh\zhConfig.xml</Link>
+    </Content>
+    <Content Include="..\..\release\gamedata\dts_zh\zhField.xml">
+      <Link>DTS_zh\zhField.xml</Link>
+    </Content>
+    <Content Include="..\..\release\gamedata\dts_zh\zhImage.xml">
+      <Link>DTS_zh\zhImage.xml</Link>
+    </Content>
+    <Content Include="..\..\release\gamedata\dts_zh\zhItem.xml">
+      <Link>DTS_zh\zhItem.xml</Link>
+    </Content>
+    <Content Include="..\..\release\gamedata\dts_zh\zhLoadingTips.xml">
+      <Link>DTS_zh\zhLoadingTips.xml</Link>
+    </Content>
+    <Content Include="..\..\release\gamedata\dts_zh\zhText.xml">
+      <Link>DTS_zh\zhText.xml</Link>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,1284 @@
+<en>
+<string id="6229"><![CDATA[EVA]]></string>
+<string id="6236"><![CDATA[IVA]]></string>
+<string id="8782"><![CDATA[Training]]></string>
+<string id="8799"><![CDATA[Flight]]></string>
+<string id="8840"><![CDATA[Orbit]]></string>
+<string id="10778"><![CDATA[Normal]]></string>
+<string id="10813"><![CDATA[Disabled]]></string>
+<string id="11183"><![CDATA[True]]></string>
+<string id="11192"><![CDATA[False]]></string>
+<string id="11687"><![CDATA[Unnamed]]></string>
+<string id="12327"><![CDATA[Start]]></string>
+<string id="21415"><![CDATA[Cancel]]></string>
+<string id="28670"><![CDATA[none]]></string>
+<string id="29154"><![CDATA[Default]]></string>
+<string id="34262"><![CDATA[Hatch is obstructed, can't exit.]]></string>
+<string id="34355"><![CDATA[Crew Hatch]]></string>
+<string id="34696"><![CDATA[Plant Flag []]></string>
+<string id="35783"><![CDATA[Landed]]></string>
+<string id="36966"><![CDATA[Experiments you have collected cannot be stored on this ]]></string>
+<string id="37079"><![CDATA[. Are you sure you want to continue?]]></string>
+<string id="37152"><![CDATA[Cannot store Experiments]]></string>
+<string id="37201"><![CDATA[Board Anyway
+(Dump Experiments)]]></string>
+<string id="37585"><![CDATA[]: Grab]]></string>
+<string id="37600"><![CDATA[]: Let go]]></string>
+<string id="37661"><![CDATA[]: Board]]></string>
+<string id="39100"><![CDATA[LaunchPad]]></string>
+<string id="39119"><![CDATA[Runway]]></string>
+<string id="40190"><![CDATA[Untitled Space Craft]]></string>
+<string id="42834"><![CDATA[Select a Ship to load]]></string>
+<string id="43030"><![CDATA[Auto-Saved Ship]]></string>
+<string id="44151"><![CDATA[mk1pod]]></string>
+<string id="44191"><![CDATA[Cannot be the first part on a vessel]]></string>
+<string id="45183"><![CDATA[No description.]]></string>
+<string id="45257"><![CDATA[Save Subassembly]]></string>
+<string id="45290"><![CDATA[Confirm Overwrite]]></string>
+<string id="45325"><![CDATA[Name]]></string>
+<string id="45334"><![CDATA[Description:]]></string>
+<string id="45359"><![CDATA[Save]]></string>
+<string id="45368"><![CDATA[A subassembly named ']]></string>
+<string id="45411"><![CDATA[' already exists! Do you wish to overwrite it?]]></string>
+<string id="45504"><![CDATA[Back]]></string>
+<string id="45513"><![CDATA[Overwrite]]></string>
+<string id="45585"><![CDATA[Confirm Delete]]></string>
+<string id="45614"><![CDATA[Are you sure you wish to delete this subassembly?]]></string>
+<string id="45713"><![CDATA[Delete]]></string>
+<string id="47147"><![CDATA[Vessel ]]></string>
+<string id="48590"><![CDATA[OK]]></string>
+<string id="48595"><![CDATA[Craft Loading Error]]></string>
+<string id="48647"><![CDATA[ was not loaded because
+it had the following parts missing:
+]]></string>
+<string id="48768"><![CDATA[Ok]]></string>
+<string id="50853"><![CDATA[Camera Mode: ]]></string>
+<string id="50880"><![CDATA[Camera: ]]></string>
+<string id="50965"><![CDATA[Mission Aborted]]></string>
+<string id="50996"><![CDATA[Catastrophic Failure!]]></string>
+<string id="51039"><![CDATA[Success!!]]></string>
+<string id="51058"><![CDATA[Successful Failure]]></string>
+<string id="51134"><![CDATA[Total Mission Time: 
+	]]></string>
+<string id="51206"><![CDATA[ Hours, ]]></string>
+<string id="51223"><![CDATA[ Mins, ]]></string>
+<string id="51238"><![CDATA[ Secs.
+]]></string>
+<string id="51253"><![CDATA[Highest Altitude Achieved:
+	]]></string>
+<string id="51320"><![CDATA[Highest Speed Achieved:
+	]]></string>
+<string id="51380"><![CDATA[Highest Speed Over Land:
+	]]></string>
+<string id="51433"><![CDATA[Ground Distance Covered:
+	]]></string>
+<string id="51486"><![CDATA[Total Distance Traveled:
+	]]></string>
+<string id="51539"><![CDATA[Most Gee Force Endured:
+	]]></string>
+<string id="51595"><![CDATA[Structural failure on linkage between ]]></string>
+<string id="51672"><![CDATA[ and ]]></string>
+<string id="51683"><![CDATA[ crashed into ]]></string>
+<string id="51712"><![CDATA[ splashed down hard and was destroyed.]]></string>
+<string id="51789"><![CDATA[ collided into ]]></string>
+<string id="51820"><![CDATA[ exploded due to overheating.]]></string>
+<string id="51879"><![CDATA[Separation of stage ]]></string>
+<string id="51920"><![CDATA[ confirmed]]></string>
+<string id="51941"><![CDATA[ from ]]></string>
+<string id="51954"><![CDATA[ went on EVA.]]></string>
+<string id="51981"><![CDATA[ went on EVA from out of nowhere.]]></string>
+<string id="52093"><![CDATA[ was killed.]]></string>
+<string id="52118"><![CDATA[ boarded ]]></string>
+<string id="52137"><![CDATA[Liftoff!!]]></string>
+<string id="52156"><![CDATA[ has undocked from ]]></string>
+<string id="52195"><![CDATA[ was damaged by engine exhaust from ]]></string>
+<string id="52369"><![CDATA[Enabled]]></string>
+<string id="56537"><![CDATA[Vessel Loading Error]]></string>
+<string id="56744"><![CDATA[Standing by to launch]]></string>
+<string id="56787"><![CDATA[In flight]]></string>
+<string id="56806"><![CDATA[Landed at ]]></string>
+<string id="56827"><![CDATA[Orbiting ]]></string>
+<string id="56846"><![CDATA[Splashed down]]></string>
+<string id="56873"><![CDATA[On sub-orbital trajectory]]></string>
+<string id="56924"><![CDATA[On escape trajectory out of ]]></string>
+<string id="56981"><![CDATA[Docked to <something>]]></string>
+<string id="57024"><![CDATA[No situation report available]]></string>
+<string id="57179"><![CDATA[VOLUME]]></string>
+<string id="57192"><![CDATA[Spacecraft: ]]></string>
+<string id="57217"><![CDATA[Ambience: ]]></string>
+<string id="57238"><![CDATA[UI: ]]></string>
+<string id="57247"><![CDATA[Music: ]]></string>
+<string id="57262"><![CDATA[Voices: ]]></string>
+<string id="57279"><![CDATA[SOUND NORMALIZER]]></string>
+<string id="57312"><![CDATA[Normalizer]]></string>
+<string id="57333"><![CDATA[Threshold]]></string>
+<string id="57352"><![CDATA[Responsiveness]]></string>
+<string id="57381"><![CDATA[Audio Volume]]></string>
+<string id="57406"><![CDATA[Audio]]></string>
+<string id="57898"><![CDATA[KSP Game Settings]]></string>
+<string id="58557"><![CDATA[Gameplay]]></string>
+<string id="58574"><![CDATA[Show Vessel Labels]]></string>
+<string id="58611"><![CDATA[Show Space Center Crew]]></string>
+<string id="58656"><![CDATA[Displaying ]]></string>
+<string id="58679"><![CDATA[Kerbin Time (6h days, 426d years)]]></string>
+<string id="58746"><![CDATA[Earth Time (24h days, 365d years)]]></string>
+<string id="58838"><![CDATA[Flight UI Size: ]]></string>
+<string id="59001"><![CDATA[System]]></string>
+<string id="59014"><![CDATA[Check for Game Updates on Startup]]></string>
+<string id="59081"><![CDATA[Show Stats Tracking Dialog on Startup]]></string>
+<string id="59156"><![CDATA[Simulate in Background]]></string>
+<string id="59201"><![CDATA[Don't Show Game Launcher]]></string>
+<string id="59250"><![CDATA[Max Persistent Debris: ]]></string>
+<string id="59297"><![CDATA[Unlimited]]></string>
+<string id="59316"><![CDATA[Max Physics Delta-Time per Frame: ]]></string>
+<string id="59385"><![CDATA[ sec.]]></string>
+<string id="59396"><![CDATA[UI]]></string>
+<string id="59401"><![CDATA[General]]></string>
+<string id="59416"><![CDATA[Tiny]]></string>
+<string id="59425"><![CDATA[Quite Small]]></string>
+<string id="59448"><![CDATA[Small]]></string>
+<string id="59459"><![CDATA[Smallish]]></string>
+<string id="59476"><![CDATA[Medium]]></string>
+<string id="59489"><![CDATA[Largeish]]></string>
+<string id="59506"><![CDATA[Large]]></string>
+<string id="59517"><![CDATA[Quite Large]]></string>
+<string id="59540"><![CDATA[Huge]]></string>
+<string id="59549"><![CDATA[Joystick Names:]]></string>
+<string id="59580"><![CDATA[Joystick ]]></string>
+<string id="59599"><![CDATA[CONTROL MAPPING]]></string>
+<string id="59643"><![CDATA[Kerbals]]></string>
+<string id="59667"><![CDATA[Other]]></string>
+<string id="59678"><![CDATA[Key/Button Bindings]]></string>
+<string id="59717"><![CDATA[Rotation]]></string>
+<string id="59734"><![CDATA[Pitch Down]]></string>
+<string id="59755"><![CDATA[Pitch Up]]></string>
+<string id="59772"><![CDATA[Yaw Left]]></string>
+<string id="59789"><![CDATA[Yaw Right]]></string>
+<string id="59808"><![CDATA[Roll Left]]></string>
+<string id="59827"><![CDATA[Roll Right]]></string>
+<string id="59848"><![CDATA[Translation]]></string>
+<string id="59871"><![CDATA[Translate Up]]></string>
+<string id="59896"><![CDATA[Translate Down]]></string>
+<string id="59925"><![CDATA[Translate Left]]></string>
+<string id="59954"><![CDATA[Translate Right]]></string>
+<string id="59985"><![CDATA[Translate Forward]]></string>
+<string id="60020"><![CDATA[Translate Backward]]></string>
+<string id="60057"><![CDATA[Throttle]]></string>
+<string id="60074"><![CDATA[Throttle Up]]></string>
+<string id="60097"><![CDATA[Throttle Down]]></string>
+<string id="60124"><![CDATA[Launch/Stages]]></string>
+<string id="60151"><![CDATA[Switch Translation/Rotation]]></string>
+<string id="60221"><![CDATA[Landing Gear]]></string>
+<string id="60246"><![CDATA[Brakes]]></string>
+<string id="60259"><![CDATA[SAS Hold]]></string>
+<string id="60276"><![CDATA[SAS Toggle]]></string>
+<string id="60297"><![CDATA[RCS Toggle]]></string>
+<string id="60318"><![CDATA[Throttle Cut-off]]></string>
+<string id="60378"><![CDATA[Precision Controls Toggle]]></string>
+<string id="60429"><![CDATA[Lights]]></string>
+<string id="60442"><![CDATA[Emergency abort]]></string>
+<string id="60473"><![CDATA[Custom action 1]]></string>
+<string id="60504"><![CDATA[Custom action 2]]></string>
+<string id="60535"><![CDATA[Custom action 3]]></string>
+<string id="60566"><![CDATA[Custom action 4]]></string>
+<string id="60597"><![CDATA[Custom action 5]]></string>
+<string id="60628"><![CDATA[Custom action 6]]></string>
+<string id="60659"><![CDATA[Custom action 7]]></string>
+<string id="60690"><![CDATA[Custom action 8]]></string>
+<string id="60721"><![CDATA[Custom action 9]]></string>
+<string id="60752"><![CDATA[Custom action 10]]></string>
+<string id="60798"><![CDATA[Steer Left]]></string>
+<string id="60819"><![CDATA[Steer Right]]></string>
+<string id="60890"><![CDATA[Character Controls]]></string>
+<string id="60927"><![CDATA[Move Forward]]></string>
+<string id="60952"><![CDATA[Move Back]]></string>
+<string id="60971"><![CDATA[Move Left]]></string>
+<string id="60990"><![CDATA[Move Right]]></string>
+<string id="61011"><![CDATA[Turn Left]]></string>
+<string id="61030"><![CDATA[Turn Right]]></string>
+<string id="61051"><![CDATA[EVAPack Forward]]></string>
+<string id="61082"><![CDATA[EVAPack Back]]></string>
+<string id="61107"><![CDATA[EVAPack Left]]></string>
+<string id="61132"><![CDATA[EVAPack Right]]></string>
+<string id="61159"><![CDATA[EVAPack Up]]></string>
+<string id="61180"><![CDATA[EVAPack Down]]></string>
+<string id="61205"><![CDATA[Jump]]></string>
+<string id="61214"><![CDATA[Run]]></string>
+<string id="61221"><![CDATA[Use/Grab]]></string>
+<string id="61249"><![CDATA[Toggle EVAPack]]></string>
+<string id="61278"><![CDATA[Toggle Movement Mode]]></string>
+<string id="61319"><![CDATA[Orient to View]]></string>
+<string id="61348"><![CDATA[Toggle Lights]]></string>
+<string id="61375"><![CDATA[Orbital Map View]]></string>
+<string id="61408"><![CDATA[Increase Time Warp]]></string>
+<string id="61445"><![CDATA[Decrease Time Warp]]></string>
+<string id="61482"><![CDATA[Focus Next Vessel]]></string>
+<string id="61517"><![CDATA[Focus Prev Vessel]]></string>
+<string id="61552"><![CDATA[Take Screenshot]]></string>
+<string id="61583"><![CDATA[Pause]]></string>
+<string id="61594"><![CDATA[Quicksave]]></string>
+<string id="61613"><![CDATA[Quickload]]></string>
+<string id="61632"><![CDATA[Camera]]></string>
+<string id="61645"><![CDATA[Camera Mode]]></string>
+<string id="61668"><![CDATA[Camera Next]]></string>
+<string id="61691"><![CDATA[Camera Reset]]></string>
+<string id="61716"><![CDATA[Zoom In]]></string>
+<string id="61731"><![CDATA[Zoom Out]]></string>
+<string id="61748"><![CDATA[View Up]]></string>
+<string id="61763"><![CDATA[View Down]]></string>
+<string id="61782"><![CDATA[View Left]]></string>
+<string id="61801"><![CDATA[View Right]]></string>
+<string id="61835"><![CDATA[Scroll View Up]]></string>
+<string id="61864"><![CDATA[Scroll View Down]]></string>
+<string id="61897"><![CDATA[Pitch Part Down]]></string>
+<string id="61928"><![CDATA[Pitch Part Up]]></string>
+<string id="61955"><![CDATA[Yaw Part Left]]></string>
+<string id="61982"><![CDATA[Yaw Part Right]]></string>
+<string id="62011"><![CDATA[Roll Part Left]]></string>
+<string id="62040"><![CDATA[Roll Part Right]]></string>
+<string id="62071"><![CDATA[Reset Part Rotation]]></string>
+<string id="62360"><![CDATA[Show/Hide Flight UI]]></string>
+<string id="62399"><![CDATA[Scroll Icons Up]]></string>
+<string id="62430"><![CDATA[Scroll Icons Down]]></string>
+<string id="62465"><![CDATA[Show/Hide Vessel Labels]]></string>
+<string id="62512"><![CDATA[Show/Hide Flight Log]]></string>
+<string id="62692"><![CDATA[Axis Bindings]]></string>
+<string id="62719"><![CDATA[Pitch Axis]]></string>
+<string id="62740"><![CDATA[Roll Axis]]></string>
+<string id="62759"><![CDATA[Yaw Axis]]></string>
+<string id="62776"><![CDATA[Translate Left/Right]]></string>
+<string id="62817"><![CDATA[Translate Up/Down]]></string>
+<string id="62852"><![CDATA[Translate Forward/Back]]></string>
+<string id="62897"><![CDATA[Throttle Axis]]></string>
+<string id="62924"><![CDATA[Throttle (Incremental)]]></string>
+<string id="62969"><![CDATA[Steering Axis]]></string>
+<string id="62996"><![CDATA[Character]]></string>
+<string id="63015"><![CDATA[Pitch (Analogue)]]></string>
+<string id="63048"><![CDATA[Yaw   (Analogue)]]></string>
+<string id="63081"><![CDATA[Roll  (Analogue)]]></string>
+<string id="63114"><![CDATA[Camera Horizontal]]></string>
+<string id="63149"><![CDATA[Camera Vertical]]></string>
+<string id="63180"><![CDATA[Other Control Settings and Device Options]]></string>
+<string id="63263"><![CDATA[Other Settings]]></string>
+<string id="63292"><![CDATA[EVAs Auto-Rotate to Camera]]></string>
+<string id="63345"><![CDATA[Mouse Wheel Sensitivity: ]]></string>
+<string id="63550"><![CDATA[Space Center]]></string>
+<string id="63575"><![CDATA[Tracking Station]]></string>
+<string id="63623"><![CDATA[6-DOF Device:]]></string>
+<string id="63650"><![CDATA[A 6-DOF Input Device is a hardware controller that allows manipulating objects and views in 3D applications.
+
+Currently, this is only supported on the Windows version of KSP.]]></string>
+<string id="64000"><![CDATA[Toggle Camera/Flight Control]]></string>
+<string id="64057"><![CDATA[Lock/Unlock Roll Axis]]></string>
+<string id="64100"><![CDATA[6-DOF Camera Control:]]></string>
+<string id="64143"><![CDATA[<b>Pitch, Yaw and Roll</b>]]></string>
+<string id="64196"><![CDATA[Sensitivity: ]]></string>
+<string id="64223"><![CDATA[Slow]]></string>
+<string id="64232"><![CDATA[Fast]]></string>
+<string id="64241"><![CDATA[Sharpness: ]]></string>
+<string id="64264"><![CDATA[Smooth]]></string>
+<string id="64277"><![CDATA[Precise]]></string>
+<string id="64292"><![CDATA[<b>XYZ Translation</b>]]></string>
+<string id="64337"><![CDATA[6-DOF Flight Control:]]></string>
+<string id="64681"><![CDATA[Staging]]></string>
+<string id="64776"><![CDATA[Clear Assignment]]></string>
+<string id="64809"><![CDATA[Accept]]></string>
+<string id="64839"><![CDATA[Invert]]></string>
+<string id="64852"><![CDATA[Sensitivity ]]></string>
+<string id="64877"><![CDATA[Dead Zone ]]></string>
+<string id="66748"><![CDATA[Input]]></string>
+<string id="66858"><![CDATA[Close]]></string>
+<string id="66869"><![CDATA[Settings]]></string>
+<string id="66972"><![CDATA[Apply]]></string>
+<string id="66983"><![CDATA[0ff]]></string>
+<string id="66990"><![CDATA[2x]]></string>
+<string id="66995"><![CDATA[4x]]></string>
+<string id="67000"><![CDATA[8x]]></string>
+<string id="67005"><![CDATA[Eighth Res]]></string>
+<string id="67026"><![CDATA[Quarter Res]]></string>
+<string id="67049"><![CDATA[Half Res]]></string>
+<string id="67066"><![CDATA[Full Res]]></string>
+<string id="67083"><![CDATA[Don't Sync]]></string>
+<string id="67104"><![CDATA[Every VBlank]]></string>
+<string id="67129"><![CDATA[Every Second VBlank]]></string>
+<string id="67168"><![CDATA[60 FPS]]></string>
+<string id="67181"><![CDATA[80 FPS]]></string>
+<string id="67194"><![CDATA[100 FPS]]></string>
+<string id="67209"><![CDATA[120 FPS]]></string>
+<string id="67224"><![CDATA[140 FPS]]></string>
+<string id="67239"><![CDATA[160 FPS]]></string>
+<string id="67254"><![CDATA[180 FPS]]></string>
+<string id="67269"><![CDATA[Minimal]]></string>
+<string id="67284"><![CDATA[Very Low]]></string>
+<string id="67301"><![CDATA[Low]]></string>
+<string id="67308"><![CDATA[ FPS]]></string>
+<string id="67317"><![CDATA[SCENERY]]></string>
+<string id="67332"><![CDATA[Terrain Detail: ]]></string>
+<string id="67365"><![CDATA[SM3 Terrain Shaders: ]]></string>
+<string id="67408"><![CDATA[No Hardware Support]]></string>
+<string id="67484"><![CDATA[Scatter Density: ]]></string>
+<string id="67519"><![CDATA[<size=10><color=yellow>Scenery settings may require a game restart to take effect.</color></size>]]></string>
+<string id="67715"><![CDATA[RENDERING]]></string>
+<string id="67734"><![CDATA[Render Quality Level: ]]></string>
+<string id="67779"><![CDATA[Texture Quality:]]></string>
+<string id="67817"><![CDATA[Fallback part shaders:]]></string>
+<string id="67862"><![CDATA[Aerodynamic FX Quality:]]></string>
+<string id="67983"><![CDATA[VIDEO]]></string>
+<string id="67994"><![CDATA[Screen Resolution:]]></string>
+<string id="68031"><![CDATA[Full Screen:]]></string>
+<string id="68056"><![CDATA[Anti-Aliasing:]]></string>
+<string id="68085"><![CDATA[V Sync:]]></string>
+<string id="68100"><![CDATA[Frame Limit:]]></string>
+<string id="68125"><![CDATA[Pixel Light Count:]]></string>
+<string id="68162"><![CDATA[Shadow Cascades:]]></string>
+<string id="68195"><![CDATA[* Game requires restart for changes to take effect *]]></string>
+<string id="68300"><![CDATA[Video & Graphics]]></string>
+<string id="68333"><![CDATA[Anti-Aliasing:   ]]></string>
+<string id="68368"><![CDATA[Texture Quality: ]]></string>
+<string id="68403"><![CDATA[Pixel Light Count: ]]></string>
+<string id="68442"><![CDATA[Shadow Cascades: ]]></string>
+<string id="68477"><![CDATA[Graphics]]></string>
+<string id="79791"><![CDATA[Loading..]]></string>
+<string id="82477"><![CDATA[Amount: ]]></string>
+<string id="82507"><![CDATA[
+Mass: ]]></string>
+<string id="82550"><![CDATA[
+Dry Mass: ]]></string>
+<string id="87100"><![CDATA[Unknown Mystery Component]]></string>
+<string id="87151"><![CDATA[Found lying by the side of the road]]></string>
+<string id="87222"><![CDATA[Nothing is really known about this thing. Use it at your own risk.]]></string>
+<string id="87720"><![CDATA[Debug Toolbar]]></string>
+<string id="88148"><![CDATA[Hide ]]></string>
+<string id="88159"><![CDATA[Show ]]></string>
+<string id="88281"><![CDATA[Flight Debug Stats]]></string>
+<string id="88349"><![CDATA[Hack Gravity]]></string>
+<string id="88374"><![CDATA[Unhack Gravity]]></string>
+<string id="88403"><![CDATA[Whack A Kerbal]]></string>
+<string id="88432"><![CDATA[Pause on vessel unpack]]></string>
+<string id="88477"><![CDATA[Unbreakable Joints]]></string>
+<string id="88514"><![CDATA[No Crash Damage]]></string>
+<string id="88590"><![CDATA[Infinite Fuel]]></string>
+<string id="88617"><![CDATA[Infinite RCS]]></string>
+<string id="88642"><![CDATA[Infinite EVA Fuel]]></string>
+<string id="91340"><![CDATA[Difficulty Options:]]></string>
+<string id="91379"><![CDATA[Allow Stock Vessels in Career Mode]]></string>
+<string id="91448"><![CDATA[Lost Crews Respawn]]></string>
+<string id="91485"><![CDATA[Allow Revert To Launch]]></string>
+<string id="91530"><![CDATA[Allow Revert to Editor]]></string>
+<string id="91575"><![CDATA[Allow Quickloading]]></string>
+<string id="91612"><![CDATA[Allow Quicksaving]]></string>
+<string id="91647"><![CDATA[Misc:]]></string>
+<string id="91658"><![CDATA[Ignore Agency Mindset on Contracts]]></string>
+<string id="101255"><![CDATA[default]]></string>
+<string id="101362"><![CDATA[Cannot use the map in this scenario.]]></string>
+<string id="102960"><![CDATA[No nearby objects to focus. Use the Map View to select distant ones.]]></string>
+<string id="107144"><![CDATA[Status: ]]></string>
+<string id="107161"><![CDATA[Untracked]]></string>
+<string id="107180"><![CDATA[Signal Strength: ]]></string>
+<string id="107215"><![CDATA[No Signal]]></string>
+<string id="107241"><![CDATA[Size Class: ]]></string>
+<string id="107266"><![CDATA[Name: ]]></string>
+<string id="107279"><![CDATA[Unknown Object]]></string>
+<string id="107331"><![CDATA[No Situation Data]]></string>
+<string id="107366"><![CDATA[Speed: ]]></string>
+<string id="107634"><![CDATA[Very Weak]]></string>
+<string id="107653"><![CDATA[Weak]]></string>
+<string id="107662"><![CDATA[Average]]></string>
+<string id="107677"><![CDATA[Good]]></string>
+<string id="107686"><![CDATA[Strong]]></string>
+<string id="107699"><![CDATA[Class A Objects are the smallest objects we are able to spot. They usually measure no more than a few meters across.]]></string>
+<string id="107933"><![CDATA[Class B Objects are relatively small, usually ranging from 4m to 7m in radius, approximately.]]></string>
+<string id="108121"><![CDATA[Class C Objects are about average-sized. Around the 7-10 meter range in radius, these are certainly not the largest objects out there. They are fairly massive nonetheless.]]></string>
+<string id="108465"><![CDATA[Class D Objects are quite large. Expect them to be no smaller than 12m in radius, and up to 18m. These are very heavy objects to move around.]]></string>
+<string id="108749"><![CDATA[Class E Objects are proper behemoths. No less than 18m in radius, they don't just look heavy, they are in fact far more massive than it would seem.]]></string>
+<string id="109045"><![CDATA[This seems to be a non-standard size class. Who knows what it'll look like?]]></string>
+<string id="109197"><![CDATA[A (Tiny)]]></string>
+<string id="109214"><![CDATA[B (Small)]]></string>
+<string id="109233"><![CDATA[C (Medium)]]></string>
+<string id="109254"><![CDATA[D (Large)]]></string>
+<string id="109273"><![CDATA[E (Huge)]]></string>
+<string id="109297"><![CDATA[Tracking]]></string>
+<string id="109336"><![CDATA[No info]]></string>
+<string id="110499"><![CDATA[Start New Game]]></string>
+<string id="110528"><![CDATA[In Sandbox Mode, all parts and features are available from the start.
+
+You are free to play without any constraints, but R&D and Mission Control are unavailable.]]></string>
+<string id="110852"><![CDATA[In Science Mode, you must gather scientific data to research new technologies.
+
+Funds and Reputation are disabled, and Contracts are not available (previously 'Classic' Career).]]></string>
+<string id="111208"><![CDATA[In Career Mode, you have to manage all aspects of your space program.
+
+Funds, Reputation and Science are all active, and Contracts are available at Mission Control.]]></string>
+<string id="111725"><![CDATA[Player Name:]]></string>
+<string id="111750"><![CDATA[Game Mode:]]></string>
+<string id="111771"><![CDATA[Sandbox]]></string>
+<string id="111786"><![CDATA[Science]]></string>
+<string id="111801"><![CDATA[Career]]></string>
+<string id="111814"><![CDATA[Flag:]]></string>
+<string id="111825"><![CDATA[Start!]]></string>
+<string id="111853"><![CDATA[Do you want to overwrite it?]]></string>
+<string id="111910"><![CDATA[A game with that name already exists]]></string>
+<string id="112038"><![CDATA[No description available.]]></string>
+<string id="112295"><![CDATA[Continue Saved Game]]></string>
+<string id="112334"><![CDATA[Confirmation Needed]]></string>
+<string id="112578"><![CDATA[Not Now]]></string>
+<string id="112655"><![CDATA[No]]></string>
+<string id="112660"><![CDATA[ flight]]></string>
+<string id="112675"><![CDATA[ flights]]></string>
+<string id="112692"><![CDATA[ in progress]]></string>
+<string id="112717"><![CDATA[Year ]]></string>
+<string id="112728"><![CDATA[, Day ]]></string>
+<string id="112879"><![CDATA[Funds: ]]></string>
+<string id="112894"><![CDATA[Science: ]]></string>
+<string id="113075"><![CDATA[Incompatible with this version of KSP.]]></string>
+<string id="113152"><![CDATA[No persistent.sfs file in save folder.]]></string>
+<string id="113229"><![CDATA[Are you sure you want to delete this game?
+You will lose all progress and ships in it.]]></string>
+<string id="113403"><![CDATA[Delete Game]]></string>
+<string id="113426"><![CDATA[Continue]]></string>
+<string id="113443"><![CDATA[Scenarios]]></string>
+<string id="113499"><![CDATA[Select a file to load]]></string>
+<string id="113542"><![CDATA[Restart]]></string>
+<string id="113652"><![CDATA[Cannot Start Game]]></string>
+<string id="113872"><![CDATA[Really Quit?]]></string>
+<string id="117008"><![CDATA[
+Radius: ]]></string>
+<string id="117027"><![CDATA[
+vel: ]]></string>
+<string id="117051"><![CDATA[
+period: ]]></string>
+<string id="117751"><![CDATA[ vel: ]]></string>
+<string id="117846"><![CDATA[Descending Node: ]]></string>
+<string id="117881"><![CDATA[Ascending Node: ]]></string>
+<string id="117914"><![CDATA[Apoapsis: ]]></string>
+<string id="117935"><![CDATA[Periapsis: ]]></string>
+<string id="117958"><![CDATA[Last Seen ]]></string>
+<string id="117979"><![CDATA[ ago.
+]]></string>
+<string id="117992"><![CDATA[Ready to Launch]]></string>
+<string id="118023"><![CDATA[
+Set on ]]></string>
+<string id="118040"><![CDATA[Landed
+]]></string>
+<string id="118055"><![CDATA[At ]]></string>
+<string id="118091"><![CDATA[Vel: ]]></string>
+<string id="118102"><![CDATA[m/s
+Alt: ]]></string>
+<string id="118121"><![CDATA[
+Distance: ]]></string>
+<string id="118154"><![CDATA[Add Maneuver]]></string>
+<string id="118288"><![CDATA[Set as Target]]></string>
+<string id="118315"><![CDATA[Unset Target]]></string>
+<string id="118340"><![CDATA[Switch To]]></string>
+<string id="119025"><![CDATA[Vector Ascending Node]]></string>
+<string id="119068"><![CDATA[Vector Descending Node]]></string>
+<string id="119113"><![CDATA[Vector Intersect 1 Node]]></string>
+<string id="119160"><![CDATA[Vector Intersect 2 Node]]></string>
+<string id="119207"><![CDATA[Intersect 1
+Separation: ]]></string>
+<string id="119256"><![CDATA[km
+T ]]></string>
+<string id="119267"><![CDATA[Target Position at Intersect 1]]></string>
+<string id="119328"><![CDATA[Intersect 2
+Separation: ]]></string>
+<string id="119377"><![CDATA[Target Position at Intersect 2]]></string>
+<string id="119438"><![CDATA[Closest Approach
+Separation: ]]></string>
+<string id="119497"><![CDATA[Target Position at Closest Approach]]></string>
+<string id="119721"><![CDATA[Maneuver #]]></string>
+<string id="119742"><![CDATA[Maneuver
+Delta V: ]]></string>
+<string id="119779"><![CDATA[m/s
+T ]]></string>
+<string id="119792"><![CDATA[ Periapsis: ]]></string>
+<string id="119817"><![CDATA[m
+T ]]></string>
+<string id="119826"><![CDATA[ Apoapsis: ]]></string>
+<string id="119849"><![CDATA[ Escape
+T ]]></string>
+<string id="119870"><![CDATA[ Encounter
+T ]]></string>
+<string id="119897"><![CDATA[
+V: ]]></string>
+<string id="120486"><![CDATA[Focus: ]]></string>
+<string id="123672"><![CDATA[the surface]]></string>
+<string id="125019"><![CDATA[terrain]]></string>
+<string id="125080"><![CDATA[Overheat!]]></string>
+<string id="127821"><![CDATA[Max Length: ]]></string>
+<string id="127853"><![CDATA[<b>Flow Direction: </b>Towards 2nd Point]]></string>
+<string id="128482"><![CDATA[Strength: ]]></string>
+<string id="131014"><![CDATA[Site Name:]]></string>
+<string id="131035"><![CDATA[Name Site]]></string>
+<string id="131054"><![CDATA[Plaque Text:]]></string>
+<string id="131079"><![CDATA[The Plaque on ]]></string>
+<string id="133701"><![CDATA[<b>Output at Full Power:</b>
+]]></string>
+<string id="134054"><![CDATA[<b>Ejection Force: </b>]]></string>
+<string id="134150"><![CDATA[Moving..]]></string>
+<string id="134453"><![CDATA[Fixed]]></string>
+<string id="134464"><![CDATA[Locked]]></string>
+<string id="134585"><![CDATA[Moving...]]></string>
+<string id="134620"><![CDATA[toggle]]></string>
+<string id="134707"><![CDATA[Retract gear]]></string>
+<string id="134732"><![CDATA[Extend gear]]></string>
+<string id="135274"><![CDATA[</i> already stored in this module.</color>]]></string>
+<string id="136104"><![CDATA[Operational]]></string>
+<string id="136127"><![CDATA[Not Enough Crew (]]></string>
+<string id="136162"><![CDATA[Not Enough ]]></string>
+<string id="136226"><![CDATA[Minimum Crew to Operate: ]]></string>
+<string id="136277"><![CDATA[Unmanned
+]]></string>
+<string id="137272"><![CDATA[Transmit All]]></string>
+<string id="137297"><![CDATA[Transmit Re-usable Ones Only]]></string>
+<string id="137354"><![CDATA[Transmit Anyway]]></string>
+<string id="137385"><![CDATA[]: Aborting Transmission...]]></string>
+<string id="137440"><![CDATA[Aborting Transmission...]]></string>
+<string id="137489"><![CDATA[<b>Packet size: </b>]]></string>
+<string id="137543"><![CDATA[<b>Bandwidth: </b>]]></string>
+<string id="137603"><![CDATA[<color=#99ff00ff><b>Requires:</b></color>
+]]></string>
+<string id="137734"><![CDATA[Idle]]></string>
+<string id="138100"><![CDATA[<b>Tracking Speed: </b>]]></string>
+<string id="138147"><![CDATA[
+<b>Panel strength: </b>]]></string>
+<string id="138196"><![CDATA[
+<b><color=orange>Panels cannot be retracted</color></b>]]></string>
+<string id="138396"><![CDATA[Extending..]]></string>
+<string id="138419"><![CDATA[Retracting..]]></string>
+<string id="138444"><![CDATA[Retracted]]></string>
+<string id="138463"><![CDATA[Broken!]]></string>
+<string id="138478"><![CDATA[Panel Broken from Aerodynamic forces!]]></string>
+<string id="138553"><![CDATA[Direct Sunlight]]></string>
+<string id="138584"><![CDATA[Blocked by ]]></string>
+<string id="139931"><![CDATA[ Docking Port]]></string>
+<string id="140269"><![CDATA[Flame-Out!]]></string>
+<string id="140290"><![CDATA[Nominal]]></string>
+<string id="140305"><![CDATA[ deprived]]></string>
+<string id="140764"><![CDATA[Off]]></string>
+<string id="140844"><![CDATA[<b>Max. Thrust: </b>]]></string>
+<string id="141061"><![CDATA[Thrust: </b>]]></string>
+<string id="141196"><![CDATA[<b>Min. Thrust: </b>]]></string>
+<string id="141237"><![CDATA[<b>Engine Isp: </b>]]></string>
+<string id="141276"><![CDATA[ (ASL) - ]]></string>
+<string id="141312"><![CDATA[
+<b><color=#99ff00ff>Propellants:</color></b>
+]]></string>
+<string id="141418"><![CDATA[/sec. Max.
+]]></string>
+<string id="141441"><![CDATA[<b>Flameout under: </b>]]></string>
+<string id="141493"><![CDATA[
+<b><color=orange>Engine cannot be shut down!</color></b>]]></string>
+<string id="141608"><![CDATA[
+<b><color=orange>If shutdown, engine cannot restart.</color></b>]]></string>
+<string id="141790"><![CDATA[Parts]]></string>
+<string id="142246"><![CDATA[
+Generator is always active.]]></string>
+<string id="142303"><![CDATA[
+Generator must be started.]]></string>
+<string id="142520"><![CDATA[Efficiency]]></string>
+<string id="142541"><![CDATA[Activate Generator]]></string>
+<string id="142578"><![CDATA[Shutdown Generator]]></string>
+<string id="142624"><![CDATA[<b>Vectoring Range: </b>]]></string>
+<string id="145192"><![CDATA[<b>Impact Tolerance: </b>]]></string>
+<string id="145487"><![CDATA[Lift Rating: ]]></string>
+<string id="146322"><![CDATA[<b>Stowed Drag: </b>]]></string>
+<string id="146363"><![CDATA[<b>Semi-Deployed Drag: </b>]]></string>
+<string id="146418"><![CDATA[<b>Fully-Deployed Drag: </b>]]></string>
+<string id="146488"><![CDATA[<b>Deployment Altitude: </b>]]></string>
+<string id="146545"><![CDATA[<b>Minimum Air pressure: </b>]]></string>
+<string id="148110"><![CDATA[ (Vac)
+]]></string>
+<string id="148346"><![CDATA[MonoPropellant]]></string>
+<string id="148444"><![CDATA[Not enough]]></string>
+<string id="148465"><![CDATA[Not enough ]]></string>
+<string id="148488"><![CDATA[<b>Pitch Torque: </b>]]></string>
+<string id="148531"><![CDATA[<b>Yaw Torque: </b>]]></string>
+<string id="148570"><![CDATA[<b>Roll Torque: </b>]]></string>
+<string id="148649"><![CDATA[<b>Intake Resource: </b>]]></string>
+<string id="148698"><![CDATA[<b>Intake Area: </b>]]></string>
+<string id="148739"><![CDATA[No Oxygen]]></string>
+<string id="148771"><![CDATA[IntakeAir]]></string>
+<string id="149513"><![CDATA[Discard]]></string>
+<string id="149973"><![CDATA[]: All Items Stored.</color>]]></string>
+<string id="150030"><![CDATA[]: Not all items could be stored.</color>]]></string>
+<string id="150113"><![CDATA[]: Nothing to Store.</color>]]></string>
+<string id="150170"><![CDATA[]: All Items Collected.</color>]]></string>
+<string id="150233"><![CDATA[]: Not all items could be collected.</color>]]></string>
+<string id="150322"><![CDATA[]: Nothing to Collect.</color>]]></string>
+<string id="150420"><![CDATA[ has no data container.</color>]]></string>
+<string id="150483"><![CDATA[</i> Added (]]></string>
+<string id="150529"><![CDATA[</i> Added.</color>]]></string>
+<string id="150568"><![CDATA[]: Cannot Add <i>]]></string>
+<string id="150603"><![CDATA[</i>. Storage capacity exceeded. (]]></string>
+<string id="150699"><![CDATA[ Removed.</color>]]></string>
+<string id="150734"><![CDATA[Sending data to vessel comms. ]]></string>
+<string id="150795"><![CDATA[ devices to choose from. Will try to pick the best one]]></string>
+<string id="150904"><![CDATA[No Comms Devices on this vessel. Cannot Transmit Data.]]></string>
+<string id="151013"><![CDATA[Sending data to vessel labs. ]]></string>
+<string id="151072"><![CDATA[ modules to choose from. Will try to pick the best one]]></string>
+<string id="151181"><![CDATA[No Operational Lab Modules on this vessel. Cannot Analyze Data.]]></string>
+<string id="151308"><![CDATA[Review Stored Data]]></string>
+<string id="151345"><![CDATA[Store Data]]></string>
+<string id="151366"><![CDATA[Take Data]]></string>
+<string id="153161"><![CDATA[Reset Experiment]]></string>
+<string id="155396"><![CDATA[AutomaticSteer]]></string>
+<string id="155598"><![CDATA[To perform the test, activate the part through the staging sequence when all test conditions are met.]]></string>
+<string id="155802"><![CDATA[To perform the test, use the [Run Test] option in the part's context menu when all test conditions are met.]]></string>
+<string id="156361"><![CDATA[<b>Control type:</b> ]]></string>
+<string id="156404"><![CDATA[<b>Maximum Speed: </b>]]></string>
+<string id="156460"><![CDATA[<b>Equipped with built in motor</b>
+]]></string>
+<string id="159335"><![CDATA[
+Thrust Vectoring: ]]></string>
+<string id="159374"><![CDATA[Yes
+Gimbal Range: ]]></string>
+<string id="159411"><![CDATA[
+Maximum Thrust: ]]></string>
+<string id="159446"><![CDATA[
+Optimal Airflow: ]]></string>
+<string id="159483"><![CDATA[
+Intake Size: ]]></string>
+<string id="159512"><![CDATA[
+Intake Power: ]]></string>
+<string id="159589"><![CDATA[SAS force]]></string>
+<string id="159608"><![CDATA[Max SAS Torque: ]]></string>
+<string id="159641"><![CDATA[
+Crew Capacity: ]]></string>
+<string id="159674"><![CDATA[
+Ejection Force: ]]></string>
+<string id="160393"><![CDATA[<b>Flow Direction: </b>Automatic]]></string>
+<string id="160458"><![CDATA[<b>Flow Direction: </b>Towards 1st Point]]></string>
+<string id="160603"><![CDATA[Capacity: ]]></string>
+<string id="160843"><![CDATA[Deployed Drag: ]]></string>
+<string id="162041"><![CDATA[Max Torque: ]]></string>
+<string id="179382"><![CDATA[ not clear]]></string>
+<string id="179403"><![CDATA[ is already on the ]]></string>
+<string id="179442"><![CDATA[Clear the ]]></string>
+<string id="179463"><![CDATA[ and proceed
+(Recover ]]></string>
+<string id="179508"><![CDATA[Abort the launch]]></string>
+<string id="179744"><![CDATA[Warning: No Control!]]></string>
+<string id="179785"><![CDATA[Launch anyway]]></string>
+<string id="179812"><![CDATA[No Control Sources]]></string>
+<string id="179866"><![CDATA[None of the seats in this vessel are crewed. It won't be controllable.]]></string>
+<string id="180008"><![CDATA[Warning: No Crew!]]></string>
+<string id="180043"><![CDATA[No Crewed Parts]]></string>
+<string id="190085"><![CDATA[<b><#DB8310>Agent:</> ]]></string>
+<string id="190161"><![CDATA[<b><#DB8310>Description:</></><br><br>]]></string>
+<string id="190261"><![CDATA[<b><#DB8310>Mentality:</></><br><br>]]></string>
+<string id="192254"><![CDATA[Commercial]]></string>
+<string id="192275"><![CDATA[Shorter deadlines and expiry, but larger cash rewards.]]></string>
+<string id="192384"><![CDATA[Smaller reputation gains for completion and failure.]]></string>
+<string id="192489"><![CDATA[Rewards eco-friendly behaviour.]]></string>
+<string id="192552"><![CDATA[Larger cash rewards but lower reputation gains.]]></string>
+<string id="192647"><![CDATA[Have this completed by yesterday! Shorter deadlines but higher reputation gains.]]></string>
+<string id="192809"><![CDATA[Awards industrial behaviour.]]></string>
+<string id="192866"><![CDATA[One for all and all for one.]]></string>
+<string id="192923"><![CDATA[Reduced funding but increased reputation.]]></string>
+<string id="193006"><![CDATA[Relaxed deadlines but lower reputation gains.]]></string>
+<string id="193097"><![CDATA[Perfection is more than a state of mind.]]></string>
+<string id="193178"><![CDATA[Pushing the limits of Kerbalkind.]]></string>
+<string id="193245"><![CDATA[Rewards contracts which break records for kerbalkind.]]></string>
+<string id="193365"><![CDATA[For science!]]></string>
+<string id="193390"><![CDATA[Scientific]]></string>
+<string id="193411"><![CDATA[Shorter deadlines and expiry, and also smaller cash rewards.]]></string>
+<string id="193532"><![CDATA[Larger reputation gains for completion but also larger reputation penalties for failure.]]></string>
+<string id="195024"><![CDATA[<#B4D455>£]]></string>
+<string id="195056"><![CDATA[<#6DCFF6>©]]></string>
+<string id="195077"><![CDATA[<#E0D503>¡]]></string>
+<string id="195184"><![CDATA[Completion Rewards]]></string>
+<string id="195226"><![CDATA[>£ -]]></string>
+<string id="195244"><![CDATA[>¡ -]]></string>
+<string id="195384"><![CDATA[Briefing:]]></string>
+<string id="195422"><![CDATA[Prestige]]></string>
+<string id="195439"><![CDATA[Expires]]></string>
+<string id="195471"><![CDATA[Duration]]></string>
+<string id="195488"><![CDATA[Accepted]]></string>
+<string id="195505"><![CDATA[Objectives:]]></string>
+<string id="195528"><![CDATA[Rewards:]]></string>
+<string id="195558"><![CDATA[<#B4D455>£-]]></string>
+<string id="195581"><![CDATA[<#E0D503>¡-]]></string>
+<string id="195604"><![CDATA[Advance   ]]></string>
+<string id="195625"><![CDATA[Completion]]></string>
+<string id="195646"><![CDATA[Failure   ]]></string>
+<string id="195695"><![CDATA[Completion:</></> ]]></string>
+<string id="195732"><![CDATA[Failure:   </></> ]]></string>
+<string id="195790"><![CDATA[Contract Complete]]></string>
+<string id="195825"><![CDATA[Contract Deadline Expired]]></string>
+<string id="195876"><![CDATA[Contract Failed]]></string>
+<string id="197030"><![CDATA[Alt: ]]></string>
+<string id="197041"><![CDATA[m to ]]></string>
+<string id="197141"><![CDATA[Launch Site]]></string>
+<string id="197164"><![CDATA[Flying]]></string>
+<string id="197177"><![CDATA[Sub-orbital trajectory]]></string>
+<string id="197222"><![CDATA[Escape trajectory]]></string>
+<string id="197257"><![CDATA[Spd: ]]></string>
+<string id="197268"><![CDATA[m/s to ]]></string>
+<string id="197468"><![CDATA[Transmit or Recover scientific data from space around ]]></string>
+<string id="197577"><![CDATA[Transmit or Recover scientific data from the surface of ]]></string>
+<string id="197716"><![CDATA[Achieve orbit around ]]></string>
+<string id="197759"><![CDATA[Enter SOI of ]]></string>
+<string id="197786"><![CDATA[Kill no more than ]]></string>
+<string id="197823"><![CDATA[ kerbals]]></string>
+<string id="197840"><![CDATA[Kill no kerbals]]></string>
+<string id="197888"><![CDATA[Land on ]]></string>
+<string id="197905"><![CDATA[Test ]]></string>
+<string id="199533"><![CDATA[We want you to send us science data from space around ]]></string>
+<string id="199642"><![CDATA[We want you to to send us science data from the surface of ]]></string>
+<string id="199761"><![CDATA[Science data from space around ]]></string>
+<string id="199824"><![CDATA[Science data from surface of ]]></string>
+<string id="199883"><![CDATA[We've just received experimental data from space around ]]></string>
+<string id="199996"><![CDATA[! Good work.]]></string>
+<string id="200021"><![CDATA[We've just received experimental data from the surface of ]]></string>
+<string id="200138"><![CDATA[! Excellent.]]></string>
+<string id="200178"><![CDATA[Explore ]]></string>
+<string id="200195"><![CDATA[You have successfully explored ]]></string>
+<string id="201321"><![CDATA[We want you to test the ]]></string>
+<string id="201370"><![CDATA[Test Complete! We got some good data here. Thanks!]]></string>
+<string id="201471"><![CDATA[at the Launch Site]]></string>
+<string id="201508"><![CDATA[in flight over ]]></string>
+<string id="201539"><![CDATA[landed at ]]></string>
+<string id="201560"><![CDATA[orbiting ]]></string>
+<string id="201579"><![CDATA[splashed down at ]]></string>
+<string id="201614"><![CDATA[on a sub-orbital trajectory over ]]></string>
+<string id="201681"><![CDATA[on an escape trajectory out of ]]></string>
+<string id="201744"><![CDATA[orbiting over ]]></string>
+<string id="201773"><![CDATA[splashed down on ]]></string>
+<string id="201808"><![CDATA[on an escape trajectory over ]]></string>
+<string id="202187"><![CDATA[We want you to plant a flag on the surface of ]]></string>
+<string id="202545"><![CDATA[Debris]]></string>
+<string id="202719"><![CDATA[ is now part of the space program crew.]]></string>
+<string id="202868"><![CDATA[Rescue ]]></string>
+<string id="203601"><![CDATA[ is now part of your crew roster, and may be assigned to future missions.]]></string>
+<string id="204479"><![CDATA[The contract to rescue ]]></string>
+<string id="204616"><![CDATA[The deadline on the contract to rescue ]]></string>
+<string id="205989"><![CDATA[Base]]></string>
+<string id="206063"><![CDATA[Station]]></string>
+<string id="231091"><![CDATA[Set altitude record of ]]></string>
+<string id="231271"><![CDATA[Altitude]]></string>
+<string id="239121"><![CDATA[Docking]]></string>
+<string id="256790"><![CDATA[Area]]></string>
+<string id="269067"><![CDATA[Discard Data]]></string>
+<string id="269092"><![CDATA[Keep Data]]></string>
+<string id="269111"><![CDATA[Transmit Now]]></string>
+<string id="269136"><![CDATA[Send to Lab]]></string>
+<string id="269159"><![CDATA[Next Experiment]]></string>
+<string id="269190"><![CDATA[Previous Experiment]]></string>
+<string id="269367"><![CDATA[Data Size: ]]></string>
+<string id="269401"><![CDATA[<color=orange>Inoperable after Transmitting.</color>]]></string>
+<string id="269581"><![CDATA[Recovery: +]]></string>
+<string id="269604"><![CDATA[ Science]]></string>
+<string id="269628"><![CDATA[ Science</color>]]></string>
+<string id="269661"><![CDATA[Transmit: +]]></string>
+<string id="269684"><![CDATA[Process in Lab Module
+(]]></string>
+<string id="269744"><![CDATA[Transmit Data
+(]]></string>
+<string id="269775"><![CDATA[ Science Value)]]></string>
+<string id="269806"><![CDATA[
+
+Are you sure you want to continue?]]></string>
+<string id="269879"><![CDATA[Transmit Data]]></string>
+<string id="269906"><![CDATA[You have a growing suspicion you're not actually learning anything.]]></string>
+<string id="270042"><![CDATA[It doesn't feel like this is contributing to Science in any meaningful way.]]></string>
+<string id="270194"><![CDATA[With the R&D Facility closed, it's hard to tell what any of this means.]]></string>
+<string id="270338"><![CDATA[You feel there would be a lot more to learn if the R&D Facility were open.]]></string>
+<string id="270488"><![CDATA[Something tells you these are not the results you were looking for.]]></string>
+<string id="270624"><![CDATA[It doesn't seem like there is any scientific value on doing this.]]></string>
+<string id="271481"><![CDATA[[RDTech]: Not enough science to research this node.]]></string>
+<string id="271956"><![CDATA[[RDTech]: Node is already available]]></string>
+<string id="273208"><![CDATA[Recovery of a vessel returned from Kerbin orbit]]></string>
+<string id="273303"><![CDATA[Recovery of a vessel after a sub-orbital flight.]]></string>
+<string id="273400"><![CDATA[Recovery of a vessel that survived a flight.]]></string>
+<string id="273489"><![CDATA[Recovery of a vessel returned from the surface of {0}]]></string>
+<string id="273596"><![CDATA[Recovery of a vessel returned from a flight over {0}]]></string>
+<string id="273701"><![CDATA[Recovery of a vessel returned from a sub-orbital flight on {0}]]></string>
+<string id="273826"><![CDATA[Recovery of a vessel returned from orbit around {0}]]></string>
+<string id="273929"><![CDATA[Recovery of a vessel returned from a fly-by of {0}]]></string>
+<string id="274643"><![CDATA[ Science Added.</color>]]></string>
+<string id="274690"><![CDATA[ Data Acquired]]></string>
+<string id="275753"><![CDATA['s surface]]></string>
+<string id="275774"><![CDATA['s oceans]]></string>
+<string id="275793"><![CDATA[ while flying over ]]></string>
+<string id="275832"><![CDATA[ while flying at ]]></string>
+<string id="275867"><![CDATA[ from the upper atmosphere over ]]></string>
+<string id="275932"><![CDATA['s upper atmosphere]]></string>
+<string id="280694"><![CDATA[Science Summary for <i>]]></string>
+<string id="280750"><![CDATA[Mission Summary for <i>]]></string>
+<string id="280977"><![CDATA[ Parts]]></string>
+<string id="280990"><![CDATA[ Resource]]></string>
+<string id="281009"><![CDATA[ Resources]]></string>
+<string id="281030"><![CDATA[ Recovered]]></string>
+<string id="281051"><![CDATA[ Value:]]></string>
+<string id="281066"><![CDATA[Crew]]></string>
+<string id="281075"><![CDATA[ Experiment]]></string>
+<string id="281098"><![CDATA[ Experiments]]></string>
+<string id="281123"><![CDATA[ Recovered:]]></string>
+<string id="281300"><![CDATA[Next]]></string>
+<string id="281309"><![CDATA[Done]]></string>
+<string id="281318"><![CDATA[ Data Gathered]]></string>
+<string id="281347"><![CDATA[Data Value: ]]></string>
+<string id="281429"><![CDATA[Qty: ]]></string>
+<string id="281440"><![CDATA[Part Value: ]]></string>
+<string id="281465"><![CDATA[ Funds]]></string>
+<string id="281478"><![CDATA[Unit Value: ]]></string>
+<string id="281503"><![CDATA[ Crewmember]]></string>
+<string id="281526"><![CDATA[ Crewmembers]]></string>
+<string id="281576"><![CDATA[Total Reputation: ]]></string>
+<string id="282246"><![CDATA[Km from KSC]]></string>
+<string id="334911"><![CDATA[Vessel Construction]]></string>
+<string id="334969"><![CDATA[Select a command module]]></string>
+<string id="335039"><![CDATA[Well done!]]></string>
+<string id="335077"><![CDATA[Add a fuel tank]]></string>
+<string id="335152"><![CDATA[Rockets!]]></string>
+<string id="335206"><![CDATA[Attach the rocket motor]]></string>
+<string id="335330"><![CDATA[Radial attachments]]></string>
+<string id="335435"><![CDATA[Vehicle dynamics]]></string>
+<string id="335485"><![CDATA[Saving your ship]]></string>
+<string id="335518"><![CDATA[Ready to rock!]]></string>
+<string id="338931"><![CDATA[Not too bad. You might just be getting the hang of this!]]></string>
+<string id="339044"><![CDATA[Hmm. You need to make sure that the fuel tank is connected to the pod.
+
+It will turn green when its in a suitable position.]]></string>
+<string id="339672"><![CDATA[Looking good. You remind me of a younger, less experienced, considerably less famous version of myself.]]></string>
+<string id="339880"><![CDATA[Hmm. You need to make sure that the rocket motor tank is connected to the fuel tank.
+
+It will turn green when its in a suitable position.]]></string>
+<string id="345129"><![CDATA[Welcome]]></string>
+<string id="345144"><![CDATA[basic controls]]></string>
+<string id="345173"><![CDATA[Basic Flight Controls]]></string>
+<string id="345216"><![CDATA[Basic Flight Controls: Pitch]]></string>
+<string id="345273"><![CDATA[Basic Flight Controls: Yaw]]></string>
+<string id="345326"><![CDATA[Basic Flight Controls: Roll]]></string>
+<string id="345381"><![CDATA[basicCtrlsConclude]]></string>
+<string id="345418"><![CDATA[Pitch, Yaw and Roll]]></string>
+<string id="345457"><![CDATA[throttle]]></string>
+<string id="345474"><![CDATA[basicControlsSummary]]></string>
+<string id="345522"><![CDATA[Flight Controls: S.A.S.]]></string>
+<string id="345576"><![CDATA[Flight Controls: RCS]]></string>
+<string id="345647"><![CDATA[The NavBall]]></string>
+<string id="345670"><![CDATA[altimeter]]></string>
+<string id="345689"><![CDATA[Flight Instruments]]></string>
+<string id="345726"><![CDATA[readyToLaunch]]></string>
+<string id="345976"><![CDATA[Welcome to the Kerbal Space Center Launch Facility! I'm ]]></string>
+<string id="347105"><![CDATA[Pitch is the angle of the nose of the ship in relation to the horizon. A positive pitch angle means the nose is pointing upward, while a negative pitch angle means the nose is pointing towards the ground. You control the pitch of your ship through these keys:
+
+[]]></string>
+<string id="347631"><![CDATA[]: Pitch down
+[]]></string>
+<string id="347662"><![CDATA[]: Pitch up
+
+Try it now, and notice the pitch indicator on the lower-left side as it moves.]]></string>
+<string id="347846"><![CDATA[Yaw is the rotation of the ship around it's vertical axis. It is the side-to-side motion of the ship's nose. A positive Yaw angle means the ship's nose is turned to the right, while a negative angle means it's turned to the left. These are the keys that control yaw:
+
+[]]></string>
+<string id="348386"><![CDATA[]: Yaw left
+[]]></string>
+<string id="348413"><![CDATA[]: Yaw Right.
+
+Try it now.]]></string>
+<string id="348466"><![CDATA[Roll is the rotation of the ship around its longitudinal, or front-to-back axis. It is the motion of leaning, or banking, to the left or right. The roll of your ship is controlled through these keys:
+
+[]]></string>
+<string id="348872"><![CDATA[]: Roll left
+[]]></string>
+<string id="348901"><![CDATA[]: Roll Right
+
+Try it now.]]></string>
+<string id="348954"><![CDATA[By controlling Pitch, Yaw and Roll together, you can keep the ship in a controlled, level flight.
+
+Next, let's look at another basic flight control.]]></string>
+<string id="349252"><![CDATA[The Throttle control affects the output power of the ship's engines. More throttle means more thrust, and therefore, more speed and lifting power.
+Note that Throttle will only affect engines that CAN be throttled, like Liquid Engines. Solid Boosters don't have any throttle control, and will burn at top capacity until their fuel runs out.
+
+Holding the ship at full throttle over a long period of time can cause the engines to overheat, and will eventually explode if that heat isn't managed.
+
+Throttle is controlled by the following keys:
+
+[]]></string>
+<string id="350338"><![CDATA[]: Throttle Up
+[]]></string>
+<string id="350480"><![CDATA[Throttle, plus Pitch, Roll and Yaw are the main controls you'll need to master for a successful, crash-free flight.
+Remember that all of these controls have a limited amount of effectiveness, so bigger, heavier ships will probably respond much more sluggishly to the controls than a little small one.
+It's also good to keep in mind that as stages are separated from the ship, it will become lighter and therefore easier to control.
+
+Next, let's look at the rest of the Flight Controls.]]></string>
+<string id="352210"><![CDATA[] key, or toggled by pressing the []]></string>
+<string id="352505"><![CDATA[R.C.S. stands for Reaction Control System. It consists of small thrusters that help control the ship's orientation and translation.
+
+The R.C.S. can be activated by pressing the []]></string>
+<string id="352863"><![CDATA[] Key.
+
+Give it a try, and notice the RCS Led turns on when it's activated.
+
+Mind that for the RCS to do anything, your ship must have RCS thrusters and Monopropellant tanks installed.
+
+R.C.S is particularly useful when you're out in space, as aerodynamic control surfaces tend to not work very well outside the atmosphere.]]></string>
+<string id="353511"><![CDATA[In flight, all the planning you put into the staging sequence of your ship comes into practice.
+
+From launch to the final deployment of the descent parachutes, you can control the activation of several of the ship's parts by activating stages.
+
+[]]></string>
+<string id="355137"><![CDATA[An important part of flying is knowing how your ship is orientated and where it is going.
+A good pilot is always aware of the ship's Attitude, as it's called, and its Velocity Vector.
+
+The big round instrument on the lower center of the screen is called the Nav Ball. This device sums up most of the critical information needed for proper, death-free flight.
+
+Here, you see the ship's nose, in relation to the horizon, as well as its heading (compass bearing) and speed.
+
+You also get several icons that indicate things like your current velocity, but we'll have a look at those later.]]></string>
+<string id="356309"><![CDATA[On the upper part of the screen you have your Altimeter, Vertical Speed and Atmosphere gauges.
+
+The Altimeter will show the distance to the planet's surface at Sea Level. This means the actual surface may be higher up, so watch out for the ground when landing.
+
+Your Vertical Speed gauge shows how fast your altitude is changing. When launching, it's considered best to keep this gauge pointing up.
+
+The Atmosphere gauge indicates how deep the ship is in the planet's atmosphere. This helps you know if the ship is high enough for orbiting without losing speed to air resistance, or judge how effective wings and controls surfaces will be.]]></string>
+<string id="364300"><![CDATA[To The Mun: Part 1]]></string>
+<string id="364358"><![CDATA[Transfer Orbits]]></string>
+<string id="364502"><![CDATA[Orbital Insertion]]></string>
+<string id="364704"><![CDATA[Tutorial complete!]]></string>
+<string id="366057"><![CDATA[ key to go into the Map View, so we can get an overview of Kerbin's local system.]]></string>
+<string id="375146"><![CDATA[You've gone out of the Mun's sphere of influence. Hit the Reset button to try again.]]></string>
+<string id="375640"><![CDATA[Periapsis Altitude: ]]></string>
+<string id="375702"><![CDATA[Apoapsis Altitude: ]]></string>
+<string id="375741"><![CDATA[Eccentricity: ]]></string>
+<string id="383775"><![CDATA[Orbiting 101]]></string>
+<string id="383825"><![CDATA[Orbiting 101 - Basics]]></string>
+<string id="383868"><![CDATA[Orbiting 101 - The Map View]]></string>
+<string id="383923"><![CDATA[Orbiting 101 - Attitude and SAS]]></string>
+<string id="383986"><![CDATA[Orbiting 101 - The NavBall]]></string>
+<string id="384077"><![CDATA[Orbiting 101 - Essential Maneuvers]]></string>
+<string id="384179"><![CDATA[Orbiting 101 - Time Warp]]></string>
+<string id="384365"><![CDATA[Orbiting 101 - Raise Periapsis]]></string>
+<string id="384481"><![CDATA[Orbiting 101 - Inclination]]></string>
+<string id="384679"><![CDATA[Orbiting 101 - Lower Periapsis]]></string>
+<string id="384757"><![CDATA[Orbiting 101 - Complete!]]></string>
+<string id="384847"><![CDATA[Welcome to the Orbiting 101 training program! I'm ]]></string>
+<string id="384948"><![CDATA[, and I'm going to teach you the basics of orbiting.
+
+I assume you've already done the basic flight tutorials, and are now ready to learn how to get around in space. If you haven't done them, well, I hope you know what you're doing.
+
+Let's get started.]]></string>
+<string id="385454"><![CDATA[Orbiting is really nothing more than free-falling. The only thing is that as you fall, you're moving so fast forward, you actually miss the ground. Because up here there is no atmosphere to slow you down, you will continue to free-fall endlessly around the planet, without having to use your engines.
+
+We are currently on a low, almost circular orbit around Kerbin. To get a better view of your situation, press the ]]></string>
+<string id="386288"><![CDATA[ key to go into the Map View.]]></string>
+<string id="387001"><![CDATA[ key again), so we can proceed.]]></string>
+<string id="388078"><![CDATA[ to toggle the SAS on.
+
+Are you ready?]]></string>
+<string id="388155"><![CDATA[Ok, here we go...]]></string>
+<string id="388190"><![CDATA[There! You're in control now. Stop rotation using the Pitch, Yaw and Roll controls.
+
+I suggest you use the NavBall to orient yourself, instead of looking at the ship. The NavBall isn't affected by the camera rotation, so it should be easier to get your bearings through it than by looking at the outside.]]></string>
+<string id="388800"><![CDATA[Still Rotating (]]></string>
+<string id="388833"><![CDATA[°/s)...]]></string>
+<string id="389302"><![CDATA[Try that again!]]></string>
+<string id="390411"><![CDATA[Ok!
+
+Now, let's try something a little more involved. Open your map again.]]></string>
+<string id="390561"><![CDATA[What we want to do now is go through some of the basic maneuvers you'll need to know. Let's try raising your Apoapsis first.
+
+The Apoapsis is the highest point in an orbit, and it's indicated by the node marked [Ap].
+
+The best place to raise your apoapsis is at the Periapsis [Pe] node, which is the lowest point of your orbit. If you hover the mouse over Periapsis node, you'll see that we are going to reach it in a few minutes. Once there, we will face prograde and burn.
+
+Press ]]></string>
+<string id="391527"><![CDATA[ to speed up time a little, so we can get there faster.]]></string>
+<string id="391638"><![CDATA[Ok, time is now passing ]]></string>
+<string id="391687"><![CDATA[ times faster than normal, we should be there in a few moments.
+
+You can control time warp with the ]]></string>
+<string id="394293"><![CDATA[Remember, the prograde vector looks like this:]]></string>
+<string id="394386"><![CDATA[Make sure the ship is pointing towards it before accelerating.]]></string>
+<string id="394770"><![CDATA[Notice how the opposite side of your orbit starts to rise as you accelerate.
+
+Keep thrusting prograde until your apoapsis altitude reaches about 800,000m.]]></string>
+<string id="395080"><![CDATA[Ok, cut the throttle now!
+
+Hold ]]></string>
+<string id="395145"><![CDATA[ or hit ]]></string>
+<string id="395162"><![CDATA[ to cut throttle immediately.]]></string>
+<string id="395221"><![CDATA[Well Done!
+
+This is how you raise your Apoapsis node.
+
+With orbital maneuvers, pretty much everything you do will affect the opposite side of your orbit. So to raise the highest point (Apoapsis), you thrust forward (or prograde) at the lowest point (Periapsis). Similarly, to raise your Periapsis, you thrust prograde at Apoapsis. We're on our way to the Apoapsis now, so let's do just that.
+
+Press Next when ready, and I'll warp time to get us there quickly.]]></string>
+<string id="396141"><![CDATA[Ok, we're on our way to the Apoapsis node now. Notice how your ship loses speed as we rise. That's because we're climbing away from the planet, so we lose speed as we go higher, just as you would if you were climbing a hill back here on Kerbin.
+
+The higher you are, the slower your orbit will be. Notice how the Mun's orbital speed is around 540m/s, while yours is far higher.
+
+When we reach Apoapsis, we will burn prograde again, to raise the Periapsis node and circularize our orbit.]]></string>
+<string id="397917"><![CDATA[m
+
+Eccentricity: ]]></string>
+<string id="397952"><![CDATA[Nicely done!
+
+This is how you change the size of your orbit. This maneuver should come in handy on many situations.
+
+Next, we'll look into changing your orbital inclination.
+
+Press Next when ready to proceed.]]></string>
+<string id="400864"><![CDATA[Orbit Inclination: ]]></string>
+<string id="400903"><![CDATA[Good! This is how you change your orbital inclination.
+
+For these maneuvers, it's always better to do it in the slowest parts of the orbit, so you don't have to spend as much delta-V to turn your orbit around. That also means inclination changes on larger orbits, such as we are on now, take less fuel than the same inclination change on a lower one.
+
+Also, keep in mind that changing inclination doesn't necessarily mean accelerating to the north or south. It means accelerating on 90° headings to your prograde vector, which on our nearly equatorial orbit, also happened to be towards the north.
+
+Next, let's look into the last essential maneuver you'll need to learn: Lowering our orbit.]]></string>
+<string id="402285"><![CDATA[Proceed]]></string>
+<string id="402300"><![CDATA[As you can imagine, lowering your orbit's altitude is very much like raising it, only in reverse.
+
+Because there's no air up here, we can use our main engines to decelerate as well as accelerate, because nothing says we have to be facing some direction or another.
+
+Also, since our orbit is nearly circular, we can just turn retrograde and do our burn at any time now, so let's get to it.
+
+Turn towards the Retrograde Vector and start those engines up again.]]></string>
+<string id="403218"><![CDATA[Retrograde Vector:]]></string>
+<string id="406126"><![CDATA[Kerbal Space Center]]></string>
+<string id="406188"><![CDATA[Research and Development Complex]]></string>
+<string id="406272"><![CDATA[Inside the RnD Complex]]></string>
+<string id="406346"><![CDATA[Unlock a node]]></string>
+<string id="406398"><![CDATA[Node Unlocked]]></string>
+<string id="406448"><![CDATA[Where does it come from?]]></string>
+<string id="406549"><![CDATA[Science Archives]]></string>
+<string id="406625"><![CDATA[Hello and welcome to today's lecture on the Kerbal Scientific Method, I am ]]></string>
+<string id="409611"><![CDATA[Very good! What you see in the middle of the graph paper is the Tech Tree. It shows how far your research has taken Kerbal technology. You don't have much to show right now, because you're not a world class scientist like myself. At least not yet. But I trust you have the potential to achieve great things.]]></string>
+<string id="419445"><![CDATA[Rover]]></string>
+<string id="420857"><![CDATA[Target: ]]></string>
+<string id="420874"><![CDATA[No Target]]></string>
+<string id="423252"><![CDATA[Cannot warp time in this scenario.]]></string>
+<string id="423321"><![CDATA[Using Physics Warp can affect the structural stability of the vessel.
+
+Be careful using it with large ships.]]></string>
+<string id="423539"><![CDATA[Warning:]]></string>
+<string id="423556"><![CDATA[Don't show again]]></string>
+<string id="423589"><![CDATA[Time Warp: ]]></string>
+<string id="423637"><![CDATA[Cannot warp faster than ]]></string>
+<string id="423686"><![CDATA[x while in atmosphere.]]></string>
+<string id="423731"><![CDATA[x while the ship is under acceleration]]></string>
+<string id="423808"><![CDATA[x while moving over terrain.]]></string>
+<string id="423865"><![CDATA[x while below ]]></string>
+<string id="423899"><![CDATA[x while Kerbals are on a ladder.]]></string>
+<string id="424616"><![CDATA[]: Ready to Launch - waiting to start physics...]]></string>
+<string id="425666"><![CDATA[ Debris]]></string>
+<string id="425745"><![CDATA[Vessel Name:]]></string>
+<string id="425770"><![CDATA[Rename Vessel]]></string>
+<string id="425849"><![CDATA[Vessel Type:]]></string>
+<string id="425874"><![CDATA[Ship]]></string>
+<string id="425883"><![CDATA[Lander]]></string>
+<string id="425896"><![CDATA[Probe]]></string>
+<string id="426329"><![CDATA[This Facility is closed.]]></string>
+<string id="426553"><![CDATA[Go to ]]></string>
+<string id="426618"><![CDATA[Please go to the ]]></string>
+<string id="426653"><![CDATA[ and create a vessel.]]></string>
+<string id="426696"><![CDATA[No saved vessels found]]></string>
+<string id="426754"><![CDATA[Vehicle Assembly Building]]></string>
+<string id="426850"><![CDATA[Mission Control]]></string>
+<string id="426904"><![CDATA[Research & Development]]></string>
+<string id="431877"><![CDATA[Whack-A-Kerbal]]></string>
+<string id="431957"><![CDATA[Object Type]]></string>
+<string id="431980"><![CDATA[Object Mass: ]]></string>
+<string id="432007"><![CDATA[Object Size: ]]></string>
+<string id="432034"><![CDATA[MMB to fire.]]></string>
+<string id="432100"><![CDATA[Tracked Objects:]]></string>
+<string id="432285"><![CDATA[Set on ]]></string>
+<string id="432300"><![CDATA[Discovered on ]]></string>
+<string id="432329"><![CDATA[MET: ]]></string>
+<string id="432436"><![CDATA[Terminate]]></string>
+<string id="432737"><![CDATA[This will destroy the vessel, killing all crew in it. Are you sure you want to continue?]]></string>
+<string id="432915"><![CDATA[Terminate Mission]]></string>
+<string id="432950"><![CDATA[Are you sure you want to recover this vessel?]]></string>
+<string id="433041"><![CDATA[Recover Vessel]]></string>
+<string id="433132"><![CDATA[ is lost.]]></string>
+<string id="433395"><![CDATA[Flight Status: ]]></string>
+<string id="433426"><![CDATA[Flight Results]]></string>
+<string id="433455"><![CDATA[Flight Events:
+
+]]></string>
+<string id="433488"><![CDATA[Flight Achievements:
+
+]]></string>
+<string id="433533"><![CDATA[Revert to Launch (]]></string>
+<string id="433570"><![CDATA[ ago)]]></string>
+<string id="433581"><![CDATA[Revert to Vehicle Assembly (]]></string>
+<string id="433638"><![CDATA[Revert to Spaceplane Hangar (]]></string>
+<string id="434125"><![CDATA[Are you sure you want to proceed?]]></string>
+<string id="434192"><![CDATA[Yes]]></string>
+<string id="434282"><![CDATA[Est. Burn: ]]></string>
+<string id="434305"><![CDATA[Node in T ]]></string>
+<string id="434596"><![CDATA[<b>Manufacturer:
+</b> ]]></string>
+<string id="434641"><![CDATA[Type:
+]]></string>
+<string id="434958"><![CDATA[<b>Cost:</b> ]]></string>
+<string id="434985"><![CDATA[[RMB]: More Info]]></string>
+<string id="435018"><![CDATA[[RMB]: Pin, Less]]></string>
+<string id="435051"><![CDATA[[RMB]: Less Info]]></string>
+<string id="435084"><![CDATA[<color=orange>No More Info</color>]]></string>
+<string id="435153"><![CDATA[<b>Mass: </b>]]></string>
+<string id="435180"><![CDATA[
+<b>Crash Tolerance: </b>]]></string>
+<string id="435231"><![CDATA[ m/s
+<b>Max. Temperature: </b>]]></string>
+<string id="435292"><![CDATA[
+<b>Crew Capacity: </b>]]></string>
+<string id="435339"><![CDATA[
+<color=orange>No Fuel Crossfeed</color>]]></string>
+<string id="435599"><![CDATA[Game Paused]]></string>
+<string id="435622"><![CDATA[Resume Flight]]></string>
+<string id="435697"><![CDATA[End Scenario]]></string>
+<string id="435755"><![CDATA[<color=orange>Space Center</color>]]></string>
+<string id="435824"><![CDATA[Leaving to Space Center]]></string>
+<string id="435871"><![CDATA[Revert Flight]]></string>
+<string id="435898"><![CDATA[Reverting Flight]]></string>
+<string id="435966"><![CDATA[Reverting will set the game back to an earlier state. Are you sure you want to continue?]]></string>
+<string id="436144"><![CDATA[Warning: You are in flight.]]></string>
+<string id="436199"><![CDATA[Warning: You are under acceleration.]]></string>
+<string id="436272"><![CDATA[Warning: You are on a collision course.]]></string>
+<string id="436351"><![CDATA[Warning: You are moving over the surface.]]></string>
+<string id="436434"><![CDATA[Warning: You are on a ladder.]]></string>
+<string id="436493"><![CDATA[Warning: You are throttled up.]]></string>
+<string id="436554"><![CDATA[The game cannot be saved at this point. Leaving now will set you back to the last saved state. The last save was ]]></string>
+<string id="436782"><![CDATA[ ago. Are you sure you wish to proceed?]]></string>
+<string id="436861"><![CDATA[Leave Anyway]]></string>
+<string id="438429"><![CDATA[ (Stock)]]></string>
+<string id="438446"><![CDATA[There are incompatible craft files in the folder.
+
+Would you like to delete them?]]></string>
+<string id="438701"><![CDATA[ part]]></string>
+<string id="438712"><![CDATA[ parts]]></string>
+<string id="438740"><![CDATA[ stages.]]></string>
+<string id="439186"><![CDATA[Are you sure you want to delete this craft?]]></string>
+<string id="439328"><![CDATA[Load]]></string>
+<string id="439337"><![CDATA[Select a craft to load:]]></string>
+<string id="439805"><![CDATA[Choose a Flag]]></string>
+<string id="439832"><![CDATA[Selected Flag ]]></string>
+<string id="459880"><![CDATA[Flights in Progress:]]></string>
+<string id="460831"><![CDATA[ Reputation]]></string>
+<string id="462136"><![CDATA[[+] Note:]]></string>
+<string id="462155"><![CDATA[[-] Note: ]]></string>
+<string id="462533"><![CDATA[On EVA]]></string>
+<string id="462546"><![CDATA[Passenger seat]]></string>
+<string id="462575"><![CDATA[Vessel: ]]></string>
+<string id="462592"><![CDATA[
+Seat: ]]></string>
+<string id="462607"><![CDATA[, Part: ]]></string>
+<string id="462624"><![CDATA[For hire]]></string>
+<string id="462686"><![CDATA[Available for next mission]]></string>
+<string id="468395"><![CDATA[Electric Charge]]></string>
+<string id="473135"><![CDATA[3D Graphics Settings]]></string>
+<string id="477583"><![CDATA[Resume]]></string>
+<string id="477596"><![CDATA[Save Game...]]></string>
+<string id="477621"><![CDATA[Load Save...]]></string>
+<string id="477646"><![CDATA[Quit to Main Menu]]></string>
+<string id="478276"><![CDATA[[#e6752a]Vessel classification: Flag]]></string>
+<string id="478349"><![CDATA[FlagSite]]></string>
+<string id="478366"><![CDATA[placedBy]]></string>
+<string id="478383"><![CDATA[[#e6752a]Flag:]]></string>
+<string id="478430"><![CDATA[Planted by]]></string>
+<string id="478460"><![CDATA[[#e6752a]Vessel classification]]></string>
+<string id="478521"><![CDATA[Sphere of influence]]></string>
+<string id="478560"><![CDATA[Situation]]></string>
+<string id="478579"><![CDATA[Flight time]]></string>
+<string id="478602"><![CDATA[[#e6752a]Surface Location]]></string>
+<string id="478653"><![CDATA[Celestial body]]></string>
+<string id="478682"><![CDATA[Latitude]]></string>
+<string id="478699"><![CDATA[Longitude]]></string>
+<string id="478783"><![CDATA[Velocity]]></string>
+<string id="478911"><![CDATA[[#e6752a]CapabilityCategory]]></string>
+<string id="479101"><![CDATA[ is dead, can't display crew info for it]]></string>
+<string id="479182"><![CDATA[[#e6752a]EVA suit]]></string>
+<string id="479226"><![CDATA[Max Absorb Garment]]></string>
+<string id="479297"><![CDATA[[#2ae678]Physical Characteristics:]]></string>
+<string id="479366"><![CDATA[Eq. Radius]]></string>
+<string id="479437"><![CDATA[Mass]]></string>
+<string id="479453"><![CDATA[GM]]></string>
+<string id="479471"><![CDATA[ASL Gravity]]></string>
+<string id="479514"><![CDATA[Escape Velocity]]></string>
+<string id="479545"><![CDATA[Rotation Period]]></string>
+<string id="479583"><![CDATA[[#2ae678]Atmospheric Characteristics:]]></string>
+<string id="479658"><![CDATA[Atmosphere Present]]></string>
+<string id="479695"><![CDATA[Atmos. Height]]></string>
+<string id="479722"><![CDATA[Atmos. Pressure]]></string>
+<string id="479762"><![CDATA[ASL Temperature]]></string>
+<string id="480157"><![CDATA[[#e6752a]Tracking Info]]></string>
+<string id="480202"><![CDATA[[#e6752a]Class Description]]></string>
+<string id="484367"><![CDATA[Mission accepted. I'm looking forward to read your reports.]]></string>
+<string id="484486"><![CDATA[Excellent! Hopefully this one will turn out alright.]]></string>
+<string id="484591"><![CDATA[Here we go!]]></string>
+<string id="484614"><![CDATA[Challenge Accepted!]]></string>
+<string id="484653"><![CDATA[Contract Accepted! Best of luck with it.]]></string>
+<string id="484734"><![CDATA[Accepted! All Controllers standing by to watch the firewor-- erhm, the launch.]]></string>
+<string id="484931"><![CDATA[Yeah, we probably didn't need to do that mission anyway.]]></string>
+<string id="485044"><![CDATA[That mission was probably going to be boring anyways.]]></string>
+<string id="485151"><![CDATA[Mission Declined. Understood.]]></string>
+<string id="485210"><![CDATA[That one definitely didn't seem very interesting, did it?]]></string>
+<string id="485325"><![CDATA[Was it just me, or did that explanation make no sense at all?]]></string>
+<string id="485485"><![CDATA[The contractor may not like it very much, but this contract is effectively terminated.]]></string>
+<string id="485659"><![CDATA[Contract Cancelled. It's not as if we care about penalties and fines, do we?]]></string>
+<string id="485813"><![CDATA[Cancelled. Worry no more about this contract.]]></string>
+<string id="485904"><![CDATA[Boring conversation anyways.]]></string>
+<string id="485961"><![CDATA[Mission Cancelled. We're done following their orders for now.]]></string>
+<string id="486133"><![CDATA[Looks like an interesting proposition. It should be fun.]]></string>
+<string id="486246"><![CDATA[Sounds pretty reasonable, although I must admit we didn't really read the details, or any of it...]]></string>
+<string id="486444"><![CDATA[Seems to be a fair offer. There's no reason not to take on this contract.]]></string>
+<string id="486592"><![CDATA[Doesn't seem to be anything we can't handle.]]></string>
+<string id="486681"><![CDATA[Looks ok, as far as we can tell from here.]]></string>
+<string id="486811"><![CDATA[Who says there's no glory in doing small jobs?]]></string>
+<string id="486904"><![CDATA[It may not be exactly glamorous, but the rewards seem reasonable, and the risks are comparatively low.]]></string>
+<string id="487110"><![CDATA[Not every mission has to be a groundbreaking achievement, does it?]]></string>
+<string id="487244"><![CDATA[This probably won't make the front page on the news, but it is a proper job and it needs doing.]]></string>
+<string id="487436"><![CDATA[Not exactly a noteworthy endeavour, but should be a relatively safe thing to attempt.]]></string>
+<string id="487608"><![CDATA[It may be a bit low-profile, but maybe it's just the sort of job we need right now.]]></string>
+<string id="487776"><![CDATA[We may be overqualified for this mission, but maybe we overestimate our qualifications.]]></string>
+<string id="487997"><![CDATA[This one sounds like a properly tall order, I can't wait to see it attempted!]]></string>
+<string id="488153"><![CDATA[They have to be mad to propose such a thing, and we must be equally mad to be considering it!]]></string>
+<string id="488341"><![CDATA[Given enough rocket science, anything can be done, right?]]></string>
+<string id="488456"><![CDATA[How hard could this be, anyway? It's not as if it were rocket sci-- oh.]]></string>
+<string id="488600"><![CDATA[I think we have achieved things as impressive as this before, but I can't quite remember any examples.]]></string>
+<string id="488806"><![CDATA[You know something it's worth doing when there are others questioning whether it can be done at all.]]></string>
+<string id="489008"><![CDATA[This sounds risky. Very Risky. It also sounds like a lot of fun!]]></string>
+<string id="489138"><![CDATA[The very mention of this proposal had the Astronaut Complex common room buzzing with excitement!]]></string>
+<string id="489332"><![CDATA[Whoever gets assigned to this will either be screaming in delight or in terror all the way there!]]></string>
+<string id="489853"><![CDATA[<b><#DB8310>Contract:</></b><br>]]></string>
+<string id="489918"><![CDATA[<br><br><b><#DB8310>Agent:</></b><br>]]></string>
+<string id="490004"><![CDATA[<b><#DB8310>Agent:</></b><br>]]></string>
+<string id="490128"><![CDATA[[#00ff00][Completed] [#fefa87]]]></string>
+<string id="490189"><![CDATA[[#ff0000][Failed] [#fefa87]]]></string>
+<string id="490244"><![CDATA[[#ff0000][Expired] [#fefa87]]]></string>
+<string id="492348"><![CDATA[There aren't any records to see here.]]></string>
+<string id="492438"><![CDATA[We know almost nothing about these subjects. Any data on them would be very valuable.]]></string>
+<string id="492627"><![CDATA[We've got some data on these topics, but there's still a lot to learn here.]]></string>
+<string id="492798"><![CDATA[We've got a lot of research done on these subjects! Excellent!]]></string>
+<string id="492936"><![CDATA[Some of these topics are much further researched than others. There are definitely some opportunities here.]]></string>
+<string id="493175"><![CDATA[Experiments]]></string>
+<string id="493198"><![CDATA[Situations]]></string>
+<string id="493219"><![CDATA[Biomes]]></string>
+<string id="493232"><![CDATA[ reports]]></string>
+<string id="493249"><![CDATA[ reports [#aaaaaa]]]></string>
+<string id="493286"><![CDATA[ hidden]]></string>
+<string id="493310"><![CDATA[ science report]]></string>
+<string id="493341"><![CDATA[ displayed. Out of a total of ]]></string>
+<string id="493402"><![CDATA[ found. Out of a total of ]]></string>
+<string id="493645"><![CDATA[Research []]></string>
+<string id="493666"><![CDATA[ Science]]]></string>
+<string id="495083"><![CDATA[<b>Entry Purchase:</b> ]]></string>
+<string id="495250"><![CDATA[Science report]]></string>
+<string id="495279"><![CDATA[Close report]]></string>
+<string id="495304"><![CDATA[Current Data Value: ]]></string>
+<string id="497917"><![CDATA[. Vel: ]]></string>
+<string id="498396"><![CDATA[Outcome: ]]></string>
+<string id="501201"><![CDATA[]: Starting Transmission...]]></string>
+<string id="501256"><![CDATA[Uploading Data...]]></string>
+<string id="501291"><![CDATA[]: Uploading Data... ]]></string>
+<string id="501334"><![CDATA[]: Warning! Not Enough ]]></string>
+<string id="501408"><![CDATA[Done!]]></string>
+<string id="501419"><![CDATA[]: Done!]]></string>
+<string id="501471"><![CDATA[Overwrite existing ]]></string>
+<string id="501513"><![CDATA[Overwrite ]]></string>
+</en>

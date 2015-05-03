@@ -1,0 +1,24 @@
+﻿<Image>
+  <Size id="ResearchAndDevelopment">1024</Size>
+  <Size id="VesselSpawnDialog">1024</Size>
+  <Size id="EditorAtlas">2048</Size>
+  <Size id="EditorButtons_stageReset">256</Size>
+  <Size id="Buttons_TimeMode_StateMap">128</Size>
+  <Size id="flightUI_linearQuadrantFrame_bg">256</Size>
+  <Size id="FlightUI_RotQuadrant">256</Size>
+  <Size id="FlightUI_RotQuadrant_bg">256</Size>
+  <Size id="Gauge_Atmos">256</Size>
+  <Size id="Gauge_Gee">256</Size>
+  <Size id="Gauge_Throttle">256</Size>
+  <Size id="gauge_Vs">256</Size>
+  <Size id="GUI_TimeQuadrant">256</Size>
+  <Size id="KnowledgeAtlas">512</Size>
+  <Size id="LED_lin_off">64</Size>
+  <Size id="LED_lin_on">64</Size>
+  <Size id="LED_rot_off">64</Size>
+  <Size id="LED_rot_on">64</Size>
+  <Size id="navBall_headingPane">256</Size>
+  <Size id="RecoveryButton">256</Size>
+  <Size id="StagingQuadrant_bg">256</Size>
+  <Size id="StagingQuadrant_Frame">256</Size>
+</Image>

@@ -1,0 +1,1860 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--一条记录创建一个Config-->
+<Configs>
+  <!--Config有两个属性url和name，任选一个即可，默认url优先。url为组件的绝对地址，不会遇到重名问题，那么是组件的名称，理论上有遇到重名问题，遇到重名程序只会处理第一个-->
+  <!--组件汉化-->
+  <Config name="AdvancedCanard">
+    <Values>
+      <Value name="title"><![CDATA[高级鸭翼]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[我们的工程师认为这个设计看起来十分的高端大气上档次,所以性能上肯定比之前有所改善.]]></Value>
+    </Values>
+  </Config>
+  <Config name="CanardController">
+    <Values>
+      <Value name="title"><![CDATA[标准鸭翼]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[我们的工程师在”参观”了Kerlington的制造厂后犹如脑子进水般思如泉涌,设计出了这款崭新的鸭翼.警告:剧烈机动有可能导致意外的分级.]]></Value>
+    </Values>
+  </Config>
+  <Config name="CircularIntake">
+    <Values>
+      <Value name="title"><![CDATA[圆形进气口]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[一个合适的涡扇进气口,不仅能为吸气发动机提供氧气,而且它的空气吸入量是Vac-Co生产的那些号称能进气的小勺子的两倍.]]></Value>
+    </Values>
+  </Config>
+  <Config name="GooExperiment">
+    <Values>
+      <Value name="title"><![CDATA[神秘的粘液罐]]></Value>
+      <Value name="manufacturer"><![CDATA[在路边捡到的]]></Value>
+      <Value name="description"><![CDATA[这个部件是我们的工程师们在翻垃圾的时候找--呃,是在研究现有科技产品的更多应用的时候找到的.这是一个装着某些奇怪物质的密封容器.我们不能进入罐子或者把它砸开,但是在不同环境下观察这些黏糊糊的液体的行为大概是很有教育意义的.]]></Value>
+    </Values>
+  </Config>
+  <Config name="JetEngine">
+    <Values>
+      <Value name="title"><![CDATA[基础喷气式引擎]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[标准的吸气式引擎.这款产品可以提供小范围的矢量推力.适合在普通的巡航速度与高度下工作.]]></Value>
+    </Values>
+  </Config>
+  <Config name="Large_Crewed_Lab">
+    <Values>
+      <Value name="title"><![CDATA[移动处理实验室 MPL-LG-2]]></Value>
+      <Value name="manufacturer"><![CDATA[积分联合企业]]></Value>
+      <Value name="description"><![CDATA[移动处理实验室的开发是为了帮助增加我们实地能够获得的科研点数.移动实验室允许您在太空站中处理样本,而不用把样本一路拖回Kerbin!这个型号保证比以前型号消耗的更少,并且拥有将不可操作的部件清理并恢复功能能力的神奇装置.]]></Value>
+    </Values>
+  </Config>
+  <Config name="MK1Fuselage">
+    <Values>
+      <Value name="title"><![CDATA[Mk1机身 - 航空燃料箱]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[为空天飞机设计的标准燃料运载机身,装载有航空燃料,尽管没有普通机身构件那么结实,其使用的航空燃料比普通的火箭燃料更加高效,不过重量没有显著减轻.]]></Value>
+    </Values>
+  </Config>
+  <Config name="Mark1-2Pod">
+    <Values>
+      <Value name="title"><![CDATA[Mk1-2指令舱]]></Value>
+      <Value name="manufacturer"><![CDATA[Kerlington模型火箭与纸制品有限公司]]></Value>
+      <Value name="description"><![CDATA[这款现代化的指令舱采用了完全可循环使用的设计.而且它宽敞的座舱最多可以装下3名宇航员.]]></Value>
+    </Values>
+  </Config>
+  <Config name="Mark1Cockpit">
+    <Values>
+      <Value name="title"><![CDATA[Mk1驾驶舱]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[C7航空部门自豪地在此推出第二代驾驶舱.这款驾驶舱能确保在一些最糟糕的情况发生时的生还率.当然额外的加固也使重量增加了不少.]]></Value>
+    </Values>
+  </Config>
+  <Config name="Mark2Cockpit">
+    <Values>
+      <Value name="title"><![CDATA[Mk2驾驶舱]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[新一代的直列安装座舱.专为外形光滑的高速飞行器设计.]]></Value>
+    </Values>
+  </Config>
+  <Config name="Mk1FuselageStructural">
+    <Values>
+      <Value name="title"><![CDATA[标准机身构件]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[标准的机身结构部件.它不装载任何燃油,仅仅是一个结构单元.正因为如此,它的内部加固使它更加坚固与轻便.]]></Value>
+    </Values>
+  </Config>
+  <Config name="R8winglet">
+    <Values>
+      <Value name="title"><![CDATA[AV-R8型小翼]]></Value>
+      <Value name="manufacturer"><![CDATA[Kerlington模型火箭与纸制品有限公司]]></Value>
+      <Value name="description"><![CDATA[R8活动控制型小翼系列将Kerlington模型火箭公司推上了太空飞船建造业的舞台.这款小翼拥有可动转轴,让它可以旋转以作为控制翼面使用.这项技术被普遍认为是将控制技术的水平提升到了一个新境界,并且绝大多数人认为这将让Kerlington的员工与R8粉们之间变成一山不容二虎的状况.]]></Value>
+    </Values>
+  </Config>
+  <Config name="RAPIER">
+    <Values>
+      <Value name="title"><![CDATA[R.A.P.I.E.R.'长剑'双模式引擎]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门与极限火箭合资企业]]></Value>
+      <Value name="description"><![CDATA[R.A.P.I.E.R.(反应式交替推进智能火箭引擎)是由C7航空和极限火箭合资开发的新一代引擎,目的是为了弥补单级入轨飞行器(SSTO)设计需求的空缺.这台引擎结合了最好的火箭和喷气推进技术.]]></Value>
+    </Values>
+  </Config>
+  <Config name="RCSBlock">
+    <Values>
+      <Value name="title"><![CDATA[RV-105-RCS喷口]]></Value>
+      <Value name="manufacturer"><![CDATA[STEADLER建设兵团]]></Value>
+      <Value name="description"><![CDATA[最近对物理定律的再次探索使STEADLER建设兵团制造出了这种小型单元推进剂喷口,它被用于辅助航天器进行姿态修正.尽管很多Kerbal物理学家依然对这条新定律抱有怀疑,但研究表明这款推进器用起来跟广告里写的一样好使.]]></Value>
+    </Values>
+  </Config>
+  <Config name="RCSFuelTank">
+    <Values>
+      <Value name="title"><![CDATA[FL-R25-RCS燃料罐]]></Value>
+      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="description"><![CDATA[这是一个用于RCS喷口的单元推进剂燃料罐.全新的管线技术进展允许人们将RCS管路延伸到飞船上的任何位置.因此不像液体燃料罐,RCS燃料罐可以被放置在任何位置.]]></Value>
+    </Values>
+  </Config>
+  <Config name="RCSTank1-2">
+    <Values>
+      <Value name="title"><![CDATA[FL-R1-RCS燃料罐]]></Value>
+      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="description"><![CDATA[一个大号的标准RCS燃料罐.]]></Value>
+    </Values>
+  </Config>
+  <Config name="SmallGearBay">
+    <Values>
+      <Value name="title"><![CDATA[小型起落架舱]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[高性能起落架,专为大气层内使用而设计.]]></Value>
+    </Values>
+  </Config>
+  <Config name="StandardCtrlSrf">
+    <Values>
+      <Value name="title"><![CDATA[标准控制翼面]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[用手头上最好的材料制作而成的这些控制翼面,能够保证在安装后有效工作.然而研究表明无大气环境(可能大概也许)会轻微的影响控制面的运作.一经售出,概不退换.]]></Value>
+    </Values>
+  </Config>
+  <Config name="adapterLargeSmallBi">
+    <Values>
+      <Value name="title"><![CDATA[TVR-200L级间双转接口]]></Value>
+      <Value name="manufacturer"><![CDATA[O.M.B.爆破企业]]></Value>
+      <Value name="description"><![CDATA[在意识到'大圆环'不是一个可以获得专利的概念之后,O.M.B.爆破企业推出了一套全新的复式连接转换器来适配极限火箭型号的部件.本型号能将一个2.5m级转换为两个1.25m级.]]></Value>
+    </Values>
+  </Config>
+  <Config name="adapterLargeSmallQuad">
+    <Values>
+      <Value name="title"><![CDATA[TVR-400L级间四转接口]]></Value>
+      <Value name="manufacturer"><![CDATA[O.M.B.爆破企业]]></Value>
+      <Value name="description"><![CDATA[在意识到'大圆环'不是一个可以获得专利的概念之后,O.M.B.爆破企业推出了一套全新的复式连接转换器来适配极限火箭型号的部件.本型号能将一个2.5m级转换为四个1.25m级.]]></Value>
+    </Values>
+  </Config>
+  <Config name="adapterLargeSmallTri">
+    <Values>
+      <Value name="title"><![CDATA[TVR-300L级间三转接口]]></Value>
+      <Value name="manufacturer"><![CDATA[O.M.B.爆破企业]]></Value>
+      <Value name="description"><![CDATA[在意识到'大圆环'不是一个可以获得专利的概念之后,O.M.B.爆破企业推出了一套全新的复式连接转换器来适配极限火箭型号的部件.本型号能将一个2.5m级转换为三个1.25m级.]]></Value>
+    </Values>
+  </Config>
+  <Config name="adapterSmallMiniShort">
+    <Values>
+      <Value name="title"><![CDATA[FL-A5转接器]]></Value>
+      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="description"><![CDATA[一个小号部件连接转换器,适用于FL-T舱体.]]></Value>
+    </Values>
+  </Config>
+  <Config name="adapterSmallMiniTall">
+    <Values>
+      <Value name="title"><![CDATA[FL-A10转接器]]></Value>
+      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="description"><![CDATA[一个小号部件连接转换器,适用于FL-T舱体.]]></Value>
+    </Values>
+  </Config>
+  <Config name="advSasModule">
+    <Values>
+      <Value name="title"><![CDATA[内嵌式高级稳定器]]></Value>
+      <Value name="manufacturer"><![CDATA[STEADLER建设兵团]]></Value>
+      <Value name="description"><![CDATA[这个系统使用一组以'相当'高速旋转的圆盘来产生控制飞船必需的扭矩.还包含一整套内置的飞行控制计算机.请不要尝试维修运行中的本设备.]]></Value>
+    </Values>
+  </Config>
+  <Config name="airScoop">
+    <Values>
+      <Value name="title"><![CDATA[XM-G50径向进气口]]></Value>
+      <Value name="manufacturer"><![CDATA[Vac-Co先进吸气系统公司]]></Value>
+      <Value name="description"><![CDATA[喷气式发动机必备!这款进气口能吸入外面的空气以供涡轮发动机运行,当然前提是外面有空气.保修范围不包括引擎熄火以及任何有生命或无生命的物体被吸入进气口.]]></Value>
+    </Values>
+  </Config>
+  <Config name="airplaneTail">
+    <Values>
+      <Value name="title"><![CDATA[气动尾锥]]></Value>
+      <Value name="manufacturer"><![CDATA[冬鸮飞行器商场]]></Value>
+      <Value name="description"><![CDATA[一款简单但符合空气动力学的机尾,为适应所有1m半径标准连接点而设计.它承载着'让我们飞'的希望.]]></Value>
+    </Values>
+  </Config>
+  <Config name="asasmodule1-2">
+    <Values>
+      <Value name="title"><![CDATA[高级 S.A.S模块（大）]]></Value>
+      <Value name="manufacturer"><![CDATA[STEADLER建设兵团]]></Value>
+      <Value name="description"><![CDATA[经过多年的研究,STEADLER建设兵团的火箭学家们发现指望Kerbal宇航员去操纵飞船实在是不靠谱.高级S.A.S模块通过不停地修正飞行操纵而完美的解决了这个问题.强烈建议不要让机组人员知道飞船上装了这么个东西.不然他们会认为自己'酷炫的飞行技术'受到了挑战.]]></Value>
+    </Values>
+  </Config>
+  <Config name="avionicsNoseCone">
+    <Values>
+      <Value name="title"><![CDATA[鼻锥式传感处理器阵列]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[最新的研究和开发成果让这个小小的奇迹成为了现实.它搭载了许多'高质量'的传感器与一台从最高质量的航空废品堆里淘回来的计算机,使它能在飞行中采集大气层的数据.]]></Value>
+    </Values>
+  </Config>
+  <Config name="batteryBankLarge">
+    <Values>
+      <Value name="title"><![CDATA[Z-4K充电电池组]]></Value>
+      <Value name="manufacturer"><![CDATA[Zaltonic电子]]></Value>
+      <Value name="description"><![CDATA[最新升级的电涌控制技术造就了Z-4K,有史以来制造出的最大的电池组.Zaltonic电子承认它激烈放电时十分酷炫,最好别冒出将Z-4K短路的念头...]]></Value>
+    </Values>
+  </Config>
+  <Config name="batteryBankMini">
+    <Values>
+      <Value name="title"><![CDATA[Z-200充电电池组]]></Value>
+      <Value name="manufacturer"><![CDATA[Zaltonic电子]]></Value>
+      <Value name="description"><![CDATA[Z-200是Z-100电池组的线性安装版本,同时也增加了些许容量.在遇到紧急状况时,别把正负极装反了.]]></Value>
+    </Values>
+  </Config>
+  <Config name="batteryBank">
+    <Values>
+      <Value name="title"><![CDATA[Z-1k充电电池组]]></Value>
+      <Value name="manufacturer"><![CDATA[Zaltonic电子]]></Value>
+      <Value name="description"><![CDATA[Z-1k是线性安装的电池组,电量有Z-100的十倍之多.]]></Value>
+    </Values>
+  </Config>
+  <Config name="batteryPack">
+    <Values>
+      <Value name="title"><![CDATA[Z-100充电电池组]]></Value>
+      <Value name="manufacturer"><![CDATA[Zaltonic电子]]></Value>
+      <Value name="description"><![CDATA[Z-100电池组是电气应用行业的标准电源.包含两节AAAA电池,最多能存贮100单位的电量.]]></Value>
+    </Values>
+  </Config>
+  <Config name="commDish">
+    <Values>
+      <Value name="title"><![CDATA[Communotron 88-88型通讯天线]]></Value>
+      <Value name="manufacturer"><![CDATA[离子-质子同步电子工业]]></Value>
+      <Value name="description"><![CDATA[Communotron牌高增益天线,其88-88型号支持长距离高速通信.]]></Value>
+    </Values>
+  </Config>
+  <Config name="crewCabin">
+    <Values>
+      <Value name="title"><![CDATA[PPD-10-'顺风车'载人舱]]></Value>
+      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="description"><![CDATA[这是一个必要的发明--在根本不打算返回的情况下,我们该如何在轨道上'存放'4个Kerbal呢？只不过天知道到底谁会需要这东西,还有他为什么会需要.]]></Value>
+    </Values>
+  </Config>
+  <Config name="cupola">
+    <Values>
+      <Value name="title"><![CDATA[PPD-12穹顶舱]]></Value>
+      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="description"><![CDATA[PPD-12的开发目的是用于给在轨空间站提供一个广阔视野的控制室,以及给文艺的Kerbal宇航员们一个凝视这美丽的宇宙的场所.]]></Value>
+    </Values>
+  </Config>
+  <Config name="decoupler1-2">
+    <Values>
+      <Value name="title"><![CDATA[极限火箭品牌分离环]]></Value>
+      <Value name="manufacturer"><![CDATA[极限火箭合资企业]]></Value>
+      <Value name="description"><![CDATA[极限火箭合资企业很荣幸为您提供最新的分离技术--两倍大小于下一代的主打产品,极限火箭分离环内置了更多的炸药以得到更强劲的分离力度!相比于它的那些更小的可悲的粗制滥造品质低下的市场竞争者,极限火箭分离环上还有贴心的小箭头,标示它是从哪一端进行分离.]]></Value>
+    </Values>
+  </Config>
+  <Config name="deltaWing">
+    <Values>
+      <Value name="title"><![CDATA[三角翼面]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[标准的等腰直角三角形翼面.这些翼面提供强大的升力与稳定的重心,让你的日常飞行更加顺利.]]></Value>
+    </Values>
+  </Config>
+  <Config name="dockingPort1">
+    <Values>
+      <Value name="title"><![CDATA[Clamp-O-Tron对接口(防护型)]]></Value>
+      <Value name="manufacturer"><![CDATA[在路边捡到的]]></Value>
+      <Value name="description"><![CDATA[当一个原本和平的'我们缺少飞船的对接系统'的抗议声变得充斥着火药味之后,它被发明了出来.Clamp-O-Tron对接口可以为两艘飞船提供稳固的连接.对接之后,也可以轻松容易地分离.防护型版本安装了可以被部署的挡板,用来在飞船上升时保护脆弱的对接口.]]></Value>
+    </Values>
+  </Config>
+  <Config name="dockingPort2">
+    <Values>
+      <Value name="title"><![CDATA[Clamp-O-Tron对接口]]></Value>
+      <Value name="manufacturer"><![CDATA[在路边捡到的]]></Value>
+      <Value name="description"><![CDATA[当一个原本和平的'我们缺少飞船的对接系统'的抗议声变得充斥着火药味之后,它被发明了出来.Clamp-O-Tron对接口可以为两艘飞船提供稳固的连接.对接之后,也可以轻松容易地分离.]]></Value>
+    </Values>
+  </Config>
+  <Config name="dockingPort3">
+    <Values>
+      <Value name="title"><![CDATA[Clamp-O-Tron对接口(微型)]]></Value>
+      <Value name="manufacturer"><![CDATA[在路边捡到的]]></Value>
+      <Value name="description"><![CDATA[设计之初被定位为小型版的Clamp-O-Tron对接口,很快发现爱好者和专业太空机构由于它那紧凑的外形,轻重量结构和看起来十分可爱等原因而使用了它.由于体型娇小,它被用来传输各种物资,而不是让我们的宇航员通过.]]></Value>
+    </Values>
+  </Config>
+  <Config name="dockingPortLarge">
+    <Values>
+      <Value name="title"><![CDATA[Clamp-O-Tron对接口(大型)]]></Value>
+      <Value name="manufacturer"><![CDATA[在路边捡到的]]></Value>
+      <Value name="description"><![CDATA[大型Clamp-O-Tron对接口是花费了大量人力物力研究如何使对接点更加稳固而得到的答案.得益于一位机智的门卫的天才提议'为什么不把他做的大一点?',公众现在可以好好享受在太空中对接巨大的家伙所带来的纯粹愉悦感了.]]></Value>
+    </Values>
+  </Config>
+  <Config name="dockingPortLateral">
+    <Values>
+      <Value name="title"><![CDATA[Clamp-O-Tron对接口(内置型)]]></Value>
+      <Value name="manufacturer"><![CDATA[在路边捡到的]]></Value>
+      <Value name="description"><![CDATA[内置型Clamp-O-Tron是一个偶然的发明,起因是某位(该好好重新配一副眼镜的)工程师错误理解了防护型Clamp-O-Tron对接口的蓝图设计.但是团队中的其他人非常喜欢这种自带气动挡板的侧向对接口的设计.于是他为这个设计申请了专利,并直到现在为止都矢口否认这不是他故意的...]]></Value>
+    </Values>
+  </Config>
+  <Config name="engineLargeSkipper">
+    <Values>
+      <Value name="title"><![CDATA[极限火箭'船长'液体燃料引擎]]></Value>
+      <Value name="manufacturer"><![CDATA[极限火箭合资企业]]></Value>
+      <Value name="description"><![CDATA['主帆'的小型版.'船长'的功率相当于呃...大城市!兼具高推力和不错的效率,使其适合用于火箭的中段加速.]]></Value>
+    </Values>
+  </Config>
+  <Config name="fuelLine">
+    <Values>
+      <Value name="title"><![CDATA[FTX-2外部燃料管]]></Value>
+      <Value name="manufacturer"><![CDATA[FLOOYD动力学研究实验室]]></Value>
+      <Value name="description"><![CDATA[FLOOYD动力学研究实验室的最新技术突破促使FTX燃料管系列的诞生.虽然被批评为'涂成黄色的污水管道',但是大多数人认为相对来说黄色还是不错的,而且这些燃料管确实可以从侧挂燃料箱里抽出燃料.在召回了FTX-1系列的产品之后,所有的FTX-2管道上都涂上了指明燃料流动方向的箭头,这样工程师们就能分辨燃料到底应该流到哪儿去了.]]></Value>
+    </Values>
+  </Config>
+  <Config name="fuelTank1-2">
+    <Values>
+      <Value name="title"><![CDATA[极限火箭 X200-32型燃料箱]]></Value>
+      <Value name="manufacturer"><![CDATA[极限火箭合资企业]]></Value>
+      <Value name="description"><![CDATA[当我们的一位宇航员抱怨'现有的燃料箱都实在是太小了'之后,我们开发了X200-32型燃料箱.它可以装载足够多的燃料,满足你....足够的需求,你懂的.别吐槽!极限火箭的专家们都是火箭科学家,不是作家.]]></Value>
+    </Values>
+  </Config>
+  <Config name="fuelTank2-2">
+    <Values>
+      <Value name="title"><![CDATA[极限火箭 X200-16型燃料箱]]></Value>
+      <Value name="manufacturer"><![CDATA[极限火箭合资企业]]></Value>
+      <Value name="description"><![CDATA[经过了很长时间的研究,极限火箭的工程师发现太空计划确实需要比X200-32小一半的燃料箱.一经售出恕不退换.]]></Value>
+    </Values>
+  </Config>
+  <Config name="fuelTank3-2">
+    <Values>
+      <Value name="title"><![CDATA[极限火箭 Jumbo-64型燃料箱]]></Value>
+      <Value name="manufacturer"><![CDATA[极限火箭合资企业]]></Value>
+      <Value name="description"><![CDATA[Jumbo-64型燃料箱是极限火箭合资企业所能生产的最大的燃料箱,它在拥有着可爱的橙色隔热涂层的同时能装载极其多的燃料.尽管他被宇航员们昵称为'橙罐',Jumbo-64型燃料箱其实跟橙汁没有半点关系.别尝,它真的不是橙子味儿的.]]></Value>
+    </Values>
+  </Config>
+  <Config name="fuelTank4-2">
+    <Values>
+      <Value name="title"><![CDATA[极限火箭 X200-8型燃料箱]]></Value>
+      <Value name="manufacturer"><![CDATA[极限火箭合资企业]]></Value>
+      <Value name="description"><![CDATA[一个紧凑的燃料箱,为火箭上级与登陆器设计.极限火箭对燃料箱内部的Dawton-Kerman露天泳池公司的贴纸不负任何责任,因为这个燃料箱绝对不是我们从他们的泳池模具厂里面偷出来的.]]></Value>
+    </Values>
+  </Config>
+  <Config name="fuelTankSmallFlat">
+    <Values>
+      <Value name="title"><![CDATA[FL-T100型燃料箱]]></Value>
+      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="description"><![CDATA[这个FL-T100型燃料箱做的比它的大哥FL-T200还萌.请淡定而小心地使用本品.]]></Value>
+    </Values>
+  </Config>
+  <Config name="fuelTankSmall">
+    <Values>
+      <Value name="title"><![CDATA[FL-T200型燃料箱]]></Value>
+      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="description"><![CDATA[FL-T200型燃料箱一开始并不被航天工程领域所接受,因为绝大部分火箭工程师都会忍不住去端详这个'可爱的小燃料箱'.这个第一印象直到装配区开始频繁的发生剧烈爆炸才被抛开,甚至于有人定下了'禁止对燃料箱卖萌'的条例.FL-T200型燃料箱现在被广泛的应用于航天计划中,尤其是针对与LV-909型发动机的连接.]]></Value>
+    </Values>
+  </Config>
+  <Config name="fuelTank">
+    <Values>
+      <Value name="title"><![CDATA[FL-T400燃料箱]]></Value>
+      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="description"><![CDATA[FL系列被认为是在之前的太空计划中使用的燃料箱的重大升级,通常是由于之前的燃料箱的能力应该是保证燃料不爆炸,而结果往往是相反的.燃料箱底部应当安装的是液体燃料引擎.也可以与其他燃料箱堆叠放置以增加燃料箱最底部引擎的燃料量.]]></Value>
+    </Values>
+  </Config>
+  <Config name="fuelTank_long">
+    <Values>
+      <Value name="title"><![CDATA[FL-T800型燃料箱]]></Value>
+      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="description"><![CDATA[把FL-T400拉长之后,FL-T800型燃料箱能装载两倍多的燃料,并且有着稍微高一点的坚固性.'燃料箱侧面的黑色条纹能让火箭飞得更快更高更强!'我们的工程师这样告诉我们.]]></Value>
+    </Values>
+  </Config>
+  <Config name="ionEngine">
+    <Values>
+      <Value name="title"><![CDATA[PB-ION电动推进系统]]></Value>
+      <Value name="manufacturer"><![CDATA[离子-质子同步电子工业]]></Value>
+      <Value name="description"><![CDATA[通过从一个小喷口喷射离子化的氙气产生推力,PB-ION的推进效率高得不可思议,但是也伴随着推力极低与耗电量大等缺点.此外根据离子-质子同步电子工业的销售报告,某些关于这款引擎使用'黑魔法'作为推进力的传言似乎有点扩散趋势.]]></Value>
+    </Values>
+  </Config>
+  <Config name="ksp_r_largeBatteryPack">
+    <Values>
+      <Value name="title"><![CDATA[Z-400充电电池组]]></Value>
+      <Value name="manufacturer"><![CDATA[Zaltonic电子]]></Value>
+      <Value name="description"><![CDATA[Z-400电池组是一个多用途的高密度电能储存解决方案,适用于AAAA电池无法承受的高负载.包含一个可以承载400单位电能的E型电池.]]></Value>
+    </Values>
+  </Config>
+  <Config name="ladder1">
+    <Values>
+      <Value name="title"><![CDATA[飞马I型移动强化装置]]></Value>
+      <Value name="manufacturer"><![CDATA[Rokea股份有限公司]]></Value>
+      <Value name="description"><![CDATA[飞马I型移动强化装置,在某些圈子内被称作'梯子'的玩意儿,是一件'存在即合理'的垂直机动装置,它可以让你的勇猛的宇航员们像嗑了药一般在飞船的外部毫无限制地快速移动.]]></Value>
+    </Values>
+  </Config>
+  <Config name="landerCabinSmall">
+    <Values>
+      <Value name="title"><![CDATA[Mk1着陆舱]]></Value>
+      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="description"><![CDATA[该舱体是用于无大气星球着陆的轻量级着陆舱,能容纳一名乘员.配备有全新的整体防撞缓冲技术.]]></Value>
+    </Values>
+  </Config>
+  <Config name="landingLeg1-2">
+    <Values>
+      <Value name="title"><![CDATA[LT-2着陆架]]></Value>
+      <Value name="manufacturer"><![CDATA[运动部件专家组]]></Value>
+      <Value name="description"><![CDATA[LT-2着陆架给重量级飞船提供了安稳的降落方式,不用再顾虑狠狠砸到地面上之类的严重后果.]]></Value>
+    </Values>
+  </Config>
+  <Config name="landingLeg1">
+    <Values>
+      <Value name="title"><![CDATA[LT-1着陆架]]></Value>
+      <Value name="manufacturer"><![CDATA[运动部件专家组]]></Value>
+      <Value name="description"><![CDATA[它一开始可能是被设计成一个重量级的金属探测器,但是它确实强调了着陆操作中的一个重要事实:你确实不用把地面砸一个洞才能让自己停下来!]]></Value>
+    </Values>
+  </Config>
+  <Config name="largeAdapter2">
+    <Values>
+      <Value name="title"><![CDATA[极限火箭牌转接器第二代]]></Value>
+      <Value name="manufacturer"><![CDATA[极限火箭合资企业]]></Value>
+      <Value name="description"><![CDATA[极限火箭出品的一个短一点的转接器,在一个和它的大哥哥类似的环境下制成.表面涂有童叟无欺的空间防护涂层.]]></Value>
+    </Values>
+  </Config>
+  <Config name="largeAdapter">
+    <Values>
+      <Value name="title"><![CDATA[极限火箭牌转接器]]></Value>
+      <Value name="manufacturer"><![CDATA[极限火箭合资企业]]></Value>
+      <Value name="description"><![CDATA[政府方面的压力和一些法律条文迫使极限火箭最终考虑制作了一款能将自己的产品与它竞争对手的产品连接在一起的转接器.虽然极限火箭的老总十分恨它,但它却是一款十分成功的产品.]]></Value>
+    </Values>
+  </Config>
+  <Config name="largeSolarPanel">
+    <Values>
+      <Value name="title"><![CDATA[铁人 XL太阳能板阵列]]></Value>
+      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="description"><![CDATA[作为可以买到的最大的单个太阳能阵列,铁人XL在具有紧凑的初始大小的同时提供极强的发电能力.]]></Value>
+    </Values>
+  </Config>
+  <Config name="launchClamp1">
+    <Values>
+      <Value name="title"><![CDATA[TT18-A发射稳定增强器]]></Value>
+      <Value name="manufacturer"><![CDATA[O.M.B.爆破企业]]></Value>
+      <Value name="description"><![CDATA[TT18-A稳定增强器使用插进地面的紧固技术来显著地提高航天器在发射前阶段的稳定性.尽管O.M.B.爆破企业过去总是被批评在他们的产品描述中过度使用'高端大气上档次的词语描述一个火箭发射架',没有人会说TT18系列不能像广告中说的那样将火箭紧紧地固定住.产品的使用手册强烈建议使用者将这些设备放置在航天器的最下端,并且在引擎点燃的同时立刻将设备断开,以获得最佳的解锁性能.]]></Value>
+    </Values>
+  </Config>
+  <Config name="linearRcs">
+    <Values>
+      <Value name="title"><![CDATA['随便放'7代线性RCS喷口]]></Value>
+      <Value name="manufacturer"><![CDATA[反应系统有限公司]]></Value>
+      <Value name="description"><![CDATA[对于每个需要RCS推进器的地方,反应系统有限公司都推荐你用上'随便放'7代线性RCS喷口!]]></Value>
+    </Values>
+  </Config>
+  <Config name="liquidEngine1-2">
+    <Values>
+      <Value name="title"><![CDATA[极限火箭'主帆'液体燃料引擎]]></Value>
+      <Value name="manufacturer"><![CDATA[极限火箭合资企业]]></Value>
+      <Value name="description"><![CDATA[一款纯粹为了重型大推力火箭发射而诞生的怪物,它的功率完全可以匹敌一些小国家!]]></Value>
+    </Values>
+  </Config>
+  <Config name="liquidEngine2-2">
+    <Values>
+      <Value name="title"><![CDATA[极限火箭'贵宾犬'液体燃料引擎]]></Value>
+      <Value name="manufacturer"><![CDATA[极限火箭合资企业]]></Value>
+      <Value name="description"><![CDATA[适合在资金紧缺时使用的引擎,减小节流阀后也可以用来烧烤.]]></Value>
+    </Values>
+  </Config>
+  <Config name="liquidEngine2">
+    <Values>
+      <Value name="title"><![CDATA[LV-T45液体燃料引擎]]></Value>
+      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="description"><![CDATA[LV-T45引擎的矢量推力技术是LV-T系列的另一个重大突破.它可以偏转喷口的方向来帮助飞船转向.虽然这些升级让它较之前版本的LV-T系列引擎推力下降了一点.]]></Value>
+    </Values>
+  </Config>
+  <Config name="liquidEngine3">
+    <Values>
+      <Value name="title"><![CDATA[LV-909液体燃料引擎]]></Value>
+      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="description"><![CDATA[909型引擎最开始遭到了航天工程师们的质疑,因为它违背了长久以来的惯例:'推力再大点!'.尽管如此,LV-909型还是找到了它在飞船建造业中的位置,通常被用做最末级或着陆用引擎.]]></Value>
+    </Values>
+  </Config>
+  <Config name="liquidEngineMini">
+    <Values>
+      <Value name="title"><![CDATA[极限火箭 48-7S液体燃料引擎]]></Value>
+      <Value name="manufacturer"><![CDATA[极限火箭合资企业]]></Value>
+      <Value name="description"><![CDATA[48-7S虽然很小,但却拥有着与外表不符的强劲动力.这款引擎提出了大不代表强的新颖观点,至少极限火箭合资企业销售部门的数据是这样显示的....这款引擎的包装盒看起来非常酷,从任何意义上都是.]]></Value>
+    </Values>
+  </Config>
+  <Config name="liquidEngine">
+    <Values>
+      <Value name="title"><![CDATA[LV-T30液体燃料引擎]]></Value>
+      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="description"><![CDATA[虽然由于用途不明确被人批评为'没人用的垃圾',但是LV-T系列的引擎已经证明了自己还是比较可靠的.LV-T30引擎最值得夸耀的一点就是它的故障率低于50%.工程师和LV-T爱好者认为这是它与旧型号相比最主要的改进.]]></Value>
+    </Values>
+  </Config>
+  <Config name="longAntenna">
+    <Values>
+      <Value name="title"><![CDATA[Communotron 16型通讯天线]]></Value>
+      <Value name="manufacturer"><![CDATA[离子-质子同步电子工业]]></Value>
+      <Value name="description"><![CDATA[Communotron 16是一种多功能的轻量级天线,适合一般距离的通信和长距离的备用通信,以及政府秘密窃听行动.]]></Value>
+    </Values>
+  </Config>
+  <Config name="mark3Cockpit">
+    <Values>
+      <Value name="title"><![CDATA[Mk3驾驶舱]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[Mk3驾驶舱是飞机驾驶舱技术的巅峰之作.在一些罕见的撞击Kerbin的异常事件中,驾驶舱将保证按照相关的卫生条例埋葬您的宇航员.]]></Value>
+    </Values>
+  </Config>
+  <Config name="mediumDishAntenna">
+    <Values>
+      <Value name="title"><![CDATA[Comms DTS-M1]]></Value>
+      <Value name="manufacturer"><![CDATA[离子-质子同步电子工业]]></Value>
+      <Value name="description"><![CDATA[DTS-M1是一个完全可部署的通讯和数据传输系统.本产品的设计使其在收起状态时只占用极小的空间.组装时会需要一些天线优化或是踢上几脚以获得最好的性能.]]></Value>
+    </Values>
+  </Config>
+  <Config name="microEngine">
+    <Values>
+      <Value name="title"><![CDATA[LV-1液体燃料引擎]]></Value>
+      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="description"><![CDATA[这TM是啥?给蚂蚁用都嫌小...]]></Value>
+    </Values>
+  </Config>
+  <Config name="miniFuelTank">
+    <Values>
+      <Value name="title"><![CDATA[Oscar-B型燃料箱]]></Value>
+      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="description"><![CDATA[来自探测者动力有限公司的Oscar-B型燃料箱有着十分的紧凑的设计,为小型空间探测器或者小型航天器的后备燃料箱设计.请不要使用冷水洗涤,也请不要在午夜后加注燃料.]]></Value>
+    </Values>
+  </Config>
+  <Config name="miniLandingLeg">
+    <Values>
+      <Value name="title"><![CDATA[LT-5微型着陆架]]></Value>
+      <Value name="manufacturer"><![CDATA[运动部件专家组]]></Value>
+      <Value name="description"><![CDATA[一个为太空探测器或者轻量级登陆器设计的着陆架.基本上是由牙签制成...呃,注意是太空级的牙签.不过无论如何还是小心使用.]]></Value>
+    </Values>
+  </Config>
+  <Config name="mk1pod">
+    <Values>
+      <Value name="title"><![CDATA[Mk1指令舱]]></Value>
+      <Value name="manufacturer"><![CDATA[Kerlington模型火箭与纸制品有限公司]]></Value>
+      <Value name="description"><![CDATA[它最初仅仅是火箭模型论证时使用的一个占位模块.然而全世界科学家一致认为Mk1指挥舱是比它的前辈更安全可靠的选择.现役的很多载具上都能看到它的身影.]]></Value>
+    </Values>
+  </Config>
+  <Config name="mk2Fuselage">
+    <Values>
+      <Value name="title"><![CDATA[Mk2机身航空燃料箱]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[这段舱体采用了最新的大气再入生还技术.很明显在空气中高速运动的物体会变得很热(谁知道呢?!).为了解决这个问题,我们只好在舱体的下部附上了一层不错的隔热砖.]]></Value>
+    </Values>
+  </Config>
+  <Config name="mk2LanderCabin">
+    <Values>
+      <Value name="title"><![CDATA[Mk2着陆舱]]></Value>
+      <Value name="manufacturer"><![CDATA[Sean罐头厂]]></Value>
+      <Value name="description"><![CDATA[这个舒适的舱体拥有两个座位,并且它的重量非常的轻.但是,不要指望它能抵御再入大气层时的冲击,甚至一个喷嚏就能让它散架.]]></Value>
+    </Values>
+  </Config>
+  <Config name="mk2SpacePlaneAdapter">
+    <Values>
+      <Value name="title"><![CDATA[Mk2转 1m转接段]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[这段舱体采用了最新的大气再入生还技术.很明显在空气中高速运动的物体会变得很热(谁知道呢?!).为了解决这个问题,我们只好在舱体的下部附上了一层不错的隔热砖.]]></Value>
+    </Values>
+  </Config>
+  <Config name="mk3Fuselage">
+    <Values>
+      <Value name="title"><![CDATA[Mk3机身航空燃料箱]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[这段舱体采用了最新的大气再入生还技术.很明显在空气中高速运动的物体会变得很热(谁知道呢?!).为了解决这个问题,我们只好在舱体的下部附上了一层不错的隔热砖.]]></Value>
+    </Values>
+  </Config>
+  <Config name="mk3spacePlaneAdapter">
+    <Values>
+      <Value name="title"><![CDATA[Mk3转 Mk2转接段]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[这段舱体采用了最新的大气再入生还技术.很明显在空气中高速运动的物体会变得很热(谁知道呢?!).为了解决这个问题,我们只好在舱体的下部附上了一层不错的隔热砖.]]></Value>
+    </Values>
+  </Config>
+  <Config name="nacelleBody">
+    <Values>
+      <Value name="title"><![CDATA[发动机机舱]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[这个发动机机身的特色是能够压缩进气口的空气,使得更大流量的燃料能够被输送到发动机的燃烧系统.它同时也整合了一个内置的油箱,这让它成为了一个非常实用的选择.C7的工程师向我们保证这款机舱非常安全,并且每台都带有独特的烧灼和凹痕装饰.]]></Value>
+    </Values>
+  </Config>
+  <Config name="noseConeAdapter">
+    <Values>
+      <Value name="title"><![CDATA[鼻锥转接器]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[这是C7航空部门所研发的鼻锥系统(NCS)的基本型号.]]></Value>
+    </Values>
+  </Config>
+  <Config name="noseCone">
+    <Values>
+      <Value name="title"><![CDATA[气动鼻锥]]></Value>
+      <Value name="manufacturer"><![CDATA[歌利亚国家制造厂]]></Value>
+      <Value name="description"><![CDATA[符合空气动力学,够轻,基本上不回爆炸.致所有工作人员:尖锐物品,撞上去很容易受伤.]]></Value>
+    </Values>
+  </Config>
+  <Config name="nuclearEngine">
+    <Values>
+      <Value name="title"><![CDATA[LV-N核火箭引擎]]></Value>
+      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="description"><![CDATA[先不管侧面喷涂着的大大的放射性标志,或者它有放射性的废气,还有很容易过热爆炸的特性,LV-N核火箭引擎还算是无害的...一般来说是的.]]></Value>
+    </Values>
+  </Config>
+  <Config name="parachuteDrogue">
+    <Values>
+      <Value name="title"><![CDATA[Mk25降落伞]]></Value>
+      <Value name="manufacturer"><![CDATA[在路边捡到的]]></Value>
+      <Value name="description"><![CDATA[Mk25降落伞被认为是“风向标”级的降落伞--它占用空间小,部署高度高,并且明显不足以独自阻止你直接重重地砸在地上.但是本产品在重型航天器部署主降落伞之前先使其减速方面很有用.]]></Value>
+    </Values>
+  </Config>
+  <Config name="parachuteLarge">
+    <Values>
+      <Value name="title"><![CDATA[Mk16-XL降落伞]]></Value>
+      <Value name="manufacturer"><![CDATA[在路边捡到的]]></Value>
+      <Value name="description"><![CDATA[Mk16-XL降落伞是一个MK16降落伞的双倍大小改型,并且只有50%的结构强度!]]></Value>
+    </Values>
+  </Config>
+  <Config name="parachuteRadial">
+    <Values>
+      <Value name="title"><![CDATA[Mk2-R径向安装降落伞]]></Value>
+      <Value name="manufacturer"><![CDATA[在路边捡到的]]></Value>
+      <Value name="description"><![CDATA[一个和Mk16-XL类似的降落伞,但是本产品是侧面安装而非连接在某物的顶部.]]></Value>
+    </Values>
+  </Config>
+  <Config name="parachuteSingle">
+    <Values>
+      <Value name="title"><![CDATA[Mk16降落伞]]></Value>
+      <Value name="manufacturer"><![CDATA[在路边捡到的]]></Value>
+      <Value name="description"><![CDATA[Mk16降落伞可能会被一些人认为纯粹是把一些边角废料胡乱缝在一起.事实上本产品就是由优质边角废料精心缝制而成.但是不管怎样,使用Mk16被广泛的接受为一种比自由落体稍微好那么一点的落地方式.]]></Value>
+    </Values>
+  </Config>
+  <Config name="probeCoreCube">
+    <Values>
+      <Value name="title"><![CDATA[QBE探测器核心]]></Value>
+      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="description"><![CDATA[QBE是一款具有立方体的外观,坚固的结构,以及较轻的重量的探测器核心.它还能承受比其他探测器核心更高的温度.其简约的外观甚至吸引了一批现代艺术收藏家.相信我,每个人都爱它.]]></Value>
+    </Values>
+  </Config>
+  <Config name="probeCoreHex">
+    <Values>
+      <Value name="title"><![CDATA[HECS探测器核心]]></Value>
+      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="description"><![CDATA[HECS是广泛运用的OKTO核心的重制版,它更受那些认为'六边形看起来有科技感多了'的设计师们的欢迎.]]></Value>
+    </Values>
+  </Config>
+  <Config name="probeCoreOcto2">
+    <Values>
+      <Value name="title"><![CDATA[OKTO探测器核心2代]]></Value>
+      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="description"><![CDATA[OKTO的一个扁平版本,OKTO2的设计完全没有考虑喜欢拿OKTO一代当椅子的工程师们的感受.]]></Value>
+    </Values>
+  </Config>
+  <Config name="probeCoreOcto">
+    <Values>
+      <Value name="title"><![CDATA[OKTO探测器核心]]></Value>
+      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="description"><![CDATA[OKTO是超棒的新手级别的无人探测器核心,它的简单几何形状和许多平面的设计为在它上面安装各种玩意提供了很大的方便.]]></Value>
+    </Values>
+  </Config>
+  <Config name="probeCoreSphere">
+    <Values>
+      <Value name="title"><![CDATA[Stayputniktan无人舱第一型]]></Value>
+      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="description"><![CDATA[Stayputnik提供了乘员安全问题的终极解决办法.一个轻型的球体里面塞了一些远程接收装置和一个微型陀螺仪以便分清上下左右.因为宇航员根本塞不进这个球体,所以他们也就肯定当然绝对不会受到任何的伤害.只不过该设备还是需要电来工作的,如果没电了就会喜闻乐见地失控.它内置的电池差不多可以让它持续工作十分钟.]]></Value>
+    </Values>
+  </Config>
+  <Config name="probeStackLarge">
+    <Values>
+      <Value name="title"><![CDATA[RC-L01远程控制单元]]></Value>
+      <Value name="manufacturer"><![CDATA[STEADLER建设兵团]]></Value>
+      <Value name="description"><![CDATA[RGU系统的大号版本,是与极限火箭合资企业联合开发出来的.]]></Value>
+    </Values>
+  </Config>
+  <Config name="probeStackSmall">
+    <Values>
+      <Value name="title"><![CDATA[RC-001S远程控制单元]]></Value>
+      <Value name="manufacturer"><![CDATA[STEADLER建设兵团]]></Value>
+      <Value name="description"><![CDATA[拜无所不在的人力资源部门所赐,远程控制单元RGU被开发出来,RGU不仅仅可以控制无人的火箭,还搭载了内置的动量轮,同时抗干扰能力也大大提高.]]></Value>
+    </Values>
+  </Config>
+  <Config name="radialDecoupler1-2">
+    <Values>
+      <Value name="title"><![CDATA[液压析构集流器]]></Value>
+      <Value name="manufacturer"><![CDATA[O.M.B.爆破企业]]></Value>
+      <Value name="description"><![CDATA[自从发现了“集流器”这个词以后,O.M.B.的工程师们觉得这货怎么也得在至少一个产品的名字里用一用(其实它只是个分离器而已).]]></Value>
+    </Values>
+  </Config>
+  <Config name="radialDecoupler2">
+    <Values>
+      <Value name="title"><![CDATA[TT-70径向分离器]]></Value>
+      <Value name="manufacturer"><![CDATA[O.M.B.爆破企业]]></Value>
+      <Value name="description"><![CDATA[TT-70径向分离器是TT-38K分离器的一种扩展型号.为了让组件间的距离变大,它配备了更大的支架结构.]]></Value>
+    </Values>
+  </Config>
+  <Config name="radialDecoupler">
+    <Values>
+      <Value name="title"><![CDATA[TT-38K径向分离器]]></Value>
+      <Value name="manufacturer"><![CDATA[O.M.B.爆破企业]]></Value>
+      <Value name="description"><![CDATA[TT-38K径向分离器,和其他的分离器一样,配备有(但愿吧)少量炸药,用于炸断其自身的结构连接以及其他什么连接上它的玩意.]]></Value>
+    </Values>
+  </Config>
+  <Config name="radialEngineBody">
+    <Values>
+      <Value name="title"><![CDATA[径向发动机机身]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[这款机身整合了一个侧面的进气口和一个尺寸适中的燃料箱.所以它能同时为吸气引擎提供燃料和燃烧所需的空气.这使得它成为了飞机设计中一个非常方便的解决方案.C7的发言人坚持表示这款机身一直就长这个样子,而且是一个全新的设计,最重要的是它绝对不是把一个散热器罩子翻了过来.]]></Value>
+    </Values>
+  </Config>
+  <Config name="radialEngineMini">
+    <Values>
+      <Value name="title"><![CDATA[LV-1R液体燃料引擎]]></Value>
+      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="description"><![CDATA[为了安抚那些由于LV-1推力太过弱小而愤怒的工程师们,侧面安装的LV-1R提供了一个更吸引人的解决方案:'多放几个就好啦...'.安装时不要指向面部.]]></Value>
+    </Values>
+  </Config>
+  <Config name="radialLiquidEngine1-2">
+    <Values>
+      <Value name="title"><![CDATA[极限火箭 55型径向安装液体燃料引擎]]></Value>
+      <Value name="manufacturer"><![CDATA[极限火箭合资企业]]></Value>
+      <Value name="description"><![CDATA[一位足够疯狂的工程师设计并制造革命性的新型发动机.在一番疯狂的研究后,研究者们转而求助于引擎业的泰斗--著名的工程师Eumon Kerman.他的工作最终悲惨地结束了,而这就是我们最后的成果.]]></Value>
+    </Values>
+  </Config>
+  <Config name="radialRCSTank">
+    <Values>
+      <Value name="title"><![CDATA[云层-V球形单元推进剂罐]]></Value>
+      <Value name="manufacturer"><![CDATA[云层公司]]></Value>
+      <Value name="description"><![CDATA[不管这玩意的名字有多花哨,云层-V确实非常简洁---一个小型的,并能侧挂安装的RCS燃料罐.]]></Value>
+    </Values>
+  </Config>
+  <Config name="ramAirIntake">
+    <Values>
+      <Value name="title"><![CDATA[冲压进气口]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[不同于普通的进气口,这种高性能的进气口内置了预压气机,即使在很高的高空也能为喷气式引擎提供充足的空气.]]></Value>
+    </Values>
+  </Config>
+  <Config name="rcsTankMini">
+    <Values>
+      <Value name="title"><![CDATA[FL-R10-RCS燃料罐]]></Value>
+      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="description"><![CDATA[FL-R10是为小型探测器而研制的迷你型RCS燃料罐,RCS燃料容量也很低.]]></Value>
+    </Values>
+  </Config>
+  <Config name="rcsTankRadialLong">
+    <Values>
+      <Value name="title"><![CDATA[云层-V柱形单元推进剂罐]]></Value>
+      <Value name="manufacturer"><![CDATA[云层公司]]></Value>
+      <Value name="description"><![CDATA[经过多年的研究与开发,云层公司对他们的云层-V产品线进行了革命性的升级-圆柱形罐体.它能储存适量的RCS喷口单元推进剂.]]></Value>
+    </Values>
+  </Config>
+  <Config name="rocketNoseCone">
+    <Values>
+      <Value name="title"><![CDATA[Mk7型保护性火箭鼻锥]]></Value>
+      <Value name="manufacturer"><![CDATA[歌利亚国家制造厂]]></Value>
+      <Value name="description"><![CDATA[一个非常大的用来保护火箭暴露区域的鼻锥.]]></Value>
+    </Values>
+  </Config>
+  <Config name="roverBody">
+    <Values>
+      <Value name="title"><![CDATA[探测者动力车辆主体]]></Value>
+      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="description"><![CDATA[一款多用途的外壳组件,本来是打算用来作为各种航天器的控制器的---尤其是探测车.某人在维护时把一枚电池忘在里面了,所以它也储存了一些电力.]]></Value>
+    </Values>
+  </Config>
+  <Config name="roverWheel1">
+    <Values>
+      <Value name="title"><![CDATA[RoveMax-M1型车轮]]></Value>
+      <Value name="manufacturer"><![CDATA[Kerbal动力有限责任公司]]></Value>
+      <Value name="description"><![CDATA[数年以来人们纠结于没有合适的动力车轮来设计一款实用的探索车.如今刚成立的柯博动力的有限责任小公司设计并制作了人们所祈求的RoveMax-M1型车轮.]]></Value>
+    </Values>
+  </Config>
+  <Config name="roverWheel2">
+    <Values>
+      <Value name="title"><![CDATA[RoveMax-S2型车轮]]></Value>
+      <Value name="manufacturer"><![CDATA[Kerbal动力有限责任公司]]></Value>
+      <Value name="description"><![CDATA[在发现无人踏足小型探索车市场之后,Kerbal动力有限责任公司迅速的抓住了时机推出了RoveMax-S2型车轮-适合无人或小型载人载具.]]></Value>
+    </Values>
+  </Config>
+  <Config name="roverWheel3">
+    <Values>
+      <Value name="title"><![CDATA[RoveMax-XL3型车轮]]></Value>
+      <Value name="manufacturer"><![CDATA[Kerbal动力有限责任公司]]></Value>
+      <Value name="description"><![CDATA[RoveMax-XL3型车轮是由Kerbal动力有限责任公司的研究开发团队在一年半的绝密开发中完成的.当它被放在公司董事长面前的时候,董事长惊吓过度,惨叫一声'为什么'后吐血而亡.]]></Value>
+    </Values>
+  </Config>
+  <Config name="rtg">
+    <Values>
+      <Value name="title"><![CDATA[PB-NUK放射性同位素热发电机]]></Value>
+      <Value name="manufacturer"><![CDATA[离子-质子同步电子工业]]></Value>
+      <Value name="description"><![CDATA[通过对“怖-238”自然衰变的利用,这个简单雅致的发电器可以在几十年中提供持续、稳定的电力.本产品同时还是防水的,即使放到洗碗机里都没问题.]]></Value>
+    </Values>
+  </Config>
+  <Config name="sasModule">
+    <Values>
+      <Value name="title"><![CDATA[内嵌式动量轮]]></Value>
+      <Value name="manufacturer"><![CDATA[在路边捡到的]]></Value>
+      <Value name="description"><![CDATA[中等规格的动量轮.该设备包含高速旋转的飞轮以产生可控的扭矩帮助飞船转向,代价是会消耗一些电量.]]></Value>
+    </Values>
+  </Config>
+  <Config name="science_module">
+    <Values>
+      <Value name="title"><![CDATA[SC-9001科研舱·小]]></Value>
+      <Value name="manufacturer"><![CDATA[实践工程小组]]></Value>
+      <Value name="description"><![CDATA[SC-9001是一个尖端而独立的实验室.你想知道某个东西在零重力空间会发生什么吗?或者,你考虑过更有意义的问题吗?比如如果我把这个部件暴露在严酷的恒星辐射和无情的真空中会发生什么?附赠免费的记事本.建议4-8岁儿童使用.内含小零件,不适合幼儿使用.]]></Value>
+    </Values>
+  </Config>
+  <Config name="seatExternalCmd">
+    <Values>
+      <Value name="title"><![CDATA[EAS-1外部驾驶座椅]]></Value>
+      <Value name="manufacturer"><![CDATA[Kerlington模型火箭与纸制品有限公司]]></Value>
+      <Value name="description"><![CDATA[EAS-1外部驾驶座椅能提供所有操作飞船需要的设备,与一个指令舱毫无二致.不过没有那些毫无意义的诸如'加压'或'安全带'之类的功能.它就是一个骨架,彻彻底底的最高效设计.]]></Value>
+    </Values>
+  </Config>
+  <Config name="sensorAccelerometer">
+    <Values>
+      <Value name="title"><![CDATA[Double-C振动加速计]]></Value>
+      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="description"><![CDATA[这款设备内置一个极度敏感的加速度传感器,当正确的安装在稳定的表面上后能侦测并记录准确的地震信息.里面的加速度计在飞行中也能使用,因此Double-C也被用于测量在飞行中的加速度.震动或暴露在真空中导致的损坏不在保修范围内.]]></Value>
+    </Values>
+  </Config>
+  <Config name="sensorBarometer">
+    <Values>
+      <Value name="title"><![CDATA[PresMat气压计]]></Value>
+      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="description"><![CDATA[一款用来测量当地气压的仪器,暴露在空气中导致的损坏不在保修范围内.]]></Value>
+    </Values>
+  </Config>
+  <Config name="sensorGravimeter">
+    <Values>
+      <Value name="title"><![CDATA[GRAVMAX负引力子传感器]]></Value>
+      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="description"><![CDATA[一种能捕捉并测量负引力子的仪器,用来测量重力场的精确强度.用本仪器测量正引力子导致的损坏不在保修范围内.]]></Value>
+    </Values>
+  </Config>
+  <Config name="sensorThermometer">
+    <Values>
+      <Value name="title"><![CDATA[2HOT温度计]]></Value>
+      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="description"><![CDATA[这款温度计绝对不是从某个路边摊买回来然后装了几根电线的产物.如果有工程师承认这东西就是从某个路边摊买回来然后装了几根电线那就不在保修范围内.]]></Value>
+    </Values>
+  </Config>
+  <Config name="sepMotor1">
+    <Values>
+      <Value name="title"><![CDATA[I型分离火箭]]></Value>
+      <Value name="manufacturer"><![CDATA[近拱点公司火箭供应部]]></Value>
+      <Value name="description"><![CDATA[一个貌似装满了固体燃料的小罐子.尽管在推进技术这一块不算什么大进步,但Kerbal科学家仍逐渐发现了一些I型分离火箭的用途,比如说将一个物体推开.为了最好的结果,安装时别忘了添加一些倾角.]]></Value>
+    </Values>
+  </Config>
+  <Config name="smallCtrlSrf">
+    <Values>
+      <Value name="title"><![CDATA[小控制翼面]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[想要在你的航空器表面各种奇怪的地方装一个升降舵,方向舵,或者干脆就只是想放点装饰品?那这个部件就特别适合你了!用几乎全新的工业部件制造!因暴露在真空中导致的损坏或失效不在保修范围内.]]></Value>
+    </Values>
+  </Config>
+  <Config name="smallHardpoint">
+    <Values>
+      <Value name="title"><![CDATA[小号承重点]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[一个支撑发动机的结构吊架.该部件被设计为能够适配机身和船身.这是结构吊架的一个小的变体,通常配合较小的发动机使用.]]></Value>
+    </Values>
+  </Config>
+  <Config name="smallRadialEngine">
+    <Values>
+      <Value name="title"><![CDATA[极限火箭 24-77型液体燃料引擎]]></Value>
+      <Value name="manufacturer"><![CDATA[极限火箭合资企业]]></Value>
+      <Value name="description"><![CDATA[小引擎有大用途!它特别适合那些无法在侧边安装更大引擎的飞船.尽管如此,你仍需要许多这玩意来推动更大的载荷.]]></Value>
+    </Values>
+  </Config>
+  <Config name="solarPanels1">
+    <Values>
+      <Value name="title"><![CDATA[SP-W-2x3太阳能电池板]]></Value>
+      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="description"><![CDATA[探测者动力出品的太阳能电池板是电力能源行业的世界标准,飞向宇宙浩瀚无垠.SP系列还附带了保护罩,在不需要电池板时可以起到收回保护作用.]]></Value>
+    </Values>
+  </Config>
+  <Config name="solarPanels2">
+    <Values>
+      <Value name="title"><![CDATA[SP-L-1x6太阳能电池板]]></Value>
+      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="description"><![CDATA[另一种SP系列的太阳能电池板.]]></Value>
+    </Values>
+  </Config>
+  <Config name="solarPanels3">
+    <Values>
+      <Value name="title"><![CDATA[OX-4W-2x3太阳能电池板]]></Value>
+      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="description"><![CDATA[OX-4系列的设计和SP系列差不多,只是没有那些很沉的罩子.]]></Value>
+    </Values>
+  </Config>
+  <Config name="solarPanels4">
+    <Values>
+      <Value name="title"><![CDATA[OX-4L-1x6太阳能电池板]]></Value>
+      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="description"><![CDATA[OX-4系列的设计和SP系列差不多,只是没有那些很沉的罩子.]]></Value>
+    </Values>
+  </Config>
+  <Config name="solarPanels5">
+    <Values>
+      <Value name="title"><![CDATA[OX-STAT太阳能电池板]]></Value>
+      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="description"><![CDATA[OX-STAT太阳能电池板是一块没有太阳跟踪和折叠展开功能的简单的板子.因此它价格便宜量又足,而且很轻.]]></Value>
+    </Values>
+  </Config>
+  <Config name="solidBooster1-1">
+    <Values>
+      <Value name="title"><![CDATA[极限火箭 BACC固体燃料助推器]]></Value>
+      <Value name="manufacturer"><![CDATA[极限火箭合资企业]]></Value>
+      <Value name="description"><![CDATA[它填满了新型的,同时更易爆的燃料.BACC有一个不错的价格以及与之相符不怎么靠谱的性能.]]></Value>
+    </Values>
+  </Config>
+  <Config name="solidBooster">
+    <Values>
+      <Value name="title"><![CDATA[RT-10固体燃料助推器]]></Value>
+      <Value name="manufacturer"><![CDATA[在路边捡到的]]></Value>
+      <Value name="description"><![CDATA[尽管某些人认为它只比'装满炸弹的垃圾桶'强上那么一点点,RT-10仍在许多节省资金比成员生命更重要的太空计划中被广泛使用.小心使用,因为固体燃料发动机一旦点燃将在燃料耗尽前无法被关闭.]]></Value>
+    </Values>
+  </Config>
+  <Config name="spotLight1">
+    <Values>
+      <Value name="title"><![CDATA[照明者 Mk1]]></Value>
+      <Value name="manufacturer"><![CDATA[Rokea股份有限公司]]></Value>
+      <Value name="description"><![CDATA[Rokea开发的照明者Mk1能向前方射出很强烈的光束,增加被照到的地区的亮度(它其实就是一个巨大的闪光灯).]]></Value>
+    </Values>
+  </Config>
+  <Config name="spotLight2">
+    <Values>
+      <Value name="title"><![CDATA[照明者 Mk2]]></Value>
+      <Value name="manufacturer"><![CDATA[Rokea股份有限公司]]></Value>
+      <Value name="description"><![CDATA[照明者Mk2射出的是一种超宽的光束,亮度较低,照明距离也有限但能够照亮很宽广的一片区域.]]></Value>
+    </Values>
+  </Config>
+  <Config name="stackBiCoupler">
+    <Values>
+      <Value name="title"><![CDATA[TVR-200双转接口]]></Value>
+      <Value name="manufacturer"><![CDATA[O.M.B.爆破企业]]></Value>
+      <Value name="description"><![CDATA[TVR-200双转接口能轻易的将一个火箭变成两个---且不会引起以正常(爆炸)的方式这么做的灾难性后果.]]></Value>
+    </Values>
+  </Config>
+  <Config name="stackDecouplerMini">
+    <Values>
+      <Value name="title"><![CDATA[TR-2V分离环]]></Value>
+      <Value name="manufacturer"><![CDATA[O.M.B.爆破企业]]></Value>
+      <Value name="description"><![CDATA[TR-2V分离环是最小的分离设备,广泛运用于小型火箭和微型深空探测器.]]></Value>
+    </Values>
+  </Config>
+  <Config name="stackDecoupler">
+    <Values>
+      <Value name="title"><![CDATA[TR-18A分离环]]></Value>
+      <Value name="manufacturer"><![CDATA[O.M.B.爆破企业]]></Value>
+      <Value name="description"><![CDATA[TR-18A分离环配有少量的炸药(希望只是少量),能把它和它所连接的东西分开.箭头所指的方向是分离的方向(分离环将留在另一部分上).]]></Value>
+    </Values>
+  </Config>
+  <Config name="stackPoint1">
+    <Values>
+      <Value name="title"><![CDATA[BZ-52径向安装点]]></Value>
+      <Value name="manufacturer"><![CDATA[在Clamp-O-Tron工厂后面捡到的]]></Value>
+      <Value name="description"><![CDATA[本来是一个次品Clamp-O-Tron对接口,但工程师们很快发现它作为一个结构组件非常有用.]]></Value>
+    </Values>
+  </Config>
+  <Config name="stackQuadCoupler">
+    <Values>
+      <Value name="title"><![CDATA[TVR-2160C-Mk2四转接口]]></Value>
+      <Value name="manufacturer"><![CDATA[O.M.B.爆破企业]]></Value>
+      <Value name="description"><![CDATA[什么是比三转接口更丧心病狂的东西呢?当然是四转接口了!不过一定要搞清楚这个四转接口不包含分离器的功能,也不能用来为火箭分级就好.]]></Value>
+    </Values>
+  </Config>
+  <Config name="stackSeparatorBig">
+    <Values>
+      <Value name="title"><![CDATA[TR-XL分段器]]></Value>
+      <Value name="manufacturer"><![CDATA[O.M.B.爆破企业]]></Value>
+      <Value name="description"><![CDATA[TR-XL分段器是O.M.B生产的最大型的分段器,用来将最庞大的火箭一分为二.和分离环不同,分段器会将所有与它连接的东西都分离出去.因此也就不必再纠结到底应该把哪面朝上的问题了,不过不要太过于依赖它就好.]]></Value>
+    </Values>
+  </Config>
+  <Config name="stackSeparatorMini">
+    <Values>
+      <Value name="title"><![CDATA[TR-2C分段器]]></Value>
+      <Value name="manufacturer"><![CDATA[O.M.B.爆破企业]]></Value>
+      <Value name="description"><![CDATA[和TR-18D差不多,TR-2C也是用来把火箭分成两段的,只不过这款的尺寸更加的短小精悍.说明书上说内置的爆炸物仅够将两端连接的物体'安全可控'地分离出去,但快递员是穿着全套防爆服把它送来的,所以还是小心点轻拿轻放吧.]]></Value>
+    </Values>
+  </Config>
+  <Config name="stackSeparator">
+    <Values>
+      <Value name="title"><![CDATA[TR-18D分段器]]></Value>
+      <Value name="manufacturer"><![CDATA[O.M.B.爆破企业]]></Value>
+      <Value name="description"><![CDATA[和分离环不同,分段器是将其两端的东西都分离出去(分离后变成三段).这款新科技广泛受到各地火箭学家的好评.它是用来制造一场人工烟花的好选择.]]></Value>
+    </Values>
+  </Config>
+  <Config name="stackTriCoupler">
+    <Values>
+      <Value name="title"><![CDATA[TVR-1180C-Mk1三转接口]]></Value>
+      <Value name="manufacturer"><![CDATA[O.M.B.爆破企业]]></Value>
+      <Value name="description"><![CDATA[三转接口!如果你的大竹笋还不够丧心病狂的话,那这就是你需要的神器!不过一定要搞清楚这个三转接口不包含分离器的功能,也不能用来为火箭分级就好.]]></Value>
+    </Values>
+  </Config>
+  <Config name="standardNoseCone">
+    <Values>
+      <Value name="title"><![CDATA[标准鼻锥]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[一个符合空气动力学的鼻锥.]]></Value>
+    </Values>
+  </Config>
+  <Config name="stationHub">
+    <Values>
+      <Value name="title"><![CDATA[极限火箭牌 HubMax多向连接器]]></Value>
+      <Value name="manufacturer"><![CDATA[极限火箭合资企业]]></Value>
+      <Value name="description"><![CDATA[当HubMax多向连接器在第三届火箭和爆炸节上揭幕时,引起的震惊使得一些赞助商们当场休克而死.'我这辈子一直以为火箭部件只能向一个方向放置---向上!但是极限火箭今天打破了这种说法'-一名不愿意透露姓名的幸存者说.毫无疑问,这个部件很有可能在建造技术上引发一场革命.配套使用的对接口另售.]]></Value>
+    </Values>
+  </Config>
+  <Config name="structuralIBeam1">
+    <Values>
+      <Value name="title"><![CDATA[M-Beam-650工字钢条]]></Value>
+      <Value name="manufacturer"><![CDATA[Dinkelstein Kerman建材超市]]></Value>
+      <Value name="description"><![CDATA[M-Beam-200工字钢的一个更宽的放大版.伙计,Dinkelstein就是这么喜欢变种.]]></Value>
+    </Values>
+  </Config>
+  <Config name="structuralIBeam2">
+    <Values>
+      <Value name="title"><![CDATA[M-Beam-200工字钢条]]></Value>
+      <Value name="manufacturer"><![CDATA[Dinkelstein Kerman建材超市]]></Value>
+      <Value name="description"><![CDATA[由Dinkelstein亲自手工制造,M-Beam-200出色地让火箭和摩天大楼变得更相似.]]></Value>
+    </Values>
+  </Config>
+  <Config name="structuralIBeam3">
+    <Values>
+      <Value name="title"><![CDATA[M-Beam-200工字钢袖珍版]]></Value>
+      <Value name="manufacturer"><![CDATA[Dinkelstein Kerman建材超市]]></Value>
+      <Value name="description"><![CDATA[由Dinkelstein亲自手工制造,M-Beam-200出色地让火箭和摩天大楼变得更相似.这个部件长度是普通版本的一半,可以建造较小的摩天大楼和/或火箭.]]></Value>
+    </Values>
+  </Config>
+  <Config name="structuralMiniNode">
+    <Values>
+      <Value name="title"><![CDATA[这不是极限火箭牌的微型连接点]]></Value>
+      <Value name="manufacturer"><![CDATA[Dinkelstein Kerman建材超市]]></Value>
+      <Value name="description"><![CDATA[Dinkelstein Kerman建材超市坚决否认由这个产品和一个来自极限火箭牌的某产品的相似性引发的有关商业间谍活动的任何和一切指控.]]></Value>
+    </Values>
+  </Config>
+  <Config name="structuralPanel1">
+    <Values>
+      <Value name="title"><![CDATA[M-1x1结构面板]]></Value>
+      <Value name="manufacturer"><![CDATA[Dinkelstein Kerman建材超市]]></Value>
+      <Value name="description"><![CDATA[一个坚固的金属板,非常适合建造各种东西.]]></Value>
+    </Values>
+  </Config>
+  <Config name="structuralPanel2">
+    <Values>
+      <Value name="title"><![CDATA[M-2x2结构面板]]></Value>
+      <Value name="manufacturer"><![CDATA[Dinkelstein Kerman建材超市]]></Value>
+      <Value name="description"><![CDATA[这个部件由四个M-1x1排列成2x2的布局,并用万能胶粘连起来构成.]]></Value>
+    </Values>
+  </Config>
+  <Config name="structuralPylon">
+    <Values>
+      <Value name="title"><![CDATA[结构吊架]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[一个支撑引擎的结构吊架.该部件被设计为能够适配机身和船身.配备应急爆炸螺栓,能够在火灾或灾难性故障的情况下分离喷气式发动机.(不在保修范围内)]]></Value>
+    </Values>
+  </Config>
+  <Config name="structuralWing">
+    <Values>
+      <Value name="title"><![CDATA[结构翼]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[这个机翼由机翼部件的边角料制作而成.看起来'九成新'.预期用途包括非常大的鸭翼和更大的三角翼的前缘.]]></Value>
+    </Values>
+  </Config>
+  <Config name="strutConnector">
+    <Values>
+      <Value name="title"><![CDATA[EAS-4支柱连接器]]></Value>
+      <Value name="manufacturer"><![CDATA[Kerlington模型火箭与纸制品有限公司]]></Value>
+      <Value name="description"><![CDATA[支柱连接器被许多航天器工程师们高度重视,因为它们在构建更加坚固的航天器中有很大帮助.当连接器两端都连接上之后,一条连接梁会将两个端点相连,利用它可以建造更坚固(且更重)的东西.]]></Value>
+    </Values>
+  </Config>
+  <Config name="strutCube">
+    <Values>
+      <Value name="title"><![CDATA[立方八角支柱]]></Value>
+      <Value name="manufacturer"><![CDATA[支柱公司]]></Value>
+      <Value name="description"><![CDATA[现在,随着科技的进步,支柱公司为您带来立方八角支柱--它就像一个普通的八角支柱,但它是立方的!]]></Value>
+    </Values>
+  </Config>
+  <Config name="strutOcto">
+    <Values>
+      <Value name="title"><![CDATA[八角支柱]]></Value>
+      <Value name="manufacturer"><![CDATA[支柱公司]]></Value>
+      <Value name="description"><![CDATA[支柱公司生产:八角支柱!用它们来安装停车标志或章鱼.]]></Value>
+    </Values>
+  </Config>
+  <Config name="sweptWing">
+    <Values>
+      <Value name="title"><![CDATA[后掠翼]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[后掠翼原型部件.由轻质合成材料制成.保证能产生升力,但不保证机组乘员人身安全.]]></Value>
+    </Values>
+  </Config>
+  <Config name="tailfin">
+    <Values>
+      <Value name="title"><![CDATA[尾翼]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[此尾翼已通过本局的专利P.A.S系统(纸飞机模拟系统)的大规模测试.此尾翼的尖角与锋利切面已被磨钝,以防止出现安装人员意外减员等事故.]]></Value>
+    </Values>
+  </Config>
+  <Config name="telescopicLadderBay">
+    <Values>
+      <Value name="title"><![CDATA[Telus-LV舱外移动辅助装置]]></Value>
+      <Value name="manufacturer"><![CDATA[Rokea股份有限公司]]></Value>
+      <Value name="description"><![CDATA[Telus-LV-舱外移动辅助装置带有先进的伸缩延展技术.建议载重:1.5个Kerbal宇航员.]]></Value>
+    </Values>
+  </Config>
+  <Config name="telescopicLadder">
+    <Values>
+      <Value name="title"><![CDATA[Telus垂直机动装置]]></Value>
+      <Value name="manufacturer"><![CDATA[Rokea股份有限公司]]></Value>
+      <Value name="description"><![CDATA[Telus-垂直机动装置带有先进的伸缩延展技术,建议载重:0.5个Kerbal宇航员.]]></Value>
+    </Values>
+  </Config>
+  <Config name="toroidalAerospike">
+    <Values>
+      <Value name="title"><![CDATA[Aerospike环形喷管引擎]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[Aerospike环形喷管引擎是C7航空部门产品的重大突破.虽然比以前的型号更重,但更重的喷嘴也使得他在燃料的燃烧效率上达到了新的高度.]]></Value>
+    </Values>
+  </Config>
+  <Config name="toroidalFuelTank">
+    <Values>
+      <Value name="title"><![CDATA[ROUND-8环状燃料罐]]></Value>
+      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="description"><![CDATA[一个形状怪异(但无疑是非常方便)的燃料罐.]]></Value>
+    </Values>
+  </Config>
+  <Config name="trussAdapter">
+    <Values>
+      <Value name="title"><![CDATA[模块化梁段转换器]]></Value>
+      <Value name="manufacturer"><![CDATA[Maxo建筑玩具公司]]></Value>
+      <Value name="description"><![CDATA[这个部件允许您连接'模块化梁段'部件到标准的1.25m连接点.]]></Value>
+    </Values>
+  </Config>
+  <Config name="trussPiece1x">
+    <Values>
+      <Value name="title"><![CDATA[模块化梁段]]></Value>
+      <Value name="manufacturer"><![CDATA[Maxo建筑玩具公司]]></Value>
+      <Value name="description"><![CDATA[新品!用'模块化梁段'建造您梦想中的结构!]]></Value>
+    </Values>
+  </Config>
+  <Config name="trussPiece3x">
+    <Values>
+      <Value name="title"><![CDATA[模块化梁段 XL]]></Value>
+      <Value name="manufacturer"><![CDATA[Maxo建筑玩具公司]]></Value>
+      <Value name="description"><![CDATA[现在更大了!建造更远大的梦想中更大的结构吧!]]></Value>
+    </Values>
+  </Config>
+  <Config name="turboFanEngine">
+    <Values>
+      <Value name="title"><![CDATA[涡轮喷气式引擎]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[一种利用航天级材料制造的高性能涡轮式喷气引擎.因利用了最新的矢量推进及压气技术,这款引擎被设计为在高空高速下拥有更好的操作性,C7航空部门的工程师们也向我们保证一旦达到高空它就一定会因失压而停机.]]></Value>
+    </Values>
+  </Config>
+  <Config name="wheelMed">
+    <Values>
+      <Value name="title"><![CDATA[TR-2L加强车轮]]></Value>
+      <Value name="manufacturer"><![CDATA[Kerbal动力有限责任公司]]></Value>
+      <Value name="description"><![CDATA[TR-2L是一款极为耐用的车轮,能帮助中等尺寸的载具通过大多数地形.特殊强化的轮胎确保在任何路面上都有强劲的抓地力,带来极为可靠的操作体验并显著降低醉驾飚车的安全风险.]]></Value>
+    </Values>
+  </Config>
+  <Config name="wingConnector">
+    <Values>
+      <Value name="title"><![CDATA[机翼连接器]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[轻薄的翼形板子.使用后果自负.]]></Value>
+    </Values>
+  </Config>
+  <Config name="winglet3">
+    <Values>
+      <Value name="title"><![CDATA[高级三角小翼]]></Value>
+      <Value name="manufacturer"><![CDATA[Kerlington模型火箭与纸制品有限公司]]></Value>
+      <Value name="description"><![CDATA[高级三角小翼是一个装配着小型副翼的大型气动面.它的超轻型结构提供了比AV-R8小翼更多的升力,但是那小得可怜的副翼则会让它的转向极其缓慢.]]></Value>
+    </Values>
+  </Config>
+  <Config name="winglet">
+    <Values>
+      <Value name="title"><![CDATA[AV-T1型小翼]]></Value>
+      <Value name="manufacturer"><![CDATA[在路边捡到的]]></Value>
+      <Value name="description"><![CDATA[]]></Value>
+    </Values>
+  </Config>
+  <Config name="xenonTankRadial">
+    <Values>
+      <Value name="title"><![CDATA[PB-X50R氙气罐]]></Value>
+      <Value name="manufacturer"><![CDATA[在路边捡到的]]></Value>
+      <Value name="description"><![CDATA[X50R是一个小容量氙气罐,延长离子推进航天器的寿命的理想选择.]]></Value>
+    </Values>
+  </Config>
+  <Config name="xenonTank">
+    <Values>
+      <Value name="title"><![CDATA[PB-X150氙气罐]]></Value>
+      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="description"><![CDATA[虽然大部分KSC员工不会念'氙'这个字,但当被告知如何正确发音后,他们都同意'氙'字听起来非常酷---所以他们尽了最大努力把它当作了燃料来使.]]></Value>
+    </Values>
+  </Config>
+  <Config name="omsEngine">
+    <Values>
+      <Value name="title"><![CDATA[O-10单组元推进剂引擎]]></Value>
+      <Value name="manufacturer"><![CDATA[反应系统有限公司]]></Value>
+      <Value name="description"><![CDATA[O-10引擎刚面世的时候,舆论普遍认为这想法早该有人提出来了.这弄得反应系统公司的员工们都很尴尬,因为这次他们好不容易才按日程准时完工交了货.这款引擎的运行受主发动机节流阀控制,但消耗的并非传统的液体燃料和氧化剂,而是RCS使用的单组元燃料.]]></Value>
+    </Values>
+  </Config>
+  <Config name="vernierEngine">
+    <Values>
+      <Value name="title"><![CDATA[Vernor引擎]]></Value>
+      <Value name="manufacturer"><![CDATA[反应系统有限公司]]></Value>
+      <Value name="description"><![CDATA[VR-N1ER,Veer节速器,或者叫做Vernor引擎,是一款用于控制飞行高度的推进器.这些小引擎与RCS控制部分直接相连,但使用的推进剂是液体燃料和氧化剂,这使得其推力明显比传统单组元燃料RCS推进器要大得多.当然相比之下这种推进器也要比标准RCS推进器重得多,而且向外的喷口只有一个,不过权衡一下以后也算值了.]]></Value>
+    </Values>
+  </Config>
+
+
+  <!--公司介绍汉化-->
+  <Config url="Squad/Agencies/Agents/Dinkelstein Kerman's Construction Emporium" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[在某些意义上, Dinkelstein Kerman已经成为航天产业中的传奇人物, 这主要是因为他坚称, 自己在有史可考的最早完整飞行器出现年代之前就已经开始建造和试飞航天器了. 这导致了他和Kerbin世界第一纪录保持协会之间的一系列口水仗和长时间的尴尬局面. 当然尽管如此, Dinklestein家的超市还是作为一家老牌传统企业而久负盛名, 他们的产品在老掉牙程度这方面, 也确实比光顾他们的客户要靠谱多了.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/Experimental Engineering Group" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[实践工程小组是一家典型的新兴公司: 超低预算和严格得吓死人的交付期限是他们的工作日常. 虽然资历尚浅, 但实践工程小组确实开了个好头, 迅速在业界站稳了脚跟, 这主要得归功于他们寓教于乐的产品, SC-9001小型科学实验工具箱. 当然尽管他们竭尽全力, 还是没能摆脱因为早期的一些产品事故造成的负面舆论, 其中有一次事故毁掉了他们生产的一台设备, 和一只被研发中心的科学家当宠物养着的小动物. 据说此事之后公司对可能接触自家产品的一切物品的安全性变得极度神经过敏, 连自家的Logo都做了圆角处理.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/FLOOYD Dynamics Research Labs" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[FLOOYD实验室长久以来一直只专注于一项研究工作, 而且这项研究也确实是可行的: 把液体从一个地方抽到另一个地方. 他们的主打产品, FTX-2燃料管, 是多年的研究与无数小绿人们的辛勤劳动的结晶, 这东西可以传输几乎任何物质, 无论这物质有多冷或者多粘稠还是多容易挥发都没问题. 公司因为对业界的这项重大技术贡献而名声大噪, 广受各界好评. 当然已经几乎没什么人记得了, 当年他们的第一款产品FTX-1曾经因为一个小而麻烦的问题而遭遇重挫, 就是这东西虽然输送液体很流畅, 但是流向老是搞错.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/Integrated Integrals" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[这家小公司确实缺乏资历名气也不大, 完全是靠产品自身的魅力来吸引客户. 他们的第一款产品是那款重得要命的移动处理实验室, 据小道消息称, 这东西一开始是被用作某种实验中的燃料配方的移动处理工厂而研发, 而那个配方很可能是非法的, 据说效果比现有的任何推进剂都要强力, 成品带有某种独特的蓝色. 当然以上传言都还没被证实或者证伪, 神秘的蓝色燃料也没有被任何可靠的消息来源目击过. 虽然他们对这些流言一而再再而三地予以否认, 这家公司还是整天被各种(应该是莫名其妙的)恶评所围绕. 管理层一直在用给员工加薪 -- 甚至加得远高于同类型企业 -- 这样的方法来试图扭转公众印象, 目前看来收效甚微.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/Ionic Symphonic Protonic Electronics" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[航天器电子设备产业的领军品牌之一, 能得到这名号可不只是因为名字听起来很酷. 离子-质子同步电子工业有一整条完善的产品线, 涵盖面从简单的通讯设备到手工磨制的精密齿轮都有. 这使得他们的产品在航空工程师之间大受欢迎, 也因此和探索者动力公司那群贯彻实用主义的家伙结下了深仇大恨.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/Jebediah Kerman's Junkyard and Spacecraft Parts Co" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[在看似无法克服的障碍面前永不动摇勇往直前, 从这股气势方面来说, Jeb的垃圾场堪称公认的业界典范. 这家低调的垃圾场公司, 在他们小小的堆放场里迈出了小绿人种族向遥远深空前进的最初步伐之后, 如今其规模已经为了适应日益增长的航天产业需求而大幅扩张, 变成了一片大型垃圾场. Jeb的垃圾场公司已在Kerbin家喻户晓, 不止是"受欢迎"那么简单, 而是已经成为行业标杆. 这家企业代表着小绿人们永无止尽挑战极限的精神与动力, 虽然这种精神好像有点太不把万有引力放在眼里了.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/Kerbin World-Firsts Record-Keeping Society" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[Kerbin世界第一纪录保持协会是一个非营利性组织, 他们全心全意专注于记录和建档保存一切领域的"第一次"事件, 以此来奖赏那些为前人不敢为之事, 尤其是在太空探索领域实现壮举的人物. 不过实际上, 他们的工作比一般人想象的要有挑战性得多, 因为在某些赛事中拿到"第一"所带来的威望, 对于那些垂涎赛事官方赞助商地位的商业公司来说绝对是棵摇钱树. 接下协会的合同就相当于明确告诉世人, 你接受挑战绝非为了那点金钱报酬, 对你的各方面声誉都有益处. 当然这基本也就是你能拿到的唯一回报了, 协会给的那点钱差不多是象征性的, 少得可怜.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/Kerbodyne" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[科博达因, 这名字在航空航天产业确实还是新鲜面孔, 不过他们的K系列引擎和燃料箱迅速为自己赢得了可观的声誉. 事实上, 在去年的航天器开发者大会上, 科博达因曾经被提名为"最佳新兴企业"奖项候选者. 结局很遗憾, 该奖项被另一家公司摘得, 但科博达因的粉丝们依然像众所周知的一样, 骄傲地在大众面前高声表达自己对这家企业和他们的产品的喜爱.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/Kerlington Model Rockets and Paper Products Inc" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[Kerlington的产品以眼光独到著称已经很有年头了, 这家公司的许多产品如今都是火箭和航天工程学中的必备品. 这就自然地培养出了一大批铁杆拥趸, 当然也弄出了一大批整天愤愤不平的竞争对手来.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/Moving Parts Experts Group" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[运动部件专家组刚开始创建的时候也是个非盈利组织, 主要着眼于把一群聪明人汇集到一起, 然后在航天工程界搞出点既有创意又史无前例的技术来. 当然和不少一开始这么想的企业一样, 他们那点注册资金很快就花完了, 然后被迫争分夺秒去开发点能卖出好价钱的东西. 所以说这个组织给人的印象, 差不多就是一直都是急急忙忙的, 然后一直都很缺钱. 现在他们在组织运作中依然尽可能地努力保持自己的初衷, 而且始终愿意为了冲破传统认知中的极限去冒险. ]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/O.M.B. Demolition Enterprises" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[O.M.B.作为一家以整天搞破坏工作而闻名的公司, 如今已经替自家的爆炸装置在航天产业中找到了相当合适的一席之地. 他们生产的高精密度分离器产品, 在要求把航天器切断或者炸成一堆小部件的情况下, 实用性首屈一指. 但是他们其他那些整天用广告狂轰滥炸, 被称为"更强大的拆迁工具"的爆破类产品, 却没有前者卖得那么好. O.M.B.至今也没搞明白那些"显然更好"的产品到底是为什么没被市场广泛接受.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/Probodobodyne Inc" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[探测者动力曾经是为数不多的业内领军品牌之一. 但随着时间流逝, 这家公司在某些方面已经落伍了, 不过他们还是秉承着他们自己的哲学观, 即宇宙探索应该是少数能只用极少技术手段辅助, 来克服过程中重重挑战的人的特权. 他们的产品也反映出了这种奉行实用主义至上--甚至已经到了脱离时代的程度--的偏执, 尽管这年头出现的新兴企业都开始走让太空航行比早期更加亲民的路线了. 把这些先放一边, 这家公司还是有一小批眼光相当挑剔的死忠拥护者, 其实基本也就是那些老牌航天员和工程师了.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/Research &amp; Development Department" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[太空计划的官方研发机构. 这支由知名火箭专家Wernher von Kerman带领的团队, 是整个计划的智囊. 他们求知若渴, 从不放过任何哪怕再小甚至完全无关的数据, 这些人最大的动力就是扩大小绿人种族的知识储备库. 我们的这群天才们只提出了以下要求: 按照为科学事业做出的贡献给他们学分, 还有让那些宇航员别再穿着脏鞋子跑到实验室里来. ]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/Reaction Systems Ltd" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[反应系统是一家由于一件成功产品, "随便放"7代线性RCS喷口, 而得到了不错的业绩的小公司. 如今外界并不清楚他们又在做什么研发. 虽然反应系统显然算不上业界巨头, 但他们一直在努力开创新事业, 试图迎头赶上. 同时, 这家企业最近一直热衷于提供科研任务类的合约, 让人猜测他们可能要有什么动作.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/Rockomax Conglomerate" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[无可争辩, 极限火箭是市场上最大的火箭工业产品供应商, 他们的产品作为最可靠的航天发射利器受到广泛认可. 但是产品风格也给他们在那些追求华丽和前卫的工程师之间带来了差评, 有些反对者还矢口否认自己使用过任何极限火箭品牌的东西. 尽管如此, 极限火箭在业内的强大存在感不容否认, 他们的产品虽然不够潮也没有那些高端企业的设计那么高大上, 但确实物有所值. 这是家超大规模企业, 就别指望有什么VIP优待之类的了. 他们现在在搞全体顾客大酬宾, 附带给合作企业产品的"超值优惠"搭配套餐. 在批发店购买时请主动出示会员卡, 以享受以上优惠.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/Rokea Inc" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[Rokea主要以主打产品"垂直移动强化装置"而为人所知, 他们一直竭尽全力宣称这东西不是一架单纯的"梯子", 不要搞错了. 有不少人觉得按成效来看他们这么搞挺失败的, 不过每一个Rokea的销售代表都还是会在客户耳边滔滔不绝, 一遍又一遍地解释梯子和垂直移动强化装置到底有啥不同. 大概这就是为什么从来没人愿意听他们的解释.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/Sean's Cannery" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[Sean罐头厂, 这家以优质罐头食品而著称的企业, 为什么要把手伸向航天工程业, 这件事至今还存在不少谜团. 抛开这些质疑不谈, 他们的旗舰产品Mk2着陆舱, 已经意料之中地被成功证明是现役气密性最好的几款载人舱之一. 乘坐过这款着陆舱的组员们都对这东西的一大优点大加赞赏, 就是放在里面的零食可以长期保持香脆可口, 然后就开始抱怨, 说其他载人舱里面零食放几天就受潮不好吃了.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/STEADLER Engineering Corps" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[STEADLER的一贯形象并不是特别友善或者随和. 相反, 军事化管理, 严肃而决不妥协的作风, 这些形容词才更适合他们. 有人觉得, 这才是专业做火箭控制系统和超音速飞行器的公司应有的优良企业文化, 但也有人评价说, 这公司就像是在被一台疯狂而又有智慧的导航计算机操纵着运转. 外界只知道他们门口的保安脾气不太好, 一般人不太容易接近大门, 而且这帮保安用的电击枪永远是满电.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/StrutCo" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[作为最大的通用结构件生产商之一, 从各种意义上来说支柱公司都是一家信誉卓著的企业. 他们唯一始终摆脱不了的阴影, 就是自家的传奇产品, EAS-4支柱连接器, 实际上是由Kerlington模型火箭研发的.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/Vac-Co Advanced Suction Systems" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[Vac-Co这家公司在航天领域还是新面孔. 一家之前只生产过家居清洁用品和小家电的企业, 最近突然进军航空航天业界, 这自然引起了不少揣测. 尽管舆论如此, 他们似乎还是知道自己在干什么, 近期推出的新产品, 飞机用进气道, 也确实相当有想法.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/WinterOwl Aircraft Emporium" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[冬鸮商场和其他大型航空企业在某些方面完全没有可比性, 尤其是产品种类方面占绝对劣势. 但是, 这家公司因为运营历史悠久, 在业内还是久负盛名. 这家老公司给人的一贯印象就是友好而可靠的搭档, 这点使得他们在众多同行之间也算声誉优良. 在航空业界, 对冬鸮本身或者其产品不屑的人会被评价为极其不礼貌.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/Zaltonic Electronics" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[Zaltonics并不算电子产业领军人物, 要说的话应该是一家比较功利主义而缺乏野心的公司. 但这些特征却使得Zaltonic以自己的方式, 成为了业界不可或缺的一份子, 因为他们愿意去生产那些没什么新意的东西, 而且有自家的一套多快好省的生产模式. 他们的产品可能确实没那么潮, 不过如果你酷炫吊炸天的无人控制模块自带电量见了底, 这时候一块Zaltonics电池就可以让它满血原地复活了.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+
+  <!--科技探索汉化格式-->
+  <!--id是这个配置下面的id参数就是解决配置类型相同的问题-->
+  <Config name="EXPERIMENT_DEFINITION"  type="EXPERIMENT_DEFINITION" url="Squad/Resources/ScienceDefs/EXPERIMENT_DEFINITION" id="crewReport">
+    <Values>
+      <Value name="title"><![CDATA[舱内报告]]></Value>
+    </Values>
+    <Nodes>
+      <Node name="RESULTS">
+        <Values>
+          <Value name="default"><![CDATA[你把船员的情况评估记录下来了.]]></Value>
+          <Value name="KerbinSrfLandedLaunchpad"><![CDATA[呃..我认为我们现在的速度还不是很快.]]></Value>
+          <Value name="KerbinSrfLandedRunway"><![CDATA[在跑道上进行报告:幸好天上没有别的什么飞机...因为塔台压根不知道我把这玩意儿弄到跑道上来了.]]></Value>
+          <Value name="KerbinSrfLandedKSC"><![CDATA[这是我们的航天中心，我们到家了.]]></Value>
+          <Value name="KerbinFlyingLowGrasslands"><![CDATA[喂~我想我能从这里看到我的家了!]]></Value>
+          <Value name="KerbinFlyingLowGrasslands"><![CDATA[在你下方能看到那么多绿色植物是多么令人欣慰呀.]]></Value>
+          <Value name="KerbinFlyingLowHighlands"><![CDATA[你站在高处看到美不胜收的风景.]]></Value>
+          <Value name="KerbinFlyingLowMountains"><![CDATA[从这里看那些群山变得那么小,耸立在Kerbin的大地上.]]></Value>
+          <Value name="KerbinFlyingLowDeserts"><![CDATA[从沙子里升上来的热量使得这片沙漠产生移动并发出微弱的光芒.]]></Value>
+          <Value name="KerbinFlyingLowBadlands"><![CDATA[这地方看起来不适合着陆呀.]]></Value>
+          <Value name="KerbinFlyingLowTundra"><![CDATA[你看到几片带着冰霜的小草.似乎那里挺冷的.]]></Value>
+          <Value name="KerbinFlyingLowIceCaps"><![CDATA[你往下看那片雪白的冰层,如果长时间盯着看的话你的眼睛可是会流泪哦.]]></Value>
+          <Value name="KerbinFlyingLowShores"><![CDATA[那片海岸看上去很诱人,你看着那浪花翻滚的海岸.]]></Value>
+          <Value name="KeringFlyingLowWater"><![CDATA[从这个角度可以看到海底的海床结构.]]></Value>
+          <Value name="KerbinInSpaceLow"><![CDATA[看起来我们已经完全在外太空了.天空看上去就像是在我们脚下.]]></Value>
+          <Value name="KerbinInSpaceLow"><![CDATA[如果你出去推一下的话...]]></Value>
+          <Value name="KerbinInSpace"><![CDATA[这...实在是太圆了...]]></Value>
+          <Value name="KerbinInSpace"><![CDATA[这里是宇航员,这是从太空发来的报告!]]></Value>
+          <Value name="MunInSpace"><![CDATA[你看着下面那灰冷色的表面.上面满满的都是陨石坑.]]></Value>
+          <Value name="MunInSpace"><![CDATA[你看着Mun的表面,仔细地寻找一个适合着陆的地方.这个陨石坑里面可能是最好的选择.]]></Value>
+          <Value name="MinmusInSpace"><![CDATA[这河床看起来相对平坦一些,我们也许能降落在那里.]]></Value>
+          <Value name="MinmusInSpace"><![CDATA[看着minmus表面你想起了儿时最爱的甜点.你还真的被吸引着去舔了一下...]]></Value>
+          <Value name="GillyInSpace"><![CDATA[它看起来像一块凹凸不平的岩石.你打赌你可以用喷气背包降落在上面.]]></Value>
+          <Value name="MohoInSpace"><![CDATA[这颗星球似乎没有大气层,并且你注意到在表面有颜色较深的斑点.]]></Value>
+          <Value name="EveInSpace"><![CDATA[这颗令人难以置信的紫色星球不由得让你目不转睛,这闪闪发光的海洋实在是太迷人了.]]></Value>
+          <Value name="DunaInSpace"><![CDATA[这颗星球有着朱红般的色彩,表面上纵横着深棕色的沟壑,星球两极似乎覆盖着一种白色类似于冰的物质.]]></Value>
+          <Value name="IkeInSpace"><![CDATA[你情不自禁地喜欢上了Ike.]]></Value>
+          <Value name="IkeInSpace"><![CDATA[这里似乎有一些陡峭的岩石山坡.越高的地区显得越明亮,而较低的地区则显得暗淡很多.]]></Value>
+          <Value name="DresInSpace"><![CDATA[你看到下面那巨大的峡谷,应该有好几公里深.]]></Value>
+          <Value name="DresInSpace"><![CDATA[表面错落有致地分布着白色和棕色的区域,还有一些陨石坑.]]></Value>
+          <Value name="JoolInSpace"><![CDATA[你看着下面流淌的绿色风暴,它们似乎不停地围绕着彼此旋转着,永远都不会停歇.]]></Value>
+          <Value name="JoolInSpace"><![CDATA[这颗星球呈现着健康的绿色,你在记录中写下行星就应该是这个颜色才对.]]></Value>
+          <Value name="LaytheInSpace"><![CDATA[Laythe的环境看起来很像Kerbin,你很好奇把头盔脱下来会有什么事情发生.]]></Value>
+          <Value name="LaytheInSpace"><![CDATA[海洋覆盖了大部分的表面.你在报告中记下了这片大陆的信息.]]></Value>
+          <Value name="VallInSpace"><![CDATA[表面上有许多令人印象深刻的锯齿状山脉.你并没有在上面降落的欲望,也不想去尝试.]]></Value>
+          <Value name="VallInSpace"><![CDATA[这颗卫星大部分被白色和浅蓝色的阴影覆盖着.它看起来非常冷,并有可能被冰覆盖着.]]></Value>
+          <Value name="TyloInSpace"><![CDATA[这里看起来好难降落.而且这边的陨石坑似乎要比那边多.]]></Value>
+          <Value name="TyloInSpace"><![CDATA[表面覆盖有深浅不同的白色和灰色.一瞬间你以为你看到了一张脸...]]></Value>
+          <Value name="BopInSpace"><![CDATA[这似乎是一块巨大的棕色岩石,又或许是一个古老的小行星?]]></Value>
+          <Value name="BopInSpace"><![CDATA[当你正盯着这个星球看的时候,忽然好像有东西掠过窗户外面...是不是还有什么东西在它的轨道上呢？]]></Value>
+          <Value name="PolInSpace"><![CDATA[它看起来像一颗巨大的花粉,你在-POL-的报告中这样写着.]]></Value>
+          <Value name="PolInSpace"><![CDATA[下面的地形看起来很危险.你把锯齿状的岩石,斜坡和其他危险地区都记录了下来.]]></Value>
+          <Value name="EelooInSpace"><![CDATA[大部分表面都被冻结了,你看到有一些棕色区域从冰盖下显露出来,并把这个有趣的情况记录在报告之中.]]></Value>
+          <Value name="EelooInSpace"><![CDATA[你在这片星域中寻找是否有其它星球在附近,你认为这颗Eeloo一定十分孤独,也许我们应该造访一下这颗星球使它振作起来.]]></Value>
+        </Values>
+      </Node>
+    </Nodes>
+  </Config>
+  <Config name="EXPERIMENT_DEFINITION"  type="EXPERIMENT_DEFINITION" url="Squad/Resources/ScienceDefs/EXPERIMENT_DEFINITION" id="evaReport">
+    <Values>
+      <Value name="title"><![CDATA[舱外报告]]></Value>
+    </Values>
+    <Nodes>
+      <Node name="RESULTS">
+        <Values>
+          <Value name="default"><![CDATA[你将此时看到的情景记录了下来.]]></Value>
+          <Value name="MohoSrfLanded"><![CDATA[宇航服里变得越来越热了...]]></Value>
+          <Value name="EveSrfLanded"><![CDATA[眼前的一切都被笼上了紫色的光晕.你感觉自己都要变成紫色的了.]]></Value>
+          <Value name="EveSrfLanded"><![CDATA[你上火箭之前是不是吃了太多东西?你觉得自己每一个动作都变得迟缓而又沉重...]]></Value>
+          <Value name="GillySrfLanded"><![CDATA[你必须非常小心地走路才能不"一步登天".你后悔怎么没带个秤砣过来.]]></Value>
+          <Value name="KerbinSrf"><![CDATA[我觉得完全没必要在这里还穿着宇航服啊,有木有?]]></Value>
+          <Value name="SunInSpaceHigh"><![CDATA[你现在才感觉到自己有多么的渺小...你只希望现在知道知己正在朝哪里飞...]]></Value>
+          <Value name="KerbinFlyingLow"><![CDATA[现在应该是最令人忐忑的状况了.]]></Value>
+          <Value name="KerbinFlyingHigh"><![CDATA[你开始觉得自己应该马上返回你的飞船了.]]></Value>
+          <Value name="MunSrfLanded"><![CDATA[灰尘飞得到处都是!]]></Value>
+          <Value name="MunSrfLanded"><![CDATA[你抬起头开始寻找你赖以生存的家园Kerbin.突然,你觉得自己真的很渺小.]]></Value>
+          <Value name="MunSrfLanded"><![CDATA[你开始诉说Kerbin人在这个伟大的宇宙中遇到的或戏剧性或辛酸的种种困难,只有偶尔插入的状况报告会打断你的思绪.]]></Value>
+          <Value name="MunFlyingLow"><![CDATA[你开始在低引力环境下玩得有点儿嗨了.]]></Value>
+          <Value name="MunFlyingHigh"><![CDATA[这样真的没问题吗? 看着下面那坑坑洼洼的星球,你心在里默默嘀咕着...]]></Value>
+          <Value name="MinmusSrfLanded"><![CDATA[在这么低的引力下,你每一次跳起来都觉得自己像一个超人.]]></Value>
+          <Value name="DunaSrfLanded"><![CDATA[经过了多次尝试,你确定用这些红色的沙子来堆起一个小城堡理论上是可行的..]]></Value>
+          <Value name="DunaSrfLanded"><![CDATA[能看到的地方,没有一处不是红色的.]]></Value>
+          <Value name="IkeSrfLanded"><![CDATA[抬头仰望星空时,突然看见好像有什么东西一闪而过.]]></Value>
+          <Value name="IkeSrfLanded"><![CDATA[地表散落着大量的巨大岩石.地面上影影约约泛着微弱的奇怪光芒.]]></Value>
+          <Value name="DresSrfLanded"><![CDATA[当你贴近地面仔细看的时候,你发现它是由好几种不同的沉积岩混合而成的.]]></Value>
+          <Value name="JoolSrfLanded"><![CDATA[你甚至不敢相信自己是如何登陆一个气体行星的表面的.但是你现在应该考虑的不是这个问题..]]></Value>
+          <Value name="LaytheSrfLanded"><![CDATA[这个地方看起来是极好的,舒服得甚至想把头盔摘下来.你在报告单里-好像可以呼吸-的选项前面划了个勾.]]></Value>
+          <Value name="LaytheSrfLanded"><![CDATA[你摘下了自己的头盔,过了一会儿,你竭力地喘着气,挣扎着把头盔重新戴上.马上把报告单里-好像可以呼吸-选项前面那个勾给擦掉了....]]></Value>
+          <Value name="VallSrfLanded"><![CDATA[你脚下的地面时不时地发出轰隆隆的声音.你觉得最好还是赶紧回到飞船上面去.]]></Value>
+          <Value name="TyloSrfLanded"><![CDATA[这里的重力大小立刻让你回想起了家的感觉.但是没有什么大气这一点却和家形成了鲜明的对比.]]></Value>
+          <Value name="BopSrfLanded"><![CDATA[这里的地面是棕色的而且十分凹凸不平.你透过手套戳了戳地面才知道它有多么的坚硬.]]></Value>
+          <Value name="PolSrfLanded"><![CDATA[这个星球的每个地方看起来都是那么的锐利.你根本不想坐在什么地方或者在哪里摔上一跤.]]></Value>
+          <Value name="EeelooSrfLanded"><![CDATA[你趴在地上给这颗星球来了一个大大的拥抱,让它知道它并不孤单.]]></Value>
+
+        </Values>
+      </Node>
+    </Nodes>
+  </Config>
+  <Config name="EXPERIMENT_DEFINITION"  type="EXPERIMENT_DEFINITION" url="Squad/Resources/ScienceDefs/EXPERIMENT_DEFINITION" id="mysteryGoo">
+    <Values>
+      <Value name="title"><![CDATA[神秘黏液观察报告]]></Value>
+    </Values>
+    <Nodes>
+      <Node name="RESULTS">
+        <Values>
+          <Value name="default"><![CDATA[你观察了一会儿小黏黏.]]></Value>
+          <Value name="KerbinSrfLandedLaunchPad"><![CDATA[小黏黏看起来现在还没什么反应.]]></Value>
+          <Value name="KerbinSrfLandedRunway"><![CDATA[小黏黏现在跟之前的行为没什么两样.]]></Value>
+          <Value name="KerbinSrfLandedDeserts"><![CDATA[小黏黏看起来好像很讨厌呆在这儿.]]></Value>
+          <Value name="KerbinSrfSplashedWater"><![CDATA[小黏黏偷偷溜到水里去了!!]]></Value>
+          <Value name="KerbinSrfSplashedShores"><![CDATA[小黏黏在罐子里晃来晃去,而且好像要从那些孔里跑出来了.]]></Value>
+          <Value name="KerbinSrfLandedShores"><![CDATA[小黏黏移动到了罐子里面朝水的那边去了.]]></Value>
+          <Value name="KerbinSrfLandedKSC"><![CDATA[小黏黏看起来好像很无聊.]]></Value>
+          <Value name="KerbinFlyingLow"><![CDATA[小黏黏由于颠簸而在罐子里晃来晃去.]]></Value>
+          <Value name="KerbinFlyingHigh"><![CDATA[小黏黏好像快要被冻僵了.]]></Value>
+          <Value name="KerbinInSpaceLow"><![CDATA[小黏黏卷缩成了一个球.好像比平常要更硬了一些.]]></Value>
+          <Value name="MohoInSpace"><![CDATA[小黏黏看起来马上就要被煮熟了.它在罐子里到处翻腾.]]></Value>
+          <Value name="EveInSpace"><![CDATA[小黏黏变得变得十分有弹性,在罐子里弹来弹去.]]></Value>
+          <Value name="EveInSpace"><![CDATA[小黏黏变成紫色的了.这只是由于光的原因还是它真的变色了!?]]></Value>
+          <Value name="DunaInSpace"><![CDATA[小黏黏发出了红色的光泽,看起来很像下面的这颗星球.]]></Value>
+          <Value name="Mun"><![CDATA[小黏黏的密度好像降低了.]]></Value>
+          <Value name="InSpace"><![CDATA[小黏黏感觉这儿就像家里一样.]]></Value>
+          <Value name="BopInSpace"><![CDATA[整个罐子都开始共振了起来,发出的奇怪和声传遍了整个船舱.让人毛骨悚然.]]></Value>
+          <Value name="PolInSpace"><![CDATA[黏黏的触须伸到了罐子的外面,结冰了,然后碎了.这真是太神奇了.]]></Value>
+          <Value name="EeLooInSpace"><![CDATA[当你在观察罐子的时候,你突然感觉罐子后面的阴影里有什么东西也在看着你.s]]></Value>
+          <Value name="EeLooInSpace"><![CDATA[仪器突然间读出了一张图表!整个罐子向外弯曲了出去然后不动了.]]></Value>
+        </Values>
+      </Node>
+    </Nodes>
+  </Config>
+  <Config name="EXPERIMENT_DEFINITION"  type="EXPERIMENT_DEFINITION" url="Squad/Resources/ScienceDefs/EXPERIMENT_DEFINITION" id="surfaceSample">
+    <Values>
+      <Value name="title"><![CDATA[地表样本]]></Value>
+    </Values>
+    <Nodes>
+      <Node name="RESULTS">
+        <Values>
+          <Value name="default"><![CDATA[你收集了一些地表样本.]]></Value>
+          <Value name="default"><![CDATA[你在附近挖了挖.虽然没找到宝藏,但是找到了一些有趣的东西,然后把它们扔到了样本容器里.]]></Value>
+          <Value name="default"><![CDATA[你左挖右挖上挖下挖,希望能找到一些吊炸天的石头拿回家炫耀.]]></Value>
+          <Value name="KerbinSrfLandedGrasslands"><![CDATA[嗯,看起来像泥土.]]></Value>
+          <Value name="KerbinSrfLandedHighlands"><![CDATA[这是泥土和草,以及一些小石块.你觉得这发现恐怕只"辟"了地,离开天还远着呢.]]></Value>
+          <Value name="KerbinSrfLandedMountains"><![CDATA[这里地表十分贫瘠...基本只有雪,泥土和岩石.你十分确定,如果你向积雪中挖得更深,你会发现更多的泥土和岩石.]]></Value>
+          <Value name="KerbinSrfLandedDeserts"><![CDATA[这里有许多沙子和砾石.你觉得还好你的宇航服里有气候控制系统,因为看起来外面实在太热了.沙子看起来十分松软干燥.目测回去以后清理装备要费很大的劲了.]]></Value>
+          <Value name="KerbinSrfLandedTundra"><![CDATA[这里的土地似乎被完全冻住了.你使出了吃奶的劲才"舀"出来这份样本.]]></Value>
+          <Value name="KerbinSrfLandedIceCaps"><![CDATA[这并不是真正的陆地不是么?你采集了一些样本,但是没有挖得更深,因为被冰川碎裂的声音吓尿了.你尽量控制自己不去回想是怎么降落在这里的.]]></Value>
+          <Value name="KerbinSrfLandedShores"><![CDATA[你采集了一些土壤样本.样本含有很多泥沙.这附近可能有一片水域.]]></Value>
+          <Value name="KerbinSrfLandedBadlands"><![CDATA[这里的草明显长得不如其他地方.但是你知道这个地方叫做"荒地",这让你觉得自己低调奢华有内涵.]]></Value>
+          <Value name="KerbinSrfLandedWater"><![CDATA[你采集了一些样本.这样本好像有点湿!但愿设备都是防水的.]]></Value>
+          <Value name="KerbinSrfSplashedWater"><![CDATA[野生的"水样本"出现了!水使用了"让它变湿".效果拔群!]]></Value>
+          <Value name="KerbinSrfSplashedShores"><![CDATA[你采集了一些水的样本.样本里有些植物残骸.看来这附近似乎有陆地.]]></Value>
+          <Value name="KerbinSrfLandedLaunchPad"><![CDATA[这表面已经被烧焦,而且覆盖着火箭推进剂的灰烬.同时还有微量的绿色不明物质.]]></Value>
+          <Value name="KerbinSrfLandedRunway"><![CDATA[这表面看起来十分硬,好象是水泥.没准真是水泥?这里应该是一个不错的降落地点.]]></Value>
+          <Value name="KerbinSrfLandedKSC"><![CDATA[这就是当我们没有擦干净鞋就进入实验室时能让科学家们尖叫的那种物质.]]></Value>
+          <Value name="MunSrfLanded"><![CDATA[这里的地表看起来都是灰白色的尘土.可惜太易碎了没法用来打雪仗.]]></Value>
+          <Value name="MunSrfLandedMidlands"><![CDATA[这更暗的内陆看起来是由玄武岩构成的.]]></Value>
+          <Value name="MunSrfLandedMidlands"><![CDATA[这个样本包括了一些奇怪的不同颜色的玻璃小球.它们还挺可爱!]]></Value>
+          <Value name="MunSrfLandedNorthernBasin"><![CDATA[这个样本可以作为一个弱且局部性的磁场存在的证据.]]></Value>
+          <Value name="MunSrfLandedNorthernBasin"><![CDATA[这里的地表有许多种岩石.有些看起来很像水晶.]]></Value>
+          <Value name="MunSrfLandedEastCrater"><![CDATA[这个样本含有角砾岩和熔融物质.]]></Value>
+          <Value name="MunSrfLandedEastCrater"><![CDATA[这个环形山的金属含量比别的环形山高.]]></Value>
+          <Value name="MunSrfLandedNorthwestCrater"><![CDATA[地表看起来是由玄武岩和角砾岩构成.]]></Value>
+          <Value name="MunSrfLandedNorthWestCrater"><![CDATA[从更深的地方采集的样本似乎包含更零碎形式的岩石.]]></Value>
+          <Value name="MunSrfLandedSouthwestCrater"><![CDATA[这个样本似乎有放射性...]]></Value>
+          <Value name="MunSrfLandedSouthWestCrater"><![CDATA[这里有分层的完全不同的物质.也许这个地方经历了不止一次撞击.]]></Value>
+          <Value name="MunSrfLandedFarsideCrater"><![CDATA[这里含有大量的熔融副产物.有些看起来是在高温高压下形成的.]]></Value>
+          <Value name="MunSrfLandedFarsideCrater"><![CDATA[这个地点采集的样本和农民"坎正龙"伪造的月球土壤还真挺像.]]></Value>
+          <Value name="MunSrfLandedCanyons"><![CDATA[这个地点采集的样本都有沟痕.可能地表在这里发生了断裂.]]></Value>
+          <Value name="MunSrfLandedPolarCrater"><![CDATA[这个地点采集的样本上似乎有被强烈撞击才能形成的纹理.]]></Value>
+          <Value name="MunSrfLandedPolarCrater"><![CDATA[某些样本看起来有些许被磁化的迹象,并且隐隐约约地有规律性排列的迹象.]]></Value>
+          <Value name="MunSrfLandedPoles"><![CDATA[这里的样本喷出物含量比较低.似乎土壤里有些液体一直保持着冻结的状态.]]></Value>
+          <Value name="MunSrfLandedPolarLowlands"><![CDATA[样本似乎含有冻结的液体...我们需要把它们送回Kerbin做更详细的检测.]]></Value>
+          <Value name="MunSrfLandedHighlands"><![CDATA[样本似乎含有很多以时间分层的物质.]]></Value>
+          <Value name="MunSrfLandedHighlands"><![CDATA[这个样本含有较少的玄武岩.这也许能解释我们看到的地表颜色的变化.]]></Value>
+          <Value name="MunSrfLandedHighlandCraters"><![CDATA[这个环形山表面似乎含有地表更深层的物质!]]></Value>
+          <Value name="MunSrfLandedHighlandCraters"><![CDATA[这些样本比其他的样本看起来要古老得多.]]></Value>
+          <Value name="MunSrfLandedHighlandCraters"><![CDATA[你采集了环形山的黑暗表面的样本,这应当能帮助我们判断什么样的物体曾经撞击了这里.]]></Value>
+          <Value name="MunSrfLandedHighlandCraters"><![CDATA[这个环形山似乎满是有价值的物质.人品爆发!]]></Value>
+          <Value name="MunSrfLandedMidlandCraters"><![CDATA[这个样本的图案十分有趣.]]></Value>
+          <Value name="MunSrfLandedMidlandCraters"><![CDATA[你采集环形山地表样本的同时,不禁为Mun感到十分同情.这些撞击一定把她撞得晕头转向.]]></Value>
+          <Value name="MunSrfLandedMidlandCraters"><![CDATA[你在环形山表面左挖右挖上挖下挖,希望能找到一些有趣的岩石.原来每个环形山都不简单.]]></Value>
+          <Value name="MunSrfLandedMidlandCraters"><![CDATA[你找到了一块奔放洋气有深度的石头并且决定留下它.你突然想起来你的工作是采集地表样本,于是你把找到的所有远古岩石都扔到了样本容器里.活干完了!]]></Value>
+          <Value name="MunSrfLandedMidlandCraters"><![CDATA[嗯,这就是一个环形山.你把这些记载了你的备忘录上,还画了个笑脸.介科学还挺哏儿!]]></Value>
+          <Value name="MunSrfLandedEastFarsideCrater"><![CDATA[这个环形山似乎是由一个碉堡了的撞击形成的.样本比平常重了很多.]]></Value>
+          <Value name="MunSrfLandedEastFarsideCrater"><![CDATA[你很高兴Mun的引力很低.挖坑这种搬砖的活在这里轻松多了!]]></Value>
+          <Value name="MunSrfLandedTwinCraters"><![CDATA[这个地区的稀有元素含量很高.爽!]]></Value>
+          <Value name="MunSrfLandedTwinCraters"><![CDATA[这个区域的多个样本证明这里富含有价值的材料.]]></Value>
+          <Value name="MunSrfLandedTwinCraters"><![CDATA[你在环形山附近挖来挖去,小心地从每样东西中选择一点,希望得到一个好样本.]]></Value>
+          <Value name="MinmusSrfLanded"><![CDATA[地表看起来有很多水晶一样的谷粒似的东西,十分好看.不过显然不能吃.]]></Value>
+          <Value name="MinmusSrfLanded"><![CDATA[你偷偷尝了一下地表样本...不,它绝对不是用好吃的甜点做的.]]></Value>
+          <Value name="EveSrfLanded"><![CDATA[地表看起来是很深的紫色...或者地表是灰色的,只是因为Eve上其他的东西全都是紫色的所以看起来是紫色的?你开始想你自己不会也变紫了吧.]]></Value>
+          <Value name="DunaSrfLanded"><![CDATA[地表看起来含有一些颗粒状的,很好看的,像沙子一样的尘土.而且好像还到处都是.]]></Value>
+          <Value name="DunaSrfLanded"><![CDATA[土壤里好像有水的迹象!]]></Value>
+          <Value name="DunaSrfLanded"><![CDATA[你喷薄而出的好奇心怎么都得不到满足,你试图用你的工具钻进岩石.你觉得如果有一个带冲击钻的机械手之类的东西这活就简单的多了.]]></Value>
+          <Value name="MohoSrfLanded"><![CDATA[地面是由古老的凝固岩浆流构成.这说明这个星球曾经有一段火山剧烈活动的时期.]]></Value>
+          <Value name="GillySrfLanded"><![CDATA[这里重力很小,地面样本很容易就溜走了.你费了很大的劲才把样本放到容器里.]]></Value>
+          <Value name="GillySrfLanded"><![CDATA[样本的元素构成和小行星的很像.]]></Value>
+          <Value name="IkeSrfLanded"><![CDATA[这种暗黑色的土壤有几乎结晶质的结构.玩起来很有趣.]]></Value>
+          <Value name="IkeSrfLanded"><![CDATA[这种白色土壤有粉状纹理而且会结块在一起.]]></Value>
+          <Value name="DresSrfLanded"><![CDATA[你发现了很多种元素的迹象.似乎是由于撞击而渐渐聚积在这里的.]]></Value>
+          <Value name="DresSrfLanded"><![CDATA[在周围挖了一会坑以后,你发现一些很好看的玻璃碎片,然后把它们扔进了样本容器.]]></Value>
+          <Value name="LaytheSrfLanded"><![CDATA[土壤包含盐的痕迹.你想知道这是被吹到这里的,还是这片区域曾经是海底世界.]]></Value>
+          <Value name="VallSrfLanded"><![CDATA[你挖开了冰冻的表层,然后把一些挖到的蓝色的物质放到了样本容器里.]]></Value>
+          <Value name="VallSrfLanded"><![CDATA[你在附近采集了一些样本,找到了一些漂亮的绿色和蓝色晶体结构.它们让你想起了家乡,但你无法在天上无数闪耀的星星中找到Kerbin.]]></Value>
+          <Value name="TyloSrfLanded"><![CDATA[地面很容易就挖开了,但是更深一点的地表就硬多了.]]></Value>
+          <Value name="TyloSrfLanded"><![CDATA[你边干活边哼曲子来让时间过得快一些.Tylo上有很多十分有趣的岩石!]]></Value>
+          <Value name="BopSrfLanded"><![CDATA[这种褐色的尘土弄脏了你的宇航服上每一个它碰到过的部分.显然这让飞行控制中心那帮人觉得很有趣.]]></Value>
+          <Value name="BopSrfLanded"><![CDATA[你挖开了地表并找到了一个小的球体.它看起来有点像鸡蛋.]]></Value>
+          <Value name="PolSrfLanded"><![CDATA[当你把样本铲进容器的时候,你觉得你对一切都开始过敏了.]]></Value>
+          <Value name="PolSrfLanded"><![CDATA[这个样本有着和这个星球从轨道上看一样的奇怪的杂色.你在清单上打了一个小小的对钩.]]></Value>
+          <Value name="PolSrfLanded"><![CDATA[研究了表面样本之后,你十分肯定,Pol并不是由花粉做成的(pollen,花粉.Pol长得很像一粒巨大的花粉).这件事回家以后能把科学界搅得天翻地覆!]]></Value>
+          <Value name="EelooSrfLanded"><![CDATA[削开冰冻的表面以后,你在下面发现了一些褐色的土壤.]]></Value>
+          <Value name="EelooSrfLanded"><![CDATA[你发现了一块漂亮的晶体,并把它放在了样本容器里.]]></Value>
+          <Value name="EelooSrfLanded"><![CDATA[这些岩石里有一些很细的一缕缕的色带.这让你想起了可爱的离子发动机尾焰...]]></Value>
+        </Values>
+      </Node>
+    </Nodes>
+  </Config>
+  <Config name="EXPERIMENT_DEFINITION"  type="EXPERIMENT_DEFINITION" url="Squad/Resources/ScienceDefs/EXPERIMENT_DEFINITION" id="mobileMaterialsLab">
+    <Values>
+      <Value name="title"><![CDATA[样本研究]]></Value>
+    </Values>
+    <Nodes>
+      <Node name="RESULTS">
+        <Values>
+          <Value name="default"><![CDATA[你把样本暴露在外部环境中,记录它的变化.]]></Value>
+          <Value name="SunFlyingLow"><![CDATA[一切都在熔化!包括我们的电子设..滋滋..........]]></Value>
+          <Value name="MohoSrfLanded"><![CDATA[样本舱都快被Moho表面的高温给烤熟了.看上去某些微量元素正在和内部的样本反应.]]></Value>
+          <Value name="MohoSrfLanded"><![CDATA[你把样本暴露在Moho的高温之下,许多样本都以非常有趣的方式熔成了一团.]]></Value>
+          <Value name="KerbinSrfLanded"><![CDATA[材料看上去几乎没有什么变化.只是有一个材料看上去正在默默的鄙视你.]]></Value>
+          <Value name="KerbinSrfLandedDeserts"><![CDATA[漫天飞舞的黄沙把所有的样本都给弄脏了.不过我们至少学到了一点 -- 不要把昂贵的实验仪器带到沙漠去.]]></Value>
+          <Value name="KerbinSrfLandedIceCaps"><![CDATA[液体样本被冻成了冰坨,而糊状的样本则变得更加粘稠了一些.]]></Value>
+          <Value name="KerbinSrfLandedShores"><![CDATA[浪花让一个样本生锈了,而且一些电子设备也&/F***13e5rse4t8st######]]></Value>
+          <Value name="KerbinSrfLandedWater"><![CDATA[所有东西都湿透了.哇!有一个样本着火了!]]></Value>
+          <Value name="KerbinSrfLandedWater"><![CDATA[把实验室的电源泡在水里比我们想象的更能给人带来灵感的火花.]]></Value>
+          <Value name="KerbinSrfLandedBadlands"><![CDATA[你把样本暴露在了坎巴拉的荒野上,但我很担心这会对他们造成不好的影响...]]></Value>
+          <Value name="KerbinFlyingLow"><![CDATA[弹性不好的样本糊满了整个容器内壁,组成了新奇的颜色组合.]]></Value>
+          <Value name="KerbinFlyingHigh"><![CDATA[稀薄的空气让胶质样本发生了有趣的变化,看上去在它的内部结构中正在发生着什么.]]></Value>
+          <Value name="KerbinInSpaceLow"><![CDATA[微弱的重力计大的影响了晶体结构的成长.一些没有固定好的物体也在舱内漫天飞舞,很乱但也很酷.]]></Value>
+          <Value name="MunSrfLanded"><![CDATA[一些样本跟细小的月尘混在了一起,你感觉它们再也不会干净的回到实验室了.]]></Value>
+          <Value name="MunSrfLanded"><![CDATA[你把样本舱的门打开敞着,然后就去做其他的事情了.]]></Value>
+          <Value name="MinmusSrfLanded"><![CDATA[在样本正在被处理的时候你陷入了沉思--Minmus看上去多么像一个薄荷铺成的沙漠啊....你突然意识到好像你的肚子饿起来了....]]></Value>
+          <Value name="InSpace"><![CDATA[强放射性的环境导致一些样本开始放出璀璨的光彩.如果用这些样本来做火箭外壳的涂料肯定很有意思.]]></Value>
+          <Value name="EveSrfLanded"><![CDATA[可怕的气压很快就把一些样本压成了晶体状.]]></Value>
+          <Value name="EveSrfLanded"><![CDATA[你不能确定到底是大多数样品都变了颜色,还是仅仅是光的颜色变了...]]></Value>
+          <Value name="EveFlyingHigh"><![CDATA[极其稠密的大气把样本舱里的东西都削成了细条.]]></Value>
+          <Value name="EveFlyingLow"><![CDATA[大气把有的材料削成了细条，有的则仅仅是磨去了表面的杂物.]]></Value>
+          <Value name="GillySrfLanded"><![CDATA[样本看上去跟他们在坎巴拉低轨的状态差不多.]]></Value>
+          <Value name="GillySrfLanded"><![CDATA[一些星球表面的物质跟样本舱里的样本混合了起来,你把结果记了下来以供日后的研究.]]></Value>
+          <Value name="DunaSrfLanded"><![CDATA[打开样本舱的一瞬间你发现一切都被染红了.前期的试验表明这些颜色无法从白色的宇航服上洗去.因此你开始考虑以后改穿粉色的宇航服以减少清洗费用.]]></Value>
+          <Value name="DunaSrfLanded"><![CDATA[长着一个硕大的红色眼球的样本计算机正在处理结果.它缓慢的眨动着，透露出不详的气息,看起来对周围的环境很熟悉,好像它本来就属于这里.]]></Value>
+          <Value name="IkeSrfLanded"><![CDATA[有一个样本与Ike的表面发生了不可思议的反应.]]></Value>
+          <Value name="IkeSrfLanded"><![CDATA[一个晶体样本炸了开来,往样本舱外射出了许多绿色的碎片.]]></Value>
+          <Value name="DresSrfLanded"><![CDATA[在样本处理的过程中,计算机询问它能不能唱一首歌.听上去是关于某种花草的.]]></Value>
+          <Value name="DresSrfLanded"><![CDATA[有一个样本在暴露在空气中后汽化蒸发了.]]></Value>
+          <Value name="JoolInSpace"><![CDATA[计算机对我们要求打开舱门的指令给出了奇怪的回复 --"很抱歉,恐怕我不能这么做." 然而当我们试图打开线路盒检查计算机系统的时候,门一下子就开了.真奇怪.]]></Value>
+          <Value name="JoolFlyingHigh"><![CDATA[极为可怕的气压彻底的改变了样本的结构.能观察到激烈的高温和切削效应.这个科研舱看上去快报销了.]]></Value>
+          <Value name="JoolFlyingLow"><![CDATA[样本在Jool的高温高压下沸腾,燃烧,坍缩.观察摄像头在它失灵前看到了美丽的彩虹.]]></Value>
+          <Value name="JoolSrfLanded"><![CDATA[你不知道自己在哪，又应该到哪去收集样品....]]></Value>
+          <Value name="LaytheFlyingHigh"><![CDATA[有一个样本在接触到空气时燃烧了起来,有趣的是根据火焰的光芒似乎空气中含有氧气.]]></Value>
+          <Value name="LaytheFlyingLow"><![CDATA[样本开始冒烟并发出炸裂声,就好象烧起来了一样.]]></Value>
+          <Value name="LaytheSrfLanded"><![CDATA[细小的Laythe尘土被吹进了样本舱.]]></Value>
+          <Value name="LaytheSrfSplashed"><![CDATA[样本舱的电线短路了!电火花到处乱窜.看起来真的很好看!]]></Value>
+          <Value name="VallSrfLanded"><![CDATA[很多的样本冻成了一坨,要么就在样本舱里蒸发了.]]></Value>
+          <Value name="VallSrfLanded"><![CDATA[样本舱的门还没来得及打开就被冻住了.就连样本的表面都被冻上了一层薄薄的外壳.]]></Value>
+          <Value name="TyloSrfLanded"><![CDATA[有一个样本在接触到Tylo表面之后变成了粉末散入雾气里去了.]]></Value>
+          <Value name="BopSrfLanded"><![CDATA[样本似乎正在和Bop的表面发生化学反应..]]></Value>
+          <Value name="BopSrfLanded"><![CDATA[一瞬间所有的液体样本都汽化了.]]></Value>
+          <Value name="PolSrfLanded"><![CDATA[一些样本在接触到Pol表面后塌陷并熔化了!]]></Value>
+          <Value name="EelooSrfLanded"><![CDATA[一些Eeloo上的水晶粉尘被吹进了样本舱.此外一些样本在低温下体现出了更好的导电性.]]></Value>
+        </Values>
+      </Node>
+    </Nodes>
+  </Config>
+  <Config name="EXPERIMENT_DEFINITION"  type="EXPERIMENT_DEFINITION" url="Squad/Resources/ScienceDefs/EXPERIMENT_DEFINITION" id="temperatureScan">
+    <Values>
+      <Value name="title"><![CDATA[温度探测]]></Value>
+    </Values>
+    <Nodes>
+      <Node name="RESULTS">
+        <Values>
+          <Value name="default"><![CDATA[收集并记录了这里的气温.]]></Value>
+          <Value name="KerbinSrfLanded"><![CDATA[温度计的读数完全正常.]]></Value>
+          <Value name="KerbinSrfLandedDeserts"><![CDATA[滚滚的热浪从地面升腾而起.]]></Value>
+          <Value name="KerbinSrfLandedIceCaps"><![CDATA[这里的温度足够把水冻成冰了.]]></Value>
+          <Value name="KerbinSrfLandedShores"><![CDATA[这个温度最适合下去游泳了.]]></Value>
+          <Value name="KerbinSrfLandedWater"><![CDATA[水温似乎会随着深度的增加而逐渐降低.]]></Value>
+          <Value name="KerbinSrfLandedTundra"><![CDATA[这里的温度可以把东西一直冻到天荒地老.]]></Value>
+          <Value name="KerbinSrfLandedGrasslands"><![CDATA[这里的温度让人非常舒服, 特别适合居住.]]></Value>
+          <Value name="KerbinSrfBadlands"><![CDATA[这里的昼夜温差很大, 气温受时间的影响非常明显.]]></Value>
+          <Value name="MohoSrfLanded"><![CDATA[这里的气温非常高, 尤其是当阳光直射的时候.]]></Value>
+          <Value name="EveSrfLanded"><![CDATA[这儿的气温可以在一天之内先把水冻成冰, 然后再把它变成水蒸气.]]></Value>
+        </Values>
+      </Node>
+    </Nodes>
+  </Config>
+  <Config name="EXPERIMENT_DEFINITION"  type="EXPERIMENT_DEFINITION" url="Squad/Resources/ScienceDefs/EXPERIMENT_DEFINITION" id="barometerScan">
+    <Values>
+      <Value name="title"><![CDATA[大气压探测]]></Value>
+    </Values>
+    <Nodes>
+      <Node name="RESULTS">
+        <Values>
+          <Value name="default"><![CDATA[收集并记录了周边环境的气压数据.]]></Value>
+          <Value name="MohoFlyingLow"><![CDATA[气压表的读数过低,无法获得数据.这个星球没有任何大气.]]></Value>
+          <Value name="MohoSrfLanded"><![CDATA[气压表依然无法获取任何信息.]]></Value>
+          <Value name="EveFlyingLow"><![CDATA[就算在这个高度气压表的读数依然高的惊人.]]></Value>
+          <Value name="EveSrfLanded"><![CDATA[表面的大气非常致密,紧紧的挤压着气压计.]]></Value>
+          <Value name="GillyFlyingLow"><![CDATA[要么是气压计坏了,要么是这块大石头上压根就没有大气.]]></Value>
+          <Value name="GillySrfLanded"><![CDATA[有一瞬间我以为气压计出现了读数,但我仔细一看其实是气压计被弄脏了.]]></Value>
+          <Value name="MunFlyingLow"><![CDATA[你出于无聊随手测了一下这里的气压.嗯,果然没有大气.]]></Value>
+          <Value name="MunSrfLanded"><![CDATA[气压表指针一动不动.也许你应该拍几下看看是不是指针卡住了?]]></Value>
+          <Value name="MunSrfLanded"><![CDATA[他们说只有傻瓜才会把反复做同样的事情而期待着不同的结果.说着你又跑去测了一次气压.]]></Value>
+          <Value name="DunaFlyingLow"><![CDATA[这里的大气很稀薄,但至少还能让气压表读出一些数据.]]></Value>
+          <Value name="DunaSrfLanded"><![CDATA[即使是星球表面的大气也很稀薄.你估计降落伞和机翼在这里不会有什么用处.]]></Value>
+          <Value name="IkeFlyingLow"><![CDATA[看起来这里没有大气.]]></Value>
+          <Value name="IkeSrfLanded"><![CDATA[即使是在星球表面气压表还是没有读数.]]></Value>
+          <Value name="JoolFlyingLow"><![CDATA[这里的气压太高了,气压表都快破表了.]]></Value>
+          <Value name="JoolFlyingHigh"><![CDATA[这里的气压高的吓人,再往下探测恐怕会很危险.]]></Value>
+          <Value name="JoolSrfLanded"><![CDATA[要么是这里的气压真的非常非常高,要么是气压表已经彻底熔化了.很难说到底会先发生什么.]]></Value>
+          <Value name="LaytheFlyingLow"><![CDATA[这里肯定有大气,只是气压低了一点.]]></Value>
+          <Value name="LaytheSrfLanded"><![CDATA[这里的气压好像比Kerbin的低一点,不过还在可以接受的范围内.]]></Value>
+          <Value name="VallFlyingLow"><![CDATA[这里没有能够取样分析的大气.]]></Value>
+          <Value name="VallSrfLanded"><![CDATA[如果不是这个星球会偶尔的产生一点气压的话,那就是你的气压计已经坏了.]]></Value>
+          <Value name="VallSrfLanded"><![CDATA[你反复的看了气压计很多遍,因为你觉得你应该看到指针晃了一下.]]></Value>
+          <Value name="TyloFlyingLow"><![CDATA[惊讶吧?仪器居然表示这里没有大气.]]></Value>
+          <Value name="TyloSrfLanded"><![CDATA[太奇葩了,气压表居然在这里读不到数据.]]></Value>
+          <Value name="BopFlyingLow"><![CDATA[这根本就是一个大块的石头,你指望你能找到点什么?]]></Value>
+          <Value name="BopSrfLanded"><![CDATA[还是什么都没有,这确确实实就是一个大块的石头.]]></Value>
+          <Value name="PolFlyingLow"><![CDATA[没什么好说的.]]></Value>
+          <Value name="PolSrfLanded"><![CDATA[完全无法在Pol上找到大气.]]></Value>
+          <Value name="EelooSrfLanded"><![CDATA[滴,滴,滴...嘟.指针被冻住了...]]></Value>
+          <Value name="EelooFlyingLow"><![CDATA[气压计在这里完全测不到任何气压.]]></Value>
+        </Values>
+      </Node>
+    </Nodes>
+  </Config>
+  <Config name="EXPERIMENT_DEFINITION"  type="EXPERIMENT_DEFINITION" url="Squad/Resources/ScienceDefs/EXPERIMENT_DEFINITION" id="seismicScan">
+    <Values>
+      <Value name="title"><![CDATA[震动加速度探测]]></Value>
+    </Values>
+    <Nodes>
+      <Node name="RESULTS">
+        <Values>
+          <Value name="default"><![CDATA[精确地测量并收集了飞船在该状况下的加速度数据]]></Value>
+          <Value name="MohoSrfLanded"><![CDATA[探测器探测到了星球深处的震动.这个星球的内部似乎有着十分强烈的火山活动.]]></Value>
+          <Value name="MohoSrfLanded"><![CDATA[探测器在震动记录中发现了一些奇特的震波的反射.这也许能够为星球内部的结构带来更多的线索.]]></Value>
+          <Value name="EveSrfLanded"><![CDATA[探测器探测到了地表下可能的地质运动.]]></Value>
+          <Value name="EveSrfLanded"><![CDATA[探测器探测到了微弱的震动,尽管微弱,这些震波的记录足以用来描绘星球的内部结构.]]></Value>
+          <Value name="GillySrfLanded"><![CDATA[这个地方似乎没有任何的地质运动.]]></Value>
+          <Value name="GillySrfLanded"><![CDATA[探测器唯一能探测到的震波来自登陆器着陆所带来的震动.这些震动似乎不能很好地在星球表面传播.]]></Value>
+          <Value name="MunSrfLanded"><![CDATA[探测器在星球表面探测到了小型的地质震动!]]></Value>
+          <Value name="MunSrfLanded"><![CDATA[探测器探测到了一些震源遥远的震动,这些震波沿着星球的内部结构反射而来.]]></Value>
+          <Value name="MinmusSrfLanded"><![CDATA[探测器探测到了虚弱的地质运动.]]></Value>
+          <Value name="MinmusSrfLanded"><![CDATA[探测器探测到了星球表面以下地质移动的迹象. 这也许是因为星球内部并不完全是结冰的.]]></Value>
+          <Value name="DunaSrfLanded"><![CDATA[探测器对星球的地质活动提供了十分详细的情况.]]></Value>
+          <Value name="DunaSrfLanded"><![CDATA[星球上似乎没有十分显著的地质活动.这也许是因为这个星球从地质学角度来讲已经不再活跃了.]]></Value>
+          <Value name="DresSrfLanded"><![CDATA[这个星球看起来没有任何地质活动.]]></Value>
+          <Value name="DresSrfLanded"><![CDATA[探测器探测到的数据表明周期性的陨石撞击似乎导致了星球表面轻微的地质震动.]]></Value>
+          <Value name="DresSrfLanded"><![CDATA[探测器探测到的震波有着不同的传递速度,这暗示了星球表面下不同的物质构成.]]></Value>
+          <Value name="JoolSrfLanded"><![CDATA[探测器已经不知道在这儿应该干啥了(其实是因为这是一个气体大行星,而针对地质活动的探测器无法对这个星球进行恰当的勘探.)]]></Value>
+          <Value name="JoolSrfLanded"><![CDATA[探测器刚刚告诉你它的保修期已经过期了.不予退款.]]></Value>
+          <Value name="LaytheSrfLanded"><![CDATA[探测器发现来自母星的潮汐力似乎搅乱了卫星的内部结构.]]></Value>
+          <Value name="LaytheSrfLanded"><![CDATA[探测器探测到的震动指出了现存的地质运动.]]></Value>
+          <Value name="VallSrfLanded"><![CDATA[探测器探测到了星球表面冰火山活动的迹象.(不同于常见的火山,冰火山所喷发出的是水、氨、甲烷一类的挥发物)]]></Value>
+          <Value name="VallSrfLanded"><![CDATA[探测器探测到了在卫星内部不断反射的震波]]></Value>
+          <Value name="TyloSrfLanded"><![CDATA[探测器表示这个星球的地质似乎不怎么活跃了.]]></Value>
+          <Value name="TyloSrfLanded"><![CDATA[探测器只能检测到最轻微的表面震动.]]></Value>
+          <Value name="BopSrfLanded"><![CDATA[探测器在星球上似乎检测不到大型的地质运动.]]></Value>
+          <Value name="BopSrfLanded"><![CDATA[探测器检测到远处的一个地质运动. 这个现象可能源自于一个大物体(也许是陨石)撞击星球表面.]]></Value>
+          <Value name="PolSrfLanded"><![CDATA[探测器发现这个星球的松散土壤对震波的传递与其他星球有所不同.]]></Value>
+          <Value name="PolSrfLanded"><![CDATA[探测器探测到震波在星球参差不齐的内部结构中反射.]]></Value>
+          <Value name="EelooSrfLanded"><![CDATA[探测器探测到了在星球内部的冰火山活动.]]></Value>
+          <Value name="EelooSrfLanded"><![CDATA[探测器接收到了低频率的声音.]]></Value>
+        </Values>
+      </Node>
+    </Nodes>
+  </Config>
+  <Config name="EXPERIMENT_DEFINITION"  type="EXPERIMENT_DEFINITION" url="Squad/Resources/ScienceDefs/EXPERIMENT_DEFINITION" id="gravityScan">
+    <Values>
+      <Value name="title"><![CDATA[引力探测]]></Value>
+    </Values>
+    <Nodes>
+      <Node name="RESULTS">
+        <Values>
+          <Value name="default"><![CDATA[记录下了这些位置的精确引力值.]]></Value>
+          <Value name="MohoInSpace"><![CDATA[探测器掠过Moho表面以测量引力场中存在的变化.]]></Value>
+          <Value name="MohoSrfLanded"><![CDATA[在这里着陆提供了精确而稳定的引力测量.]]></Value>
+          <Value name="EveInSpace"><![CDATA[当你越过一个巨大的火山口时探测器记录到了轻微的引力变化.]]></Value>
+          <Value name="EveSrfLanded"><![CDATA[这里的引力场非常强,探测器记录了这块区域的详细数据.]]></Value>
+          <Value name="GillyInSpace"><![CDATA[探测器在这个不规则的物体中探测到了巨大的引力变化.]]></Value>
+          <Value name="GillySrfLanded"><![CDATA[待在KSC里的家伙们一定会把这些详细数据视若珍宝的.]]></Value>
+          <Value name="KerbinInSpace"><![CDATA[探测器发现在Kerbin的引力场中有细微的变化.科研小组一定会很想要看一下这些数据的!]]></Value>
+          <Value name="KerbinSrfLanded"><![CDATA[探测器似乎认为它正在被校准中.]]></Value>
+          <Value name="KerbinSrfLanded"><![CDATA[在阅读了好几次手册之后,指挥小组终于能够获得局部引力的准确数值了.]]></Value>
+          <Value name="KerbinInSpaceGrassLands"><![CDATA[测量仪器测量了草地上的引力.数据显示这里的引力场非常稳定.]]></Value>
+          <Value name="KerbinInSpaceHighlands"><![CDATA[测量仪器测量了Kerbin的高地,连绵起伏的山丘似乎对局部引力影响不大.]]></Value>
+          <Value name="KerbinInSpaceMountains"><![CDATA[沿着这些山脉似乎引力场是最强的.]]></Value>
+          <Value name="KerbinInSpaceDeserts"><![CDATA[沙丘中的引力似乎非常稳定,但有些峰值显示出地下地形的成分不尽相同.]]></Value>
+          <Value name="KerbinInSpaceBadlands"><![CDATA[探测器读取了Kerbin荒漠中的引力值.]]></Value>
+          <Value name="KerbinInSpaceIceCaps"><![CDATA[探测器探测到冰面底下有一些变化.难道在那下面有陆地?]]></Value>
+          <Value name="KerbinInSpaceShores"><![CDATA[探测器掠过Kerbin的海岸.数据似乎不太符合实际.]]></Value>
+          <Value name="KerbinInSpaceWater"><![CDATA[当探测器掠过海面的时候显示出了一个令人诧异的变化.迹象表明是深海中的多变拓扑结构导致的.]]></Value>
+          <Value name="KerbinSrfSplashedWater"><![CDATA[探测器探测到了局部引力的改变,似乎和Mun的经过有关系.]]></Value>
+          <Value name="MunInSpace"><![CDATA[测量仪器测量了Mun的引力场.这些数据将有助于计算其质量.]]></Value>
+          <Value name="MunSrfLanded"><![CDATA[探测器对局部引力进行了详尽的测量.]]></Value>
+          <Value name="MunSrfLanded"><![CDATA[校准后的探测器将可以探测Kerbin和Mun引力之间相互影响的情况.]]></Value>
+          <Value name="MinmusInSpace"><![CDATA[探测器掠过Minmus时扫描了Minmus的引力场.]]></Value>
+          <Value name="MinmusSrfLanded"><![CDATA[探测器获得了Minmus详细的引力读数.]]></Value>
+          <Value name="MinmusSrfLanded"><![CDATA[扫描获得了因Mun的轨道影响而引起的细微变化.这个数据将对了解这个行星系统非常有价值.]]></Value>
+          <Value name="DunaInSpace"><![CDATA[探测器掠过斑驳的Duna表面.在蔓延贯穿整个地表的巨大峡谷中引力最弱.]]></Value>
+          <Value name="DunaSrfLanded"><![CDATA[探测器在Duna表面进行了详尽而准确的局部引力扫描.]]></Value>
+          <Value name="DunaSrfLanded"><![CDATA[探测器能够记录下Ike所造成的影响,因为它绕着Duna旋转.]]></Value>
+          <Value name="DresInSpace"><![CDATA[探测器扫过表面并发现,作为一颗行星,它的平均引力实在太弱了.]]></Value>
+          <Value name="DresSrfLanded"><![CDATA[探测器对局部引力进行了十分精细的测量,并记录了所有的变化.]]></Value>
+          <Value name="JoolInSpace"><![CDATA[对探测器进行了标定以便用来测量Jool的强大引力.]]></Value>
+          <Value name="JoolInSpace"><![CDATA[探测器获得了大量关于这个行星系统的信息.]]></Value>
+          <Value name="JoolSrfLanded"><![CDATA[测量仪器在如此强大的引力面前已经长跪不起了.这就是科学(这不科学)!]]></Value>
+          <Value name="LaytheInSpace"><![CDATA[探测器扫描了Laythe的引力.这对探索水下各种各样的地形有很大帮助.]]></Value>
+          <Value name="LaytheSrfLanded"><![CDATA[探测器扫描了Laythe的局部引力,记录了Jool所带来的影响.]]></Value>
+          <Value name="LaytheSrfSplashed"><![CDATA[探测器提供了和潮汐有关的详细信息.]]></Value>
+          <Value name="VallInSpace"><![CDATA[在轨扫描提供了一张Vall更清晰的内部构成的照片.]]></Value>
+          <Value name="VallSrfLanded"><![CDATA[对地表的扫描详细显示了由于天体内部板块移动而导致的巨大引力变化.]]></Value>
+          <Value name="TyloInSpace"><![CDATA[这颗天体具有比预期要弱的引力.这将给我们的科学家提供Tylo内部构造的具体信息.]]></Value>
+          <Value name="TyloSrfLanded"><![CDATA[详细的扫描已经表明天体内部居然是中空的.]]></Value>
+          <Value name="BopInSpace"><![CDATA[环绕着Bop就可以扫描起伏多变的表面.有意思!]]></Value>
+          <Value name="BopSrfLanded"><![CDATA[探测器在这儿给出了奇怪的数值...]]></Value>
+          <Value name="PolInSpace"><![CDATA[传感器获得了天体表面之下的多层数据.]]></Value>
+          <Value name="PolSrfLanded"><![CDATA[着陆在天体上进行了对Pol内部引力的全面详细扫描.]]></Value>
+          <Value name="EelooInSpace"><![CDATA[虽然表面看上去比较光滑圆润,但是在天体表面之下存在着巨大的变化.]]></Value>
+          <Value name="EelooSrfLanded"><![CDATA[引力扫描结果在这里一目了然.似乎其他天体对其影响并不大.]]></Value>
+        </Values>
+      </Node>
+    </Nodes>
+  </Config>
+  <Config name="EXPERIMENT_DEFINITION"  type="EXPERIMENT_DEFINITION" url="Squad/Resources/ScienceDefs/EXPERIMENT_DEFINITION" id="atmosphereAnalysis">
+    <Values>
+      <Value name="title"><![CDATA[大气分析]]></Value>
+    </Values>
+    <Nodes>
+      <Node name="RESULTS">
+        <Values>
+          <Value name="default"><![CDATA[你刚才进行了一次大气层分析,记录下了不同的测量数据,比如温度,压力和大气成分.]]></Value>
+          <Value name="MohoSrf"><![CDATA[这里好像没有大气.但是这里有些和表面成分接近的微量元素.]]></Value>
+          <Value name="EveSrf"><![CDATA[这也许算是大气层,但是这绝对不是什么你想呼吸一下的东西.]]></Value>
+          <Value name="GillySrf"><![CDATA[没有能检测到的大气层.]]></Value>
+          <Value name="KerbinFlyingHigh"><![CDATA[在这个高度似乎只有很稀薄的大气.如果你打算出舱,确保你已经穿好了黑科技宇航服.]]></Value>
+          <Value name="KerbinSrfLanded"><![CDATA[温度和压力的读数显示今天是个飞行的好日子,像其他所有日子一样.]]></Value>
+          <Value name="KerbinSrfLandedDeserts"><![CDATA[在沙漠里非常热,非常干.传感器都要被尘土堵上了.]]></Value>
+          <Value name="KerbinSrfLandedIceCaps"><![CDATA[我们发现极地的大气确实非常,非常冷.有些传感器都冻住了,但是我们有理由确定这还里还都是空气.]]></Value>
+          <Value name="MunSrf"><![CDATA[仪器在表面附近探测到了微弱的微粒光环.这不是大气层,但是这也许能解释已报告的,出现在地平线上的亮光.]]></Value>
+          <Value name="MinmusSrf"><![CDATA[有可探测到的气体释放.但是不是什么能算作大气层的东西.]]></Value>
+          <Value name="DunaSrf"><![CDATA[在Duna周围的大气非常非常的稀薄.用翼面足够大或速度足够快的飞行器甚至可能会飞进去.]]></Value>
+          <Value name="DunaSrf"><![CDATA[比起Kerbin的大气层来说,这里有更多的重同位素聚集.]]></Value>
+          <Value name="IkeSrf"><![CDATA[你刚刚在一个并不存在的大气层中探测了一番.]]></Value>
+          <Value name="DresSrf"><![CDATA[没有迹象表明这里有大气层.]]></Value>
+          <Value name="JoolFlyingHigh"><![CDATA[这里的大气压很高,你探测到了成吨的气体.]]></Value>
+          <Value name="JoolFlyingLow"><![CDATA[仪器在目前的密度下,仪器的采样工作进行的很困难.这些气体在压力作用下开始液化了.]]></Value>
+          <Value name="JoolSrfLanded"><![CDATA[仪器几乎都要被压力弄成一团不知道是什么的金属了.]]></Value>
+          <Value name="LaytheSrfLanded"><![CDATA[Laythe的大气貌似和Kerbin的差不多...不过,我才不会自愿第一个不戴头盔就出去晃呢.]]></Value>
+          <Value name="LaytheSrfLanded"><![CDATA[在这儿把头盔摘了应该不会让你死的...很快.]]></Value>
+          <Value name="VallSrfLanded"><![CDATA[这里有冰火山化合物的痕迹.但这不算是完整的大气.]]></Value>
+          <Value name="TyloSrfLanded"><![CDATA[在表面上只有微弱的最重的同位素的迹象.]]></Value>
+          <Value name="BopSrfLanded"><![CDATA[有那么一秒,传感器探测到了有机化合物.可能是个错误.]]></Value>
+          <Value name="BopSrfLanded"><![CDATA[传感器只探测到了些稀松平常的东西.可以确信的是,生命在这里无法生存.]]></Value>
+          <Value name="PolSrfLanded"><![CDATA[这里没有什么值得一提的大气层,不过你还是颠儿颠儿的记录了温度数值.]]></Value>
+          <Value name="EelooSrfLanded"><![CDATA[似乎有薄薄的大气环绕着这个星球,不过,这里的大气太薄,不足以影响任何航空器的登陆.]]></Value>
+        </Values>
+      </Node>
+    </Nodes>
+  </Config>
+</Configs>
