@@ -19,3 +19,9 @@ v1.0.2.842
 
 **火箭总装**
 ![alt tag](https://github.com/TimChen44/KSP_zh/blob/master/doc/screenshot4.png)
+
+#感谢
+
+现版本汉化中的中文资源来自KSP 0.24版汉化，在这里再次感谢0.24版热心网友
+
+Frighter jekiyuan(原总) 光明之门 starikki TimChen 作者无敌AA 以及本人 (排名按首字母顺序)
