@@ -1,0 +1,1388 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--一条记录创建一个Config-->
+<Configs>
+  <!--组件汉化-->
+  <!--Config有两个属性url和name，任选一个即可，默认url优先。url为组件的绝对地址，不会遇到重名问题，那么是组件的名称，理论上有遇到重名问题，遇到重名程序只会处理第一个-->
+  <Config name="AdvancedCanard">
+    <Values>
+      <Value name="title"><![CDATA[高级鸭翼]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[我们的工程师认为这个设计看起来十分的高端大气上档次,所以性能上肯定比之前有所改善.]]></Value>
+    </Values>
+  </Config>
+  <Config name="CanardController">
+    <Values>
+      <Value name="title"><![CDATA[标准鸭翼]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[我们的工程师在”参观”了Kerlington的制造厂后犹如脑子进水般思如泉涌,设计出了这款崭新的鸭翼.警告:剧烈机动有可能导致意外的分级.]]></Value>
+    </Values>
+  </Config>
+  <Config name="CircularIntake">
+    <Values>
+      <Value name="title"><![CDATA[圆形进气口]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[一个合适的涡扇进气口,不仅能为吸气发动机提供氧气,而且它的空气吸入量是Vac-Co生产的那些号称能进气的小勺子的两倍.]]></Value>
+    </Values>
+  </Config>
+  <Config name="GooExperiment">
+    <Values>
+      <Value name="title"><![CDATA[神秘的粘液罐]]></Value>
+      <Value name="manufacturer"><![CDATA[在路边捡到的]]></Value>
+      <Value name="description"><![CDATA[这个部件是我们的工程师们在翻垃圾的时候找--呃,是在研究现有科技产品的更多应用的时候找到的.这是一个装着某些奇怪物质的密封容器.我们不能进入罐子或者把它砸开,但是在不同环境下观察这些黏糊糊的液体的行为大概是很有教育意义的.]]></Value>
+    </Values>
+  </Config>
+  <Config name="JetEngine">
+    <Values>
+      <Value name="title"><![CDATA[基础喷气式引擎]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[标准的吸气式引擎.这款产品可以提供小范围的矢量推力.适合在普通的巡航速度与高度下工作.]]></Value>
+    </Values>
+  </Config>
+  <Config name="Large_Crewed_Lab">
+    <Values>
+      <Value name="title"><![CDATA[移动处理实验室 MPL-LG-2]]></Value>
+      <Value name="manufacturer"><![CDATA[积分联合企业]]></Value>
+      <Value name="description"><![CDATA[移动处理实验室的开发是为了帮助增加我们实地能够获得的科研点数.移动实验室允许您在太空站中处理样本,而不用把样本一路拖回Kerbin!这个型号保证比以前型号消耗的更少,并且拥有将不可操作的部件清理并恢复功能能力的神奇装置.]]></Value>
+    </Values>
+  </Config>
+  <Config name="MK1Fuselage">
+    <Values>
+      <Value name="title"><![CDATA[Mk1机身 - 航空燃料箱]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[为空天飞机设计的标准燃料运载机身,装载有航空燃料,尽管没有普通机身构件那么结实,其使用的航空燃料比普通的火箭燃料更加高效,不过重量没有显著减轻.]]></Value>
+    </Values>
+  </Config>
+  <Config name="Mark1-2Pod">
+    <Values>
+      <Value name="title"><![CDATA[Mk1-2指令舱]]></Value>
+      <Value name="manufacturer"><![CDATA[Kerlington模型火箭与纸制品有限公司]]></Value>
+      <Value name="description"><![CDATA[这款现代化的指令舱采用了完全可循环使用的设计.而且它宽敞的座舱最多可以装下3名宇航员.]]></Value>
+    </Values>
+  </Config>
+  <Config name="Mark1Cockpit">
+    <Values>
+      <Value name="title"><![CDATA[Mk1驾驶舱]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[C7航空部门自豪地在此推出第二代驾驶舱.这款驾驶舱能确保在一些最糟糕的情况发生时的生还率.当然额外的加固也使重量增加了不少.]]></Value>
+    </Values>
+  </Config>
+  <Config name="Mark2Cockpit">
+    <Values>
+      <Value name="title"><![CDATA[Mk2驾驶舱]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[新一代的直列安装座舱.专为外形光滑的高速飞行器设计.]]></Value>
+    </Values>
+  </Config>
+  <Config name="Mk1FuselageStructural">
+    <Values>
+      <Value name="title"><![CDATA[标准机身构件]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[标准的机身结构部件.它不装载任何燃油,仅仅是一个结构单元.正因为如此,它的内部加固使它更加坚固与轻便.]]></Value>
+    </Values>
+  </Config>
+  <Config name="R8winglet">
+    <Values>
+      <Value name="title"><![CDATA[AV-R8型小翼]]></Value>
+      <Value name="manufacturer"><![CDATA[Kerlington模型火箭与纸制品有限公司]]></Value>
+      <Value name="description"><![CDATA[R8活动控制型小翼系列将Kerlington模型火箭公司推上了太空飞船建造业的舞台.这款小翼拥有可动转轴,让它可以旋转以作为控制翼面使用.这项技术被普遍认为是将控制技术的水平提升到了一个新境界,并且绝大多数人认为这将让Kerlington的员工与R8粉们之间变成一山不容二虎的状况.]]></Value>
+    </Values>
+  </Config>
+  <Config name="RAPIER">
+    <Values>
+      <Value name="title"><![CDATA[R.A.P.I.E.R.'长剑'双模式引擎]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门与极限火箭合资企业]]></Value>
+      <Value name="description"><![CDATA[R.A.P.I.E.R.(反应式交替推进智能火箭引擎)是由C7航空和极限火箭合资开发的新一代引擎,目的是为了弥补单级入轨飞行器(SSTO)设计需求的空缺.这台引擎结合了最好的火箭和喷气推进技术.]]></Value>
+    </Values>
+  </Config>
+  <Config name="RCSBlock">
+    <Values>
+      <Value name="title"><![CDATA[RV-105-RCS喷口]]></Value>
+      <Value name="manufacturer"><![CDATA[STEADLER建设兵团]]></Value>
+      <Value name="description"><![CDATA[最近对物理定律的再次探索使STEADLER建设兵团制造出了这种小型单元推进剂喷口,它被用于辅助航天器进行姿态修正.尽管很多Kerbal物理学家依然对这条新定律抱有怀疑,但研究表明这款推进器用起来跟广告里写的一样好使.]]></Value>
+    </Values>
+  </Config>
+  <Config name="RCSFuelTank">
+    <Values>
+      <Value name="title"><![CDATA[FL-R25-RCS燃料罐]]></Value>
+      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="description"><![CDATA[这是一个用于RCS喷口的单元推进剂燃料罐.全新的管线技术进展允许人们将RCS管路延伸到飞船上的任何位置.因此不像液体燃料罐,RCS燃料罐可以被放置在任何位置.]]></Value>
+    </Values>
+  </Config>
+  <Config name="RCSTank1-2">
+    <Values>
+      <Value name="title"><![CDATA[FL-R1-RCS燃料罐]]></Value>
+      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="description"><![CDATA[一个大号的标准RCS燃料罐.]]></Value>
+    </Values>
+  </Config>
+  <Config name="SmallGearBay">
+    <Values>
+      <Value name="title"><![CDATA[小型起落架舱]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[高性能起落架,专为大气层内使用而设计.]]></Value>
+    </Values>
+  </Config>
+  <Config name="StandardCtrlSrf">
+    <Values>
+      <Value name="title"><![CDATA[标准控制翼面]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[用手头上最好的材料制作而成的这些控制翼面,能够保证在安装后有效工作.然而研究表明无大气环境(可能大概也许)会轻微的影响控制面的运作.一经售出,概不退换.]]></Value>
+    </Values>
+  </Config>
+  <Config name="adapterLargeSmallBi">
+    <Values>
+      <Value name="title"><![CDATA[TVR-200L级间双转接口]]></Value>
+      <Value name="manufacturer"><![CDATA[O.M.B.爆破企业]]></Value>
+      <Value name="description"><![CDATA[在意识到'大圆环'不是一个可以获得专利的概念之后,O.M.B.爆破企业推出了一套全新的复式连接转换器来适配极限火箭型号的部件.本型号能将一个2.5m级转换为两个1.25m级.]]></Value>
+    </Values>
+  </Config>
+  <Config name="adapterLargeSmallQuad">
+    <Values>
+      <Value name="title"><![CDATA[TVR-400L级间四转接口]]></Value>
+      <Value name="manufacturer"><![CDATA[O.M.B.爆破企业]]></Value>
+      <Value name="description"><![CDATA[在意识到'大圆环'不是一个可以获得专利的概念之后,O.M.B.爆破企业推出了一套全新的复式连接转换器来适配极限火箭型号的部件.本型号能将一个2.5m级转换为四个1.25m级.]]></Value>
+    </Values>
+  </Config>
+  <Config name="adapterLargeSmallTri">
+    <Values>
+      <Value name="title"><![CDATA[TVR-300L级间三转接口]]></Value>
+      <Value name="manufacturer"><![CDATA[O.M.B.爆破企业]]></Value>
+      <Value name="description"><![CDATA[在意识到'大圆环'不是一个可以获得专利的概念之后,O.M.B.爆破企业推出了一套全新的复式连接转换器来适配极限火箭型号的部件.本型号能将一个2.5m级转换为三个1.25m级.]]></Value>
+    </Values>
+  </Config>
+  <Config name="adapterSmallMiniShort">
+    <Values>
+      <Value name="title"><![CDATA[FL-A5转接器]]></Value>
+      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="description"><![CDATA[一个小号部件连接转换器,适用于FL-T舱体.]]></Value>
+    </Values>
+  </Config>
+  <Config name="adapterSmallMiniTall">
+    <Values>
+      <Value name="title"><![CDATA[FL-A10转接器]]></Value>
+      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="description"><![CDATA[一个小号部件连接转换器,适用于FL-T舱体.]]></Value>
+    </Values>
+  </Config>
+  <Config name="advSasModule">
+    <Values>
+      <Value name="title"><![CDATA[内嵌式高级稳定器]]></Value>
+      <Value name="manufacturer"><![CDATA[STEADLER建设兵团]]></Value>
+      <Value name="description"><![CDATA[这个系统使用一组以'相当'高速旋转的圆盘来产生控制飞船必需的扭矩.还包含一整套内置的飞行控制计算机.请不要尝试维修运行中的本设备.]]></Value>
+    </Values>
+  </Config>
+  <Config name="airScoop">
+    <Values>
+      <Value name="title"><![CDATA[XM-G50径向进气口]]></Value>
+      <Value name="manufacturer"><![CDATA[Vac-Co先进吸气系统公司]]></Value>
+      <Value name="description"><![CDATA[喷气式发动机必备!这款进气口能吸入外面的空气以供涡轮发动机运行,当然前提是外面有空气.保修范围不包括引擎熄火以及任何有生命或无生命的物体被吸入进气口.]]></Value>
+    </Values>
+  </Config>
+  <Config name="airplaneTail">
+    <Values>
+      <Value name="title"><![CDATA[气动尾锥]]></Value>
+      <Value name="manufacturer"><![CDATA[冬鸮飞行器商场]]></Value>
+      <Value name="description"><![CDATA[一款简单但符合空气动力学的机尾,为适应所有1m半径标准连接点而设计.它承载着'让我们飞'的希望.]]></Value>
+    </Values>
+  </Config>
+  <Config name="asasmodule1-2">
+    <Values>
+      <Value name="title"><![CDATA[高级 S.A.S模块（大）]]></Value>
+      <Value name="manufacturer"><![CDATA[STEADLER建设兵团]]></Value>
+      <Value name="description"><![CDATA[经过多年的研究,STEADLER建设兵团的火箭学家们发现指望Kerbal宇航员去操纵飞船实在是不靠谱.高级S.A.S模块通过不停地修正飞行操纵而完美的解决了这个问题.强烈建议不要让机组人员知道飞船上装了这么个东西.不然他们会认为自己'酷炫的飞行技术'受到了挑战.]]></Value>
+    </Values>
+  </Config>
+  <Config name="avionicsNoseCone">
+    <Values>
+      <Value name="title"><![CDATA[鼻锥式传感处理器阵列]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[最新的研究和开发成果让这个小小的奇迹成为了现实.它搭载了许多'高质量'的传感器与一台从最高质量的航空废品堆里淘回来的计算机,使它能在飞行中采集大气层的数据.]]></Value>
+    </Values>
+  </Config>
+  <Config name="batteryBankLarge">
+    <Values>
+      <Value name="title"><![CDATA[Z-4K充电电池组]]></Value>
+      <Value name="manufacturer"><![CDATA[Zaltonic电子]]></Value>
+      <Value name="description"><![CDATA[最新升级的电涌控制技术造就了Z-4K,有史以来制造出的最大的电池组.Zaltonic电子承认它激烈放电时十分酷炫,最好别冒出将Z-4K短路的念头...]]></Value>
+    </Values>
+  </Config>
+  <Config name="batteryBankMini">
+    <Values>
+      <Value name="title"><![CDATA[Z-200充电电池组]]></Value>
+      <Value name="manufacturer"><![CDATA[Zaltonic电子]]></Value>
+      <Value name="description"><![CDATA[Z-200是Z-100电池组的线性安装版本,同时也增加了些许容量.在遇到紧急状况时,别把正负极装反了.]]></Value>
+    </Values>
+  </Config>
+  <Config name="batteryBank">
+    <Values>
+      <Value name="title"><![CDATA[Z-1k充电电池组]]></Value>
+      <Value name="manufacturer"><![CDATA[Zaltonic电子]]></Value>
+      <Value name="description"><![CDATA[Z-1k是线性安装的电池组,电量有Z-100的十倍之多.]]></Value>
+    </Values>
+  </Config>
+  <Config name="batteryPack">
+    <Values>
+      <Value name="title"><![CDATA[Z-100充电电池组]]></Value>
+      <Value name="manufacturer"><![CDATA[Zaltonic电子]]></Value>
+      <Value name="description"><![CDATA[Z-100电池组是电气应用行业的标准电源.包含两节AAAA电池,最多能存贮100单位的电量.]]></Value>
+    </Values>
+  </Config>
+  <Config name="commDish">
+    <Values>
+      <Value name="title"><![CDATA[Communotron 88-88型通讯天线]]></Value>
+      <Value name="manufacturer"><![CDATA[离子-质子同步电子工业]]></Value>
+      <Value name="description"><![CDATA[Communotron牌高增益天线,其88-88型号支持长距离高速通信.]]></Value>
+    </Values>
+  </Config>
+  <Config name="crewCabin">
+    <Values>
+      <Value name="title"><![CDATA[PPD-10-'顺风车'载人舱]]></Value>
+      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="description"><![CDATA[这是一个必要的发明--在根本不打算返回的情况下,我们该如何在轨道上'存放'4个Kerbal呢？只不过天知道到底谁会需要这东西,还有他为什么会需要.]]></Value>
+    </Values>
+  </Config>
+  <Config name="cupola">
+    <Values>
+      <Value name="title"><![CDATA[PPD-12穹顶舱]]></Value>
+      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="description"><![CDATA[PPD-12的开发目的是用于给在轨空间站提供一个广阔视野的控制室,以及给文艺的Kerbal宇航员们一个凝视这美丽的宇宙的场所.]]></Value>
+    </Values>
+  </Config>
+  <Config name="decoupler1-2">
+    <Values>
+      <Value name="title"><![CDATA[极限火箭品牌分离环]]></Value>
+      <Value name="manufacturer"><![CDATA[极限火箭合资企业]]></Value>
+      <Value name="description"><![CDATA[极限火箭合资企业很荣幸为您提供最新的分离技术--两倍大小于下一代的主打产品,极限火箭分离环内置了更多的炸药以得到更强劲的分离力度!相比于它的那些更小的可悲的粗制滥造品质低下的市场竞争者,极限火箭分离环上还有贴心的小箭头,标示它是从哪一端进行分离.]]></Value>
+    </Values>
+  </Config>
+  <Config name="deltaWing">
+    <Values>
+      <Value name="title"><![CDATA[三角翼面]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[标准的等腰直角三角形翼面.这些翼面提供强大的升力与稳定的重心,让你的日常飞行更加顺利.]]></Value>
+    </Values>
+  </Config>
+  <Config name="dockingPort1">
+    <Values>
+      <Value name="title"><![CDATA[Clamp-O-Tron对接口(防护型)]]></Value>
+      <Value name="manufacturer"><![CDATA[在路边捡到的]]></Value>
+      <Value name="description"><![CDATA[当一个原本和平的'我们缺少飞船的对接系统'的抗议声变得充斥着火药味之后,它被发明了出来.Clamp-O-Tron对接口可以为两艘飞船提供稳固的连接.对接之后,也可以轻松容易地分离.防护型版本安装了可以被部署的挡板,用来在飞船上升时保护脆弱的对接口.]]></Value>
+    </Values>
+  </Config>
+  <Config name="dockingPort2">
+    <Values>
+      <Value name="title"><![CDATA[Clamp-O-Tron对接口]]></Value>
+      <Value name="manufacturer"><![CDATA[在路边捡到的]]></Value>
+      <Value name="description"><![CDATA[当一个原本和平的'我们缺少飞船的对接系统'的抗议声变得充斥着火药味之后,它被发明了出来.Clamp-O-Tron对接口可以为两艘飞船提供稳固的连接.对接之后,也可以轻松容易地分离.]]></Value>
+    </Values>
+  </Config>
+  <Config name="dockingPort3">
+    <Values>
+      <Value name="title"><![CDATA[Clamp-O-Tron对接口(微型)]]></Value>
+      <Value name="manufacturer"><![CDATA[在路边捡到的]]></Value>
+      <Value name="description"><![CDATA[设计之初被定位为小型版的Clamp-O-Tron对接口,很快发现爱好者和专业太空机构由于它那紧凑的外形,轻重量结构和看起来十分可爱等原因而使用了它.由于体型娇小,它被用来传输各种物资,而不是让我们的宇航员通过.]]></Value>
+    </Values>
+  </Config>
+  <Config name="dockingPortLarge">
+    <Values>
+      <Value name="title"><![CDATA[Clamp-O-Tron对接口(大型)]]></Value>
+      <Value name="manufacturer"><![CDATA[在路边捡到的]]></Value>
+      <Value name="description"><![CDATA[大型Clamp-O-Tron对接口是花费了大量人力物力研究如何使对接点更加稳固而得到的答案.得益于一位机智的门卫的天才提议'为什么不把他做的大一点?',公众现在可以好好享受在太空中对接巨大的家伙所带来的纯粹愉悦感了.]]></Value>
+    </Values>
+  </Config>
+  <Config name="dockingPortLateral">
+    <Values>
+      <Value name="title"><![CDATA[Clamp-O-Tron对接口(内置型)]]></Value>
+      <Value name="manufacturer"><![CDATA[在路边捡到的]]></Value>
+      <Value name="description"><![CDATA[内置型Clamp-O-Tron是一个偶然的发明,起因是某位(该好好重新配一副眼镜的)工程师错误理解了防护型Clamp-O-Tron对接口的蓝图设计.但是团队中的其他人非常喜欢这种自带气动挡板的侧向对接口的设计.于是他为这个设计申请了专利,并直到现在为止都矢口否认这不是他故意的...]]></Value>
+    </Values>
+  </Config>
+  <Config name="engineLargeSkipper">
+    <Values>
+      <Value name="title"><![CDATA[极限火箭'船长'液体燃料引擎]]></Value>
+      <Value name="manufacturer"><![CDATA[极限火箭合资企业]]></Value>
+      <Value name="description"><![CDATA['主帆'的小型版.'船长'的功率相当于呃...大城市!兼具高推力和不错的效率,使其适合用于火箭的中段加速.]]></Value>
+    </Values>
+  </Config>
+  <Config name="fuelLine">
+    <Values>
+      <Value name="title"><![CDATA[FTX-2外部燃料管]]></Value>
+      <Value name="manufacturer"><![CDATA[FLOOYD动力学研究实验室]]></Value>
+      <Value name="description"><![CDATA[FLOOYD动力学研究实验室的最新技术突破促使FTX燃料管系列的诞生.虽然被批评为'涂成黄色的污水管道',但是大多数人认为相对来说黄色还是不错的,而且这些燃料管确实可以从侧挂燃料箱里抽出燃料.在召回了FTX-1系列的产品之后,所有的FTX-2管道上都涂上了指明燃料流动方向的箭头,这样工程师们就能分辨燃料到底应该流到哪儿去了.]]></Value>
+    </Values>
+  </Config>
+  <Config name="fuelTank1-2">
+    <Values>
+      <Value name="title"><![CDATA[极限火箭 X200-32型燃料箱]]></Value>
+      <Value name="manufacturer"><![CDATA[极限火箭合资企业]]></Value>
+      <Value name="description"><![CDATA[当我们的一位宇航员抱怨'现有的燃料箱都实在是太小了'之后,我们开发了X200-32型燃料箱.它可以装载足够多的燃料,满足你....足够的需求,你懂的.别吐槽!极限火箭的专家们都是火箭科学家,不是作家.]]></Value>
+    </Values>
+  </Config>
+  <Config name="fuelTank2-2">
+    <Values>
+      <Value name="title"><![CDATA[极限火箭 X200-16型燃料箱]]></Value>
+      <Value name="manufacturer"><![CDATA[极限火箭合资企业]]></Value>
+      <Value name="description"><![CDATA[经过了很长时间的研究,极限火箭的工程师发现太空计划确实需要比X200-32小一半的燃料箱.一经售出恕不退换.]]></Value>
+    </Values>
+  </Config>
+  <Config name="fuelTank3-2">
+    <Values>
+      <Value name="title"><![CDATA[极限火箭 Jumbo-64型燃料箱]]></Value>
+      <Value name="manufacturer"><![CDATA[极限火箭合资企业]]></Value>
+      <Value name="description"><![CDATA[Jumbo-64型燃料箱是极限火箭合资企业所能生产的最大的燃料箱,它在拥有着可爱的橙色隔热涂层的同时能装载极其多的燃料.尽管他被宇航员们昵称为'橙罐',Jumbo-64型燃料箱其实跟橙汁没有半点关系.别尝,它真的不是橙子味儿的.]]></Value>
+    </Values>
+  </Config>
+  <Config name="fuelTank4-2">
+    <Values>
+      <Value name="title"><![CDATA[极限火箭 X200-8型燃料箱]]></Value>
+      <Value name="manufacturer"><![CDATA[极限火箭合资企业]]></Value>
+      <Value name="description"><![CDATA[一个紧凑的燃料箱,为火箭上级与登陆器设计.极限火箭对燃料箱内部的Dawton-Kerman露天泳池公司的贴纸不负任何责任,因为这个燃料箱绝对不是我们从他们的泳池模具厂里面偷出来的.]]></Value>
+    </Values>
+  </Config>
+  <Config name="fuelTankSmallFlat">
+    <Values>
+      <Value name="title"><![CDATA[FL-T100型燃料箱]]></Value>
+      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="description"><![CDATA[这个FL-T100型燃料箱做的比它的大哥FL-T200还萌.请淡定而小心地使用本品.]]></Value>
+    </Values>
+  </Config>
+  <Config name="fuelTankSmall">
+    <Values>
+      <Value name="title"><![CDATA[FL-T200型燃料箱]]></Value>
+      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="description"><![CDATA[FL-T200型燃料箱一开始并不被航天工程领域所接受,因为绝大部分火箭工程师都会忍不住去端详这个'可爱的小燃料箱'.这个第一印象直到装配区开始频繁的发生剧烈爆炸才被抛开,甚至于有人定下了'禁止对燃料箱卖萌'的条例.FL-T200型燃料箱现在被广泛的应用于航天计划中,尤其是针对与LV-909型发动机的连接.]]></Value>
+    </Values>
+  </Config>
+  <Config name="fuelTank">
+    <Values>
+      <Value name="title"><![CDATA[FL-T400燃料箱]]></Value>
+      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="description"><![CDATA[FL系列被认为是在之前的太空计划中使用的燃料箱的重大升级,通常是由于之前的燃料箱的能力应该是保证燃料不爆炸,而结果往往是相反的.燃料箱底部应当安装的是液体燃料引擎.也可以与其他燃料箱堆叠放置以增加燃料箱最底部引擎的燃料量.]]></Value>
+    </Values>
+  </Config>
+  <Config name="fuelTank_long">
+    <Values>
+      <Value name="title"><![CDATA[FL-T800型燃料箱]]></Value>
+      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="description"><![CDATA[把FL-T400拉长之后,FL-T800型燃料箱能装载两倍多的燃料,并且有着稍微高一点的坚固性.'燃料箱侧面的黑色条纹能让火箭飞得更快更高更强!'我们的工程师这样告诉我们.]]></Value>
+    </Values>
+  </Config>
+  <Config name="ionEngine">
+    <Values>
+      <Value name="title"><![CDATA[PB-ION电动推进系统]]></Value>
+      <Value name="manufacturer"><![CDATA[离子-质子同步电子工业]]></Value>
+      <Value name="description"><![CDATA[通过从一个小喷口喷射离子化的氙气产生推力,PB-ION的推进效率高得不可思议,但是也伴随着推力极低与耗电量大等缺点.此外根据离子-质子同步电子工业的销售报告,某些关于这款引擎使用'黑魔法'作为推进力的传言似乎有点扩散趋势.]]></Value>
+    </Values>
+  </Config>
+  <Config name="ksp_r_largeBatteryPack">
+    <Values>
+      <Value name="title"><![CDATA[Z-400充电电池组]]></Value>
+      <Value name="manufacturer"><![CDATA[Zaltonic电子]]></Value>
+      <Value name="description"><![CDATA[Z-400电池组是一个多用途的高密度电能储存解决方案,适用于AAAA电池无法承受的高负载.包含一个可以承载400单位电能的E型电池.]]></Value>
+    </Values>
+  </Config>
+  <Config name="ladder1">
+    <Values>
+      <Value name="title"><![CDATA[飞马I型移动强化装置]]></Value>
+      <Value name="manufacturer"><![CDATA[Rokea股份有限公司]]></Value>
+      <Value name="description"><![CDATA[飞马I型移动强化装置,在某些圈子内被称作'梯子'的玩意儿,是一件'存在即合理'的垂直机动装置,它可以让你的勇猛的宇航员们像嗑了药一般在飞船的外部毫无限制地快速移动.]]></Value>
+    </Values>
+  </Config>
+  <Config name="landerCabinSmall">
+    <Values>
+      <Value name="title"><![CDATA[Mk1着陆舱]]></Value>
+      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="description"><![CDATA[该舱体是用于无大气星球着陆的轻量级着陆舱,能容纳一名乘员.配备有全新的整体防撞缓冲技术.]]></Value>
+    </Values>
+  </Config>
+  <Config name="landingLeg1-2">
+    <Values>
+      <Value name="title"><![CDATA[LT-2着陆架]]></Value>
+      <Value name="manufacturer"><![CDATA[运动部件专家组]]></Value>
+      <Value name="description"><![CDATA[LT-2着陆架给重量级飞船提供了安稳的降落方式,不用再顾虑狠狠砸到地面上之类的严重后果.]]></Value>
+    </Values>
+  </Config>
+  <Config name="landingLeg1">
+    <Values>
+      <Value name="title"><![CDATA[LT-1着陆架]]></Value>
+      <Value name="manufacturer"><![CDATA[运动部件专家组]]></Value>
+      <Value name="description"><![CDATA[它一开始可能是被设计成一个重量级的金属探测器,但是它确实强调了着陆操作中的一个重要事实:你确实不用把地面砸一个洞才能让自己停下来!]]></Value>
+    </Values>
+  </Config>
+  <Config name="largeAdapter2">
+    <Values>
+      <Value name="title"><![CDATA[极限火箭牌转接器第二代]]></Value>
+      <Value name="manufacturer"><![CDATA[极限火箭合资企业]]></Value>
+      <Value name="description"><![CDATA[极限火箭出品的一个短一点的转接器,在一个和它的大哥哥类似的环境下制成.表面涂有童叟无欺的空间防护涂层.]]></Value>
+    </Values>
+  </Config>
+  <Config name="largeAdapter">
+    <Values>
+      <Value name="title"><![CDATA[极限火箭牌转接器]]></Value>
+      <Value name="manufacturer"><![CDATA[极限火箭合资企业]]></Value>
+      <Value name="description"><![CDATA[政府方面的压力和一些法律条文迫使极限火箭最终考虑制作了一款能将自己的产品与它竞争对手的产品连接在一起的转接器.虽然极限火箭的老总十分恨它,但它却是一款十分成功的产品.]]></Value>
+    </Values>
+  </Config>
+  <Config name="largeSolarPanel">
+    <Values>
+      <Value name="title"><![CDATA[铁人 XL太阳能板阵列]]></Value>
+      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="description"><![CDATA[作为可以买到的最大的单个太阳能阵列,铁人XL在具有紧凑的初始大小的同时提供极强的发电能力.]]></Value>
+    </Values>
+  </Config>
+  <Config name="launchClamp1">
+    <Values>
+      <Value name="title"><![CDATA[TT18-A发射稳定增强器]]></Value>
+      <Value name="manufacturer"><![CDATA[O.M.B.爆破企业]]></Value>
+      <Value name="description"><![CDATA[TT18-A稳定增强器使用插进地面的紧固技术来显著地提高航天器在发射前阶段的稳定性.尽管O.M.B.爆破企业过去总是被批评在他们的产品描述中过度使用'高端大气上档次的词语描述一个火箭发射架',没有人会说TT18系列不能像广告中说的那样将火箭紧紧地固定住.产品的使用手册强烈建议使用者将这些设备放置在航天器的最下端,并且在引擎点燃的同时立刻将设备断开,以获得最佳的解锁性能.]]></Value>
+    </Values>
+  </Config>
+  <Config name="linearRcs">
+    <Values>
+      <Value name="title"><![CDATA['随便放'7代线性RCS喷口]]></Value>
+      <Value name="manufacturer"><![CDATA[反应系统有限公司]]></Value>
+      <Value name="description"><![CDATA[对于每个需要RCS推进器的地方,反应系统有限公司都推荐你用上'随便放'7代线性RCS喷口!]]></Value>
+    </Values>
+  </Config>
+  <Config name="liquidEngine1-2">
+    <Values>
+      <Value name="title"><![CDATA[极限火箭'主帆'液体燃料引擎]]></Value>
+      <Value name="manufacturer"><![CDATA[极限火箭合资企业]]></Value>
+      <Value name="description"><![CDATA[一款纯粹为了重型大推力火箭发射而诞生的怪物,它的功率完全可以匹敌一些小国家!]]></Value>
+    </Values>
+  </Config>
+  <Config name="liquidEngine2-2">
+    <Values>
+      <Value name="title"><![CDATA[极限火箭'贵宾犬'液体燃料引擎]]></Value>
+      <Value name="manufacturer"><![CDATA[极限火箭合资企业]]></Value>
+      <Value name="description"><![CDATA[适合在资金紧缺时使用的引擎,减小节流阀后也可以用来烧烤.]]></Value>
+    </Values>
+  </Config>
+  <Config name="liquidEngine2">
+    <Values>
+      <Value name="title"><![CDATA[LV-T45液体燃料引擎]]></Value>
+      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="description"><![CDATA[LV-T45引擎的矢量推力技术是LV-T系列的另一个重大突破.它可以偏转喷口的方向来帮助飞船转向.虽然这些升级让它较之前版本的LV-T系列引擎推力下降了一点.]]></Value>
+    </Values>
+  </Config>
+  <Config name="liquidEngine3">
+    <Values>
+      <Value name="title"><![CDATA[LV-909液体燃料引擎]]></Value>
+      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="description"><![CDATA[909型引擎最开始遭到了航天工程师们的质疑,因为它违背了长久以来的惯例:'推力再大点!'.尽管如此,LV-909型还是找到了它在飞船建造业中的位置,通常被用做最末级或着陆用引擎.]]></Value>
+    </Values>
+  </Config>
+  <Config name="liquidEngineMini">
+    <Values>
+      <Value name="title"><![CDATA[极限火箭 48-7S液体燃料引擎]]></Value>
+      <Value name="manufacturer"><![CDATA[极限火箭合资企业]]></Value>
+      <Value name="description"><![CDATA[48-7S虽然很小,但却拥有着与外表不符的强劲动力.这款引擎提出了大不代表强的新颖观点,至少极限火箭合资企业销售部门的数据是这样显示的....这款引擎的包装盒看起来非常酷,从任何意义上都是.]]></Value>
+    </Values>
+  </Config>
+  <Config name="liquidEngine">
+    <Values>
+      <Value name="title"><![CDATA[LV-T30液体燃料引擎]]></Value>
+      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="description"><![CDATA[虽然由于用途不明确被人批评为'没人用的垃圾',但是LV-T系列的引擎已经证明了自己还是比较可靠的.LV-T30引擎最值得夸耀的一点就是它的故障率低于50%.工程师和LV-T爱好者认为这是它与旧型号相比最主要的改进.]]></Value>
+    </Values>
+  </Config>
+  <Config name="longAntenna">
+    <Values>
+      <Value name="title"><![CDATA[Communotron 16型通讯天线]]></Value>
+      <Value name="manufacturer"><![CDATA[离子-质子同步电子工业]]></Value>
+      <Value name="description"><![CDATA[Communotron 16是一种多功能的轻量级天线,适合一般距离的通信和长距离的备用通信,以及政府秘密窃听行动.]]></Value>
+    </Values>
+  </Config>
+  <Config name="mark3Cockpit">
+    <Values>
+      <Value name="title"><![CDATA[Mk3驾驶舱]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[Mk3驾驶舱是飞机驾驶舱技术的巅峰之作.在一些罕见的撞击Kerbin的异常事件中,驾驶舱将保证按照相关的卫生条例埋葬您的宇航员.]]></Value>
+    </Values>
+  </Config>
+  <Config name="mediumDishAntenna">
+    <Values>
+      <Value name="title"><![CDATA[Comms DTS-M1]]></Value>
+      <Value name="manufacturer"><![CDATA[离子-质子同步电子工业]]></Value>
+      <Value name="description"><![CDATA[DTS-M1是一个完全可部署的通讯和数据传输系统.本产品的设计使其在收起状态时只占用极小的空间.组装时会需要一些天线优化或是踢上几脚以获得最好的性能.]]></Value>
+    </Values>
+  </Config>
+  <Config name="microEngine">
+    <Values>
+      <Value name="title"><![CDATA[LV-1液体燃料引擎]]></Value>
+      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="description"><![CDATA[这TM是啥?给蚂蚁用都嫌小...]]></Value>
+    </Values>
+  </Config>
+  <Config name="miniFuelTank">
+    <Values>
+      <Value name="title"><![CDATA[Oscar-B型燃料箱]]></Value>
+      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="description"><![CDATA[来自探测者动力有限公司的Oscar-B型燃料箱有着十分的紧凑的设计,为小型空间探测器或者小型航天器的后备燃料箱设计.请不要使用冷水洗涤,也请不要在午夜后加注燃料.]]></Value>
+    </Values>
+  </Config>
+  <Config name="miniLandingLeg">
+    <Values>
+      <Value name="title"><![CDATA[LT-5微型着陆架]]></Value>
+      <Value name="manufacturer"><![CDATA[运动部件专家组]]></Value>
+      <Value name="description"><![CDATA[一个为太空探测器或者轻量级登陆器设计的着陆架.基本上是由牙签制成...呃,注意是太空级的牙签.不过无论如何还是小心使用.]]></Value>
+    </Values>
+  </Config>
+  <Config name="mk1pod">
+    <Values>
+      <Value name="title"><![CDATA[Mk1指令舱]]></Value>
+      <Value name="manufacturer"><![CDATA[Kerlington模型火箭与纸制品有限公司]]></Value>
+      <Value name="description"><![CDATA[它最初仅仅是火箭模型论证时使用的一个占位模块.然而全世界科学家一致认为Mk1指挥舱是比它的前辈更安全可靠的选择.现役的很多载具上都能看到它的身影.]]></Value>
+    </Values>
+  </Config>
+  <Config name="mk2Fuselage">
+    <Values>
+      <Value name="title"><![CDATA[Mk2机身航空燃料箱]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[这段舱体采用了最新的大气再入生还技术.很明显在空气中高速运动的物体会变得很热(谁知道呢?!).为了解决这个问题,我们只好在舱体的下部附上了一层不错的隔热砖.]]></Value>
+    </Values>
+  </Config>
+  <Config name="mk2LanderCabin">
+    <Values>
+      <Value name="title"><![CDATA[Mk2着陆舱]]></Value>
+      <Value name="manufacturer"><![CDATA[Sean罐头厂]]></Value>
+      <Value name="description"><![CDATA[这个舒适的舱体拥有两个座位,并且它的重量非常的轻.但是,不要指望它能抵御再入大气层时的冲击,甚至一个喷嚏就能让它散架.]]></Value>
+    </Values>
+  </Config>
+  <Config name="mk2SpacePlaneAdapter">
+    <Values>
+      <Value name="title"><![CDATA[Mk2转 1m转接段]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[这段舱体采用了最新的大气再入生还技术.很明显在空气中高速运动的物体会变得很热(谁知道呢?!).为了解决这个问题,我们只好在舱体的下部附上了一层不错的隔热砖.]]></Value>
+    </Values>
+  </Config>
+  <Config name="mk3Fuselage">
+    <Values>
+      <Value name="title"><![CDATA[Mk3机身航空燃料箱]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[这段舱体采用了最新的大气再入生还技术.很明显在空气中高速运动的物体会变得很热(谁知道呢?!).为了解决这个问题,我们只好在舱体的下部附上了一层不错的隔热砖.]]></Value>
+    </Values>
+  </Config>
+  <Config name="mk3spacePlaneAdapter">
+    <Values>
+      <Value name="title"><![CDATA[Mk3转 Mk2转接段]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[这段舱体采用了最新的大气再入生还技术.很明显在空气中高速运动的物体会变得很热(谁知道呢?!).为了解决这个问题,我们只好在舱体的下部附上了一层不错的隔热砖.]]></Value>
+    </Values>
+  </Config>
+  <Config name="nacelleBody">
+    <Values>
+      <Value name="title"><![CDATA[发动机机舱]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[这个发动机机身的特色是能够压缩进气口的空气,使得更大流量的燃料能够被输送到发动机的燃烧系统.它同时也整合了一个内置的油箱,这让它成为了一个非常实用的选择.C7的工程师向我们保证这款机舱非常安全,并且每台都带有独特的烧灼和凹痕装饰.]]></Value>
+    </Values>
+  </Config>
+  <Config name="noseConeAdapter">
+    <Values>
+      <Value name="title"><![CDATA[鼻锥转接器]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[这是C7航空部门所研发的鼻锥系统(NCS)的基本型号.]]></Value>
+    </Values>
+  </Config>
+  <Config name="noseCone">
+    <Values>
+      <Value name="title"><![CDATA[气动鼻锥]]></Value>
+      <Value name="manufacturer"><![CDATA[歌利亚国家制造厂]]></Value>
+      <Value name="description"><![CDATA[符合空气动力学,够轻,基本上不回爆炸.致所有工作人员:尖锐物品,撞上去很容易受伤.]]></Value>
+    </Values>
+  </Config>
+  <Config name="nuclearEngine">
+    <Values>
+      <Value name="title"><![CDATA[LV-N核火箭引擎]]></Value>
+      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="description"><![CDATA[先不管侧面喷涂着的大大的放射性标志,或者它有放射性的废气,还有很容易过热爆炸的特性,LV-N核火箭引擎还算是无害的...一般来说是的.]]></Value>
+    </Values>
+  </Config>
+  <Config name="parachuteDrogue">
+    <Values>
+      <Value name="title"><![CDATA[Mk25降落伞]]></Value>
+      <Value name="manufacturer"><![CDATA[在路边捡到的]]></Value>
+      <Value name="description"><![CDATA[Mk25降落伞被认为是“风向标”级的降落伞--它占用空间小,部署高度高,并且明显不足以独自阻止你直接重重地砸在地上.但是本产品在重型航天器部署主降落伞之前先使其减速方面很有用.]]></Value>
+    </Values>
+  </Config>
+  <Config name="parachuteLarge">
+    <Values>
+      <Value name="title"><![CDATA[Mk16-XL降落伞]]></Value>
+      <Value name="manufacturer"><![CDATA[在路边捡到的]]></Value>
+      <Value name="description"><![CDATA[Mk16-XL降落伞是一个MK16降落伞的双倍大小改型,并且只有50%的结构强度!]]></Value>
+    </Values>
+  </Config>
+  <Config name="parachuteRadial">
+    <Values>
+      <Value name="title"><![CDATA[Mk2-R径向安装降落伞]]></Value>
+      <Value name="manufacturer"><![CDATA[在路边捡到的]]></Value>
+      <Value name="description"><![CDATA[一个和Mk16-XL类似的降落伞,但是本产品是侧面安装而非连接在某物的顶部.]]></Value>
+    </Values>
+  </Config>
+  <Config name="parachuteSingle">
+    <Values>
+      <Value name="title"><![CDATA[Mk16降落伞]]></Value>
+      <Value name="manufacturer"><![CDATA[在路边捡到的]]></Value>
+      <Value name="description"><![CDATA[Mk16降落伞可能会被一些人认为纯粹是把一些边角废料胡乱缝在一起.事实上本产品就是由优质边角废料精心缝制而成.但是不管怎样,使用Mk16被广泛的接受为一种比自由落体稍微好那么一点的落地方式.]]></Value>
+    </Values>
+  </Config>
+  <Config name="probeCoreCube">
+    <Values>
+      <Value name="title"><![CDATA[QBE探测器核心]]></Value>
+      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="description"><![CDATA[QBE是一款具有立方体的外观,坚固的结构,以及较轻的重量的探测器核心.它还能承受比其他探测器核心更高的温度.其简约的外观甚至吸引了一批现代艺术收藏家.相信我,每个人都爱它.]]></Value>
+    </Values>
+  </Config>
+  <Config name="probeCoreHex">
+    <Values>
+      <Value name="title"><![CDATA[HECS探测器核心]]></Value>
+      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="description"><![CDATA[HECS是广泛运用的OKTO核心的重制版,它更受那些认为'六边形看起来有科技感多了'的设计师们的欢迎.]]></Value>
+    </Values>
+  </Config>
+  <Config name="probeCoreOcto2">
+    <Values>
+      <Value name="title"><![CDATA[OKTO探测器核心2代]]></Value>
+      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="description"><![CDATA[OKTO的一个扁平版本,OKTO2的设计完全没有考虑喜欢拿OKTO一代当椅子的工程师们的感受.]]></Value>
+    </Values>
+  </Config>
+  <Config name="probeCoreOcto">
+    <Values>
+      <Value name="title"><![CDATA[OKTO探测器核心]]></Value>
+      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="description"><![CDATA[OKTO是超棒的新手级别的无人探测器核心,它的简单几何形状和许多平面的设计为在它上面安装各种玩意提供了很大的方便.]]></Value>
+    </Values>
+  </Config>
+  <Config name="probeCoreSphere">
+    <Values>
+      <Value name="title"><![CDATA[Stayputniktan无人舱第一型]]></Value>
+      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="description"><![CDATA[Stayputnik提供了乘员安全问题的终极解决办法.一个轻型的球体里面塞了一些远程接收装置和一个微型陀螺仪以便分清上下左右.因为宇航员根本塞不进这个球体,所以他们也就肯定当然绝对不会受到任何的伤害.只不过该设备还是需要电来工作的,如果没电了就会喜闻乐见地失控.它内置的电池差不多可以让它持续工作十分钟.]]></Value>
+    </Values>
+  </Config>
+  <Config name="probeStackLarge">
+    <Values>
+      <Value name="title"><![CDATA[RC-L01远程控制单元]]></Value>
+      <Value name="manufacturer"><![CDATA[STEADLER建设兵团]]></Value>
+      <Value name="description"><![CDATA[RGU系统的大号版本,是与极限火箭合资企业联合开发出来的.]]></Value>
+    </Values>
+  </Config>
+  <Config name="probeStackSmall">
+    <Values>
+      <Value name="title"><![CDATA[RC-001S远程控制单元]]></Value>
+      <Value name="manufacturer"><![CDATA[STEADLER建设兵团]]></Value>
+      <Value name="description"><![CDATA[拜无所不在的人力资源部门所赐,远程控制单元RGU被开发出来,RGU不仅仅可以控制无人的火箭,还搭载了内置的动量轮,同时抗干扰能力也大大提高.]]></Value>
+    </Values>
+  </Config>
+  <Config name="radialDecoupler1-2">
+    <Values>
+      <Value name="title"><![CDATA[液压析构集流器]]></Value>
+      <Value name="manufacturer"><![CDATA[O.M.B.爆破企业]]></Value>
+      <Value name="description"><![CDATA[自从发现了“集流器”这个词以后,O.M.B.的工程师们觉得这货怎么也得在至少一个产品的名字里用一用(其实它只是个分离器而已).]]></Value>
+    </Values>
+  </Config>
+  <Config name="radialDecoupler2">
+    <Values>
+      <Value name="title"><![CDATA[TT-70径向分离器]]></Value>
+      <Value name="manufacturer"><![CDATA[O.M.B.爆破企业]]></Value>
+      <Value name="description"><![CDATA[TT-70径向分离器是TT-38K分离器的一种扩展型号.为了让组件间的距离变大,它配备了更大的支架结构.]]></Value>
+    </Values>
+  </Config>
+  <Config name="radialDecoupler">
+    <Values>
+      <Value name="title"><![CDATA[TT-38K径向分离器]]></Value>
+      <Value name="manufacturer"><![CDATA[O.M.B.爆破企业]]></Value>
+      <Value name="description"><![CDATA[TT-38K径向分离器,和其他的分离器一样,配备有(但愿吧)少量炸药,用于炸断其自身的结构连接以及其他什么连接上它的玩意.]]></Value>
+    </Values>
+  </Config>
+  <Config name="radialEngineBody">
+    <Values>
+      <Value name="title"><![CDATA[径向发动机机身]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[这款机身整合了一个侧面的进气口和一个尺寸适中的燃料箱.所以它能同时为吸气引擎提供燃料和燃烧所需的空气.这使得它成为了飞机设计中一个非常方便的解决方案.C7的发言人坚持表示这款机身一直就长这个样子,而且是一个全新的设计,最重要的是它绝对不是把一个散热器罩子翻了过来.]]></Value>
+    </Values>
+  </Config>
+  <Config name="radialEngineMini">
+    <Values>
+      <Value name="title"><![CDATA[LV-1R液体燃料引擎]]></Value>
+      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="description"><![CDATA[为了安抚那些由于LV-1推力太过弱小而愤怒的工程师们,侧面安装的LV-1R提供了一个更吸引人的解决方案:'多放几个就好啦...'.安装时不要指向面部.]]></Value>
+    </Values>
+  </Config>
+  <Config name="radialLiquidEngine1-2">
+    <Values>
+      <Value name="title"><![CDATA[极限火箭 55型径向安装液体燃料引擎]]></Value>
+      <Value name="manufacturer"><![CDATA[极限火箭合资企业]]></Value>
+      <Value name="description"><![CDATA[一位足够疯狂的工程师设计并制造革命性的新型发动机.在一番疯狂的研究后,研究者们转而求助于引擎业的泰斗--著名的工程师Eumon Kerman.他的工作最终悲惨地结束了,而这就是我们最后的成果.]]></Value>
+    </Values>
+  </Config>
+  <Config name="radialRCSTank">
+    <Values>
+      <Value name="title"><![CDATA[云层-V球形单元推进剂罐]]></Value>
+      <Value name="manufacturer"><![CDATA[云层公司]]></Value>
+      <Value name="description"><![CDATA[不管这玩意的名字有多花哨,云层-V确实非常简洁---一个小型的,并能侧挂安装的RCS燃料罐.]]></Value>
+    </Values>
+  </Config>
+  <Config name="ramAirIntake">
+    <Values>
+      <Value name="title"><![CDATA[冲压进气口]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[不同于普通的进气口,这种高性能的进气口内置了预压气机,即使在很高的高空也能为喷气式引擎提供充足的空气.]]></Value>
+    </Values>
+  </Config>
+  <Config name="rcsTankMini">
+    <Values>
+      <Value name="title"><![CDATA[FL-R10-RCS燃料罐]]></Value>
+      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="description"><![CDATA[FL-R10是为小型探测器而研制的迷你型RCS燃料罐,RCS燃料容量也很低.]]></Value>
+    </Values>
+  </Config>
+  <Config name="rcsTankRadialLong">
+    <Values>
+      <Value name="title"><![CDATA[云层-V柱形单元推进剂罐]]></Value>
+      <Value name="manufacturer"><![CDATA[云层公司]]></Value>
+      <Value name="description"><![CDATA[经过多年的研究与开发,云层公司对他们的云层-V产品线进行了革命性的升级-圆柱形罐体.它能储存适量的RCS喷口单元推进剂.]]></Value>
+    </Values>
+  </Config>
+  <Config name="rocketNoseCone">
+    <Values>
+      <Value name="title"><![CDATA[Mk7型保护性火箭鼻锥]]></Value>
+      <Value name="manufacturer"><![CDATA[歌利亚国家制造厂]]></Value>
+      <Value name="description"><![CDATA[一个非常大的用来保护火箭暴露区域的鼻锥.]]></Value>
+    </Values>
+  </Config>
+  <Config name="roverBody">
+    <Values>
+      <Value name="title"><![CDATA[探测者动力车辆主体]]></Value>
+      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="description"><![CDATA[一款多用途的外壳组件,本来是打算用来作为各种航天器的控制器的---尤其是探测车.某人在维护时把一枚电池忘在里面了,所以它也储存了一些电力.]]></Value>
+    </Values>
+  </Config>
+  <Config name="roverWheel1">
+    <Values>
+      <Value name="title"><![CDATA[RoveMax-M1型车轮]]></Value>
+      <Value name="manufacturer"><![CDATA[Kerbal动力有限责任公司]]></Value>
+      <Value name="description"><![CDATA[数年以来人们纠结于没有合适的动力车轮来设计一款实用的探索车.如今刚成立的柯博动力的有限责任小公司设计并制作了人们所祈求的RoveMax-M1型车轮.]]></Value>
+    </Values>
+  </Config>
+  <Config name="roverWheel2">
+    <Values>
+      <Value name="title"><![CDATA[RoveMax-S2型车轮]]></Value>
+      <Value name="manufacturer"><![CDATA[Kerbal动力有限责任公司]]></Value>
+      <Value name="description"><![CDATA[在发现无人踏足小型探索车市场之后,Kerbal动力有限责任公司迅速的抓住了时机推出了RoveMax-S2型车轮-适合无人或小型载人载具.]]></Value>
+    </Values>
+  </Config>
+  <Config name="roverWheel3">
+    <Values>
+      <Value name="title"><![CDATA[RoveMax-XL3型车轮]]></Value>
+      <Value name="manufacturer"><![CDATA[Kerbal动力有限责任公司]]></Value>
+      <Value name="description"><![CDATA[RoveMax-XL3型车轮是由Kerbal动力有限责任公司的研究开发团队在一年半的绝密开发中完成的.当它被放在公司董事长面前的时候,董事长惊吓过度,惨叫一声'为什么'后吐血而亡.]]></Value>
+    </Values>
+  </Config>
+  <Config name="rtg">
+    <Values>
+      <Value name="title"><![CDATA[PB-NUK放射性同位素热发电机]]></Value>
+      <Value name="manufacturer"><![CDATA[离子-质子同步电子工业]]></Value>
+      <Value name="description"><![CDATA[通过对“怖-238”自然衰变的利用,这个简单雅致的发电器可以在几十年中提供持续、稳定的电力.本产品同时还是防水的,即使放到洗碗机里都没问题.]]></Value>
+    </Values>
+  </Config>
+  <Config name="sasModule">
+    <Values>
+      <Value name="title"><![CDATA[内嵌式动量轮]]></Value>
+      <Value name="manufacturer"><![CDATA[在路边捡到的]]></Value>
+      <Value name="description"><![CDATA[中等规格的动量轮.该设备包含高速旋转的飞轮以产生可控的扭矩帮助飞船转向,代价是会消耗一些电量.]]></Value>
+    </Values>
+  </Config>
+  <Config name="science_module">
+    <Values>
+      <Value name="title"><![CDATA[SC-9001科研舱·小]]></Value>
+      <Value name="manufacturer"><![CDATA[实践工程小组]]></Value>
+      <Value name="description"><![CDATA[SC-9001是一个尖端而独立的实验室.你想知道某个东西在零重力空间会发生什么吗?或者,你考虑过更有意义的问题吗?比如如果我把这个部件暴露在严酷的恒星辐射和无情的真空中会发生什么?附赠免费的记事本.建议4-8岁儿童使用.内含小零件,不适合幼儿使用.]]></Value>
+    </Values>
+  </Config>
+  <Config name="seatExternalCmd">
+    <Values>
+      <Value name="title"><![CDATA[EAS-1外部驾驶座椅]]></Value>
+      <Value name="manufacturer"><![CDATA[Kerlington模型火箭与纸制品有限公司]]></Value>
+      <Value name="description"><![CDATA[EAS-1外部驾驶座椅能提供所有操作飞船需要的设备,与一个指令舱毫无二致.不过没有那些毫无意义的诸如'加压'或'安全带'之类的功能.它就是一个骨架,彻彻底底的最高效设计.]]></Value>
+    </Values>
+  </Config>
+  <Config name="sensorAccelerometer">
+    <Values>
+      <Value name="title"><![CDATA[Double-C振动加速计]]></Value>
+      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="description"><![CDATA[这款设备内置一个极度敏感的加速度传感器,当正确的安装在稳定的表面上后能侦测并记录准确的地震信息.里面的加速度计在飞行中也能使用,因此Double-C也被用于测量在飞行中的加速度.震动或暴露在真空中导致的损坏不在保修范围内.]]></Value>
+    </Values>
+  </Config>
+  <Config name="sensorBarometer">
+    <Values>
+      <Value name="title"><![CDATA[PresMat气压计]]></Value>
+      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="description"><![CDATA[一款用来测量当地气压的仪器,暴露在空气中导致的损坏不在保修范围内.]]></Value>
+    </Values>
+  </Config>
+  <Config name="sensorGravimeter">
+    <Values>
+      <Value name="title"><![CDATA[GRAVMAX负引力子传感器]]></Value>
+      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="description"><![CDATA[一种能捕捉并测量负引力子的仪器,用来测量重力场的精确强度.用本仪器测量正引力子导致的损坏不在保修范围内.]]></Value>
+    </Values>
+  </Config>
+  <Config name="sensorThermometer">
+    <Values>
+      <Value name="title"><![CDATA[2HOT温度计]]></Value>
+      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="description"><![CDATA[这款温度计绝对不是从某个路边摊买回来然后装了几根电线的产物.如果有工程师承认这东西就是从某个路边摊买回来然后装了几根电线那就不在保修范围内.]]></Value>
+    </Values>
+  </Config>
+  <Config name="sepMotor1">
+    <Values>
+      <Value name="title"><![CDATA[I型分离火箭]]></Value>
+      <Value name="manufacturer"><![CDATA[近拱点公司火箭供应部]]></Value>
+      <Value name="description"><![CDATA[一个貌似装满了固体燃料的小罐子.尽管在推进技术这一块不算什么大进步,但Kerbal科学家仍逐渐发现了一些I型分离火箭的用途,比如说将一个物体推开.为了最好的结果,安装时别忘了添加一些倾角.]]></Value>
+    </Values>
+  </Config>
+  <Config name="smallCtrlSrf">
+    <Values>
+      <Value name="title"><![CDATA[小控制翼面]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[想要在你的航空器表面各种奇怪的地方装一个升降舵,方向舵,或者干脆就只是想放点装饰品?那这个部件就特别适合你了!用几乎全新的工业部件制造!因暴露在真空中导致的损坏或失效不在保修范围内.]]></Value>
+    </Values>
+  </Config>
+  <Config name="smallHardpoint">
+    <Values>
+      <Value name="title"><![CDATA[小号承重点]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[一个支撑发动机的结构吊架.该部件被设计为能够适配机身和船身.这是结构吊架的一个小的变体,通常配合较小的发动机使用.]]></Value>
+    </Values>
+  </Config>
+  <Config name="smallRadialEngine">
+    <Values>
+      <Value name="title"><![CDATA[极限火箭 24-77型液体燃料引擎]]></Value>
+      <Value name="manufacturer"><![CDATA[极限火箭合资企业]]></Value>
+      <Value name="description"><![CDATA[小引擎有大用途!它特别适合那些无法在侧边安装更大引擎的飞船.尽管如此,你仍需要许多这玩意来推动更大的载荷.]]></Value>
+    </Values>
+  </Config>
+  <Config name="solarPanels1">
+    <Values>
+      <Value name="title"><![CDATA[SP-W-2x3太阳能电池板]]></Value>
+      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="description"><![CDATA[探测者动力出品的太阳能电池板是电力能源行业的世界标准,飞向宇宙浩瀚无垠.SP系列还附带了保护罩,在不需要电池板时可以起到收回保护作用.]]></Value>
+    </Values>
+  </Config>
+  <Config name="solarPanels2">
+    <Values>
+      <Value name="title"><![CDATA[SP-L-1x6太阳能电池板]]></Value>
+      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="description"><![CDATA[另一种SP系列的太阳能电池板.]]></Value>
+    </Values>
+  </Config>
+  <Config name="solarPanels3">
+    <Values>
+      <Value name="title"><![CDATA[OX-4W-2x3太阳能电池板]]></Value>
+      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="description"><![CDATA[OX-4系列的设计和SP系列差不多,只是没有那些很沉的罩子.]]></Value>
+    </Values>
+  </Config>
+  <Config name="solarPanels4">
+    <Values>
+      <Value name="title"><![CDATA[OX-4L-1x6太阳能电池板]]></Value>
+      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="description"><![CDATA[OX-4系列的设计和SP系列差不多,只是没有那些很沉的罩子.]]></Value>
+    </Values>
+  </Config>
+  <Config name="solarPanels5">
+    <Values>
+      <Value name="title"><![CDATA[OX-STAT太阳能电池板]]></Value>
+      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="description"><![CDATA[OX-STAT太阳能电池板是一块没有太阳跟踪和折叠展开功能的简单的板子.因此它价格便宜量又足,而且很轻.]]></Value>
+    </Values>
+  </Config>
+  <Config name="solidBooster1-1">
+    <Values>
+      <Value name="title"><![CDATA[极限火箭 BACC固体燃料助推器]]></Value>
+      <Value name="manufacturer"><![CDATA[极限火箭合资企业]]></Value>
+      <Value name="description"><![CDATA[它填满了新型的,同时更易爆的燃料.BACC有一个不错的价格以及与之相符不怎么靠谱的性能.]]></Value>
+    </Values>
+  </Config>
+  <Config name="solidBooster">
+    <Values>
+      <Value name="title"><![CDATA[RT-10固体燃料助推器]]></Value>
+      <Value name="manufacturer"><![CDATA[在路边捡到的]]></Value>
+      <Value name="description"><![CDATA[尽管某些人认为它只比'装满炸弹的垃圾桶'强上那么一点点,RT-10仍在许多节省资金比成员生命更重要的太空计划中被广泛使用.小心使用,因为固体燃料发动机一旦点燃将在燃料耗尽前无法被关闭.]]></Value>
+    </Values>
+  </Config>
+  <Config name="spotLight1">
+    <Values>
+      <Value name="title"><![CDATA[照明者 Mk1]]></Value>
+      <Value name="manufacturer"><![CDATA[Rokea股份有限公司]]></Value>
+      <Value name="description"><![CDATA[Rokea开发的照明者Mk1能向前方射出很强烈的光束,增加被照到的地区的亮度(它其实就是一个巨大的闪光灯).]]></Value>
+    </Values>
+  </Config>
+  <Config name="spotLight2">
+    <Values>
+      <Value name="title"><![CDATA[照明者 Mk2]]></Value>
+      <Value name="manufacturer"><![CDATA[Rokea股份有限公司]]></Value>
+      <Value name="description"><![CDATA[照明者Mk2射出的是一种超宽的光束,亮度较低,照明距离也有限但能够照亮很宽广的一片区域.]]></Value>
+    </Values>
+  </Config>
+  <Config name="stackBiCoupler">
+    <Values>
+      <Value name="title"><![CDATA[TVR-200双转接口]]></Value>
+      <Value name="manufacturer"><![CDATA[O.M.B.爆破企业]]></Value>
+      <Value name="description"><![CDATA[TVR-200双转接口能轻易的将一个火箭变成两个---且不会引起以正常(爆炸)的方式这么做的灾难性后果.]]></Value>
+    </Values>
+  </Config>
+  <Config name="stackDecouplerMini">
+    <Values>
+      <Value name="title"><![CDATA[TR-2V分离环]]></Value>
+      <Value name="manufacturer"><![CDATA[O.M.B.爆破企业]]></Value>
+      <Value name="description"><![CDATA[TR-2V分离环是最小的分离设备,广泛运用于小型火箭和微型深空探测器.]]></Value>
+    </Values>
+  </Config>
+  <Config name="stackDecoupler">
+    <Values>
+      <Value name="title"><![CDATA[TR-18A分离环]]></Value>
+      <Value name="manufacturer"><![CDATA[O.M.B.爆破企业]]></Value>
+      <Value name="description"><![CDATA[TR-18A分离环配有少量的炸药(希望只是少量),能把它和它所连接的东西分开.箭头所指的方向是分离的方向(分离环将留在另一部分上).]]></Value>
+    </Values>
+  </Config>
+  <Config name="stackPoint1">
+    <Values>
+      <Value name="title"><![CDATA[BZ-52径向安装点]]></Value>
+      <Value name="manufacturer"><![CDATA[在Clamp-O-Tron工厂后面捡到的]]></Value>
+      <Value name="description"><![CDATA[本来是一个次品Clamp-O-Tron对接口,但工程师们很快发现它作为一个结构组件非常有用.]]></Value>
+    </Values>
+  </Config>
+  <Config name="stackQuadCoupler">
+    <Values>
+      <Value name="title"><![CDATA[TVR-2160C-Mk2四转接口]]></Value>
+      <Value name="manufacturer"><![CDATA[O.M.B.爆破企业]]></Value>
+      <Value name="description"><![CDATA[什么是比三转接口更丧心病狂的东西呢?当然是四转接口了!不过一定要搞清楚这个四转接口不包含分离器的功能,也不能用来为火箭分级就好.]]></Value>
+    </Values>
+  </Config>
+  <Config name="stackSeparatorBig">
+    <Values>
+      <Value name="title"><![CDATA[TR-XL分段器]]></Value>
+      <Value name="manufacturer"><![CDATA[O.M.B.爆破企业]]></Value>
+      <Value name="description"><![CDATA[TR-XL分段器是O.M.B生产的最大型的分段器,用来将最庞大的火箭一分为二.和分离环不同,分段器会将所有与它连接的东西都分离出去.因此也就不必再纠结到底应该把哪面朝上的问题了,不过不要太过于依赖它就好.]]></Value>
+    </Values>
+  </Config>
+  <Config name="stackSeparatorMini">
+    <Values>
+      <Value name="title"><![CDATA[TR-2C分段器]]></Value>
+      <Value name="manufacturer"><![CDATA[O.M.B.爆破企业]]></Value>
+      <Value name="description"><![CDATA[和TR-18D差不多,TR-2C也是用来把火箭分成两段的,只不过这款的尺寸更加的短小精悍.说明书上说内置的爆炸物仅够将两端连接的物体'安全可控'地分离出去,但快递员是穿着全套防爆服把它送来的,所以还是小心点轻拿轻放吧.]]></Value>
+    </Values>
+  </Config>
+  <Config name="stackSeparator">
+    <Values>
+      <Value name="title"><![CDATA[TR-18D分段器]]></Value>
+      <Value name="manufacturer"><![CDATA[O.M.B.爆破企业]]></Value>
+      <Value name="description"><![CDATA[和分离环不同,分段器是将其两端的东西都分离出去(分离后变成三段).这款新科技广泛受到各地火箭学家的好评.它是用来制造一场人工烟花的好选择.]]></Value>
+    </Values>
+  </Config>
+  <Config name="stackTriCoupler">
+    <Values>
+      <Value name="title"><![CDATA[TVR-1180C-Mk1三转接口]]></Value>
+      <Value name="manufacturer"><![CDATA[O.M.B.爆破企业]]></Value>
+      <Value name="description"><![CDATA[三转接口!如果你的大竹笋还不够丧心病狂的话,那这就是你需要的神器!不过一定要搞清楚这个三转接口不包含分离器的功能,也不能用来为火箭分级就好.]]></Value>
+    </Values>
+  </Config>
+  <Config name="standardNoseCone">
+    <Values>
+      <Value name="title"><![CDATA[标准鼻锥]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[一个符合空气动力学的鼻锥.]]></Value>
+    </Values>
+  </Config>
+  <Config name="stationHub">
+    <Values>
+      <Value name="title"><![CDATA[极限火箭牌 HubMax多向连接器]]></Value>
+      <Value name="manufacturer"><![CDATA[极限火箭合资企业]]></Value>
+      <Value name="description"><![CDATA[当HubMax多向连接器在第三届火箭和爆炸节上揭幕时,引起的震惊使得一些赞助商们当场休克而死.'我这辈子一直以为火箭部件只能向一个方向放置---向上!但是极限火箭今天打破了这种说法'-一名不愿意透露姓名的幸存者说.毫无疑问,这个部件很有可能在建造技术上引发一场革命.配套使用的对接口另售.]]></Value>
+    </Values>
+  </Config>
+  <Config name="structuralIBeam1">
+    <Values>
+      <Value name="title"><![CDATA[M-Beam-650工字钢条]]></Value>
+      <Value name="manufacturer"><![CDATA[Dinkelstein Kerman建材超市]]></Value>
+      <Value name="description"><![CDATA[M-Beam-200工字钢的一个更宽的放大版.伙计,Dinkelstein就是这么喜欢变种.]]></Value>
+    </Values>
+  </Config>
+  <Config name="structuralIBeam2">
+    <Values>
+      <Value name="title"><![CDATA[M-Beam-200工字钢条]]></Value>
+      <Value name="manufacturer"><![CDATA[Dinkelstein Kerman建材超市]]></Value>
+      <Value name="description"><![CDATA[由Dinkelstein亲自手工制造,M-Beam-200出色地让火箭和摩天大楼变得更相似.]]></Value>
+    </Values>
+  </Config>
+  <Config name="structuralIBeam3">
+    <Values>
+      <Value name="title"><![CDATA[M-Beam-200工字钢袖珍版]]></Value>
+      <Value name="manufacturer"><![CDATA[Dinkelstein Kerman建材超市]]></Value>
+      <Value name="description"><![CDATA[由Dinkelstein亲自手工制造,M-Beam-200出色地让火箭和摩天大楼变得更相似.这个部件长度是普通版本的一半,可以建造较小的摩天大楼和/或火箭.]]></Value>
+    </Values>
+  </Config>
+  <Config name="structuralMiniNode">
+    <Values>
+      <Value name="title"><![CDATA[这不是极限火箭牌的微型连接点]]></Value>
+      <Value name="manufacturer"><![CDATA[Dinkelstein Kerman建材超市]]></Value>
+      <Value name="description"><![CDATA[Dinkelstein Kerman建材超市坚决否认由这个产品和一个来自极限火箭牌的某产品的相似性引发的有关商业间谍活动的任何和一切指控.]]></Value>
+    </Values>
+  </Config>
+  <Config name="structuralPanel1">
+    <Values>
+      <Value name="title"><![CDATA[M-1x1结构面板]]></Value>
+      <Value name="manufacturer"><![CDATA[Dinkelstein Kerman建材超市]]></Value>
+      <Value name="description"><![CDATA[一个坚固的金属板,非常适合建造各种东西.]]></Value>
+    </Values>
+  </Config>
+  <Config name="structuralPanel2">
+    <Values>
+      <Value name="title"><![CDATA[M-2x2结构面板]]></Value>
+      <Value name="manufacturer"><![CDATA[Dinkelstein Kerman建材超市]]></Value>
+      <Value name="description"><![CDATA[这个部件由四个M-1x1排列成2x2的布局,并用万能胶粘连起来构成.]]></Value>
+    </Values>
+  </Config>
+  <Config name="structuralPylon">
+    <Values>
+      <Value name="title"><![CDATA[结构吊架]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[一个支撑引擎的结构吊架.该部件被设计为能够适配机身和船身.配备应急爆炸螺栓,能够在火灾或灾难性故障的情况下分离喷气式发动机.(不在保修范围内)]]></Value>
+    </Values>
+  </Config>
+  <Config name="structuralWing">
+    <Values>
+      <Value name="title"><![CDATA[结构翼]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[这个机翼由机翼部件的边角料制作而成.看起来'九成新'.预期用途包括非常大的鸭翼和更大的三角翼的前缘.]]></Value>
+    </Values>
+  </Config>
+  <Config name="strutConnector">
+    <Values>
+      <Value name="title"><![CDATA[EAS-4支柱连接器]]></Value>
+      <Value name="manufacturer"><![CDATA[Kerlington模型火箭与纸制品有限公司]]></Value>
+      <Value name="description"><![CDATA[支柱连接器被许多航天器工程师们高度重视,因为它们在构建更加坚固的航天器中有很大帮助.当连接器两端都连接上之后,一条连接梁会将两个端点相连,利用它可以建造更坚固(且更重)的东西.]]></Value>
+    </Values>
+  </Config>
+  <Config name="strutCube">
+    <Values>
+      <Value name="title"><![CDATA[立方八角支柱]]></Value>
+      <Value name="manufacturer"><![CDATA[支柱公司]]></Value>
+      <Value name="description"><![CDATA[现在,随着科技的进步,支柱公司为您带来立方八角支柱--它就像一个普通的八角支柱,但它是立方的!]]></Value>
+    </Values>
+  </Config>
+  <Config name="strutOcto">
+    <Values>
+      <Value name="title"><![CDATA[八角支柱]]></Value>
+      <Value name="manufacturer"><![CDATA[支柱公司]]></Value>
+      <Value name="description"><![CDATA[支柱公司生产:八角支柱!用它们来安装停车标志或章鱼.]]></Value>
+    </Values>
+  </Config>
+  <Config name="sweptWing">
+    <Values>
+      <Value name="title"><![CDATA[后掠翼]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[后掠翼原型部件.由轻质合成材料制成.保证能产生升力,但不保证机组乘员人身安全.]]></Value>
+    </Values>
+  </Config>
+  <Config name="tailfin">
+    <Values>
+      <Value name="title"><![CDATA[尾翼]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[此尾翼已通过本局的专利P.A.S系统(纸飞机模拟系统)的大规模测试.此尾翼的尖角与锋利切面已被磨钝,以防止出现安装人员意外减员等事故.]]></Value>
+    </Values>
+  </Config>
+  <Config name="telescopicLadderBay">
+    <Values>
+      <Value name="title"><![CDATA[Telus-LV舱外移动辅助装置]]></Value>
+      <Value name="manufacturer"><![CDATA[Rokea股份有限公司]]></Value>
+      <Value name="description"><![CDATA[Telus-LV-舱外移动辅助装置带有先进的伸缩延展技术.建议载重:1.5个Kerbal宇航员.]]></Value>
+    </Values>
+  </Config>
+  <Config name="telescopicLadder">
+    <Values>
+      <Value name="title"><![CDATA[Telus垂直机动装置]]></Value>
+      <Value name="manufacturer"><![CDATA[Rokea股份有限公司]]></Value>
+      <Value name="description"><![CDATA[Telus-垂直机动装置带有先进的伸缩延展技术,建议载重:0.5个Kerbal宇航员.]]></Value>
+    </Values>
+  </Config>
+  <Config name="toroidalAerospike">
+    <Values>
+      <Value name="title"><![CDATA[Aerospike环形喷管引擎]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[Aerospike环形喷管引擎是C7航空部门产品的重大突破.虽然比以前的型号更重,但更重的喷嘴也使得他在燃料的燃烧效率上达到了新的高度.]]></Value>
+    </Values>
+  </Config>
+  <Config name="toroidalFuelTank">
+    <Values>
+      <Value name="title"><![CDATA[ROUND-8环状燃料罐]]></Value>
+      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="description"><![CDATA[一个形状怪异(但无疑是非常方便)的燃料罐.]]></Value>
+    </Values>
+  </Config>
+  <Config name="trussAdapter">
+    <Values>
+      <Value name="title"><![CDATA[模块化梁段转换器]]></Value>
+      <Value name="manufacturer"><![CDATA[Maxo建筑玩具公司]]></Value>
+      <Value name="description"><![CDATA[这个部件允许您连接'模块化梁段'部件到标准的1.25m连接点.]]></Value>
+    </Values>
+  </Config>
+  <Config name="trussPiece1x">
+    <Values>
+      <Value name="title"><![CDATA[模块化梁段]]></Value>
+      <Value name="manufacturer"><![CDATA[Maxo建筑玩具公司]]></Value>
+      <Value name="description"><![CDATA[新品!用'模块化梁段'建造您梦想中的结构!]]></Value>
+    </Values>
+  </Config>
+  <Config name="trussPiece3x">
+    <Values>
+      <Value name="title"><![CDATA[模块化梁段 XL]]></Value>
+      <Value name="manufacturer"><![CDATA[Maxo建筑玩具公司]]></Value>
+      <Value name="description"><![CDATA[现在更大了!建造更远大的梦想中更大的结构吧!]]></Value>
+    </Values>
+  </Config>
+  <Config name="turboFanEngine">
+    <Values>
+      <Value name="title"><![CDATA[涡轮喷气式引擎]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[一种利用航天级材料制造的高性能涡轮式喷气引擎.因利用了最新的矢量推进及压气技术,这款引擎被设计为在高空高速下拥有更好的操作性,C7航空部门的工程师们也向我们保证一旦达到高空它就一定会因失压而停机.]]></Value>
+    </Values>
+  </Config>
+  <Config name="wheelMed">
+    <Values>
+      <Value name="title"><![CDATA[TR-2L加强车轮]]></Value>
+      <Value name="manufacturer"><![CDATA[Kerbal动力有限责任公司]]></Value>
+      <Value name="description"><![CDATA[TR-2L是一款极为耐用的车轮,能帮助中等尺寸的载具通过大多数地形.特殊强化的轮胎确保在任何路面上都有强劲的抓地力,带来极为可靠的操作体验并显著降低醉驾飚车的安全风险.]]></Value>
+    </Values>
+  </Config>
+  <Config name="wingConnector">
+    <Values>
+      <Value name="title"><![CDATA[机翼连接器]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+      <Value name="description"><![CDATA[轻薄的翼形板子.使用后果自负.]]></Value>
+    </Values>
+  </Config>
+  <Config name="winglet3">
+    <Values>
+      <Value name="title"><![CDATA[高级三角小翼]]></Value>
+      <Value name="manufacturer"><![CDATA[Kerlington模型火箭与纸制品有限公司]]></Value>
+      <Value name="description"><![CDATA[高级三角小翼是一个装配着小型副翼的大型气动面.它的超轻型结构提供了比AV-R8小翼更多的升力,但是那小得可怜的副翼则会让它的转向极其缓慢.]]></Value>
+    </Values>
+  </Config>
+  <Config name="winglet">
+    <Values>
+      <Value name="title"><![CDATA[AV-T1型小翼]]></Value>
+      <Value name="manufacturer"><![CDATA[在路边捡到的]]></Value>
+      <Value name="description"><![CDATA[]]></Value>
+    </Values>
+  </Config>
+  <Config name="xenonTankRadial">
+    <Values>
+      <Value name="title"><![CDATA[PB-X50R氙气罐]]></Value>
+      <Value name="manufacturer"><![CDATA[在路边捡到的]]></Value>
+      <Value name="description"><![CDATA[X50R是一个小容量氙气罐,延长离子推进航天器的寿命的理想选择.]]></Value>
+    </Values>
+  </Config>
+  <Config name="xenonTank">
+    <Values>
+      <Value name="title"><![CDATA[PB-X150氙气罐]]></Value>
+      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="description"><![CDATA[虽然大部分KSC员工不会念'氙'这个字,但当被告知如何正确发音后,他们都同意'氙'字听起来非常酷---所以他们尽了最大努力把它当作了燃料来使.]]></Value>
+    </Values>
+  </Config>
+  <Config name="omsEngine">
+    <Values>
+      <Value name="title"><![CDATA[O-10单组元推进剂引擎]]></Value>
+      <Value name="manufacturer"><![CDATA[反应系统有限公司]]></Value>
+      <Value name="description"><![CDATA[O-10引擎刚面世的时候,舆论普遍认为这想法早该有人提出来了.这弄得反应系统公司的员工们都很尴尬,因为这次他们好不容易才按日程准时完工交了货.这款引擎的运行受主发动机节流阀控制,但消耗的并非传统的液体燃料和氧化剂,而是RCS使用的单组元燃料.]]></Value>
+    </Values>
+  </Config>
+  <Config name="vernierEngine">
+    <Values>
+      <Value name="title"><![CDATA[Vernor引擎]]></Value>
+      <Value name="manufacturer"><![CDATA[反应系统有限公司]]></Value>
+      <Value name="description"><![CDATA[VR-N1ER,Veer节速器,或者叫做Vernor引擎,是一款用于控制飞行高度的推进器.这些小引擎与RCS控制部分直接相连,但使用的推进剂是液体燃料和氧化剂,这使得其推力明显比传统单组元燃料RCS推进器要大得多.当然相比之下这种推进器也要比标准RCS推进器重得多,而且向外的喷口只有一个,不过权衡一下以后也算值了.]]></Value>
+    </Values>
+  </Config>
+
+  <!--公司介绍汉化-->
+  <Config url="Squad/Agencies/Agents/Dinkelstein Kerman's Construction Emporium" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[在某些意义上, Dinkelstein Kerman已经成为航天产业中的传奇人物, 这主要是因为他坚称, 自己在有史可考的最早完整飞行器出现年代之前就已经开始建造和试飞航天器了. 这导致了他和Kerbin世界第一纪录保持协会之间的一系列口水仗和长时间的尴尬局面. 当然尽管如此, Dinklestein家的超市还是作为一家老牌传统企业而久负盛名, 他们的产品在老掉牙程度这方面, 也确实比光顾他们的客户要靠谱多了.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/Experimental Engineering Group" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[实践工程小组是一家典型的新兴公司: 超低预算和严格得吓死人的交付期限是他们的工作日常. 虽然资历尚浅, 但实践工程小组确实开了个好头, 迅速在业界站稳了脚跟, 这主要得归功于他们寓教于乐的产品, SC-9001小型科学实验工具箱. 当然尽管他们竭尽全力, 还是没能摆脱因为早期的一些产品事故造成的负面舆论, 其中有一次事故毁掉了他们生产的一台设备, 和一只被研发中心的科学家当宠物养着的小动物. 据说此事之后公司对可能接触自家产品的一切物品的安全性变得极度神经过敏, 连自家的Logo都做了圆角处理.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/FLOOYD Dynamics Research Labs" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[FLOOYD实验室长久以来一直只专注于一项研究工作, 而且这项研究也确实是可行的: 把液体从一个地方抽到另一个地方. 他们的主打产品, FTX-2燃料管, 是多年的研究与无数小绿人们的辛勤劳动的结晶, 这东西可以传输几乎任何物质, 无论这物质有多冷或者多粘稠还是多容易挥发都没问题. 公司因为对业界的这项重大技术贡献而名声大噪, 广受各界好评. 当然已经几乎没什么人记得了, 当年他们的第一款产品FTX-1曾经因为一个小而麻烦的问题而遭遇重挫, 就是这东西虽然输送液体很流畅, 但是流向老是搞错.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/Integrated Integrals" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[这家小公司确实缺乏资历名气也不大, 完全是靠产品自身的魅力来吸引客户. 他们的第一款产品是那款重得要命的移动处理实验室, 据小道消息称, 这东西一开始是被用作某种实验中的燃料配方的移动处理工厂而研发, 而那个配方很可能是非法的, 据说效果比现有的任何推进剂都要强力, 成品带有某种独特的蓝色. 当然以上传言都还没被证实或者证伪, 神秘的蓝色燃料也没有被任何可靠的消息来源目击过. 虽然他们对这些流言一而再再而三地予以否认, 这家公司还是整天被各种(应该是莫名其妙的)恶评所围绕. 管理层一直在用给员工加薪 -- 甚至加得远高于同类型企业 -- 这样的方法来试图扭转公众印象, 目前看来收效甚微.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/Ionic Symphonic Protonic Electronics" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[航天器电子设备产业的领军品牌之一, 能得到这名号可不只是因为名字听起来很酷. 离子-质子同步电子工业有一整条完善的产品线, 涵盖面从简单的通讯设备到手工磨制的精密齿轮都有. 这使得他们的产品在航空工程师之间大受欢迎, 也因此和探索者动力公司那群贯彻实用主义的家伙结下了深仇大恨.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/Jebediah Kerman's Junkyard and Spacecraft Parts Co" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[在看似无法克服的障碍面前永不动摇勇往直前, 从这股气势方面来说, Jeb的垃圾场堪称公认的业界典范. 这家低调的垃圾场公司, 在他们小小的堆放场里迈出了小绿人种族向遥远深空前进的最初步伐之后, 如今其规模已经为了适应日益增长的航天产业需求而大幅扩张, 变成了一片大型垃圾场. Jeb的垃圾场公司已在Kerbin家喻户晓, 不止是"受欢迎"那么简单, 而是已经成为行业标杆. 这家企业代表着小绿人们永无止尽挑战极限的精神与动力, 虽然这种精神好像有点太不把万有引力放在眼里了.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/Kerbin World-Firsts Record-Keeping Society" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[Kerbin世界第一纪录保持协会是一个非营利性组织, 他们全心全意专注于记录和建档保存一切领域的"第一次"事件, 以此来奖赏那些为前人不敢为之事, 尤其是在太空探索领域实现壮举的人物. 不过实际上, 他们的工作比一般人想象的要有挑战性得多, 因为在某些赛事中拿到"第一"所带来的威望, 对于那些垂涎赛事官方赞助商地位的商业公司来说绝对是棵摇钱树. 接下协会的合同就相当于明确告诉世人, 你接受挑战绝非为了那点金钱报酬, 对你的各方面声誉都有益处. 当然这基本也就是你能拿到的唯一回报了, 协会给的那点钱差不多是象征性的, 少得可怜.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/Kerbodyne" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[科博达因, 这名字在航空航天产业确实还是新鲜面孔, 不过他们的K系列引擎和燃料箱迅速为自己赢得了可观的声誉. 事实上, 在去年的航天器开发者大会上, 科博达因曾经被提名为"最佳新兴企业"奖项候选者. 结局很遗憾, 该奖项被另一家公司摘得, 但科博达因的粉丝们依然像众所周知的一样, 骄傲地在大众面前高声表达自己对这家企业和他们的产品的喜爱.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/Kerlington Model Rockets and Paper Products Inc" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[Kerlington的产品以眼光独到著称已经很有年头了, 这家公司的许多产品如今都是火箭和航天工程学中的必备品. 这就自然地培养出了一大批铁杆拥趸, 当然也弄出了一大批整天愤愤不平的竞争对手来.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/Moving Parts Experts Group" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[运动部件专家组刚开始创建的时候也是个非盈利组织, 主要着眼于把一群聪明人汇集到一起, 然后在航天工程界搞出点既有创意又史无前例的技术来. 当然和不少一开始这么想的企业一样, 他们那点注册资金很快就花完了, 然后被迫争分夺秒去开发点能卖出好价钱的东西. 所以说这个组织给人的印象, 差不多就是一直都是急急忙忙的, 然后一直都很缺钱. 现在他们在组织运作中依然尽可能地努力保持自己的初衷, 而且始终愿意为了冲破传统认知中的极限去冒险. ]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/O.M.B. Demolition Enterprises" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[O.M.B.作为一家以整天搞破坏工作而闻名的公司, 如今已经替自家的爆炸装置在航天产业中找到了相当合适的一席之地. 他们生产的高精密度分离器产品, 在要求把航天器切断或者炸成一堆小部件的情况下, 实用性首屈一指. 但是他们其他那些整天用广告狂轰滥炸, 被称为"更强大的拆迁工具"的爆破类产品, 却没有前者卖得那么好. O.M.B.至今也没搞明白那些"显然更好"的产品到底是为什么没被市场广泛接受.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/Probodobodyne Inc" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[探测者动力曾经是为数不多的业内领军品牌之一. 但随着时间流逝, 这家公司在某些方面已经落伍了, 不过他们还是秉承着他们自己的哲学观, 即宇宙探索应该是少数能只用极少技术手段辅助, 来克服过程中重重挑战的人的特权. 他们的产品也反映出了这种奉行实用主义至上--甚至已经到了脱离时代的程度--的偏执, 尽管这年头出现的新兴企业都开始走让太空航行比早期更加亲民的路线了. 把这些先放一边, 这家公司还是有一小批眼光相当挑剔的死忠拥护者, 其实基本也就是那些老牌航天员和工程师了.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/Research &amp; Development Department" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[太空计划的官方研发机构. 这支由知名火箭专家Wernher von Kerman带领的团队, 是整个计划的智囊. 他们求知若渴, 从不放过任何哪怕再小甚至完全无关的数据, 这些人最大的动力就是扩大小绿人种族的知识储备库. 我们的这群天才们只提出了以下要求: 按照为科学事业做出的贡献给他们学分, 还有让那些宇航员别再穿着脏鞋子跑到实验室里来. ]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/Reaction Systems Ltd" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[反应系统是一家由于一件成功产品, "随便放"7代线性RCS喷口, 而得到了不错的业绩的小公司. 如今外界并不清楚他们又在做什么研发. 虽然反应系统显然算不上业界巨头, 但他们一直在努力开创新事业, 试图迎头赶上. 同时, 这家企业最近一直热衷于提供科研任务类的合约, 让人猜测他们可能要有什么动作.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/Rockomax Conglomerate" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[无可争辩, 极限火箭是市场上最大的火箭工业产品供应商, 他们的产品作为最可靠的航天发射利器受到广泛认可. 但是产品风格也给他们在那些追求华丽和前卫的工程师之间带来了差评, 有些反对者还矢口否认自己使用过任何极限火箭品牌的东西. 尽管如此, 极限火箭在业内的强大存在感不容否认, 他们的产品虽然不够潮也没有那些高端企业的设计那么高大上, 但确实物有所值. 这是家超大规模企业, 就别指望有什么VIP优待之类的了. 他们现在在搞全体顾客大酬宾, 附带给合作企业产品的"超值优惠"搭配套餐. 在批发店购买时请主动出示会员卡, 以享受以上优惠.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/Rokea Inc" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[Rokea主要以主打产品"垂直移动强化装置"而为人所知, 他们一直竭尽全力宣称这东西不是一架单纯的"梯子", 不要搞错了. 有不少人觉得按成效来看他们这么搞挺失败的, 不过每一个Rokea的销售代表都还是会在客户耳边滔滔不绝, 一遍又一遍地解释梯子和垂直移动强化装置到底有啥不同. 大概这就是为什么从来没人愿意听他们的解释.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/Sean's Cannery" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[Sean罐头厂, 这家以优质罐头食品而著称的企业, 为什么要把手伸向航天工程业, 这件事至今还存在不少谜团. 抛开这些质疑不谈, 他们的旗舰产品Mk2着陆舱, 已经意料之中地被成功证明是现役气密性最好的几款载人舱之一. 乘坐过这款着陆舱的组员们都对这东西的一大优点大加赞赏, 就是放在里面的零食可以长期保持香脆可口, 然后就开始抱怨, 说其他载人舱里面零食放几天就受潮不好吃了.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/STEADLER Engineering Corps" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[STEADLER的一贯形象并不是特别友善或者随和. 相反, 军事化管理, 严肃而决不妥协的作风, 这些形容词才更适合他们. 有人觉得, 这才是专业做火箭控制系统和超音速飞行器的公司应有的优良企业文化, 但也有人评价说, 这公司就像是在被一台疯狂而又有智慧的导航计算机操纵着运转. 外界只知道他们门口的保安脾气不太好, 一般人不太容易接近大门, 而且这帮保安用的电击枪永远是满电.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/StrutCo" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[作为最大的通用结构件生产商之一, 从各种意义上来说支柱公司都是一家信誉卓著的企业. 他们唯一始终摆脱不了的阴影, 就是自家的传奇产品, EAS-4支柱连接器, 实际上是由Kerlington模型火箭研发的.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/Vac-Co Advanced Suction Systems" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[Vac-Co这家公司在航天领域还是新面孔. 一家之前只生产过家居清洁用品和小家电的企业, 最近突然进军航空航天业界, 这自然引起了不少揣测. 尽管舆论如此, 他们似乎还是知道自己在干什么, 近期推出的新产品, 飞机用进气道, 也确实相当有想法.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/WinterOwl Aircraft Emporium" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[冬鸮商场和其他大型航空企业在某些方面完全没有可比性, 尤其是产品种类方面占绝对劣势. 但是, 这家公司因为运营历史悠久, 在业内还是久负盛名. 这家老公司给人的一贯印象就是友好而可靠的搭档, 这点使得他们在众多同行之间也算声誉优良. 在航空业界, 对冬鸮本身或者其产品不屑的人会被评价为极其不礼貌.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/Zaltonic Electronics" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[Zaltonics并不算电子产业领军人物, 要说的话应该是一家比较功利主义而缺乏野心的公司. 但这些特征却使得Zaltonic以自己的方式, 成为了业界不可或缺的一份子, 因为他们愿意去生产那些没什么新意的东西, 而且有自家的一套多快好省的生产模式. 他们的产品可能确实没那么潮, 不过如果你酷炫吊炸天的无人控制模块自带电量见了底, 这时候一块Zaltonics电池就可以让它满血原地复活了.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+</Configs>

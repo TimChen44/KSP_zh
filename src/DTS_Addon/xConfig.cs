@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Xml;
@@ -156,10 +157,10 @@ namespace DTS_zh
         //载入汉化资源
         public List<Config> LoadXml()
         {
+            List<Config> configs = new List<Config>();
+
             XmlDocument doc = new XmlDocument();
             doc.Load("GameData/DTS_zh/zhConfig.xml");
-
-            List<Config> configs = new List<Config>();
             foreach (XmlNode item in doc.ChildNodes)
             {
                 if (item.Name == "Configs")
@@ -167,6 +168,20 @@ namespace DTS_zh
                     LoadConfigs(item, configs);
                 }
             }
+            //支持多配置文件
+            foreach (string file in Directory.GetFiles("GameData/DTS_zh/xSquad"))
+            {
+                XmlDocument docXML = new XmlDocument();
+                docXML.Load(file);
+                foreach (XmlNode item in docXML.ChildNodes)
+                {
+                    if (item.Name == "Configs")
+                    {
+                        LoadConfigs(item, configs);
+                    }
+                }
+            }
+
             return configs;
         }
 

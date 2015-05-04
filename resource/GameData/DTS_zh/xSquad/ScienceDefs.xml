@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--一条记录创建一个Config-->
+<Configs>
+  <!--科技探索汉化格式-->
+  <!--id是这个配置下面的id参数就是解决配置类型相同的问题-->
+  <Config name="EXPERIMENT_DEFINITION"  type="EXPERIMENT_DEFINITION" url="Squad/Resources/ScienceDefs/EXPERIMENT_DEFINITION" id="crewReport">
+    <Values>
+      <Value name="title"><![CDATA[舱内报告]]></Value>
+    </Values>
+    <Nodes>
+      <Node name="RESULTS">
+        <Values>
+          <Value name="default"><![CDATA[你把船员的情况评估记录下来了.]]></Value>
+          <Value name="KerbinSrfLandedLaunchpad"><![CDATA[呃..我认为我们现在的速度还不是很快.]]></Value>
+          <Value name="KerbinSrfLandedRunway"><![CDATA[在跑道上进行报告:幸好天上没有别的什么飞机...因为塔台压根不知道我把这玩意儿弄到跑道上来了.]]></Value>
+          <Value name="KerbinSrfLandedKSC"><![CDATA[这是我们的航天中心，我们到家了.]]></Value>
+          <Value name="KerbinFlyingLowGrasslands"><![CDATA[喂~我想我能从这里看到我的家了!]]></Value>
+          <Value name="KerbinFlyingLowGrasslands"><![CDATA[在你下方能看到那么多绿色植物是多么令人欣慰呀.]]></Value>
+          <Value name="KerbinFlyingLowHighlands"><![CDATA[你站在高处看到美不胜收的风景.]]></Value>
+          <Value name="KerbinFlyingLowMountains"><![CDATA[从这里看那些群山变得那么小,耸立在Kerbin的大地上.]]></Value>
+          <Value name="KerbinFlyingLowDeserts"><![CDATA[从沙子里升上来的热量使得这片沙漠产生移动并发出微弱的光芒.]]></Value>
+          <Value name="KerbinFlyingLowBadlands"><![CDATA[这地方看起来不适合着陆呀.]]></Value>
+          <Value name="KerbinFlyingLowTundra"><![CDATA[你看到几片带着冰霜的小草.似乎那里挺冷的.]]></Value>
+          <Value name="KerbinFlyingLowIceCaps"><![CDATA[你往下看那片雪白的冰层,如果长时间盯着看的话你的眼睛可是会流泪哦.]]></Value>
+          <Value name="KerbinFlyingLowShores"><![CDATA[那片海岸看上去很诱人,你看着那浪花翻滚的海岸.]]></Value>
+          <Value name="KeringFlyingLowWater"><![CDATA[从这个角度可以看到海底的海床结构.]]></Value>
+          <Value name="KerbinInSpaceLow"><![CDATA[看起来我们已经完全在外太空了.天空看上去就像是在我们脚下.]]></Value>
+          <Value name="KerbinInSpaceLow"><![CDATA[如果你出去推一下的话...]]></Value>
+          <Value name="KerbinInSpace"><![CDATA[这...实在是太圆了...]]></Value>
+          <Value name="KerbinInSpace"><![CDATA[这里是宇航员,这是从太空发来的报告!]]></Value>
+          <Value name="MunInSpace"><![CDATA[你看着下面那灰冷色的表面.上面满满的都是陨石坑.]]></Value>
+          <Value name="MunInSpace"><![CDATA[你看着Mun的表面,仔细地寻找一个适合着陆的地方.这个陨石坑里面可能是最好的选择.]]></Value>
+          <Value name="MinmusInSpace"><![CDATA[这河床看起来相对平坦一些,我们也许能降落在那里.]]></Value>
+          <Value name="MinmusInSpace"><![CDATA[看着minmus表面你想起了儿时最爱的甜点.你还真的被吸引着去舔了一下...]]></Value>
+          <Value name="GillyInSpace"><![CDATA[它看起来像一块凹凸不平的岩石.你打赌你可以用喷气背包降落在上面.]]></Value>
+          <Value name="MohoInSpace"><![CDATA[这颗星球似乎没有大气层,并且你注意到在表面有颜色较深的斑点.]]></Value>
+          <Value name="EveInSpace"><![CDATA[这颗令人难以置信的紫色星球不由得让你目不转睛,这闪闪发光的海洋实在是太迷人了.]]></Value>
+          <Value name="DunaInSpace"><![CDATA[这颗星球有着朱红般的色彩,表面上纵横着深棕色的沟壑,星球两极似乎覆盖着一种白色类似于冰的物质.]]></Value>
+          <Value name="IkeInSpace"><![CDATA[你情不自禁地喜欢上了Ike.]]></Value>
+          <Value name="IkeInSpace"><![CDATA[这里似乎有一些陡峭的岩石山坡.越高的地区显得越明亮,而较低的地区则显得暗淡很多.]]></Value>
+          <Value name="DresInSpace"><![CDATA[你看到下面那巨大的峡谷,应该有好几公里深.]]></Value>
+          <Value name="DresInSpace"><![CDATA[表面错落有致地分布着白色和棕色的区域,还有一些陨石坑.]]></Value>
+          <Value name="JoolInSpace"><![CDATA[你看着下面流淌的绿色风暴,它们似乎不停地围绕着彼此旋转着,永远都不会停歇.]]></Value>
+          <Value name="JoolInSpace"><![CDATA[这颗星球呈现着健康的绿色,你在记录中写下行星就应该是这个颜色才对.]]></Value>
+          <Value name="LaytheInSpace"><![CDATA[Laythe的环境看起来很像Kerbin,你很好奇把头盔脱下来会有什么事情发生.]]></Value>
+          <Value name="LaytheInSpace"><![CDATA[海洋覆盖了大部分的表面.你在报告中记下了这片大陆的信息.]]></Value>
+          <Value name="VallInSpace"><![CDATA[表面上有许多令人印象深刻的锯齿状山脉.你并没有在上面降落的欲望,也不想去尝试.]]></Value>
+          <Value name="VallInSpace"><![CDATA[这颗卫星大部分被白色和浅蓝色的阴影覆盖着.它看起来非常冷,并有可能被冰覆盖着.]]></Value>
+          <Value name="TyloInSpace"><![CDATA[这里看起来好难降落.而且这边的陨石坑似乎要比那边多.]]></Value>
+          <Value name="TyloInSpace"><![CDATA[表面覆盖有深浅不同的白色和灰色.一瞬间你以为你看到了一张脸...]]></Value>
+          <Value name="BopInSpace"><![CDATA[这似乎是一块巨大的棕色岩石,又或许是一个古老的小行星?]]></Value>
+          <Value name="BopInSpace"><![CDATA[当你正盯着这个星球看的时候,忽然好像有东西掠过窗户外面...是不是还有什么东西在它的轨道上呢？]]></Value>
+          <Value name="PolInSpace"><![CDATA[它看起来像一颗巨大的花粉,你在-POL-的报告中这样写着.]]></Value>
+          <Value name="PolInSpace"><![CDATA[下面的地形看起来很危险.你把锯齿状的岩石,斜坡和其他危险地区都记录了下来.]]></Value>
+          <Value name="EelooInSpace"><![CDATA[大部分表面都被冻结了,你看到有一些棕色区域从冰盖下显露出来,并把这个有趣的情况记录在报告之中.]]></Value>
+          <Value name="EelooInSpace"><![CDATA[你在这片星域中寻找是否有其它星球在附近,你认为这颗Eeloo一定十分孤独,也许我们应该造访一下这颗星球使它振作起来.]]></Value>
+        </Values>
+      </Node>
+    </Nodes>
+  </Config>
+  <Config name="EXPERIMENT_DEFINITION"  type="EXPERIMENT_DEFINITION" url="Squad/Resources/ScienceDefs/EXPERIMENT_DEFINITION" id="evaReport">
+    <Values>
+      <Value name="title"><![CDATA[舱外报告]]></Value>
+    </Values>
+    <Nodes>
+      <Node name="RESULTS">
+        <Values>
+          <Value name="default"><![CDATA[你将此时看到的情景记录了下来.]]></Value>
+          <Value name="MohoSrfLanded"><![CDATA[宇航服里变得越来越热了...]]></Value>
+          <Value name="EveSrfLanded"><![CDATA[眼前的一切都被笼上了紫色的光晕.你感觉自己都要变成紫色的了.]]></Value>
+          <Value name="EveSrfLanded"><![CDATA[你上火箭之前是不是吃了太多东西?你觉得自己每一个动作都变得迟缓而又沉重...]]></Value>
+          <Value name="GillySrfLanded"><![CDATA[你必须非常小心地走路才能不"一步登天".你后悔怎么没带个秤砣过来.]]></Value>
+          <Value name="KerbinSrf"><![CDATA[我觉得完全没必要在这里还穿着宇航服啊,有木有?]]></Value>
+          <Value name="SunInSpaceHigh"><![CDATA[你现在才感觉到自己有多么的渺小...你只希望现在知道知己正在朝哪里飞...]]></Value>
+          <Value name="KerbinFlyingLow"><![CDATA[现在应该是最令人忐忑的状况了.]]></Value>
+          <Value name="KerbinFlyingHigh"><![CDATA[你开始觉得自己应该马上返回你的飞船了.]]></Value>
+          <Value name="MunSrfLanded"><![CDATA[灰尘飞得到处都是!]]></Value>
+          <Value name="MunSrfLanded"><![CDATA[你抬起头开始寻找你赖以生存的家园Kerbin.突然,你觉得自己真的很渺小.]]></Value>
+          <Value name="MunSrfLanded"><![CDATA[你开始诉说Kerbin人在这个伟大的宇宙中遇到的或戏剧性或辛酸的种种困难,只有偶尔插入的状况报告会打断你的思绪.]]></Value>
+          <Value name="MunFlyingLow"><![CDATA[你开始在低引力环境下玩得有点儿嗨了.]]></Value>
+          <Value name="MunFlyingHigh"><![CDATA[这样真的没问题吗? 看着下面那坑坑洼洼的星球,你心在里默默嘀咕着...]]></Value>
+          <Value name="MinmusSrfLanded"><![CDATA[在这么低的引力下,你每一次跳起来都觉得自己像一个超人.]]></Value>
+          <Value name="DunaSrfLanded"><![CDATA[经过了多次尝试,你确定用这些红色的沙子来堆起一个小城堡理论上是可行的..]]></Value>
+          <Value name="DunaSrfLanded"><![CDATA[能看到的地方,没有一处不是红色的.]]></Value>
+          <Value name="IkeSrfLanded"><![CDATA[抬头仰望星空时,突然看见好像有什么东西一闪而过.]]></Value>
+          <Value name="IkeSrfLanded"><![CDATA[地表散落着大量的巨大岩石.地面上影影约约泛着微弱的奇怪光芒.]]></Value>
+          <Value name="DresSrfLanded"><![CDATA[当你贴近地面仔细看的时候,你发现它是由好几种不同的沉积岩混合而成的.]]></Value>
+          <Value name="JoolSrfLanded"><![CDATA[你甚至不敢相信自己是如何登陆一个气体行星的表面的.但是你现在应该考虑的不是这个问题..]]></Value>
+          <Value name="LaytheSrfLanded"><![CDATA[这个地方看起来是极好的,舒服得甚至想把头盔摘下来.你在报告单里-好像可以呼吸-的选项前面划了个勾.]]></Value>
+          <Value name="LaytheSrfLanded"><![CDATA[你摘下了自己的头盔,过了一会儿,你竭力地喘着气,挣扎着把头盔重新戴上.马上把报告单里-好像可以呼吸-选项前面那个勾给擦掉了....]]></Value>
+          <Value name="VallSrfLanded"><![CDATA[你脚下的地面时不时地发出轰隆隆的声音.你觉得最好还是赶紧回到飞船上面去.]]></Value>
+          <Value name="TyloSrfLanded"><![CDATA[这里的重力大小立刻让你回想起了家的感觉.但是没有什么大气这一点却和家形成了鲜明的对比.]]></Value>
+          <Value name="BopSrfLanded"><![CDATA[这里的地面是棕色的而且十分凹凸不平.你透过手套戳了戳地面才知道它有多么的坚硬.]]></Value>
+          <Value name="PolSrfLanded"><![CDATA[这个星球的每个地方看起来都是那么的锐利.你根本不想坐在什么地方或者在哪里摔上一跤.]]></Value>
+          <Value name="EeelooSrfLanded"><![CDATA[你趴在地上给这颗星球来了一个大大的拥抱,让它知道它并不孤单.]]></Value>
+
+        </Values>
+      </Node>
+    </Nodes>
+  </Config>
+  <Config name="EXPERIMENT_DEFINITION"  type="EXPERIMENT_DEFINITION" url="Squad/Resources/ScienceDefs/EXPERIMENT_DEFINITION" id="mysteryGoo">
+    <Values>
+      <Value name="title"><![CDATA[神秘黏液观察报告]]></Value>
+    </Values>
+    <Nodes>
+      <Node name="RESULTS">
+        <Values>
+          <Value name="default"><![CDATA[你观察了一会儿小黏黏.]]></Value>
+          <Value name="KerbinSrfLandedLaunchPad"><![CDATA[小黏黏看起来现在还没什么反应.]]></Value>
+          <Value name="KerbinSrfLandedRunway"><![CDATA[小黏黏现在跟之前的行为没什么两样.]]></Value>
+          <Value name="KerbinSrfLandedDeserts"><![CDATA[小黏黏看起来好像很讨厌呆在这儿.]]></Value>
+          <Value name="KerbinSrfSplashedWater"><![CDATA[小黏黏偷偷溜到水里去了!!]]></Value>
+          <Value name="KerbinSrfSplashedShores"><![CDATA[小黏黏在罐子里晃来晃去,而且好像要从那些孔里跑出来了.]]></Value>
+          <Value name="KerbinSrfLandedShores"><![CDATA[小黏黏移动到了罐子里面朝水的那边去了.]]></Value>
+          <Value name="KerbinSrfLandedKSC"><![CDATA[小黏黏看起来好像很无聊.]]></Value>
+          <Value name="KerbinFlyingLow"><![CDATA[小黏黏由于颠簸而在罐子里晃来晃去.]]></Value>
+          <Value name="KerbinFlyingHigh"><![CDATA[小黏黏好像快要被冻僵了.]]></Value>
+          <Value name="KerbinInSpaceLow"><![CDATA[小黏黏卷缩成了一个球.好像比平常要更硬了一些.]]></Value>
+          <Value name="MohoInSpace"><![CDATA[小黏黏看起来马上就要被煮熟了.它在罐子里到处翻腾.]]></Value>
+          <Value name="EveInSpace"><![CDATA[小黏黏变得变得十分有弹性,在罐子里弹来弹去.]]></Value>
+          <Value name="EveInSpace"><![CDATA[小黏黏变成紫色的了.这只是由于光的原因还是它真的变色了!?]]></Value>
+          <Value name="DunaInSpace"><![CDATA[小黏黏发出了红色的光泽,看起来很像下面的这颗星球.]]></Value>
+          <Value name="Mun"><![CDATA[小黏黏的密度好像降低了.]]></Value>
+          <Value name="InSpace"><![CDATA[小黏黏感觉这儿就像家里一样.]]></Value>
+          <Value name="BopInSpace"><![CDATA[整个罐子都开始共振了起来,发出的奇怪和声传遍了整个船舱.让人毛骨悚然.]]></Value>
+          <Value name="PolInSpace"><![CDATA[黏黏的触须伸到了罐子的外面,结冰了,然后碎了.这真是太神奇了.]]></Value>
+          <Value name="EeLooInSpace"><![CDATA[当你在观察罐子的时候,你突然感觉罐子后面的阴影里有什么东西也在看着你.s]]></Value>
+          <Value name="EeLooInSpace"><![CDATA[仪器突然间读出了一张图表!整个罐子向外弯曲了出去然后不动了.]]></Value>
+        </Values>
+      </Node>
+    </Nodes>
+  </Config>
+  <Config name="EXPERIMENT_DEFINITION"  type="EXPERIMENT_DEFINITION" url="Squad/Resources/ScienceDefs/EXPERIMENT_DEFINITION" id="surfaceSample">
+    <Values>
+      <Value name="title"><![CDATA[地表样本]]></Value>
+    </Values>
+    <Nodes>
+      <Node name="RESULTS">
+        <Values>
+          <Value name="default"><![CDATA[你收集了一些地表样本.]]></Value>
+          <Value name="default"><![CDATA[你在附近挖了挖.虽然没找到宝藏,但是找到了一些有趣的东西,然后把它们扔到了样本容器里.]]></Value>
+          <Value name="default"><![CDATA[你左挖右挖上挖下挖,希望能找到一些吊炸天的石头拿回家炫耀.]]></Value>
+          <Value name="KerbinSrfLandedGrasslands"><![CDATA[嗯,看起来像泥土.]]></Value>
+          <Value name="KerbinSrfLandedHighlands"><![CDATA[这是泥土和草,以及一些小石块.你觉得这发现恐怕只"辟"了地,离开天还远着呢.]]></Value>
+          <Value name="KerbinSrfLandedMountains"><![CDATA[这里地表十分贫瘠...基本只有雪,泥土和岩石.你十分确定,如果你向积雪中挖得更深,你会发现更多的泥土和岩石.]]></Value>
+          <Value name="KerbinSrfLandedDeserts"><![CDATA[这里有许多沙子和砾石.你觉得还好你的宇航服里有气候控制系统,因为看起来外面实在太热了.沙子看起来十分松软干燥.目测回去以后清理装备要费很大的劲了.]]></Value>
+          <Value name="KerbinSrfLandedTundra"><![CDATA[这里的土地似乎被完全冻住了.你使出了吃奶的劲才"舀"出来这份样本.]]></Value>
+          <Value name="KerbinSrfLandedIceCaps"><![CDATA[这并不是真正的陆地不是么?你采集了一些样本,但是没有挖得更深,因为被冰川碎裂的声音吓尿了.你尽量控制自己不去回想是怎么降落在这里的.]]></Value>
+          <Value name="KerbinSrfLandedShores"><![CDATA[你采集了一些土壤样本.样本含有很多泥沙.这附近可能有一片水域.]]></Value>
+          <Value name="KerbinSrfLandedBadlands"><![CDATA[这里的草明显长得不如其他地方.但是你知道这个地方叫做"荒地",这让你觉得自己低调奢华有内涵.]]></Value>
+          <Value name="KerbinSrfLandedWater"><![CDATA[你采集了一些样本.这样本好像有点湿!但愿设备都是防水的.]]></Value>
+          <Value name="KerbinSrfSplashedWater"><![CDATA[野生的"水样本"出现了!水使用了"让它变湿".效果拔群!]]></Value>
+          <Value name="KerbinSrfSplashedShores"><![CDATA[你采集了一些水的样本.样本里有些植物残骸.看来这附近似乎有陆地.]]></Value>
+          <Value name="KerbinSrfLandedLaunchPad"><![CDATA[这表面已经被烧焦,而且覆盖着火箭推进剂的灰烬.同时还有微量的绿色不明物质.]]></Value>
+          <Value name="KerbinSrfLandedRunway"><![CDATA[这表面看起来十分硬,好象是水泥.没准真是水泥?这里应该是一个不错的降落地点.]]></Value>
+          <Value name="KerbinSrfLandedKSC"><![CDATA[这就是当我们没有擦干净鞋就进入实验室时能让科学家们尖叫的那种物质.]]></Value>
+          <Value name="MunSrfLanded"><![CDATA[这里的地表看起来都是灰白色的尘土.可惜太易碎了没法用来打雪仗.]]></Value>
+          <Value name="MunSrfLandedMidlands"><![CDATA[这更暗的内陆看起来是由玄武岩构成的.]]></Value>
+          <Value name="MunSrfLandedMidlands"><![CDATA[这个样本包括了一些奇怪的不同颜色的玻璃小球.它们还挺可爱!]]></Value>
+          <Value name="MunSrfLandedNorthernBasin"><![CDATA[这个样本可以作为一个弱且局部性的磁场存在的证据.]]></Value>
+          <Value name="MunSrfLandedNorthernBasin"><![CDATA[这里的地表有许多种岩石.有些看起来很像水晶.]]></Value>
+          <Value name="MunSrfLandedEastCrater"><![CDATA[这个样本含有角砾岩和熔融物质.]]></Value>
+          <Value name="MunSrfLandedEastCrater"><![CDATA[这个环形山的金属含量比别的环形山高.]]></Value>
+          <Value name="MunSrfLandedNorthwestCrater"><![CDATA[地表看起来是由玄武岩和角砾岩构成.]]></Value>
+          <Value name="MunSrfLandedNorthWestCrater"><![CDATA[从更深的地方采集的样本似乎包含更零碎形式的岩石.]]></Value>
+          <Value name="MunSrfLandedSouthwestCrater"><![CDATA[这个样本似乎有放射性...]]></Value>
+          <Value name="MunSrfLandedSouthWestCrater"><![CDATA[这里有分层的完全不同的物质.也许这个地方经历了不止一次撞击.]]></Value>
+          <Value name="MunSrfLandedFarsideCrater"><![CDATA[这里含有大量的熔融副产物.有些看起来是在高温高压下形成的.]]></Value>
+          <Value name="MunSrfLandedFarsideCrater"><![CDATA[这个地点采集的样本和农民"坎正龙"伪造的月球土壤还真挺像.]]></Value>
+          <Value name="MunSrfLandedCanyons"><![CDATA[这个地点采集的样本都有沟痕.可能地表在这里发生了断裂.]]></Value>
+          <Value name="MunSrfLandedPolarCrater"><![CDATA[这个地点采集的样本上似乎有被强烈撞击才能形成的纹理.]]></Value>
+          <Value name="MunSrfLandedPolarCrater"><![CDATA[某些样本看起来有些许被磁化的迹象,并且隐隐约约地有规律性排列的迹象.]]></Value>
+          <Value name="MunSrfLandedPoles"><![CDATA[这里的样本喷出物含量比较低.似乎土壤里有些液体一直保持着冻结的状态.]]></Value>
+          <Value name="MunSrfLandedPolarLowlands"><![CDATA[样本似乎含有冻结的液体...我们需要把它们送回Kerbin做更详细的检测.]]></Value>
+          <Value name="MunSrfLandedHighlands"><![CDATA[样本似乎含有很多以时间分层的物质.]]></Value>
+          <Value name="MunSrfLandedHighlands"><![CDATA[这个样本含有较少的玄武岩.这也许能解释我们看到的地表颜色的变化.]]></Value>
+          <Value name="MunSrfLandedHighlandCraters"><![CDATA[这个环形山表面似乎含有地表更深层的物质!]]></Value>
+          <Value name="MunSrfLandedHighlandCraters"><![CDATA[这些样本比其他的样本看起来要古老得多.]]></Value>
+          <Value name="MunSrfLandedHighlandCraters"><![CDATA[你采集了环形山的黑暗表面的样本,这应当能帮助我们判断什么样的物体曾经撞击了这里.]]></Value>
+          <Value name="MunSrfLandedHighlandCraters"><![CDATA[这个环形山似乎满是有价值的物质.人品爆发!]]></Value>
+          <Value name="MunSrfLandedMidlandCraters"><![CDATA[这个样本的图案十分有趣.]]></Value>
+          <Value name="MunSrfLandedMidlandCraters"><![CDATA[你采集环形山地表样本的同时,不禁为Mun感到十分同情.这些撞击一定把她撞得晕头转向.]]></Value>
+          <Value name="MunSrfLandedMidlandCraters"><![CDATA[你在环形山表面左挖右挖上挖下挖,希望能找到一些有趣的岩石.原来每个环形山都不简单.]]></Value>
+          <Value name="MunSrfLandedMidlandCraters"><![CDATA[你找到了一块奔放洋气有深度的石头并且决定留下它.你突然想起来你的工作是采集地表样本,于是你把找到的所有远古岩石都扔到了样本容器里.活干完了!]]></Value>
+          <Value name="MunSrfLandedMidlandCraters"><![CDATA[嗯,这就是一个环形山.你把这些记载了你的备忘录上,还画了个笑脸.介科学还挺哏儿!]]></Value>
+          <Value name="MunSrfLandedEastFarsideCrater"><![CDATA[这个环形山似乎是由一个碉堡了的撞击形成的.样本比平常重了很多.]]></Value>
+          <Value name="MunSrfLandedEastFarsideCrater"><![CDATA[你很高兴Mun的引力很低.挖坑这种搬砖的活在这里轻松多了!]]></Value>
+          <Value name="MunSrfLandedTwinCraters"><![CDATA[这个地区的稀有元素含量很高.爽!]]></Value>
+          <Value name="MunSrfLandedTwinCraters"><![CDATA[这个区域的多个样本证明这里富含有价值的材料.]]></Value>
+          <Value name="MunSrfLandedTwinCraters"><![CDATA[你在环形山附近挖来挖去,小心地从每样东西中选择一点,希望得到一个好样本.]]></Value>
+          <Value name="MinmusSrfLanded"><![CDATA[地表看起来有很多水晶一样的谷粒似的东西,十分好看.不过显然不能吃.]]></Value>
+          <Value name="MinmusSrfLanded"><![CDATA[你偷偷尝了一下地表样本...不,它绝对不是用好吃的甜点做的.]]></Value>
+          <Value name="EveSrfLanded"><![CDATA[地表看起来是很深的紫色...或者地表是灰色的,只是因为Eve上其他的东西全都是紫色的所以看起来是紫色的?你开始想你自己不会也变紫了吧.]]></Value>
+          <Value name="DunaSrfLanded"><![CDATA[地表看起来含有一些颗粒状的,很好看的,像沙子一样的尘土.而且好像还到处都是.]]></Value>
+          <Value name="DunaSrfLanded"><![CDATA[土壤里好像有水的迹象!]]></Value>
+          <Value name="DunaSrfLanded"><![CDATA[你喷薄而出的好奇心怎么都得不到满足,你试图用你的工具钻进岩石.你觉得如果有一个带冲击钻的机械手之类的东西这活就简单的多了.]]></Value>
+          <Value name="MohoSrfLanded"><![CDATA[地面是由古老的凝固岩浆流构成.这说明这个星球曾经有一段火山剧烈活动的时期.]]></Value>
+          <Value name="GillySrfLanded"><![CDATA[这里重力很小,地面样本很容易就溜走了.你费了很大的劲才把样本放到容器里.]]></Value>
+          <Value name="GillySrfLanded"><![CDATA[样本的元素构成和小行星的很像.]]></Value>
+          <Value name="IkeSrfLanded"><![CDATA[这种暗黑色的土壤有几乎结晶质的结构.玩起来很有趣.]]></Value>
+          <Value name="IkeSrfLanded"><![CDATA[这种白色土壤有粉状纹理而且会结块在一起.]]></Value>
+          <Value name="DresSrfLanded"><![CDATA[你发现了很多种元素的迹象.似乎是由于撞击而渐渐聚积在这里的.]]></Value>
+          <Value name="DresSrfLanded"><![CDATA[在周围挖了一会坑以后,你发现一些很好看的玻璃碎片,然后把它们扔进了样本容器.]]></Value>
+          <Value name="LaytheSrfLanded"><![CDATA[土壤包含盐的痕迹.你想知道这是被吹到这里的,还是这片区域曾经是海底世界.]]></Value>
+          <Value name="VallSrfLanded"><![CDATA[你挖开了冰冻的表层,然后把一些挖到的蓝色的物质放到了样本容器里.]]></Value>
+          <Value name="VallSrfLanded"><![CDATA[你在附近采集了一些样本,找到了一些漂亮的绿色和蓝色晶体结构.它们让你想起了家乡,但你无法在天上无数闪耀的星星中找到Kerbin.]]></Value>
+          <Value name="TyloSrfLanded"><![CDATA[地面很容易就挖开了,但是更深一点的地表就硬多了.]]></Value>
+          <Value name="TyloSrfLanded"><![CDATA[你边干活边哼曲子来让时间过得快一些.Tylo上有很多十分有趣的岩石!]]></Value>
+          <Value name="BopSrfLanded"><![CDATA[这种褐色的尘土弄脏了你的宇航服上每一个它碰到过的部分.显然这让飞行控制中心那帮人觉得很有趣.]]></Value>
+          <Value name="BopSrfLanded"><![CDATA[你挖开了地表并找到了一个小的球体.它看起来有点像鸡蛋.]]></Value>
+          <Value name="PolSrfLanded"><![CDATA[当你把样本铲进容器的时候,你觉得你对一切都开始过敏了.]]></Value>
+          <Value name="PolSrfLanded"><![CDATA[这个样本有着和这个星球从轨道上看一样的奇怪的杂色.你在清单上打了一个小小的对钩.]]></Value>
+          <Value name="PolSrfLanded"><![CDATA[研究了表面样本之后,你十分肯定,Pol并不是由花粉做成的(pollen,花粉.Pol长得很像一粒巨大的花粉).这件事回家以后能把科学界搅得天翻地覆!]]></Value>
+          <Value name="EelooSrfLanded"><![CDATA[削开冰冻的表面以后,你在下面发现了一些褐色的土壤.]]></Value>
+          <Value name="EelooSrfLanded"><![CDATA[你发现了一块漂亮的晶体,并把它放在了样本容器里.]]></Value>
+          <Value name="EelooSrfLanded"><![CDATA[这些岩石里有一些很细的一缕缕的色带.这让你想起了可爱的离子发动机尾焰...]]></Value>
+        </Values>
+      </Node>
+    </Nodes>
+  </Config>
+  <Config name="EXPERIMENT_DEFINITION"  type="EXPERIMENT_DEFINITION" url="Squad/Resources/ScienceDefs/EXPERIMENT_DEFINITION" id="mobileMaterialsLab">
+    <Values>
+      <Value name="title"><![CDATA[样本研究]]></Value>
+    </Values>
+    <Nodes>
+      <Node name="RESULTS">
+        <Values>
+          <Value name="default"><![CDATA[你把样本暴露在外部环境中,记录它的变化.]]></Value>
+          <Value name="SunFlyingLow"><![CDATA[一切都在熔化!包括我们的电子设..滋滋..........]]></Value>
+          <Value name="MohoSrfLanded"><![CDATA[样本舱都快被Moho表面的高温给烤熟了.看上去某些微量元素正在和内部的样本反应.]]></Value>
+          <Value name="MohoSrfLanded"><![CDATA[你把样本暴露在Moho的高温之下,许多样本都以非常有趣的方式熔成了一团.]]></Value>
+          <Value name="KerbinSrfLanded"><![CDATA[材料看上去几乎没有什么变化.只是有一个材料看上去正在默默的鄙视你.]]></Value>
+          <Value name="KerbinSrfLandedDeserts"><![CDATA[漫天飞舞的黄沙把所有的样本都给弄脏了.不过我们至少学到了一点 -- 不要把昂贵的实验仪器带到沙漠去.]]></Value>
+          <Value name="KerbinSrfLandedIceCaps"><![CDATA[液体样本被冻成了冰坨,而糊状的样本则变得更加粘稠了一些.]]></Value>
+          <Value name="KerbinSrfLandedShores"><![CDATA[浪花让一个样本生锈了,而且一些电子设备也&/F***13e5rse4t8st######]]></Value>
+          <Value name="KerbinSrfLandedWater"><![CDATA[所有东西都湿透了.哇!有一个样本着火了!]]></Value>
+          <Value name="KerbinSrfLandedWater"><![CDATA[把实验室的电源泡在水里比我们想象的更能给人带来灵感的火花.]]></Value>
+          <Value name="KerbinSrfLandedBadlands"><![CDATA[你把样本暴露在了坎巴拉的荒野上,但我很担心这会对他们造成不好的影响...]]></Value>
+          <Value name="KerbinFlyingLow"><![CDATA[弹性不好的样本糊满了整个容器内壁,组成了新奇的颜色组合.]]></Value>
+          <Value name="KerbinFlyingHigh"><![CDATA[稀薄的空气让胶质样本发生了有趣的变化,看上去在它的内部结构中正在发生着什么.]]></Value>
+          <Value name="KerbinInSpaceLow"><![CDATA[微弱的重力计大的影响了晶体结构的成长.一些没有固定好的物体也在舱内漫天飞舞,很乱但也很酷.]]></Value>
+          <Value name="MunSrfLanded"><![CDATA[一些样本跟细小的月尘混在了一起,你感觉它们再也不会干净的回到实验室了.]]></Value>
+          <Value name="MunSrfLanded"><![CDATA[你把样本舱的门打开敞着,然后就去做其他的事情了.]]></Value>
+          <Value name="MinmusSrfLanded"><![CDATA[在样本正在被处理的时候你陷入了沉思--Minmus看上去多么像一个薄荷铺成的沙漠啊....你突然意识到好像你的肚子饿起来了....]]></Value>
+          <Value name="InSpace"><![CDATA[强放射性的环境导致一些样本开始放出璀璨的光彩.如果用这些样本来做火箭外壳的涂料肯定很有意思.]]></Value>
+          <Value name="EveSrfLanded"><![CDATA[可怕的气压很快就把一些样本压成了晶体状.]]></Value>
+          <Value name="EveSrfLanded"><![CDATA[你不能确定到底是大多数样品都变了颜色,还是仅仅是光的颜色变了...]]></Value>
+          <Value name="EveFlyingHigh"><![CDATA[极其稠密的大气把样本舱里的东西都削成了细条.]]></Value>
+          <Value name="EveFlyingLow"><![CDATA[大气把有的材料削成了细条，有的则仅仅是磨去了表面的杂物.]]></Value>
+          <Value name="GillySrfLanded"><![CDATA[样本看上去跟他们在坎巴拉低轨的状态差不多.]]></Value>
+          <Value name="GillySrfLanded"><![CDATA[一些星球表面的物质跟样本舱里的样本混合了起来,你把结果记了下来以供日后的研究.]]></Value>
+          <Value name="DunaSrfLanded"><![CDATA[打开样本舱的一瞬间你发现一切都被染红了.前期的试验表明这些颜色无法从白色的宇航服上洗去.因此你开始考虑以后改穿粉色的宇航服以减少清洗费用.]]></Value>
+          <Value name="DunaSrfLanded"><![CDATA[长着一个硕大的红色眼球的样本计算机正在处理结果.它缓慢的眨动着，透露出不详的气息,看起来对周围的环境很熟悉,好像它本来就属于这里.]]></Value>
+          <Value name="IkeSrfLanded"><![CDATA[有一个样本与Ike的表面发生了不可思议的反应.]]></Value>
+          <Value name="IkeSrfLanded"><![CDATA[一个晶体样本炸了开来,往样本舱外射出了许多绿色的碎片.]]></Value>
+          <Value name="DresSrfLanded"><![CDATA[在样本处理的过程中,计算机询问它能不能唱一首歌.听上去是关于某种花草的.]]></Value>
+          <Value name="DresSrfLanded"><![CDATA[有一个样本在暴露在空气中后汽化蒸发了.]]></Value>
+          <Value name="JoolInSpace"><![CDATA[计算机对我们要求打开舱门的指令给出了奇怪的回复 --"很抱歉,恐怕我不能这么做." 然而当我们试图打开线路盒检查计算机系统的时候,门一下子就开了.真奇怪.]]></Value>
+          <Value name="JoolFlyingHigh"><![CDATA[极为可怕的气压彻底的改变了样本的结构.能观察到激烈的高温和切削效应.这个科研舱看上去快报销了.]]></Value>
+          <Value name="JoolFlyingLow"><![CDATA[样本在Jool的高温高压下沸腾,燃烧,坍缩.观察摄像头在它失灵前看到了美丽的彩虹.]]></Value>
+          <Value name="JoolSrfLanded"><![CDATA[你不知道自己在哪，又应该到哪去收集样品....]]></Value>
+          <Value name="LaytheFlyingHigh"><![CDATA[有一个样本在接触到空气时燃烧了起来,有趣的是根据火焰的光芒似乎空气中含有氧气.]]></Value>
+          <Value name="LaytheFlyingLow"><![CDATA[样本开始冒烟并发出炸裂声,就好象烧起来了一样.]]></Value>
+          <Value name="LaytheSrfLanded"><![CDATA[细小的Laythe尘土被吹进了样本舱.]]></Value>
+          <Value name="LaytheSrfSplashed"><![CDATA[样本舱的电线短路了!电火花到处乱窜.看起来真的很好看!]]></Value>
+          <Value name="VallSrfLanded"><![CDATA[很多的样本冻成了一坨,要么就在样本舱里蒸发了.]]></Value>
+          <Value name="VallSrfLanded"><![CDATA[样本舱的门还没来得及打开就被冻住了.就连样本的表面都被冻上了一层薄薄的外壳.]]></Value>
+          <Value name="TyloSrfLanded"><![CDATA[有一个样本在接触到Tylo表面之后变成了粉末散入雾气里去了.]]></Value>
+          <Value name="BopSrfLanded"><![CDATA[样本似乎正在和Bop的表面发生化学反应..]]></Value>
+          <Value name="BopSrfLanded"><![CDATA[一瞬间所有的液体样本都汽化了.]]></Value>
+          <Value name="PolSrfLanded"><![CDATA[一些样本在接触到Pol表面后塌陷并熔化了!]]></Value>
+          <Value name="EelooSrfLanded"><![CDATA[一些Eeloo上的水晶粉尘被吹进了样本舱.此外一些样本在低温下体现出了更好的导电性.]]></Value>
+        </Values>
+      </Node>
+    </Nodes>
+  </Config>
+  <Config name="EXPERIMENT_DEFINITION"  type="EXPERIMENT_DEFINITION" url="Squad/Resources/ScienceDefs/EXPERIMENT_DEFINITION" id="temperatureScan">
+    <Values>
+      <Value name="title"><![CDATA[温度探测]]></Value>
+    </Values>
+    <Nodes>
+      <Node name="RESULTS">
+        <Values>
+          <Value name="default"><![CDATA[收集并记录了这里的气温.]]></Value>
+          <Value name="KerbinSrfLanded"><![CDATA[温度计的读数完全正常.]]></Value>
+          <Value name="KerbinSrfLandedDeserts"><![CDATA[滚滚的热浪从地面升腾而起.]]></Value>
+          <Value name="KerbinSrfLandedIceCaps"><![CDATA[这里的温度足够把水冻成冰了.]]></Value>
+          <Value name="KerbinSrfLandedShores"><![CDATA[这个温度最适合下去游泳了.]]></Value>
+          <Value name="KerbinSrfLandedWater"><![CDATA[水温似乎会随着深度的增加而逐渐降低.]]></Value>
+          <Value name="KerbinSrfLandedTundra"><![CDATA[这里的温度可以把东西一直冻到天荒地老.]]></Value>
+          <Value name="KerbinSrfLandedGrasslands"><![CDATA[这里的温度让人非常舒服, 特别适合居住.]]></Value>
+          <Value name="KerbinSrfBadlands"><![CDATA[这里的昼夜温差很大, 气温受时间的影响非常明显.]]></Value>
+          <Value name="MohoSrfLanded"><![CDATA[这里的气温非常高, 尤其是当阳光直射的时候.]]></Value>
+          <Value name="EveSrfLanded"><![CDATA[这儿的气温可以在一天之内先把水冻成冰, 然后再把它变成水蒸气.]]></Value>
+        </Values>
+      </Node>
+    </Nodes>
+  </Config>
+  <Config name="EXPERIMENT_DEFINITION"  type="EXPERIMENT_DEFINITION" url="Squad/Resources/ScienceDefs/EXPERIMENT_DEFINITION" id="barometerScan">
+    <Values>
+      <Value name="title"><![CDATA[大气压探测]]></Value>
+    </Values>
+    <Nodes>
+      <Node name="RESULTS">
+        <Values>
+          <Value name="default"><![CDATA[收集并记录了周边环境的气压数据.]]></Value>
+          <Value name="MohoFlyingLow"><![CDATA[气压表的读数过低,无法获得数据.这个星球没有任何大气.]]></Value>
+          <Value name="MohoSrfLanded"><![CDATA[气压表依然无法获取任何信息.]]></Value>
+          <Value name="EveFlyingLow"><![CDATA[就算在这个高度气压表的读数依然高的惊人.]]></Value>
+          <Value name="EveSrfLanded"><![CDATA[表面的大气非常致密,紧紧的挤压着气压计.]]></Value>
+          <Value name="GillyFlyingLow"><![CDATA[要么是气压计坏了,要么是这块大石头上压根就没有大气.]]></Value>
+          <Value name="GillySrfLanded"><![CDATA[有一瞬间我以为气压计出现了读数,但我仔细一看其实是气压计被弄脏了.]]></Value>
+          <Value name="MunFlyingLow"><![CDATA[你出于无聊随手测了一下这里的气压.嗯,果然没有大气.]]></Value>
+          <Value name="MunSrfLanded"><![CDATA[气压表指针一动不动.也许你应该拍几下看看是不是指针卡住了?]]></Value>
+          <Value name="MunSrfLanded"><![CDATA[他们说只有傻瓜才会把反复做同样的事情而期待着不同的结果.说着你又跑去测了一次气压.]]></Value>
+          <Value name="DunaFlyingLow"><![CDATA[这里的大气很稀薄,但至少还能让气压表读出一些数据.]]></Value>
+          <Value name="DunaSrfLanded"><![CDATA[即使是星球表面的大气也很稀薄.你估计降落伞和机翼在这里不会有什么用处.]]></Value>
+          <Value name="IkeFlyingLow"><![CDATA[看起来这里没有大气.]]></Value>
+          <Value name="IkeSrfLanded"><![CDATA[即使是在星球表面气压表还是没有读数.]]></Value>
+          <Value name="JoolFlyingLow"><![CDATA[这里的气压太高了,气压表都快破表了.]]></Value>
+          <Value name="JoolFlyingHigh"><![CDATA[这里的气压高的吓人,再往下探测恐怕会很危险.]]></Value>
+          <Value name="JoolSrfLanded"><![CDATA[要么是这里的气压真的非常非常高,要么是气压表已经彻底熔化了.很难说到底会先发生什么.]]></Value>
+          <Value name="LaytheFlyingLow"><![CDATA[这里肯定有大气,只是气压低了一点.]]></Value>
+          <Value name="LaytheSrfLanded"><![CDATA[这里的气压好像比Kerbin的低一点,不过还在可以接受的范围内.]]></Value>
+          <Value name="VallFlyingLow"><![CDATA[这里没有能够取样分析的大气.]]></Value>
+          <Value name="VallSrfLanded"><![CDATA[如果不是这个星球会偶尔的产生一点气压的话,那就是你的气压计已经坏了.]]></Value>
+          <Value name="VallSrfLanded"><![CDATA[你反复的看了气压计很多遍,因为你觉得你应该看到指针晃了一下.]]></Value>
+          <Value name="TyloFlyingLow"><![CDATA[惊讶吧?仪器居然表示这里没有大气.]]></Value>
+          <Value name="TyloSrfLanded"><![CDATA[太奇葩了,气压表居然在这里读不到数据.]]></Value>
+          <Value name="BopFlyingLow"><![CDATA[这根本就是一个大块的石头,你指望你能找到点什么?]]></Value>
+          <Value name="BopSrfLanded"><![CDATA[还是什么都没有,这确确实实就是一个大块的石头.]]></Value>
+          <Value name="PolFlyingLow"><![CDATA[没什么好说的.]]></Value>
+          <Value name="PolSrfLanded"><![CDATA[完全无法在Pol上找到大气.]]></Value>
+          <Value name="EelooSrfLanded"><![CDATA[滴,滴,滴...嘟.指针被冻住了...]]></Value>
+          <Value name="EelooFlyingLow"><![CDATA[气压计在这里完全测不到任何气压.]]></Value>
+        </Values>
+      </Node>
+    </Nodes>
+  </Config>
+  <Config name="EXPERIMENT_DEFINITION"  type="EXPERIMENT_DEFINITION" url="Squad/Resources/ScienceDefs/EXPERIMENT_DEFINITION" id="seismicScan">
+    <Values>
+      <Value name="title"><![CDATA[震动加速度探测]]></Value>
+    </Values>
+    <Nodes>
+      <Node name="RESULTS">
+        <Values>
+          <Value name="default"><![CDATA[精确地测量并收集了飞船在该状况下的加速度数据]]></Value>
+          <Value name="MohoSrfLanded"><![CDATA[探测器探测到了星球深处的震动.这个星球的内部似乎有着十分强烈的火山活动.]]></Value>
+          <Value name="MohoSrfLanded"><![CDATA[探测器在震动记录中发现了一些奇特的震波的反射.这也许能够为星球内部的结构带来更多的线索.]]></Value>
+          <Value name="EveSrfLanded"><![CDATA[探测器探测到了地表下可能的地质运动.]]></Value>
+          <Value name="EveSrfLanded"><![CDATA[探测器探测到了微弱的震动,尽管微弱,这些震波的记录足以用来描绘星球的内部结构.]]></Value>
+          <Value name="GillySrfLanded"><![CDATA[这个地方似乎没有任何的地质运动.]]></Value>
+          <Value name="GillySrfLanded"><![CDATA[探测器唯一能探测到的震波来自登陆器着陆所带来的震动.这些震动似乎不能很好地在星球表面传播.]]></Value>
+          <Value name="MunSrfLanded"><![CDATA[探测器在星球表面探测到了小型的地质震动!]]></Value>
+          <Value name="MunSrfLanded"><![CDATA[探测器探测到了一些震源遥远的震动,这些震波沿着星球的内部结构反射而来.]]></Value>
+          <Value name="MinmusSrfLanded"><![CDATA[探测器探测到了虚弱的地质运动.]]></Value>
+          <Value name="MinmusSrfLanded"><![CDATA[探测器探测到了星球表面以下地质移动的迹象. 这也许是因为星球内部并不完全是结冰的.]]></Value>
+          <Value name="DunaSrfLanded"><![CDATA[探测器对星球的地质活动提供了十分详细的情况.]]></Value>
+          <Value name="DunaSrfLanded"><![CDATA[星球上似乎没有十分显著的地质活动.这也许是因为这个星球从地质学角度来讲已经不再活跃了.]]></Value>
+          <Value name="DresSrfLanded"><![CDATA[这个星球看起来没有任何地质活动.]]></Value>
+          <Value name="DresSrfLanded"><![CDATA[探测器探测到的数据表明周期性的陨石撞击似乎导致了星球表面轻微的地质震动.]]></Value>
+          <Value name="DresSrfLanded"><![CDATA[探测器探测到的震波有着不同的传递速度,这暗示了星球表面下不同的物质构成.]]></Value>
+          <Value name="JoolSrfLanded"><![CDATA[探测器已经不知道在这儿应该干啥了(其实是因为这是一个气体大行星,而针对地质活动的探测器无法对这个星球进行恰当的勘探.)]]></Value>
+          <Value name="JoolSrfLanded"><![CDATA[探测器刚刚告诉你它的保修期已经过期了.不予退款.]]></Value>
+          <Value name="LaytheSrfLanded"><![CDATA[探测器发现来自母星的潮汐力似乎搅乱了卫星的内部结构.]]></Value>
+          <Value name="LaytheSrfLanded"><![CDATA[探测器探测到的震动指出了现存的地质运动.]]></Value>
+          <Value name="VallSrfLanded"><![CDATA[探测器探测到了星球表面冰火山活动的迹象.(不同于常见的火山,冰火山所喷发出的是水、氨、甲烷一类的挥发物)]]></Value>
+          <Value name="VallSrfLanded"><![CDATA[探测器探测到了在卫星内部不断反射的震波]]></Value>
+          <Value name="TyloSrfLanded"><![CDATA[探测器表示这个星球的地质似乎不怎么活跃了.]]></Value>
+          <Value name="TyloSrfLanded"><![CDATA[探测器只能检测到最轻微的表面震动.]]></Value>
+          <Value name="BopSrfLanded"><![CDATA[探测器在星球上似乎检测不到大型的地质运动.]]></Value>
+          <Value name="BopSrfLanded"><![CDATA[探测器检测到远处的一个地质运动. 这个现象可能源自于一个大物体(也许是陨石)撞击星球表面.]]></Value>
+          <Value name="PolSrfLanded"><![CDATA[探测器发现这个星球的松散土壤对震波的传递与其他星球有所不同.]]></Value>
+          <Value name="PolSrfLanded"><![CDATA[探测器探测到震波在星球参差不齐的内部结构中反射.]]></Value>
+          <Value name="EelooSrfLanded"><![CDATA[探测器探测到了在星球内部的冰火山活动.]]></Value>
+          <Value name="EelooSrfLanded"><![CDATA[探测器接收到了低频率的声音.]]></Value>
+        </Values>
+      </Node>
+    </Nodes>
+  </Config>
+  <Config name="EXPERIMENT_DEFINITION"  type="EXPERIMENT_DEFINITION" url="Squad/Resources/ScienceDefs/EXPERIMENT_DEFINITION" id="gravityScan">
+    <Values>
+      <Value name="title"><![CDATA[引力探测]]></Value>
+    </Values>
+    <Nodes>
+      <Node name="RESULTS">
+        <Values>
+          <Value name="default"><![CDATA[记录下了这些位置的精确引力值.]]></Value>
+          <Value name="MohoInSpace"><![CDATA[探测器掠过Moho表面以测量引力场中存在的变化.]]></Value>
+          <Value name="MohoSrfLanded"><![CDATA[在这里着陆提供了精确而稳定的引力测量.]]></Value>
+          <Value name="EveInSpace"><![CDATA[当你越过一个巨大的火山口时探测器记录到了轻微的引力变化.]]></Value>
+          <Value name="EveSrfLanded"><![CDATA[这里的引力场非常强,探测器记录了这块区域的详细数据.]]></Value>
+          <Value name="GillyInSpace"><![CDATA[探测器在这个不规则的物体中探测到了巨大的引力变化.]]></Value>
+          <Value name="GillySrfLanded"><![CDATA[待在KSC里的家伙们一定会把这些详细数据视若珍宝的.]]></Value>
+          <Value name="KerbinInSpace"><![CDATA[探测器发现在Kerbin的引力场中有细微的变化.科研小组一定会很想要看一下这些数据的!]]></Value>
+          <Value name="KerbinSrfLanded"><![CDATA[探测器似乎认为它正在被校准中.]]></Value>
+          <Value name="KerbinSrfLanded"><![CDATA[在阅读了好几次手册之后,指挥小组终于能够获得局部引力的准确数值了.]]></Value>
+          <Value name="KerbinInSpaceGrassLands"><![CDATA[测量仪器测量了草地上的引力.数据显示这里的引力场非常稳定.]]></Value>
+          <Value name="KerbinInSpaceHighlands"><![CDATA[测量仪器测量了Kerbin的高地,连绵起伏的山丘似乎对局部引力影响不大.]]></Value>
+          <Value name="KerbinInSpaceMountains"><![CDATA[沿着这些山脉似乎引力场是最强的.]]></Value>
+          <Value name="KerbinInSpaceDeserts"><![CDATA[沙丘中的引力似乎非常稳定,但有些峰值显示出地下地形的成分不尽相同.]]></Value>
+          <Value name="KerbinInSpaceBadlands"><![CDATA[探测器读取了Kerbin荒漠中的引力值.]]></Value>
+          <Value name="KerbinInSpaceIceCaps"><![CDATA[探测器探测到冰面底下有一些变化.难道在那下面有陆地?]]></Value>
+          <Value name="KerbinInSpaceShores"><![CDATA[探测器掠过Kerbin的海岸.数据似乎不太符合实际.]]></Value>
+          <Value name="KerbinInSpaceWater"><![CDATA[当探测器掠过海面的时候显示出了一个令人诧异的变化.迹象表明是深海中的多变拓扑结构导致的.]]></Value>
+          <Value name="KerbinSrfSplashedWater"><![CDATA[探测器探测到了局部引力的改变,似乎和Mun的经过有关系.]]></Value>
+          <Value name="MunInSpace"><![CDATA[测量仪器测量了Mun的引力场.这些数据将有助于计算其质量.]]></Value>
+          <Value name="MunSrfLanded"><![CDATA[探测器对局部引力进行了详尽的测量.]]></Value>
+          <Value name="MunSrfLanded"><![CDATA[校准后的探测器将可以探测Kerbin和Mun引力之间相互影响的情况.]]></Value>
+          <Value name="MinmusInSpace"><![CDATA[探测器掠过Minmus时扫描了Minmus的引力场.]]></Value>
+          <Value name="MinmusSrfLanded"><![CDATA[探测器获得了Minmus详细的引力读数.]]></Value>
+          <Value name="MinmusSrfLanded"><![CDATA[扫描获得了因Mun的轨道影响而引起的细微变化.这个数据将对了解这个行星系统非常有价值.]]></Value>
+          <Value name="DunaInSpace"><![CDATA[探测器掠过斑驳的Duna表面.在蔓延贯穿整个地表的巨大峡谷中引力最弱.]]></Value>
+          <Value name="DunaSrfLanded"><![CDATA[探测器在Duna表面进行了详尽而准确的局部引力扫描.]]></Value>
+          <Value name="DunaSrfLanded"><![CDATA[探测器能够记录下Ike所造成的影响,因为它绕着Duna旋转.]]></Value>
+          <Value name="DresInSpace"><![CDATA[探测器扫过表面并发现,作为一颗行星,它的平均引力实在太弱了.]]></Value>
+          <Value name="DresSrfLanded"><![CDATA[探测器对局部引力进行了十分精细的测量,并记录了所有的变化.]]></Value>
+          <Value name="JoolInSpace"><![CDATA[对探测器进行了标定以便用来测量Jool的强大引力.]]></Value>
+          <Value name="JoolInSpace"><![CDATA[探测器获得了大量关于这个行星系统的信息.]]></Value>
+          <Value name="JoolSrfLanded"><![CDATA[测量仪器在如此强大的引力面前已经长跪不起了.这就是科学(这不科学)!]]></Value>
+          <Value name="LaytheInSpace"><![CDATA[探测器扫描了Laythe的引力.这对探索水下各种各样的地形有很大帮助.]]></Value>
+          <Value name="LaytheSrfLanded"><![CDATA[探测器扫描了Laythe的局部引力,记录了Jool所带来的影响.]]></Value>
+          <Value name="LaytheSrfSplashed"><![CDATA[探测器提供了和潮汐有关的详细信息.]]></Value>
+          <Value name="VallInSpace"><![CDATA[在轨扫描提供了一张Vall更清晰的内部构成的照片.]]></Value>
+          <Value name="VallSrfLanded"><![CDATA[对地表的扫描详细显示了由于天体内部板块移动而导致的巨大引力变化.]]></Value>
+          <Value name="TyloInSpace"><![CDATA[这颗天体具有比预期要弱的引力.这将给我们的科学家提供Tylo内部构造的具体信息.]]></Value>
+          <Value name="TyloSrfLanded"><![CDATA[详细的扫描已经表明天体内部居然是中空的.]]></Value>
+          <Value name="BopInSpace"><![CDATA[环绕着Bop就可以扫描起伏多变的表面.有意思!]]></Value>
+          <Value name="BopSrfLanded"><![CDATA[探测器在这儿给出了奇怪的数值...]]></Value>
+          <Value name="PolInSpace"><![CDATA[传感器获得了天体表面之下的多层数据.]]></Value>
+          <Value name="PolSrfLanded"><![CDATA[着陆在天体上进行了对Pol内部引力的全面详细扫描.]]></Value>
+          <Value name="EelooInSpace"><![CDATA[虽然表面看上去比较光滑圆润,但是在天体表面之下存在着巨大的变化.]]></Value>
+          <Value name="EelooSrfLanded"><![CDATA[引力扫描结果在这里一目了然.似乎其他天体对其影响并不大.]]></Value>
+        </Values>
+      </Node>
+    </Nodes>
+  </Config>
+  <Config name="EXPERIMENT_DEFINITION"  type="EXPERIMENT_DEFINITION" url="Squad/Resources/ScienceDefs/EXPERIMENT_DEFINITION" id="atmosphereAnalysis">
+    <Values>
+      <Value name="title"><![CDATA[大气分析]]></Value>
+    </Values>
+    <Nodes>
+      <Node name="RESULTS">
+        <Values>
+          <Value name="default"><![CDATA[你刚才进行了一次大气层分析,记录下了不同的测量数据,比如温度,压力和大气成分.]]></Value>
+          <Value name="MohoSrf"><![CDATA[这里好像没有大气.但是这里有些和表面成分接近的微量元素.]]></Value>
+          <Value name="EveSrf"><![CDATA[这也许算是大气层,但是这绝对不是什么你想呼吸一下的东西.]]></Value>
+          <Value name="GillySrf"><![CDATA[没有能检测到的大气层.]]></Value>
+          <Value name="KerbinFlyingHigh"><![CDATA[在这个高度似乎只有很稀薄的大气.如果你打算出舱,确保你已经穿好了黑科技宇航服.]]></Value>
+          <Value name="KerbinSrfLanded"><![CDATA[温度和压力的读数显示今天是个飞行的好日子,像其他所有日子一样.]]></Value>
+          <Value name="KerbinSrfLandedDeserts"><![CDATA[在沙漠里非常热,非常干.传感器都要被尘土堵上了.]]></Value>
+          <Value name="KerbinSrfLandedIceCaps"><![CDATA[我们发现极地的大气确实非常,非常冷.有些传感器都冻住了,但是我们有理由确定这还里还都是空气.]]></Value>
+          <Value name="MunSrf"><![CDATA[仪器在表面附近探测到了微弱的微粒光环.这不是大气层,但是这也许能解释已报告的,出现在地平线上的亮光.]]></Value>
+          <Value name="MinmusSrf"><![CDATA[有可探测到的气体释放.但是不是什么能算作大气层的东西.]]></Value>
+          <Value name="DunaSrf"><![CDATA[在Duna周围的大气非常非常的稀薄.用翼面足够大或速度足够快的飞行器甚至可能会飞进去.]]></Value>
+          <Value name="DunaSrf"><![CDATA[比起Kerbin的大气层来说,这里有更多的重同位素聚集.]]></Value>
+          <Value name="IkeSrf"><![CDATA[你刚刚在一个并不存在的大气层中探测了一番.]]></Value>
+          <Value name="DresSrf"><![CDATA[没有迹象表明这里有大气层.]]></Value>
+          <Value name="JoolFlyingHigh"><![CDATA[这里的大气压很高,你探测到了成吨的气体.]]></Value>
+          <Value name="JoolFlyingLow"><![CDATA[仪器在目前的密度下,仪器的采样工作进行的很困难.这些气体在压力作用下开始液化了.]]></Value>
+          <Value name="JoolSrfLanded"><![CDATA[仪器几乎都要被压力弄成一团不知道是什么的金属了.]]></Value>
+          <Value name="LaytheSrfLanded"><![CDATA[Laythe的大气貌似和Kerbin的差不多...不过,我才不会自愿第一个不戴头盔就出去晃呢.]]></Value>
+          <Value name="LaytheSrfLanded"><![CDATA[在这儿把头盔摘了应该不会让你死的...很快.]]></Value>
+          <Value name="VallSrfLanded"><![CDATA[这里有冰火山化合物的痕迹.但这不算是完整的大气.]]></Value>
+          <Value name="TyloSrfLanded"><![CDATA[在表面上只有微弱的最重的同位素的迹象.]]></Value>
+          <Value name="BopSrfLanded"><![CDATA[有那么一秒,传感器探测到了有机化合物.可能是个错误.]]></Value>
+          <Value name="BopSrfLanded"><![CDATA[传感器只探测到了些稀松平常的东西.可以确信的是,生命在这里无法生存.]]></Value>
+          <Value name="PolSrfLanded"><![CDATA[这里没有什么值得一提的大气层,不过你还是颠儿颠儿的记录了温度数值.]]></Value>
+          <Value name="EelooSrfLanded"><![CDATA[似乎有薄薄的大气环绕着这个星球,不过,这里的大气太薄,不足以影响任何航空器的登陆.]]></Value>
+        </Values>
+      </Node>
+    </Nodes>
+  </Config>
+</Configs>

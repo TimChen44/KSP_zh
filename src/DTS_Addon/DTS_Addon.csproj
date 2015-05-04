@@ -225,6 +225,9 @@
       <Link>DTS_zh\cnfont\cn16b.fnt.unity3d</Link>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DTS_zh\xSquad\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
