@@ -8384,51 +8384,51 @@ One more thing on staging, if the automatically generated stage setup, or even o
   <string id="364671"><![CDATA[transfersuccess3]]></string>
   <string id="364704"><![CDATA[教程完成 !]]></string>
   <string id="364741">
-    <![CDATA[Welcome to the first in a series of scenarios designed to prepare you for flight in and around Kerbin's local system.
+    <![CDATA[欢迎来到第一个系列教程,本教程的目的是帮助你学会如何在坎巴拉系内进行航行.
 
-I'm going to assume you've completed both the Flight Basics tutorial as well as Orbiting 101. If not, you should go do them first.
+我估计你应该已经完成了基础飞行教程和环绕轨道101教程.如果你还没完成以上两个教程,我建议你先完成它们.
 
-When you're ready to go, hit Continue.]]>
+当你准备好后就按下继续.]]>
   </string>
   <string id="365321">
-    <![CDATA[An important part of flights between celestial objects is a Transfer Orbit, which basically means an orbit used to change between two orbits. In our case, the Periapsis of our orbit will be very near to Kerbin, and the Apoapsis will extend to just beyond the Mun's orbit. The same applies to an interplanetary trajectory, just on a much larger scale.
+    <![CDATA[在天体之间航行的一个重要的组成部分是转移轨道，这基本上意味着一个轨道在两个轨道之间进行转变.在这个任务中,我们轨道的近拱点(Pe点)非常靠近坎巴拉星,而远拱点(Ap点)则刚刚超出了月一的轨道.在行星际转移的时候也是如此,只是轨道的规模更大了而已.
 
-Now, press the ]]>
+现在请按下 ]]>
   </string>
-  <string id="366057"><![CDATA[ 键以进入地图视角,这样我们就能总览坎巴拉星系的情况.]]></string>
+  <string id="366057"><![CDATA[键以进入地图视角,这样我们就能总览坎巴拉星系的情况.]]></string>
   <string id="366221">
-    <![CDATA[To perform a successful transfer, it needs to take the same amount of time for both you and your target object to reach the same location. 
+    <![CDATA[要进行一次成功的轨道转移,你必须和你的目标天体同时到达同一个位置. 
 
-If you really know what you're doing you can calculate your own transfer orbit on the fly, or you could try eyeballing it, but it's much easier to use Maneuver Nodes. So let's go ahead and create one, click anywhere on your orbit and click the Add Maneuver button.
+如果你真的知道你在做什么,你可以计算出飞行中自己的转移轨道,或者你可以试着目测它,但更容易是使用机动点.让我们前去创建一个,在你的轨道上的任何地方点击,然后点击添加机动点按钮.
 
-Do note that when playing a Career Game maneuver nodes will not be immediately available, you will have some upgrading to do before you have them available.]]>
+生涯模式时机动点不能立即就可用,在能使用之前你还得做些升级.]]>
   </string>
   <string id="367349"><![CDATA[preTMI]]></string>
   <string id="367362">
-    <![CDATA[Maneuver nodes let you plan orbital maneuvers ahead of time, and most importantly, without wasting precious fuel.
+    <![CDATA[机动节点可以让你计划提前轨道的机动的时间,最重要的是可以避免浪费燃料.
 
-As you can see maneuver nodes have six handles, the green ones are Prograde and Retrograde, the purple ones Normal and Antinormal and the blue ones are Radial and Antiradial.
+你可以看到机动节点有六个处理杆,绿色的是顺行和逆行,紫色的是法向和反法向,蓝色的是径向和反径向.
 
-I'm not going to go in detail because these are the same vectors on the NavBall you saw in the Orbiting tutorial, just remember that Prograde and Retrograde help you grow or shrink your orbit and Normal and Antinormal help you tilt it.]]>
+我不打算讲的太详细,因为你在轨道教程里看到过这些相同的矢量,只要记住记住,顺行和逆行能帮助你增大或缩小你的轨道,而法向和反法向能帮助你轨道.]]>
   </string>
   <string id="368416">
-    <![CDATA[You can click and drag the different handles to see an effect in your theoretical orbit by affecting the vector in question. In our particular case we're going to bring the vessel's orbit Apoapsis up just enough to intercept the Mun's orbit at around 45 degrees ahead of the its current position.
+    <![CDATA[你可以点击和拖动不同处理杆来影响矢量看看你的理论轨道变化效果.在现在的例子中,我们打算把飞船轨道的远拱点提升至月球此时位置前方大约45度的地方,使其切入月球轨道.
 
-If your trajectory is correct, the orbit line will shift colors, representing a change in which celestial body's gravity is holding onto when you reach that point.]]>
+如果你的轨迹是正确的, 轨道线将会改变颜色, 这代表当你到达那一点被天体引力所捕获的变化.]]>
   </string>
   <string id="369340"><![CDATA[maneuver2]]></string>
   <string id="369359">
-    <![CDATA[Let's get to it then!
+    <![CDATA[那么我们来搞定它!
 
-With the handles showing pull the Prograde handle until your theoretical orbit intersects that of the Mun, it has to be an intercept trajectory to the Mun though, so move the node itself as necessary until you get one.
+拉动顺行控制杆直至你的理论轨道切入到月球轨道, 为使它得成为指向月球的拦截轨迹, 必要时你得移动节点本身来得到它.
 
-If you want to start over you can delete the maneuver node and create a new one, right click it while it's open to show the delete button.]]>
+如果你想重新开始你可以删除和创建一个新的机动节点,右键单击它会显示删除按钮.]]>
   </string>
   <string id="370123"><![CDATA[Vector Mark1-2Pod (Orbiter 1A) flight plan]]></string>
   <string id="370208">
-    <![CDATA[There we go! Your theoretical orbit is now on an intercept trajectory, headed right for the Mun.
+    <![CDATA[成功啦!你的理论轨道现在成为了对准月球的拦截轨迹.
 
-There are a few things to notice now, bring out your NavBall. You will see a few things that weren't there before the maneuver node, the bar on the right is the velocity change (delta V for short) required to make your theoretical orbit the actual one, you will also see the approximated burn time needed to deplete the bar and how long it will take to reach the maneuver... Oh my, this is taking forever, please click any point on the orbit BEYOND the maneuver node and the click Warp To Next Maneuver.]]>
+现在有一些事情需要注意,打开你的导航球.你会发现创建机动点之前没见过的一些玩意儿,右边的指示条代表速度变化量(DeltaV)可使你的理论轨道变成实际轨道,你还会看到需要清除指示条所需的近似的燃烧时间还有多久飞船才能到达机动点...噢天呐,这也太久了,请在轨道上超过机动点前任意位置点击一下,然后点击加速到机动点.]]>
   </string>
   <string id="371412">
     <![CDATA[We're getting close to maneuver time, there is one final step to take before executing it. You will now see an additional blue icon in your NavBall (or an arrow indicating it's direction). It tells you the direction your vessel needs to be pointing in order to perform the maneuver successfully, if the marker is not visible then you will see a small arrow indicating its general direction instead.
