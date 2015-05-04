@@ -1,0 +1,153 @@
+GAME
+{
+	version = 1.0.0
+	Title = Science Basics
+	Description = In this tutorial Wernher von Kerman will walk you through the Kerbal Scientific Method, you will learn how experimentation works and why it's so cool!
+	Mode = 3 
+    // scene to load when starting this save.
+	scene = 5
+	flag = Squad/Flags/default
+	PARAMETERS
+	{
+		SPACECENTER
+		{
+			CanGoInVAB = False
+			CanGoInSPH = False
+			CanGoInTrackingStation = False
+			CanLaunchAtPad = False
+			CanLaunchAtRunway = False
+			CanLeaveToMainMenu = True
+			CanGoToRnD = True
+			CanGoToAstronautC = False
+			
+		}	
+		RESEARCHANDDEVELOPMENT
+		{
+		
+			CanLeaveToSpaceCenter = True
+			
+		}
+		DIFFICULTY
+		{
+			MissingCrewsRespawn = True
+		}
+	}
+	SCENARIO
+	{
+		// the name of the ScenarioModule class to spawn
+		name = TutorialScience
+		// the scene in which the module gets spawned (7 = flight)
+		scene = 5
+	}
+	SCENARIO
+	{
+		name = ProgressTracking
+		scene = 5, 7, 8
+		Progress
+		{
+			FirstLaunch
+			{
+				completed = 324.879999999994
+			}
+			FirstCrewToSurvive
+			{
+				completed = 537.6999999998
+				crew
+				{
+					crews = 0
+				}
+			}
+			Kerbin
+			{
+				reached = 533.299999999804
+				Splashdown
+				{
+					completed = 533.299999999804
+				}
+				ReturnFromSurface
+				{
+					completed = 534.339999999803
+					vessel
+					{
+						name = Meego
+						flag = Squad/Flags/default
+					}
+					crew
+					{
+						crews = 0
+					}
+				}
+			}
+		}
+	}
+	SCENARIO
+	{
+		name = ResearchAndDevelopment
+		scene = 5, 6, 7, 8, 9
+		sci = 5
+		Tech
+		{
+			id = start
+			state = Available
+			part = mk1pod
+			part = liquidEngine
+			part = solidBooster
+			part = fuelTankSmall
+			part = trussPiece1x
+			part = longAntenna
+			part = parachuteSingle
+		}
+		Science
+		{
+			id = recovery@KerbinFlew
+			title = Recovery of a vessel that survived a flight.
+			dsc = 1
+			scv = 0.1666667
+			sbv = 5
+			sci = 5
+			cap = 6
+		}
+	}
+	FLIGHTSTATE
+	{
+		version = 0.22.0
+		UT = 0.84
+		activeVessel = 0
+	}
+	ROSTER
+	{
+		CREW
+		{
+			name = Jebediah Kerman
+			brave = 0.5
+			dumb = 0.5
+			badS = True
+			state = 0
+			ToD = 7663.07999999987
+			idx = 0
+		}
+		CREW
+		{
+			name = Bill Kerman
+			brave = 0.5
+			dumb = 0.8
+			badS = False
+			state = 0
+			ToD = 13100736.3688264
+			idx = 1
+		}
+		CREW
+		{
+			name = Bob Kerman
+			brave = 0.3
+			dumb = 0.1
+			badS = False
+			state = 0
+			ToD = 7838.27999999971
+			idx = 1
+		}
+		APPLICANTS
+		{
+		}
+	}
+}
