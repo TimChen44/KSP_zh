@@ -66,7 +66,7 @@ namespace KSP_zh
             }
             UpXml.CreateXmlUP(KSPPath, vel, oldvel.Text,label4);
 
-            UpXml.CreateXmlLose(KSPPath, vel, oldvel.Text, label4);
+            //UpXml.CreateXmlLose(KSPPath, vel, oldvel.Text, label4);
 
             MessageBox.Show("OK");
         }
