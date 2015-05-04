@@ -19,6 +19,6 @@
 
 ###TechTree.xml  
 
-汉化位置不明
+尚不明确此处条目用于游戏那里
 
 汉化的文件：Squad\Resources\TechTree.cfg
