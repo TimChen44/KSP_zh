@@ -8,7 +8,9 @@
 ###Parts.xml
 
 组件内容的汉化
+汉化的文件：Squad\Parts
 
 ###ScienceDefs.xml
 
 科技探索内容汉化
+汉化的文件：Squad\Resources\ScienceDefs.cfg
