@@ -183,11 +183,22 @@
     <Content Include="..\..\resource\GameData\DTS_zh\Image\VesselSpawnDialog.png">
       <Link>DTS_zh\Image\VesselSpawnDialog.png</Link>
     </Content>
+    <Content Include="..\..\resource\GameData\DTS_zh\xSquad\Parts.xml">
+      <Link>DTS_zh\xSquad\Parts.xml</Link>
+    </Content>
+    <Content Include="..\..\resource\GameData\DTS_zh\xSquad\ScienceDefs.xml">
+      <Link>DTS_zh\xSquad\ScienceDefs.xml</Link>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="..\..\resource\GameData\DTS_zh\xSquad\TechTree.xml">
+      <Link>DTS_zh\xSquad\TechTree.xml</Link>
+    </Content>
     <Content Include="..\..\resource\GameData\DTS_zh\zh.xml">
       <Link>DTS_zh\zh.xml</Link>
     </Content>
     <Content Include="..\..\resource\GameData\DTS_zh\zhConfig.xml">
       <Link>DTS_zh\zhConfig.xml</Link>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="..\..\resource\GameData\DTS_zh\zhField.xml">
       <Link>DTS_zh\zhField.xml</Link>
@@ -225,9 +236,7 @@
       <Link>DTS_zh\cnfont\cn16b.fnt.unity3d</Link>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="DTS_zh\xSquad\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -22,8 +22,16 @@ namespace DTS_zh
             //}
         }
 
+       public  static xConfg XConfg;
+
 
         private bool loaded = false;
+
+        public void Start()
+        {
+            XConfg = this;
+        }
+
 
         public void Update()
         {
@@ -35,6 +43,10 @@ namespace DTS_zh
         //汉化
         public void HzConfig()
         {
+            try
+            {
+
+
             List<Config> configs = LoadXml();
 
             foreach (var config in configs)
@@ -59,6 +71,13 @@ namespace DTS_zh
 
                 //HzNodes(kspConfig.config.nodes, config.Nodes);
             }
+
+            }
+            catch (Exception ex)
+            {
+                Debug.LogError(ex.ToString());
+            }
+
         }
 
         private static ConfigNode DeepCopy(ConfigNode from)
@@ -133,7 +152,7 @@ namespace DTS_zh
         {
             foreach (ConfigNode kspNode in nodeList)
             {
-                var hzNode = GetNode(nodes, kspNode.name);
+                var hzNode = GetNode(nodes, kspNode);
                 // var hzNode = nodes.FirstOrDefault(x => x.Id == kspNode.id);
                 if (hzNode != null)
                 {
@@ -144,11 +163,30 @@ namespace DTS_zh
         }
 
         //linq支持有问题，就用这个替代
-        public Node GetNode(List<Node> nodes, string name)
+        public Node GetNode(List<Node> nodes, ConfigNode kspNode)
         {
+            if (kspNode==null )
+            {
+                Debug.LogWarning(nodes.Count + "::kspNode is Null");
+                return null;
+            }
+            Debug.LogWarning(nodes.Count + "=======" + kspNode.id + ":" + kspNode.name + ":" + kspNode.CountValues.ToString() + ":" + kspNode.CountNodes.ToString());
             foreach (var item in nodes)
             {
-                if (item.Name == name) return item;
+
+                Debug.LogWarning(item.Id + "----------" + kspNode.id);
+                if (item.Id != null && item.Id != "" && item.Id == kspNode.id) return item;
+
+                if (item.Name != null && item.Name != "" && item.Name == kspNode.name) return item;
+
+                //如果Node的values中有Id，并且匹配的话就同样操作当前node
+                if (item.Id != null && item.Id != "")
+                 {
+                    foreach (ConfigNode.Value value in kspNode.values)
+                    {
+                        if (value.name == "id" && value.value == item.Id) return item;
+                    }
+                 }
             }
             return null;
         }
@@ -224,7 +262,7 @@ namespace DTS_zh
                 var item = sitem as XmlElement;
 
                 Node node = new Node();
-                //node.Id = item.GetAttribute("id");
+                node.Id = item.GetAttribute("id");
                 node.Name = item.GetAttribute("name");
 
                 foreach (XmlNode sonNode in item.ChildNodes)
@@ -289,7 +327,7 @@ namespace DTS_zh
             Nodes = new List<Node>();
         }
 
-        //public string Id { get; set; }
+        public string Id { get; set; }
         public string Name { get; set; }
 
         public List<Value> Values { get; set; }
