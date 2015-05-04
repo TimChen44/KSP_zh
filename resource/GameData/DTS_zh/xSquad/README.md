@@ -16,3 +16,9 @@
 科技探索内容汉化
 
 汉化的文件：Squad\Resources\ScienceDefs.cfg
+
+###TechTree.xml  
+
+汉化位置不明
+
+汉化的文件：Squad\Resources\TechTree.cfg
