@@ -1,0 +1,90 @@
+GAME
+{
+	version = 0.21.0
+	Title = Construction Basics
+	Description = This tutorial, presented by famous rocket scientist Wernher von Kerman himself, covers the basics of rocket construction in the Vehicle Assembly Building. He's waiting for you down there and is always in high demand. Don't dally!
+	Mode = 3 
+    // scene to load when starting this save.
+	scene = 6
+	flag = Squad/Flags/default
+	PARAMETERS
+	{
+		EDITOR
+		{
+			CanLeaveToSpaceCenter = False
+			CanLeaveToMainMenu = True
+		}
+		FLIGHT
+		{
+			CanQuickSave = False
+			CanQuickLoad = False
+			CanAutoSave = False
+			CanUseMap = True
+			CanSwitchVesselsNear = False
+			CanSwitchVesselsFar = False
+			CanTimeWarpHigh = False
+			CanTimeWarpLow = False
+			CanEVA = False
+			CanIVA = True
+			CanBoard = False
+			CanRestart = True
+			CanLeaveToEditor = True
+			CanLeaveToTrackingStation = False
+			CanLeaveToSpaceCenter = False
+			CanLeaveToMainMenu = True
+		}		
+		DIFFICULTY
+		{
+			MissingCrewsRespawn = True
+		}
+	}
+	SCENARIO
+	{
+		// the name of the ScenarioModule class to spawn
+		name = TutorialEditor
+		// the scene in which the module gets spawned (7 = flight)
+		scene = 6
+	}
+	FLIGHTSTATE
+	{
+		version = 0.22.0
+		UT = 0.84
+		activeVessel = 0
+	}
+	ROSTER
+	{
+		CREW
+		{
+			name = Jebediah Kerman
+			brave = 0.5
+			dumb = 0.5
+			badS = True
+			state = 0
+			ToD = 7663.07999999987
+			idx = 0
+		}
+		CREW
+		{
+			name = Bill Kerman
+			brave = 0.5
+			dumb = 0.8
+			badS = False
+			state = 0
+			ToD = 13100736.3688264
+			idx = 1
+		}
+		CREW
+		{
+			name = Bob Kerman
+			brave = 0.3
+			dumb = 0.1
+			badS = False
+			state = 0
+			ToD = 7838.27999999971
+			idx = 1
+		}
+		APPLICANTS
+		{
+		}
+	}
+}
