@@ -170,11 +170,11 @@ namespace DTS_zh
                 Debug.LogWarning(nodes.Count + "::kspNode is Null");
                 return null;
             }
-            Debug.LogWarning(nodes.Count + "=======" + kspNode.id + ":" + kspNode.name + ":" + kspNode.CountValues.ToString() + ":" + kspNode.CountNodes.ToString());
+           // Debug.LogWarning(nodes.Count + "=======" + kspNode.id + ":" + kspNode.name + ":" + kspNode.CountValues.ToString() + ":" + kspNode.CountNodes.ToString());
             foreach (var item in nodes)
             {
 
-                Debug.LogWarning(item.Id + "----------" + kspNode.id);
+               // Debug.LogWarning(item.Id + "----------" + kspNode.id);
                 if (item.Id != null && item.Id != "" && item.Id == kspNode.id) return item;
 
                 if (item.Name != null && item.Name != "" && item.Name == kspNode.name) return item;
