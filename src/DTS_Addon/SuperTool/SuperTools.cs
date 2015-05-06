@@ -56,10 +56,11 @@ namespace DTS_Addon
             }
 
 
-            else if (GUI.Button(new Rect(10, 80, 50, 50), "重新载入\r\nxConfig"))
+            else if (GUI.Button(new Rect(10, 80, 50, 50), "重新载入\r\nxFont"))
             {
                 //DTS_zh.xRead.Loadzh();
-                DTS_zh.xConfg.XConfg.HzConfig();
+                //DTS_zh.xConfg.XConfg.HzConfig();
+                //xFontExt.LoadDict();
             }
 
             else if (GUI.Button(new Rect(70, 80, 50, 50), "重新载入\r\nzhText"))
