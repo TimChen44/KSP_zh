@@ -94,12 +94,6 @@
     <Compile Include="xMenu.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DTS_zh\DTS_zh.csproj">
-      <Project>{71de13ea-3237-47e3-bfe7-7b12ad946d73}</Project>
-      <Name>DTS_zh</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="..\..\resource\GameData\DTS_zh\cnfont\cn10.png">
       <Link>DTS_zh\cnfont\cn10.png</Link>
     </Content>

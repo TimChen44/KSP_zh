@@ -14,30 +14,26 @@ namespace DTS_Addon
     {
         public static xFont XFont;
 
-
         GameObject _UI;
-
-        void Awake()
-        {
-
-        }
-
 
         void Start()
         {
             XFont = this;
-
-
             _UI = GameObject.Find("_UI");
         }
 
-        DateTime b = DateTime.Now;
+        DateTime FrameTime = DateTime.Now;
 
-        long alltime = 0;
-        long runtime = 0;
+        long AllTicks = 0;
+        long FindTicks = 0;
+        long xFontTicks = 0;
+        long xTextTicks = 0;
         int i = 0;
 
-        string ss = "";
+        string FindStr = "";
+        string xFontStr = "";
+        string xTextStr = "";
+        string AllStr = "";
 
         string count = "";
 
@@ -48,64 +44,90 @@ namespace DTS_Addon
             DateTime r = DateTime.Now;
 
             SpriteText[] sts = _UI.gameObject.GetComponentsInChildren<SpriteText>();
-
             SpriteTextRich[] strs = _UI.gameObject.GetComponentsInChildren<SpriteTextRich>();
-
-            foreach (SpriteText item in sts)
-                getFontInfo(item);
-
-            foreach (var item in strs)
-                getFontInfoRich(item);
-
-
             count = "SpriteText:" + sts.Count() + "     SpriteTextRich:" + strs.Count();
 
-            runtime += DateTime.Now.Subtract(r).Ticks;
-            alltime += DateTime.Now.Subtract(b).Ticks;
+            FindTicks += DateTime.Now.Subtract(r).Ticks;
+            r = DateTime.Now;
+
+            foreach (SpriteText item in sts)
+                SetSpriteTextFont(item);
+            foreach (var item in strs)
+                SetSpriteTextRichFont(item);
+
+            xFontTicks += DateTime.Now.Subtract(r).Ticks;
+            r = DateTime.Now;
+
+            foreach (SpriteText item in sts)
+                SetSpriteText(item);
+
+            xTextTicks += DateTime.Now.Subtract(r).Ticks;
+            AllTicks += DateTime.Now.Subtract(FrameTime).Ticks;
+
             i += 1;
             if (i > 30)
             {
-                ss = ((double)runtime / (double)alltime).ToString("0.00%");
-                ss += "性能消耗" + "".PadRight((int)(((double)runtime / (double)alltime) * 100), '|');
+                float findP = ((float)FindTicks / (float)AllTicks);
+                FindStr = P2S("定位消耗", findP);
+
+                float fontP = ((float)xFontTicks / (float)AllTicks);
+                xFontStr = P2S("字库消耗", fontP);
+
+                float textP = ((float)xTextTicks / (float)AllTicks);
+                xTextStr = P2S("翻译消耗", textP);
+
+                float allP = ((float)(FindTicks + xFontTicks + xTextTicks) / (float)AllTicks);
+                AllStr = P2S("合计消耗", allP);
+
                 i = 0;
-                alltime = 0;
-                runtime = 0;
+                AllTicks = 0;
+                FindTicks = 0;
+                xFontTicks = 0;
+                xTextTicks = 0;
             }
 
-            b = DateTime.Now;
+            FrameTime = DateTime.Now;
 
+        }
+
+        //格式化输出内容
+        public string P2S(string title, float p)
+        {
+            int i = (int)(p * 100);
+            return title + ":" + p.ToString("00.00%") + "".PadRight(i, '|');
         }
 
         void OnGUI()
         {
-            GUI.Label(new Rect(10, 30, 500, 30), ss);
-            GUI.Label(new Rect(10, 50, 500, 50), count);
+            GUI.Label(new Rect(10, 10, 500, 20), FindStr);
+            GUI.Label(new Rect(10, 30, 500, 20), xFontStr);
+            GUI.Label(new Rect(10, 50, 500, 20), xTextStr);
+            GUI.Label(new Rect(10, 70, 500, 20), AllStr);
+            //GUI.Label(new Rect(10, 50, 500, 50), count);
         }
 
-        public void getFontInfo(SpriteText ST)
+        #region xFont
+
+        public void SetSpriteTextFont(SpriteText ST)
         {
             if (FontList.Count == 0)
             {
-                //xFontExt.loadFontList();
-                LoadDict();
+                LoadxFont();
             }
             //Debug.LogWarning("xFont:" + ST.font.name + "-->>");
 
             if (ST.font.name[0] == 'c' && ST.font.name[1] == 'n') return;
-            //if (ST.active == false || ST.enabled == false || ST.renderer.isVisible == false) return;
-
             Font2Font f2f = GetFont2Font(ST.font.name);
             Debug.Log("xFont:" + ST.font.name + "-->>" + f2f.Name);
             ST.SetFont(f2f.fontDef, f2f.fontMat);
 
         }
 
-        public void getFontInfoRich(SpriteTextRich ST)
+        public void SetSpriteTextRichFont(SpriteTextRich ST)
         {
             if (FontList.Count == 0)
             {
-                //xFontExt.loadFontList();
-                LoadDict();
+                LoadxFont();
             }
 
             for (int i = 0; i < ST.font.fonts.Length; i++)
@@ -134,8 +156,7 @@ namespace DTS_Addon
             }
         }
 
-
-        public static void LoadDict()
+        public static void LoadxFont()
         {
             Dictionary<string, Font2Font> isLoaded = new Dictionary<string, Font2Font>();
             FontList = new Dictionary<string, Font2Font>();
@@ -162,7 +183,6 @@ namespace DTS_Addon
             }
             Debug.LogWarning("xFont:载入" + FontList.Count.ToString());
         }
-
 
         public static Dictionary<string, Font2Font> FontList = new Dictionary<string, Font2Font>();
 
@@ -212,11 +232,40 @@ namespace DTS_Addon
 
         }
 
+        #endregion
+
+        #region xText
+
+        public void SetSpriteText(SpriteText ST)
+        {
+            if (xTextDict == null)
+            {
+                LoadxText();
+            }
+            if (ST.Text.Length == 0) return;
+            if (ST.text.Length > 0 && !(ST.text[0] > '0' && ST.text[0] < 'z')) return;//用于排除已经被汉化的文字
+
+            if (xTextDict.ContainsKey(ST.Text))
+            {
+                Debug.Log("[xText]" + ST.Text + "-->>" + xTextDict[ST.Text]);
+                ST.Text = xTextDict[ST.Text];
+            }
+        }
+
+        private static Dictionary<string, string> xTextDict;
+
+        public void LoadxText()
+        {
+            XmlDocument doc = new XmlDocument();
+            xTextDict = new Dictionary<string, string>();
+            doc.Load(File.OpenRead("GameData/DTS_zh/zhText.xml"));
+            foreach (XmlElement item in doc.DocumentElement.ChildNodes)
+            {
+                xTextDict[item.GetAttribute("name")] = ((XmlCDataSection)item.FirstChild).InnerText;
+            }
+        }
+
+        #endregion
     }
 
-    public static class xFontExt
-    {
-
-
-    }
 }
