@@ -14,7 +14,25 @@
       <Node id="basicRocketry">
         <Values>
           <Value name="title"><![CDATA[基础理论]]></Value>
-          <Value name="description"><![CDATA[火箭无论如何科学能有多难？]]></Value>
+          <Value name="description"><![CDATA[火箭科技这条路究竟有多艰难？]]></Value>
+        </Values>
+      </Node>
+	  <Node id="engineering101">
+        <Values>
+          <Value name="title"><![CDATA[101工程]]></Value>
+          <Value name="description"><![CDATA[航空航天工程的路上究竟有多少困难？]]></Value>
+        </Values>
+      </Node>
+	  <Node id="survivability">
+        <Values>
+          <Value name="title"><![CDATA[生命保障]]></Value>
+          <Value name="description"><![CDATA[成功着陆并安全走出舱外的科技支持。]]></Value>
+        </Values>
+      </Node>
+	  <Node id="stability">
+        <Values>
+          <Value name="title"><![CDATA[飞行稳定]]></Value>
+          <Value name="description"><![CDATA[它基本上能让我们的飞船朝着正确的方向飞行。]]></Value>
         </Values>
       </Node>
     </Nodes>
