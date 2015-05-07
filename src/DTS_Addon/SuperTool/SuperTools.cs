@@ -36,12 +36,12 @@ namespace DTS_Addon
         {
             if (ShowSuperTools == false) return;
             window = GUI.Window(99, window, SuperWindow, "Super Debug Tools");
-         
+
         }
 
         void SuperWindow(int id)
         {
-        
+
             if (GUI.Button(new Rect(10, 20, 50, 50), "资源"))
             {
                 ConfigTest = !ConfigTest;
@@ -54,16 +54,15 @@ namespace DTS_Addon
             {
                 UICapture = !UICapture;
             }
-
-
-            else if (GUI.Button(new Rect(10, 80, 50, 50), "重新载入\r\nzh"))
-            {
-                DTS_zh.xRead.Loadzh();
-            }
-
+            //else if (GUI.Button(new Rect(10, 80, 50, 50), "重新载入\r\nxFont"))
+            //{
+            //    //DTS_zh.xRead.Loadzh();
+            //    //DTS_zh.xConfg.XConfg.HzConfig();
+            //    //xFontExt.LoadDict();
+            //}
             else if (GUI.Button(new Rect(70, 80, 50, 50), "重新载入\r\nzhText"))
             {
-                DTS_zh.xText.LoadDict();
+                DTS_Addon.xFont.XFont.LoadxText();
             }
             else if (GUI.Button(new Rect(130, 80, 50, 50), "重新载入\r\nzhItem"))
             {
