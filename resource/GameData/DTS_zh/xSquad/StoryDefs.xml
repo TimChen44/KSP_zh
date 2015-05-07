@@ -1,0 +1,490 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--一条记录创建一个Config-->
+<Configs>
+  <!--科技探索汉化格式-->
+  <!--id是这个配置下面的id参数就是解决配置类型相同的问题-->
+  <Config  url="Squad/Resources/StoryDefs/STORY_DEF">
+    <Nodes>
+      <Node name="ContractBackstory">
+        <Values>
+          <Value name="generic"><![CDATA[在[Circumstances] [LeadIns], [CharacterAttributes:Mindset] [Characters:Mindset] [Predicates:Motivation] [Facts:Subject]. 现在, [BriefingConclusions]]]></Value>
+
+          <Value name="generic"><![CDATA[[Situations] 让 [CharacterAttributes:Mindset] [Characters:Mindset] 感到 [Adverbs:Emphasis] [Adjectives:Intellect]. 这(最终)证明了 [ObjectPredicates:Motivation] [Facts:Subject]. 所以, [BriefingConclusions]]]></Value>
+
+          <Value name="generic"><![CDATA[在[Circumstances] [LeadIns], [CharacterAttributes:Mindset] [Characters:Mindset] 意识到 [ObjectPredicates:Motivation] [Facts:Subject]. 所以 [BriefingConclusions]]]></Value>
+
+          <Value name="generic"><![CDATA[[ObjectPredicates:Motivation] [Facts:Subject] 的想法在 [CharacterAttributes:Mindset] [Characters:Mindset] 看来是 [Adjectives:Opinion]. [Bridges:Admissive] [Situations] 才是 [Facts:Subject] [Predicates:Motivation] 的罪魁祸首. [BriefingConclusions]]]></Value>
+
+          <Value name="generic"><![CDATA[[ObjectPredicates:Motivation] [Facts:Subject] 的想法在 [CharacterAttributes:Mindset] [Characters:Mindset] 看来是 [Adjectives:Opinion]. [Bridges:Admissive] [Excuses]. [BriefingConclusions]]]></Value>
+
+          <Value name="generic"><![CDATA[[ObjectPredicates:Motivation] [Facts:Subject] 并不是秘密. [Bridges:AdmissiveCounterfactual] 依 [CharacterAttributes:Mindset] [Characters:Mindset] 的高见, 那根本是 [Adjectives:Opinion]. [Bridges:Admissive] [Excuses]. [Bridges:Dismissive] [BriefingConclusions]]]></Value>
+
+          <Value name="generic"><![CDATA[[CharacterAttributes:Mindset] [Characters:Mindset] 率先表示 [Facts:Subject] 的话 [ObjectPredicates:Motivation]. [Bridges:Admissive] [Excuses]. [Bridges:Dismissive] [BriefingConclusions]]]></Value>
+
+          <Value name="generic"><![CDATA[[Characters:Mindset] [CharacterAttributes:Mindset] 感到 [Adverbs:EmphasisCautious] [Adjectives:Confidence] 对于是否 [ObjectPredicates:Motivation] [Facts:Subject]. [Bridges:Admissive] [Excuses]. [Bridges:Dismissive] [BriefingConclusions]]]></Value>
+        </Values>
+      </Node>
+
+
+      <Node name="LeadIns">
+        <Values>
+          <Value name="generic"><![CDATA[造成的后果下]]></Value>
+          <Value name="generic"><![CDATA[之后]]></Value>
+          <Value name="generic"><![CDATA[的余波中]]></Value>
+          <Value name="generic"><![CDATA[被处理后]]></Value>
+          <Value name="generic"><![CDATA[之后不久]]></Value>
+          <Value name="generic"><![CDATA[不久之前]]></Value>
+          <Value name="generic"><![CDATA[的几天以前]]></Value>
+        </Values>
+      </Node>
+      <Node name="Situations">
+        <Values>
+          <Value name="generic"><![CDATA[我们 [Circumstances:action] 的[Adjectives:generic]的次数]]></Value>
+          <Value name="generic"><![CDATA[多次的[Circumstances:generic]]]></Value>
+          <Value name="generic"><![CDATA[[Adverbs:Frequent]发生的[Circumstances:generic]]]></Value>
+          <Value name="generic"><![CDATA[[Adverbs:Frequent]的[Circumstances:action]]]></Value>
+        </Values>
+      </Node>
+
+      <Node name="Excuses">
+        <Values>
+          <Value name="generic"><![CDATA[[Situations] 才是让我们陷入如此地步的最终原因..]]></Value>
+          <Value name="generic"><![CDATA[[Situations] 才是最大的问题所在.]]></Value>
+          <Value name="generic"><![CDATA[[Situations] 才是 [Adverbs:ConfirmativeEmphasisUncertainSkeptical] 的原因]]></Value>
+        </Values>
+      </Node>
+      <Node name="Circumstances">
+        <Values>
+          <Value name="generic"><![CDATA[[Adverbs:EmphasisUncertain] 小事故]]></Value>
+          <Value name="generic"><![CDATA[重大事故]]></Value>
+          <Value name="generic"><![CDATA[[Adjectives:OpinionSkepticalUncertain] 新发现]]></Value>
+          <Value name="generic"><![CDATA[意外的点火]]></Value>
+          <Value name="generic"><![CDATA[又一次的意外点火]]></Value>
+          <Value name="generic"><![CDATA[[Adjectives:OpinionSkepticalUncertain] 迫降]]></Value>
+          <Value name="action"><![CDATA[没有预料到的的快速解体]]></Value>
+          <Value name="action"><![CDATA[证明关于[Facts:Subject]的[Adjectives:OpinionSkepticalUncertain]理论]]></Value>
+          <Value name="action"><![CDATA[证伪关于[Facts:Subject]的[Adjectives:OpinionSkepticalUncertain]理论]]></Value>
+          <Value name="action"><![CDATA[无意中进行指标过高的压力测试]]></Value>
+          <Value name="action"><![CDATA[突然着火]]></Value>
+          <Value name="action"><![CDATA[低估了标准固态火箭燃料的不稳定性]]></Value>
+          <Value name="action"><![CDATA[掉到垃圾堆里]]></Value>
+          <Value name="generic"><![CDATA[1111111111]]></Value>
+          <Value name="generic"><![CDATA[1111111111]]></Value>
+          <Value name="generic"><![CDATA[1111111111]]></Value>
+          <Value name="generic"><![CDATA[1111111111]]></Value>
+        </Values>
+      </Node>
+
+      <Node name="Characters">
+        <Values>
+          <Value name="generic"><![CDATA[一个工程师]]></Value>
+          <Value name="generic"><![CDATA[工程师们]]></Value>
+          <Value name="generic"><![CDATA[研究者们]]></Value>
+          <Value name="generic"><![CDATA[一个雇员]]></Value>
+          <Value name="generic"><![CDATA[一个参观者]]></Value>
+          <Value name="Industrial"><![CDATA[一个满身油污的技工]]></Value>
+          <Value name="Conglomerate"><![CDATA[一个不满的工人]]></Value>
+          <Value name="Conglomerate"><![CDATA[公司高层]]></Value>
+          <Value name="ConglomerateScientific"><![CDATA[工程部门]]></Value>
+          <Value name="ConglomerateCommercial"><![CDATA[销售部门]]></Value>
+          <Value name="generic"><![CDATA[1111111111]]></Value>
+          <Value name="generic"><![CDATA[1111111111]]></Value>
+          <Value name="Startup"><![CDATA[创始人]]></Value>
+          <Value name="Startup"><![CDATA[一个小团队]]></Value>
+          <Value name="Startup"><![CDATA[首席执行官 (以及首席清洁工)]]></Value>
+          <Value name="Hasty"><![CDATA[一个蓬头垢面的工程师]]></Value>
+          <Value name="Hasty"><![CDATA[一个明显加班过度的团队]]></Value>
+
+          <Value name="Patient"><![CDATA[一个[Adverbs:CautiousSkepticalEmphasis] 休息的团队]]></Value>
+          <Value name="Scientific"><![CDATA[boffins研究员们]]></Value>
+          <Value name="Scientific"><![CDATA[[Adjectives:Appreciative] 天才们]]></Value>
+          <Value name="Pioneer"><![CDATA[[Adjectives:PraisefulIntellect] 头脑们]]></Value>
+          <Value name="Pioneer"><![CDATA[不知疲倦的团队]]></Value>
+          <Value name="Perfectionist"><![CDATA[一队着装无可挑剔的代表们]]></Value>
+          <Value name="Perfectionist"><![CDATA[质检小组]]></Value>
+          <Value name="Record"><![CDATA[总书记]]></Value>
+          <Value name="Record"><![CDATA[一群职工]]></Value>
+          <Value name="Ecomental"><![CDATA[一个忧心忡忡的成员]]></Value>
+        </Values>
+      </Node>
+
+      <Node name="CharacterAttributes">
+        <Values>
+          <Value name="generic"><![CDATA[来自[Agency]的]]></Value>
+          <Value name="generic"><![CDATA[工作于[Agency]的]]></Value>
+          <Value name="generic"><![CDATA[路过[Agency]的]]></Value>
+          <Value name="generic"><![CDATA[在[Agency]参观的]]></Value>
+          <Value name="Industrial"><![CDATA[在[Agency]的实验室的制造车间检查的]]></Value>
+          <Value name="Industrial"><![CDATA[在[Agency]工作的]]></Value>
+          <Value name="Hasty"><![CDATA[在[Agency]加班的]]></Value>
+          <Value name="Hasty"><![CDATA[在[Agency]再次通宵加班的]]></Value>
+          <Value name="Patient"><![CDATA[在[Agency]感到[Adverbs:EmphasisCautiousConfrmative]无聊的]]></Value>
+          <Value name="Patient"><![CDATA[在[Agency]中看起来十分清闲的]]></Value>
+          <Value name="Scientific"><![CDATA[在[Agency]的实验室中, 试图重复一个关于[Facts:Subject]的实验的]]></Value>
+          <Value name="Scientific"><![CDATA[在[Agency]的实验室中搞的一团糟的]]></Value>
+          <Value name="Pioneer"><![CDATA[在[Agency]尝试一些[Adverbs:Emphasis][Adjectives:VeryAppreciative]的事情的]]></Value>
+        </Values>
+      </Node>
+
+      <Node name="Predicates">
+        <Values>
+          <Value name="generic,Objective"><![CDATA[意识到 [ObjectPredicates:Motivation]]]></Value>
+          <Value name="generic,Objective"><![CDATA[suddenly became aware of how [ObjectPredicates:Motivation]]]></Value>
+          <Value name="generic,Objective"><![CDATA[得出了一个 [Adjectives:Uncertain] 结论在于如何 [ObjectPredicates:Motivation]]]></Value>
+          <Value name="generic,Objective"><![CDATA[移除了一个 [Adverbs:generic] 又有趣的问题, 无论之前如何 [ObjectPredicates:Motivation]]]></Value>
+          <Value name="generic,Objective"><![CDATA[很迷惑对于 [ObjectPredicates:Motivation]]]></Value>
+          <Value name="generic,Objective"><![CDATA[最终得出了 [ObjectPredicates:Motivation]]]></Value>
+          <Value name="generic,Objective"><![CDATA[想出了一个 [Adjectives:generic] 点子对于 [ObjectPredicates:Motivation]]]></Value>
+
+          <Value name="generic,Adjunctive"><![CDATA[被 [Situations] 深深折服, 并且 [Predicates:ConclusiveAdjunctive]]]></Value>
+          <Value name="generic,Adjunctive"><![CDATA[被 [Situations] 激怒, 并且 [Predicates:Conclusive]]]></Value>
+          <Value name="generic,Adjunctive"><![CDATA[决定就此收手, 并且 [Predicates:Conclusive]]]></Value>
+          <Value name="generic,Adjunctive"><![CDATA[不得不去进一步研究, 并且 [Predicates:Conclusive]]]></Value>
+
+          <Value name="generic,Conclusive"><![CDATA[得出这个 [Adjectives:Uncertain] 结论:]]></Value>
+          <Value name="generic,Conclusive"><![CDATA[提出了一个 [Adverbs:generic] 又有趣的问题, 不管之前如何吹嘘]]></Value>
+          <Value name="generic,Conclusive"><![CDATA[不确定是否]]></Value>
+          <Value name="generic,Conclusive"><![CDATA[最后得出结论]]></Value>
+          <Value name="generic,Conclusive"><![CDATA[想出了一个 [Adjectives:generic] 点子关于]]></Value>
+          <Value name="generic,Conclusive"><![CDATA[想要证明给大家]]></Value>
+          <Value name="generic,Conclusive"><![CDATA[开始测试无论]]></Value>
+
+          <Value name="flags"><![CDATA[决定了我们需要一面旗帜, 以证明是否]]></Value>
+          <Value name="flags"><![CDATA[意识到一面旗帜将会强烈的证明是否]]></Value>
+          <Value name="flags"><![CDATA[意识到旗帜将有很强的潜力证明是否]]></Value>
+
+        </Values>
+      </Node>
+
+      <Node name="ObjectPredicates">
+        <Values>
+          <Value name="generic"><![CDATA[我们探索的进度将会很慢,]]></Value>
+          <Value name="generic"><![CDATA[我们将永远搞不明白,]]></Value>
+          <Value name="generic"><![CDATA[我们被搞蒙了,]]></Value>
+          <Value name="generic"><![CDATA[我们[Adverbs:Emphasis]没任何头绪,]]></Value>
+          <Value name="generic"><![CDATA[这里没人能弄明白,]]></Value>
+          <Value name="generic"><![CDATA[我们没人能确定,]]></Value>
+          <Value name="generic"><![CDATA[让我们[Adverbs:Emphasis]确定,]]></Value>
+          <Value name="generic"><![CDATA[我们基本不了解是否,]]></Value>
+          <Value name="generic"><![CDATA[这看起来[Adjectives:Opinion],]]></Value>
+          <Value name="generic"><![CDATA[这看起来是[Adverbs:Emphasis] [Adjectives:ConfirmativeSkepticalUncertain],]]></Value>
+          <Value name="generic"><![CDATA[我们没有任何研究进展,]]></Value>
+
+          <Value name="flags"><![CDATA[我们要看到我们的旗帜骄傲地屹立在[Topic]的表面上,以[Adverbs:EmphasisConfirmative]证明]]></Value>
+          <Value name="flags"><![CDATA[一个被[Adjectives:Appreciative]宇航员插下的旗帜是最好的证明]]></Value>
+          <Value name="flags"><![CDATA[插下一面旗帜 [Adverbs:Emphasis] [Adjectives:Very] 表明这是一个里程碑对于]]></Value>
+
+          <Value name="test"><![CDATA[即使理论性的东西再多也无法证明]]></Value>
+          <Value name="test"><![CDATA[我们必须进行一次真实测试来全面了解是否]]></Value>
+          <Value name="test"><![CDATA[除了进行一次全真测试我们没有别的办法来验证是否]]></Value>
+          <Value name="test"><![CDATA[来一次测试是目前最好的选择去证明是否]]></Value>
+          <Value name="test"><![CDATA[做一次真实大小的测试是最简单的方式验证是否]]></Value>
+
+          <Value name="rescue"><![CDATA[我们意识到了 [LeadIns] [Circumstances], [Topic] 需要救援, 但是 [FactLeadIns]]]></Value>
+          <Value name="rescue"><![CDATA[我们意识到了在救援 [Topic] 的事情上我们无法做很多事情,在 [Predicates:Conclusive] [Facts:Subject]. [FactLeadIns]]]></Value>
+          <Value name="rescue"><![CDATA[我们意识到了 [LeadIns] [Circumstances], [Topic] 被困住了. [FactLeadIns]]]></Value>
+          <Value name="rescue"><![CDATA[[LeadIns] [Circumstances], 我们 [Predicates:Conclusive] 能不能将 [Topic] 救回来. [FactLeadIns]]]></Value>
+          <Value name="rescue"><![CDATA[[LeadIns] [Circumstances], 看起来 [Topic] 真的很需要有人去救他. [FactLeadIns]]]></Value>
+          <Value name="rescue"><![CDATA[[LeadIns] [Circumstances], [Topic] 在上面十分的无助. [FactLeadIns]]]></Value>
+          <Value name="rescue"><![CDATA[[LeadIns] [Circumstances], 我们告诉 [Topic] 他真的只需要等待就可以了. [FactLeadIns]]]></Value>
+        </Values>
+      </Node>
+
+      <Node name="FactLeadIns">
+        <Values>
+          <Value name="generic"><![CDATA[我们见识到了]]></Value>
+          <Value name="generic"><![CDATA[我们确实认识到了]]></Value>
+          <Value name="generic"><![CDATA[我们得到了一些信息关于]]></Value>
+          <Value name="generic"><![CDATA[[Bridges:Admissive], 我们现在知道了]]></Value>
+          <Value name="generic"><![CDATA[[Bridges] 这无法帮助我理清头绪如果]]></Value>
+          <Value name="generic"><![CDATA[我们至少变得更加聪明了,因为现在显然]]></Value>
+          <Value name="generic"><![CDATA[我们确实从这些事件中学到了什么, 关于]]></Value>
+        </Values>
+      </Node>
+
+      <Node name="Facts">
+        <Values>
+          <Value name="generic"><![CDATA[我们 [Adverbs:EmphasisSkeptical] 没有设定任何目标]]></Value>
+          <Value name="generic"><![CDATA[我们 [Adverbs:EmphasisSkeptical] 根本不明白任何事情]]></Value>
+          <Value name="generic"><![CDATA[我们 [Adverbs:EmphasisSkeptical] 不知道我们在干什么了]]></Value>
+          <Value name="generic"><![CDATA[我们 [Adverbs:EmphasisSkeptical] 有了一个大计划]]></Value>
+          <Value name="generic"><![CDATA[我们 [Adverbs:EmphasisSkeptical] 不知道要干些什么了]]></Value>
+          <Value name="generic"><![CDATA[我们 [Adverbs:EmphasisSkeptical] 没了主意]]></Value>
+          <Value name="generic"><![CDATA[我们 [Adverbs:EmphasisSkeptical] 要去找些事情干]]></Value>
+          <Value name="generic"><![CDATA[我们 [Adverbs:EmphasisSkeptical] 对于下一步没了头绪]]></Value>
+          <Value name="generic"><![CDATA[我们真的已经无聊到了极点,或者说不知道接下来该干点儿什么了]]></Value>
+
+          <Value name="Kerbal"><![CDATA[所有的小绿人都享受失重的感觉]]></Value>
+          <Value name="Kerbal"><![CDATA[愚蠢的小绿人门不介意像别的家伙们一样在太空中打转]]></Value>
+          <Value name="Kerbal"><![CDATA[一些小绿人好像更喜欢别人都会害怕的东西]]></Value>
+          <Value name="Kerbal"><![CDATA[愚蠢的小绿人欢乐多]]></Value>
+          <Value name="Kerbal"><![CDATA[勇敢的小绿人心理愈合速度要比不怎么勇敢的小绿人来得快些]]></Value>
+          <Value name="Kerbal"><![CDATA[一些小绿人享受高速带来的快感,而另一些则恰恰不会]]></Value>
+          <Value name="Kerbal"><![CDATA[有一些小绿人好像对我们的项目没有别的小绿人那么有渴望]]></Value>
+
+          <Value name="Parts"><![CDATA[有些部件要比其他部件来的更 [Adjectives:Appreciative] 一些]]></Value>
+          <Value name="Parts"><![CDATA[[Topic] 跟预期工作得一样好]]></Value>
+          <Value name="Parts"><![CDATA[我们的 [Topic] 保证可靠]]></Value>
+          <Value name="Parts"><![CDATA[我们的 [Topic] 真的像我们所说的那么[Adjectives:VeryAppreciativeOpinion]]]></Value>
+          <Value name="Parts"><![CDATA[我们的 [Topic] 比其他的都要好]]></Value>
+          <Value name="Parts"><![CDATA[有个有关我们的 [Topic] 的传言与它的实际功能相比,严重地夸大了]]></Value>
+          <Value name="Parts"><![CDATA[有个有关我们的 [Topic] 的传言与它的实际功能相比,[Adverbs:Emphasis] 太 [Adjectives:InsultingIntellect] 了]]></Value>
+
+          <Value name="Kerbin"><![CDATA[在Kerbin的一天 [Adverbs:EmphasisSkeptical] 是6个小时长]]></Value>
+          <Value name="Kerbin"><![CDATA[Kerbin 是个完美的球体,而不是某些蠢货说的扁球体]]></Value>
+          <Value name="KerbinSrf,Deserts"><![CDATA[Kerbin上的沙子真的有一不小心就能撒得到处都是的能力呢]]></Value>
+
+          <Value name="Orbit"><![CDATA[all it takes to reach orbit was to have such poor aim that you manage to fall and miss the ground]]></Value>
+          <Value name="Orbit"><![CDATA[有些关于在轨道上的物体会发生什么事请的流言是真的]]></Value>
+          <Value name="Orbit,Space"><![CDATA[the generally accepted ideas of what it's really like up there really were true]]></Value>
+          <Value name="Orbit,Space"><![CDATA[在低重力环境下的各种效应还不是很清楚]]></Value>
+          <Value name="Orbit,Space"><![CDATA[身处零重力环境真的像看起来那么 [Adjectives:OpinionVeryAppreciative]]]></Value>
+
+          <Value name="Mun"><![CDATA[Mun [Adverbs:EmphasisSkeptical] 无法到达]]></Value>
+          <Value name="Mun"><![CDATA[想要去MUN的想法实在是太 [Adjectives:AppreciativeSkeptical] 了]]></Value>
+          <Value name="Mun"><![CDATA[到达MUN对我们来说实在是 [Adjectives:AppreciativeSkeptical]]]></Value>
+          <Value name="Mun"><![CDATA[MUN [Adverbs:EmphasisSkeptical] 没有像大家想的那么 [Adjectives:AppreciativeImpossible]]]></Value>
+
+          <Value name="MunSrf"><![CDATA[Mun的表面是 [Adverbs:EmphasisSkeptical] [Adjectives:OpinionAppreciative]]]></Value>
+          <Value name="MunSrf"><![CDATA[Mun的表面真的像大家想得那么 [Adjectives:OpinionAppreciative]]]></Value>
+
+          <Value name="Minmus"><![CDATA[Minmus是一个 [Adverbs:EmphasisSkeptical] 未解之谜]]></Value>
+          <Value name="Minmus"><![CDATA[Minmus [Adverbs:EmphasisSkeptical] 满世界都是一个颜色]]></Value>
+          <Value name="Minmus"><![CDATA[Minmus从近处看起来是 [Adjectives:genericVeryAppreciative]]]></Value>
+
+          <Value name="MinmusSrf"><![CDATA[在Minmus上跳来跳去 [Adverbs:EmphasisSkeptical] 跟看上去一样有趣]]></Value>
+          <Value name="MinmusSrf"><![CDATA[Minmus的表面 [Adverbs:EmphasisSkeptical] 是不能吃的]]></Value>
+          <Value name="MinmusSrf"><![CDATA[Minmus的表面 [Adverbs:EmphasisSkeptical] 是可以吃的]]></Value>
+
+          <Value name="Sun"><![CDATA[任何东西飞上去都要掉下来,除非它飞得太高开始绕着太阳运行]]></Value>
+          <Value name="Sun"><![CDATA[那里 [Adverbs:EmphasisSkeptical] 有比Kerbin和它的卫星更有意思的地方, 虽然我们 [Adverbs:Cautious] 确信它们之间几乎什么也没有]]></Value>
+        </Values>
+      </Node>
+
+      <Node name="BriefingConclusions">
+        <Values>
+          <Value name="generic"><![CDATA[这[Adverbs:SkepticalEmphasis]搞出了更多问题而不是结果，所以 [BriefingConclusions:ConclusiveAdjunctive]]]></Value>
+          <Value name="generic"><![CDATA[基于这[Adverbs:OpinionSkepticalCautiousEmphasis] [Adjectives:Opinion]一连串事件, [BriefingConclusions:ConclusiveAdjunctive]]]></Value>
+          <Value name="generic"><![CDATA[[Adjunctives:Mindset] [BriefingConclusions:Conclusive]]]></Value>
+          <Value name="Adjunctive"><![CDATA[[Adjunctives:Mindset] [BriefingConclusions:Conclusive]]]></Value>
+          <Value name="Conclusive"><![CDATA[我们需要你的帮助.]]></Value>
+          <Value name="Conclusive"><![CDATA[这里就是需要你的地方.]]></Value>
+          <Value name="Conclusive"><![CDATA[这就是我们为什么来这儿的原因.]]></Value>
+        </Values>
+      </Node>
+
+      <Node name="Bridges">
+        <Values>
+          <Value name="Dismissive"><![CDATA[无论如何,]]></Value>
+          <Value name="Dismissive"><![CDATA[不管怎样,]]></Value>
+          <Value name="Dismissive"><![CDATA[无论如何,]]></Value>
+          <Value name="Dismissive"><![CDATA[即使如此,]]></Value>
+          <Value name="Dismissive"><![CDATA[无论什么情况,]]></Value>
+
+          <Value name="Counterfactual"><![CDATA[但是,]]></Value>
+          <Value name="Counterfactual"><![CDATA[然而,]]></Value>
+          <Value name="Counterfactual"><![CDATA[尽管如此,]]></Value>
+          <Value name="Counterfactual"><![CDATA[即便如此,]]></Value>
+
+          <Value name="Additional"><![CDATA[而且,]]></Value>
+          <Value name="Additional"><![CDATA[另外,]]></Value>
+          <Value name="Additional"><![CDATA[此外,]]></Value>
+          <Value name="Additional"><![CDATA[实际上,]]></Value>
+          <Value name="Additional"><![CDATA[别忘了,而且]]></Value>
+          <Value name="Additional"><![CDATA[而且别忘了,]]></Value>
+          <Value name="Additional"><![CDATA[此外要记住,]]></Value>
+
+          <Value name="Admissive"><![CDATA[就算，]]></Value>
+          <Value name="Admissive"><![CDATA[无可否认,]]></Value>
+          <Value name="Admissive"><![CDATA[虽然事实如此,但]]></Value>
+          <Value name="Admissive"><![CDATA[虽然不能否认,但是]]></Value>
+        </Values>
+      </Node>
+
+      <Node name="Adjectives">
+        <Values>
+          <Value name="Opinion,Very,Appreciative,generic"><![CDATA[极好的]]></Value>
+          <Value name="Opinion,Very,Appreciative"><![CDATA[不可思议的]]></Value>
+          <Value name="Opinion,Very,Appreciative"><![CDATA[卓越的]]></Value>
+
+          <Value name="Opinion,Mild,Appreciative,generic"><![CDATA[好的]]></Value>
+          <Value name="Opinion,Mild,Appreciative,generic"><![CDATA[不错的]]></Value>
+          <Value name="Opinion,Mild,Appreciative,generic"><![CDATA[漂亮的]]></Value>
+          <Value name="Opinion,Mild,Appreciative"><![CDATA[相当好的]]></Value>
+          <Value name="Opinion,Mild,Appreciative"><![CDATA[恰当的]]></Value>
+
+          <Value name="Opinion,Mild,Depreciative"><![CDATA[差劲的]]></Value>
+          <Value name="Opinion,Mild,Depreciative"><![CDATA[不足的]]></Value>
+          <Value name="Opinion,Mild,Depreciative"><![CDATA[坏的]]></Value>
+          <Value name="Opinion,Mild,Depreciative"><![CDATA[不可接受的]]></Value>
+
+          <Value name="Opinion,Very,Depreciative,generic"><![CDATA[很糟的]]></Value>
+          <Value name="Opinion,Very,Depreciative,generic"><![CDATA[极坏的]]></Value>
+          <Value name="Opinion,Very,Depreciative,generic"><![CDATA[糟透了的]]></Value>
+
+          <Value name="Insulting,Mild,Depreciative,Intellect"><![CDATA[愚蠢]]></Value>
+          <Value name="Insulting,Mild,Depreciative,Intellect"><![CDATA[白痴]]></Value>
+          <Value name="Insulting,Very,Depreciative,Intellect"><![CDATA[愚钝]]></Value>
+
+          <Value name="Insulting,Mild,Depreciative,Attitude"><![CDATA[可耻]]></Value>
+          <Value name="Insulting,Mild,Depreciative,Attitude"><![CDATA[可怜]]></Value>
+          <Value name="Insulting,Very,Depreciative,Attitude"><![CDATA[轻蔑]]></Value>
+          <Value name="Insulting,Very,Depreciative,Attitude"><![CDATA[卑劣]]></Value>
+
+          <Value name="Praiseful,Mild,Appreciative,Intellect"><![CDATA[出色地]]></Value>
+          <Value name="Praiseful,Mild,Appreciative,Intellect"><![CDATA[众所周知地]]></Value>
+          <Value name="Praiseful,Very,Appreciative,Intellect"><![CDATA[天才的]]></Value>
+          <Value name="Praiseful,Very,Appreciative,Intellect"><![CDATA[卓越的]]></Value>
+
+          <Value name="Praiseful,Mild,Appreciative,Attitude"><![CDATA[令人尊重的]]></Value>
+          <Value name="Praiseful,Mild,Appreciative,Attitude"><![CDATA[可敬的]]></Value>
+          <Value name="Praiseful,Very,Appreciative,Attitude"><![CDATA[典范的]]></Value>
+          <Value name="Praiseful,Very,Appreciative,Attitude"><![CDATA[卓越的]]></Value>
+
+          <Value name="Uncertain"><![CDATA[有争议的]]></Value>
+          <Value name="Uncertain"><![CDATA[值得商榷的]]></Value>
+          <Value name="Uncertain"><![CDATA[含糊的]]></Value>
+          <Value name="Uncertain"><![CDATA[未确定的]]></Value>
+          <Value name="Uncertain"><![CDATA[未证实的]]></Value>
+          <Value name="Uncertain"><![CDATA[不太可能的]]></Value>
+          <Value name="Uncertain"><![CDATA[可能的]]></Value>
+
+          <Value name="Confirmative"><![CDATA[真正的]]></Value>
+          <Value name="Confirmative"><![CDATA[真实的]]></Value>
+          <Value name="Confirmative"><![CDATA[绝对的]]></Value>
+          <Value name="Confirmative"><![CDATA[合适的]]></Value>
+          <Value name="Confirmative"><![CDATA[确定的]]></Value>
+          <Value name="Confirmative"><![CDATA[极好的]]></Value>
+          <Value name="Confirmative"><![CDATA[确定的]]></Value>
+
+          <Value name="Skeptical"><![CDATA[不可能的]]></Value>
+          <Value name="Skeptical"><![CDATA[不正确的]]></Value>
+
+          <Value name="generic"><![CDATA[清楚]]></Value>
+          <Value name="generic"><![CDATA[显然的]]></Value>
+          <Value name="generic"><![CDATA[不可避免的]]></Value>
+          <Value name="generic"><![CDATA[奇怪的]]></Value>
+          <Value name="generic"><![CDATA[诡异的]]></Value>
+
+          <Value name="Confidence,Decided"><![CDATA[确定的]]></Value>
+          <Value name="Confidence,Decided"><![CDATA[自信的]]></Value>
+          <Value name="Confidence,Decided"><![CDATA[深信无疑]]></Value>
+          <Value name="Confidence,Decided"><![CDATA[确定]]></Value>
+          <Value name="Confidence,Decided"><![CDATA[确信]]></Value>
+
+          <Value name="Confidence,Undecided"><![CDATA[不确定的]]></Value>
+          <Value name="Confidence,Undecided"><![CDATA[抱观望态度]]></Value>
+          <Value name="Confidence,Undecided"><![CDATA[不确定的]]></Value>
+          <Value name="Confidence,Undecided"><![CDATA[犹豫不定的]]></Value>
+          <Value name="Confidence,Undecided"><![CDATA[不确定的]]></Value>
+
+        </Values>
+      </Node>
+
+      <Node name="Adverbs">
+        <Values>
+          <Value name="Opinion,Very,Appreciative"><![CDATA[酷炫的]]></Value>
+          <Value name="Opinion,Very,Appreciative"><![CDATA[不可思议的]]></Value>
+          <Value name="Opinion,Very,Appreciative"><![CDATA[不同寻常的]]></Value>
+
+          <Value name="Opinion,Mild,Appreciative"><![CDATA[很好的]]></Value>
+          <Value name="Opinion,Mild,Appreciative"><![CDATA[教好的]]></Value>
+          <Value name="Opinion,Mild,Appreciative"><![CDATA[漂亮的]]></Value>
+          <Value name="Opinion,Mild,Appreciative"><![CDATA[合适地]]></Value>
+          <Value name="Opinion,Mild,Appreciative"><![CDATA[合理的]]></Value>
+
+          <Value name="Opinion,Mild,Neutral"><![CDATA[一般地]]></Value>
+          <Value name="Opinion,Mild,Neutral"><![CDATA[尚可地]]></Value>
+
+          <Value name="Opinion,Mild,Depreciative"><![CDATA[差劲地]]></Value>
+          <Value name="Opinion,Mild,Depreciative"><![CDATA[不足的]]></Value>
+          <Value name="Opinion,Mild,Depreciative"><![CDATA[很坏的]]></Value>
+          <Value name="Opinion,Mild,Depreciative"><![CDATA[无法接受的]]></Value>
+
+          <Value name="Opinion,Very,Depreciative"><![CDATA[糟糕的]]></Value>
+          <Value name="Opinion,Very,Depreciative"><![CDATA[糟透了的]]></Value>
+          <Value name="Opinion,Very,Depreciative"><![CDATA[恐怖的]]></Value>
+          <Value name="Opinion,Very,Depreciative"><![CDATA[压抑的]]></Value>
+
+          <Value name="Opinion,Mild,Depreciative,Insulting,Intellect"><![CDATA[愚蠢]]></Value>
+          <Value name="Opinion,Mild,Depreciative,Insulting,Intellect"><![CDATA[白痴]]></Value>
+          <Value name="Opinion,Mild,Depreciative,Insulting,Intellect"><![CDATA[愚钝]]></Value>
+
+          <Value name="Opinion,Mild,Depreciative,Insulting,Attitude"><![CDATA[可耻]]></Value>
+          <Value name="Opinion,Mild,Depreciative,Insulting,Attitude"><![CDATA[可怜]]></Value>
+          <Value name="Opinion,Very,Depreciative,Insulting,Attitude"><![CDATA[轻蔑]]></Value>
+          <Value name="Opinion,Very,Depreciative,Insulting,Attitude"><![CDATA[卑劣]]></Value>
+
+          <Value name="Opinion,Mild,Appreciative,Praiseful,Intellect"><![CDATA[出色的]]></Value>
+          <Value name="Opinion,Mild,Appreciative,Praiseful,Intellect"><![CDATA[有名的]]></Value>
+          <Value name="Opinion,Very,Appreciative,Praiseful,Intellect"><![CDATA[显著的]]></Value>
+
+          <Value name="Opinion,Mild,Appreciative,Praiseful,Attitude"><![CDATA[体面的]]></Value>
+          <Value name="Opinion,Very,Appreciative,Praiseful,Attitude"><![CDATA[卓越的]]></Value>
+
+          <Value name="Emphasis,Confirmative"><![CDATA[真的]]></Value>
+          <Value name="Emphasis,Confirmative"><![CDATA[实在]]></Value>
+          <Value name="Emphasis,Confirmative"><![CDATA[绝对]]></Value>
+          <Value name="Emphasis"><![CDATA[确实]]></Value>
+
+          <Value name="Skeptical"><![CDATA[明显]]></Value>
+          <Value name="Skeptical"><![CDATA[不知怎么地就]]></Value>
+          <Value name="Skeptical"><![CDATA[因为某些原因就]]></Value>
+          <Value name="Skeptical"><![CDATA[好像]]></Value>
+
+          <Value name="Cautious"><![CDATA[合理的]]></Value>
+          <Value name="Cautious"><![CDATA[大多时候]]></Value>
+          <Value name="Cautious"><![CDATA[大多]]></Value>
+          <Value name="Cautious,Uncertain"><![CDATA[相对的]]></Value>
+          <Value name="Cautious,Uncertain"><![CDATA[看来]]></Value>
+          <Value name="Cautious,Confirmative"><![CDATA[比较]]></Value>
+
+          <Value name="Uncertain"><![CDATA[可争辩的]]></Value>
+          <Value name="Uncertain"><![CDATA[可疑的]]></Value>
+          <Value name="Uncertain"><![CDATA[大概]]></Value>
+          <Value name="Uncertain"><![CDATA[也许]]></Value>
+          <Value name="Uncertain"><![CDATA[不太可能]]></Value>
+
+          <Value name="Confirmative"><![CDATA[真正地]]></Value>
+          <Value name="Confirmative"><![CDATA[比较]]></Value>
+          <Value name="Confirmative"><![CDATA[无疑]]></Value>
+          <Value name="Confirmative"><![CDATA[确定的]]></Value>
+          <Value name="Confirmative"><![CDATA[的确]]></Value>
+          <Value name="Confirmative"><![CDATA[确切的]]></Value>
+          <Value name="Confirmative"><![CDATA[显而易见的]]></Value>
+          <Value name="Confirmative,Emphasis"><![CDATA[肯定的]]></Value>
+          <Value name="Confirmative,Emphasis"><![CDATA[明显的]]></Value>
+
+          <Value name="generic"><![CDATA[警醒的]]></Value>
+          <Value name="generic"><![CDATA[不可避免的]]></Value>
+          <Value name="generic"><![CDATA[奇怪的]]></Value>
+          <Value name="generic"><![CDATA[古怪的]]></Value>
+
+          <Value name="Frequency,Frequent"><![CDATA[常常]]></Value>
+          <Value name="Frequency,Frequent"><![CDATA[经常]]></Value>
+          <Value name="Frequency"><![CDATA[有时]]></Value>
+          <Value name="Frequency,Infrequent"><![CDATA[偶尔]]></Value>
+          <Value name="Frequency,Infrequent"><![CDATA[极少]]></Value>
+
+        </Values>
+      </Node>
+
+      <Node name="Adjunctives">
+        <Values>
+          <Value name="generic"><![CDATA[你可以想象,]]></Value>
+          <Value name="generic"><![CDATA[你现在差不多也清楚了,]]></Value>
+          <Value name="generic"><![CDATA[你现在肯定已经可以推断出来了,]]></Value>
+          <Value name="EasyGoing"><![CDATA[如果你愿意的话,]]></Value>
+          <Value name="EasyGoing"><![CDATA[如果这不是太麻烦的话,]]></Value>
+          <Value name="Patient"><![CDATA[当然,请不要有压力,]]></Value>
+          <Value name="Patient"><![CDATA[请慢慢来,]]></Value>
+          <Value name="Hasty"><![CDATA[越快越好,]]></Value>
+          <Value name="Hasty"><![CDATA[不要再浪费更多时间,]]></Value>
+          <Value name="Hasty"><![CDATA[长话短说,]]></Value>
+          <Value name="Stern"><![CDATA[显而易见, 我们不需要再提醒你失败的后果，但是]]></Value>
+          <Value name="Stern"><![CDATA[确保你认真做好,不要乱搞]]></Value>
+        </Values>
+      </Node>
+    </Nodes>
+  </Config>
+</Configs>
