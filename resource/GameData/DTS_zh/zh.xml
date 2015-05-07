@@ -8384,89 +8384,89 @@ One more thing on staging, if the automatically generated stage setup, or even o
   <string id="364671"><![CDATA[transfersuccess3]]></string>
   <string id="364704"><![CDATA[教程完成 !]]></string>
   <string id="364741">
-    <![CDATA[Welcome to the first in a series of scenarios designed to prepare you for flight in and around Kerbin's local system.
+    <![CDATA[欢迎来到第一个系列教程,本教程的目的是帮助你学会如何在坎巴拉系内进行航行.
 
-I'm going to assume you've completed both the Flight Basics tutorial as well as Orbiting 101. If not, you should go do them first.
+我估计你应该已经完成了基础飞行教程和环绕轨道101教程.如果你还没完成以上两个教程,我建议你先完成它们.
 
-When you're ready to go, hit Continue.]]>
+当你准备好后就按下继续.]]>
   </string>
   <string id="365321">
-    <![CDATA[An important part of flights between celestial objects is a Transfer Orbit, which basically means an orbit used to change between two orbits. In our case, the Periapsis of our orbit will be very near to Kerbin, and the Apoapsis will extend to just beyond the Mun's orbit. The same applies to an interplanetary trajectory, just on a much larger scale.
+    <![CDATA[在天体之间航行的一个重要的组成部分是转移轨道，这基本上意味着一个轨道在两个轨道之间进行转变.在这个任务中,我们轨道的近拱点(Pe点)非常靠近坎巴拉星,而远拱点(Ap点)则刚刚超出了月一的轨道.在行星际转移的时候也是如此,只是轨道的规模更大了而已.
 
-Now, press the ]]>
+现在请按下 ]]>
   </string>
-  <string id="366057"><![CDATA[ 键以进入地图视角,这样我们就能总览坎巴拉星系的情况.]]></string>
+  <string id="366057"><![CDATA[键以进入地图视角,这样我们就能总览坎巴拉星系的情况.]]></string>
   <string id="366221">
-    <![CDATA[To perform a successful transfer, it needs to take the same amount of time for both you and your target object to reach the same location. 
+    <![CDATA[要进行一次成功的轨道转移,你必须和你的目标天体同时到达同一个位置. 
 
-If you really know what you're doing you can calculate your own transfer orbit on the fly, or you could try eyeballing it, but it's much easier to use Maneuver Nodes. So let's go ahead and create one, click anywhere on your orbit and click the Add Maneuver button.
+如果你真的知道你在做什么,你可以计算出飞行中自己的转移轨道,或者你可以试着目测它,但更容易是使用机动点.让我们前去创建一个,在你的轨道上的任何地方点击,然后点击添加机动点按钮.
 
-Do note that when playing a Career Game maneuver nodes will not be immediately available, you will have some upgrading to do before you have them available.]]>
+生涯模式时机动点不能立即就可用,在能使用之前你还得做些升级.]]>
   </string>
   <string id="367349"><![CDATA[preTMI]]></string>
   <string id="367362">
-    <![CDATA[Maneuver nodes let you plan orbital maneuvers ahead of time, and most importantly, without wasting precious fuel.
+    <![CDATA[机动节点可以让你计划提前轨道的机动的时间,最重要的是可以避免浪费燃料.
 
-As you can see maneuver nodes have six handles, the green ones are Prograde and Retrograde, the purple ones Normal and Antinormal and the blue ones are Radial and Antiradial.
+你可以看到机动节点有六个处理杆,绿色的是顺行和逆行,紫色的是法向和反法向,蓝色的是径向和反径向.
 
-I'm not going to go in detail because these are the same vectors on the NavBall you saw in the Orbiting tutorial, just remember that Prograde and Retrograde help you grow or shrink your orbit and Normal and Antinormal help you tilt it.]]>
+我不打算讲的太详细,因为你在轨道教程里看到过这些相同的矢量,只要记住记住,顺行和逆行能帮助你增大或缩小你的轨道,而法向和反法向能帮助你轨道.]]>
   </string>
   <string id="368416">
-    <![CDATA[You can click and drag the different handles to see an effect in your theoretical orbit by affecting the vector in question. In our particular case we're going to bring the vessel's orbit Apoapsis up just enough to intercept the Mun's orbit at around 45 degrees ahead of the its current position.
+    <![CDATA[你可以点击和拖动不同处理杆来影响矢量看看你的理论轨道变化效果.在现在的例子中,我们打算把飞船轨道的远拱点提升至月球此时位置前方大约45度的地方,使其切入月球轨道.
 
-If your trajectory is correct, the orbit line will shift colors, representing a change in which celestial body's gravity is holding onto when you reach that point.]]>
+如果你的轨迹是正确的, 轨道线将会改变颜色, 这代表当你到达那一点被天体引力所捕获的变化.]]>
   </string>
   <string id="369340"><![CDATA[maneuver2]]></string>
   <string id="369359">
-    <![CDATA[Let's get to it then!
+    <![CDATA[那么我们来搞定它!
 
-With the handles showing pull the Prograde handle until your theoretical orbit intersects that of the Mun, it has to be an intercept trajectory to the Mun though, so move the node itself as necessary until you get one.
+拉动顺行控制杆直至你的理论轨道切入到月球轨道, 为使它得成为指向月球的拦截轨迹, 必要时你得移动节点本身来得到它.
 
-If you want to start over you can delete the maneuver node and create a new one, right click it while it's open to show the delete button.]]>
+如果你想重新开始你可以删除和创建一个新的机动节点,右键单击它会显示删除按钮.]]>
   </string>
   <string id="370123"><![CDATA[Vector Mark1-2Pod (Orbiter 1A) flight plan]]></string>
   <string id="370208">
-    <![CDATA[There we go! Your theoretical orbit is now on an intercept trajectory, headed right for the Mun.
+    <![CDATA[成功啦!你的理论轨道现在成为了对准月球的拦截轨迹.
 
-There are a few things to notice now, bring out your NavBall. You will see a few things that weren't there before the maneuver node, the bar on the right is the velocity change (delta V for short) required to make your theoretical orbit the actual one, you will also see the approximated burn time needed to deplete the bar and how long it will take to reach the maneuver... Oh my, this is taking forever, please click any point on the orbit BEYOND the maneuver node and the click Warp To Next Maneuver.]]>
+现在有一些事情需要注意,打开你的导航球.你会发现创建机动点之前没见过的一些玩意儿,右边的指示条代表速度变化量(DeltaV)可使你的理论轨道变成实际轨道,你还会看到需要清除指示条所需的近似的燃烧时间还有多久飞船才能到达机动点...噢天呐,这也太久了,请在轨道上超过机动点前任意位置点击一下,然后点击加速到机动点.]]>
   </string>
   <string id="371412">
-    <![CDATA[We're getting close to maneuver time, there is one final step to take before executing it. You will now see an additional blue icon in your NavBall (or an arrow indicating it's direction). It tells you the direction your vessel needs to be pointing in order to perform the maneuver successfully, if the marker is not visible then you will see a small arrow indicating its general direction instead.
+    <![CDATA[我们距离机动实际越来越近了,执行机动前还有的最后一步要做.在你的导航球上你现在会看到一个额外的蓝色图标(或者是一个指示出它的方向的箭头).它在说你的飞船现在需要指向这个方向,以便成功执行机动操作,如果没看到这个标志,那么你会看到一个小箭头正指示出它的方向.
 
-I'll give you an expert tip, start your burn when the indicator is half the time the maneuver takes before you get there. For example, if your approximated burn is 20 seconds, start burning 10 seconds before you get there (T -10s). Sometimes your estimated burn will display as N/A, if this happens burn a little so the value gets updated. 
+我来给你一个专业的提示,当指示器显示出到达机动点的时间为燃烧时间一半的时候,就点燃引擎.例如,如果你的近似燃烧时间为20秒,那么你应该在到达机动点前10秒的时候就点燃引擎.有时候你的近似燃烧时间显示成了N/A, 这种情况下你可以让引擎稍微燃烧一点就可以刷新出估计值. 
 
-This tip is not mandatory but it's more efficient, since this is quite a long burn I suggest you start ASAP anyway.]]>
+这个提示虽不是强制性的,但却相当管用,因为这个燃烧时间相当长,我建议你尽早开始吧.]]>
   </string>
   <string id="373128"><![CDATA[Vector Mark1-2Pod (Orbiter 1A) patch]]></string>
   <string id="373201"><![CDATA[maneuverSuccess]]></string>
   <string id="373232">
-    <![CDATA[Good work recruit! You may have noticed your actual orbit is not exactly the one you had planned, this is because the ship's computer calculates an ideal orbit that is very hard to get in practice, but close enough is good enough.
+    <![CDATA[干的漂亮伙计!你可能注意到了你的实际轨道与你的计划轨道并不完全相同,这是因为飞船电脑计算的是理想轨道,现实中很难达到的,但只要足够接近就够了.
 
-You can fine tune it a bit by burning a bit more, but be careful not to overdo it, I'll leave a reset button there in case you screw it up.
+你可以在燃烧一点点来调整它,但要小心不要过头了, 我会在你搞砸的时候留一个重置按钮给你.
 
-Now we'll wait for you to be sucked by the Mun's gravity.]]>
+现在我们就等着你被月球引力给吸住吧.]]>
   </string>
   <string id="374094"><![CDATA[approachingmun]]></string>
   <string id="374123">
-    <![CDATA[You now are gravitationally bound to the Mun. Currently, you're on an escape trajectory relative to the it, so wait until periapsis, and then burn retrograde to slow yourself down enough to be captured into an orbit, I recommend you use a maneuver node in the Periapsis once again.
+    <![CDATA[你现在受到月球引力的作用了.目前你正处于相对月球的逃逸轨迹上,所以等到近拱点,然后逆行燃烧来降低你的速度,使你被捕获成一个轨道,我建议你在近拱点上再次用一下机动节点.
 
-If your orbit doesn't have a periapsis you can correct it, create a maneuver node and pull the either blue (Radial or Antiradial) handle to get the Periapsis where you want it.
+如果你的轨道没有近拱点,你可以修正一下,创建一个机动节点,然后拉动蓝色（径向或者反径向）处理杆,使近拱点出现在你想要的位置.
 
-If you make a mistake, hit the Reset button.]]>
+如果你出错了,请点击重置按钮.]]>
   </string>
-  <string id="375135"><![CDATA[Reset]]></string>
-  <string id="375146"><![CDATA[你脱离了月球的引力范围,点击Reset再试一次.]]></string>
+  <string id="375135"><![CDATA[重置]]></string>
+  <string id="375146"><![CDATA[你已经脱离月球的影响范围了.点击重置按钮重新来过吧.]]></string>
   <string id="375316">
-    <![CDATA[Now that you're not on an escape trajectory, try to get yourself into a circular orbit below at least 200,000m.
+    <![CDATA[现在你不是在逃逸轨迹上了,试着得到一个低于200,000m的圆形轨道.
 
-Remember, you can use yet another maneuver node.]]>
+记住了,你还可以使用另一个机动点.]]>
   </string>
   <string id="375640"><![CDATA[轨道近拱点: ]]></string>
   <string id="375681"><![CDATA[Bold Label]]></string>
   <string id="375702"><![CDATA[轨道远拱点: ]]></string>
   <string id="375741"><![CDATA[轨道偏心率: ]]></string>
-  <string id="375770"><![CDATA[Good work! You're now in orbit around the Mun with a ship fully capable of landing on it, if you're feeling up to the challenge, which I encourage you to do, because in the next tutorial, we'll cover the full procedure of getting back to Kerbin from a ship landed on the Mun. I'll just give you a tip for the landing, remember that there is no atmosphere here, so a parachute will be less than useless, you'll have to use your boosters. Ok, good luck with that, I'm running late for lunch.]]></string>
-  <string id="376750"><![CDATA[To The Mun: Part 2]]></string>
+  <string id="375770"><![CDATA[干的漂亮!你的飞船现在处于环绕月球的轨道上了,完全有能力降落到月球表面,如果你想感受一下这个挑战,我鼓励你试一下,因为下个教程里,我们将要实现从飞船登陆到月球再返回到坎星的整个过程.对于降落我来给你个提示,记住因为没有大气层,所以降落伞完全没用,你得用上你的助推器.好了,祝你好运,我得赶去吃午饭啦.]]></string>
+  <string id="376750"><![CDATA[飞向月球 : 第二部分]]></string>
   <string id="376787"><![CDATA[Moonwalking]]></string>
   <string id="376810"><![CDATA[Trip Back]]></string>
   <string id="376829"><![CDATA[Trip back]]></string>

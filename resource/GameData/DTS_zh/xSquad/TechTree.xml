@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--一条记录创建一个Config-->
+<!--此文件汉化了TechTree.cfg-->
+<!--下面是配置示例代码，你可以参考-->
+<Configs>
+  <Config url="Squad/Resources/TechTree/TechTree">
+    <Nodes>
+      <Node id="start">
+        <Values>
+          <Value name="title"><![CDATA[开始]]></Value>
+          <Value name="description"><![CDATA[技术开始。]]></Value>
+        </Values>
+      </Node>
+      <Node id="basicRocketry">
+        <Values>
+          <Value name="title"><![CDATA[基础理论]]></Value>
+          <Value name="description"><![CDATA[火箭无论如何科学能有多难？]]></Value>
+        </Values>
+      </Node>
+    </Nodes>
+  </Config>
+</Configs>
