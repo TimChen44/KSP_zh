@@ -185,6 +185,9 @@
       <Link>DTS_zh\xSquad\ScienceDefs.xml</Link>
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="..\..\resource\GameData\DTS_zh\xSquad\StoryDefs.xml">
+      <Link>DTS_zh\xSquad\StoryDefs.xml</Link>
+    </Content>
     <Content Include="..\..\resource\GameData\DTS_zh\xSquad\TechTree.xml">
       <Link>DTS_zh\xSquad\TechTree.xml</Link>
     </Content>

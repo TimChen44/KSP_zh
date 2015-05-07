@@ -22,7 +22,7 @@ namespace DTS_zh
             //}
         }
 
-       public  static xConfg XConfg;
+        public static xConfg XConfg;
 
 
         private bool loaded = false;
@@ -47,30 +47,30 @@ namespace DTS_zh
             {
 
 
-            List<Config> configs = LoadXml();
+                List<Config> configs = LoadXml();
 
-            foreach (var config in configs)
-            {
-                //var kspConfig = GameDatabase.Instance.root.AllConfigs
-                //    .FirstOrDefault(x => x.name == config.Name && x.type == config.Name && x.url == config.Url);
-                var kspConfig = GetUrlConfig(GameDatabase.Instance.root.AllConfigs, config);
-                if (kspConfig == null)
+                foreach (var config in configs)
                 {
-                    continue;
+                    //var kspConfig = GameDatabase.Instance.root.AllConfigs
+                    //    .FirstOrDefault(x => x.name == config.Name && x.type == config.Name && x.url == config.Url);
+                    var kspConfig = GetUrlConfig(GameDatabase.Instance.root.AllConfigs, config);
+                    if (kspConfig == null)
+                    {
+                        continue;
+                    }
+
+                    var nodecopy = DeepCopy(kspConfig.config);
+
+                    HzValues(nodecopy.values, config.Values);
+                    HzNodes(nodecopy.nodes, config.Nodes);
+
+                    kspConfig.config.ClearData();
+                    nodecopy.CopyTo(kspConfig.config);
+
+                    //HzValues(kspConfig.config.values, config.Values);
+
+                    //HzNodes(kspConfig.config.nodes, config.Nodes);
                 }
-
-                var nodecopy = DeepCopy(kspConfig.config);
-
-                HzValues(nodecopy.values, config.Values);
-                HzNodes(nodecopy.nodes, config.Nodes);
-
-                kspConfig.config.ClearData();
-                nodecopy.CopyTo(kspConfig.config);
-
-                //HzValues(kspConfig.config.values, config.Values);
-
-                //HzNodes(kspConfig.config.nodes, config.Nodes);
-            }
 
             }
             catch (Exception ex)
@@ -165,28 +165,25 @@ namespace DTS_zh
         //linq支持有问题，就用这个替代
         public Node GetNode(List<Node> nodes, ConfigNode kspNode)
         {
-            if (kspNode==null )
+            if (kspNode == null)
             {
                 Debug.LogWarning(nodes.Count + "::kspNode is Null");
                 return null;
             }
-           // Debug.LogWarning(nodes.Count + "=======" + kspNode.id + ":" + kspNode.name + ":" + kspNode.CountValues.ToString() + ":" + kspNode.CountNodes.ToString());
+            // Debug.LogWarning(nodes.Count + "=======" + kspNode.id + ":" + kspNode.name + ":" + kspNode.CountValues.ToString() + ":" + kspNode.CountNodes.ToString());
             foreach (var item in nodes)
             {
-
-               // Debug.LogWarning(item.Id + "----------" + kspNode.id);
                 if (item.Id != null && item.Id != "" && item.Id == kspNode.id) return item;
-
                 if (item.Name != null && item.Name != "" && item.Name == kspNode.name) return item;
-
+                //Debug.LogWarning("[xConfig]" + item.Name + "--" + kspNode.name);
                 //如果Node的values中有Id，并且匹配的话就同样操作当前node
                 if (item.Id != null && item.Id != "")
-                 {
+                {
                     foreach (ConfigNode.Value value in kspNode.values)
                     {
                         if (value.name == "id" && value.value == item.Id) return item;
                     }
-                 }
+                }
             }
             return null;
         }
@@ -197,6 +194,7 @@ namespace DTS_zh
         {
             List<Config> configs = new List<Config>();
 
+            Debug.Log("[xConfig]Load:zhConfig.xml");
             XmlDocument doc = new XmlDocument();
             doc.Load("GameData/DTS_zh/zhConfig.xml");
             foreach (XmlNode item in doc.ChildNodes)
@@ -206,9 +204,12 @@ namespace DTS_zh
                     LoadConfigs(item, configs);
                 }
             }
+            Debug.Log("[xConfig]Loaded:" + configs.Count.ToString());
+
             //支持多配置文件
-            foreach (string file in Directory.GetFiles("GameData/DTS_zh/xSquad"))
+            foreach (string file in Directory.GetFiles("GameData/DTS_zh/xSquad","*.xml"))
             {
+                Debug.Log("[xConfig]Load:" + file);
                 XmlDocument docXML = new XmlDocument();
                 docXML.Load(file);
                 foreach (XmlNode item in docXML.ChildNodes)
@@ -218,6 +219,7 @@ namespace DTS_zh
                         LoadConfigs(item, configs);
                     }
                 }
+                Debug.Log("[xConfig]Loaded:" + configs.Count.ToString());
             }
 
             return configs;

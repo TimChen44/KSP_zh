@@ -54,12 +54,10 @@ namespace DTS_Addon
             {
                 UICapture = !UICapture;
             }
-            //else if (GUI.Button(new Rect(10, 80, 50, 50), "重新载入\r\nxFont"))
-            //{
-            //    //DTS_zh.xRead.Loadzh();
-            //    //DTS_zh.xConfg.XConfg.HzConfig();
-            //    //xFontExt.LoadDict();
-            //}
+            else if (GUI.Button(new Rect(10, 80, 50, 50), "重新载入\r\xConfig"))
+            {
+                DTS_zh.xConfg.XConfg.HzConfig();
+            }
             else if (GUI.Button(new Rect(70, 80, 50, 50), "重新载入\r\nzhText"))
             {
                 DTS_Addon.xFont.XFont.LoadxText();
