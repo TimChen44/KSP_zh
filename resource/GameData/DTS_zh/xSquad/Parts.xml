@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <!--一条记录创建一个Config-->
 <Configs>
   <!--组件汉化-->
@@ -21,7 +21,7 @@
     <Values>
       <Value name="title"><![CDATA[圆形进气口]]></Value>
       <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
-      <Value name="description"><![CDATA[一个合适的涡扇进气口,不仅能为吸气发动机提供氧气,而且它的空气吸入量是Vac-Co生产的那些号称能进气的小勺子的两倍.]]></Value>
+      <Value name="description"><![CDATA[一个合适的涡扇进气口,不仅能为吸气发动机提供氧气,而且它的空气吸入量是维卡高级吸尘器公司生产的那些号称能进气的小勺子的两倍.]]></Value>
     </Values>
   </Config>
   <Config name="GooExperiment">
@@ -90,15 +90,15 @@
   <Config name="RAPIER">
     <Values>
       <Value name="title"><![CDATA[R.A.P.I.E.R.'长剑'双模式引擎]]></Value>
-      <Value name="manufacturer"><![CDATA[C7航空部门与极限火箭合资企业]]></Value>
-      <Value name="description"><![CDATA[R.A.P.I.E.R.(反应式交替推进智能火箭引擎)是由C7航空和极限火箭合资开发的新一代引擎,目的是为了弥补单级入轨飞行器(SSTO)设计需求的空缺.这台引擎结合了最好的火箭和喷气推进技术.]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门与罗茨科马克斯企业合资企业]]></Value>
+      <Value name="description"><![CDATA[R.A.P.I.E.R.(反应式交替推进智能火箭引擎)是由C7航空和罗茨科马克斯企业合资开发的新一代引擎,目的是为了弥补单级入轨飞行器(SSTO)设计需求的空缺.这台引擎结合了最好的火箭和喷气推进技术.]]></Value>
     </Values>
   </Config>
   <Config name="RCSBlock">
     <Values>
       <Value name="title"><![CDATA[RV-105-RCS喷口]]></Value>
-      <Value name="manufacturer"><![CDATA[STEADLER建设兵团]]></Value>
-      <Value name="description"><![CDATA[最近对物理定律的再次探索使STEADLER建设兵团制造出了这种小型单元推进剂喷口,它被用于辅助航天器进行姿态修正.尽管很多Kerbal物理学家依然对这条新定律抱有怀疑,但研究表明这款推进器用起来跟广告里写的一样好使.]]></Value>
+      <Value name="manufacturer"><![CDATA[盗梦者工程学院]]></Value>
+      <Value name="description"><![CDATA[最近对物理定律的再次探索使盗梦者工程学院制造出了这种小型单元推进剂喷口,它被用于辅助航天器进行姿态修正.尽管很多Kerbal物理学家依然对这条新定律抱有怀疑,但研究表明这款推进器用起来跟广告里写的一样好使.]]></Value>
     </Values>
   </Config>
   <Config name="RCSFuelTank">
@@ -133,21 +133,21 @@
     <Values>
       <Value name="title"><![CDATA[TVR-200L级间双转接口]]></Value>
       <Value name="manufacturer"><![CDATA[O.M.B.爆破企业]]></Value>
-      <Value name="description"><![CDATA[在意识到'大圆环'不是一个可以获得专利的概念之后,O.M.B.爆破企业推出了一套全新的复式连接转换器来适配极限火箭型号的部件.本型号能将一个2.5m级转换为两个1.25m级.]]></Value>
+      <Value name="description"><![CDATA[在意识到'大圆环'不是一个可以获得专利的概念之后,O.M.B.爆破企业推出了一套全新的复式连接转换器来适配罗茨科马克斯企业型号的部件.本型号能将一个2.5m级转换为两个1.25m级.]]></Value>
     </Values>
   </Config>
   <Config name="adapterLargeSmallQuad">
     <Values>
       <Value name="title"><![CDATA[TVR-400L级间四转接口]]></Value>
       <Value name="manufacturer"><![CDATA[O.M.B.爆破企业]]></Value>
-      <Value name="description"><![CDATA[在意识到'大圆环'不是一个可以获得专利的概念之后,O.M.B.爆破企业推出了一套全新的复式连接转换器来适配极限火箭型号的部件.本型号能将一个2.5m级转换为四个1.25m级.]]></Value>
+      <Value name="description"><![CDATA[在意识到'大圆环'不是一个可以获得专利的概念之后,O.M.B.爆破企业推出了一套全新的复式连接转换器来适配罗茨科马克斯企业型号的部件.本型号能将一个2.5m级转换为四个1.25m级.]]></Value>
     </Values>
   </Config>
   <Config name="adapterLargeSmallTri">
     <Values>
       <Value name="title"><![CDATA[TVR-300L级间三转接口]]></Value>
       <Value name="manufacturer"><![CDATA[O.M.B.爆破企业]]></Value>
-      <Value name="description"><![CDATA[在意识到'大圆环'不是一个可以获得专利的概念之后,O.M.B.爆破企业推出了一套全新的复式连接转换器来适配极限火箭型号的部件.本型号能将一个2.5m级转换为三个1.25m级.]]></Value>
+      <Value name="description"><![CDATA[在意识到'大圆环'不是一个可以获得专利的概念之后,O.M.B.爆破企业推出了一套全新的复式连接转换器来适配罗茨科马克斯企业型号的部件.本型号能将一个2.5m级转换为三个1.25m级.]]></Value>
     </Values>
   </Config>
   <Config name="adapterSmallMiniShort">
@@ -167,14 +167,14 @@
   <Config name="advSasModule">
     <Values>
       <Value name="title"><![CDATA[内嵌式高级稳定器]]></Value>
-      <Value name="manufacturer"><![CDATA[STEADLER建设兵团]]></Value>
+      <Value name="manufacturer"><![CDATA[盗梦者工程学院]]></Value>
       <Value name="description"><![CDATA[这个系统使用一组以'相当'高速旋转的圆盘来产生控制飞船必需的扭矩.还包含一整套内置的飞行控制计算机.请不要尝试维修运行中的本设备.]]></Value>
     </Values>
   </Config>
   <Config name="airScoop">
     <Values>
       <Value name="title"><![CDATA[XM-G50径向进气口]]></Value>
-      <Value name="manufacturer"><![CDATA[Vac-Co先进吸气系统公司]]></Value>
+      <Value name="manufacturer"><![CDATA[维卡高级吸尘器公司先进吸气系统公司]]></Value>
       <Value name="description"><![CDATA[喷气式发动机必备!这款进气口能吸入外面的空气以供涡轮发动机运行,当然前提是外面有空气.保修范围不包括引擎熄火以及任何有生命或无生命的物体被吸入进气口.]]></Value>
     </Values>
   </Config>
@@ -188,8 +188,8 @@
   <Config name="asasmodule1-2">
     <Values>
       <Value name="title"><![CDATA[高级 S.A.S模块（大）]]></Value>
-      <Value name="manufacturer"><![CDATA[STEADLER建设兵团]]></Value>
-      <Value name="description"><![CDATA[经过多年的研究,STEADLER建设兵团的火箭学家们发现指望Kerbal宇航员去操纵飞船实在是不靠谱.高级S.A.S模块通过不停地修正飞行操纵而完美的解决了这个问题.强烈建议不要让机组人员知道飞船上装了这么个东西.不然他们会认为自己'酷炫的飞行技术'受到了挑战.]]></Value>
+      <Value name="manufacturer"><![CDATA[盗梦者工程学院]]></Value>
+      <Value name="description"><![CDATA[经过多年的研究,盗梦者工程学院的火箭学家们发现指望Kerbal宇航员去操纵飞船实在是不靠谱.高级S.A.S模块通过不停地修正飞行操纵而完美的解决了这个问题.强烈建议不要让机组人员知道飞船上装了这么个东西.不然他们会认为自己'酷炫的飞行技术'受到了挑战.]]></Value>
     </Values>
   </Config>
   <Config name="avionicsNoseCone">
@@ -202,28 +202,28 @@
   <Config name="batteryBankLarge">
     <Values>
       <Value name="title"><![CDATA[Z-4K充电电池组]]></Value>
-      <Value name="manufacturer"><![CDATA[Zaltonic电子]]></Value>
-      <Value name="description"><![CDATA[最新升级的电涌控制技术造就了Z-4K,有史以来制造出的最大的电池组.Zaltonic电子承认它激烈放电时十分酷炫,最好别冒出将Z-4K短路的念头...]]></Value>
+      <Value name="manufacturer"><![CDATA[扎尔托尼克电子产品]]></Value>
+      <Value name="description"><![CDATA[最新升级的电涌控制技术造就了Z-4K,有史以来制造出的最大的电池组.扎尔托尼克电子产品承认它激烈放电时十分酷炫,最好别冒出将Z-4K短路的念头...]]></Value>
     </Values>
   </Config>
   <Config name="batteryBankMini">
     <Values>
       <Value name="title"><![CDATA[Z-200充电电池组]]></Value>
-      <Value name="manufacturer"><![CDATA[Zaltonic电子]]></Value>
+      <Value name="manufacturer"><![CDATA[扎尔托尼克电子产品]]></Value>
       <Value name="description"><![CDATA[Z-200是Z-100电池组的线性安装版本,同时也增加了些许容量.在遇到紧急状况时,别把正负极装反了.]]></Value>
     </Values>
   </Config>
   <Config name="batteryBank">
     <Values>
       <Value name="title"><![CDATA[Z-1k充电电池组]]></Value>
-      <Value name="manufacturer"><![CDATA[Zaltonic电子]]></Value>
+      <Value name="manufacturer"><![CDATA[扎尔托尼克电子产品]]></Value>
       <Value name="description"><![CDATA[Z-1k是线性安装的电池组,电量有Z-100的十倍之多.]]></Value>
     </Values>
   </Config>
   <Config name="batteryPack">
     <Values>
       <Value name="title"><![CDATA[Z-100充电电池组]]></Value>
-      <Value name="manufacturer"><![CDATA[Zaltonic电子]]></Value>
+      <Value name="manufacturer"><![CDATA[扎尔托尼克电子产品]]></Value>
       <Value name="description"><![CDATA[Z-100电池组是电气应用行业的标准电源.包含两节AAAA电池,最多能存贮100单位的电量.]]></Value>
     </Values>
   </Config>
@@ -250,9 +250,9 @@
   </Config>
   <Config name="decoupler1-2">
     <Values>
-      <Value name="title"><![CDATA[极限火箭品牌分离环]]></Value>
-      <Value name="manufacturer"><![CDATA[极限火箭合资企业]]></Value>
-      <Value name="description"><![CDATA[极限火箭合资企业很荣幸为您提供最新的分离技术--两倍大小于下一代的主打产品,极限火箭分离环内置了更多的炸药以得到更强劲的分离力度!相比于它的那些更小的可悲的粗制滥造品质低下的市场竞争者,极限火箭分离环上还有贴心的小箭头,标示它是从哪一端进行分离.]]></Value>
+      <Value name="title"><![CDATA[罗茨科马克斯企业品牌分离环]]></Value>
+      <Value name="manufacturer"><![CDATA[罗茨科马克斯企业合资企业]]></Value>
+      <Value name="description"><![CDATA[罗茨科马克斯企业合资企业很荣幸为您提供最新的分离技术--两倍大小于下一代的主打产品,罗茨科马克斯企业分离环内置了更多的炸药以得到更强劲的分离力度!相比于它的那些更小的可悲的粗制滥造品质低下的市场竞争者,罗茨科马克斯企业分离环上还有贴心的小箭头,标示它是从哪一端进行分离.]]></Value>
     </Values>
   </Config>
   <Config name="deltaWing">
@@ -299,8 +299,8 @@
   </Config>
   <Config name="engineLargeSkipper">
     <Values>
-      <Value name="title"><![CDATA[极限火箭'船长'液体燃料引擎]]></Value>
-      <Value name="manufacturer"><![CDATA[极限火箭合资企业]]></Value>
+      <Value name="title"><![CDATA[罗茨科马克斯企业'船长'液体燃料引擎]]></Value>
+      <Value name="manufacturer"><![CDATA[罗茨科马克斯企业合资企业]]></Value>
       <Value name="description"><![CDATA['主帆'的小型版.'船长'的功率相当于呃...大城市!兼具高推力和不错的效率,使其适合用于火箭的中段加速.]]></Value>
     </Values>
   </Config>
@@ -313,30 +313,30 @@
   </Config>
   <Config name="fuelTank1-2">
     <Values>
-      <Value name="title"><![CDATA[极限火箭 X200-32型燃料箱]]></Value>
-      <Value name="manufacturer"><![CDATA[极限火箭合资企业]]></Value>
-      <Value name="description"><![CDATA[当我们的一位宇航员抱怨'现有的燃料箱都实在是太小了'之后,我们开发了X200-32型燃料箱.它可以装载足够多的燃料,满足你....足够的需求,你懂的.别吐槽!极限火箭的专家们都是火箭科学家,不是作家.]]></Value>
+      <Value name="title"><![CDATA[罗茨科马克斯企业 X200-32型燃料箱]]></Value>
+      <Value name="manufacturer"><![CDATA[罗茨科马克斯企业合资企业]]></Value>
+      <Value name="description"><![CDATA[当我们的一位宇航员抱怨'现有的燃料箱都实在是太小了'之后,我们开发了X200-32型燃料箱.它可以装载足够多的燃料,满足你....足够的需求,你懂的.别吐槽!罗茨科马克斯企业的专家们都是火箭科学家,不是作家.]]></Value>
     </Values>
   </Config>
   <Config name="fuelTank2-2">
     <Values>
-      <Value name="title"><![CDATA[极限火箭 X200-16型燃料箱]]></Value>
-      <Value name="manufacturer"><![CDATA[极限火箭合资企业]]></Value>
-      <Value name="description"><![CDATA[经过了很长时间的研究,极限火箭的工程师发现太空计划确实需要比X200-32小一半的燃料箱.一经售出恕不退换.]]></Value>
+      <Value name="title"><![CDATA[罗茨科马克斯企业 X200-16型燃料箱]]></Value>
+      <Value name="manufacturer"><![CDATA[罗茨科马克斯企业合资企业]]></Value>
+      <Value name="description"><![CDATA[经过了很长时间的研究,罗茨科马克斯企业的工程师发现太空计划确实需要比X200-32小一半的燃料箱.一经售出恕不退换.]]></Value>
     </Values>
   </Config>
   <Config name="fuelTank3-2">
     <Values>
-      <Value name="title"><![CDATA[极限火箭 Jumbo-64型燃料箱]]></Value>
-      <Value name="manufacturer"><![CDATA[极限火箭合资企业]]></Value>
-      <Value name="description"><![CDATA[Jumbo-64型燃料箱是极限火箭合资企业所能生产的最大的燃料箱,它在拥有着可爱的橙色隔热涂层的同时能装载极其多的燃料.尽管他被宇航员们昵称为'橙罐',Jumbo-64型燃料箱其实跟橙汁没有半点关系.别尝,它真的不是橙子味儿的.]]></Value>
+      <Value name="title"><![CDATA[罗茨科马克斯企业 Jumbo-64型燃料箱]]></Value>
+      <Value name="manufacturer"><![CDATA[罗茨科马克斯企业合资企业]]></Value>
+      <Value name="description"><![CDATA[Jumbo-64型燃料箱是罗茨科马克斯企业合资企业所能生产的最大的燃料箱,它在拥有着可爱的橙色隔热涂层的同时能装载极其多的燃料.尽管他被宇航员们昵称为'橙罐',Jumbo-64型燃料箱其实跟橙汁没有半点关系.别尝,它真的不是橙子味儿的.]]></Value>
     </Values>
   </Config>
   <Config name="fuelTank4-2">
     <Values>
-      <Value name="title"><![CDATA[极限火箭 X200-8型燃料箱]]></Value>
-      <Value name="manufacturer"><![CDATA[极限火箭合资企业]]></Value>
-      <Value name="description"><![CDATA[一个紧凑的燃料箱,为火箭上级与登陆器设计.极限火箭对燃料箱内部的Dawton-Kerman露天泳池公司的贴纸不负任何责任,因为这个燃料箱绝对不是我们从他们的泳池模具厂里面偷出来的.]]></Value>
+      <Value name="title"><![CDATA[罗茨科马克斯企业 X200-8型燃料箱]]></Value>
+      <Value name="manufacturer"><![CDATA[罗茨科马克斯企业合资企业]]></Value>
+      <Value name="description"><![CDATA[一个紧凑的燃料箱,为火箭上级与登陆器设计.罗茨科马克斯企业对燃料箱内部的Dawton-Kerman露天泳池公司的贴纸不负任何责任,因为这个燃料箱绝对不是我们从他们的泳池模具厂里面偷出来的.]]></Value>
     </Values>
   </Config>
   <Config name="fuelTankSmallFlat">
@@ -377,14 +377,14 @@
   <Config name="ksp_r_largeBatteryPack">
     <Values>
       <Value name="title"><![CDATA[Z-400充电电池组]]></Value>
-      <Value name="manufacturer"><![CDATA[Zaltonic电子]]></Value>
+      <Value name="manufacturer"><![CDATA[扎尔托尼克电子产品]]></Value>
       <Value name="description"><![CDATA[Z-400电池组是一个多用途的高密度电能储存解决方案,适用于AAAA电池无法承受的高负载.包含一个可以承载400单位电能的E型电池.]]></Value>
     </Values>
   </Config>
   <Config name="ladder1">
     <Values>
       <Value name="title"><![CDATA[飞马I型移动强化装置]]></Value>
-      <Value name="manufacturer"><![CDATA[Rokea股份有限公司]]></Value>
+      <Value name="manufacturer"><![CDATA[瑞克艺电子产品公司]]></Value>
       <Value name="description"><![CDATA[飞马I型移动强化装置,在某些圈子内被称作'梯子'的玩意儿,是一件'存在即合理'的垂直机动装置,它可以让你的勇猛的宇航员们像嗑了药一般在飞船的外部毫无限制地快速移动.]]></Value>
     </Values>
   </Config>
@@ -411,16 +411,16 @@
   </Config>
   <Config name="largeAdapter2">
     <Values>
-      <Value name="title"><![CDATA[极限火箭牌转接器第二代]]></Value>
-      <Value name="manufacturer"><![CDATA[极限火箭合资企业]]></Value>
-      <Value name="description"><![CDATA[极限火箭出品的一个短一点的转接器,在一个和它的大哥哥类似的环境下制成.表面涂有童叟无欺的空间防护涂层.]]></Value>
+      <Value name="title"><![CDATA[罗茨科马克斯企业牌转接器第二代]]></Value>
+      <Value name="manufacturer"><![CDATA[罗茨科马克斯企业合资企业]]></Value>
+      <Value name="description"><![CDATA[罗茨科马克斯企业出品的一个短一点的转接器,在一个和它的大哥哥类似的环境下制成.表面涂有童叟无欺的空间防护涂层.]]></Value>
     </Values>
   </Config>
   <Config name="largeAdapter">
     <Values>
-      <Value name="title"><![CDATA[极限火箭牌转接器]]></Value>
-      <Value name="manufacturer"><![CDATA[极限火箭合资企业]]></Value>
-      <Value name="description"><![CDATA[政府方面的压力和一些法律条文迫使极限火箭最终考虑制作了一款能将自己的产品与它竞争对手的产品连接在一起的转接器.虽然极限火箭的老总十分恨它,但它却是一款十分成功的产品.]]></Value>
+      <Value name="title"><![CDATA[罗茨科马克斯企业牌转接器]]></Value>
+      <Value name="manufacturer"><![CDATA[罗茨科马克斯企业合资企业]]></Value>
+      <Value name="description"><![CDATA[政府方面的压力和一些法律条文迫使罗茨科马克斯企业最终考虑制作了一款能将自己的产品与它竞争对手的产品连接在一起的转接器.虽然罗茨科马克斯企业的老总十分恨它,但它却是一款十分成功的产品.]]></Value>
     </Values>
   </Config>
   <Config name="largeSolarPanel">
@@ -446,15 +446,15 @@
   </Config>
   <Config name="liquidEngine1-2">
     <Values>
-      <Value name="title"><![CDATA[极限火箭'主帆'液体燃料引擎]]></Value>
-      <Value name="manufacturer"><![CDATA[极限火箭合资企业]]></Value>
+      <Value name="title"><![CDATA[罗茨科马克斯企业'主帆'液体燃料引擎]]></Value>
+      <Value name="manufacturer"><![CDATA[罗茨科马克斯企业合资企业]]></Value>
       <Value name="description"><![CDATA[一款纯粹为了重型大推力火箭发射而诞生的怪物,它的功率完全可以匹敌一些小国家!]]></Value>
     </Values>
   </Config>
   <Config name="liquidEngine2-2">
     <Values>
-      <Value name="title"><![CDATA[极限火箭'贵宾犬'液体燃料引擎]]></Value>
-      <Value name="manufacturer"><![CDATA[极限火箭合资企业]]></Value>
+      <Value name="title"><![CDATA[罗茨科马克斯企业'贵宾犬'液体燃料引擎]]></Value>
+      <Value name="manufacturer"><![CDATA[罗茨科马克斯企业合资企业]]></Value>
       <Value name="description"><![CDATA[适合在资金紧缺时使用的引擎,减小节流阀后也可以用来烧烤.]]></Value>
     </Values>
   </Config>
@@ -474,9 +474,9 @@
   </Config>
   <Config name="liquidEngineMini">
     <Values>
-      <Value name="title"><![CDATA[极限火箭 48-7S液体燃料引擎]]></Value>
-      <Value name="manufacturer"><![CDATA[极限火箭合资企业]]></Value>
-      <Value name="description"><![CDATA[48-7S虽然很小,但却拥有着与外表不符的强劲动力.这款引擎提出了大不代表强的新颖观点,至少极限火箭合资企业销售部门的数据是这样显示的....这款引擎的包装盒看起来非常酷,从任何意义上都是.]]></Value>
+      <Value name="title"><![CDATA[罗茨科马克斯企业 48-7S液体燃料引擎]]></Value>
+      <Value name="manufacturer"><![CDATA[罗茨科马克斯企业合资企业]]></Value>
+      <Value name="description"><![CDATA[48-7S虽然很小,但却拥有着与外表不符的强劲动力.这款引擎提出了大不代表强的新颖观点,至少罗茨科马克斯企业合资企业销售部门的数据是这样显示的....这款引擎的包装盒看起来非常酷,从任何意义上都是.]]></Value>
     </Values>
   </Config>
   <Config name="liquidEngine">
@@ -545,7 +545,7 @@
   <Config name="mk2LanderCabin">
     <Values>
       <Value name="title"><![CDATA[Mk2着陆舱]]></Value>
-      <Value name="manufacturer"><![CDATA[Sean罐头厂]]></Value>
+      <Value name="manufacturer"><![CDATA[肖恩鲑鱼罐头厂]]></Value>
       <Value name="description"><![CDATA[这个舒适的舱体拥有两个座位,并且它的重量非常的轻.但是,不要指望它能抵御再入大气层时的冲击,甚至一个喷嚏就能让它散架.]]></Value>
     </Values>
   </Config>
@@ -664,14 +664,14 @@
   <Config name="probeStackLarge">
     <Values>
       <Value name="title"><![CDATA[RC-L01远程控制单元]]></Value>
-      <Value name="manufacturer"><![CDATA[STEADLER建设兵团]]></Value>
-      <Value name="description"><![CDATA[RGU系统的大号版本,是与极限火箭合资企业联合开发出来的.]]></Value>
+      <Value name="manufacturer"><![CDATA[盗梦者工程学院]]></Value>
+      <Value name="description"><![CDATA[RGU系统的大号版本,是与罗茨科马克斯企业合资企业联合开发出来的.]]></Value>
     </Values>
   </Config>
   <Config name="probeStackSmall">
     <Values>
       <Value name="title"><![CDATA[RC-001S远程控制单元]]></Value>
-      <Value name="manufacturer"><![CDATA[STEADLER建设兵团]]></Value>
+      <Value name="manufacturer"><![CDATA[盗梦者工程学院]]></Value>
       <Value name="description"><![CDATA[拜无所不在的人力资源部门所赐,远程控制单元RGU被开发出来,RGU不仅仅可以控制无人的火箭,还搭载了内置的动量轮,同时抗干扰能力也大大提高.]]></Value>
     </Values>
   </Config>
@@ -712,8 +712,8 @@
   </Config>
   <Config name="radialLiquidEngine1-2">
     <Values>
-      <Value name="title"><![CDATA[极限火箭 55型径向安装液体燃料引擎]]></Value>
-      <Value name="manufacturer"><![CDATA[极限火箭合资企业]]></Value>
+      <Value name="title"><![CDATA[罗茨科马克斯企业 55型径向安装液体燃料引擎]]></Value>
+      <Value name="manufacturer"><![CDATA[罗茨科马克斯企业合资企业]]></Value>
       <Value name="description"><![CDATA[一位足够疯狂的工程师设计并制造革命性的新型发动机.在一番疯狂的研究后,研究者们转而求助于引擎业的泰斗--著名的工程师Eumon Kerman.他的工作最终悲惨地结束了,而这就是我们最后的成果.]]></Value>
     </Values>
   </Config>
@@ -859,8 +859,8 @@
   </Config>
   <Config name="smallRadialEngine">
     <Values>
-      <Value name="title"><![CDATA[极限火箭 24-77型液体燃料引擎]]></Value>
-      <Value name="manufacturer"><![CDATA[极限火箭合资企业]]></Value>
+      <Value name="title"><![CDATA[罗茨科马克斯企业 24-77型液体燃料引擎]]></Value>
+      <Value name="manufacturer"><![CDATA[罗茨科马克斯企业合资企业]]></Value>
       <Value name="description"><![CDATA[小引擎有大用途!它特别适合那些无法在侧边安装更大引擎的飞船.尽管如此,你仍需要许多这玩意来推动更大的载荷.]]></Value>
     </Values>
   </Config>
@@ -901,8 +901,8 @@
   </Config>
   <Config name="solidBooster1-1">
     <Values>
-      <Value name="title"><![CDATA[极限火箭 BACC固体燃料助推器]]></Value>
-      <Value name="manufacturer"><![CDATA[极限火箭合资企业]]></Value>
+      <Value name="title"><![CDATA[罗茨科马克斯企业 BACC固体燃料助推器]]></Value>
+      <Value name="manufacturer"><![CDATA[罗茨科马克斯企业合资企业]]></Value>
       <Value name="description"><![CDATA[它填满了新型的,同时更易爆的燃料.BACC有一个不错的价格以及与之相符不怎么靠谱的性能.]]></Value>
     </Values>
   </Config>
@@ -916,14 +916,14 @@
   <Config name="spotLight1">
     <Values>
       <Value name="title"><![CDATA[照明者 Mk1]]></Value>
-      <Value name="manufacturer"><![CDATA[Rokea股份有限公司]]></Value>
-      <Value name="description"><![CDATA[Rokea开发的照明者Mk1能向前方射出很强烈的光束,增加被照到的地区的亮度(它其实就是一个巨大的闪光灯).]]></Value>
+      <Value name="manufacturer"><![CDATA[瑞克艺电子产品公司]]></Value>
+      <Value name="description"><![CDATA[瑞克艺开发的照明者Mk1能向前方射出很强烈的光束,增加被照到的地区的亮度(它其实就是一个巨大的闪光灯).]]></Value>
     </Values>
   </Config>
   <Config name="spotLight2">
     <Values>
       <Value name="title"><![CDATA[照明者 Mk2]]></Value>
-      <Value name="manufacturer"><![CDATA[Rokea股份有限公司]]></Value>
+      <Value name="manufacturer"><![CDATA[瑞克艺电子产品公司]]></Value>
       <Value name="description"><![CDATA[照明者Mk2射出的是一种超宽的光束,亮度较低,照明距离也有限但能够照亮很宽广的一片区域.]]></Value>
     </Values>
   </Config>
@@ -999,9 +999,9 @@
   </Config>
   <Config name="stationHub">
     <Values>
-      <Value name="title"><![CDATA[极限火箭牌 HubMax多向连接器]]></Value>
-      <Value name="manufacturer"><![CDATA[极限火箭合资企业]]></Value>
-      <Value name="description"><![CDATA[当HubMax多向连接器在第三届火箭和爆炸节上揭幕时,引起的震惊使得一些赞助商们当场休克而死.'我这辈子一直以为火箭部件只能向一个方向放置---向上!但是极限火箭今天打破了这种说法'-一名不愿意透露姓名的幸存者说.毫无疑问,这个部件很有可能在建造技术上引发一场革命.配套使用的对接口另售.]]></Value>
+      <Value name="title"><![CDATA[罗茨科马克斯企业牌 HubMax多向连接器]]></Value>
+      <Value name="manufacturer"><![CDATA[罗茨科马克斯企业合资企业]]></Value>
+      <Value name="description"><![CDATA[当HubMax多向连接器在第三届火箭和爆炸节上揭幕时,引起的震惊使得一些赞助商们当场休克而死.'我这辈子一直以为火箭部件只能向一个方向放置---向上!但是罗茨科马克斯企业今天打破了这种说法'-一名不愿意透露姓名的幸存者说.毫无疑问,这个部件很有可能在建造技术上引发一场革命.配套使用的对接口另售.]]></Value>
     </Values>
   </Config>
   <Config name="structuralIBeam1">
@@ -1027,9 +1027,9 @@
   </Config>
   <Config name="structuralMiniNode">
     <Values>
-      <Value name="title"><![CDATA[这不是极限火箭牌的微型连接点]]></Value>
+      <Value name="title"><![CDATA[这不是罗茨科马克斯企业牌的微型连接点]]></Value>
       <Value name="manufacturer"><![CDATA[Dinkelstein Kerman建材超市]]></Value>
-      <Value name="description"><![CDATA[Dinkelstein Kerman建材超市坚决否认由这个产品和一个来自极限火箭牌的某产品的相似性引发的有关商业间谍活动的任何和一切指控.]]></Value>
+      <Value name="description"><![CDATA[Dinkelstein Kerman建材超市坚决否认由这个产品和一个来自罗茨科马克斯企业牌的某产品的相似性引发的有关商业间谍活动的任何和一切指控.]]></Value>
     </Values>
   </Config>
   <Config name="structuralPanel1">
@@ -1098,14 +1098,14 @@
   <Config name="telescopicLadderBay">
     <Values>
       <Value name="title"><![CDATA[Telus-LV舱外移动辅助装置]]></Value>
-      <Value name="manufacturer"><![CDATA[Rokea股份有限公司]]></Value>
+      <Value name="manufacturer"><![CDATA[瑞克艺电子产品公司]]></Value>
       <Value name="description"><![CDATA[Telus-LV-舱外移动辅助装置带有先进的伸缩延展技术.建议载重:1.5个Kerbal宇航员.]]></Value>
     </Values>
   </Config>
   <Config name="telescopicLadder">
     <Values>
       <Value name="title"><![CDATA[Telus垂直机动装置]]></Value>
-      <Value name="manufacturer"><![CDATA[Rokea股份有限公司]]></Value>
+      <Value name="manufacturer"><![CDATA[瑞克艺电子产品公司]]></Value>
       <Value name="description"><![CDATA[Telus-垂直机动装置带有先进的伸缩延展技术,建议载重:0.5个Kerbal宇航员.]]></Value>
     </Values>
   </Config>
@@ -1204,7 +1204,7 @@
     <Values>
       <Value name="title"><![CDATA[Vernor引擎]]></Value>
       <Value name="manufacturer"><![CDATA[反应系统有限公司]]></Value>
-      <Value name="description"><![CDATA[VR-N1ER,Veer节速器,或者叫做Vernor引擎,是一款用于控制飞行高度的推进器.这些小引擎与RCS控制部分直接相连,但使用的推进剂是液体燃料和氧化剂,这使得其推力明显比传统单组元燃料RCS推进器要大得多.当然相比之下这种推进器也要比标准RCS推进器重得多,而且向外的喷口只有一个,不过权衡一下以后也算值了.]]></Value>
+      <Value name="description"><![CDATA[管理变向虚拟-质子引擎，哦太长了，就叫“变质”引擎吧，这是一种姿态控制推进器。这些马达与RCS相连，由燃料和氧化剂提供动力，因此比单组RCS推进器的动力更大。他们在虽然比较笨重，而且只有一个外侧喷嘴，但大多数人认为，较高的比冲让它们仍有用武之地。]]></Value>
     </Values>
   </Config>
 
@@ -1212,7 +1212,7 @@
   <Config url="Squad/Agencies/Agents/Dinkelstein Kerman's Construction Emporium" type="AGENT" >
     <Values>
       <Value name="description">
-        <![CDATA[在某些意义上, Dinkelstein Kerman已经成为航天产业中的传奇人物, 这主要是因为他坚称, 自己在有史可考的最早完整飞行器出现年代之前就已经开始建造和试飞航天器了. 这导致了他和Kerbin世界第一纪录保持协会之间的一系列口水仗和长时间的尴尬局面. 当然尽管如此, Dinklestein家的超市还是作为一家老牌传统企业而久负盛名, 他们的产品在老掉牙程度这方面, 也确实比光顾他们的客户要靠谱多了.]]>
+        <![CDATA[在某些意义上, 丁克尔斯坦.科尔曼已经成为航天产业中的传奇人物, 这主要是因为他坚称, 自己在有史可考的最早完整飞行器出现年代之前就已经开始建造和试飞航天器了. 这导致了他和坎巴拉世界第一纪录保持协会之间的一系列口水仗和长时间的尴尬局面. 当然尽管如此, Dinklestein家的超市还是作为一家老牌传统企业而久负盛名, 他们的产品在老掉牙程度这方面, 也确实比光顾他们的客户要靠谱多了.]]>
       </Value>
     </Values>
     <Nodes/>
@@ -1260,7 +1260,7 @@
   <Config url="Squad/Agencies/Agents/Kerbin World-Firsts Record-Keeping Society" type="AGENT" >
     <Values>
       <Value name="description">
-        <![CDATA[Kerbin世界第一纪录保持协会是一个非营利性组织, 他们全心全意专注于记录和建档保存一切领域的"第一次"事件, 以此来奖赏那些为前人不敢为之事, 尤其是在太空探索领域实现壮举的人物. 不过实际上, 他们的工作比一般人想象的要有挑战性得多, 因为在某些赛事中拿到"第一"所带来的威望, 对于那些垂涎赛事官方赞助商地位的商业公司来说绝对是棵摇钱树. 接下协会的合同就相当于明确告诉世人, 你接受挑战绝非为了那点金钱报酬, 对你的各方面声誉都有益处. 当然这基本也就是你能拿到的唯一回报了, 协会给的那点钱差不多是象征性的, 少得可怜.]]>
+        <![CDATA[坎巴拉世界第一纪录保持协会是一个非营利性组织, 他们全心全意专注于记录和建档保存一切领域的"第一次"事件, 以此来奖赏那些为前人不敢为之事, 尤其是在太空探索领域实现壮举的人物. 不过实际上, 他们的工作比一般人想象的要有挑战性得多, 因为在某些赛事中拿到"第一"所带来的威望, 对于那些垂涎赛事官方赞助商地位的商业公司来说绝对是棵摇钱树. 接下协会的合同就相当于明确告诉世人, 你接受挑战绝非为了那点金钱报酬, 对你的各方面声誉都有益处. 当然这基本也就是你能拿到的唯一回报了, 协会给的那点钱差不多是象征性的, 少得可怜.]]>
       </Value>
     </Values>
     <Nodes/>
@@ -1308,7 +1308,7 @@
   <Config url="Squad/Agencies/Agents/Research &amp; Development Department" type="AGENT" >
     <Values>
       <Value name="description">
-        <![CDATA[太空计划的官方研发机构. 这支由知名火箭专家Wernher von Kerman带领的团队, 是整个计划的智囊. 他们求知若渴, 从不放过任何哪怕再小甚至完全无关的数据, 这些人最大的动力就是扩大小绿人种族的知识储备库. 我们的这群天才们只提出了以下要求: 按照为科学事业做出的贡献给他们学分, 还有让那些宇航员别再穿着脏鞋子跑到实验室里来. ]]>
+        <![CDATA[太空计划的官方研发机构. 这支由知名火箭专家沃尔荷.冯.克尔曼带领的团队, 是整个计划的智囊. 他们求知若渴, 从不放过任何哪怕再小甚至完全无关的数据, 这些人最大的动力就是扩大小绿人种族的知识储备库. 我们的这群天才们只提出了以下要求: 按照为科学事业做出的贡献给他们学分, 还有让那些宇航员别再穿着脏鞋子跑到实验室里来. ]]>
       </Value>
     </Values>
     <Nodes/>
@@ -1316,7 +1316,7 @@
   <Config url="Squad/Agencies/Agents/Reaction Systems Ltd" type="AGENT" >
     <Values>
       <Value name="description">
-        <![CDATA[反应系统是一家由于一件成功产品, "随便放"7代线性RCS喷口, 而得到了不错的业绩的小公司. 如今外界并不清楚他们又在做什么研发. 虽然反应系统显然算不上业界巨头, 但他们一直在努力开创新事业, 试图迎头赶上. 同时, 这家企业最近一直热衷于提供科研任务类的合约, 让人猜测他们可能要有什么动作.]]>
+        <![CDATA[反应系统有限公司是一家由于一件成功产品, "随便放"7代线性RCS喷口, 而得到了不错的业绩的小公司. 如今外界并不清楚他们又在做什么研发. 虽然反应系统有限公司显然算不上业界巨头, 但他们一直在努力开创新事业, 试图迎头赶上. 同时, 这家企业最近一直热衷于提供科研任务类的合约, 让人猜测他们可能要有什么动作.]]>
       </Value>
     </Values>
     <Nodes/>
@@ -1324,7 +1324,7 @@
   <Config url="Squad/Agencies/Agents/Rockomax Conglomerate" type="AGENT" >
     <Values>
       <Value name="description">
-        <![CDATA[无可争辩, 极限火箭是市场上最大的火箭工业产品供应商, 他们的产品作为最可靠的航天发射利器受到广泛认可. 但是产品风格也给他们在那些追求华丽和前卫的工程师之间带来了差评, 有些反对者还矢口否认自己使用过任何极限火箭品牌的东西. 尽管如此, 极限火箭在业内的强大存在感不容否认, 他们的产品虽然不够潮也没有那些高端企业的设计那么高大上, 但确实物有所值. 这是家超大规模企业, 就别指望有什么VIP优待之类的了. 他们现在在搞全体顾客大酬宾, 附带给合作企业产品的"超值优惠"搭配套餐. 在批发店购买时请主动出示会员卡, 以享受以上优惠.]]>
+        <![CDATA[无可争辩, 罗茨科马克斯企业是市场上最大的火箭工业产品供应商, 他们的产品作为最可靠的航天发射利器受到广泛认可. 但是产品风格也给他们在那些追求华丽和前卫的工程师之间带来了差评, 有些反对者还矢口否认自己使用过任何罗茨科马克斯企业品牌的东西. 尽管如此, 罗茨科马克斯企业在业内的强大存在感不容否认, 他们的产品虽然不够潮也没有那些高端企业的设计那么高大上, 但确实物有所值. 这是家超大规模企业, 就别指望有什么VIP优待之类的了. 他们现在在搞全体顾客大酬宾, 附带给合作企业产品的"超值优惠"搭配套餐. 在批发店购买时请主动出示会员卡, 以享受以上优惠.]]>
       </Value>
     </Values>
     <Nodes/>
@@ -1332,7 +1332,7 @@
   <Config url="Squad/Agencies/Agents/Rokea Inc" type="AGENT" >
     <Values>
       <Value name="description">
-        <![CDATA[Rokea主要以主打产品"垂直移动强化装置"而为人所知, 他们一直竭尽全力宣称这东西不是一架单纯的"梯子", 不要搞错了. 有不少人觉得按成效来看他们这么搞挺失败的, 不过每一个Rokea的销售代表都还是会在客户耳边滔滔不绝, 一遍又一遍地解释梯子和垂直移动强化装置到底有啥不同. 大概这就是为什么从来没人愿意听他们的解释.]]>
+        <![CDATA[瑞克艺电子产品公司主要以主打产品"垂直移动强化装置"而为人所知, 他们一直竭尽全力宣称这东西不是一架单纯的"梯子", 不要搞错了. 有不少人觉得按成效来看他们这么搞挺失败的, 不过每一个瑞克艺电子产品公司的销售代表都还是会在客户耳边滔滔不绝, 一遍又一遍地解释梯子和垂直移动强化装置到底有啥不同. 大概这就是为什么从来没人愿意听他们的解释.]]>
       </Value>
     </Values>
     <Nodes/>
@@ -1340,7 +1340,7 @@
   <Config url="Squad/Agencies/Agents/Sean's Cannery" type="AGENT" >
     <Values>
       <Value name="description">
-        <![CDATA[Sean罐头厂, 这家以优质罐头食品而著称的企业, 为什么要把手伸向航天工程业, 这件事至今还存在不少谜团. 抛开这些质疑不谈, 他们的旗舰产品Mk2着陆舱, 已经意料之中地被成功证明是现役气密性最好的几款载人舱之一. 乘坐过这款着陆舱的组员们都对这东西的一大优点大加赞赏, 就是放在里面的零食可以长期保持香脆可口, 然后就开始抱怨, 说其他载人舱里面零食放几天就受潮不好吃了.]]>
+        <![CDATA[肖恩鲑鱼罐头厂, 这家以优质罐头食品而著称的企业, 为什么要把手伸向航天工程业, 这件事至今还存在不少谜团. 抛开这些质疑不谈, 他们的旗舰产品Mk2着陆舱, 已经意料之中地被成功证明是现役气密性最好的几款载人舱之一. 乘坐过这款着陆舱的组员们都对这东西的一大优点大加赞赏, 就是放在里面的零食可以长期保持香脆可口, 然后就开始抱怨, 说其他载人舱里面零食放几天就受潮不好吃了.]]>
       </Value>
     </Values>
     <Nodes/>
@@ -1348,7 +1348,7 @@
   <Config url="Squad/Agencies/Agents/STEADLER Engineering Corps" type="AGENT" >
     <Values>
       <Value name="description">
-        <![CDATA[STEADLER的一贯形象并不是特别友善或者随和. 相反, 军事化管理, 严肃而决不妥协的作风, 这些形容词才更适合他们. 有人觉得, 这才是专业做火箭控制系统和超音速飞行器的公司应有的优良企业文化, 但也有人评价说, 这公司就像是在被一台疯狂而又有智慧的导航计算机操纵着运转. 外界只知道他们门口的保安脾气不太好, 一般人不太容易接近大门, 而且这帮保安用的电击枪永远是满电.]]>
+        <![CDATA[盗梦者工程学院的一贯形象并不是特别友善或者随和. 相反, 军事化管理, 严肃而决不妥协的作风, 这些形容词才更适合他们. 有人觉得, 这才是专业做火箭控制系统和超音速飞行器的公司应有的优良企业文化, 但也有人评价说, 这公司就像是在被一台疯狂而又有智慧的导航计算机操纵着运转. 外界只知道他们门口的保安脾气不太好, 一般人不太容易接近大门, 而且这帮保安用的电击枪永远是满电.]]>
       </Value>
     </Values>
     <Nodes/>
@@ -1356,7 +1356,7 @@
   <Config url="Squad/Agencies/Agents/StrutCo" type="AGENT" >
     <Values>
       <Value name="description">
-        <![CDATA[作为最大的通用结构件生产商之一, 从各种意义上来说支柱公司都是一家信誉卓著的企业. 他们唯一始终摆脱不了的阴影, 就是自家的传奇产品, EAS-4支柱连接器, 实际上是由Kerlington模型火箭研发的.]]>
+        <![CDATA[建材公司作为最大的通用结构件生产商之一, 从各种意义上来说支柱公司都是一家信誉卓著的企业. 他们唯一始终摆脱不了的阴影, 就是自家的传奇产品, EAS-4支柱连接器, 实际上是由Kerlington模型火箭研发的.]]>
       </Value>
     </Values>
     <Nodes/>
@@ -1364,7 +1364,7 @@
   <Config url="Squad/Agencies/Agents/Vac-Co Advanced Suction Systems" type="AGENT" >
     <Values>
       <Value name="description">
-        <![CDATA[Vac-Co这家公司在航天领域还是新面孔. 一家之前只生产过家居清洁用品和小家电的企业, 最近突然进军航空航天业界, 这自然引起了不少揣测. 尽管舆论如此, 他们似乎还是知道自己在干什么, 近期推出的新产品, 飞机用进气道, 也确实相当有想法.]]>
+        <![CDATA[维卡高级吸尘器公司这家公司在航天领域还是新面孔. 一家之前只生产过家居清洁用品和小家电的企业, 最近突然进军航空航天业界, 这自然引起了不少揣测. 尽管舆论如此, 他们似乎还是知道自己在干什么, 近期推出的新产品, 飞机用进气道, 也确实相当有想法.]]>
       </Value>
     </Values>
     <Nodes/>
@@ -1380,7 +1380,7 @@
   <Config url="Squad/Agencies/Agents/Zaltonic Electronics" type="AGENT" >
     <Values>
       <Value name="description">
-        <![CDATA[Zaltonics并不算电子产业领军人物, 要说的话应该是一家比较功利主义而缺乏野心的公司. 但这些特征却使得Zaltonic以自己的方式, 成为了业界不可或缺的一份子, 因为他们愿意去生产那些没什么新意的东西, 而且有自家的一套多快好省的生产模式. 他们的产品可能确实没那么潮, 不过如果你酷炫吊炸天的无人控制模块自带电量见了底, 这时候一块Zaltonics电池就可以让它满血原地复活了.]]>
+        <![CDATA[扎尔托尼克电子产品并不算电子产业领军人物, 要说的话应该是一家比较功利主义而缺乏野心的公司. 但这些特征却使得扎尔托尼克电子产品以自己的方式, 成为了业界不可或缺的一份子, 因为他们愿意去生产那些没什么新意的东西, 而且有自家的一套多快好省的生产模式. 他们的产品可能确实没那么潮, 不过如果你酷炫吊炸天的无人控制模块自带电量见了底, 这时候一块扎尔托尼克电子产品电池就可以让它满血原地复活了.]]>
       </Value>
     </Values>
     <Nodes/>
