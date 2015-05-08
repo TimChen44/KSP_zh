@@ -1,8 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <!--一条记录创建一个Config-->
 <Configs>
-  <!--科技探索汉化格式-->
-  <!--id是这个配置下面的id参数就是解决配置类型相同的问题-->
+  <!--合同文本翻译-->
   <Config  url="Squad/Resources/StoryDefs/STORY_DEF">
     <Nodes>
       <Node name="ContractBackstory">
