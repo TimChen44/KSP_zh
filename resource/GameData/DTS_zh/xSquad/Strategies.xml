@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--一条记录创建一个Config-->
+<Configs>
+  <!--战略-->
+  <Config url="Squad/Strategies/Strategies/AppreciationCampaignCfg">
+    <Values>
+	
+      <Value name="title"><![CDATA[欣赏运动]]></Value>
+      <Value name="desc"><![CDATA[(机器翻译，翻译时请润色)我们肯定可以放一些努力提醒 Kerbals 无处不在的只是多么伟大的太空计划是改善我们的形象。广告空间并不是免费的但是。]]></Value>
+    </Values>
+  </Config>
+  <Config url="Squad/Strategies/Strategies/FundraisingCampaignCfg">
+    <Values>
+      <Value name="title"><![CDATA[筹款活动]]></Value>
+      <Value name="desc"><![CDATA[(机器翻译，翻译时请润色)我们可能可以筹集一些钱利用注意我们走出新的成功冒昧地提醒小康 Kerbals，我们可以使用他们的支持和他们的钱包的内容。这可能要被视为有点厚脸皮的我们，所以要准备好去面对一些公众的强烈不满。]]></Value>
+    </Values>
+  </Config>
+</Configs>

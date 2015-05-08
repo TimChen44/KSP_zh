@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--公司介绍汉化-->
+<Configs>
+  <Config url="Squad/Agencies/Agents/Dinkelstein Kerman's Construction Emporium" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[在某些意义上, Dinkelstein Kerman已经成为航天产业中的传奇人物, 这主要是因为他坚称, 自己在有史可考的最早完整飞行器出现年代之前就已经开始建造和试飞航天器了. 这导致了他和Kerbin世界第一纪录保持协会之间的一系列口水仗和长时间的尴尬局面. 当然尽管如此, Dinklestein家的超市还是作为一家老牌传统企业而久负盛名, 他们的产品在老掉牙程度这方面, 也确实比光顾他们的客户要靠谱多了.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/Experimental Engineering Group" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[实践工程小组是一家典型的新兴公司: 超低预算和严格得吓死人的交付期限是他们的工作日常. 虽然资历尚浅, 但实践工程小组确实开了个好头, 迅速在业界站稳了脚跟, 这主要得归功于他们寓教于乐的产品, SC-9001小型科学实验工具箱. 当然尽管他们竭尽全力, 还是没能摆脱因为早期的一些产品事故造成的负面舆论, 其中有一次事故毁掉了他们生产的一台设备, 和一只被研发中心的科学家当宠物养着的小动物. 据说此事之后公司对可能接触自家产品的一切物品的安全性变得极度神经过敏, 连自家的Logo都做了圆角处理.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/FLOOYD Dynamics Research Labs" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[FLOOYD实验室长久以来一直只专注于一项研究工作, 而且这项研究也确实是可行的: 把液体从一个地方抽到另一个地方. 他们的主打产品, FTX-2燃料管, 是多年的研究与无数小绿人们的辛勤劳动的结晶, 这东西可以传输几乎任何物质, 无论这物质有多冷或者多粘稠还是多容易挥发都没问题. 公司因为对业界的这项重大技术贡献而名声大噪, 广受各界好评. 当然已经几乎没什么人记得了, 当年他们的第一款产品FTX-1曾经因为一个小而麻烦的问题而遭遇重挫, 就是这东西虽然输送液体很流畅, 但是流向老是搞错.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/Integrated Integrals" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[这家小公司确实缺乏资历名气也不大, 完全是靠产品自身的魅力来吸引客户. 他们的第一款产品是那款重得要命的移动处理实验室, 据小道消息称, 这东西一开始是被用作某种实验中的燃料配方的移动处理工厂而研发, 而那个配方很可能是非法的, 据说效果比现有的任何推进剂都要强力, 成品带有某种独特的蓝色. 当然以上传言都还没被证实或者证伪, 神秘的蓝色燃料也没有被任何可靠的消息来源目击过. 虽然他们对这些流言一而再再而三地予以否认, 这家公司还是整天被各种(应该是莫名其妙的)恶评所围绕. 管理层一直在用给员工加薪 -- 甚至加得远高于同类型企业 -- 这样的方法来试图扭转公众印象, 目前看来收效甚微.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/Ionic Symphonic Protonic Electronics" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[航天器电子设备产业的领军品牌之一, 能得到这名号可不只是因为名字听起来很酷. 离子-质子同步电子工业有一整条完善的产品线, 涵盖面从简单的通讯设备到手工磨制的精密齿轮都有. 这使得他们的产品在航空工程师之间大受欢迎, 也因此和探索者动力公司那群贯彻实用主义的家伙结下了深仇大恨.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/Jebediah Kerman's Junkyard and Spacecraft Parts Co" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[在看似无法克服的障碍面前永不动摇勇往直前, 从这股气势方面来说, Jeb的垃圾场堪称公认的业界典范. 这家低调的垃圾场公司, 在他们小小的堆放场里迈出了小绿人种族向遥远深空前进的最初步伐之后, 如今其规模已经为了适应日益增长的航天产业需求而大幅扩张, 变成了一片大型垃圾场. Jeb的垃圾场公司已在Kerbin家喻户晓, 不止是"受欢迎"那么简单, 而是已经成为行业标杆. 这家企业代表着小绿人们永无止尽挑战极限的精神与动力, 虽然这种精神好像有点太不把万有引力放在眼里了.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/Kerbin World-Firsts Record-Keeping Society" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[Kerbin世界第一纪录保持协会是一个非营利性组织, 他们全心全意专注于记录和建档保存一切领域的"第一次"事件, 以此来奖赏那些为前人不敢为之事, 尤其是在太空探索领域实现壮举的人物. 不过实际上, 他们的工作比一般人想象的要有挑战性得多, 因为在某些赛事中拿到"第一"所带来的威望, 对于那些垂涎赛事官方赞助商地位的商业公司来说绝对是棵摇钱树. 接下协会的合同就相当于明确告诉世人, 你接受挑战绝非为了那点金钱报酬, 对你的各方面声誉都有益处. 当然这基本也就是你能拿到的唯一回报了, 协会给的那点钱差不多是象征性的, 少得可怜.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/Kerbodyne" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[科博达因, 这名字在航空航天产业确实还是新鲜面孔, 不过他们的K系列引擎和燃料箱迅速为自己赢得了可观的声誉. 事实上, 在去年的航天器开发者大会上, 科博达因曾经被提名为"最佳新兴企业"奖项候选者. 结局很遗憾, 该奖项被另一家公司摘得, 但科博达因的粉丝们依然像众所周知的一样, 骄傲地在大众面前高声表达自己对这家企业和他们的产品的喜爱.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/Kerlington Model Rockets and Paper Products Inc" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[Kerlington的产品以眼光独到著称已经很有年头了, 这家公司的许多产品如今都是火箭和航天工程学中的必备品. 这就自然地培养出了一大批铁杆拥趸, 当然也弄出了一大批整天愤愤不平的竞争对手来.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/Moving Parts Experts Group" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[运动部件专家组刚开始创建的时候也是个非盈利组织, 主要着眼于把一群聪明人汇集到一起, 然后在航天工程界搞出点既有创意又史无前例的技术来. 当然和不少一开始这么想的企业一样, 他们那点注册资金很快就花完了, 然后被迫争分夺秒去开发点能卖出好价钱的东西. 所以说这个组织给人的印象, 差不多就是一直都是急急忙忙的, 然后一直都很缺钱. 现在他们在组织运作中依然尽可能地努力保持自己的初衷, 而且始终愿意为了冲破传统认知中的极限去冒险. ]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/O.M.B. Demolition Enterprises" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[O.M.B.作为一家以整天搞破坏工作而闻名的公司, 如今已经替自家的爆炸装置在航天产业中找到了相当合适的一席之地. 他们生产的高精密度分离器产品, 在要求把航天器切断或者炸成一堆小部件的情况下, 实用性首屈一指. 但是他们其他那些整天用广告狂轰滥炸, 被称为"更强大的拆迁工具"的爆破类产品, 却没有前者卖得那么好. O.M.B.至今也没搞明白那些"显然更好"的产品到底是为什么没被市场广泛接受.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/Probodobodyne Inc" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[探测者动力曾经是为数不多的业内领军品牌之一. 但随着时间流逝, 这家公司在某些方面已经落伍了, 不过他们还是秉承着他们自己的哲学观, 即宇宙探索应该是少数能只用极少技术手段辅助, 来克服过程中重重挑战的人的特权. 他们的产品也反映出了这种奉行实用主义至上--甚至已经到了脱离时代的程度--的偏执, 尽管这年头出现的新兴企业都开始走让太空航行比早期更加亲民的路线了. 把这些先放一边, 这家公司还是有一小批眼光相当挑剔的死忠拥护者, 其实基本也就是那些老牌航天员和工程师了.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/Research &amp; Development Department" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[太空计划的官方研发机构. 这支由知名火箭专家Wernher von Kerman带领的团队, 是整个计划的智囊. 他们求知若渴, 从不放过任何哪怕再小甚至完全无关的数据, 这些人最大的动力就是扩大小绿人种族的知识储备库. 我们的这群天才们只提出了以下要求: 按照为科学事业做出的贡献给他们学分, 还有让那些宇航员别再穿着脏鞋子跑到实验室里来. ]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/Reaction Systems Ltd" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[反应系统是一家由于一件成功产品, "随便放"7代线性RCS喷口, 而得到了不错的业绩的小公司. 如今外界并不清楚他们又在做什么研发. 虽然反应系统显然算不上业界巨头, 但他们一直在努力开创新事业, 试图迎头赶上. 同时, 这家企业最近一直热衷于提供科研任务类的合约, 让人猜测他们可能要有什么动作.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/Rockomax Conglomerate" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[无可争辩, 极限火箭是市场上最大的火箭工业产品供应商, 他们的产品作为最可靠的航天发射利器受到广泛认可. 但是产品风格也给他们在那些追求华丽和前卫的工程师之间带来了差评, 有些反对者还矢口否认自己使用过任何极限火箭品牌的东西. 尽管如此, 极限火箭在业内的强大存在感不容否认, 他们的产品虽然不够潮也没有那些高端企业的设计那么高大上, 但确实物有所值. 这是家超大规模企业, 就别指望有什么VIP优待之类的了. 他们现在在搞全体顾客大酬宾, 附带给合作企业产品的"超值优惠"搭配套餐. 在批发店购买时请主动出示会员卡, 以享受以上优惠.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/Rokea Inc" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[Rokea主要以主打产品"垂直移动强化装置"而为人所知, 他们一直竭尽全力宣称这东西不是一架单纯的"梯子", 不要搞错了. 有不少人觉得按成效来看他们这么搞挺失败的, 不过每一个Rokea的销售代表都还是会在客户耳边滔滔不绝, 一遍又一遍地解释梯子和垂直移动强化装置到底有啥不同. 大概这就是为什么从来没人愿意听他们的解释.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/Sean's Cannery" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[Sean罐头厂, 这家以优质罐头食品而著称的企业, 为什么要把手伸向航天工程业, 这件事至今还存在不少谜团. 抛开这些质疑不谈, 他们的旗舰产品Mk2着陆舱, 已经意料之中地被成功证明是现役气密性最好的几款载人舱之一. 乘坐过这款着陆舱的组员们都对这东西的一大优点大加赞赏, 就是放在里面的零食可以长期保持香脆可口, 然后就开始抱怨, 说其他载人舱里面零食放几天就受潮不好吃了.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/STEADLER Engineering Corps" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[STEADLER的一贯形象并不是特别友善或者随和. 相反, 军事化管理, 严肃而决不妥协的作风, 这些形容词才更适合他们. 有人觉得, 这才是专业做火箭控制系统和超音速飞行器的公司应有的优良企业文化, 但也有人评价说, 这公司就像是在被一台疯狂而又有智慧的导航计算机操纵着运转. 外界只知道他们门口的保安脾气不太好, 一般人不太容易接近大门, 而且这帮保安用的电击枪永远是满电.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/StrutCo" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[作为最大的通用结构件生产商之一, 从各种意义上来说支柱公司都是一家信誉卓著的企业. 他们唯一始终摆脱不了的阴影, 就是自家的传奇产品, EAS-4支柱连接器, 实际上是由Kerlington模型火箭研发的.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/Vac-Co Advanced Suction Systems" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[Vac-Co这家公司在航天领域还是新面孔. 一家之前只生产过家居清洁用品和小家电的企业, 最近突然进军航空航天业界, 这自然引起了不少揣测. 尽管舆论如此, 他们似乎还是知道自己在干什么, 近期推出的新产品, 飞机用进气道, 也确实相当有想法.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/WinterOwl Aircraft Emporium" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[冬鸮商场和其他大型航空企业在某些方面完全没有可比性, 尤其是产品种类方面占绝对劣势. 但是, 这家公司因为运营历史悠久, 在业内还是久负盛名. 这家老公司给人的一贯印象就是友好而可靠的搭档, 这点使得他们在众多同行之间也算声誉优良. 在航空业界, 对冬鸮本身或者其产品不屑的人会被评价为极其不礼貌.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+  <Config url="Squad/Agencies/Agents/Zaltonic Electronics" type="AGENT" >
+    <Values>
+      <Value name="description">
+        <![CDATA[Zaltonics并不算电子产业领军人物, 要说的话应该是一家比较功利主义而缺乏野心的公司. 但这些特征却使得Zaltonic以自己的方式, 成为了业界不可或缺的一份子, 因为他们愿意去生产那些没什么新意的东西, 而且有自家的一套多快好省的生产模式. 他们的产品可能确实没那么潮, 不过如果你酷炫吊炸天的无人控制模块自带电量见了底, 这时候一块Zaltonics电池就可以让它满血原地复活了.]]>
+      </Value>
+    </Values>
+    <Nodes/>
+  </Config>
+</Configs>
