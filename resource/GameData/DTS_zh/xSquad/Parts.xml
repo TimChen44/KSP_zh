@@ -14,7 +14,7 @@
     <Values>
       <Value name="title"><![CDATA[标准鸭翼]]></Value>
       <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
-      <Value name="description"><![CDATA[我们的工程师在”参观”了Kerlington的制造厂后犹如脑子进水般思如泉涌,设计出了这款崭新的鸭翼.警告:剧烈机动有可能导致意外的分级.]]></Value>
+      <Value name="description"><![CDATA[我们的工程师在”参观”了Kerlington的制造厂后犹如脑子进水般思如泉涌,设计出了这款崭新的鸭翼.警告:剧烈机动有可能导致撕裂损毁.]]></Value>
     </Values>
   </Config>
   <Config name="CircularIntake">
