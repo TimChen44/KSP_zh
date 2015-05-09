@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--一条记录创建一个Config-->
+<Configs>
+  <!--战略-->
+  <Config url="Squad/Strategies/Departments/Finances">
+    <Values>
+      <Value name="desc"><![CDATA[(机器翻译，翻译时请润色)他是一名会计师，被称为莫蒂默。他没有很多朋友，但他喜欢的东西放在控制之下和安排在正确的角度。这项工作是对他来说相当紧张。]]></Value>
+    </Values>
+  </Config>
+  <Config url="Squad/Strategies/Departments/Science">
+    <Values>
+      <Value name="desc"><![CDATA[(机器翻译，翻译时请润色)李纳斯是沃纳 · 冯 · 克尔曼的实习生。因为自己的沃纳是太重要了，烦恼与这些无聊的战略会议。他替他送他的实习生。]]></Value>
+    </Values>
+  </Config>
+  <Config url="Squad/Strategies/Departments/Science">
+    <Values>
+      <Value name="desc"><![CDATA[(机器翻译，翻译时请润色)李纳斯是沃纳 · 冯 · 克尔曼的实习生。因为自己的沃纳是太重要了，烦恼与这些无聊的战略会议。他替他送他的实习生。]]></Value>
+    </Values>
+  </Config>
+  <Config url="Squad/Strategies/Departments/Public Relations">
+    <Values>
+      <Value name="desc"><![CDATA[(机器翻译，翻译时请润色)沃尔特 · 科曼是太空计划的发言人。他戴着穿上防护衣。这并不是严格要求自己的工作，但它似乎是适当的在有毒的环境中工作的人。]]></Value>
+    </Values>
+  </Config>
+  <Config url="Squad/Strategies/Departments/Operations">
+    <Values>
+      <Value name="desc"><![CDATA[(机器翻译，翻译时请润色)Gus 克尔曼是头部空间程序操作和全面维修家伙每当这儿东西坏了。我们希望没有什么着火时他在这里。]]></Value>
+    </Values>
+  </Config>
+</Configs>

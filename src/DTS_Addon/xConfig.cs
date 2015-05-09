@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
+
 using System.Text;
 using System.Xml;
 using UnityEngine;
@@ -13,13 +13,6 @@ namespace DTS_zh
     {
         void OnGUI()
         {
-            //if (GUI.Button(new Rect(50, 300, 100, 20), "再次加载"))
-            //{
-            //    List<Config> configs = LoadXml();
-            //    Debug.LogWarning(configs.Count.ToString());
-
-            //    loaded = false;
-            //}
         }
 
         public static xConfg XConfg;
@@ -45,31 +38,21 @@ namespace DTS_zh
         {
             try
             {
-
-
                 List<Config> configs = LoadXml();
 
                 foreach (var config in configs)
                 {
-                    //var kspConfig = GameDatabase.Instance.root.AllConfigs
-                    //    .FirstOrDefault(x => x.name == config.Name && x.type == config.Name && x.url == config.Url);
                     var kspConfig = GetUrlConfig(GameDatabase.Instance.root.AllConfigs, config);
                     if (kspConfig == null)
                     {
                         continue;
                     }
-
                     var nodecopy = DeepCopy(kspConfig.config);
-
                     HzValues(nodecopy.values, config.Values);
                     HzNodes(nodecopy.nodes, config.Nodes);
 
                     kspConfig.config.ClearData();
                     nodecopy.CopyTo(kspConfig.config);
-
-                    //HzValues(kspConfig.config.values, config.Values);
-
-                    //HzNodes(kspConfig.config.nodes, config.Nodes);
                 }
 
             }
@@ -121,14 +104,12 @@ namespace DTS_zh
             return null;
         }
 
-
         //汉化参数
         public void HzValues(ConfigNode.ValueList valueList, List<Value> values)
         {
             foreach (ConfigNode.Value kspValue in valueList)
             {
                 var hzValue = GetValue(values, kspValue.name);
-                //var hzValue = values.FirstOrDefault(x => x.name == kspValue.name);
                 if (hzValue != null)
                 {
                     kspValue.value = hzValue.value;
@@ -153,11 +134,11 @@ namespace DTS_zh
             foreach (ConfigNode kspNode in nodeList)
             {
                 var hzNode = GetNode(nodes, kspNode);
-                // var hzNode = nodes.FirstOrDefault(x => x.Id == kspNode.id);
                 if (hzNode != null)
                 {
                     HzValues(kspNode.values, hzNode.Values);
                     HzNodes(kspNode.nodes, hzNode.Nodes);
+                    nodes.Remove(hzNode);
                 }
             }
         }
@@ -170,12 +151,10 @@ namespace DTS_zh
                 Debug.LogWarning(nodes.Count + "::kspNode is Null");
                 return null;
             }
-            // Debug.LogWarning(nodes.Count + "=======" + kspNode.id + ":" + kspNode.name + ":" + kspNode.CountValues.ToString() + ":" + kspNode.CountNodes.ToString());
             foreach (var item in nodes)
             {
                 if (item.Id != null && item.Id != "" && item.Id == kspNode.id) return item;
                 if (item.Name != null && item.Name != "" && item.Name == kspNode.name) return item;
-                //Debug.LogWarning("[xConfig]" + item.Name + "--" + kspNode.name);
                 //如果Node的values中有Id，并且匹配的话就同样操作当前node
                 if (item.Id != null && item.Id != "")
                 {
@@ -207,7 +186,7 @@ namespace DTS_zh
             Debug.Log("[xConfig]Loaded:" + configs.Count.ToString());
 
             //支持多配置文件
-            foreach (string file in Directory.GetFiles("GameData/DTS_zh/xSquad","*.xml"))
+            foreach (string file in Directory.GetFiles("GameData/DTS_zh/xSquad", "*.xml"))
             {
                 Debug.Log("[xConfig]Load:" + file);
                 XmlDocument docXML = new XmlDocument();

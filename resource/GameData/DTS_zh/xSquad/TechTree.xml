@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8" ?>
 <!--一条记录创建一个Config-->
 <!--此文件汉化了TechTree.cfg-->
@@ -38,3 +39,399 @@
     </Nodes>
   </Config>
 </Configs>
+=======
+<?xml version="1.0" encoding="utf-8" ?> 
+<!--一条记录创建一个Config--> 
+<!--此文件汉化了TechTree.cfg--> 
+<!--不知道为什么此配置无效，现在使用了zhItem.xml和zhText.xml配合汉化-->
+<Configs> 
+  <Config url="Squad/Resources/TechTree/TechTree"> 
+    <Nodes> 
+      <Node id="start"> 
+        <Values> 
+          <Value name="title"><![CDATA[开始]]></Value> 
+          <Value name="description"><![CDATA[科技从这里开始。]]></Value> 
+        </Values> 
+      </Node> 
+      <Node id="basicRocketry"> 
+        <Values> 
+          <Value name="title"><![CDATA[基础级火箭科技]]></Value> 
+          <Value name="description"><![CDATA[火箭科学能有多难？]]></Value> 
+        </Values> 
+      </Node> 
+	        <Node id="engineering101"> 
+        <Values> 
+          <Value name="title"><![CDATA[101工程组件]]></Value> 
+          <Value name="description"><![CDATA[气动工程能有多难?]]></Value> 
+        </Values> 
+      </Node> 
+      <Node id="survivability"> 
+        <Values> 
+          <Value name="title"><![CDATA[生存组件]]></Value> 
+          <Value name="description"><![CDATA[艺术和科学的完美结合，让宇航员着陆并踏出一小步。]]></Value> 
+        </Values> 
+      </Node> 
+	        <Node id="stability"> 
+        <Values> 
+          <Value name="title"><![CDATA[稳定器组件]]></Value> 
+          <Value name="description"><![CDATA[指一颗星星做路标，然后摘下它。]]></Value> 
+        </Values> 
+      </Node> 
+      <Node id="generalRocketry"> 
+        <Values> 
+          <Value name="title"><![CDATA[一般级火箭组件]]></Value> 
+          <Value name="description"><![CDATA[更多的引擎，更多的燃料，更雄伟的野心。]]></Value> 
+        </Values> 
+      </Node> 
+	        <Node id="aviation"> 
+        <Values> 
+          <Value name="title"><![CDATA[航空组件]]></Value> 
+          <Value name="description"><![CDATA[艺术和科学的结合能让比空气沉重百倍的东西浮在天空。]]></Value> 
+        </Values> 
+      </Node> 
+      <Node id="basicScience"> 
+        <Values> 
+          <Value name="title"><![CDATA[基本级科研组件]]></Value> 
+          <Value name="description"><![CDATA[终于，我们要向宇宙询问，这个世界所有的奥秘。现在，从这里开始。]]></Value> 
+        </Values> 
+      </Node> 
+	        <Node id="flightControl"> 
+        <Values> 
+          <Value name="title"><![CDATA[飞行控制组件]]></Value> 
+          <Value name="description"><![CDATA[失控而翻滚的飞机可能很美，但我们的工程说，里面还能明白更多科学道理。]]></Value> 
+        </Values> 
+      </Node> 
+      <Node id="advRocketry"> 
+        <Values> 
+          <Value name="title"><![CDATA[高级火箭组件]]></Value> 
+          <Value name="description"><![CDATA[火箭科技的百尺竿头更进一步]]></Value> 
+        </Values> 
+      </Node> 
+      <Node id="generalConstruction"> 
+        <Values> 
+          <Value name="title"><![CDATA[基础级构架组件]]></Value> 
+          <Value name="description"><![CDATA[让大家伙们更坚固的装备，特别是那种超越常识大小的飞船，特别有效。]]></Value> 
+        </Values> 
+      </Node> 
+	    <Node id="propulsionSystems"> 
+        <Values> 
+          <Value name="title"><![CDATA[推进系统]]></Value> 
+          <Value name="description"><![CDATA[与现存火箭科技中完全不同的部分。这些又小又轻的玩意儿根本让人提不起精神，但他们会用事实证明他们很有用。]]></Value> 
+        </Values> 
+      </Node> 
+      <Node id="spaceExploration"> 
+        <Values> 
+          <Value name="title"><![CDATA[空间探索系统]]></Value> 
+          <Value name="description"><![CDATA[可以让你大胆探索没有绿色植物的地方。]]></Value> 
+        </Values> 
+      </Node> 
+	        <Node id="advFlightControl"> 
+        <Values> 
+          <Value name="title"><![CDATA[高级航空控制系统]]></Value> 
+          <Value name="description"><![CDATA[让你的船朝向正确的方向是到达正确地点的最好办法，这是给你的建议。]]></Value> 
+        </Values> 
+      </Node> 
+	    <Node id="landing"> 
+        <Values> 
+          <Value name="title"><![CDATA[着陆组件]]></Value> 
+          <Value name="description"><![CDATA[不乐观就不是我们的工程师了]]></Value> 
+        </Values> 
+      </Node> 
+      <Node id="aerodynamicSystems"> 
+        <Values> 
+          <Value name="title"><![CDATA[空气动力学组件]]></Value> 
+          <Value name="description"><![CDATA[C7航空部门的新进展使我们可以构建新的飞行器！我们正在考虑雇佣一些新的工程师。]]></Value> 
+        </Values> 
+      </Node> 
+	  <Node id="electrics"> 
+        <Values> 
+          <Value name="title"><![CDATA[电力组件]]></Value> 
+          <Value name="description"><![CDATA[在飞上天前我们就很了解电能了。现在，我们终于把电力系统加入到太空船里啦！]]></Value> 
+        </Values> 
+      </Node> 
+      <Node id="heavyRocketry"> 
+        <Values> 
+          <Value name="title"><![CDATA[重型火箭组件]]></Value> 
+          <Value name="description"><![CDATA[火箭技术最合逻辑的发展方向就是更大！更大！]]></Value> 
+        </Values> 
+      </Node> 
+	  <Node id="fuelSystems"> 
+        <Values> 
+          <Value name="title"><![CDATA[燃料系统]]></Value> 
+          <Value name="description"><![CDATA[理解如何让燃料在箭身里流动是我们最新的研究进展。]]></Value> 
+        </Values> 
+      </Node> 
+      <Node id="advConstruction"> 
+        <Values> 
+          <Value name="title"><![CDATA[高级构架组件]]></Value> 
+          <Value name="description"><![CDATA[新的构架理念让我们可以设计出更庞大的家伙来。]]></Value> 
+        </Values> 
+      </Node> 
+	  <Node id="miniaturization"> 
+        <Values> 
+          <Value name="title"><![CDATA[微型化组件]]></Value> 
+          <Value name="description"><![CDATA[这可不是你喜欢的标准微缩模型。我们保证，这些东西真的能飞上天。]]></Value> 
+        </Values> 
+      </Node> 
+      <Node id="actuators"> 
+        <Values> 
+          <Value name="title"><![CDATA[制动装置组件]]></Value> 
+          <Value name="description"><![CDATA[完美的艺术让事物拥有生命，别让一场绚丽的爆炸来提醒你。我们的工程师保证，这的确是好东西。]]></Value> 
+        </Values> 
+      </Node>
+	  <Node id="commandModules"> 
+        <Values> 
+          <Value name="title"><![CDATA[控制模块组件]]></Value> 
+          <Value name="description"><![CDATA[飞行控制技术已经远不足以体现我们的技术了，现在，连驾驶员都在我们的掌握之中。]]></Value> 
+        </Values> 
+      </Node> 
+      <Node id="heavierRocketry"> 
+        <Values> 
+          <Value name="title"><![CDATA[超重型火箭组件]]></Value> 
+          <Value name="description"><![CDATA[也许火箭的尺寸是有止境的，但不是这里。]]></Value> 
+        </Values> 
+      </Node>
+	  <Node id="precisionEngineering"> 
+        <Values> 
+          <Value name="title"><![CDATA[精密工程组件]]></Value> 
+          <Value name="description"><![CDATA[精密工程组件允许你制造更小型的部件。]]></Value> 
+        </Values> 
+      </Node> 
+      <Node id="advExploration"> 
+        <Values> 
+          <Value name="title"><![CDATA[高级探索组件]]></Value> 
+          <Value name="description"><![CDATA[宇航员用自动部署移动增强装置，哦，不知道你对“梯子”是怎么定义的。]]></Value> 
+        </Values> 
+      </Node>
+	  <Node id="specializedControl"> 
+        <Values> 
+          <Value name="title"><![CDATA[专家级控制组件]]></Value> 
+          <Value name="description"><![CDATA[新的艺术级稳定控制技术。]]></Value> 
+        </Values> 
+      </Node> 
+	  <Node id="advLanding"> 
+        <Values> 
+          <Value name="title"><![CDATA[高级着陆组件]]></Value> 
+          <Value name="description"><![CDATA[将来更高级的着陆装置会在控制下降的部分下更多功夫，让着陆后的飞船拥有更多的零件。]]></Value> 
+        </Values> 
+      </Node> 
+      <Node id="supersonicFlight"> 
+        <Values> 
+          <Value name="title"><![CDATA[超音速飞行组件]]></Value> 
+          <Value name="description"><![CDATA[新型的飞行组件，让飞机拥有前所未有的机动性和速度。]]></Value> 
+        </Values> 
+      </Node>
+	  <Node id="advFuelSystems"> 
+        <Values> 
+          <Value name="title"><![CDATA[高级燃料系统]]></Value> 
+          <Value name="description"><![CDATA[对燃料在箭身内的流动有了更先进的理解。]]></Value> 
+        </Values> 
+      </Node> 
+      <Node id="advElectrics"> 
+        <Values> 
+          <Value name="title"><![CDATA[高级电力系统组件]]></Value> 
+          <Value name="description"><![CDATA[我们真的很确定，没人需要比64kw更高的输出功率了。]]></Value> 
+        </Values> 
+      </Node> 
+	        <Node id="specializedConstruction"> 
+        <Values> 
+          <Value name="title"><![CDATA[专家级构架组件]]></Value> 
+          <Value name="description"><![CDATA[专家级的构架组件让你想装就装，想拆就拆！?]]></Value> 
+        </Values> 
+      </Node> 
+      <Node id="survivability"> 
+        <Values> 
+          <Value name="title"><![CDATA[生存组件]]></Value> 
+          <Value name="description"><![CDATA[艺术和科学的完美结合，让宇航员着陆并踏出一小步。]]></Value> 
+        </Values> 
+      </Node> 
+	        <Node id="precisionPropulsion"> 
+        <Values> 
+          <Value name="title"><![CDATA[精密推进组件]]></Value> 
+          <Value name="description"><![CDATA[精密推进技术让任何一级火箭引擎的可控爆炸变得不那么让人惊讶。这可能会有点贵……]]></Value> 
+        </Values> 
+      </Node> 
+      <Node id="advAerodynamics"> 
+        <Values> 
+          <Value name="title"><![CDATA[高级气动组件]]></Value> 
+          <Value name="description"><![CDATA[流体力学的进步让新的流线型飞行组件得以开发成功，这就是成果。]]></Value> 
+        </Values> 
+      </Node> 
+	        <Node id="heavyLanding"> 
+        <Values> 
+          <Value name="title"><![CDATA[重型着陆组件]]></Value> 
+          <Value name="description"><![CDATA[一个优秀的着陆器能让你走着离开，而一个伟大的着陆器还能让你把它再开走。]]></Value> 
+        </Values> 
+      </Node> 
+      <Node id="scienceTech"> 
+        <Values> 
+          <Value name="title"><![CDATA[普通级科学技术组件]]></Value> 
+          <Value name="description"><![CDATA[科研让新科学创造新技术。]]></Value> 
+        </Values> 
+      </Node> 
+	        <Node id="unmannedTech"> 
+        <Values> 
+          <Value name="title"><![CDATA[无人驾驶技术组件]]></Value> 
+          <Value name="description"><![CDATA[警告：可能会有心电感应。]]></Value> 
+        </Values> 
+      </Node> 
+      <Node id="nuclearPropulsion"> 
+        <Values> 
+          <Value name="title"><![CDATA[核动力推进组件]]></Value> 
+          <Value name="description"><![CDATA[核动力引擎是不烧燃料的，它会让燃料完全消失。我们只是默默祈祷，核反应不要太过激烈。]]></Value> 
+        </Values> 
+      </Node> 
+	        <Node id="advMetalworks"> 
+        <Values> 
+          <Value name="title"><![CDATA[高级金属工艺]]></Value> 
+          <Value name="description"><![CDATA[这些新的飞船构架技巧在不久之前还被认为是脑洞过大，现在……脑洞还是很大，但是我们能做出来了！]]></Value> 
+        </Values> 
+      </Node> 
+      <Node id="fieldScience"> 
+        <Values> 
+          <Value name="title"><![CDATA[地面科研组件]]></Value> 
+          <Value name="description"><![CDATA[好奇心能带你的思维遨游宇宙，可惜时间不长，跟苹果表的电池似的。]]></Value> 
+        </Values> 
+      </Node> 
+	        <Node id="highAltitudeFlight"> 
+        <Values> 
+          <Value name="title"><![CDATA[高空飞行组件]]></Value> 
+          <Value name="description"><![CDATA[引擎的新突破和进气技术的发展使得我们可以在更高的大气中飞行了。]]></Value> 
+        </Values> 
+      </Node> 
+      <Node id="largeVolumeContainment"> 
+        <Values> 
+          <Value name="title"><![CDATA[大容量储存组件]]></Value> 
+          <Value name="description"><![CDATA[最大化的载荷能最大化你飞船的尺寸。]]></Value> 
+        </Values> 
+      </Node> 
+	        <Node id="composites"> 
+        <Values> 
+          <Value name="title"><![CDATA[复合材料组件]]></Value> 
+          <Value name="description"><![CDATA[更轻还能更强！别担心，我们保证胶水干了。]]></Value> 
+        </Values> 
+      </Node> 
+      <Node id="electronics"> 
+        <Values> 
+          <Value name="title"><![CDATA[电子学组件]]></Value> 
+          <Value name="description"><![CDATA[希望在接下来几个月里不会就过时了。]]></Value> 
+        </Values> 
+      </Node> 
+	        <Node id="largeElectrics"> 
+        <Values> 
+          <Value name="title"><![CDATA[高能电力组件]]></Value> 
+          <Value name="description"><![CDATA[最大化船只上的电容能让你的用电设备和储电潜力发挥到极限。]]></Value> 
+        </Values> 
+      </Node> 
+      <Node id="heavyAerodynamics"> 
+        <Values> 
+          <Value name="title"><![CDATA[重型气动组件]]></Value> 
+          <Value name="description"><![CDATA[构架技术的进步是航空材料有了新突破。]]></Value> 
+        </Values> 
+      </Node> 
+	  <Node id="ionPropulsion"> 
+        <Values> 
+          <Value name="title"><![CDATA[离子推进系统]]></Value> 
+          <Value name="description"><![CDATA[原来这不是科幻小说里才有的东西。]]></Value> 
+        </Values> 
+      </Node> 
+      <Node id="hypersonicFlight"> 
+        <Values> 
+          <Value name="title"><![CDATA[高超音速飞行组件]]></Value> 
+          <Value name="description"><![CDATA[让你的飞船拥有更高的飞行速度，让你的理智突破极限。]]></Value> 
+        </Values> 
+      </Node> 
+	  <Node id="nanolathing">   //这个我不会……
+        <Values> 
+          <Value name="title"><![CDATA[Nanolathing]]></Value> 
+          <Value name="description"><![CDATA[尽管受到了来自绿色变形球拍摄到，没有人同意坎巴拉的科技已经发展到了和那个一样危险的程度。Despite]]></Value> 
+        </Values> 
+      </Node> 
+      <Node id="advUnmanned"> 
+        <Values> 
+          <Value name="title"><![CDATA[高级无人技术]]></Value> 
+          <Value name="description"><![CDATA[远程控制技术的进展创造了新一代驾驶舱的设计。]]></Value> 
+        </Values> 
+      </Node> 
+	  <Node id="metaMaterials"> 
+        <Values> 
+          <Value name="title"><![CDATA[超常材料工艺组件]]></Value> 
+          <Value name="description"><![CDATA[宇宙飞船构架材料的进展是如此的革命性，你甚至不会介意这个明明跟原意相差甚远。]]></Value> 
+        </Values> 
+      </Node> 
+      <Node id="veryHeavyRocketry"> 
+        <Values> 
+          <Value name="title"><![CDATA[超超重型火箭组件]]></Value> 
+          <Value name="description"><![CDATA[当越来越大的火箭还成不了满意答卷时，我们又发展出了这个。]]></Value> 
+        </Values> 
+      </Node>
+	  <Node id="advScienceTech"> 
+        <Values> 
+          <Value name="title"><![CDATA[高级科研组件]]></Value> 
+          <Value name="description"><![CDATA[科研让新科学创造新技术。]]></Value> 
+        </Values> 
+      </Node> 
+      <Node id="advancedMotors"> 
+        <Values> 
+          <Value name="title"><![CDATA[高级马达组件]]></Value> 
+          <Value name="description"><![CDATA[动量轮技术终于开始运转了！我们的工程师也随之满地打滚。]]></Value> 
+        </Values> 
+      </Node>
+	  <Node id="specializedElectrics"> 
+        <Values> 
+          <Value name="title"><![CDATA[专家级电力组件]]></Value> 
+          <Value name="description"><![CDATA[体验最新电子技术光辉带来的温暖吧。当然，可以毫不夸张地说，事实上，请避免直接接触。]]></Value> 
+        </Values> 
+      </Node> 
+      <Node id="highPerformanceFuelSystems"> 
+        <Values> 
+          <Value name="title"><![CDATA[高性能燃料系统组件]]></Value> 
+          <Value name="description"><![CDATA[大块头引擎需要大容量燃料的存储方案。]]></Value> 
+        </Values> 
+      </Node>
+	  <Node id="experimentalAerodynamics"> 
+        <Values> 
+          <Value name="title"><![CDATA[实验级空气动力学组件]]></Value> 
+          <Value name="description"><![CDATA[我们的有翼飞行技术已经到达了前所未有的高度。它现在谦虚地说，这才是正常的飞行。]]></Value> 
+        </Values> 
+      </Node> 
+      <Node id="automation"> 
+        <Values> 
+          <Value name="title"><![CDATA[自动化操作组件]]></Value> 
+          <Value name="description"><![CDATA[我们不认为可以让一个随时有可能出错的人工智能处理一个任务的所有方面。]]></Value> 
+        </Values> 
+      </Node>
+	  <Node id="aerospaceTech"> 
+        <Values> 
+          <Value name="title"><![CDATA[空天技术组件]]></Value> 
+          <Value name="description"><![CDATA[绝对尖端的航天技术，毫不夸张的说，非常“尖端”，真的很尖，请小心轻放。]]></Value> 
+        </Values> 
+      </Node> 
+      <Node id="largeUnmanned"> 
+        <Values> 
+          <Value name="title"><![CDATA[大型探测器组件]]></Value> 
+          <Value name="description"><![CDATA[说能够探测整个宇宙的谣言的确是夸张了。]]></Value> 
+        </Values> 
+      </Node>
+	  <Node id="experimentalScience"> 
+        <Values> 
+          <Value name="title"><![CDATA[实验级科学组件]]></Value> 
+          <Value name="description"><![CDATA[已经进入了科幻的领域，我们甚至不知道那到底是什么。]]></Value> 
+        </Values> 
+      </Node>
+	  <Node id="experimentalMotors"> 
+        <Values> 
+          <Value name="title"><![CDATA[实验级马达组件]]></Value> 
+          <Value name="description"><![CDATA[马达驱动技术的新突破，可以反向，可以转弯。]]></Value> 
+        </Values> 
+      </Node>
+	  <Node id="experimentalElectrics"> 
+        <Values> 
+          <Value name="title"><![CDATA[实验级电力组件]]></Value> 
+          <Value name="description"><![CDATA[最新的电力系统技术，让我们的工程师津津乐道。它们迷人地就像黑夜中的光芒！]]></Value> 
+        </Values> 
+      </Node>
+   </Nodes> 
+  </Config> 
+</Configs> 
+>>>>>>> ea82fdee343a3fe84d286f93c82a4ae0f7f52d9f

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--一条记录创建一个Config-->
+<Configs>
+  <!--战略-->
+  <Config url="Squad/Experience/Traits/Pilot">
+    <Values>
+      <Value name="title"><![CDATA[飞行员]]></Value>
+      <Value name="desc"><![CDATA[飞行员可以辅助飞船飞行。]]></Value>
+    </Values>
+  </Config>
+  <Config url="Squad/Experience/Traits/Engineer">
+    <Values>
+      <Value name="title"><![CDATA[工程师]]></Value>
+      <Value name="desc"><![CDATA[如果条件具备的话，工程师有可以修复一些损坏的零件。]]></Value>
+    </Values>
+  </Config>
+  <Config url="Squad/Experience/Traits/Scientist">
+    <Values>
+      <Value name="title"><![CDATA[科学家]]></Value>
+      <Value name="desc"><![CDATA[科学家们可以提高科学实验所获得数据的价值。]]></Value>
+    </Values>
+  </Config>
+  <Config url="Squad/Experience/Traits/Tourist">
+    <Values>
+      <Value name="title"><![CDATA[游客]]></Value>
+      <Value name="desc"><![CDATA[游客支付资金来观赏新奇且令人兴奋的景色。]]></Value>
+    </Values>
+  </Config>
+</Configs>

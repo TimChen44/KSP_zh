@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
+using System.IO;
 using System.Text;
 using UnityEngine;
 namespace DTS_Addon
@@ -29,7 +29,9 @@ namespace DTS_Addon
             window = GUI.Window(104, window, CNodeWindow, "资源");
         }
 
-       static  bool testMody = false;
+        static bool testMody = false;
+
+        bool isOut = false;
 
         void CNodeWindow(int id)
         {
@@ -48,7 +50,7 @@ namespace DTS_Addon
             find = GUI.TextField(new Rect(105, 60, 100, 25), find);
             tp = GUI.TextField(new Rect(205, 60, 100, 25), tp);
             fvalue = GUI.TextField(new Rect(305, 60, 100, 25), fvalue);
-            findvalue = GUI.TextField(new Rect(405,60, 100, 25), findvalue);
+            findvalue = GUI.TextField(new Rect(405, 60, 100, 25), findvalue);
             urlvalue = GUI.TextField(new Rect(505, 60, 100, 25), urlvalue);
 
             h = 0;
@@ -87,7 +89,7 @@ namespace DTS_Addon
                 //    testMody = true;
                 //    config.config.AddValue("--description", "这个系统使用一组以'相当'高速旋转的圆盘来产生控制飞船必需的扭矩.还包含");
                 //}
-                
+
                 foreach (ConfigNode.Value value in config.config.values)
                 {
                     shValue(value, 0);
@@ -100,15 +102,17 @@ namespace DTS_Addon
                 shh1();
             }
             GUI.EndScrollView();
+
+            isOut = false;
         }
 
 
         public void showNode(ConfigNode.ConfigNodeList nodes, int level)
         {
-           
+
             foreach (ConfigNode node in nodes)
             {
-                GUI.Label(new Rect(0 + level*30, h * 20, 200, 20), "--------------------------");
+                GUI.Label(new Rect(0 + level * 30, h * 20, 200, 20), "--------------------------");
                 h++;
 
                 sht("node.id", node.id, level);
@@ -116,7 +120,7 @@ namespace DTS_Addon
 
                 shlabel("values.Count", node.values.Count.ToString(), level);
 
-                if (level > System.Convert.ToInt32( maxLevel)) return;
+                if (level > System.Convert.ToInt32(maxLevel)) return;
                 foreach (ConfigNode.Value value in node.values)
                 {
                     shValue(value, level);
@@ -135,6 +139,9 @@ namespace DTS_Addon
             GUI.Label(new Rect(0, h * 20, 590, 20), name);
 
             h++;
+
+            if (isOut == true)
+                File.AppendAllText("GameData/DTS_zh/Debug.txt", "".PadRight(0) + name + "\r\n");
         }
 
         void sht(string name, string value, int level)
@@ -143,6 +150,8 @@ namespace DTS_Addon
             GUI.Label(new Rect(5 + level * 30, h * 20, 140 - level * 30, 20), name);
             GUI.TextField(new Rect(140 + level * 30, h * 20, 450 - level * 30, 20), value);
             h++;
+            if (isOut == true)
+                File.AppendAllText("GameData/DTS_zh/Debug.txt", "".PadRight(level * 4) + name + "\t" + value + "\r\n");
         }
 
         void shlabel(string name, string value, int level)
@@ -151,6 +160,8 @@ namespace DTS_Addon
             GUI.Label(new Rect(5 + level * 30, h * 20, 140 - level * 30, 20), name);
             GUI.Label(new Rect(140 + level * 30, h * 20, 450 - level * 30, 20), value);
             h++;
+            if (isOut == true)
+                File.AppendAllText("GameData/DTS_zh/Debug.txt", "".PadRight(level * 4) + name + "\t" + value + "\r\n");
         }
 
         void shh1()
@@ -160,7 +171,8 @@ namespace DTS_Addon
             h++;
             GUI.Label(new Rect(0, h * 20, 200, 20), "==========================");
             h++;
-
+            if (isOut == true)
+                File.AppendAllText("GameData/DTS_zh/Debug.txt", "==========================\r\n");
         }
 
 
@@ -172,6 +184,8 @@ namespace DTS_Addon
             value.value = GUI.TextField(new Rect(140 + level * 30, h * 20, 450 - level * 30, 20), value.value);
 
             h++;
+            if (isOut == true)
+                File.AppendAllText("GameData/DTS_zh/Debug.txt", "".PadRight(level * 4) + value.name + "\t" + value.value + "\r\n");
         }
     }
 }

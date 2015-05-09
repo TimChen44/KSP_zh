@@ -1,61 +1,96 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Items>
   <Item scene="SPACECENTER"  type="SpriteText" path="panel_RnD/RDScreen(Clone)/panelManager/panel_technology/RightPanel/RDpanel/Panel_node/node_description">
-    <string name="How hard can Rocket Science be anyway?"><![CDATA[更强的引擎,更多的燃料,更高远的志向.]]></string>
-    <string name="Survivability"><![CDATA[成功着陆并安全走出舱外的科技支持.]]></string>
-    <string name="Basic Rocketry"><![CDATA[火箭科技这条路究竟有多艰难?]]></string>
-    <string name="Stability"><![CDATA[它基本上能让我们的飞船朝着正确的方向飞行并且到他其他星球.]]></string>
-    <string name="Advanced Rocketry"><![CDATA[这是火箭科学发展的一大步.]]></string>
-    <string name="Science Tech"><![CDATA[我们要探求这个广阔宇宙的秘密...至少最后是的.现在,我们还只是初窥门径.]]></string>
-    <string name="General Construction"><![CDATA[加固部件的新装备,当你自以为是地建造极其巨大的火箭时它们尤其有用.]]></string>
-    <string name="Flight Control"><![CDATA[像无头苍蝇一般乱飞可能很过瘾.但是我们的工程师认为火箭引擎的发展还有很长的路要走.]]></string>
-    <string name="Advanced Construction"><![CDATA[更先进的技术使得制造更大的结构体部件成为可能.]]></string>
-    <string name="Advanced Flight Control"><![CDATA[最新的技术升级能够准确地控制飞船朝向你希望的方向.]]></string>
-    <string name="Electrics"><![CDATA[我们在发明太空飞行技术之前就已经有了电子技术.重要的是如何将二者结合起来.]]></string>
-
-    <string name="Space Exploration"><![CDATA[让你能大胆地前往小绿人们从未踏足的地方.]]></string>
-    <string name="Landing"><![CDATA[如果心态不乐观的话,它们什么都不是.]]></string>
-    <string name="Heavy Rocketry"><![CDATA[这个十分重要的技术突破其实就是把火箭造得更大.]]></string>
-    <string name="Fuel Systems"><![CDATA[让你更好地了解火箭的燃料是如何供应的.]]></string>
-    <string name="Advanced Exploration"><![CDATA[这些是自行部署式移动增强装置,我不知道你所说的"梯子"是个啥意思.]]></string>
-    <string name="Precision Engineering"><![CDATA[精确的工程科技允许我们制造这些更小的部件.]]></string>
-    <string name="Advanced Electrics"><![CDATA[我们相当确定没人会需要功率高于64Kw的电源.]]></string>
-    <string name="Specialized Control"><![CDATA[控制技术的新成果. ]]></string>
-    <string name="Heavier Rocketry"><![CDATA[貌似已经能预计到火箭大小的极限了,但是我们现在还没有达到那个水平.]]></string>
-    <string name="Specialized Construction"><![CDATA[特殊构建技术提供了一种全新的以分离为目的的部件连接方法.]]></string>
-    <string name="Aerodynamics"><![CDATA[航空航天研究所的突破性研究成果允许我们建造一种新的载具.同时我们也打算把他们的一些工程师挖过来了.]]></string>
-    <string name="Advanced Landing"><![CDATA[辅助着陆设备的重大升级,可以明显提高着陆的可控制性和落地以后飞船上面剩余零件的数量.]]></string>
-    <string name="Meta-Materials"><![CDATA[飞船建造技术的革命性升级,这足以让你无视这个乱起的名字.]]></string>
-    <string name="Heavy Aerodynamics"><![CDATA[构建技术的兴起在材料方面为空气动力学研究带来了突破.]]></string>
-    <string name="Composites"><![CDATA[轻质而又坚固!别担心,那些胶水马上就干了.]]></string>
-    <string name="Field Science"><![CDATA[对未知的探索程度取决于你的好奇心有多强,也取决于你的电池续航有多长.]]></string>
-    <string name="Nuclear Propulsion"><![CDATA[核动力引擎不烧燃油,而是把燃油核裂解.我们只希望它不要反应得太剧烈.]]></string>
-    <string name="Ion Propulsion"><![CDATA[注意,这不是科幻小说.]]></string>
-    <string name="Very Heavy Rocketry"><![CDATA[越造越大的火箭也不是任何情况都适用,为了应付剩余的情况,我们造出了这个.]]></string>
-    <string name="Supersonic Flight"><![CDATA[一系列的飞机部件,能让飞机的机动性和速度达到史无前例的境界.]]></string>
-    <string name="Large Electrics"><![CDATA[提高电力产出与存储的最好方式就是在飞船上装更大的电池.]]></string>
-    <string name="Electronics"><![CDATA[希望这些东西不要在下个月就报废了.]]></string>
-    <string name="High Altitude Flight"><![CDATA[新型的引擎和进气技术让飞机能在上层大气巡航.]]></string>
-    <string name="Unmanned Tech"><![CDATA[警告: 该技术产物已有少许判断能力.]]></string>
-    <string name="Large Control"><![CDATA[采用了最先进的控制技术. ]]></string>
-    <string name="Advanced MetalWorks"><![CDATA[不久之前这些新型的构建技术还被认为是发疯才会想出来的...虽然现在也是这样.但是现在它们可以被造出来了!]]></string>
-    <string name="Advanced Motors"><![CDATA[车轮技术的发展现在"驶入正轨".甚至可以说我们的工程师在这方面早已"轻车熟路".]]></string>
-    <string name="Hypersonic Flight"><![CDATA[将你的飞机设计推上速度与智力的巅峰.]]></string>
+    <string name="The technology we started out with."><![CDATA[这是最基础的科技.]]></string>
+    <string name="More engines, more fuel, more ambitious ideas."><![CDATA[更强的引擎,更多的燃料,更高远的志向.]]></string>
+    <string name="The art and science of landing and walking away from it."><![CDATA[成功着陆并安全走出舱外的科技支持.]]></string>
+    <string name="How hard can Rocket Science be anyway?"><![CDATA[火箭科技这条路究竟有多艰难?]]></string>
+    <string name="Reaching for the stars starts with keeping our spacecraft pointed generally in the right direction."><![CDATA[它基本上能让我们的飞船朝着正确的方向飞行并且到他其他星球.]]></string>
+    <string name="A new step ahead in rocket technology."><![CDATA[这是火箭科学发展的一大步.]]></string>
+    <string name="We are going to ask all the big questions of the Universe... eventually. For now, we're starting with these."><![CDATA[我们要探求这个广阔宇宙的秘密...至少最后是的.现在,我们还只是初窥门径.]]></string>
+    <string name="New equipment to help out in keeping things stable, especially useful when the size of the spacecraft defies the current bounds of sanity."><![CDATA[加固部件的新装备,当你自以为是地建造极其巨大的火箭时它们尤其有用.]]></string>
+    <string name="Tumbling out of control may be fun, but our engineers insist there's more to rocket science than that."><![CDATA[像无头苍蝇一般乱飞可能很过瘾.但是我们的工程师认为火箭引擎的发展还有很长的路要走.]]></string>
+    <string name="New advances in construction make it possible to build larger than ever before."><![CDATA[更先进的技术使得制造更大的结构体部件成为可能.]]></string>
+    <string name="The latest advancements in keeping the correct end of the ship pointing towards where you want it to go."><![CDATA[最新的技术升级能够准确地控制飞船朝向你希望的方向.]]></string>
+    <string name="We did know about electricity before inventing space flight. The big breakthrough here was combining the two."><![CDATA[我们在发明太空飞行技术之前就已经有了电子技术.重要的是如何将二者结合起来.]]></string>
+    <string name="To boldly go where no green man has gone before."><![CDATA[让你能大胆地前往小绿人们从未踏足的地方.]]></string>
+    <string name="Our Engineers are nothing if not optimistic."><![CDATA[如果心态不乐观的话,这些东西就是渣渣.]]></string>
+    <string name="The next logical step for rocketry technology is to just go bigger."><![CDATA[这个十分重要的技术突破其实就是把火箭造得更大.]]></string>
+    <string name="Advancements towards a better understanding of how fuel flows through a rocket."><![CDATA[让你更好地了解火箭的燃料是如何供应的.]]></string>
+    <string name="Perfecting the art of making things mobile, without the explicit use of explosives. Our engineers assure us, this is actually a good thing."><![CDATA[可以不使用爆炸的方式来移动物体的完美解决方案.我们的工程师告诉我们,这是件好东西.]]></string>
+    <string name="Precise engineering techniques allow for construction of ever smaller parts."><![CDATA[精确的工程科技允许我们制造这些更小的部件.]]></string>
+    <string name="We're fairly certain no one will ever need more than 64kw of power for anything."><![CDATA[我们相当确定没人会需要功率高于64Kw的电源.]]></string>
+    <string name="A new state-of-the-art in control technology. "><![CDATA[控制技术的新成果. ]]></string>
+    <string name="They are Self-Deploying Astronaut Mobility Enhancement Devices, I don't know what you mean by &quot;ladders&quot;."><![CDATA[控制技术的新成果. ]]></string>
+    <string name="Don't take &quot;experimental&quot; lightly."><![CDATA[控制技术的新成果. ]]></string>
+    <string name="There may be an upper limit to how large a rocket can be built, but we're not there yet."><![CDATA[我们貌似已经能预计到火箭大小的极限了,但是我们现在还没有达到那个水平.]]></string>
+    <string name="Specialized construction techniques provide new ways of attaching things together, and detaching things on purpose."><![CDATA[特殊构建技术提供了一种全新的可再分离的部件连接方法.]]></string>
+    <string name="New breakthroughs from C7 Aerospace allow for new types of craft to be built. We're looking into hiring some of their engineers as well."><![CDATA[C7航空航天研究所的突破性研究成果允许我们建造一种新的载具.同时我们也打算把他们的一些工程师挖过来了.]]></string>
+    <string name="Further advances in landing devices, allowing for more controlled descents and a much higher number of parts still attached to the ship after touchdown."><![CDATA[辅助着陆设备的重大升级,可以明显提高着陆的可控制性和落地以后飞船上面剩余零件的数量.]]></string>
+    <string name="An advancemement in spacecraft construction so revolutionary, you won't even mind that its naming was wildly inaccurate."><![CDATA[飞船建造技术的革命性升级,这足以让你无视这个乱起的名字.]]></string>
+    <string name="Advances in construction technology enabled new breakthroughs in aerospace materials. "><![CDATA[构建技术的兴起在材料方面为空气动力学研究带来了突破.]]></string>
+    <string name="Lightweight and strong! and don't worry, we're sure the glue will dry off in no time."><![CDATA[轻质而又坚固!别担心,那些胶水马上就干了.]]></string>
+    <string name="Freedom to roam as far as curiosity will take you, or as long as batteries last."><![CDATA[对未知的探索程度取决于你的好奇心有多强,也取决于你的电池续航有多长.]]></string>
+    <string name="Nuclear engines don't burn fuel, they totally annihilate it. We just hope it doesn't begin any conflicts."><![CDATA[核动力引擎不烧燃油,而是把燃油核裂解.我们只希望它不要反应得太剧烈.]]></string>
+    <string name="Turns out, it's not science fiction."><![CDATA[注意,这不是科幻小说.]]></string>
+    <string name="While ever-larger rockets may not be the answer every time, for all other times, we've developed these."><![CDATA[越造越大的火箭也不是任何情况都适用,为了应付不适用的情况,我们造出了这个.]]></string>
+    <string name="A new line of aircraft parts that allow for unprecedented maneuverability and speed. "><![CDATA[一系列的飞机部件,能让飞机的机动性和速度达到史无前例的境界.]]></string>
+    <string name="Maximize your energy production and storage potential by maximizing the size of the electrical components on your vessels."><![CDATA[提高电力产出与存储的最好方式就是在飞船上装更大的电池.]]></string>
+    <string name="Hopefully these won't become obsolete in the next couple of months."><![CDATA[希望这些东西不要在下个月就报废了.]]></string>
+    <string name="New breakthroughs in engine and intake development to enable flying through the upper reaches of the atmosphere."><![CDATA[新型的引擎和进气技术让飞机能在上层大气巡航.]]></string>
+    <string name="Warning: May contain traces of sentience."><![CDATA[警告: 该技术产物已有少许自主判断能力.]]></string>
+    <string name="A newer state-of-the-art in control technology. "><![CDATA[采用了最顶尖的控制技术. ]]></string>
+    <string name="These new construction techniques allow for craft designs that were considered insane not too long ago... and still are. But they're now possible!"><![CDATA[不久之前这些新型的构建技术还被认为是发疯才会想出来的...虽然现在也是这样.但是现在它们可以被造出来了!]]></string>
+    <string name="Wheel technology is just rolling along now. You could even say our engineers are on a roll with it."><![CDATA[车轮技术的发展现在"驶入正轨".甚至可以说我们的工程师在这方面早已"轻车熟路".]]></string>
+    <string name="Push your aircraft to the upper limits of airspeed and sanity."><![CDATA[将你的飞机设计推上速度与智力的巅峰.]]></string>
     <string name="Large Probes"><![CDATA[可以控制大型飞船而不用把宇航员置于险境之中的技术.]]></string>
-    <string name="Specialized Electrics"><![CDATA[不管是从字面上理解还是从隐喻上解释,感受这最新电子科技的"温暖"吧!实际上还是避免直接接触为妙.]]></string>
-    <string name="Advanced Unmanned Tech"><![CDATA[升级后的远程控制科技引领了新一代的探测器设计理念.]]></string>
-    <string name="Advanced Science Tech"><![CDATA[科学的进步让我们使用更先进的技术来探索科学.]]></string>
-    <string name="Advanced Aerodynamics"><![CDATA[流体力学研究的进展促进了飞机组件的开发.包括这里的这些部件.]]></string>
-    <string name="Experimental Rocketry"><![CDATA[不要小看"试验性"这三个字. ]]></string>
+    <string name="Experience the warm glow of the latest in electrical technology. Figuratively, of course, and maybe also quite literally as well. Actually, try to avoid direct exposure."><![CDATA[不管是从字面上理解还是从隐喻上解释,感受这最新电子科技的"温暖"吧!实际上还是避免直接暴露在辐射下的好.]]></string>
+    <string name="Improvements in remote control technology for a new generation of probe designs."><![CDATA[升级后的远程控制科技引领了新一代的探测器设计理念.]]></string>
+    <string name="Scientific advancements allow new advanced technologies for advancing Science."><![CDATA[科学的进步让我们使用更先进的技术来探索科学.]]></string>
+    <string name="Advances in fluid dynamics research technology have allowed development of a new set of streamlined aircraft components, And also these parts here."><![CDATA[流体力学研究的进展促进了飞机组件的流水线化生产.包括这里的这些部件.]]></string>
     <string name="Aerospace Tech"><![CDATA[绝对尖端的空气动力学技术.顾名思义,这里的某些部件十分锋利.请小心处理.]]></string>
     <string name="Experimental Electrics"><![CDATA[应用了电气系统的最新科技.我们的工程师们正在兴奋地谈论着它.这些设备好像在黑暗中还能发出光芒.太神奇了!]]></string>
-    <string name="Experimental Aerodynamics"><![CDATA[大气层内的飞行技术已经达到史无前例的高度.可以称得上名副其实的"起飞"了.]]></string>
+    <string name="Winged flight technology is soaring to unprecendented heights. It could even be said that it's properly taking off now."><![CDATA[大气层内的飞行技术已经达到史无前例的高度.可以称得上名副其实的"起飞"了.]]></string>
     <string name="Experimental Science"><![CDATA[探索在存在于科幻小说中的科学领域. ]]></string>
     <string name="Experimental Motors"><![CDATA[最新的研究突破使得电动机技术"向前"迈进了一大步,同时也可以"倒退",甚至到了可以"转弯"的地步了.]]></string>
     <string name="Robotics"><![CDATA[关于"由机器人引领的世界"的传闻其实是很夸张的.]]></string>
     <string name="Automation"><![CDATA[实在想不出方方面面都由试验性AI操纵的太空任务能出什么岔子.]]></string>
     <string name="Nanolathing"><![CDATA[构建技术领域的超新星科技.]]></string>
- 
   </Item>
 
+  <Item scene="TRACKSTATION"  type="SpriteText" path="KnowledgeBase/KnowledgeContainer/Planets/MainPanel/Panel manager/Panel1/description">
+    <string name="A unique world, Kerbin has flat plains, soaring mountains and wide, blue oceans. Home to the Kerbals, it has just the right conditions to support a vast, seemingly undepletable population of the eager green creatures.&#x000A;&#x000A;Reaching a stable orbit around Kerbin is one of the first things budding space programs strive for. It is said that he who can get his ship into orbit is halfway to anywhere."><![CDATA[一个独一无二的世界,Kerbin拥有平坦的平原,高耸的山脉,以及宽广蔚蓝的海洋.作为Kerbal人的家园,它正好处在一个极佳的条件之下,能够容纳这些大量的,而且看上去数量还不会减少的积极努力着的绿色生物们.刚刚开始发展的太空计划的奋斗目标之一是要到达一个稳定的绕Kerbin轨道.有人说,如果可以让飞船进入轨道,无论你要去哪,你的梦想就已经成功了一半了.]]></string>
+    <string name="The Mun, is a large satellite orbiting Kerbin. It is mostly gray in appearance, with craters of various sizes dotting its otherwise smooth surface.&#x000A;&#x000A;The Muns discovery is widely regarded as one of the more important breakthroughs of Kerbal evolution. Granted, it didnt happen all that long ago, but its still fair to say Kerbals are wiser and more evolved now than they were back then."><![CDATA[Mun是一颗围绕着Kerbin旋转的大型卫星.它的外表看起来主要是灰色的,各种大小的陨石坑点缀着它那本来平坦的表面.对Mun的探索被广泛认为是Kerbal进化史上最重要的突破之一.当然,这只不过是不久前的事情,但还是可以公平地说,现在的Kerbal人比起以前来要更聪明,也更加高等了.]]></string>
+    <string name="Minmus is the smallest moon orbiting Kerbin. From the surface of Kerbin, it can be seen on clear days as a tiny blue speck in the sky. &#x000A;&#x000A;It is often mistaken as dirt on telescope lenses or dead pixels, but the top minds at the Kerbal Astronomical Society assure us it is a real moon nevertheless."><![CDATA[Minmus是Kerbin最小的一颗卫星.天气好的时候,从Kerbin上可以看见它就像是天空中的一颗蓝色小斑点.它经常被误认为是望远镜镜片上的污点或者是一个坏点,但Kerbal天文学会的专家向我们保证,尽管如此它还是一颗真真正正的卫星.]]></string>
+    <string name="Moho figures in Kerbal mythology as a fiery place with oceans of flowing lava. In reality however, its much less interesting. &#x000A;&#x000A;Scientists speculate about possible ways to make it awesome like in the stories. Some of those ideas have led to new breakthroughs in aerospace technology."><![CDATA[Moho在Kerbal神话中是一个满是熔岩海洋的燃烧之地.不过在现实中,它并没那么有趣.科学家们在思考怎么样才能让它"像故事里的一样霸气".其中的一些想法促使了航天技术的新突破.]]></string>
+    <string name="The Sun is the most well known object in the daytime sky. Scientists have noted a particular burning sensation and potential loss of vision if it is stared at for long periods of time. This is especially important to keep in mind considering the effect shiny objects have on the average Kerbal."><![CDATA[太阳是白昼天空中最抢眼的物体.科学家们提醒道,如果长时间盯着太阳看的话,会有强烈的灼热感,也是有可能会被闪瞎双眼的.考虑到发光物体对普通Kerbal人的影响,它是相当重要的.]]></string>
+    <string name="Eve is certainly the purplest object in the solar system. Its one of the larger, most visible objects, mainly because of its very, very purple tint.&#x000A;&#x000A;It is considered by some to be almost a sister planet to Kerbin. Well, despite the purple, and the toxic atmosphere, and the extreme press- ures and temperatures. Actually, its not very similar at all is it? Who are those people?"><![CDATA[Eve无疑是太阳系中颜色最紫的物体.它是其中一颗较大并且最显眼的星球,主要就是因为它那非常非常紫的色调.有些人认为它实际上是一颗Kerbin的姐妹行星.好吧,除了那个紫色,跟有毒的大气层,还有超高的大气压和温度以外...其实一点都不像有木有?是谁在这么说的!]]></string>
+    <string name="Gilly is a lumpy rock wandering around the orbit of Eve. Its by far the smallest natural satellite that the Kerbal Astronomical Society has discovered.&#x000A;&#x000A;Due to the large amount of squinting and eye strain associated with its discovery, wearing glasses has now become synonymous with being an accomplished Astronomer."><![CDATA[Gilly是徘徊在Eve轨道上的一颗块状岩石.这是迄今为止,Kerbal天文学会发现的最小的天然卫星.由于在探索过程中需要经常眯着眼睛看,随之而来的眼疲劳,使得戴眼镜已经成为当天文学家的代名词.]]></string>
+    <string name="Also known as the red dot that you can see if you squint at it really hard, Duna has long been a wonder to Kerbalkind.&#x000A;&#x000A;The planet has been held in much awe, due to its striking red color and stark contrast to the color green."><![CDATA[又被称为红点,如果你使劲地眯着眼睛去看就能看到它,Duna在Kerbal人当中一直都被认为是一个奇观.由于其醒目而且和绿色成鲜明对比的红色,这颗行星已经变得令人生畏.]]></string>
+    <string name="Ike is a relatively large, grey object occasionally seen orbiting Duna.&#x000A;&#x000A;Scientists have postulated that Ike is seemingly perfectly positioned to sneakily interfere with any object that presumes to come orbiting near its parent."><![CDATA[Ike是一颗比较大而且呈灰色的星球,偶尔可以看到其绕着Duna在运行.科学家们推测Ike看起来完全没有受到任何天体的微弱干涉从而使其围绕它的母星旋转.]]></string>
+    <string name="Dres is a very small planet. It was the first planet considered to be a dwarf. Its orbit is highly irregular and together with its size it took a long time to discover since half the time it was not where scientists expected to find a planet.&#x000A;&#x000A;Due to its nature of frequenting the bad parts of space. This dwarf planet was officially labeled as Not to be trusted by the scientific community."><![CDATA[Dres是一颗很小的行星.这是第一颗被认为是矮行星的行星.它的轨道非常不规则,连同它的大小都花了很长的时间去探索,有一半的时间它都没有在科学家预计的地方出现.由于它在太空里老是跟天文学家玩捉迷藏,这颗矮行星被科学界官方标记为"不被信任的".]]></string>
+    <string name="Jool is particularly known for being a rather large, predominantly green planet. Kerbalkind has longed to visit it since it was first spotted in the sky. Philosophers reason that the swirling green planet must be a really nice place to visit, on account of its wholesome coloration.&#x000A;&#x000A;If you look at Jool through a telescope, it is fuzzy."><![CDATA[Jool非常的知名,因为它非常巨大而且主要都是绿色色调.Kerbal人自从在天空中发现它的那一刻起,就一直都渴望能够去到那里.而哲学上的原因是,一想到它健康的颜色,这颗旋转着的绿色星球就一定是一个非常值得一游的地方.如果你在望远镜里观察Jool,它是模模糊糊的.]]></string>
+    <string name="When Laythe was first discovered, it was not entered in the records because the scientist in charge thought he was looking at Kerbin.&#x000A;&#x000A;Luckily this error was corrected when a plucky intern informed him that telescopes dont work that way.&#x000A;&#x000A;The intern was shortly afterwards promoted and moved to the experimental rocket testing program."><![CDATA[当Laythe首次被发现的时候,它并没有被记录在报告中,因为当时那个科学家以为他正在观察Kerbin.幸运的是这个错误还是被纠正过来了,当时一个勇敢的实习生告诉他说"要怎样的望远镜才能做到这点啊".这个实习生之后很快就被"提拔"了,调去参与实验火箭的测试项目.]]></string>
+    <string name="Vall was one of the last Moons of Jool to be discovered. Frustrated scientists kept attempting to wipe it off the lenses of their telescopes. Eventually after a rash of returned telescopes, Advanced Optics Co. finally decided to just tell them it was an actual object in the sky. "><![CDATA[Vall是Jool的所有卫星中最后被发现的一颗.灰心的科学家们一直试图把它从他们的望远镜镜片上擦除掉,最后在科学家气急败坏地把望远镜退货之后,高级光学有限公司明确告诉他们说,这是天空中实实在在存在的东西.]]></string>
+    <string name="Tylo was the first moon of Jool to be discovered by the Kerbal Astronomical Society. After many failed attempts to take a flawless picture of Jool to hang on the office walls, it was finally discovered that the wandering white smear was indeed a moon.&#x000A;&#x000A;Scientists speculate that the view from the surface with Laythe, Vall and Jool overhead must be quite something."><![CDATA[Tylo是第一个由Kerbal天文学会发现的Jool的卫星.在多次尝试想要拍摄一张完美无瑕的Jool的照片挂在办公室的墙上,但是都失败之后,终于发现那个阴魂不散的白色污点竟然是一颗确确实实的卫星.科学家觉得,如果到Laythe表面去看,头顶的Vall和Jool一定"相当壮观".]]></string>
+    <string name="Bop is a small moon in the vicinity of Jool. In Kerbal mythology, Bop is believed to be the home of the Kraken, a mischievous creature said to play with the ships of hapless explorers, by spinning them out of control until torn asunder, then casting them into oblivion."><![CDATA[Bop是Jool的一颗卫星.在Kerbal神话中,Bop是认为是海怪的家园,据说那是一个玩弄倒霉探险者的飞船,旋转它们让它们失控直到撕得粉碎,然后把它们变成历史的淘气生物.]]></string>
+    <string name="This moon was especially hard to spot, as it looks just like a pollen grain, particularly when observed through telescopes based near dusty fields.&#x000A;&#x000A;Pol was finally discovered when someone decided to write down the location of the pollen, after having given up on yet another failed attempt to be rid of the smudge."><![CDATA[这颗卫星特别的难以被发现,因为它看起来就像一颗花粉粒,特别是在有灰尘的地方附近用望远镜去观测.Pol最后还是被发现了,当时有一个人在试图擦拭污点失败之后,决定放弃,然后记录下了这颗花粉的位置.]]></string>
+    <string name="Theres been a considerable amount of controversy around the status of Eeloo as being a proper planet or a just lump of ice going around the Sun. The debate is still ongoing, since most academic summits held to address the issue have devolved into, on good days, petty name calling, and on worse ones, all-out brawls."><![CDATA[对于Eeloo到底是名副其实的行星,还是只是一颗"围绕着太阳的冰疙瘩",目前存在着相当多的争论.这场辩论还将继续,因为大部分的学术峰会都加入进来阐述他们的论点,从友好的问候,到指名骂姓,再到更加糟糕的全面论战.]]></string>
+  </Item>
+
+  <Item scene="SPACECENTER"  type="SpriteText" path="panel_MC/MissionControl(Clone)/panelManager/panel_main/placement/anchor/subCategories/panel_view/anchor_buttons/panel_available/text_offer">
+    <string name="Expires"><![CDATA[过期时限.]]></string>
+  </Item>
+
+  <Item scene="SPACECENTER"  type="SpriteText" path="panel_MC/MissionControl(Clone)/panelManager/panel_main/placement/anchor/subCategories/panel_view/anchor_buttons/panel_available/text_expirytime">
+    <string name="Never"><![CDATA[永不过期.]]></string>
+  </Item>
+
+  <Item scene="SPACECENTER"  type="SpriteText" path="panel_MC/MissionControl(Clone)/panelManager/panel_main/placement/anchor/subCategories/panel_view/anchor_buttons/panel_active/text_deadline">
+    <string name="Deadline"><![CDATA[完成时限.]]></string>
+  </Item>
+
+  <Item scene="SPACECENTER"  type="SpriteText" path="panel_MC/MissionControl(Clone)/panelManager/panel_main/placement/anchor/subCategories/panel_view/anchor_buttons/panel_active/text_deadlinetime">
+    <string name="Never"><![CDATA[永久.]]></string>
+  </Item>
 </Items>

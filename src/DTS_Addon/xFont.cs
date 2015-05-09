@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
+
 using System.Text;
-using System.Threading.Tasks;
+using System.Linq;
 using System.Xml;
 using UnityEngine;
 
@@ -22,20 +22,21 @@ namespace DTS_Addon
             _UI = GameObject.Find("_UI");
         }
 
+        public bool IsWatch = false;
         DateTime FrameTime = DateTime.Now;
-
         long AllTicks = 0;
         long FindTicks = 0;
         long xFontTicks = 0;
         long xTextTicks = 0;
         int i = 0;
-
-        string FindStr = "";
-        string xFontStr = "";
-        string xTextStr = "";
-        string AllStr = "";
-
+        public string FindStr = "";
+        public string xFontStr = "";
+        public string xTextStr = "";
+        public string AllStr = "";
         string count = "";
+
+        public SpriteText[] sts;
+        public SpriteTextRich[] strs;
 
         void Update()
         {
@@ -43,51 +44,66 @@ namespace DTS_Addon
 
             DateTime r = DateTime.Now;
 
-            SpriteText[] sts = _UI.gameObject.GetComponentsInChildren<SpriteText>();
-            SpriteTextRich[] strs = _UI.gameObject.GetComponentsInChildren<SpriteTextRich>();
-            count = "SpriteText:" + sts.Count() + "     SpriteTextRich:" + strs.Count();
+            sts = _UI.gameObject.GetComponentsInChildren<SpriteText>();
+            strs = _UI.gameObject.GetComponentsInChildren<SpriteTextRich>();
 
-            FindTicks += DateTime.Now.Subtract(r).Ticks;
-            r = DateTime.Now;
+            #region 监视性能
+            if (IsWatch)
+            {
+                count = "SpriteText:" + sts.Count() + "     SpriteTextRich:" + strs.Count();
+
+                FindTicks += DateTime.Now.Subtract(r).Ticks;
+                r = DateTime.Now;
+            }
+            #endregion
 
             foreach (SpriteText item in sts)
                 SetSpriteTextFont(item);
             foreach (var item in strs)
                 SetSpriteTextRichFont(item);
 
-            xFontTicks += DateTime.Now.Subtract(r).Ticks;
-            r = DateTime.Now;
+            #region 监视性能
+            if (IsWatch)
+            {
+                xFontTicks += DateTime.Now.Subtract(r).Ticks;
+                r = DateTime.Now;
+            }
+            #endregion
 
             foreach (SpriteText item in sts)
                 SetSpriteText(item);
 
-            xTextTicks += DateTime.Now.Subtract(r).Ticks;
-            AllTicks += DateTime.Now.Subtract(FrameTime).Ticks;
-
-            i += 1;
-            if (i > 30)
+            #region 监视性能
+            if (IsWatch)
             {
-                float findP = ((float)FindTicks / (float)AllTicks);
-                FindStr = P2S("定位消耗", findP);
+                xTextTicks += DateTime.Now.Subtract(r).Ticks;
+                AllTicks += DateTime.Now.Subtract(FrameTime).Ticks;
 
-                float fontP = ((float)xFontTicks / (float)AllTicks);
-                xFontStr = P2S("字库消耗", fontP);
+                i += 1;
+                if (i > 30)
+                {
+                    float findP = ((float)FindTicks / (float)AllTicks);
+                    FindStr = P2S("定位消耗", findP);
 
-                float textP = ((float)xTextTicks / (float)AllTicks);
-                xTextStr = P2S("翻译消耗", textP);
+                    float fontP = ((float)xFontTicks / (float)AllTicks);
+                    xFontStr = P2S("字库消耗", fontP);
 
-                float allP = ((float)(FindTicks + xFontTicks + xTextTicks) / (float)AllTicks);
-                AllStr = P2S("合计消耗", allP);
+                    float textP = ((float)xTextTicks / (float)AllTicks);
+                    xTextStr = P2S("翻译消耗", textP);
 
-                i = 0;
-                AllTicks = 0;
-                FindTicks = 0;
-                xFontTicks = 0;
-                xTextTicks = 0;
+                    float allP = ((float)(FindTicks + xFontTicks + xTextTicks) / (float)AllTicks);
+                    AllStr = P2S("合计消耗", allP);
+
+                    i = 0;
+                    AllTicks = 0;
+                    FindTicks = 0;
+                    xFontTicks = 0;
+                    xTextTicks = 0;
+                }
+
+                FrameTime = DateTime.Now;
             }
-
-            FrameTime = DateTime.Now;
-
+            #endregion
         }
 
         //格式化输出内容
@@ -99,10 +115,7 @@ namespace DTS_Addon
 
         void OnGUI()
         {
-            GUI.Label(new Rect(10, 10, 500, 20), FindStr);
-            GUI.Label(new Rect(10, 30, 500, 20), xFontStr);
-            GUI.Label(new Rect(10, 50, 500, 20), xTextStr);
-            GUI.Label(new Rect(10, 70, 500, 20), AllStr);
+
             //GUI.Label(new Rect(10, 50, 500, 50), count);
         }
 
