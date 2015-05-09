@@ -71,10 +71,25 @@ namespace DTS_Addon
             {
                 DTS_Addon.xItem.Load();
             }
-            //else if (GUI.Button(new Rect(190, 80, 50, 50), "重新载入\r\nzhItem"))
-            //{
-            //    DTS_zh.xRead.Loadzh();
-            //}
+            else if (GUI.Button(new Rect(190, 80, 50, 50), "测试"))
+            {
+                try
+                {
+
+           
+               var rd= UnityEngine.Resources.FindObjectsOfTypeAll<RDController>()[0];
+
+                foreach (RDNode item in rd.nodes)
+                {
+                    Debug.LogWarning("[Debug]" + item.name + "   " + item.description);
+                    item.description = "12345";
+                }
+                }
+                catch (Exception ex)
+                {
+                    Debug.LogError("[Debug]" + ex.ToString());
+                }
+            }
 
             GUI.Label(new Rect(10, 150, 170, 20), HighLogic.LoadedScene.ToString());
 
