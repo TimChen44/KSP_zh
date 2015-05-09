@@ -71,6 +71,10 @@ namespace DTS_Addon
             {
                 DTS_Addon.xItem.Load();
             }
+            //else if (GUI.Button(new Rect(190, 80, 50, 50), "重新载入\r\nzhItem"))
+            //{
+            //    DTS_zh.xRead.Loadzh();
+            //}
 
             GUI.Label(new Rect(10, 150, 170, 20), HighLogic.LoadedScene.ToString());
 
