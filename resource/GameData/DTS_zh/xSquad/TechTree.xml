@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?> 
 <!--一条记录创建一个Config--> 
 <!--此文件汉化了TechTree.cfg--> 
-<!--下面是配置示例代码，你可以参考--> 
-
-
+<!--不知道为什么此配置无效，现在使用了zhItem.xml和zhText.xml配合汉化-->
 <Configs> 
   <Config url="Squad/Resources/TechTree/TechTree"> 
     <Nodes> 
