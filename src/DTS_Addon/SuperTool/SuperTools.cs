@@ -13,6 +13,7 @@ namespace DTS_Addon
         public static bool ConfigTest = false;
         public static bool UITree = false;
         public static bool UICapture = false;
+        public static bool UIxFontTool = false;
 
         public bool ShowSuperTools = false;
 
@@ -30,7 +31,7 @@ namespace DTS_Addon
             }
 
         }
-        Rect window = new Rect(100, 100, 190, 190);
+        Rect window = new Rect(100, 100, 250, 190);
 
         void OnGUI()
         {
@@ -53,6 +54,10 @@ namespace DTS_Addon
             else if (GUI.Button(new Rect(130, 20, 50, 50), "对象\r\n捕捉"))
             {
                 UICapture = !UICapture;
+            }
+            else if (GUI.Button(new Rect(190, 20, 50, 50), "汉化\r\n监视"))
+            {
+                UIxFontTool = !UIxFontTool;
             }
             else if (GUI.Button(new Rect(10, 80, 50, 50), "重新载入\r\xConfig"))
             {

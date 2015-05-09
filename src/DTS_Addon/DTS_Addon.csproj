@@ -84,6 +84,7 @@
     <Compile Include="Scene\xCredits.cs" />
     <Compile Include="SuperTool\SuperTools.cs" />
     <Compile Include="SuperTool\Tools.cs" />
+    <Compile Include="SuperTool\xFontTool.cs" />
     <Compile Include="VegaTextureReplacer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="xConfig.cs" />
@@ -178,18 +179,29 @@
     <Content Include="..\..\resource\GameData\DTS_zh\Image\VesselSpawnDialog.png">
       <Link>DTS_zh\Image\VesselSpawnDialog.png</Link>
     </Content>
+    <Content Include="..\..\resource\GameData\DTS_zh\xSquad\Agents.xml">
+      <Link>DTS_zh\xSquad\Agents.xml</Link>
+    </Content>
+    <Content Include="..\..\resource\GameData\DTS_zh\xSquad\Departments.xml">
+      <Link>DTS_zh\xSquad\Departments.xml</Link>
+    </Content>
     <Content Include="..\..\resource\GameData\DTS_zh\xSquad\Parts.xml">
       <Link>DTS_zh\xSquad\Parts.xml</Link>
     </Content>
     <Content Include="..\..\resource\GameData\DTS_zh\xSquad\ScienceDefs.xml">
       <Link>DTS_zh\xSquad\ScienceDefs.xml</Link>
-      <SubType>Designer</SubType>
     </Content>
     <Content Include="..\..\resource\GameData\DTS_zh\xSquad\StoryDefs.xml">
       <Link>DTS_zh\xSquad\StoryDefs.xml</Link>
     </Content>
+    <Content Include="..\..\resource\GameData\DTS_zh\xSquad\Strategies.xml">
+      <Link>DTS_zh\xSquad\Strategies.xml</Link>
+    </Content>
     <Content Include="..\..\resource\GameData\DTS_zh\xSquad\TechTree.xml">
       <Link>DTS_zh\xSquad\TechTree.xml</Link>
+    </Content>
+    <Content Include="..\..\resource\GameData\DTS_zh\xSquad\Traits.xml">
+      <Link>DTS_zh\xSquad\Traits.xml</Link>
     </Content>
     <Content Include="..\..\resource\GameData\DTS_zh\zh.xml">
       <Link>DTS_zh\zh.xml</Link>
