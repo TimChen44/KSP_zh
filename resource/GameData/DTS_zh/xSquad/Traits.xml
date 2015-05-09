@@ -11,7 +11,7 @@
   <Config url="Squad/Experience/Traits/Engineer">
     <Values>
       <Value name="title"><![CDATA[工程师]]></Value>
-      <Value name="desc"><![CDATA[如果条件具备的话，工程师有可以修复一些损坏的零件。]]></Value>
+      <Value name="desc"><![CDATA[如果可能的话，工程师可以修复一些损坏的零件。]]></Value>
     </Values>
   </Config>
   <Config url="Squad/Experience/Traits/Scientist">
@@ -23,7 +23,7 @@
   <Config url="Squad/Experience/Traits/Tourist">
     <Values>
       <Value name="title"><![CDATA[游客]]></Value>
-      <Value name="desc"><![CDATA[游客支付资金来观赏新奇且令人兴奋的景色。]]></Value>
+      <Value name="desc"><![CDATA[游客付了旅费来观赏新奇且令人兴奋的景色。]]></Value>
     </Values>
   </Config>
 </Configs>

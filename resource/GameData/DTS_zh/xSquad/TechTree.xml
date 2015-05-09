@@ -1,45 +1,4 @@
 <<<<<<< HEAD
-<?xml version="1.0" encoding="utf-8" ?>
-<!--一条记录创建一个Config-->
-<!--此文件汉化了TechTree.cfg-->
-<!--下面是配置示例代码，你可以参考-->
-<Configs>
-  <Config url="Squad/Resources/TechTree/TechTree">
-    <Nodes>
-      <Node id="start">
-        <Values>
-          <Value name="title"><![CDATA[开始]]></Value>
-          <Value name="description"><![CDATA[技术开始。]]></Value>
-        </Values>
-      </Node>
-      <Node id="basicRocketry">
-        <Values>
-          <Value name="title"><![CDATA[基础理论]]></Value>
-          <Value name="description"><![CDATA[火箭科技这条路究竟有多艰难？]]></Value>
-        </Values>
-      </Node>
-	  <Node id="engineering101">
-        <Values>
-          <Value name="title"><![CDATA[101工程]]></Value>
-          <Value name="description"><![CDATA[航空航天工程的路上究竟有多少困难？]]></Value>
-        </Values>
-      </Node>
-	  <Node id="survivability">
-        <Values>
-          <Value name="title"><![CDATA[生命保障]]></Value>
-          <Value name="description"><![CDATA[成功着陆并安全走出舱外的科技支持。]]></Value>
-        </Values>
-      </Node>
-	  <Node id="stability">
-        <Values>
-          <Value name="title"><![CDATA[飞行稳定]]></Value>
-          <Value name="description"><![CDATA[它基本上能让我们的飞船朝着正确的方向飞行。]]></Value>
-        </Values>
-      </Node>
-    </Nodes>
-  </Config>
-</Configs>
-=======
 <?xml version="1.0" encoding="utf-8" ?> 
 <!--一条记录创建一个Config--> 
 <!--此文件汉化了TechTree.cfg--> 
@@ -56,13 +15,13 @@
       <Node id="basicRocketry"> 
         <Values> 
           <Value name="title"><![CDATA[基础级火箭科技]]></Value> 
-          <Value name="description"><![CDATA[火箭科学能有多难？]]></Value> 
+          <Value name="description"><![CDATA[火箭科学能有多困难？]]></Value> 
         </Values> 
       </Node> 
 	        <Node id="engineering101"> 
         <Values> 
           <Value name="title"><![CDATA[101工程组件]]></Value> 
-          <Value name="description"><![CDATA[气动工程能有多难?]]></Value> 
+          <Value name="description"><![CDATA[航空之路能有多艰苦？]]></Value> 
         </Values> 
       </Node> 
       <Node id="survivability"> 
@@ -341,10 +300,10 @@
           <Value name="description"><![CDATA[让你的飞船拥有更高的飞行速度，让你的理智突破极限。]]></Value> 
         </Values> 
       </Node> 
-	  <Node id="nanolathing">   //这个我不会……
+	  <Node id="nanolathing">   //这个我不会……，Summerfirefly留言：仍然为英文的那段我也不会，中文那段应该是对的
         <Values> 
           <Value name="title"><![CDATA[Nanolathing]]></Value> 
-          <Value name="description"><![CDATA[尽管受到了来自绿色变形球拍摄到，没有人同意坎巴拉的科技已经发展到了和那个一样危险的程度。Despite]]></Value> 
+          <Value name="description"><![CDATA[Despite the threatening appearance of the green metablobs shot out of the Nanolathing Injectors, 没有人可以否认小绿人的科技至少已经发展到了和那个一样危险的程度这一事实。]]></Value> 
         </Values> 
       </Node> 
       <Node id="advUnmanned"> 
