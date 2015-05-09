@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
+
 using System.Text;
-using System.Threading.Tasks;
+
 using UnityEngine;
 
 namespace DTS_Addon
@@ -59,7 +59,7 @@ namespace DTS_Addon
             {
                 UIxFontTool = !UIxFontTool;
             }
-            else if (GUI.Button(new Rect(10, 80, 50, 50), "重新载入\r\xConfig"))
+            else if (GUI.Button(new Rect(10, 80, 50, 50), "重新载入\r\nxConfig"))
             {
                 DTS_zh.xConfg.XConfg.HzConfig();
             }

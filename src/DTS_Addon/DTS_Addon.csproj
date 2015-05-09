@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DTS_Addon</RootNamespace>
     <AssemblyName>DTS_Addon</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
@@ -63,6 +63,8 @@
     </Reference>
     <Reference Include="System.Xml">
       <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Steam\SteamApps\common\Kerbal Space Program\KSP_Data\Managed\System.Xml.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
     </Reference>
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Kerbal Space Program\KSP_Data\Managed\UnityEngine.dll</HintPath>
