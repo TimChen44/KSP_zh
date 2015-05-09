@@ -41,6 +41,7 @@
     <PlatformTarget>AnyCPU</PlatformTarget>
     <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'x32|AnyCPU'">
     <DebugSymbols>true</DebugSymbols>
@@ -50,6 +51,7 @@
     <PlatformTarget>AnyCPU</PlatformTarget>
     <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Assembly-CSharp">
@@ -63,6 +65,8 @@
     </Reference>
     <Reference Include="System.Xml">
       <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Steam\SteamApps\common\Kerbal Space Program\KSP_Data\Managed\System.Xml.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
     </Reference>
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Kerbal Space Program\KSP_Data\Managed\UnityEngine.dll</HintPath>
@@ -84,6 +88,7 @@
     <Compile Include="Scene\xCredits.cs" />
     <Compile Include="SuperTool\SuperTools.cs" />
     <Compile Include="SuperTool\Tools.cs" />
+    <Compile Include="SuperTool\xFontTool.cs" />
     <Compile Include="VegaTextureReplacer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="xConfig.cs" />
@@ -178,18 +183,29 @@
     <Content Include="..\..\resource\GameData\DTS_zh\Image\VesselSpawnDialog.png">
       <Link>DTS_zh\Image\VesselSpawnDialog.png</Link>
     </Content>
+    <Content Include="..\..\resource\GameData\DTS_zh\xSquad\Agents.xml">
+      <Link>DTS_zh\xSquad\Agents.xml</Link>
+    </Content>
+    <Content Include="..\..\resource\GameData\DTS_zh\xSquad\Departments.xml">
+      <Link>DTS_zh\xSquad\Departments.xml</Link>
+    </Content>
     <Content Include="..\..\resource\GameData\DTS_zh\xSquad\Parts.xml">
       <Link>DTS_zh\xSquad\Parts.xml</Link>
     </Content>
     <Content Include="..\..\resource\GameData\DTS_zh\xSquad\ScienceDefs.xml">
       <Link>DTS_zh\xSquad\ScienceDefs.xml</Link>
-      <SubType>Designer</SubType>
     </Content>
     <Content Include="..\..\resource\GameData\DTS_zh\xSquad\StoryDefs.xml">
       <Link>DTS_zh\xSquad\StoryDefs.xml</Link>
     </Content>
+    <Content Include="..\..\resource\GameData\DTS_zh\xSquad\Strategies.xml">
+      <Link>DTS_zh\xSquad\Strategies.xml</Link>
+    </Content>
     <Content Include="..\..\resource\GameData\DTS_zh\xSquad\TechTree.xml">
       <Link>DTS_zh\xSquad\TechTree.xml</Link>
+    </Content>
+    <Content Include="..\..\resource\GameData\DTS_zh\xSquad\Traits.xml">
+      <Link>DTS_zh\xSquad\Traits.xml</Link>
     </Content>
     <Content Include="..\..\resource\GameData\DTS_zh\zh.xml">
       <Link>DTS_zh\zh.xml</Link>
@@ -238,7 +254,6 @@
       <Link>DTS_zh\cnfont\cn16b.fnt.unity3d</Link>
     </None>
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

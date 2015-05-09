@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Items>
-  <Item scene="SPACECENTER"  type="SpriteText" path="panel_RnD/RDScreen(Clone)/panelManager/panel_technology/RightPanel/RDpanel/Panel_node/node_description">
+  <!--<Item scene="SPACECENTER"  type="SpriteText" path="panel_RnD/RDScreen(Clone)/panelManager/panel_technology/RightPanel/RDpanel/Panel_node/node_description">
     <string name="How hard can Rocket Science be anyway?"><![CDATA[更强的引擎,更多的燃料,更高远的志向.]]></string>
     <string name="Survivability"><![CDATA[成功着陆并安全走出舱外的科技支持.]]></string>
     <string name="Basic Rocketry"><![CDATA[火箭科技这条路究竟有多艰难?]]></string>
@@ -56,6 +56,6 @@
     <string name="Automation"><![CDATA[实在想不出方方面面都由试验性AI操纵的太空任务能出什么岔子.]]></string>
     <string name="Nanolathing"><![CDATA[构建技术领域的超新星科技.]]></string>
  
-  </Item>
+  </Item>-->
 
 </Items>

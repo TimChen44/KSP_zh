@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
+
 using System.Text;
-using System.Threading.Tasks;
+
 using UnityEngine;
 
 namespace DTS_Addon
@@ -13,6 +13,7 @@ namespace DTS_Addon
         public static bool ConfigTest = false;
         public static bool UITree = false;
         public static bool UICapture = false;
+        public static bool UIxFontTool = false;
 
         public bool ShowSuperTools = false;
 
@@ -30,7 +31,7 @@ namespace DTS_Addon
             }
 
         }
-        Rect window = new Rect(100, 100, 190, 190);
+        Rect window = new Rect(100, 100, 250, 190);
 
         void OnGUI()
         {
@@ -54,7 +55,11 @@ namespace DTS_Addon
             {
                 UICapture = !UICapture;
             }
-            else if (GUI.Button(new Rect(10, 80, 50, 50), "重新载入\r\xConfig"))
+            else if (GUI.Button(new Rect(190, 20, 50, 50), "汉化\r\n监视"))
+            {
+                UIxFontTool = !UIxFontTool;
+            }
+            else if (GUI.Button(new Rect(10, 80, 50, 50), "重新载入\r\nxConfig"))
             {
                 DTS_zh.xConfg.XConfg.HzConfig();
             }
@@ -66,6 +71,10 @@ namespace DTS_Addon
             {
                 DTS_Addon.xItem.Load();
             }
+            //else if (GUI.Button(new Rect(190, 80, 50, 50), "重新载入\r\nzhItem"))
+            //{
+            //    DTS_zh.xRead.Loadzh();
+            //}
 
             GUI.Label(new Rect(10, 150, 170, 20), HighLogic.LoadedScene.ToString());
 

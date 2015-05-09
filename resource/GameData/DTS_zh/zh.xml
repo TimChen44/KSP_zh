@@ -1258,7 +1258,7 @@ Exception: ]]>
   <string id="28545"><![CDATA[DragCube: Cannot load, bounds size z value ']]></string>
   <string id="28634"><![CDATA[BodyLift]]></string>
   <string id="28651"><![CDATA[DRAG_CUBE]]></string>
-  <string id="28670"><![CDATA[无]]></string>
+  <string id="28670" noT="1"><![CDATA[none]]></string>
   <string id="28679"><![CDATA[procedural]]></string>
   <string id="28700"><![CDATA[cube]]></string>
   <string id="28709"><![CDATA[DragTextures]]></string>
@@ -1272,7 +1272,7 @@ Exception: ]]>
   <string id="29033"><![CDATA[D2]]></string>
   <string id="29038"><![CDATA[DragCubeSystem: Can't find database config for ]]></string>
   <string id="29133"><![CDATA[DragRender]]></string>
-  <string id="29154"><![CDATA[默认]]></string>
+  <string id="29154" noT="1"><![CDATA[Default]]></string>
   <string id="29169"><![CDATA[PhysicsGlobals: Loading database]]></string>
   <string id="29234"><![CDATA[dragMultiplier]]></string>
   <string id="29263"><![CDATA[dragCubeMultiplier]]></string>
