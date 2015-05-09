@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--一条记录创建一个Config-->
+<Configs>
+  <!--战略-->
+  <Config url="Squad/Contracts/Contracts/Contracts">
+    <Nodes>
+      <Node name="Base">
+        <Nodes>
+          <Node name="PART_REQUEST">
+            <Values>
+              <Value name="Title"><![CDATA[一Have a research lab at the outpost]]></Value>
+            </Values>
+          </Node>
+          <Node name="PART_REQUEST">
+            <Values>
+              <Value name="Title"><![CDATA[二Have a viewing cupola at the outpost]]></Value>
+            </Values>
+          </Node>
+        </Nodes>
+        
+      </Node>
+      
+    </Nodes>
+  </Config>
+</Configs>
