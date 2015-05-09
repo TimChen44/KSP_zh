@@ -31,7 +31,7 @@ namespace DTS_Addon
 
         static bool testMody = false;
 
-        bool isOut = true;
+        bool isOut = false;
 
         void CNodeWindow(int id)
         {
@@ -185,7 +185,7 @@ namespace DTS_Addon
 
             h++;
             if (isOut == true)
-                File.AppendAllText("GameData/DTS_zh/Debug.txt", "".PadRight(level * 4) + name + "\t" + value + "\r\n");
+                File.AppendAllText("GameData/DTS_zh/Debug.txt", "".PadRight(level * 4) + value.name + "\t" + value.value + "\r\n");
         }
     }
 }
