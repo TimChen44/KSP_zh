@@ -5,25 +5,25 @@
   <Config url="Squad/Experience/Traits/Pilot">
     <Values>
       <Value name="title"><![CDATA[飞行员]]></Value>
-      <Value name="desc"><![CDATA[(机器翻译，翻译时请润色)飞行员在飞行船协助。]]></Value>
+      <Value name="desc"><![CDATA[飞行员可以辅助飞船飞行。]]></Value>
     </Values>
   </Config>
-  <Config url="Squad/Experience/Traits/Pilot">
+  <Config url="Squad/Experience/Traits/Engineer">
     <Values>
       <Value name="title"><![CDATA[工程师]]></Value>
-      <Value name="desc"><![CDATA[(机器翻译，翻译时请润色)工程师有能力修复损坏的零件，如果可能的话。]]></Value>
+      <Value name="desc"><![CDATA[如果可能的话，工程师可以修复一些损坏的零件。]]></Value>
     </Values>
   </Config>
   <Config url="Squad/Experience/Traits/Scientist">
     <Values>
       <Value name="title"><![CDATA[科学家]]></Value>
-      <Value name="desc"><![CDATA[(科学家们可以推动从科学实验的数据的值。]]></Value>
+      <Value name="desc"><![CDATA[科学家们可以提高科学实验所获得数据的价值。]]></Value>
     </Values>
   </Config>
   <Config url="Squad/Experience/Traits/Tourist">
     <Values>
-      <Value name="title"><![CDATA[旅游]]></Value>
-      <Value name="desc"><![CDATA[(机器翻译，翻译时请润色)游客支付资金，看到新的和令人兴奋的地方。]]></Value>
+      <Value name="title"><![CDATA[游客]]></Value>
+      <Value name="desc"><![CDATA[游客付了旅费来观赏新奇且令人兴奋的景色。]]></Value>
     </Values>
   </Config>
 </Configs>
