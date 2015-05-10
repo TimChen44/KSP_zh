@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <?xml version="1.0" encoding="utf-8" ?> 
 <!--一条记录创建一个Config--> 
 <!--此文件汉化了TechTree.cfg--> 
@@ -300,7 +300,7 @@
           <Value name="description"><![CDATA[让你的飞船拥有更高的飞行速度，让你的理智突破极限。]]></Value> 
         </Values> 
       </Node> 
-	  <Node id="nanolathing">   //这个我不会……，Summerfirefly留言：仍然为英文的那段我也不会，中文那段应该是对的
+	  <Node id="nanolathing">   
         <Values> 
           <Value name="title"><![CDATA[Nanolathing]]></Value> 
           <Value name="description"><![CDATA[Despite the threatening appearance of the green metablobs shot out of the Nanolathing Injectors, 没有人可以否认小绿人的科技至少已经发展到了和那个一样危险的程度这一事实。]]></Value> 
@@ -393,4 +393,3 @@
    </Nodes> 
   </Config> 
 </Configs> 
->>>>>>> ea82fdee343a3fe84d286f93c82a4ae0f7f52d9f
