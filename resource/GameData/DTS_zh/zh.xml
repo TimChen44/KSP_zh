@@ -643,15 +643,15 @@
   <string id="7154"><![CDATA[ just became an intrepid astronaut. (Recruiting Cost: ]]></string>
   <string id="7263"><![CDATA[N2]]></string>
   <string id="7268"><![CDATA[)</color>]]></string>
-  <string id="7287"><![CDATA[ just became an intrepid astronaut.</color>]]></string>
-  <string id="7374"><![CDATA[<color=orange><b>Cannot hire any more Kerbals. Not Enough Funds!</b></color>]]></string>
-  <string id="7528"><![CDATA[<color=orange><b>Cannot hire any more Kerbals. Astronaut Complex Capacity Reached!</b></color>]]></string>
-  <string id="7718"><![CDATA[ are available. Auto-hiring is disabled or not allowed at this point.]]></string>
+  <string id="7287"><![CDATA[ 刚刚壮烈了.</color>]]></string>
+  <string id="7374"><![CDATA[<color=orange><b>不能雇佣更多小绿人。资金不足!</b></color>]]></string>
+  <string id="7528"><![CDATA[<color=orange><b>不能雇佣更多小绿人。已达到最高宇航水平!</b></color>]]></string>
+  <string id="7718"><![CDATA[ 是可用的。自动雇佣未开启或现在不可用。]]></string>
   <string id="7858"><![CDATA[<color=orange><b>]]></string>
   <string id="7893"><![CDATA[/]]></string>
-  <string id="7896"><![CDATA[ Kerbals assigned to ]]></string>
-  <string id="7939"><![CDATA[. All Kerbals are assigned.</b></color>]]></string>
-  <string id="8018"><![CDATA[[Applicants List Error]: Cannot Hire ]]></string>
+  <string id="7896"><![CDATA[ 分配小绿人去 ]]></string>
+  <string id="7939"><![CDATA[. 所有的小绿人都已被分配了。</b></color>]]></string>
+  <string id="8018"><![CDATA[[申请列表错误]:不能雇佣 ]]></string>
   <string id="8093"><![CDATA[ as he is not an applicant]]></string>
   <string id="8146"><![CDATA[[Applicants List Error]: Cannot sack ]]></string>
   <string id="8221"><![CDATA[ as he is not part of the available crew]]></string>
