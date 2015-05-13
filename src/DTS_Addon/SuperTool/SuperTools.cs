@@ -73,22 +73,23 @@ namespace DTS_Addon
             }
             else if (GUI.Button(new Rect(190, 80, 50, 50), "测试"))
             {
-                try
-                {
+                DTS_zh.xRead.Loadzh();
+               // try
+               // {
 
            
-               var rd= UnityEngine.Resources.FindObjectsOfTypeAll<RDController>()[0];
+               //var rd= UnityEngine.Resources.FindObjectsOfTypeAll<RDController>()[0];
 
-                foreach (RDNode item in rd.nodes)
-                {
-                    Debug.LogWarning("[Debug]" + item.name + "   " + item.description);
-                    item.description = "12345";
-                }
-                }
-                catch (Exception ex)
-                {
-                    Debug.LogError("[Debug]" + ex.ToString());
-                }
+               // foreach (RDNode item in rd.nodes)
+               // {
+               //     Debug.LogWarning("[Debug]" + item.name + "   " + item.description);
+               //     item.description = "12345";
+               // }
+               // }
+               // catch (Exception ex)
+               // {
+               //     Debug.LogError("[Debug]" + ex.ToString());
+               // }
             }
 
             GUI.Label(new Rect(10, 150, 170, 20), HighLogic.LoadedScene.ToString());
