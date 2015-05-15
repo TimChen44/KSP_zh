@@ -3583,9 +3583,9 @@ bitmask: ]]>
   <string id="111838"><![CDATA[/saves/]]></string>
   <string id="111853"><![CDATA[你想要覆盖它吗？]]></string>
   <string id="111910"><![CDATA[已经有一个相同名字的游戏存在了.]]></string>
-  <string id="111983"><![CDATA[/Ships]]></string>
-  <string id="111996"><![CDATA[/Ships/VAB]]></string>
-  <string id="112017"><![CDATA[/Ships/SPH]]></string>
+  <string id="111983" noT="1"><![CDATA[/Ships]]></string>
+  <string id="111996" noT="1"><![CDATA[/Ships/VAB]]></string>
+  <string id="112017" noT="1"><![CDATA[/Ships/SPH]]></string>
   <string id="112038"><![CDATA[没有可用的描述.]]></string>
   <string id="112089" noT="1"><![CDATA[/saves]]></string>
   <string id="112102" noT="1"><![CDATA[training]]></string>
