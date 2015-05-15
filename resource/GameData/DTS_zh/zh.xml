@@ -12,7 +12,7 @@
     <![CDATA[动作 保持
 目标 正在追踪]]>
   </string>
-  <string id="202"><![CDATA[引擎动力 ]]></string>
+  <string id="202"><![CDATA[引擎推力 ]]></string>
   <string id="229"><![CDATA[F2]]></string>
   <string id="234"><![CDATA[%]]></string>
   <string id="237"><![CDATA[燃料百分比 ]]></string>
@@ -3583,13 +3583,13 @@ bitmask: ]]>
   <string id="111838"><![CDATA[/saves/]]></string>
   <string id="111853"><![CDATA[你想要覆盖它吗？]]></string>
   <string id="111910"><![CDATA[已经有一个相同名字的游戏存在了.]]></string>
-  <string id="111983"><![CDATA[/Ships]]></string>
-  <string id="111996"><![CDATA[/Ships/VAB]]></string>
-  <string id="112017"><![CDATA[/Ships/SPH]]></string>
+  <string id="111983" noT="1"><![CDATA[/Ships]]></string>
+  <string id="111996" noT="1"><![CDATA[/Ships/VAB]]></string>
+  <string id="112017" noT="1"><![CDATA[/Ships/SPH]]></string>
   <string id="112038"><![CDATA[没有可用的描述.]]></string>
-  <string id="112089"><![CDATA[/保存]]></string>
-  <string id="112102"><![CDATA[训练中]]></string>
-  <string id="112119"><![CDATA[场景]]></string>
+  <string id="112089" noT="1"><![CDATA[/saves]]></string>
+  <string id="112102" noT="1"><![CDATA[training]]></string>
+  <string id="112119" noT="1"><![CDATA[scenarios]]></string>
   <string id="112138"><![CDATA[/persistent.sfs]]></string>
   <string id="112169"><![CDATA[ContractSystem]]></string>
   <string id="112198"><![CDATA[Funding]]></string>
@@ -8310,27 +8310,35 @@ Select the one you have available from the left and add it underneath the fuel t
 []]>
   </string>
   <string id="350371">
-    <![CDATA[]: Throttle Down
+    <![CDATA[]: 减小节流阀
 []]>
   </string>
   <string id="350408">
-    <![CDATA[]: Throttle Max
+    <![CDATA[]: 节流阀调到最大
 []]>
   </string>
-  <string id="350443"><![CDATA[]: Throttle Cutoff]]></string>
-  <string id="350480"><![CDATA[节流阀, 加上俯仰, 偏航和滚转就是你必须学会的基本操作. 通过这些操作你就可以进行一次次成功, 不坠毁的航行了. 记住所有的操作效果都是有限的, 因此更大更重的飞船很可能在响应指令时显得比那些又小又轻的飞船要迟钝一些. 同时最好也记住随着你分离抛弃掉一级级的组件, 飞船也会变得更轻从而更易于操控. 接下来让我们学习一些新的操作..]]></string>
+  <string id="350443"><![CDATA[]: 节流阀调到最小]]></string>
+  <string id="350480"><![CDATA[调整节流阀, 加上俯仰, 偏航和滚转就是你必须学会的基本操作. 通过这些操作你就可以进行一次次成功（不坠毁）的航行了. 记住所有的操作效果都是有限的, 因此更大更重的飞船很可能在响应指令时显得比那些又小又轻的飞船要迟钝一些. 同时最好也记住随着你分离抛弃掉一级级的组件, 飞船也会变得更轻从而更易于操控. 接下来让我们学习一些新的操作..]]></string>
   <string id="351452">
-    <![CDATA[S.A.S stands for Stability Augmentation System, although Kerbal astronauts usually refer to it as Sickness Avoidance Scheme.
 
-Whatever it stands for, what it does is try to stop the ship from spinning around, using the computer-controlled "Auto-Torque Drive Compensator™" technology to counteract the rotation of the ship.
 
-SAS can be activated momentarily by holding down the []]>
+
+    <![CDATA[S.A.S 代表 姿态增稳系统, 小绿人们叫它 不适感防止方案.
+
+
+
+不管到底是什么意思, SAS采用 "自动扭力矩补偿™" 技术 对抗飞船扰动，以保持飞船姿态稳定。
+
+
+可以按下 []]>
   </string>
-  <string id="352210"><![CDATA[] 键, 或者通过 []]></string>
+  <string id="352210"><![CDATA[] 键临时激活SAS（松开该键SAS停止作用）, 或者通过 []]></string>
   <string id="352281">
-    <![CDATA[] Key.
+    <![CDATA[] 键打开SAS。（按下后SAS将保持开启除非再次点击该键）
 
-It’s also worth noting that a skilled pilot doesn’t have to rely on a SAS module to keep a ship steady.]]>
+
+
+经验丰富的宇航员不需要依靠SAS模块保持飞船稳定。
   </string>
   <string id="352505"><![CDATA[R.C.S. 全称是反作用控制系统. 由许多小推进器组成，能帮助飞船进行转动和平移. R.C.S系统能通过[]]></string>
   <string id="352863">
