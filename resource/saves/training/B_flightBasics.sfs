@@ -1,8 +1,8 @@
 GAME
 {
 	version = 0.21.0
-	Title = Flight Basics
-	Description = Learn the basics of flying a spacecraft in KSP. In this tutorial, flight instructor Gene Kerman will take you through the essential flight controls and instruments required to launch a simple rocket to an almost respectable altitude.
+	Title = 飞船驾驶基础
+	Description = 飞控指导Gene Kerman将全程带领你学习KSP内飞船驾驶的基础操作，教你把简单的火箭发射到一定高度轨道。
 	Mode = 3
 	scene = 7
 	flag = Squad/Flags/default

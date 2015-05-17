@@ -1,8 +1,8 @@
 GAME
 {
 	version = 0.21.0
-	Title = Construction Basics
-	Description = This tutorial, presented by famous rocket scientist Wernher von Kerman himself, covers the basics of rocket construction in the Vehicle Assembly Building. He's waiting for you down there and is always in high demand. Don't dally!
+	Title = 飞船建造基础
+	欢迎来到由著名航天科学家Wernher von Kerman亲自指导的教程，内容涵盖飞船装配大楼内的基本操作。接下来的时间他将会对你严格要求，可别想随随便便地糊弄过去哦！
 	Mode = 3 
     // scene to load when starting this save.
 	scene = 6
