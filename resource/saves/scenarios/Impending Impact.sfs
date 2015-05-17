@@ -1,8 +1,8 @@
 GAME
 {
 	version = 0.21.0
-	Title = Impending Impact
-	Description = The Mun 7 flyby spacecraft is heading straight for an impact with the Mun! See if you can avoid a catastrophe and get Jebediah back home!
+	Title = 撞击事故
+	Description = 原定飞掠Mun的Mun 7飞船即将撞击Mun！试着避免灾难并拯救宇航员。
 	Mode = 0
 	Status = 1
 	scene = 7

@@ -1,10 +1,10 @@
 GAME
 {
 	version = 0.23.0
-	Title = Asteroid Redirect Mission: Ready to Capture
-	Description = The Asteroid Redirect Mission, created with the collaboration of NASA, features asteroids orbiting close to Kerbin, as well as new tools that allow you to actually capture one, redirect its orbit, and perform new science research on it.^^On this scenario, the Retriever A2 spacecraft is only a few meters away from the asteroid, ready to deploy its grappling device and attach itself. Can you maneuver it into a closed orbit around Kerbin's Mun?
+	Title = 小行星捕获任务：准备捕获
+	Description = 本次行动中你将驾驶距离目标小行星数米远的“捕获A2”飞船准备捕获小行星。你能把小行星带回到Mun轨道吗？
 	linkURL = www.nasa.gov/asteroidinitiative
-	linkCaption = Learn More about NASA's real Asteroid Redirect Mission
+	linkCaption = 了解更多关于美国国家航空航天局的小行星捕获任务的信息
 	Mode = 3
 	scene = 7
 	flag = Squad/Flags/default

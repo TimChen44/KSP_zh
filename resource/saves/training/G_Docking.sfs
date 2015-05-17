@@ -1,8 +1,8 @@
 GAME
 {
 	version = 1.0.0
-	Title = Docking
-	Description = We'll review the process of attaching two ships with one another in space.
+	Title = 交会对接
+	Description = 让我们来回顾一下两个飞船交会对接的步骤
 	Mode = 3
 	Status = 1
 	scene = 7

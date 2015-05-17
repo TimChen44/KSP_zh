@@ -1,8 +1,8 @@
 GAME
 {
 	version = 0.21.0
-	Title = To The Mun, Part 2
-	Description = This...er, should actually be called "From the Mun", here we will review how to bring our brave Kerbal crew back home, once they managed to safely land on the Mun.
+	Title = 奔月II
+	Description = 本关其实是教会玩家登月之后，如何安全返回。
 	Mode = 3
 	Status = 1
 	scene = 7
