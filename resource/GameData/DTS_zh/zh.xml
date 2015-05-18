@@ -645,13 +645,13 @@
   <string id="7268"><![CDATA[)</color>]]></string>
   <string id="7287"><![CDATA[ 刚刚壮烈了.</color>]]></string>
   <string id="7374"><![CDATA[<color=orange><b>不能雇佣更多小绿人。资金不足!</b></color>]]></string>
-  <string id="7528"><![CDATA[<color=orange><b>不能雇佣更多小绿人。已达到最高宇航水平!</b></color>]]></string>
+  <string id="7528"><![CDATA[<color=orange><b>不能雇佣更多小绿人。航天员中心已满!</b></color>]]></string>
   <string id="7718"><![CDATA[ 是可用的。自动雇佣未开启或现在不可用。]]></string>
   <string id="7858"><![CDATA[<color=orange><b>]]></string>
   <string id="7893"><![CDATA[/]]></string>
   <string id="7896"><![CDATA[ 分配小绿人去 ]]></string>
   <string id="7939"><![CDATA[. 所有的小绿人都已被分配了。</b></color>]]></string>
-  <string id="8018"><![CDATA[[申请列表错误]:不能雇佣 ]]></string>
+  <string id="8018"><![CDATA[[候选者列表错误]:不能雇佣 ]]></string>
   <string id="8093"><![CDATA[ as he is not an applicant]]></string>
   <string id="8146"><![CDATA[[Applicants List Error]: Cannot sack ]]></string>
   <string id="8221"><![CDATA[ as he is not part of the available crew]]></string>
@@ -1415,7 +1415,7 @@ FX Scale: ]]>
   <string id="33416"><![CDATA[[Animation Setup Error]: no animation component found on given animation root object.]]></string>
   <string id="33588"><![CDATA[Crew Transfer Host]]></string>
   <string id="33625"><![CDATA[crewTransfer]]></string>
-  <string id="33650"><![CDATA[>Select a module to transfer ]]></string>
+  <string id="33650"><![CDATA[>选择目标舱段]]></string>
   <string id="33709">
     <![CDATA[ to
 [Esc]: Cancel</color>]]>
@@ -1428,11 +1428,11 @@ FX Scale: ]]>
   <string id="34071"><![CDATA[ moved to ]]></string>
   <string id="34092"><![CDATA[</color>]]></string>
   <string id="34109"><![CDATA[main camera pivot]]></string>
-  <string id="34144"><![CDATA[鼠标左键]]></string>
-  <string id="34159"><![CDATA[鼠标右键]]></string>
+  <string id="34144" noT="1"><![CDATA[Mouse X]]></string>
+  <string id="34159" noT="1"><![CDATA[Mouse Y]]></string>
   <string id="34174"><![CDATA[kerbalEVA (]]></string>
-  <string id="34197"><![CDATA[无法储藏，该舱没有出口.]]></string>
-  <string id="34262"><![CDATA[舱门被阻挡,无法出舱.]]></string>
+  <string id="34197"><![CDATA[该舱没有出口，无法出舱]]></string>
+  <string id="34262"><![CDATA[舱门被阻挡,无法出舱]]></string>
   <string id="34327"><![CDATA[Airlock]]></string>
   <string id="34342"><![CDATA[ Crew:]]></string>
   <string id="34355"><![CDATA[舱门]]></string>
@@ -1550,7 +1550,7 @@ FX Scale: ]]>
   <string id="37582"><![CDATA[[]]></string>
   <string id="37585"><![CDATA[]: <size=20>抓住梯子</size>]]></string>
   <string id="37600"><![CDATA[]: <size=20>放开梯子</size>]]></string>
-  <string id="37619"><![CDATA[]: Climb Out]]></string>
+  <string id="37619"><![CDATA[]: <size=20>离开飞船</size>]]></string>
   <string id="37644"><![CDATA[]: Climb]]></string>
   <string id="37661"><![CDATA[]: <size=20>登船</size>]]></string>
   <string id="37678"><![CDATA[jp_]]></string>
@@ -1998,7 +1998,7 @@ with this version of KSP.]]>
   <string id="53697"><![CDATA[文件夹中未找到存档: ]]></string>
   <string id="53756"><![CDATA[错误!]]></string>
   <string id="53769"><![CDATA[The ]]></string>
-  <string id="53778"><![CDATA[ SFS文件不适合当前版本的KSP.]]></string>
+  <string id="53778"><![CDATA[ SFS文件不兼容当前版本的KSP.]]></string>
   <string id="53881"><![CDATA[GAME]]></string>
   <string id="53890"><![CDATA[Title]]></string>
   <string id="53901"><![CDATA[Description]]></string>
@@ -10993,9 +10993,9 @@ Box]]>
   <string id="477167"><![CDATA[ objects or larger]]></string>
   <string id="477204"><![CDATA[资源转移可用]]></string>
   <string id="477259"><![CDATA[Basic]]></string>
-  <string id="477270"><![CDATA[ 动作编组可用]]></string>
-  <string id="477319"><![CDATA[动作编组可用]]></string>
-  <string id="477366"><![CDATA[默认编组可用]]></string>
+  <string id="477270"><![CDATA[ 动作组可用]]></string>
+  <string id="477319"><![CDATA[动作组可用]]></string>
+  <string id="477366"><![CDATA[默认动作组可用]]></string>
   <string id="477427"><![CDATA[Level ]]></string>
   <string id="477440"><![CDATA[KSCPauseMenu]]></string>
   <string id="477465"><![CDATA[KSC Pause Menu Handler]]></string>
@@ -11613,7 +11613,7 @@ msg: ]]>
   <string id="504014"><![CDATA[: Cannot find a facility of name ']]></string>
   <string id="504083"><![CDATA[SpaceCenterMain: Cannot find gameObject of url ]]></string>
   <string id="504178"><![CDATA[[雷达站]:无法找到指定名称的载具 ]]></string>
-  <string id="504279"><![CDATA[ 有什么走错了地方.]]></string>
+  <string id="504279"><![CDATA[这里出了问题。]]></string>
   <string id="504336"><![CDATA[UIApp: No Applauncher button specified, aborting]]></string>
   <string id="504433"><![CDATA[\saves\]]></string>
   <string id="504448"><![CDATA[Autogen thumbnail for ]]></string>
