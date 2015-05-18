@@ -24,7 +24,7 @@
   <string id="453"><![CDATA[修复轮胎]]></string>
   <string id="480"><![CDATA[修复登陆支架]]></string>
   <string id="519"><![CDATA[再聚科研点数返回: ]]></string>
-  <string id="566"><![CDATA[名称]]></string>
+  <string id="566" noT="1"><![CDATA[name]]></string>
   <string id="575"><![CDATA[ExperienceTraitConfig: name cannot be null]]></string>
   <string id="660"><![CDATA[标题]]></string>
   <string id="671"><![CDATA[描述]]></string>
