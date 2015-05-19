@@ -26,11 +26,11 @@
   <string id="519"><![CDATA[再聚科研点数返回: ]]></string>
   <string id="566" noT="1"><![CDATA[name]]></string>
   <string id="575"><![CDATA[ExperienceTraitConfig: name cannot be null]]></string>
-  <string id="660"><![CDATA[标题]]></string>
-  <string id="671"><![CDATA[描述]]></string>
-  <string id="680"><![CDATA[描述]]></string>
-  <string id="703"><![CDATA[图标]]></string>
-  <string id="712"><![CDATA[效果]]></string>
+  <string id="660" noT="1"><![CDATA[title]]></string>
+  <string id="671" noT="1"><![CDATA[desc]]></string>
+  <string id="680" noT="1"><![CDATA[description]]></string>
+  <string id="703" noT="1"><![CDATA[icon]]></string>
+  <string id="712" noT="1"><![CDATA[EFFECT]]></string>
   <string id="725"><![CDATA[EXPERIENCE_TRAIT]]></string>
   <string id="758"><![CDATA[ExperienceSystemConfig: Experience trait ']]></string>
   <string id="843"><![CDATA['已经存在]]></string>
