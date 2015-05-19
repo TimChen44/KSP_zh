@@ -1,4 +1,4 @@
-<zh>
+﻿<zh>
   <!--如果某个词条翻译后导致程序异常请在此词条加入noT属性避免他人再次入坑，如下：
   <string id="39100" noT="1"><![CDATA[LaunchPad]]></string>-->
   <string id="1">
@@ -645,13 +645,13 @@
   <string id="7268"><![CDATA[)</color>]]></string>
   <string id="7287"><![CDATA[ 刚刚壮烈了.</color>]]></string>
   <string id="7374"><![CDATA[<color=orange><b>不能雇佣更多小绿人。资金不足!</b></color>]]></string>
-  <string id="7528"><![CDATA[<color=orange><b>不能雇佣更多小绿人。已达到最高宇航水平!</b></color>]]></string>
+  <string id="7528"><![CDATA[<color=orange><b>不能雇佣更多小绿人。航天员中心已满!</b></color>]]></string>
   <string id="7718"><![CDATA[ 是可用的。自动雇佣未开启或现在不可用。]]></string>
   <string id="7858"><![CDATA[<color=orange><b>]]></string>
   <string id="7893"><![CDATA[/]]></string>
   <string id="7896"><![CDATA[ 分配小绿人去 ]]></string>
   <string id="7939"><![CDATA[. 所有的小绿人都已被分配了。</b></color>]]></string>
-  <string id="8018"><![CDATA[[申请列表错误]:不能雇佣 ]]></string>
+  <string id="8018"><![CDATA[[候选者列表错误]:不能雇佣 ]]></string>
   <string id="8093"><![CDATA[ as he is not an applicant]]></string>
   <string id="8146"><![CDATA[[Applicants List Error]: Cannot sack ]]></string>
   <string id="8221"><![CDATA[ as he is not part of the available crew]]></string>
@@ -662,7 +662,7 @@
   <string id="8552"><![CDATA[ExperienceSystem: Found ]]></string>
   <string id="8601"><![CDATA[ trait types]]></string>
   <string id="8626"><![CDATA[ effect types]]></string>
-  <string id="8653"><![CDATA[Tourist]]></string>
+  <string id="8653"><![CDATA[游客]]></string>
   <string id="8668"><![CDATA[驾驶员]]></string>
   <string id="8679"><![CDATA[工程师]]></string>
   <string id="8696"><![CDATA[科学家]]></string>
@@ -1415,7 +1415,7 @@ FX Scale: ]]>
   <string id="33416"><![CDATA[[Animation Setup Error]: no animation component found on given animation root object.]]></string>
   <string id="33588"><![CDATA[Crew Transfer Host]]></string>
   <string id="33625"><![CDATA[crewTransfer]]></string>
-  <string id="33650"><![CDATA[>Select a module to transfer ]]></string>
+  <string id="33650"><![CDATA[>选择目标舱段]]></string>
   <string id="33709">
     <![CDATA[ to
 [Esc]: Cancel</color>]]>
@@ -1428,11 +1428,11 @@ FX Scale: ]]>
   <string id="34071"><![CDATA[ moved to ]]></string>
   <string id="34092"><![CDATA[</color>]]></string>
   <string id="34109"><![CDATA[main camera pivot]]></string>
-  <string id="34144"><![CDATA[鼠标左键]]></string>
-  <string id="34159"><![CDATA[鼠标右键]]></string>
+  <string id="34144" noT="1"><![CDATA[Mouse X]]></string>
+  <string id="34159" noT="1"><![CDATA[Mouse Y]]></string>
   <string id="34174"><![CDATA[kerbalEVA (]]></string>
-  <string id="34197"><![CDATA[无法储藏，该舱没有出口.]]></string>
-  <string id="34262"><![CDATA[舱门被阻挡,无法出舱.]]></string>
+  <string id="34197"><![CDATA[该舱没有出口，无法出舱]]></string>
+  <string id="34262"><![CDATA[舱门被阻挡,无法出舱]]></string>
   <string id="34327"><![CDATA[Airlock]]></string>
   <string id="34342"><![CDATA[ Crew:]]></string>
   <string id="34355"><![CDATA[舱门]]></string>
@@ -1550,7 +1550,7 @@ FX Scale: ]]>
   <string id="37582"><![CDATA[[]]></string>
   <string id="37585"><![CDATA[]: <size=20>抓住梯子</size>]]></string>
   <string id="37600"><![CDATA[]: <size=20>放开梯子</size>]]></string>
-  <string id="37619"><![CDATA[]: Climb Out]]></string>
+  <string id="37619"><![CDATA[]: <size=20>离开飞船</size>]]></string>
   <string id="37644"><![CDATA[]: Climb]]></string>
   <string id="37661"><![CDATA[]: <size=20>登船</size>]]></string>
   <string id="37678"><![CDATA[jp_]]></string>
@@ -1998,7 +1998,7 @@ with this version of KSP.]]>
   <string id="53697"><![CDATA[文件夹中未找到存档: ]]></string>
   <string id="53756"><![CDATA[错误!]]></string>
   <string id="53769"><![CDATA[The ]]></string>
-  <string id="53778"><![CDATA[ SFS文件不适合当前版本的KSP.]]></string>
+  <string id="53778"><![CDATA[ SFS文件不兼容当前版本的KSP.]]></string>
   <string id="53881"><![CDATA[GAME]]></string>
   <string id="53890"><![CDATA[Title]]></string>
   <string id="53901"><![CDATA[Description]]></string>
@@ -8218,9 +8218,7 @@ I'm really proud of you, I know you have potential.]]>
   <string id="338931"><![CDATA[不错,你看来已经找到窍门了!]]></string>
   <string id="339044"><![CDATA[嗯..你得确保那个燃料罐跟指令舱正确的连接了.在合适的位置上它会变绿.]]></string>
   <string id="339292">
-    <![CDATA[Now lets add a rocket to the ship! This creates a jet of high energy gas which pushes the vessel along.
-
-Select the one you have available from the left and add it underneath the fuel tank.]]>
+    <![CDATA[现在我们来给飞船添加火箭发动机，他能产生高温高压气流推动飞船前进，从左边选择目前可用的引擎放到燃料罐底下。]]>
   </string>
   <string id="339672"><![CDATA[看上去还不错,你让那个我想起了当年那个年轻,缺乏经验,默默无闻的自己.]]></string>
   <string id="339880"><![CDATA[嗯..你得确保那个引擎跟燃料罐正确的连接了.在合适的位置上它会变绿.]]></string>
@@ -8265,8 +8263,8 @@ Select the one you have available from the left and add it underneath the fuel t
   <string id="345914"><![CDATA[onFlightTutorial]]></string>
   <string id="345947"><![CDATA[flightTutorial]]></string>
   <string id="345976"><![CDATA[欢迎来到坎巴拉太空中心发射场! 我是]]></string>
-  <string id="346089"><![CDATA[ and I will teach you  the basics of piloting a spacecraft. I trust you already checked the Basic Construction Tutorial, if not I recommend you do so before going through this one. If you're ready to go, press Next.]]></string>
-  <string id="346521"><![CDATA[Flying a spacecraft is all about being in control of a generally very chaotic situation. As a Pilot, your main flight controls will affect the pitch, roll and yaw of the ship. Let's look at those first. (All the other controls will be locked until they're needed or this tutorial is closed.)]]></string>
+  <string id="346089"><![CDATA[ 由我来教你怎样操作飞船。如果你没有通过飞船建造的基本知识就先看那个教程。准备好了请点击下一步。]]></string>
+  <string id="346521"><![CDATA[操作飞船的本质是在混乱情况下保持飞船稳定。作为指令长，你的指令主要控制俯仰滚转偏航来控制飞船。（教程结束前其他控制将被锁定）]]></string>
   <string id="347105">
     <![CDATA[俯仰角是船首和地平线所成的夹角. 正俯仰角意味着你的船首指向天空, 而负的俯仰角则意味着你的船首正指向地面. 你可以通过以下键位控制俯仰角:
 
@@ -8352,11 +8350,7 @@ Select the one you have available from the left and add it underneath the fuel t
 []]>
   </string>
   <string id="354005">
-    <![CDATA[]: Launch / Activate Next Stage
-
-Notice the Stage Indicator on the lower-left corner. It shows the currently active stage. Since we haven't launched yet, it's showing the first stage to be activated. I have your staging controls locked for now, so the LED next to the indicator is glowing purple. 
-
-One more thing on staging, if the automatically generated stage setup, or even one made by you, is causing strife, or you just changed your mind about something, you can edit the stage sequence on the fly...pun intended...no need to go back to the assembly facility.]]>
+    <![CDATA[]: 发射/执行分级 注意左下角的分级指示器，显示当前分级。未发射时显示第一级待激活。我锁定了分级控制，所以下面的灯光是红色的。另外，如果发现分级有误或需要修改。可以直接在当前界面修改分级顺序而不用返回装配大楼。]]>
   </string>
   <string id="355137"><![CDATA[飞行的一个重要环节就是弄清楚你的飞船朝向哪里, 正在飞向什么方向.  一个好的飞行员总是知道自己飞船的姿态以及它的速度方向. 屏幕正下方的那个大圆球被称作导航球. 这个设备提供了大多数的关键信息来帮助你实现一次正确无死亡的航行. 在这里你能看到飞船的指向, 和地平线的相对位置,航向还有速度. 你同时也能看到一些图标指出了你现在的速度方向, 但是我们会晚点才讲到它.]]></string>
   <string id="356309"><![CDATA[在屏幕的上半部分你会看到高度计, 垂直速度计和气压计. 高度计会标出飞船与星球海平面的垂直距离. 也就是说实际的地面可能要更高一些, 所以在降落时请注意地面. 你的垂直速度计能标出你高度变化的速度, 当发射的时候最好能保持指针是朝上的. 气压计能指出飞船在星球大气层里多深的位置. 这帮助你了解飞船的高度是否适合进行入轨并不在空气摩擦上损失太多的速度, 或者估计机翼和控制翼面能有多大的效果.]]></string>
@@ -8483,9 +8477,7 @@ One more thing on staging, if the automatically generated stage setup, or even o
   <string id="376894"><![CDATA[Reentry]]></string>
   <string id="376909"><![CDATA[Conclusion]]></string>
   <string id="376930">
-    <![CDATA[Welcome to the Mun! I trust you managed to land your ship alright, but here we are now.
-
-I'd like you to examine the ship very carefully, it's a barebones design of a lander, it contains all you will need to land and get back to Kerbin. Okay, now let's get your crew back home!]]>
+    <![CDATA[欢迎来到月球，我相信你费了好大劲才着陆成功。你最好仔细看看这个飞船，这是最基础的登陆器包涵所有登陆返回所需功能，现在把小绿人带回家吧。]]>
   </string>
   <string id="377486">
     <![CDATA[Before we do that though let's seize this opportunity to do a little moonwalking.
@@ -8665,21 +8657,13 @@ Remember that you can just activate the Stability Assist ([]]>
   <string id="395221"><![CDATA[很好!这就是抬高远拱点的方法.在轨道机动中,很大程度上你做的任何机动都会在轨道的另一端反应出来.所以如果要抬高远拱点(AP点)你就在近拱点(PE点)加速.反过来如果想提高PE点,就在AP点加速.我们现在就在去往AP点的途中,所以让我们来试一试吧.准备好后就按下一步,我会加速时间来让我们尽快到达AP点.]]></string>
   <string id="396141"><![CDATA[好了,我们现在就在前往AP点的途中.注意看航天器在抬升高度的同时也在失去速度.这是因为我们在远离星球,所以随着我们高度的增加我们的速度就会减少.就好像你在攀登一座高山一样.你的轨道越高,你的环绕速度就越低.比如Mun环绕坎巴拉星的速度仅有540米每秒,而你的速度则要高不少.当我们到达AP点的时候我们又要进行一次加速,来抬高我们的近拱点并圆化轨道.]]></string>
   <string id="397113">
-    <![CDATA[Ok, Here we are... Same as before, turn your ship to face prograde.
-
-Mind that we are probably turned the other way right now, so the Prograde Vector might not be visible.
-
-Once you're facing the right direction fire up those engines, and watch the Periapsis rise]]>
+    <![CDATA[现在我们把飞船朝向前进方向。注意我们可能掉了个个，可能看不到前进方向指示向量了。一旦对准方向打开引擎，看着近拱点上升吧。]]>
   </string>
-  <string id="397641"><![CDATA[Keep burning prograde until the orbit is nearly circular... Eccentricity will be 0 when it's perfectly circular, so keep and eye on that.]]></string>
+  <string id="397641"><![CDATA[直到轨道接近圆形再关闭引擎，轨道越接近圆，偏心率越接近0。]]></string>
   <string id="397917"><![CDATA[轨道偏心率: ]]></string>
   <string id="397952"><![CDATA[非常完美!这就是调整轨道高度的方法.这种机动在大多数情况下都能适用.接下来我们准备学习如何调整你的轨道倾角,当准备好后就点击下一步.]]></string>
   <string id="398370">
-    <![CDATA[Your orbital inclination is the angle your orbit makes to Kerbin's Equator. If you've managed to maintain a reasonable amount of control so far, we should still be in a nearly 0° inclination orbit. That is, even though we've changed the altitude of our orbit, it still has the same inclination as before.
-
-Changing inclination is done by thrusting in 90° angles to your prograde vector, but without changing your pitch relative to the surface.
-
-On our present, nearly equatorial orbit, prograde is due east. That means to increase our inclination, so that our orbit takes us into higher latitudes, we have to burn towards the Normal direction.]]>
+    <![CDATA[轨道倾角是轨道和赤道面的夹角。如果控制得很好，倾角应该是0度。即使改变高度倾角也不变。垂直前进方向推进飞船可以改变倾角的同时不改变相对地面的角度。对于现在前进方向向东几乎和赤道平行的轨道。改变倾角就是增加倾角、升高纬度。完成这一目标需要向常态方向推进飞船。]]>
   </string>
   <string id="399658">
     <![CDATA[If all that I just said made your head spin, the NavBall once again comes to your rescue, to change your orbital inclination. In this case you will need to use the Normal Vector.
@@ -8748,9 +8732,7 @@ See you on the ground!]]>
   <string id="406582"><![CDATA[scienceArchivsPlanets]]></string>
   <string id="406625"><![CDATA[你好！欢迎来到坎巴拉科研讲座, 我是 ]]></string>
   <string id="406777">
-    <![CDATA[, scientist extraordinaire. This tutorial doesn't really require any previous knowledge, but in order to gather science points you will have to acquaint yourself with almost every aspect of the game, so you should do them all at some point.
-
-We are now at the Kerbal Space Center, I'll give you a quick tour, you can hover the mouse over any building to see it's name in the bar at the bottom of the screen.]]>
+    <![CDATA[, 杰出科学家. 本次教程不需要前置课程，但是获取科研点数要求你了解游戏的每一个部分，所以还是先看看前面的教程比较好。我们现在在坎星宇航中心，我会给你简单介绍一下整个中心。你可以把鼠标悬停到任何一个建筑上在屏幕底端看到它的名字。]]>
   </string>
   <string id="407593">
     <![CDATA[The large building on the top left closest to the runway is the Space Plane Hangar, here you can build and fly Spaceplanes.
@@ -10993,9 +10975,9 @@ Box]]>
   <string id="477167"><![CDATA[ objects or larger]]></string>
   <string id="477204"><![CDATA[资源转移可用]]></string>
   <string id="477259"><![CDATA[Basic]]></string>
-  <string id="477270"><![CDATA[ 动作编组可用]]></string>
-  <string id="477319"><![CDATA[动作编组可用]]></string>
-  <string id="477366"><![CDATA[默认编组可用]]></string>
+  <string id="477270"><![CDATA[ 动作组可用]]></string>
+  <string id="477319"><![CDATA[动作组可用]]></string>
+  <string id="477366"><![CDATA[默认动作组可用]]></string>
   <string id="477427"><![CDATA[Level ]]></string>
   <string id="477440"><![CDATA[KSCPauseMenu]]></string>
   <string id="477465"><![CDATA[KSC Pause Menu Handler]]></string>
@@ -11613,7 +11595,7 @@ msg: ]]>
   <string id="504014"><![CDATA[: Cannot find a facility of name ']]></string>
   <string id="504083"><![CDATA[SpaceCenterMain: Cannot find gameObject of url ]]></string>
   <string id="504178"><![CDATA[[雷达站]:无法找到指定名称的载具 ]]></string>
-  <string id="504279"><![CDATA[ 有什么走错了地方.]]></string>
+  <string id="504279"><![CDATA[这里出了问题。]]></string>
   <string id="504336"><![CDATA[UIApp: No Applauncher button specified, aborting]]></string>
   <string id="504433"><![CDATA[\saves\]]></string>
   <string id="504448"><![CDATA[Autogen thumbnail for ]]></string>
