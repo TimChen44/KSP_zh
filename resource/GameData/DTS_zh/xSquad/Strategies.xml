@@ -1,18 +1,76 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <!--一条记录创建一个Config-->
+<!--战略-->
 <Configs>
   <!--战略-->
-  <Config url="Squad/Strategies/Strategies/AppreciationCampaignCfg">
+  <Config name="AppreciationCampaignCfg">
+
     <Values>
-	
-      <Value name="title"><![CDATA[欣赏运动]]></Value>
-      <Value name="desc"><![CDATA[(机器翻译，翻译时请润色)我们肯定可以放一些努力提醒 Kerbals 无处不在的只是多么伟大的太空计划是改善我们的形象。广告空间并不是免费的但是。]]></Value>
+      <Value name="title"><![CDATA[广告宣传]]></Value>
+      <Value name="desc"><![CDATA[我们可以通过一些努力改善我们的形象 提醒小绿人太空计划是多么伟大.然而, 广告位可不是免费的.]]></Value>
     </Values>
   </Config>
-  <Config url="Squad/Strategies/Strategies/FundraisingCampaignCfg">
+  <Config name="FundraisingCampaignCfg">
+
     <Values>
-      <Value name="title"><![CDATA[筹款活动]]></Value>
-      <Value name="desc"><![CDATA[(机器翻译，翻译时请润色)我们可能可以筹集一些钱利用注意我们走出新的成功冒昧地提醒小康 Kerbals，我们可以使用他们的支持和他们的钱包的内容。这可能要被视为有点厚脸皮的我们，所以要准备好去面对一些公众的强烈不满。]]></Value>
+      <Value name="title"><![CDATA[募捐活动]]></Value>
+      <Value name="desc"><![CDATA[我们可以在那些新的成功企业家和有头脸的 上层阶级小绿人那里筹集一些钱,这可能会被 认为不要脸,管他呢,只要有钱收,天天开趴体 都行.]]></Value>
+    </Values>
+  </Config>
+  <Config name="OpenSourceTechProgramCfg">
+
+    <Values>
+      <Value name="title"><![CDATA[开源计划]]></Value>
+      <Value name="desc"><![CDATA[虽然我们花费很多心血和时间获得这些科学 数据,我们还是认为应该免费提供给所有研究 人员,共建和谐社会,大家好才是真的好.然而 总是有人说我们提供的科学数据不是最新最 好的.]]></Value>
+    </Values>
+  </Config>
+  <Config name="UnpaidResearchProgramCfg">
+
+    <Values>
+      <Value name="title"><![CDATA[实习研究]]></Value>
+      <Value name="desc"><![CDATA[我们招募一些大学生帮助研究,虽然没有工资, 但是在伟大的太空计划中心工作和学习,对他 们而言就是最大的奖励.]]></Value>
+    </Values>
+  </Config>
+  <Config name="OutsourcedResearchCfg">
+
+    <Values>
+      <Value name="title"><![CDATA[外包研发]]></Value>
+      <Value name="desc"><![CDATA[繁杂的数据研究令小绿人们苦不堪言,我们只 好寻找外部研究实验室帮助处理多余的数据, 虽然费用并不便宜,但是研究结果还是令人满 意的.]]></Value>
+    </Values>
+  </Config>
+  <Config name="PatentsLicensingCfg">
+
+    <Values>
+      <Value name="title"><![CDATA[专利许可]]></Value>
+      <Value name="desc"><![CDATA[向其他组织销售我们的专利许可证可以赚到 很多钱.虽然研发团队会因此多做一些记账的 工作,但是在经济利益的驱使下,还是屡试不爽.]]></Value>
+    </Values>
+  </Config>
+  <Config name="AgressiveNegotiations">
+
+    <Values>
+      <Value name="title"><![CDATA[积极谈判]]></Value>
+      <Value name="desc"><![CDATA[或许带我们的供应商去泡脚洗桑拿.可以减少 一些进货成本支出?]]></Value>
+    </Values>
+  </Config>
+  <Config name="RecoveryTransponders">
+
+    <Values>
+      <Value name="title"><![CDATA[回收定位]]></Value>
+      <Value name="desc"><![CDATA[远距离回收的成本太贵了,如果我们在零件上 加上定位装置,应该能够提高不少回收价值,不 过别忘了,这些装置也不便宜,你看着办吧.]]></Value>
+    </Values>
+  </Config>
+  <Config name="BailoutGrant">
+
+    <Values>
+      <Value name="title"><![CDATA[救济金]]></Value>
+      <Value name="desc"><![CDATA[虽然接受公共资助可以拯救我们困境,但是会 让我们很没有面子.然而,如果真的混的太失败 面子重要还是事业重要?]]></Value>
+    </Values>
+  </Config>
+  <Config name="researchIPsellout">
+
+    <Values>
+      <Value name="title"><![CDATA[出售资产]]></Value>
+      <Value name="desc"><![CDATA[瘦死的骆驼比马大,无论如何我们还是有点底 子的.把那些旧的罐子喷子或者外太空带回来 的不明物体拿出来,我相信我们可以从一些大 的机构或集团卖一个好价钱.]]></Value>
     </Values>
   </Config>
 </Configs>
