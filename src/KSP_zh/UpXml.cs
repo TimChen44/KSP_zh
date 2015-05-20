@@ -323,5 +323,30 @@ namespace KSP_zh
             return m.Success;
         }
 
+        //获得只保留英文条目
+        public static void GetZH()
+        {
+            OpenFileDialog ofd = new OpenFileDialog();
+            ofd.FileName = "zh.xml";
+            if (ofd.ShowDialog() == DialogResult.Cancel) return;
+
+            Dictionary<int, string> zh_en = LoadDict(ofd.FileName);
+
+            StringBuilder zh_cn = new StringBuilder();
+            string temp = @"<string id=""{0}""><![CDATA[{1}]]></string>";
+            zh_cn.AppendLine("<zh>");
+
+            foreach (var item in zh_en)
+            {
+                if (IsHasCHZN(item.Value) == true)
+                {
+                    zh_cn.AppendLine(string.Format(temp, item.Key, item.Value));
+
+                }
+            }
+            zh_cn.AppendLine("</zh>");
+
+            File.WriteAllText(Path.GetDirectoryName(ofd.FileName) + @"\zh_cn.xml", zh_cn.ToString());
+        }
     }
 }

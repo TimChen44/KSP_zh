@@ -1,8 +1,8 @@
 GAME
 {
 	version = 1.0.0
-	Title = To The Mun, Part 1
-	Description = This tutorial will introduce you to flights outside of Kerbin's sphere of influence, at the most basic level - flying to the Mun.
+	Title = 奔月I
+	Description = 这一教学关玩家通过奔月学习如何在Kerbin 引力影响范围之外驾驶飞船
 	linkURL = 
 	linkCaption = 
 	Mode = 3

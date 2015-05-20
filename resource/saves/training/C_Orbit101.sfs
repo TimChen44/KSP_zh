@@ -1,8 +1,8 @@
 GAME
 {
 	version = 1.0.0
-	Title = Orbiting 101
-	Description = This training scenario covers the basics of flying a spacecraft in orbit: Essential maneuvers like raising and lowering apoapsis and periapsis nodes, and also important concepts, such as what the terms "apoapsis" and "periapsis" mean. You'll start off in a low circular orbit around Kerbin, with the Orbiter 1 training craft ready to go. 
+	Title = 轨道一号
+	Description = 这个教学关卡包含了驾驶轨道飞行器的重要概念和基本操作例如：近拱点和远拱点的涵义及改变他们的方法。玩家将从Kerbin低轨上的“轨道一号”飞船开始探索轨道的奥秘。
 	linkURL = 
 	linkCaption = 
 	Mode = 3

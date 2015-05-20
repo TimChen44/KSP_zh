@@ -116,5 +116,11 @@ namespace KSP_zh
             // ExtractCfg.Extract(KSPPath, vel);
             MessageBox.Show("OK");
         }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            UpXml.GetZH();
+            MessageBox.Show("OK");
+        }
     }
 }

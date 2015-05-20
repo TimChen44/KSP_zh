@@ -1,8 +1,8 @@
 GAME
 {
 	version = 0.21.0
-	Title = EVA in Kerbin Orbit
-	Description = Jebediah Kerman on EVA about 40 meters away from his ship.
+	Title = 出舱活动
+	Description = Jebediah Kerman 在距离飞船40m远的地方活动。
 	Mode = 0
 	Status = 1
 	scene = 7

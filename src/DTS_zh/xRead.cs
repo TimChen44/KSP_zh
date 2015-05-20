@@ -53,6 +53,8 @@ namespace DTS_zh
                 if (!(item is XmlElement)) continue;
                 dict_zh[int.Parse(((XmlElement)item).GetAttribute("id"))] = ((XmlCDataSection)item.FirstChild).InnerText;
             }
+
+            Debug.Log("[xRead]Loaded:" + dict_zh.Count.ToString());
         }
 
         public static void Loaden()

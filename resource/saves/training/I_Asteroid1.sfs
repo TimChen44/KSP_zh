@@ -1,8 +1,8 @@
 GAME
 {
 	version = 0.21.0
-	Title = Asteroid Redirect Mission, Part 1
-	Description = This is the beginning of a guided mission that will walk you through the process of catching an asteroid, in this part we will rendezvous with an orbiting asteroid.
+	Title = 捕获小行星I
+	Description = 捕获小行星任务将带领玩家了解捕获小行星的全部过程，第一部分是如何变轨以与小行星交会。
 	Mode = 3
 	scene = 7
 	flag = Squad/Flags/default
