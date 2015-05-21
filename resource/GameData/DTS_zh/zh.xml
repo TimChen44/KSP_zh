@@ -1658,9 +1658,9 @@ FX Scale: ]]>
   <string id="42135"><![CDATA[NoAttach]]></string>
   <string id="42152"><![CDATA[ added to ship - part count: ]]></string>
   <string id="42211"><![CDATA[SaveConfirmationDialog]]></string>
-  <string id="42256"><![CDATA[Do you want to save the current craft before continuing?]]></string>
-  <string id="42369"><![CDATA[New Craft]]></string>
-  <string id="42388"><![CDATA[Save and Continue]]></string>
+  <string id="42256"><![CDATA[您要在退出前保存飞船吗?]]></string>
+  <string id="42369"><![CDATA[新飞船]]></string>
+  <string id="42388"><![CDATA[保存并退出]]></string>
   <string id="42423"><![CDATA[<color=orange>Don't Save</color>]]></string>
   <string id="42488"><![CDATA[' already exists. Do you want to overwrite it?]]></string>
   <string id="42581"><![CDATA[Confirm File Overwrite]]></string>
@@ -3609,8 +3609,8 @@ What would you like to do?
 ]]>
   </string>
   <string id="112578"><![CDATA[不是现在]]></string>
-  <string id="112593"><![CDATA[Deleting save ]]></string>
-  <string id="112622"><![CDATA[Couldn't delete ]]></string>
+  <string id="112593"><![CDATA[删除存档]]></string>
+  <string id="112622"><![CDATA[无法删除 ]]></string>
   <string id="112655"><![CDATA[无]]></string>
   <string id="112660"><![CDATA[任务]]></string>
   <string id="112675"><![CDATA[任务]]></string>
@@ -3623,11 +3623,11 @@ What would you like to do?
   <string id="112846"><![CDATA[>{2, 20}</color>]]></string>
   <string id="112879"><![CDATA[资金: ]]></string>
   <string id="112894"><![CDATA[科学点数 : ]]></string>
-  <string id="112913"><![CDATA[Reputation: ]]></string>
-  <string id="112938"><![CDATA[m	Flights: ]]></string>
-  <string id="112961"><![CDATA[	Contracts: ]]></string>
+  <string id="112913"><![CDATA[声誉: ]]></string>
+  <string id="112938"><![CDATA[m	航天任务: ]]></string>
+  <string id="112961"><![CDATA[	合约: ]]></string>
   <string id="112986"><![CDATA[ in progress		<color=]]></string>
-  <string id="113029"><![CDATA[>Science: ]]></string>
+  <string id="113029"><![CDATA[>科学: ]]></string>
   <string id="113050"><![CDATA[Just started]]></string>
   <string id="113075"><![CDATA[与此KSP版本不兼容.]]></string>
   <string id="113152"><![CDATA[没有在存档目录中找到persistent.sfs文件]]></string>
@@ -3641,13 +3641,13 @@ What would you like to do?
   <string id="113462"><![CDATA[scenarioLoadDialog]]></string>
   <string id="113499"><![CDATA[选择载入的文件]]></string>
   <string id="113542"><![CDATA[重新开始]]></string>
-  <string id="113557"><![CDATA[Are you sure you want to restart this scenario?]]></string>
+  <string id="113557"><![CDATA[您确定要重新开始这个场景吗?]]></string>
   <string id="113652"><![CDATA[无法开始游戏]]></string>
-  <string id="113687"><![CDATA[The save file is incompatible with this version of KSP.]]></string>
+  <string id="113687"><![CDATA[保存文件与KSP版本不一致]]></string>
   <string id="113798"><![CDATA[OpenURL called for ]]></string>
   <string id="113837"><![CDATA[confirmQuitDialog]]></string>
   <string id="113872"><![CDATA[真的要退出吗?]]></string>
-  <string id="113897"><![CDATA[Really Quit]]></string>
+  <string id="113897"><![CDATA[确定退出]]></string>
   <string id="113920"><![CDATA[autoAccept]]></string>
   <string id="113941"><![CDATA[PlayAmbienceLoop]]></string>
   <string id="113974"><![CDATA[callHome]]></string>
@@ -3674,8 +3674,8 @@ What would you like to do?
   <string id="114806"><![CDATA[buildId.txt]]></string>
   <string id="114829"><![CDATA[[KSP Version]: ]]></string>
   <string id="114860"><![CDATA[ ====================================]]></string>
-  <string id="114935"><![CDATA[New Version Available]]></string>
-  <string id="114978"><![CDATA[Checking for Updates]]></string>
+  <string id="114935"><![CDATA[新版本可用]]></string>
+  <string id="114978"><![CDATA[检查更新中]]></string>
   <string id="115019"><![CDATA[Patcher]]></string>
   <string id="115034"><![CDATA[.exe]]></string>
   <string id="115043"><![CDATA[ -> ]]></string>
@@ -7651,20 +7651,20 @@ Cost: \F ]]>
   <string id="281075"><![CDATA[个实验]]></string>
   <string id="281098"><![CDATA[个实验]]></string>
   <string id="281123"><![CDATA[数据被回收:]]></string>
-  <string id="281146"><![CDATA[ Science earned ]]></string>
+  <string id="281146"><![CDATA[挣得科学点]]></string>
   <string id="281179"><![CDATA[<color=orange>R&D out of service. No Science Earned.</color>]]></string>
   <string id="281300"><![CDATA[下一个]]></string>
   <string id="281309"><![CDATA[完 成]]></string>
   <string id="281318"><![CDATA[ 数据已收集]]></string>
   <string id="281347"><![CDATA[数据值 : ]]></string>
-  <string id="281372"><![CDATA[ Funds from recovered Parts ]]></string>
+  <string id="281372"><![CDATA[ 回收部件价值 ]]></string>
   <string id="281429"><![CDATA[数量: ]]></string>
   <string id="281440"><![CDATA[部件价值: ]]></string>
   <string id="281465"><![CDATA[资金]]></string>
   <string id="281478"><![CDATA[单位价值: ]]></string>
   <string id="281503"><![CDATA[乘员]]></string>
   <string id="281526"><![CDATA[乘员]]></string>
-  <string id="281551"><![CDATA[ Reputation ]]></string>
+  <string id="281551"><![CDATA[ 声誉 ]]></string>
   <string id="281576"><![CDATA[总声誉: ]]></string>
   <string id="281613"><![CDATA[kerbalicon_suit_female]]></string>
   <string id="281658"><![CDATA[kerbalicon_tourist_female]]></string>
