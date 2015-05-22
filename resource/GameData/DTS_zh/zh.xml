@@ -662,10 +662,10 @@
   <string id="8552"><![CDATA[ExperienceSystem: Found ]]></string>
   <string id="8601"><![CDATA[ trait types]]></string>
   <string id="8626"><![CDATA[ effect types]]></string>
-  <string id="8653"><![CDATA[游客]]></string>
-  <string id="8668"><![CDATA[驾驶员]]></string>
-  <string id="8679"><![CDATA[工程师]]></string>
-  <string id="8696"><![CDATA[科学家]]></string>
+  <string id="8653" noT="1"><![CDATA[Tourist]]></string>
+  <string id="8668" noT="1"><![CDATA[Pilot]]></string>
+  <string id="8679" noT="1"><![CDATA[Engineer]]></string>
+  <string id="8696" noT="1"><![CDATA[Scientist]]></string>
   <string id="8715"><![CDATA[ ]]></string>
   <string id="8718"><![CDATA[ = ]]></string>
   <string id="8725"><![CDATA[F0]]></string>
