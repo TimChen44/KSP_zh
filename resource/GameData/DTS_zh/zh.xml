@@ -1,6 +1,11 @@
 ﻿<zh>
   <!--如果某个词条翻译后导致程序异常请在此词条加入noT属性避免他人再次入坑，如下：
-  <string id="39100" noT="1"><![CDATA[LaunchPad]]></string>-->
+  <string id="39100" noT="1"><![CDATA[LaunchPad]]></string>
+  1：禁止翻译，翻译后肯定会有问题
+  2：不建议翻译，暂时不知道翻译后是否会有问题
+  
+  在没有足够把握时不要汉化单个词语的词条，如果汉化了这类词条请坐足够多的测试。
+  -->
   <string id="1">
     <![CDATA[
 ]]>
@@ -753,8 +758,8 @@
   <string id="10872"><![CDATA[From Disabled]]></string>
   <string id="10899"><![CDATA[From Normal]]></string>
   <string id="10922"><![CDATA[["]]]></string>
-  <string id="10929"><![CDATA[失败]]></string>
-  <string id="10942"><![CDATA[空的]]></string>
+  <string id="10929" noT="2"><![CDATA[filled]]></string>
+  <string id="10942" noT="2"><![CDATA[empty]]></string>
   <string id="10953"><![CDATA[ - Empty Bar]]></string>
   <string id="10978"><![CDATA[Sprite on object "]]></string>
   <string id="11015"><![CDATA[" not assigned to a SpriteManager!]]></string>
@@ -765,8 +770,8 @@
   <string id="11144"><![CDATA[Empty bar]]></string>
   <string id="11163"><![CDATA[true]]></string>
   <string id="11172"><![CDATA[false]]></string>
-  <string id="11183"><![CDATA[是]]></string>
-  <string id="11192"><![CDATA[否]]></string>
+  <string id="11183" noT="2"><![CDATA[True]]></string>
+  <string id="11192" noT="2"><![CDATA[False]]></string>
   <string id="11203"><![CDATA[From False]]></string>
   <string id="11224"><![CDATA[From True]]></string>
   <string id="11243"><![CDATA[Mover]]></string>
