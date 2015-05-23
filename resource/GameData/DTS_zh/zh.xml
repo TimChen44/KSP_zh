@@ -6600,7 +6600,7 @@ Length: ]]>
   <string id="238299"><![CDATA[Start building an outpost on ]]></string>
   <string id="238358"><![CDATA[Dock two vessels in orbit of ]]></string>
   <string id="238417"><![CDATA[Escape the influence of ]]></string>
-  <string id="238466"><![CDATA[Launch our first vessel!]]></string>
+  <string id="238466"><![CDATA[发射第一艘飞船!]]></string>
   <string id="238515"><![CDATA[Plant a flag on ]]></string>
   <string id="238548"><![CDATA[Fly by ]]></string>
   <string id="238563"><![CDATA[Return to ]]></string>
@@ -6758,14 +6758,14 @@ Length: ]]>
   <string id="250121"><![CDATA[Launch a new unmanned probe that has an antenna and can generate power]]></string>
   <string id="250263"><![CDATA[Please note that this must be a new unmanned probe built for the agency after the contract is accepted.]]></string>
   <string id="250471"><![CDATA[ProbeSystemsParameter]]></string>
-  <string id="250514"><![CDATA[Achieve goal]]></string>
+  <string id="250514"><![CDATA[目标完成]]></string>
   <string id="250539"><![CDATA[Begin construction of an outpost on the surface of ]]></string>
   <string id="250642"><![CDATA[ by attaching two different vessels with a docking port or a claw to achieve this goal.]]></string>
   <string id="250818"><![CDATA[Attach two different vessels together near ]]></string>
   <string id="250905"><![CDATA[ with a docking port or a claw to achieve this goal.]]></string>
   <string id="251010"><![CDATA[Fly a vessel out of the gravitational influence of ]]></string>
   <string id="251113"><![CDATA[ to achieve this goal.]]></string>
-  <string id="251158"><![CDATA[Launch your first vessel off of the launchpad or the runway to achieve this goal.]]></string>
+  <string id="251158"><![CDATA[从发射台或跑道发射你的第一艘飞船来完成这个目标.]]></string>
   <string id="251322"><![CDATA[Have a kerbal plant a flag on the surface of ]]></string>
   <string id="251413"><![CDATA[Fly a vessel anywhere nearby ]]></string>
   <string id="251472"><![CDATA[Bring a vessel that flew by ]]></string>
@@ -10674,7 +10674,7 @@ Length:]]>
   <string id="464880"><![CDATA[OffsetGizmo]]></string>
   <string id="464903"><![CDATA[RotateGizmo]]></string>
   <string id="464926"><![CDATA[Category_]]></string>
-  <string id="464945"><![CDATA[Filter by Function]]></string>
+  <string id="464945"><![CDATA[按功能筛选]]></string>
   <string id="464982"><![CDATA[stockIcon_function]]></string>
   <string id="465019"><![CDATA[分离舱]]></string>
   <string id="465028"><![CDATA[stockIcon_pods]]></string>
@@ -10714,7 +10714,7 @@ Length:]]>
   <string id="465844"><![CDATA[Surface Attach]]></string>
   <string id="465873"><![CDATA[cs_surface]]></string>
   <string id="465894"><![CDATA[stockIcon_module]]></string>
-  <string id="465927"><![CDATA[Filter by Module]]></string>
+  <string id="465927"><![CDATA[按模块筛选]]></string>
   <string id="465960"><![CDATA[Aero Surface]]></string>
   <string id="465985"><![CDATA[Gimbal]]></string>
   <string id="465998"><![CDATA[Alternator]]></string>
@@ -10770,7 +10770,7 @@ Length:]]>
   <string id="468160"><![CDATA[R&D_node_icon_robotics]]></string>
   <string id="468205"><![CDATA[Module_ModuleAnimateGeneric]]></string>
   <string id="468260"><![CDATA[stockIcon_resource]]></string>
-  <string id="468297"><![CDATA[Filter by Resource]]></string>
+  <string id="468297"><![CDATA[按资源筛选]]></string>
   <string id="468334"><![CDATA[Solid Fuel]]></string>
   <string id="468355"><![CDATA[Liquid Fuel]]></string>
   <string id="468378"><![CDATA[Oxidizer]]></string>
@@ -10785,7 +10785,7 @@ Length:]]>
   <string id="468651"><![CDATA[fuels_xenongas]]></string>
   <string id="468680"><![CDATA[Resource_]]></string>
   <string id="468699"><![CDATA[stockIcon_manufacturer]]></string>
-  <string id="468744"><![CDATA[Filter by Manufacturer]]></string>
+  <string id="468744"><![CDATA[按制造商筛选]]></string>
   <string id="468789"><![CDATA[Ionic Symphonic Protonic Electronics]]></string>
   <string id="468862"><![CDATA[Kerlington Model Rockets and Paper Products Inc]]></string>
   <string id="468957"><![CDATA[Probodobodyne Inc]]></string>
@@ -10795,7 +10795,7 @@ Length:]]>
   <string id="469147"><![CDATA[Manufacturer_]]></string>
   <string id="469174"><![CDATA[C7 Aerospace Division and Rockomax Conglomerate]]></string>
   <string id="469269"><![CDATA[Manufacturer_C7 Aerospace Division and Rockomax Conglomerate]]></string>
-  <string id="469390"><![CDATA[Filter by Tech Level]]></string>
+  <string id="469390"><![CDATA[按科技等级筛选]]></string>
   <string id="469431"><![CDATA[stockIcon_techlevel]]></string>
   <string id="469470"><![CDATA[stockIcon_subassemblies]]></string>
   <string id="469517"><![CDATA[Subassemblies]]></string>
