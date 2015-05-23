@@ -6786,8 +6786,8 @@ Length: ]]>
   <string id="253028"><![CDATA[Have a kerbal walk on the surface of ]]></string>
   <string id="253103"><![CDATA[ProgressTrackingParameter]]></string>
   <string id="253154"><![CDATA[达到最低海拔高度]]></string>
-  <string id="253219"><![CDATA[达到地面高度]]></string>
-  <string id="253274"><![CDATA[ (星球KSC)]]></string>
+  <string id="253219"><![CDATA[达到地面距离]]></string>
+  <string id="253274"><![CDATA[ (KSC)]]></string>
   <string id="253293"><![CDATA[达到速度超过]]></string>
   <string id="253344"><![CDATA[Achieve things]]></string>
   <string id="253373"><![CDATA[RecordTrackingParameter]]></string>
