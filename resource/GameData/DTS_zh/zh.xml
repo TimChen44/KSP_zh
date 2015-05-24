@@ -1,8 +1,8 @@
 ﻿<zh>
   <!--如果某个词条翻译后导致程序异常请在此词条加入noT属性避免他人再次入坑，如下：
   <string id="39100" noT="1"><![CDATA[LaunchPad]]></string>
-  1：禁止翻译，翻译后肯定会有问题
-  2：不建议翻译，暂时不知道翻译后是否会有问题
+  1：禁止翻译，翻译后肯定会有问题，如：noT="1"
+  2：不建议翻译，暂时不知道翻译后是否会有问题，如：noT="2"
   
   在没有足够把握时不要汉化单个词语的词条，如果汉化了这类词条请坐足够多的测试。
   -->
@@ -10676,19 +10676,19 @@ Length:]]>
   <string id="464926"><![CDATA[Category_]]></string>
   <string id="464945"><![CDATA[按功能筛选]]></string>
   <string id="464982"><![CDATA[stockIcon_function]]></string>
-  <string id="465019"><![CDATA[分离舱]]></string>
+  <string id="465019" noT="2"><![CDATA[Pods]]></string>
   <string id="465028"><![CDATA[stockIcon_pods]]></string>
   <string id="465057"><![CDATA[燃料罐]]></string>
   <string id="465078"><![CDATA[stockIcon_fueltank]]></string>
-  <string id="465115"><![CDATA[引擎]]></string>
+  <string id="465115" noT="2"><![CDATA[Engines]]></string>
   <string id="465130"><![CDATA[stockIcon_engine]]></string>
   <string id="465163"><![CDATA[指令和控制]]></string>
   <string id="465202"><![CDATA[stockIcon_cmdctrl]]></string>
-  <string id="465237"><![CDATA[结构]]></string>
+  <string id="465237" noT="2"><![CDATA[Structural]]></string>
   <string id="465258"><![CDATA[stockIcon_structural]]></string>
-  <string id="465299"><![CDATA[气动]]></string>
+  <string id="465299" noT="2"><![CDATA[Aerodynamics]]></string>
   <string id="465324"><![CDATA[stockIcon_aerodynamics]]></string>
-  <string id="465369"><![CDATA[功用]]></string>
+  <string id="465369" noT="2"><![CDATA[Utility]]></string>
   <string id="465384"><![CDATA[stockIcon_utility]]></string>
   <string id="465419"><![CDATA[stockIcon_science]]></string>
   <string id="465454"><![CDATA[Filter by Cross-Section Profile]]></string>
