@@ -1,4 +1,4 @@
-﻿<zh>
+<zh>
   <!--如果某个词条翻译后导致程序异常请在此词条加入noT属性避免他人再次入坑，如下：
   <string id="39100" noT="1"><![CDATA[LaunchPad]]></string>
   1：禁止翻译，翻译后肯定会有问题，如：noT="1"
@@ -744,14 +744,14 @@
   <string id="10459"><![CDATA[DoLoadScene]]></string>
   <string id="10482"><![CDATA[DoURL]]></string>
   <string id="10493"><![CDATA[A null layer sprite was encountered on control "]]></string>
-  <string id="10590"><![CDATA[". Please fill in the layer reference, or remove the empty element.]]></string>
+  <string id="10590"><![CDATA[".请充满涂层元素，或删除空的元素。]]></string>
   <string id="10726"><![CDATA[normal]]></string>
   <string id="10739"><![CDATA[over]]></string>
-  <string id="10748"><![CDATA[active]]></string>
-  <string id="10761"><![CDATA[disabled]]></string>
+  <string id="10748"><![CDATA[启用]]></string>
+  <string id="10761"><![CDATA[关闭]]></string>
   <string id="10778"><![CDATA[一般]]></string>
   <string id="10791"><![CDATA[Over]]></string>
-  <string id="10800"><![CDATA[Active]]></string>
+  <string id="10800"><![CDATA[启动]]></string>
   <string id="10813"><![CDATA[已禁用]]></string>
   <string id="10830"><![CDATA[From Over]]></string>
   <string id="10849"><![CDATA[From Active]]></string>
@@ -1415,10 +1415,10 @@ FX Scale: ]]>
   <string id="33177"><![CDATA[ passed null root!]]></string>
   <string id="33214"><![CDATA[AdvancedRagdoll.CopyMaterials() ]]></string>
   <string id="33279"><![CDATA[ number of src renderers (]]></string>
-  <string id="33332"><![CDATA[) does not match dest (]]></string>
-  <string id="33379"><![CDATA[ has no renderers!]]></string>
+  <string id="33332"><![CDATA[) 与颗粒不匹配 (]]></string>
+  <string id="33379"><![CDATA[ 没有渲染器!]]></string>
   <string id="33416"><![CDATA[[Animation Setup Error]: no animation component found on given animation root object.]]></string>
-  <string id="33588"><![CDATA[Crew Transfer Host]]></string>
+  <string id="33588"><![CDATA[飞船转移目标]]></string>
   <string id="33625"><![CDATA[crewTransfer]]></string>
   <string id="33650"><![CDATA[>选择目标舱段]]></string>
   <string id="33709">
@@ -1739,9 +1739,9 @@ FX Scale: ]]>
   <string id="45585"><![CDATA[确定删除]]></string>
   <string id="45614"><![CDATA[确定要删除这个子部件吗?]]></string>
   <string id="45713"><![CDATA[删除]]></string>
-  <string id="45726"><![CDATA[Remove from subcategory]]></string>
-  <string id="45773"><![CDATA[Tap to create this subassembly or drag and drop a subassembly from the scene to overwrite.]]></string>
-  <string id="45955"><![CDATA[Drop part here to overwrite this subassembly]]></string>
+  <string id="45726"><![CDATA[从子范畴中删除]]></string>
+  <string id="45773"><![CDATA[按下Tap创建部件组或者从场景中拖拽部件组。]]></string>
+  <string id="45955"><![CDATA[拖拽部件以改写部件组]]></string>
   <string id="46044"><![CDATA[[HierarchyUtil]: CompileID failed because it reached the scene root without finding a 'SpaceCenter' game object]]></string>
   <string id="46268"><![CDATA[文件 ']]></string>
   <string id="46281"><![CDATA[' 未找到!]]></string>
@@ -1970,9 +1970,9 @@ with this version of KSP.]]>
   <string id="52384"><![CDATA[>Temperature Gauges Unavailable</color>]]></string>
   <string id="52463"><![CDATA[Temperature Overlay: ]]></string>
   <string id="52506"><![CDATA[Aerodynamic Forces Overlay: ]]></string>
-  <string id="52563"><![CDATA[None]]></string>
-  <string id="52572"><![CDATA[at]]></string>
-  <string id="52577"><![CDATA[flight]]></string>
+  <string id="52563"><![CDATA[没有]]></string>
+  <string id="52572"><![CDATA[在]]></string>
+  <string id="52577"><![CDATA[航线]]></string>
   <string id="52590"><![CDATA[UT]]></string>
   <string id="52595"><![CDATA[activeVessel]]></string>
   <string id="52620"><![CDATA[mapViewFiltering]]></string>
@@ -1980,8 +1980,8 @@ with this version of KSP.]]>
   <string id="52666"><![CDATA[[FlightPersistence]: Vessel ]]></string>
   <string id="52723"><![CDATA[ not saved because it was dead.]]></string>
   <string id="52786"><![CDATA[KSC]]></string>
-  <string id="52793"><![CDATA[ not saved because it was debris cluttering up KSC.]]></string>
-  <string id="52896"><![CDATA[[Flight Persistence]: Too many vessels in scene - skipping save for ]]></string>
+  <string id="52793"><![CDATA[未保存因为KSC里满是碎片]]></string>
+  <string id="52896"><![CDATA[[航行滞留]： 场景中有太多载具，跳过保存以下 ]]></string>
   <string id="53034"><![CDATA[Flight State Captured]]></string>
   <string id="53077"><![CDATA[preset]]></string>
   <string id="53090"><![CDATA[FLIGHT]]></string>
@@ -2022,16 +2022,16 @@ with this version of KSP.]]>
   <string id="54108"><![CDATA[Scenario ]]></string>
   <string id="54127"><![CDATA[ 不可恢复因为脱离失败了.]]></string>
   <string id="54230"><![CDATA[ 不可恢复因为已经完成.]]></string>
-  <string id="54333"><![CDATA[ has status Unstarted, but is being validated for a game resume. Something's off here.]]></string>
-  <string id="54507"><![CDATA[ is non-resumable.]]></string>
-  <string id="54544"><![CDATA[ cannot be resumed because it has a null flight state and starts at the flight scene.]]></string>
-  <string id="54716"><![CDATA[ cannot be resumed because it starts at the flight scene, but there are no live vessels.]]></string>
+  <string id="54333"><![CDATA[ 的确未开始，但经验证游戏已恢复。某些项目未加载。]]></string>
+  <string id="54507"><![CDATA[ 是不可恢复的。]]></string>
+  <string id="54544"><![CDATA[ 无法恢复因为不包含航线块并且块已开始于场景。]]></string>
+  <string id="54716"><![CDATA[ 不能恢复因为已开始于航线场景，但场景中并没有载具。]]></string>
   <string id="54894"><![CDATA[Given ScenarioModule parameter must be a subclass of ScenarioModule]]></string>
   <string id="55030"><![CDATA[typeOfScnModule]]></string>
   <string id="55061"><![CDATA[[Game]: ScenarioModule ]]></string>
-  <string id="55108"><![CDATA[ already exists in save, but saved target scenes do not match module definition. Updating...]]></string>
+  <string id="55108"><![CDATA[ 存档中已存在，但已存在的场景与目标定义不匹配，正在升级……]]></string>
   <string id="55294"><![CDATA[Game State Created.]]></string>
-  <string id="55333"><![CDATA[Save compatibility check failed: ]]></string>
+  <string id="55333"><![CDATA[存档兼容性检查失败： ]]></string>
   <string id="55400"><![CDATA[ vs ]]></string>
   <string id="55409"><![CDATA[^]]></string>
   <string id="55412"><![CDATA[[GamePersistence Error]: No ROSTER node found in save state]]></string>
@@ -2116,9 +2116,9 @@ with this version of KSP.]]>
   <string id="56981"><![CDATA[停靠于<something>]]></string>
   <string id="57024"><![CDATA[无可用处境报告]]></string>
   <string id="57083"><![CDATA[ at ]]></string>
-  <string id="57092"><![CDATA[Orbiting]]></string>
-  <string id="57109"><![CDATA[On escape trajectory]]></string>
-  <string id="57150"><![CDATA[Unnamed Vessel]]></string>
+  <string id="57092"><![CDATA[正在环绕]]></string>
+  <string id="57109"><![CDATA[处于逃逸轨道]]></string>
+  <string id="57150"><![CDATA[未命名的载具></string>
   <string id="57179"><![CDATA[音量]]></string>
   <string id="57192"><![CDATA[飞船 : ]]></string>
   <string id="57217"><![CDATA[环境 : ]]></string>
@@ -2139,16 +2139,16 @@ with this version of KSP.]]>
   <string id="57702"><![CDATA[Launcher Settings File exists]]></string>
   <string id="57761"><![CDATA[Launcher after checking file: ]]></string>
   <string id="57822"><![CDATA[GameSettings: Writing cfg...]]></string>
-  <string id="57879"><![CDATA[Setting: ]]></string>
+  <string id="57879"><![CDATA[设置： ]]></string>
   <string id="57898"><![CDATA[KSP游戏设置]]></string>
-  <string id="57933"><![CDATA[GameSettings: Written!]]></string>
+  <string id="57933"><![CDATA[游戏设置：已写入!]]></string>
   <string id="57978"><![CDATA[=]]></string>
   <string id="57981"><![CDATA[Launcher here(in write): ]]></string>
   <string id="58032"><![CDATA[DONT_SHOW_LAUNCHER ]]></string>
   <string id="58071"><![CDATA[DONT]]></string>
-  <string id="58080"><![CDATA[Launcher disabled? ]]></string>
-  <string id="58119"><![CDATA[GameSettings: Loading...]]></string>
-  <string id="58168"><![CDATA[GameSettings: Cannot find settings]]></string>
+  <string id="58080"><![CDATA[游戏启动不可用？ ]]></string>
+  <string id="58119"><![CDATA[游戏设置：读取中……]]></string>
+  <string id="58168"><![CDATA[游戏设置：无法找到设置]]></string>
   <string id="58237"><![CDATA[SETTINGS_FILE_VERSION]]></string>
   <string id="58280"><![CDATA[[GAME SETTINGS]: WARNING - settings.cfg file is incompatible with this version]]></string>
   <string id="58438"><![CDATA[GameSettings: Loaded!]]></string>
@@ -2187,9 +2187,9 @@ with this version of KSP.]]>
   <string id="59549"><![CDATA[摇杆名称 :]]></string>
   <string id="59580"><![CDATA[摇杆 ]]></string>
   <string id="59599"><![CDATA[控制映射]]></string>
-  <string id="59630"><![CDATA[Vessel]]></string>
+  <string id="59630"><![CDATA[载具]]></string>
   <string id="59643"><![CDATA[宇航员]]></string>
-  <string id="59658"><![CDATA[Game]]></string>
+  <string id="59658"><![CDATA[游戏]]></string>
   <string id="59667"><![CDATA[其他]]></string>
   <string id="59678"><![CDATA[键盘/按键绑定]]></string>
   <string id="59717"><![CDATA[旋转]]></string>
@@ -2211,14 +2211,14 @@ with this version of KSP.]]>
   <string id="60097"><![CDATA[节流阀减小]]></string>
   <string id="60124"><![CDATA[发射/执行分级]]></string>
   <string id="60151"><![CDATA[切换平移/旋转]]></string>
-  <string id="60206"><![CDATA[Systems]]></string>
+  <string id="60206"><![CDATA[系统]]></string>
   <string id="60221"><![CDATA[着陆架]]></string>
   <string id="60246"><![CDATA[刹车]]></string>
   <string id="60259"><![CDATA[手动SAS]]></string>
   <string id="60276"><![CDATA[切换SAS]]></string>
   <string id="60297"><![CDATA[切换RCS]]></string>
   <string id="60318"><![CDATA[关闭节流阀]]></string>
-  <string id="60351"><![CDATA[Full Throttle]]></string>
+  <string id="60351"><![CDATA[全开节流阀]]></string>
   <string id="60378"><![CDATA[切换精确控制模式]]></string>
   <string id="60429"><![CDATA[照明]]></string>
   <string id="60442"><![CDATA[紧急逃生]]></string>
@@ -2235,8 +2235,8 @@ with this version of KSP.]]>
   <string id="60785"><![CDATA[Wheels]]></string>
   <string id="60798"><![CDATA[向左转向]]></string>
   <string id="60819"><![CDATA[向右转向]]></string>
-  <string id="60842"><![CDATA[Drive Forward]]></string>
-  <string id="60869"><![CDATA[Drive Back]]></string>
+  <string id="60842"><![CDATA[向上转向]]></string>
+  <string id="60869"><![CDATA[向上转向]]></string>
   <string id="60890"><![CDATA[人物控制]]></string>
   <string id="60927"><![CDATA[向前走]]></string>
   <string id="60952"><![CDATA[向后走]]></string>
@@ -2300,9 +2300,9 @@ with this version of KSP.]]>
   <string id="62430"><![CDATA[向下滚动图标]]></string>
   <string id="62465"><![CDATA[切换飞船标签显示]]></string>
   <string id="62512"><![CDATA[切换飞行记录显示]]></string>
-  <string id="62553"><![CDATA[Show/Hide Flight Forces]]></string>
-  <string id="62600"><![CDATA[Show/Hide Temp. Gauges]]></string>
-  <string id="62645"><![CDATA[Show/Hide Temp. Overlay]]></string>
+  <string id="62553"><![CDATA[显示/隐藏 航线视角]]></string>
+  <string id="62600"><![CDATA[显示/隐藏 当前.数值]]></string>
+  <string id="62645"><![CDATA[显示/隐藏 当前.覆盖层]]></string>
   <string id="62692"><![CDATA[轴绑定]]></string>
   <string id="62719"><![CDATA[俯仰轴]]></string>
   <string id="62740"><![CDATA[滚转轴]]></string>
@@ -2331,7 +2331,7 @@ with this version of KSP.]]>
   <string id="63519"><![CDATA[Flight Map View]]></string>
   <string id="63550"><![CDATA[返回航天中心]]></string>
   <string id="63575"><![CDATA[雷达追踪站]]></string>
-  <string id="63608"><![CDATA[Editors]]></string>
+  <string id="63608"><![CDATA[编辑器]]></string>
   <string id="63623"><![CDATA[六自由度设备:]]></string>
   <string id="63650">
     <![CDATA[六自由度输入设备是一个可以在3D应用程序内操纵物体与视角的硬件控制器.
