@@ -1,4 +1,4 @@
-﻿<zh>
+<zh>
   <!--如果某个词条翻译后导致程序异常请在此词条加入noT属性避免他人再次入坑，如下：
   <string id="39100" noT="1"><![CDATA[LaunchPad]]></string>
   1：禁止翻译，翻译后肯定会有问题，如：noT="1"
@@ -657,16 +657,16 @@
   <string id="7896"><![CDATA[ 分配小绿人去 ]]></string>
   <string id="7939"><![CDATA[. 所有的小绿人都已被分配了。</b></color>]]></string>
   <string id="8018"><![CDATA[[候选者列表错误]:不能雇佣 ]]></string>
-  <string id="8093"><![CDATA[ as he is not an applicant]]></string>
-  <string id="8146"><![CDATA[[Applicants List Error]: Cannot sack ]]></string>
-  <string id="8221"><![CDATA[ as he is not part of the available crew]]></string>
-  <string id="8302"><![CDATA[[Applicants List Error]: Cannot give up ]]></string>
+  <string id="8093"><![CDATA[ 因为他不是申请人]]></string>
+  <string id="8146"><![CDATA[[申请人列表错误]: 无法解雇 ]]></string>
+  <string id="8221"><![CDATA[ 因为他不是他不是可用机组他不是可用的机组他不是可用]]></string>
+  <string id="8302"><![CDATA[[申请人列表错误]: 不能放弃]]></string>
   <string id="8383"><![CDATA[ for dead as he is not MIA]]></string>
-  <string id="8436"><![CDATA[[Applicants List Error]: Cannot remove ]]></string>
+  <string id="8436"><![CDATA[[申请人列表错误]: 不能删除 ]]></string>
   <string id="8515"><![CDATA[ 就像他还没死]]></string>
   <string id="8552"><![CDATA[ExperienceSystem: Found ]]></string>
-  <string id="8601"><![CDATA[ trait types]]></string>
-  <string id="8626"><![CDATA[ effect types]]></string>
+  <string id="8601"><![CDATA[ 特点类型]]></string>
+  <string id="8626"><![CDATA[ 效果类型]]></string>
   <string id="8653" noT="1"><![CDATA[Tourist]]></string>
   <string id="8668" noT="1"><![CDATA[Pilot]]></string>
   <string id="8679" noT="1"><![CDATA[Engineer]]></string>
@@ -680,8 +680,8 @@
   <string id="8767"><![CDATA[RECRUIT]]></string>
   <string id="8782"><![CDATA[训练]]></string>
   <string id="8799"><![CDATA[飞行]]></string>
-  <string id="8812"><![CDATA[Suborbit]]></string>
-  <string id="8829"><![CDATA[Flyby]]></string>
+  <string id="8812"><![CDATA[低轨]]></string>
+  <string id="8829"><![CDATA[飞越]]></string>
   <string id="8840"><![CDATA[处于轨道]]></string>
   <string id="8851"><![CDATA[Train at]]></string>
   <string id="8868"><![CDATA[Flight at]]></string>
@@ -4794,11 +4794,11 @@ Restoring functionality will require a Scientist.]]>
   <string id="156018"><![CDATA[RunTestEvent]]></string>
   <string id="156043"><![CDATA[onPartTestRun]]></string>
   <string id="156070"><![CDATA[onTestSujectDestroyed]]></string>
-  <string id="156113"><![CDATA[Surfaced]]></string>
-  <string id="156130"><![CDATA[Flew]]></string>
-  <string id="156139"><![CDATA[FlewBy]]></string>
-  <string id="156152"><![CDATA[Orbited]]></string>
-  <string id="156167"><![CDATA[SubOrbited]]></string>
+  <string id="156113"><![CDATA[在表面]]></string>
+  <string id="156130"><![CDATA[已飞行]]></string>
+  <string id="156139"><![CDATA[已飞越]]></string>
+  <string id="156152"><![CDATA[环绕在]]></string>
+  <string id="156167"><![CDATA[低轨在]]></string>
   <string id="156188"><![CDATA[Log]]></string>
   <string id="156195"><![CDATA[LogVesselSituation]]></string>
   <string id="156232"><![CDATA[EnableMotor]]></string>
@@ -5748,8 +5748,8 @@ Spd: ]]>
   <string id="198050"><![CDATA[, Landed]]></string>
   <string id="198067"><![CDATA[, Orbit]]></string>
   <string id="198082"><![CDATA[, Splashed down]]></string>
-  <string id="198113"><![CDATA[, Sub-orbital trajectory]]></string>
-  <string id="198162"><![CDATA[, Escape trajectory]]></string>
+  <string id="198113"><![CDATA[, 低轨轨迹线]]></string>
+  <string id="198162"><![CDATA[, 逃逸轨迹线]]></string>
   <string id="198201"><![CDATA['s ]]></string>
   <string id="198208"><![CDATA[useAltLimit]]></string>
   <string id="198231"><![CDATA[useSpdLimit]]></string>
@@ -5793,30 +5793,30 @@ Spd: ]]>
   <string id="200195"><![CDATA[你已经成功地探索了]]></string>
   <string id="200258"><![CDATA[ScienceSpace]]></string>
   <string id="200283"><![CDATA[ScienceSurface]]></string>
-  <string id="200312"><![CDATA[We need you to ]]></string>
-  <string id="200343"><![CDATA[land on ]]></string>
-  <string id="200360"><![CDATA[do a fly-by of ]]></string>
-  <string id="200391"><![CDATA[ and finish ]]></string>
-  <string id="200416"><![CDATA[in the atmosphere of ]]></string>
-  <string id="200459"><![CDATA[on the surface of ]]></string>
-  <string id="200496"><![CDATA[in orbit of ]]></string>
-  <string id="200521"><![CDATA[in the oceans of ]]></string>
-  <string id="200556"><![CDATA[in sub-orbit of ]]></string>
-  <string id="200589"><![CDATA[ using a single vessel.]]></string>
-  <string id="200636"><![CDATA[Complete the ]]></string>
-  <string id="200663"><![CDATA[Grand ]]></string>
-  <string id="200676"><![CDATA[Supreme ]]></string>
-  <string id="200693"><![CDATA[Ultimate ]]></string>
-  <string id="200712"><![CDATA[Course]]></string>
-  <string id="200725"><![CDATA[Rally]]></string>
-  <string id="200736"><![CDATA[Voyage]]></string>
-  <string id="200749"><![CDATA[Trek]]></string>
-  <string id="200758"><![CDATA[Journey]]></string>
-  <string id="200773"><![CDATA[Expedition]]></string>
-  <string id="200794"><![CDATA[Challenge]]></string>
-  <string id="200813"><![CDATA[You have successfully visited ]]></string>
-  <string id="200874"><![CDATA[ celestial bodies with a single vessel!]]></string>
-  <string id="200953"><![CDATA[Warning! This contract ends in a hazardous location - plan accordingly.]]></string>
+  <string id="200312"><![CDATA[我们需要你做 ]]></string>
+  <string id="200343"><![CDATA[着陆在]]></string>
+  <string id="200360"><![CDATA[完成一次飞越在 ]]></string>
+  <string id="200391"><![CDATA[ 已结束 ]]></string>
+  <string id="200416"><![CDATA[在这颗星球的大气中]]></string>
+  <string id="200459"><![CDATA[在这颗星球的表面上]]></string>
+  <string id="200496"><![CDATA[在这颗星球的轨道中 ]]></string>
+  <string id="200521"><![CDATA[在这颗星球的海中 ]]></string>
+  <string id="200556"><![CDATA[在这颗星球的的低轨中]]></string>
+  <string id="200589"><![CDATA[ 只用单个载具.]]></string>
+  <string id="200636"><![CDATA[完成那个 ]]></string>
+  <string id="200663"><![CDATA[高级 ]]></string>
+  <string id="200676"><![CDATA[超级 ]]></string>
+  <string id="200693"><![CDATA[终极 ]]></string>
+  <string id="200712"><![CDATA[旅程]]></string>
+  <string id="200725"><![CDATA[集合]]></string>
+  <string id="200736"><![CDATA[航行]]></string>
+  <string id="200749"><![CDATA[跋涉]]></string>
+  <string id="200758"><![CDATA[旅行]]></string>
+  <string id="200773"><![CDATA[远征]]></string>
+  <string id="200794"><![CDATA[挑战]]></string>
+  <string id="200813"><![CDATA[你已成功到访 ]]></string>
+  <string id="200874"><![CDATA[ 星球内部而且只用单个载具！]]></string>
+  <string id="200953"><![CDATA[警报！这份合同需要在一个极危险的地点完成—— 按计划的话]]></string>
   <string id="201097"><![CDATA[Template.GrandTour]]></string>
   <string id="201134"><![CDATA[progressType]]></string>
   <string id="201159"><![CDATA[finalDestination]]></string>
@@ -5846,10 +5846,10 @@ Spd: ]]>
   <string id="201947"><![CDATA[testAltitudeEnvelope]]></string>
   <string id="201988"><![CDATA[testSpeedEnvelope]]></string>
   <string id="202023"><![CDATA[[PartTest]: Contract for ]]></string>
-  <string id="202074"><![CDATA[ is no longer an experimental test. Part was researched.]]></string>
+  <string id="202074"><![CDATA[不再只是实验性的实践了，这部分已经研究完成。]]></string>
   <string id="202187"><![CDATA[我们想要你在这个星球表面插上旗帜:]]></string>
-  <string id="202280"><![CDATA[Our trackers confirm the flag has been planted at ]]></string>
-  <string id="202381"><![CDATA[. Nicely Done!]]></string>
+  <string id="202280"><![CDATA[雷达已确认在星球表现已插上旗帜 ]]></string>
+  <string id="202381"><![CDATA[. 干得漂亮!]]></string>
   <string id="202410"><![CDATA[FlagPlant]]></string>
   <string id="202429"><![CDATA[kerbalEVA]]></string>
   <string id="202448"><![CDATA[Shipwreck]]></string>
@@ -5868,68 +5868,68 @@ Spd: ]]>
   <string id="202629"><![CDATA[Save ]]></string>
   <string id="202640"><![CDATA[Obtain ]]></string>
   <string id="202655"><![CDATA[Recover ]]></string>
-  <string id="202672"><![CDATA[ was added to the crew!]]></string>
+  <string id="202672"><![CDATA[ 已经加入机组成员!]]></string>
   <string id="202719"><![CDATA[现在是太空计划的宇航员之一了.]]></string>
-  <string id="202798"><![CDATA[from the surface of ]]></string>
-  <string id="202839"><![CDATA[from orbit of ]]></string>
+  <string id="202798"><![CDATA[从那儿的表面 ]]></string>
+  <string id="202839"><![CDATA[从环绕 ]]></string>
   <string id="202868"><![CDATA[营救]]></string>
-  <string id="202883"><![CDATA[recovery]]></string>
-  <string id="202900"><![CDATA[in low ]]></string>
-  <string id="202915"><![CDATA[in orbit around ]]></string>
-  <string id="202948"><![CDATA[, who is stranded ]]></string>
-  <string id="202985"><![CDATA[. Return ]]></string>
-  <string id="203004"><![CDATA[ safely to ]]></string>
-  <string id="203027"><![CDATA[ left ]]></string>
-  <string id="203040"><![CDATA[. Recover it on ]]></string>
-  <string id="203073"><![CDATA[ without damaging it too much.]]></string>
-  <string id="203134"><![CDATA[ with valuable data. Return ]]></string>
-  <string id="203191"><![CDATA[ and what is left of ]]></string>
-  <string id="203234"><![CDATA[ vessel to ]]></string>
+  <string id="202883"><![CDATA[回收]]></string>
+  <string id="202900"><![CDATA[在较低于 ]]></string>
+  <string id="202915"><![CDATA[在环绕那里的轨道 ]]></string>
+  <string id="202948"><![CDATA[，他已经站在 ]]></string>
+  <string id="202985"><![CDATA[。返回 ]]></string>
+  <string id="203004"><![CDATA[ 安全的 ]]></string>
+  <string id="203027"><![CDATA[ 留下]]></string>
+  <string id="203040"><![CDATA[。回收这个而且]]></string>
+  <string id="203073"><![CDATA[ 并没有造成很大伤害。]]></string>
+  <string id="203134"><![CDATA[ 带回了可用数据。返回 ]]></string>
+  <string id="203191"><![CDATA[ 而且还留下了些啥 ]]></string>
+  <string id="203234"><![CDATA[ 装入载具 ]]></string>
   <string id="203257">
-    <![CDATA[ Stats:
-Mass: ]]>
+    <![CDATA[ 目标：
+质量 ]]>
   </string>
   <string id="203286">
     <![CDATA[t
-Height: ]]>
+高度：]]>
   </string>
   <string id="203307">
     <![CDATA[m
-Width: ]]>
+宽度： ]]>
   </string>
   <string id="203326">
     <![CDATA[m
-Length: ]]>
+长度： ]]>
   </string>
-  <string id="203347"><![CDATA[Well done! ]]></string>
-  <string id="203370"><![CDATA[ has been recovered in one piece and is now enjoying a thorough debriefing from the comfort of ]]></string>
+  <string id="203347"><![CDATA[干得好！ ]]></string>
+  <string id="203370"><![CDATA[已经完整无损地回收现在享受舒适的休息在任务的 ]]></string>
   <string id="203562">
-    <![CDATA[ quarantine cell.
+    <![CDATA[ 检疫细胞。
 
 ]]>
   </string>
   <string id="203601"><![CDATA[ 现在加入你的宇航员大军了,他以后也将有机会参加你的太空任务.]]></string>
-  <string id="203749"><![CDATA[Good job! ]]></string>
-  <string id="203770"><![CDATA[ has been recovered in one piece and is being analyzed as we speak.]]></string>
-  <string id="203906"><![CDATA[Great Work! ]]></string>
-  <string id="203931"><![CDATA[ have been recovered! ]]></string>
-  <string id="203976"><![CDATA[ will be debriefed while we analyze what's left of ]]></string>
+  <string id="203749"><![CDATA[干得漂亮! ]]></string>
+  <string id="203770"><![CDATA[已经完整回收而且而且如报告的一样开始分析。]]></string>
+  <string id="203906"><![CDATA[干得漂亮极了! ]]></string>
+  <string id="203931"><![CDATA[ 已被回收。 ]]></string>
+  <string id="203976"><![CDATA[ 将会被审阅当我们分析完数据从]]></string>
   <string id="204079">
-    <![CDATA[ vessel.
+    <![CDATA[载具
 
 ]]>
   </string>
-  <string id="204100"><![CDATA[ was lost AND ]]></string>
-  <string id="204129"><![CDATA[ was destroyed! This contract is over.]]></string>
-  <string id="204206"><![CDATA[ was lost! We are pulling the plug on this one.]]></string>
-  <string id="204301"><![CDATA[ was destroyed! We are pulling the plug on this one.]]></string>
-  <string id="204406"><![CDATA[We are pulling the plug on this one.]]></string>
+  <string id="204100"><![CDATA[ 已经丢失，并且， ]]></string>
+  <string id="204129"><![CDATA[ 已经毁坏！这份合同完了。]]></string>
+  <string id="204206"><![CDATA[ 已经丢失！ 我们正在中止行动。]]></string>
+  <string id="204301"><![CDATA[已经毁坏！我们正在中止行动。]]></string>
+  <string id="204406"><![CDATA[我们正在中止行动。]]></string>
   <string id="204479"><![CDATA[营救 ]]></string>
-  <string id="204526"><![CDATA[ has been cancelled.]]></string>
-  <string id="204567"><![CDATA[The contract to recover ]]></string>
+  <string id="204526"><![CDATA[刚刚被取消]]></string>
+  <string id="204567"><![CDATA[按计划回收]]></string>
   <string id="204616"><![CDATA[营救]]></string>
-  <string id="204695"><![CDATA[ has expired.]]></string>
-  <string id="204722"><![CDATA[The deadline on the contract to recover ]]></string>
+  <string id="204695"><![CDATA[ 已经到期。]]></string>
+  <string id="204722"><![CDATA[这份合同已经截止并将被回收 ]]></string>
   <string id="204803"><![CDATA[Template.RecoverAsset]]></string>
   <string id="204846"><![CDATA[targetBody]]></string>
   <string id="204867"><![CDATA[kerbalName]]></string>
