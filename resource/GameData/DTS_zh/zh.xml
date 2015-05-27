@@ -3,8 +3,13 @@
   <string id="39100" noT="1"><![CDATA[LaunchPad]]></string>
   1：禁止翻译，翻译后肯定会有问题，如：noT="1"
   2：不建议翻译，暂时不知道翻译后是否会有问题，如：noT="2"
+<<<<<<< HEAD
   
   在没有足够把握时不要汉化单个词语的词条，如果汉化了这类词条请做足够多的测试。
+=======
+  3：翻译注：词条中有空格的多半会在语句中出现，单词前后有空格是语句的部分可能较大；多个单词连续出现没有空格多半是程序键值，请勿翻译；语句带有.号，是需要显示的可能较大。请酌情翻译。
+  在没有足够把握时不要汉化单个词语的词条，如果汉化了这类词条请坐足够多的测试。
+>>>>>>> 3177870bbdab17c66928e2105f1f182191ea43d8
   -->
   <string id="1">
     <![CDATA[
@@ -6851,17 +6856,17 @@ Argument of Periapsis: ]]>
   <string id="255080"><![CDATA[dn]]></string>
   <string id="255085"><![CDATA[ap]]></string>
   <string id="255090"><![CDATA[pe]]></string>
-  <string id="255095"><![CDATA[Maintain stability for ]]></string>
-  <string id="255142"><![CDATA[ seconds]]></string>
+  <string id="255095"><![CDATA[保持稳定性能于 ]]></string>
+  <string id="255142"><![CDATA[秒]]></string>
   <string id="255159"><![CDATA[holdSeconds]]></string>
   <string id="255182"><![CDATA[StabilityParameter]]></string>
-  <string id="255219"><![CDATA[Keep line of sight with ]]></string>
-  <string id="255268"><![CDATA[You are in line of sight with ]]></string>
+  <string id="255219"><![CDATA[保持视线用]]></string>
+  <string id="255268"><![CDATA[你在视线内]]></string>
   <string id="255329"><![CDATA[longitude]]></string>
   <string id="255348"><![CDATA[StationaryPointParameter]]></string>
   <string id="255397"><![CDATA[dish]]></string>
   <string id="255406"><![CDATA[ Site]]></string>
-  <string id="255417"><![CDATA[You gathered survey data from ]]></string>
+  <string id="255417"><![CDATA[你正在获取测量数据]]></string>
   <string id="255478"><![CDATA[actionDescription]]></string>
   <string id="255513"><![CDATA[flightThreshold]]></string>
   <string id="255544"><![CDATA[band]]></string>
@@ -6883,10 +6888,10 @@ Argument of Periapsis: ]]>
   <string id="256092"><![CDATA[spaceflight]]></string>
   <string id="256115"><![CDATA[on the surface at]]></string>
   <string id="256150"><![CDATA[in ]]></string>
-  <string id="256157"><![CDATA[ below ]]></string>
-  <string id="256172"><![CDATA[ meters near]]></string>
-  <string id="256197"><![CDATA[ above ]]></string>
-  <string id="256212"><![CDATA[around]]></string>
+  <string id="256157"><![CDATA[地下]]></string>
+  <string id="256172"><![CDATA[米的距离]]></string>
+  <string id="256197"><![CDATA[上方]]></string>
+  <string id="256212"><![CDATA[环绕]]></string>
   <string id="256225"><![CDATA[VesselDestinationParameter]]></string>
   <string id="256278"><![CDATA[deformity]]></string>
   <string id="256297"><![CDATA[heightMapDeformity]]></string>
@@ -7219,11 +7224,11 @@ Argument of Periapsis: ]]>
   <string id="260864"><![CDATA[them]]></string>
   <string id="260873"><![CDATA[their]]></string>
   <string id="260884"><![CDATA[Squad/Contracts/Icons/]]></string>
-  <string id="260929"><![CDATA[Celestial body index is out of range]]></string>
-  <string id="261002"><![CDATA[Contract Log: ]]></string>
-  <string id="261031"><![CDATA[ cannot load ]]></string>
-  <string id="261058"><![CDATA[ from a null node. Initializing with default of ]]></string>
-  <string id="261155"><![CDATA[, it is not in the node. Initializing with default of ]]></string>
+  <string id="260929"><![CDATA[天体指引已超出距离]]></string>
+  <string id="261002"><![CDATA[合同文本： ]]></string>
+  <string id="261031"><![CDATA[无法读取]]></string>
+  <string id="261058"><![CDATA[从不存在的节点。正在初始化使用默认 ]]></string>
+  <string id="261155"><![CDATA[，不再节点中。正在初始化使用默认]]></string>
   <string id="261264"><![CDATA[ parsed an invalid value "]]></string>
   <string id="261317"><![CDATA[" from ]]></string>
   <string id="261332"><![CDATA[. (]]></string>
@@ -7282,61 +7287,59 @@ Astronaut Complex upgrade required.]]>
   <string id="263462"><![CDATA[Welcome to the ]]></string>
   <string id="263493"><![CDATA[Welcome to the Tracking Station!]]></string>
   <string id="263558">
-    <![CDATA[Nice to meet you!
+    <![CDATA[很高兴见到你！
 
-I'm Gene Kerman, Flight Director and your guide for this quick introduction.
-
-This is the Space Center. From here you can manage all aspects of the Space Program.Feel free to have a look around (Hold the Right Mouse Button to move the camera, or use the [Arrow Keys]).
-
-
-Right-Click over the Space Center Facilities to view more about them, and Left-Click when you're ready to head inside.
+我是吉恩•科尔曼，航空中心的飞行主管，也是这个快速介绍的引导员。
+这里是航空中心，从这里，你可以管理太空计划的各个方面。放轻松，随意看看(按住右键移动视角，或使用[方向键]).
 
 
-If you need more information, check out the Training Section on the Main Menu]]>
+在航空中心的设备区上点击右键可以查看更多信息，当你准备好进去的时候，点击左键。
+
+如果你需要更多信息，请进入主菜单并找到训练模式。]]>
   </string>
   <string id="264536"><![CDATA[Thanks, I've got it]]></string>
   <string id="264575">
-    <![CDATA[Hello! I'm Wernher von Kerman, Chief Rocketry Engineer.
+    <![CDATA[你好，我是威尔荷•冯•科尔曼，航空中心的首席火箭工程师。
 
-This is the Vehicle Assembly Building. Here is where we build spacecraft and later roll them out to the Launchpad for flight. Pretty impressive isn't it?
-
-
-On your left you'll find components to construct your own spacecraft. Select a starting part, then attach others to it to build a ship. You can then have a look around with [RMB] or the [Arrow Keys]. That's it really, it's not as if it were rocket sc... Oh. 
+这里是飞行器装备间。这里就是我们建造太空船并运送至发射场的地方。让人映像深刻，对吗？
 
 
-Anyhow, if you need a more in-depth explanation on how to build, have a look at the Training Section at the Main Menu.]]>
+在左边你可以找到组件栏以组合成你的飞行器。选择一个起始部件，然后连接其他部分以组合成一艘飞船。你可以按下[鼠标右键]或者[方向键]以切换视角。天啊，这真的，和火箭不太……啊！（翻译吐槽：RMB是鼠标右键的意思啊，我还以为是软妹币呢，阅后请删除） 
+
+
+总之，如果你需要更多关于深空探索飞船的建造方法，请返回主菜单查阅训练模式。]]>
   </string>
   <string id="265761"><![CDATA[Got it!]]></string>
   <string id="265776">
-    <![CDATA[Hello! I'm Wernher von Kerman, Chief Rocketry Engineer.
+    <![CDATA[你好，我是威尔荷•冯•科尔曼，航空中心的首席火箭工程师。
 
-This is the Spaceplane hangar. Here is where we build spacecraft that later will take off from the Runway.
-
-
-On your left you'll find components to construct your own spaceplane. Select a starting part, then attach others to it to build. You can then have a look around with [RMB] or the [Arrow Keys]. We just got this place cleaned up, so try to not mess it up too much.
+这里是航天飞机机库。这里是我们建造航空、航天飞行器并运送至跑到起飞的地方。
 
 
-If you need more guidance on how to build spacecraft, have a look at the Training Section at the Main Menu.]]>
+在左边你可以找到组件栏以组合成你的飞行器。选择一个起始部件，然后连接其他部分以组合成一艘飞船。你可以按下[鼠标右键]或者[方向键]以切换视角。我们刚刚把这里整理干净，别弄太乱了。
+
+
+总之，如果你需要更多建造飞机的方法，请返回主菜单查阅训练模式。If you need more guidance on how to build spacecraft, have a look at the Training Section at the Main Menu.]]>
   </string>
   <string id="266854">
-    <![CDATA[Hello! I'm Wernher von Kerman, Chief Rocketry Engi--
+    <![CDATA[你好，我是威尔荷•冯•科尔曼，首席火箭工——-
 
-Wait, what is this place? It doesn't seem to be part of the Space Center... Have you been messing with the game files?]]>
+哈，这是哪儿？我怎么不知道航天中心还有这个地方……你是不是丢失了一部分游戏文件？]]>
   </string>
   <string id="267200"><![CDATA[Sorry...]]></string>
   <string id="267217">
-    <![CDATA[Hi Again!
+    <![CDATA[又见面了！
 
-This is the Tracking Station Facility. In here you can view all of the Solar System, as well as the current positions and trajectories of all ongoing missions.
+这里是雷达追踪站。在这里，你可以总览整个太阳系，也可以看到所有飞船的当前位置和所有进行中的任务。
 
-When you have missions in progress, you'll see them listed on the panel at your left, and you'll be able to take command of them from this screen.
+当你在计划中进行任务时，你可以在左边的面板清单中逐一查看，并对他们做出操作和指令。
 
-Sometimes contracts may require specific destinations in orbit or on the surface. Those will also be visible here.
+有时候合同会需要特定的地面位置和轨道，你也可以在这里进行浏览。
 
 
-Lastly, if you want to see this same Map View during flight, just hit the []]>
+最后，如果你想要在飞行过程中查看总览地图，请按下[]键。]>
   </string>
-  <string id="268243"><![CDATA[] Key]]></string>
+  <string id="268243"><![CDATA[]键]]></string>
   <string id="268254"><![CDATA[BaseConstruction]]></string>
   <string id="268287"><![CDATA[ReturnFrom]]></string>
   <string id="268308"><![CDATA[FirstCrewToSurvive]]></string>
