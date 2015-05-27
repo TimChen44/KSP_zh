@@ -7859,18 +7859,18 @@ Effective Immediately.]]>
 凡是玩过十分钟银河侵略者之类游戏的玩家都知道，打小行星要注意预留提前量。]]>
   </string>
   <string id="289636">
-    <![CDATA[For that, we’re going to walk through a process called rendezvous. Really, really helpful for making spaceships meet out there and eventually dock, so pay attention.
+    <![CDATA[因此我们需要了解“交会”这一过程，交会也是飞船对接操作的重要组成部分。
 
-The idea is to know how fast something is going and where it’s headed so you can meet at the same place at the same time.
+交会需要了解目标速度大小和方向，以便准时遇见目标。
 
-Now open your Map View to take a look at some things.]]>
+打开地图界面了解相关知识。]]>
   </string>
   <string id="290324">
-    <![CDATA[Now, through luck or Devine intervention this particular asteroid here has been captured in an eccentric but stable Kerbin orbit.
+    <![CDATA[这个罕见的小行星被Kerbin捕获，尽管离心率很大至少形成了稳定轨道。
 
-This is about as lucky as one can get with these bodies, because in reality most of them will just zoom past Kerbin or take a single trip around it before leaving to never return.
+看到这个小行星真是三生有幸，因为大部分小行星仅仅飞过Kerbin一次不会被引力捕获形成稳定轨道。
 
-When choosing your own I recommend you see what there is to choose from in the Tracking Station and track one of your liking, if you don't track it you'll never catch it.]]>
+自己选择小行星时我推荐在测控站里面跟踪一个喜欢的小行星，不跟踪的话是无法捕捉的。]]>
   </string>
   <string id="291290">
     <![CDATA[First things first, basic orbital mechanics. If you match your orbit to an object’s precisely, you’ll be moving at the same speed as it is.
