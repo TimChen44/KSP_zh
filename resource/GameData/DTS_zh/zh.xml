@@ -3,9 +3,14 @@
   <string id="39100" noT="1"><![CDATA[LaunchPad]]></string>
   1.禁止翻译，翻译后肯定会有问题，如：noT="1"
   2.不建议翻译，暂时不知道翻译后是否会有问题，如：noT="2"
-  <string id="10929" noT="2"><![CDATA[filled]]></string>
-  3.翻译注：词条中有空格的多半会在语句中出现，单词前后有空格是语句的部分可能较大；多个单词连续出现没有空格多半是程序键值，请勿翻译；语句带有.号，是需要显示的可能较大。请酌情翻译。
+  <string id="10929" noT="2"><![CDATA[filled]]></string>    
   在没有足够把握时不要汉化单个词语的词条，如果汉化了这类词条请做足够多的测试。
+  3.翻译注：  词条多个单词连续出现没有空格或带有_符号的半是程序键值，请勿翻译；
+  多个词条前后有'的，可能为同一语句插入即使演算键值，翻译风险较小；
+  【】：后的语句翻译风险较低，但大多数只在引擎编辑模式中出现，请看清内容再翻译
+  词条前后带有<color>或<FFF=>的颜色标记和字号标记的会在游戏或引擎编辑模式中显示，请看清内容翻译
+  语句后有.号，是需要显示的可能较大。请酌情翻译；
+  单个动词比名词是数据键值的概率要低；  
   4.翻译最好基于游戏过程中可见的文本，翻译非可见部分费时费力而且更容易带来bug。
   5.翻译时注意语境和中文习惯，切忌逐字逐句照搬翻译。
   -->
@@ -14,11 +19,11 @@
 ]]>
   </string>
   <string id="4"><![CDATA[增稳系统]]></string>
-  <string id="37"><![CDATA[保持 前进/后退 方向 ]]></string>
-  <string id="86"><![CDATA[保持 径向/正态 方向 ]]></string>
+  <string id="37"><![CDATA[保持 前进/后退 方向]]></string>
+  <string id="86"><![CDATA[保持 径向/正态 方向]]></string>
   <string id="143">
-    <![CDATA[保持 轨道机动方向 
- 正在追踪的目标方向]]>
+    <![CDATA[保持 轨道机动方向
+正在追踪目标方向]>
   </string>
   <string id="202"><![CDATA[引擎推力 ]]></string>
   <string id="229"><![CDATA[F2]]></string>
@@ -628,43 +633,43 @@
   <string id="6196"><![CDATA[Valentina Kerman]]></string>
   <string id="6229"><![CDATA[出舱]]></string>
   <string id="6236"><![CDATA[舱内]]></string>
-  <string id="6243"><![CDATA[ 已启用]]></string>
+  <string id="6243"><![CDATA[已启用]]></string>
   <string id="6264"><![CDATA[<]]></string>
   <string id="6267"><![CDATA[>]]></string>
   <string id="6270"><![CDATA[KERBAL]]></string>
   <string id="6283"><![CDATA[[Protocrewmember]: Instance of crewmember ]]></string>
-  <string id="6368"><![CDATA[ 已装上 ]]></string>
-  <string id="6387"><![CDATA[ 开启 ]]></string>
-  <string id="6396"><![CDATA[ 与示例不相符 ]]></string>
-  <string id="6451"><![CDATA[ on crew roster. (Stored index: ]]></string>
+  <string id="6368"><![CDATA[已装上]]></string>
+  <string id="6387"><![CDATA[开启]]></string>
+  <string id="6396"><![CDATA[与示例不相 ]]></string>
+  <string id="6451"><![CDATA[ 在机组名册上。(已存入指引: ]]></string>
   <string id="6516"><![CDATA[)]]></string>
   <string id="6519"><![CDATA[[ProtoCrewMember Warning]: Crewmember ]]></string>
-  <string id="6596"><![CDATA[ 已指定载具但载具已满。 ]]></string>
-  <string id="6689"><![CDATA[ 设置为失踪.]]></string>
-  <string id="6722"><![CDATA[ found inside a part but status is set as missing. Vessel must have failed to save earlier. Restoring assigned status.]]></string>
+  <string id="6596"><![CDATA[已指定载具但载具已满。 ]]></string>
+  <string id="6689"><![CDATA[设置为失踪.]]></string>
+  <string id="6722"><![CDATA[ 其中还有一部分，但状态已被设置为丢失。载具之前可能曾经保存失败过。正在恢复设定状态。]]></string>
   <string id="6960"><![CDATA[[Crew Assignment]: Part ]]></string>
-  <string id="7009"><![CDATA[ holds ]]></string>
-  <string id="7024"><![CDATA[ crew, but only ]]></string>
-  <string id="7057"><![CDATA[ are available.]]></string>
+  <string id="7009"><![CDATA[保持]]></string>
+  <string id="7024"><![CDATA[机组，但是只有]></string>
+  <string id="7057"><![CDATA[是可用的。]]></string>
   <string id="7088"><![CDATA[<color=]]></string>
   <string id="7103"><![CDATA[>[Auto Crew Assignment]: ]]></string>
-  <string id="7154"><![CDATA[ just became an intrepid astronaut. (Recruiting Cost: ]]></string>
+  <string id="7154"><![CDATA[刚刚成为了一名勇敢的宇航员。(招募费用: ]]></string>
   <string id="7263"><![CDATA[N2]]></string>
   <string id="7268"><![CDATA[)</color>]]></string>
-  <string id="7287"><![CDATA[ 刚刚壮烈了.</color>]]></string>
-  <string id="7374"><![CDATA[<color=orange><b>不能雇佣更多小绿人。资金不足!</b></color>]]></string>
-  <string id="7528"><![CDATA[<color=orange><b>不能雇佣更多小绿人。航天员中心已满!</b></color>]]></string>
-  <string id="7718"><![CDATA[ 是可用的。自动雇佣未开启或现在不可用。]]></string>
+  <string id="7287"><![CDATA[ 刚刚壮烈了。</color>]]></string>
+  <string id="7374"><![CDATA[<color=orange><b>不能雇佣更多小绿人。资金不足！</b></color>]]></string>
+  <string id="7528"><![CDATA[<color=orange><b>不能雇佣更多小绿人。航天员中心已满！</b></color>]]></string>
+  <string id="7718"><![CDATA[是可用的。自动雇佣未开启或现在不可用。]]></string>
   <string id="7858"><![CDATA[<color=orange><b>]]></string>
   <string id="7893"><![CDATA[/]]></string>
-  <string id="7896"><![CDATA[ 分配小绿人去 ]]></string>
-  <string id="7939"><![CDATA[. 所有的小绿人都已被分配了。</b></color>]]></string>
+  <string id="7896"><![CDATA[分配小绿人去]]></string>
+  <string id="7939"><![CDATA[。所有的小绿人都已被分配了。</b></color>]]></string>
   <string id="8018"><![CDATA[[候选者列表错误]:不能雇佣 ]]></string>
-  <string id="8093"><![CDATA[ 因为他不是申请人]]></string>
+  <string id="8093"><![CDATA[因为他不是申请人]]></string>
   <string id="8146"><![CDATA[[申请人列表错误]: 无法解雇 ]]></string>
-  <string id="8221"><![CDATA[ 因为他没有空闲]]></string>
+  <string id="8221"><![CDATA[因为他没有空闲]]></string>
   <string id="8302"><![CDATA[[申请人列表错误]: 不能放弃]]></string>
-  <string id="8383"><![CDATA[ for dead as he is not MIA]]></string>
+  <string id="8383"><![CDATA[ 是死了，不是在任务中失踪。]]></string>
   <string id="8436"><![CDATA[[申请人列表错误]: 不能删除 ]]></string>
   <string id="8515"><![CDATA[ 就像他还没死]]></string>
   <string id="8552"><![CDATA[ExperienceSystem: Found ]]></string>
@@ -779,7 +784,7 @@
   <string id="11224"><![CDATA[From True]]></string>
   <string id="11243"><![CDATA[Mover]]></string>
   <string id="11254"><![CDATA[GameObject "]]></string>
-  <string id="11279"><![CDATA[" does not contain any list item component suitable to be added to scroll list "]]></string>
+  <string id="11279"><![CDATA["没有任何列表项目组件被添加至滚动列表"]]></string>
   <string id="11441"><![CDATA[".]]></string>
   <string id="11446"><![CDATA[IUIContainer]]></string>
   <string id="11471"><![CDATA[Knob, Normal]]></string>
@@ -1418,8 +1423,8 @@ FX Scale: ]]>
   <string id="33177"><![CDATA[ passed null root!]]></string>
   <string id="33214"><![CDATA[AdvancedRagdoll.CopyMaterials() ]]></string>
   <string id="33279"><![CDATA[ number of src renderers (]]></string>
-  <string id="33332"><![CDATA[) 与颗粒不匹配 (]]></string>
-  <string id="33379"><![CDATA[ 没有渲染器!]]></string>
+  <string id="33332"><![CDATA[)与颗粒不匹配 (]]></string>
+  <string id="33379"><![CDATA[没有渲染器!]]></string>
   <string id="33416"><![CDATA[[Animation Setup Error]: no animation component found on given animation root object.]]></string>
   <string id="33588"><![CDATA[飞船转移目标]]></string>
   <string id="33625"><![CDATA[crewTransfer]]></string>
@@ -1442,7 +1447,7 @@ FX Scale: ]]>
   <string id="34197"><![CDATA[该舱没有出口，无法出舱]]></string>
   <string id="34262"><![CDATA[舱门被阻挡,无法出舱]]></string>
   <string id="34327"><![CDATA[Airlock]]></string>
-  <string id="34342"><![CDATA[ Crew:]]></string>
+  <string id="34342"><![CDATA[机组成员：]]></string>
   <string id="34355"><![CDATA[舱门]]></string>
   <string id="34376"><![CDATA[转移至]]></string>
   <string id="34393"><![CDATA[Module Crew: ]]></string>
@@ -1543,7 +1548,7 @@ FX Scale: ]]>
   <string id="36830"><![CDATA[Cannot board a modules in this scenario.]]></string>
   <string id="36911"><![CDATA[Cannot board a full module.]]></string>
   <string id="36966"><![CDATA[你收集的实验数据无法存储在这个]]></string>
-  <string id="37079"><![CDATA[中.确定要继续吗?]]></string>
+  <string id="37079"><![CDATA[中。确定要继续吗?]]></string>
   <string id="37152"><![CDATA[无法存储试验数据]]></string>
   <string id="37201">
     <![CDATA[依旧登船
@@ -1670,7 +1675,7 @@ FX Scale: ]]>
   <string id="42369"><![CDATA[新飞船]]></string>
   <string id="42388"><![CDATA[保存并退出]]></string>
   <string id="42423"><![CDATA[<color=orange>Don't Save</color>]]></string>
-  <string id="42488"><![CDATA[' already exists. Do you want to overwrite it?]]></string>
+  <string id="42488"><![CDATA['已经存在。需要改写吗？]]></string>
   <string id="42581"><![CDATA[Confirm File Overwrite]]></string>
   <string id="42626"><![CDATA[<color=orange>Overwrite</color>]]></string>
   <string id="42689"><![CDATA[ExitConfirmationDialog]]></string>
@@ -1732,10 +1737,10 @@ FX Scale: ]]>
   <string id="45257"><![CDATA[保存子部件]]></string>
   <string id="45290"><![CDATA[确定覆盖]]></string>
   <string id="45325"><![CDATA[名称]]></string>
-  <string id="45334"><![CDATA[描述 :]]></string>
+  <string id="45334"><![CDATA[描述:]]></string>
   <string id="45359"><![CDATA[保存]]></string>
-  <string id="45368"><![CDATA[名为 ']]></string>
-  <string id="45411"><![CDATA[' 的子部件已经存在了! 确定要覆盖它吗?]]></string>
+  <string id="45368"><![CDATA[名为']]></string>
+  <string id="45411"><![CDATA['的子部件已经存在了！确定要覆盖吗？]]></string>
   <string id="45504"><![CDATA[返回]]></string>
   <string id="45513"><![CDATA[覆盖]]></string>
   <string id="45532"><![CDATA[deleteSubassemblyCoroutine]]></string>
@@ -1746,8 +1751,8 @@ FX Scale: ]]>
   <string id="45773"><![CDATA[按下Tap创建部件组或者从场景中拖拽部件组。]]></string>
   <string id="45955"><![CDATA[拖拽部件以改写部件组]]></string>
   <string id="46044"><![CDATA[[HierarchyUtil]: CompileID failed because it reached the scene root without finding a 'SpaceCenter' game object]]></string>
-  <string id="46268"><![CDATA[文件 ']]></string>
-  <string id="46281"><![CDATA[' 未找到!]]></string>
+  <string id="46268"><![CDATA[文件']]></string>
+  <string id="46281"><![CDATA['未找到!]]></string>
   <string id="46306"><![CDATA[飞船文件错误!]]></string>
   <string id="46339"><![CDATA[飞船备份设置未找到!]]></string>
   <string id="46398"><![CDATA[/Ships/]]></string>
@@ -1755,22 +1760,22 @@ FX Scale: ]]>
   <string id="46426"><![CDATA[thumbs]]></string>
   <string id="46439"><![CDATA[type]]></string>
   <string id="46448"><![CDATA[载具组装完成!]]></string>
-  <string id="46499"><![CDATA[机组成员 ]]></string>
-  <string id="46522"><![CDATA[ assigned to ]]></string>
+  <string id="46499"><![CDATA[机组成员]]></string>
+  <string id="46522"><![CDATA[已被分配给]]></string>
   <string id="46549"><![CDATA[, seat # ]]></string>
   <string id="46568"><![CDATA[ (crew seat index: ]]></string>
   <string id="46607"><![CDATA[[CrewAssignment]: No ]]></string>
-  <string id="46650"><![CDATA[ with id ]]></string>
-  <string id="46669"><![CDATA[ was found in ]]></string>
+  <string id="46650"><![CDATA[使用ID]]></string>
+  <string id="46669"><![CDATA[被发现在 ]]></string>
   <string id="46698"><![CDATA[OnPutToGround]]></string>
   <string id="46725"><![CDATA[putting ship to ground: ]]></string>
   <string id="46774"><![CDATA[[Ship Assembly]: WARNING! - ]]></string>
-  <string id="46831"><![CDATA[ has vessels on it. - Removing before something stupid happens.]]></string>
+  <string id="46831"><![CDATA[已有载具在场上。在愚蠢的事情发生前赶紧挪开。]]></string>
   <string id="46958"><![CDATA[[Vessel Removal]: ]]></string>
-  <string id="46995"><![CDATA[ is the active vessel. Cannot remove.]]></string>
-  <string id="47070"><![CDATA[ is loaded. Unloading before removal. ]]></string>
+  <string id="46995"><![CDATA[是已启动的载具。无法挪开。]]></string>
+  <string id="47070"><![CDATA[已经载入。在卸载前无法退出。]]></string>
   <string id="47147"><![CDATA[飞船]]></string>
-  <string id="47162"><![CDATA[ recovered]]></string>
+  <string id="47162"><![CDATA[已回收]]></string>
   <string id="47183"><![CDATA[craftThumbGeneric]]></string>
   <string id="47218"><![CDATA[[ShipConstruction]: No thumbnail image exists for ]]></string>
   <string id="47319"><![CDATA[SAParent]]></string>
@@ -1793,7 +1798,7 @@ FX Scale: ]]>
   <string id="47914"><![CDATA[[ShipConstruct for ]]></string>
   <string id="47953"><![CDATA[]: part cost (]]></string>
   <string id="47982"><![CDATA[0.0]]></string>
-  <string id="47989"><![CDATA[) is less than the cost of its resources (]]></string>
+  <string id="47989"><![CDATA[) 比它的资源消耗更小 (]]></string>
   <string id="48074"><![CDATA[modMass]]></string>
   <string id="48089"><![CDATA[ship]]></string>
   <string id="48098"><![CDATA[version]]></string>
@@ -1825,29 +1830,29 @@ FX Scale: ]]>
   <string id="48394"><![CDATA[MODULE]]></string>
   <string id="48407"><![CDATA[读取失败]]></string>
   <string id="48436">
-    <![CDATA[Cannot load the craft. File format is incompatible
-with this version of KSP.]]>
+    <![CDATA[无法读取，飞船文件冲突
+在错误的游戏版本。]]>
   </string>
   <string id="48590"><![CDATA[确定]]></string>
   <string id="48595"><![CDATA[飞船载入错误]]></string>
-  <string id="48634"><![CDATA[Craft ]]></string>
+  <string id="48634"><![CDATA[飞船]]></string>
   <string id="48647">
     <![CDATA[没有被加载
-因为以下部件丢失:
+因为以下部件丢失：
 ]]>
   </string>
   <string id="48768"><![CDATA[确定]]></string>
   <string id="48773"><![CDATA[stg]]></string>
   <string id="48780"><![CDATA[pSym]]></string>
-  <string id="48789"><![CDATA[ is missing.]]></string>
+  <string id="48789"><![CDATA[已经丢失.]]></string>
   <string id="48814"><![CDATA[EFFECTS]]></string>
-  <string id="48829"><![CDATA[ loaded!]]></string>
+  <string id="48829"><![CDATA[读取！]]></string>
   <string id="48846"><![CDATA[[ShipConstruct]: Trying to load ]]></string>
   <string id="48911"><![CDATA[ - No AvailablePart found for ]]></string>
   <string id="48972"><![CDATA[[ShipTemplate]: Could not locate root part in ]]></string>
-  <string id="49065"><![CDATA[ as ]]></string>
-  <string id="49074"><![CDATA[ entries remain after eliminating all parts listed as children. This is probably wrong.]]></string>
-  <string id="49250"><![CDATA[ has no root part defined, aborting]]></string>
+  <string id="49065"><![CDATA[像]]></string>
+  <string id="49074"><![CDATA[ 进入仍有在就像孩子一样把所有条目全部清除之后。这里可能出错了。]]></string>
+  <string id="49250"><![CDATA[没有设定根部件，正在放弃]]></string>
   <string id="49321"><![CDATA[ModuleCommand]]></string>
   <string id="49348"><![CDATA[OnCenterOfLiftQuery]]></string>
   <string id="49387"><![CDATA[OnCenterOfThrustQuery]]></string>
@@ -1898,12 +1903,12 @@ with this version of KSP.]]>
   <string id="51058"><![CDATA[成功地失败了]]></string>
   <string id="51095"><![CDATA[ResumeGForceReading]]></string>
   <string id="51134">
-    <![CDATA[任务总用时:
+    <![CDATA[任务总用时：
 ]]>
   </string>
-  <string id="51179"><![CDATA[ Year]]></string>
-  <string id="51190"><![CDATA[s, ]]></string>
-  <string id="51197"><![CDATA[ Day]]></string>
+  <string id="51179"><![CDATA[年]]></string>
+  <string id="51190"><![CDATA[秒, ]]></string>
+  <string id="51197"><![CDATA[天]]></string>
   <string id="51206"><![CDATA[时,]]></string>
   <string id="51223"><![CDATA[分,]]></string>
   <string id="51238">
@@ -1981,10 +1986,10 @@ with this version of KSP.]]>
   <string id="52620"><![CDATA[mapViewFiltering]]></string>
   <string id="52653"><![CDATA[VESSEL]]></string>
   <string id="52666"><![CDATA[[FlightPersistence]: Vessel ]]></string>
-  <string id="52723"><![CDATA[ not saved because it was dead.]]></string>
+  <string id="52723"><![CDATA[没有保存因为它死了。]]></string>
   <string id="52786"><![CDATA[KSC]]></string>
   <string id="52793"><![CDATA[未保存因为KSC里满是碎片]]></string>
-  <string id="52896"><![CDATA[[航行滞留]： 场景中有太多载具，跳过保存以下 ]]></string>
+  <string id="52896"><![CDATA[[航行滞留]：场景中有太多载具，跳过保存以下]]></string>
   <string id="53034"><![CDATA[Flight State Captured]]></string>
   <string id="53077"><![CDATA[preset]]></string>
   <string id="53090"><![CDATA[FLIGHT]]></string>
@@ -2004,8 +2009,8 @@ with this version of KSP.]]>
   <string id="53518"><![CDATA[Game State Saved as ]]></string>
   <string id="53559"><![CDATA[聪明的人在运行前总是先测试一下.]]></string>
   <string id="53697"><![CDATA[文件夹中未找到存档: ]]></string>
-  <string id="53756"><![CDATA[错误!]]></string>
-  <string id="53769"><![CDATA[The ]]></string>
+  <string id="53756"><![CDATA[错误！]]></string>
+  <string id="53769"><![CDATA[那个]]></string>
   <string id="53778"><![CDATA[ SFS文件不兼容当前版本的KSP.]]></string>
   <string id="53881"><![CDATA[GAME]]></string>
   <string id="53890"><![CDATA[Title]]></string>
@@ -2023,18 +2028,18 @@ with this version of KSP.]]>
   <string id="54072"><![CDATA[FLIGHTSTATE]]></string>
   <string id="54095"><![CDATA[ROSTER]]></string>
   <string id="54108"><![CDATA[Scenario ]]></string>
-  <string id="54127"><![CDATA[ 不可恢复因为脱离失败了.]]></string>
-  <string id="54230"><![CDATA[ 不可恢复因为已经完成.]]></string>
-  <string id="54333"><![CDATA[ 的确未开始，但经验证游戏已恢复。某些项目未加载。]]></string>
-  <string id="54507"><![CDATA[ 是不可恢复的。]]></string>
-  <string id="54544"><![CDATA[ 无法恢复因为不包含航线块并且块已开始于场景。]]></string>
-  <string id="54716"><![CDATA[ 不能恢复因为已开始于航线场景，但场景中并没有载具。]]></string>
+  <string id="54127"><![CDATA[不可恢复因为脱离失败了.]]></string>
+  <string id="54230"><![CDATA[不可恢复因为已经完成.]]></string>
+  <string id="54333"><![CDATA[的确未开始，但经验证游戏已恢复。某些项目未加载。]]></string>
+  <string id="54507"><![CDATA[是不可恢复的。]]></string>
+  <string id="54544"><![CDATA[无法恢复因为不包含航线块并且块已开始于场景。]]></string>
+  <string id="54716"><![CDATA[不能恢复因为已开始于航线场景，但场景中并没有载具。]]></string>
   <string id="54894"><![CDATA[Given ScenarioModule parameter must be a subclass of ScenarioModule]]></string>
   <string id="55030"><![CDATA[typeOfScnModule]]></string>
   <string id="55061"><![CDATA[[Game]: ScenarioModule ]]></string>
   <string id="55108"><![CDATA[ 存档中已存在，但已存在的场景与目标定义不匹配，正在升级……]]></string>
   <string id="55294"><![CDATA[Game State Created.]]></string>
-  <string id="55333"><![CDATA[存档兼容性检查失败： ]]></string>
+  <string id="55333"><![CDATA[存档兼容性检查失败：]]></string>
   <string id="55400"><![CDATA[ vs ]]></string>
   <string id="55409"><![CDATA[^]]></string>
   <string id="55412"><![CDATA[[GamePersistence Error]: No ROSTER node found in save state]]></string>
@@ -2059,8 +2064,8 @@ with this version of KSP.]]>
   <string id="55805"><![CDATA[FLIGHT_LOG]]></string>
   <string id="55826"><![CDATA[kerbalMale]]></string>
   <string id="55847"><![CDATA[kerbalFemale]]></string>
-  <string id="55872"><![CDATA[ has respawned!]]></string>
-  <string id="55903"><![CDATA[ has been missing for too long! He must be dead by now.]]></string>
+  <string id="55872"><![CDATA[已重生！]]></string>
+  <string id="55903"><![CDATA[已经失踪很久了，他现在肯定已经死了。]]></string>
   <string id="56014"><![CDATA[PartModule is null.]]></string>
   <string id="56053"><![CDATA[cid]]></string>
   <string id="56060"><![CDATA[uid]]></string>
@@ -2118,7 +2123,7 @@ with this version of KSP.]]>
   <string id="56924"><![CDATA[处于逃逸轨道 :]]></string>
   <string id="56981"><![CDATA[停靠于<something>]]></string>
   <string id="57024"><![CDATA[无可用处境报告]]></string>
-  <string id="57083"><![CDATA[ at ]]></string>
+  <string id="57083"><![CDATA[在]]></string>
   <string id="57092"><![CDATA[正在环绕]]></string>
   <string id="57109"><![CDATA[处于逃逸轨道]]></string>
   <string id="57150"><![CDATA[未命名的载具></string>
@@ -2142,7 +2147,7 @@ with this version of KSP.]]>
   <string id="57702"><![CDATA[Launcher Settings File exists]]></string>
   <string id="57761"><![CDATA[Launcher after checking file: ]]></string>
   <string id="57822"><![CDATA[GameSettings: Writing cfg...]]></string>
-  <string id="57879"><![CDATA[设置： ]]></string>
+  <string id="57879"><![CDATA[设置：]]></string>
   <string id="57898"><![CDATA[KSP游戏设置]]></string>
   <string id="57933"><![CDATA[游戏设置：已写入!]]></string>
   <string id="57978"><![CDATA[=]]></string>
@@ -2174,8 +2179,8 @@ with this version of KSP.]]>
   <string id="59201"><![CDATA[不显示游戏启动器]]></string>
   <string id="59250"><![CDATA[最大可存在太空垃圾数量 : ]]></string>
   <string id="59297"><![CDATA[无限]]></string>
-  <string id="59316"><![CDATA[最大每帧物理模拟时间间隔 : ]]></string>
-  <string id="59385"><![CDATA[ 秒.]]></string>
+  <string id="59316"><![CDATA[最大每帧物理模拟时间间隔: ]]></string>
+  <string id="59385"><![CDATA[秒。]]></string>
   <string id="59396"><![CDATA[界面]]></string>
   <string id="59401"><![CDATA[一般]]></string>
   <string id="59416"><![CDATA[微小]]></string>
@@ -2187,8 +2192,8 @@ with this version of KSP.]]>
   <string id="59506"><![CDATA[大]]></string>
   <string id="59517"><![CDATA[十分大]]></string>
   <string id="59540"><![CDATA[巨大]]></string>
-  <string id="59549"><![CDATA[摇杆名称 :]]></string>
-  <string id="59580"><![CDATA[摇杆 ]]></string>
+  <string id="59549"><![CDATA[摇杆名称:]]></string>
+  <string id="59580"><![CDATA[摇杆]]></string>
   <string id="59599"><![CDATA[控制映射]]></string>
   <string id="59630"><![CDATA[载具]]></string>
   <string id="59643"><![CDATA[宇航员]]></string>
@@ -2235,7 +2240,7 @@ with this version of KSP.]]>
   <string id="60690"><![CDATA[自定义动作8]]></string>
   <string id="60721"><![CDATA[自定义动作9]]></string>
   <string id="60752"><![CDATA[自定义动作10]]></string>
-  <string id="60785"><![CDATA[Wheels]]></string>
+  <string id="60785"><![CDATA[轮胎]]></string>
   <string id="60798"><![CDATA[向左转向]]></string>
   <string id="60819"><![CDATA[向右转向]]></string>
   <string id="60842"><![CDATA[向上转向]]></string>
@@ -2353,29 +2358,29 @@ with this version of KSP.]]>
   <string id="64277"><![CDATA[精确]]></string>
   <string id="64292"><![CDATA[<b>XYZ轴平移</b>]]></string>
   <string id="64337"><![CDATA[六自由度飞行控制:]]></string>
-  <string id="64380"><![CDATA[ (Primary)]]></string>
-  <string id="64401"><![CDATA[ (Secondary)]]></string>
-  <string id="64426"><![CDATA[Press the key or joystick button to use for <b>]]></string>
+  <string id="64380"><![CDATA[ (初级)]]></string>
+  <string id="64401"><![CDATA[ (次级)]]></string>
+  <string id="64426"><![CDATA[按下任意键来使用<b>]]></string>
   <string id="64521"><![CDATA[</b>]]></string>
   <string id="64530"><![CDATA[Current Assignment: <b>]]></string>
-  <string id="64577"><![CDATA[Move the joystick axis to use for <b>]]></string>
+  <string id="64577"><![CDATA[移动摇杆来使用<b>]]></string>
   <string id="64652"><![CDATA[Use in Modes: ]]></string>
   <string id="64681"><![CDATA[分级]]></string>
   <string id="64696"><![CDATA[Docking (Translation)]]></string>
   <string id="64739"><![CDATA[Docking (Rotation)]]></string>
   <string id="64776"><![CDATA[清除指定]]></string>
   <string id="64809"><![CDATA[接受]]></string>
-  <string id="64822"><![CDATA[Primary:]]></string>
+  <string id="64822"><![CDATA[初级:]]></string>
   <string id="64839"><![CDATA[反向]]></string>
   <string id="64852"><![CDATA[灵敏度]]></string>
   <string id="64877"><![CDATA[静止区 ]]></string>
-  <string id="64898"><![CDATA[Secondary:]]></string>
-  <string id="64919"><![CDATA[joy]]></string>
-  <string id="64926"><![CDATA[listen target set to: ]]></string>
-  <string id="64971"><![CDATA[ Axis ]]></string>
+  <string id="64898"><![CDATA[次级:]]></string>
+  <string id="64919"><![CDATA[手柄]]></string>
+  <string id="64926"><![CDATA[根据目标设置为: ]]></string>
+  <string id="64971"><![CDATA[摇杆]]></string>
   <string id="64984"><![CDATA[[InputSettings]: listen target set to ]]></string>
-  <string id="65061"><![CDATA[; Axis ]]></string>
-  <string id="65076"><![CDATA[, 设备 ]]></string>
+  <string id="65061"><![CDATA[; 摇杆]]></string>
+  <string id="65076"><![CDATA[,设备]]></string>
   <string id="65095"><![CDATA[Systems/UI]]></string>
   <string id="65116"><![CDATA[阀门加大: ]]></string>
   <string id="65143"><![CDATA[阀门减小: ]]></string>
@@ -2387,55 +2392,55 @@ with this version of KSP.]]>
   <string id="65333"><![CDATA[降低: ]]></string>
   <string id="65358"><![CDATA[左翻滚: ]]></string>
   <string id="65381"><![CDATA[右翻滚: ]]></string>
-  <string id="65406"><![CDATA[Yaw left: ]]></string>
-  <string id="65427"><![CDATA[Yaw right: ]]></string>
+  <string id="65406"><![CDATA[左偏航: ]]></string>
+  <string id="65427"><![CDATA[右偏航: ]]></string>
   <string id="65450"><![CDATA[SAS保持: ]]></string>
   <string id="65471"><![CDATA[SAS Toggle: ]]></string>
-  <string id="65496"><![CDATA[Launch/Activate next stage: ]]></string>
-  <string id="65553"><![CDATA[Lock current stage: ]]></string>
+  <string id="65496"><![CDATA[发射/启动下一级: ]]></string>
+  <string id="65553"><![CDATA[锁定当前级: ]]></string>
   <string id="65594"><![CDATA[ + L]]></string>
-  <string id="65603"><![CDATA[Toggle RCS: ]]></string>
-  <string id="65628"><![CDATA[Translate forward: ]]></string>
-  <string id="65667"><![CDATA[Translate backward: ]]></string>
-  <string id="65708"><![CDATA[Translate down: ]]></string>
-  <string id="65741"><![CDATA[Translate left: ]]></string>
-  <string id="65774"><![CDATA[Translate up: ]]></string>
-  <string id="65803"><![CDATA[Translate right: ]]></string>
-  <string id="65838"><![CDATA[Show/Hide NavBall: ]]></string>
+  <string id="65603"><![CDATA[RCS开关: ]]></string>
+  <string id="65628"><![CDATA[运至前方: ]]></string>
+  <string id="65667"><![CDATA[运至后方: ]]></string>
+  <string id="65708"><![CDATA[运至下方: ]]></string>
+  <string id="65741"><![CDATA[运至左边: ]]></string>
+  <string id="65774"><![CDATA[运至上方: ]]></string>
+  <string id="65803"><![CDATA[运至右边: ]]></string>
+  <string id="65838"><![CDATA[显示/隐藏 导航球: ]]></string>
   <string id="65877"><![CDATA[KeypadPeriod]]></string>
-  <string id="65902"><![CDATA[Screenshot: ]]></string>
-  <string id="65927"><![CDATA[Show/Hide UI: ]]></string>
-  <string id="65956"><![CDATA[Show/Hide flight log: ]]></string>
-  <string id="66001"><![CDATA[Show/Hide vessel labels: ]]></string>
-  <string id="66052"><![CDATA[Quicksave: ]]></string>
-  <string id="66075"><![CDATA[Load Quicksave: ]]></string>
-  <string id="66108"><![CDATA[Hold down ]]></string>
-  <string id="66129"><![CDATA[Map View]]></string>
-  <string id="66146"><![CDATA[Toggle map view: ]]></string>
-  <string id="66181"><![CDATA[Cycle focus in map view: ]]></string>
+  <string id="65902"><![CDATA[截图: ]]></string>
+  <string id="65927"><![CDATA[显示/隐藏UI: ]]></string>
+  <string id="65956"><![CDATA[显示/隐藏飞行日志: ]]></string>
+  <string id="66001"><![CDATA[显示/隐藏载具标签: ]]></string>
+  <string id="66052"><![CDATA[快速保存: ]]></string>
+  <string id="66075"><![CDATA[读取快速保存: ]]></string>
+  <string id="66108"><![CDATA[按住]]></string>
+  <string id="66129"><![CDATA[总览图]]></string>
+  <string id="66146"><![CDATA[总览图开启: ]]></string>
+  <string id="66181"><![CDATA[总览图焦点循环: ]]></string>
   <string id="66232"><![CDATA[Tab]]></string>
-  <string id="66239"><![CDATA[Cycle backwards in map view: ]]></string>
-  <string id="66298"><![CDATA[LeftShift + Tab]]></string>
-  <string id="66329"><![CDATA[Reset focus in map view: ]]></string>
-  <string id="66380"><![CDATA[Increase Time Warp: ]]></string>
-  <string id="66421"><![CDATA[Decrease Time Warp: ]]></string>
-  <string id="66462"><![CDATA[Grab/use: ]]></string>
-  <string id="66483"><![CDATA[Sprint: ]]></string>
-  <string id="66500"><![CDATA[Jump/Jetpack boost: ]]></string>
-  <string id="66541"><![CDATA[Toggle Jetpack: ]]></string>
-  <string id="66574"><![CDATA[Jet rotate left: ]]></string>
-  <string id="66609"><![CDATA[Jet rotate right: ]]></string>
-  <string id="66646"><![CDATA[Jet up: ]]></string>
-  <string id="66663"><![CDATA[Jet down: ]]></string>
-  <string id="66684"><![CDATA[Toggle lamps: ]]></string>
-  <string id="66713"><![CDATA[Toggle movement: ]]></string>
+  <string id="66239"><![CDATA[总览图后退循环: ]]></string>
+  <string id="66298"><![CDATA[左Shift + Tab]]></string>
+  <string id="66329"><![CDATA[重置地图焦点: ]]></string>
+  <string id="66380"><![CDATA[加快时间倍速: ]]></string>
+  <string id="66421"><![CDATA[降低时间倍速: ]]></string>
+  <string id="66462"><![CDATA[勾爪/使用: ]]></string>
+  <string id="66483"><![CDATA[快跑: ]]></string>
+  <string id="66500"><![CDATA[跳跃/喷射加速: ]]></string>
+  <string id="66541"><![CDATA[喷气背包开关: ]]></string>
+  <string id="66574"><![CDATA[喷气背包左旋: ]]></string>
+  <string id="66609"><![CDATA[喷气背包右旋: ]]></string>
+  <string id="66646"><![CDATA[喷气背包向上: ]]></string>
+  <string id="66663"><![CDATA[喷气背包向下: ]]></string>
+  <string id="66684"><![CDATA[灯光开关: ]]></string>
+  <string id="66713"><![CDATA[移动开启: ]]></string>
   <string id="66748"><![CDATA[输入]]></string>
-  <string id="66759"><![CDATA[Mini Settings Dialog]]></string>
+  <string id="66759"><![CDATA[小对话框设置]]></string>
   <string id="66800"><![CDATA[MiniSettingsSkin]]></string>
   <string id="66833"><![CDATA[Key Bindings]]></string>
   <string id="66858"><![CDATA[关闭]]></string>
   <string id="66869"><![CDATA[设置]]></string>
-  <string id="66886"><![CDATA[Difficulty Options: <b><color=]]></string>
+  <string id="66886"><![CDATA[难度选项: <b><color=]]></string>
   <string id="66947"><![CDATA[</color></b>]]></string>
   <string id="66972"><![CDATA[应用]]></string>
   <string id="66983"><![CDATA[关]]></string>
@@ -2494,21 +2499,21 @@ with this version of KSP.]]>
   <string id="68563"><![CDATA[': ]]></string>
   <string id="68570"><![CDATA[AddonLoader: Instantiating addon ']]></string>
   <string id="68639"><![CDATA[' from assembly ']]></string>
-  <string id="68674"><![CDATA[Action event delegate is null]]></string>
-  <string id="68733"><![CDATA[actionGroup]]></string>
+  <string id="68674"><![CDATA[动作时间代表键值为空]]></string>
+  <string id="68733"><![CDATA[动作组]]></string>
   <string id="68756"><![CDATA[KSPAction: ]]></string>
   <string id="68779"><![CDATA[KSPAction method ']]></string>
   <string id="68816"><![CDATA['must have argument of type KSPActionParam]]></string>
-  <string id="68901"><![CDATA[Cannot toggle ]]></string>
+  <string id="68901"><![CDATA[无法开关]]></string>
   <string id="68930"><![CDATA[. ]]></string>
-  <string id="68935"><![CDATA[ seconds until it becomes available again.]]></string>
+  <string id="68935"><![CDATA[秒在恢复可用前。]]></string>
   <string id="69020"><![CDATA[BaseField ]]></string>
-  <string id="69041"><![CDATA[ in ]]></string>
+  <string id="69041"><![CDATA[在]]></string>
   <string id="69050"><![CDATA[ has too many UICtrls marked for Flight. Max == 1. UICtrl scene set to ]]></string>
   <string id="69194"><![CDATA[ has too many UICtrls marked for Editor. Max == 1. UICtrl scene set to ]]></string>
-  <string id="69338"><![CDATA[Value ']]></string>
-  <string id="69353"><![CDATA[' could not be set to field ']]></string>
-  <string id="69412"><![CDATA[Value could not be retrieved from field ']]></string>
+  <string id="69338"><![CDATA[数值 ']]></string>
+  <string id="69353"><![CDATA[' 无法置于领域']]></string>
+  <string id="69412"><![CDATA[数值无法从领域中恢复 ']]></string>
   <string id="69495"><![CDATA[(]]></string>
   <string id="69498"><![CDATA[Invalid boolean value]]></string>
   <string id="69541"><![CDATA[Invalid byte value]]></string>
@@ -2533,8 +2538,8 @@ with this version of KSP.]]>
   <string id="70478"><![CDATA[IConfigNode]]></string>
   <string id="70501"><![CDATA[Field: ]]></string>
   <string id="70516"><![CDATA[Ctrl: ]]></string>
-  <string id="70529"><![CDATA[Field ']]></string>
-  <string id="70544"><![CDATA[' not found.]]></string>
+  <string id="70529"><![CDATA[领域']]></string>
+  <string id="70544"><![CDATA['未被找到。]]></string>
   <string id="70569"><![CDATA[_UIFlight]]></string>
   <string id="70588"><![CDATA[_UIEditor]]></string>
   <string id="70607"><![CDATA[Field: Host is null]]></string>
@@ -2551,8 +2556,8 @@ with this version of KSP.]]>
   <string id="70888"><![CDATA[PartEvent method has incorrect second argument]]></string>
   <string id="70981"><![CDATA[PartEvent method ']]></string>
   <string id="71018"><![CDATA['must have arguments of either () or (BasePartEventData)]]></string>
-  <string id="71131"><![CDATA[Action ']]></string>
-  <string id="71148"><![CDATA[' already defined.]]></string>
+  <string id="71131"><![CDATA[动作']]></string>
+  <string id="71148"><![CDATA['已经定义。]]></string>
   <string id="71185"><![CDATA[Invalid key: ]]></string>
   <string id="71212"><![CDATA[Effect definitions already contains an effect with node name of ']]></string>
   <string id="71344"><![CDATA[EffectList: Created ]]></string>
@@ -2795,11 +2800,11 @@ with this version of KSP.]]>
   <string id="82438"><![CDATA[Parse]]></string>
   <string id="82449"><![CDATA[NODE]]></string>
   <string id="82458"><![CDATA[Icon_Only]]></string>
-  <string id="82477"><![CDATA[容量 : ]]></string>
+  <string id="82477"><![CDATA[容量: ]]></string>
   <string id="82494"><![CDATA[ Max.)]]></string>
   <string id="82507">
     <![CDATA[
-质量 : ]]>
+质量: ]]>
   </string>
   <string id="82522"><![CDATA[	Cost: ]]></string>
   <string id="82537"><![CDATA[: </b>]]></string>
@@ -2810,7 +2815,7 @@ with this version of KSP.]]>
   <string id="82573"><![CDATA[PartCompiler: Cannot find Part of type ']]></string>
   <string id="82654"><![CDATA[PartLoader: Cannot replace model texture with ']]></string>
   <string id="82749"><![CDATA[_NormalMap]]></string>
-  <string id="82770"><![CDATA[ icon]]></string>
+  <string id="82770"><![CDATA[图标]]></string>
   <string id="82781"><![CDATA[Sounds/]]></string>
   <string id="82796"><![CDATA[/Sounds/]]></string>
   <string id="82813"><![CDATA[/GameData/Squad/Sounds/]]></string>
@@ -2927,16 +2932,16 @@ Please use KSP.IO.PluginConfiguration (in Assembly-CSharp.dll) to save/load your
   <string id="87077"><![CDATA[unknownPart]]></string>
   <string id="87100"><![CDATA[不知道是什么的奇怪东西]]></string>
   <string id="87151"><![CDATA[在路边捡回来的东西]]></string>
-  <string id="87222"><![CDATA[对此物品知之甚少,若使用中出现任何问题,后果自负.]]></string>
-  <string id="87356"><![CDATA[ is on seat #]]></string>
+  <string id="87222"><![CDATA[对此物品知之甚少,若使用中出现任何问题,后果自负。]]></string>
+  <string id="87356"><![CDATA[已坐在座位上#]]></string>
   <string id="87383"><![CDATA[Seat #]]></string>
-  <string id="87396"><![CDATA[ is empty]]></string>
+  <string id="87396"><![CDATA[是空的]]></string>
   <string id="87415"><![CDATA[[PartCrewManifest Error]: seat index out of range: i = ]]></string>
-  <string id="87526"><![CDATA[ while ]]></string>
-  <string id="87541"><![CDATA[ seats]]></string>
+  <string id="87526"><![CDATA[当]]></string>
+  <string id="87541"><![CDATA[座位]]></string>
   <string id="87554"><![CDATA[[PartCrewManifest Error]: seat ]]></string>
-  <string id="87617"><![CDATA[ was occupied already.]]></string>
-  <string id="87662"><![CDATA[ while part has ]]></string>
+  <string id="87617"><![CDATA[已被占用]]></string>
+  <string id="87662"><![CDATA[当组件有]]></string>
   <string id="87695"><![CDATA[DebugToolbar]]></string>
   <string id="87720"><![CDATA[调试工具栏]]></string>
   <string id="87747"><![CDATA[Set Ship Orbit]]></string>
@@ -2992,21 +2997,21 @@ Ext Temp: ]]>
   <string id="88677"><![CDATA[Biomes visible in map]]></string>
   <string id="88720"><![CDATA[Allow Part Clipping in Editors [Bug Hazard!]]]></string>
   <string id="88809"><![CDATA[Non-Strict Part Attachment Orientation Checks]]></string>
-  <string id="88900"><![CDATA[+5 Science]]></string>
-  <string id="88921"><![CDATA[+50 Science]]></string>
-  <string id="88944"><![CDATA[+500 Science]]></string>
-  <string id="88969"><![CDATA[Zero Science]]></string>
-  <string id="88994"><![CDATA[+10k Funds]]></string>
-  <string id="89015"><![CDATA[+50k Funds]]></string>
-  <string id="89036"><![CDATA[+250k Funds]]></string>
-  <string id="89059"><![CDATA[+1M Funds]]></string>
-  <string id="89078"><![CDATA[Zero Funds]]></string>
-  <string id="89099"><![CDATA[-50 Rep]]></string>
-  <string id="89114"><![CDATA[-25 Rep]]></string>
-  <string id="89129"><![CDATA[-5 Rep]]></string>
-  <string id="89142"><![CDATA[+5 Rep]]></string>
-  <string id="89155"><![CDATA[+25 Rep]]></string>
-  <string id="89170"><![CDATA[+50f Rep]]></string>
+  <string id="88900"><![CDATA[+5科研点]]></string>
+  <string id="88921"><![CDATA[+50科研点]]></string>
+  <string id="88944"><![CDATA[+500科研点]]></string>
+  <string id="88969"><![CDATA[Zero科研点]]></string>
+  <string id="88994"><![CDATA[+10k 资金]]></string>
+  <string id="89015"><![CDATA[+50k资金]]></string>
+  <string id="89036"><![CDATA[+250k资金]]></string>
+  <string id="89059"><![CDATA[+1M资金]]></string>
+  <string id="89078"><![CDATA[一无所有]]></string>
+  <string id="89099"><![CDATA[-50 声望]]></string>
+  <string id="89114"><![CDATA[-25声望]]></string>
+  <string id="89129"><![CDATA[-5声望]]></string>
+  <string id="89142"><![CDATA[+5声望]]></string>
+  <string id="89155"><![CDATA[+25声望]]></string>
+  <string id="89170"><![CDATA[+50f声望]]></string>
   <string id="89187"><![CDATA[_ResourceMap]]></string>
   <string id="89212"><![CDATA[Ecc: ]]></string>
   <string id="89223"><![CDATA[MnA: ]]></string>
@@ -3069,11 +3074,11 @@ Ext Temp: ]]>
   <string id="91094"><![CDATA[E]]></string>
   <string id="91097"><![CDATA[M]]></string>
   <string id="91100"><![CDATA[H]]></string>
-  <string id="91103"><![CDATA[Contract of type ']]></string>
-  <string id="91140"><![CDATA[' was not be generated.]]></string>
-  <string id="91187"><![CDATA[Regenerate Current Contracts]]></string>
-  <string id="91244"><![CDATA[Clear Current Contracts]]></string>
-  <string id="91291"><![CDATA[Clear Finished Contracts]]></string>
+  <string id="91103"><![CDATA[合同类型']]></string>
+  <string id="91140"><![CDATA[' 尚未生成。]]></string>
+  <string id="91187"><![CDATA[重置当前合同]]></string>
+  <string id="91244"><![CDATA[清除当前合同]]></string>
+  <string id="91291"><![CDATA[清除完成合同]]></string>
   <string id="91340"><![CDATA[难度选项:]]></string>
   <string id="91379"><![CDATA[在生涯模式中允许使用游戏原有设计]]></string>
   <string id="91448"><![CDATA[宇航员可重生]]></string>
@@ -3101,7 +3106,7 @@ Ext Temp: ]]>
   <string id="92220"><![CDATA[Unused Reserved]]></string>
   <string id="92251"><![CDATA[Mono Heap]]></string>
   <string id="92270"><![CDATA[Mono Heap Used]]></string>
-  <string id="92299"><![CDATA[Please open the Tech Tree Screen at the R&D Facility to use these tools]]></string>
+  <string id="92299"><![CDATA[请打开科技树截面在R&D元素来使用这个工具]]></string>
   <string id="92443"><![CDATA[700000]]></string>
   <string id="92456"><![CDATA[Tail]]></string>
   <string id="92465"><![CDATA[Surface]]></string>
@@ -3320,14 +3325,14 @@ Ext Temp: ]]>
   <string id="101663"><![CDATA[PlayList]]></string>
   <string id="101680"><![CDATA[PlayFlight]]></string>
   <string id="101701"><![CDATA[PauseCrossfadeCoroutine]]></string>
-  <string id="101748"><![CDATA[Cannot quickload in this scenario.]]></string>
+  <string id="101748"><![CDATA[在此场景中不能读取快速保存.]]></string>
   <string id="101817"><![CDATA[quicksave]]></string>
   <string id="101836"><![CDATA[Hold ]]></string>
   <string id="101847"><![CDATA[ to load last quicksave...]]></string>
   <string id="101900"><![CDATA[onHoldComplete]]></string>
   <string id="101929"><![CDATA[Choose an SFS file to load]]></string>
   <string id="101982"><![CDATA[*.sfs]]></string>
-  <string id="101993"><![CDATA[Cannot quicksave in this scenario.]]></string>
+  <string id="101993"><![CDATA[在此场景中不能快速保存。]]></string>
   <string id="102062"><![CDATA[Vessel is destroyed. Cannot Quicksave at this point.]]></string>
   <string id="102167"><![CDATA[Quicksaving...]]></string>
   <string id="102196"><![CDATA[SaveAsDialog]]></string>
@@ -3337,8 +3342,8 @@ Ext Temp: ]]>
   <string id="102294"><![CDATA[../../Screenshots]]></string>
   <string id="102329"><![CDATA[../Screenshots]]></string>
   <string id="102358"><![CDATA[/screenshot]]></string>
-  <string id="102381"><![CDATA[SCREENSHOT!!]]></string>
-  <string id="102406"><![CDATA[ has no operational SAS Modules and no Pilots aboard. Cannot engage SAS.</b></color>]]></string>
+  <string id="102381"><![CDATA[截图!!]]></string>
+  <string id="102406"><![CDATA[没有可操作的SAS模块和驾驶员面板，无法启动SAS系统。</b></color>]]></string>
   <string id="102576"><![CDATA[<color=orange><b>SAS Disengaged.</b></color>]]></string>
   <string id="102665"><![CDATA[<color=orange><b>[]]></string>
   <string id="102702"><![CDATA[]: SAS Disengaged.</b></color>]]></string>
@@ -3348,7 +3353,7 @@ Ext Temp: ]]>
   <string id="102814"><![CDATA[Torque Yaw]]></string>
   <string id="102835"><![CDATA[Torque Roll]]></string>
   <string id="102858"><![CDATA[Torque Pitch]]></string>
-  <string id="102883"><![CDATA[Cannot Switch Vessels on this scenario]]></string>
+  <string id="102883"><![CDATA[此场景中不能切换载具]]></string>
   <string id="102960"><![CDATA[附近没有可被选定的目标,切换到地图视角来选定一个更远的目标.]]></string>
   <string id="103098"><![CDATA[[Vessel Switching]: Should not have been possible to get here]]></string>
   <string id="103221"><![CDATA[Flights]]></string>
@@ -3380,7 +3385,7 @@ Ext Temp: ]]>
   <string id="103587"><![CDATA[ymax]]></string>
   <string id="103596"><![CDATA[Parsing ]]></string>
   <string id="103613"><![CDATA[ERROR PARSING K:V {0}:{1}: ]]></string>
-  <string id="103668"><![CDATA[ could not be parsed: ]]></string>
+  <string id="103668"><![CDATA[无法解析: ]]></string>
   <string id="103713"><![CDATA[config.xml]]></string>
   <string id="103734"><![CDATA[manualStageLock]]></string>
   <string id="103765"><![CDATA[staging lock/unlock]]></string>
@@ -3410,11 +3415,11 @@ Ext Temp: ]]>
   <string id="104289"><![CDATA[secondary]]></string>
   <string id="104308"><![CDATA[modeMaskSec]]></string>
   <string id="104331"><![CDATA[[InputDevices]: Device #]]></string>
-  <string id="104380"><![CDATA[ has no name.]]></string>
+  <string id="104380"><![CDATA[还没有名字.]]></string>
   <string id="104407"><![CDATA[[InputDevices]: ]]></string>
-  <string id="104440"><![CDATA[ matches stored index as device #]]></string>
-  <string id="104507"><![CDATA[ is device #]]></string>
-  <string id="104532"><![CDATA[, but stored index was ]]></string>
+  <string id="104440"><![CDATA[与指引中的设备匹配 #]]></string>
+  <string id="104507"><![CDATA[设备#]]></string>
+  <string id="104532"><![CDATA[，但保存指引]]></string>
   <string id="104579"><![CDATA[. Reassigning...]]></string>
   <string id="104612"><![CDATA[[Input Devices]: ]]></string>
   <string id="104647"><![CDATA[No Input Locks in effect right now]]></string>
@@ -3433,10 +3438,10 @@ bitmask: ]]>
   <string id="105018"><![CDATA[Arial]]></string>
   <string id="105029"><![CDATA[InternalModel error: Part Crew capacity is ]]></string>
   <string id="105116"><![CDATA[, but ]]></string>
-  <string id="105129"><![CDATA[ seats are defined in internal model]]></string>
+  <string id="105129"><![CDATA[座椅已被定义在内部模型]]></string>
   <string id="105202"><![CDATA[Internal Model error: Crewmember ]]></string>
-  <string id="105269"><![CDATA[ couldn't be seated because the internal model doesn't have any more seats defined.]]></string>
-  <string id="105437"><![CDATA['s seat index exceeds internal model seat count!]]></string>
+  <string id="105269"><![CDATA[不能坐下因为内部模型没有设定更多座位。]]></string>
+  <string id="105437"><![CDATA[的座位指引超过内部模型的座位数！]]></string>
   <string id="105534"><![CDATA[Internal Model Error: Seat is Empty, Cannot unseat.]]></string>
   <string id="105637"><![CDATA[offset]]></string>
   <string id="105650"><![CDATA[Cannot add a Module because ConfigNode contains no module name]]></string>
@@ -3493,17 +3498,17 @@ bitmask: ]]>
   <string id="107241"><![CDATA[尺寸级别 : ]]></string>
   <string id="107266"><![CDATA[名称: ]]></string>
   <string id="107279"><![CDATA[未知物体]]></string>
-  <string id="107308"><![CDATA[Situation: ]]></string>
+  <string id="107308"><![CDATA[情况: ]]></string>
   <string id="107331"><![CDATA[无状况数据]]></string>
   <string id="107366"><![CDATA[速度:]]></string>
-  <string id="107381"><![CDATA[Unknown Speed]]></string>
-  <string id="107408"><![CDATA[Altitude: ]]></string>
-  <string id="107429"><![CDATA[Unknown Altitude]]></string>
-  <string id="107462"><![CDATA[m]]></string>
-  <string id="107465"><![CDATA[Type: ]]></string>
-  <string id="107478"><![CDATA[Unknown Object Type]]></string>
-  <string id="107517"><![CDATA[Mass: ]]></string>
-  <string id="107530"><![CDATA[Unknown Mass]]></string>
+  <string id="107381"><![CDATA[未知速度]]></string>
+  <string id="107408"><![CDATA[高度: ]]></string>
+  <string id="107429"><![CDATA[未知高度]]></string>
+  <string id="107462"><![CDATA[米]]></string>
+  <string id="107465"><![CDATA[类型: ]]></string>
+  <string id="107478"><![CDATA[未知目标类型]]></string>
+  <string id="107517"><![CDATA[质量: ]]></string>
+  <string id="107530"><![CDATA[未知质量]]></string>
   <string id="107555"><![CDATA[t]]></string>
   <string id="107558"><![CDATA[0.0##]]></string>
   <string id="107569"><![CDATA[lastObservedTime]]></string>
@@ -3565,19 +3570,19 @@ bitmask: ]]>
   <string id="110466"><![CDATA[applicationFocus]]></string>
   <string id="110499"><![CDATA[开始新的游戏]]></string>
   <string id="110528">
-    <![CDATA[在沙盒模式中,所有的部件和功能从一开始就已全部解锁.
+    <![CDATA[在沙盒模式中,所有的部件和功能从一开始就已全部解锁。
 
-您可以毫不受限的尽情玩耍,但是研究和开发机构与任务控制中心将不会启用.]]>
+您可以毫不受限的尽情玩耍，但是研究和开发机构与任务控制中心将不会启用。]]>
   </string>
   <string id="110852">
-    <![CDATA[在科研模式中,您必须收集科学点数用于解锁新的科技.
+    <![CDATA[在科研模式中，您必须收集科学点数用于解锁新的科技。
 
-资金和声誉系统将不会启用, 并且任务系统也将不会开启 (之前版本的生涯模式).]]>
+资金和声誉系统将不会启用，并且任务系统也将不会开启 (之前版本的生涯模式)。]]>
   </string>
   <string id="111208">
-    <![CDATA[在生涯模式中,您必须精心打点太空计划的每个方面.
+    <![CDATA[在生涯模式中，您必须精心打点太空计划的每个方面。
 
-资金,声誉和科研系统全部启用,也可以在任务控制中心内签署任务合同.]]>
+资金，声誉和科研系统全部启用，也可以在任务控制中心内签署任务合同。]]>
   </string>
   <string id="111538"><![CDATA[[MainMenu Error]: Flag Browser button is set, but GameDatabase has no instance!]]></string>
   <string id="111698"><![CDATA[newGameDialog]]></string>
@@ -3631,12 +3636,12 @@ What would you like to do?
   <string id="112846"><![CDATA[>{2, 20}</color>]]></string>
   <string id="112879"><![CDATA[资金: ]]></string>
   <string id="112894"><![CDATA[科学点数 : ]]></string>
-  <string id="112913"><![CDATA[声誉: ]]></string>
-  <string id="112938"><![CDATA[m	航天任务: ]]></string>
-  <string id="112961"><![CDATA[	合约: ]]></string>
-  <string id="112986"><![CDATA[ in progress		<color=]]></string>
+  <string id="112913"><![CDATA[声望: ]]></string>
+  <string id="112938"><![CDATA[m航天任务: ]]></string>
+  <string id="112961"><![CDATA[合约: ]]></string>
+  <string id="112986"><![CDATA[在计划内		<color=]]></string>
   <string id="113029"><![CDATA[>科学: ]]></string>
-  <string id="113050"><![CDATA[Just started]]></string>
+  <string id="113050"><![CDATA[刚刚开始]]></string>
   <string id="113075"><![CDATA[与此KSP版本不兼容.]]></string>
   <string id="113152"><![CDATA[没有在存档目录中找到persistent.sfs文件]]></string>
   <string id="113229">
@@ -3664,23 +3669,23 @@ What would you like to do?
   <string id="114007"><![CDATA[Windows]]></string>
   <string id="114022"><![CDATA[OSX]]></string>
   <string id="114029"><![CDATA[Linux]]></string>
-  <string id="114040"><![CDATA[KSP would like to send some data gathered from your system to]]></string>
-  <string id="114163"><![CDATA[the KSP Servers to be used for statistical purposes. The game]]></string>
-  <string id="114286"><![CDATA[will send the following data:]]></string>
-  <string id="114345"><![CDATA[Game ID: ]]></string>
-  <string id="114364"><![CDATA[Game Version: ]]></string>
-  <string id="114393"><![CDATA[Game Platform: ]]></string>
-  <string id="114424"><![CDATA[IP Address]]></string>
-  <string id="114445"><![CDATA[Don't send my IP]]></string>
-  <string id="114478"><![CDATA[Send anonymous game progress data]]></string>
+  <string id="114040"><![CDATA[KSP 可能会从你的系统中收集一些数据并发送至]]></string>
+  <string id="114163"><![CDATA[KSP服务器以统计反馈。这个游戏]]></string>
+  <string id="114286"><![CDATA[会发送以下数据:]]></string>
+  <string id="114345"><![CDATA[游戏ID: ]]></string>
+  <string id="114364"><![CDATA[游戏版本: ]]></string>
+  <string id="114393"><![CDATA[游戏平台: ]]></string>
+  <string id="114424"><![CDATA[IP地址]]></string>
+  <string id="114445"><![CDATA[不发送IP]]></string>
+  <string id="114478"><![CDATA[匿名发送游戏数据]]></string>
   <string id="114545"><![CDATA[https://kerbalspaceprogram.com/kspstore/gamescripts/callhome.php]]></string>
-  <string id="114675"><![CDATA[KSP Stats Tracking]]></string>
+  <string id="114675"><![CDATA[KSP 版本追踪]]></string>
   <string id="114712"><![CDATA[0.0.0]]></string>
   <string id="114723"><![CDATA[ Steam]]></string>
   <string id="114736"><![CDATA[ BETA]]></string>
   <string id="114747"><![CDATA[/../../appmanifest_220200.acf]]></string>
   <string id="114806"><![CDATA[buildId.txt]]></string>
-  <string id="114829"><![CDATA[[KSP Version]: ]]></string>
+  <string id="114829"><![CDATA[[KSP版本]: ]]></string>
   <string id="114860"><![CDATA[ ====================================]]></string>
   <string id="114935"><![CDATA[新版本可用]]></string>
   <string id="114978"><![CDATA[检查更新中]]></string>
@@ -3691,14 +3696,14 @@ What would you like to do?
   <string id="115059"><![CDATA[linux]]></string>
   <string id="115070"><![CDATA[experimentals]]></string>
   <string id="115097"><![CDATA[production]]></string>
-  <string id="115118"><![CDATA[Downloaded fresh patcher!]]></string>
-  <string id="115169"><![CDATA[This update requires a full download. Press Update to open the KSP Store.]]></string>
-  <string id="115317"><![CDATA[Don't ask again]]></string>
-  <string id="115348"><![CDATA[versioning]]></string>
+  <string id="115118"><![CDATA[正在下载补丁!]]></string>
+  <string id="115169"><![CDATA[这个补丁需要完整下载才可使用。请按下升级按钮前往KSP商店。]]></string>
+  <string id="115317"><![CDATA[不再询问]]></string>
+  <string id="115348"><![CDATA[检测版本中]]></string>
   <string id="115369"><![CDATA[https://www.kerbalspaceprogram.com/kspstore/]]></string>
   <string id="115458"><![CDATA[Patcher.exe]]></string>
   <string id="115481">
-    <![CDATA[Could not QuitAndStartPatcher. The patch client could not be found or has no execution permission.
+    <![CDATA[不能离开并立刻开始升级。本机客户没有使用许可
 
 ]]>
   </string>
@@ -3707,26 +3712,26 @@ What would you like to do?
   <string id="115931"><![CDATA[https://kerbalspaceprogram.com/kspstore/dp/patcher/releases/{0}/{1}/Patcher]]></string>
   <string id="116083"><![CDATA[the ]]></string>
   <string id="116092"><![CDATA[[CelestialBody]: ]]></string>
-  <string id="116127"><![CDATA['s solar day length is ]]></string>
-  <string id="116174"><![CDATA[ long. sidereal day length is ]]></string>
-  <string id="116235"><![CDATA[ long]]></string>
-  <string id="116246"><![CDATA[Warp Rate limits for ]]></string>
-  <string id="116289"><![CDATA[ didn't match warp rate count. Limits reset to default]]></string>
-  <string id="116398"><![CDATA[Limits for ]]></string>
-  <string id="116421"><![CDATA[x after above ]]></string>
-  <string id="116450"><![CDATA[On Hyperbolic orbit around ]]></string>
-  <string id="116505"><![CDATA[Sun]]></string>
-  <string id="116512"><![CDATA[Planet]]></string>
-  <string id="116525"><![CDATA[Moon]]></string>
-  <string id="116534"><![CDATA[A mysterious uncharted celestial body.]]></string>
-  <string id="116611"><![CDATA[Maneuver Node]]></string>
+  <string id="116127"><![CDATA[的太阳系大小是 ]]></string>
+  <string id="116174"><![CDATA[长度。自转周期为]]></string>
+  <string id="116235"><![CDATA[长]]></string>
+  <string id="116246"><![CDATA[时间加速倍率限制为]]></string>
+  <string id="116289"><![CDATA[与可用加速倍率不匹配。限制重设为默认]]></string>
+  <string id="116398"><![CDATA[限制为]]></string>
+  <string id="116421"><![CDATA[倍时高于]]></string>
+  <string id="116450"><![CDATA[在双曲线轨道环绕]]></string>
+  <string id="116505"><![CDATA[太阳]]></string>
+  <string id="116512"><![CDATA[行星]]></string>
+  <string id="116525"><![CDATA[卫星]]></string>
+  <string id="116534"><![CDATA[一片谜一样未标注的形体。]]></string>
+  <string id="116611"><![CDATA[变轨器节点]]></string>
   <string id="116638"><![CDATA[dV]]></string>
   <string id="116643"><![CDATA[dT is NaN! tA: ]]></string>
   <string id="116674"><![CDATA[, E: ]]></string>
   <string id="116685"><![CDATA[, M: ]]></string>
   <string id="116696"><![CDATA[, T: ]]></string>
   <string id="116707"><![CDATA[getObtAtUT result is NaN! UT: ]]></string>
-  <string id="116768"><![CDATA[E is Infinity! tA: ]]></string>
+  <string id="116768"><![CDATA[E值无穷大！tA: ]]></string>
   <string id="116807"><![CDATA[, e = ]]></string>
   <string id="116820">
     <![CDATA[problem! 
@@ -3734,11 +3739,11 @@ What would you like to do?
   </string>
   <string id="116841"><![CDATA[  -  ]]></string>
   <string id="116852"><![CDATA[Pe/Ap Test - ]]></string>
-  <string id="116879"><![CDATA[Pass]]></string>
-  <string id="116888"><![CDATA[Failed]]></string>
+  <string id="116879"><![CDATA[通过]]></string>
+  <string id="116888"><![CDATA[失败]]></string>
   <string id="116901"><![CDATA[Ellipse Test - ]]></string>
-  <string id="116932"><![CDATA[: Pass]]></string>
-  <string id="116945"><![CDATA[: Failed]]></string>
+  <string id="116932"><![CDATA[:通过]]></string>
+  <string id="116945"><![CDATA[:失败]]></string>
   <string id="116962"><![CDATA[ObT : ]]></string>
   <string id="116975">
     <![CDATA[
@@ -3769,8 +3774,8 @@ AN: ]]>
 轨道周期:]]>
   </string>
   <string id="117070"><![CDATA[[OrbitDriver Warning!]: ]]></string>
-  <string id="117119"><![CDATA[ had a NaN Orbit and was removed.]]></string>
-  <string id="117186"><![CDATA[recalculating orbit for ]]></string>
+  <string id="117119"><![CDATA[在不存在的轨道上并已被删除]]></string>
+  <string id="117186"><![CDATA[重新计算轨道为]]></string>
   <string id="117235">
     <![CDATA[
 rPos: ]]>
@@ -3778,7 +3783,7 @@ rPos: ]]>
   <string id="117250"><![CDATA[   rVel: ]]></string>
   <string id="117269"><![CDATA[ |]]></string>
   <string id="117274"><![CDATA[|]]></string>
-  <string id="117277"><![CDATA[recalculated orbit for ]]></string>
+  <string id="117277"><![CDATA[已重新计算轨道为]]></string>
   <string id="117324"><![CDATA[unlockFrameSwitch]]></string>
   <string id="117359"><![CDATA[[OrbitDriver]: On-Rails SOI Transition from ]]></string>
   <string id="117448">
@@ -3791,24 +3796,24 @@ rPos: ]]>
  Transition UT: ]]>
   </string>
   <string id="117545"><![CDATA[. Iterations: ]]></string>
-  <string id="117574"><![CDATA[setting new dominant body: ]]></string>
+  <string id="117574"><![CDATA[设置一个新的显眼物体：]]></string>
   <string id="117629">
     <![CDATA[
 FlightGlobals.mainBody: ]]>
   </string>
-  <string id="117680"><![CDATA[ velocity resumed. Reference body: ]]></string>
+  <string id="117680"><![CDATA[速度恢复。参考物体：]]></string>
   <string id="117751"><![CDATA[轨道速度:]]></string>
-  <string id="117764"><![CDATA[Reference Frame: ]]></string>
-  <string id="117799"><![CDATA[Rotating]]></string>
-  <string id="117816"><![CDATA[Inertial]]></string>
-  <string id="117833"><![CDATA[ orbit]]></string>
+  <string id="117764"><![CDATA[坐标系: ]]></string>
+  <string id="117799"><![CDATA[轮流]]></string>
+  <string id="117816"><![CDATA[惯性]]></string>
+  <string id="117833"><![CDATA[轨道]]></string>
   <string id="117846"><![CDATA[降交点 : ]]></string>
   <string id="117881"><![CDATA[升交点 : ]]></string>
   <string id="117914"><![CDATA[远拱点	: ]]></string>
   <string id="117935"><![CDATA[近拱点: ]]></string>
   <string id="117958"><![CDATA[最后一次发现: ]]></string>
   <string id="117979">
-    <![CDATA[ 之前.
+    <![CDATA[之前。
 ]]>
   </string>
   <string id="117992"><![CDATA[准备发射]]></string>
@@ -3843,8 +3848,8 @@ FlightGlobals.mainBody: ]]>
   <string id="118288"><![CDATA[设为目标]]></string>
   <string id="118315"><![CDATA[取消该目标]]></string>
   <string id="118340"><![CDATA[切换到]]></string>
-  <string id="118359"><![CDATA[View in Tracking Station]]></string>
-  <string id="118408"><![CDATA[Focus View]]></string>
+  <string id="118359"><![CDATA[在雷达站查看]]></string>
+  <string id="118408"><![CDATA[焦点视角]]></string>
   <string id="118429"><![CDATA[OrbitTargeterCheckingTrackingStationState]]></string>
   <string id="118512"><![CDATA[[Orbit Targeter]: Target is ]]></string>
   <string id="118569"><![CDATA[[Orbit Targeter]: Dropping target because it is the current main body]]></string>
@@ -3885,19 +3890,19 @@ FlightGlobals.mainBody: ]]>
     <![CDATA[m/s
 预计时间 ]]>
   </string>
-  <string id="119792"><![CDATA[ 近拱点 : ]]></string>
+  <string id="119792"><![CDATA[近拱点: ]]></string>
   <string id="119817">
     <![CDATA[m
 预计时间 ]]>
   </string>
-  <string id="119826"><![CDATA[ 远拱点 : ]]></string>
+  <string id="119826"><![CDATA[远拱点: ]]></string>
   <string id="119849">
-    <![CDATA[ 逃逸点
-预计时间 ]]>
+    <![CDATA[逃逸点
+预计时间]]>
   </string>
   <string id="119870">
-    <![CDATA[ 交会点
-预计时间 ]]>
+    <![CDATA[交会点
+预计时间]]>
   </string>
   <string id="119897">
     <![CDATA[
@@ -3921,7 +3926,7 @@ FlightGlobals.mainBody: ]]>
   <string id="120689"><![CDATA[CelestialBodies.cfg]]></string>
   <string id="120728"><![CDATA[PSystem: Database could not be loaded.]]></string>
   <string id="120805"><![CDATA[PSystem: Attempting to load ]]></string>
-  <string id="120862"><![CDATA[ nodes.]]></string>
+  <string id="120862"><![CDATA[节点。]]></string>
   <string id="120877"><![CDATA[PSystem: Cannot find celestial body ']]></string>
   <string id="120952"><![CDATA[PSystem: LOADING ']]></string>
   <string id="120989"><![CDATA[atmosphereDepth]]></string>
@@ -3975,7 +3980,7 @@ FlightGlobals.mainBody: ]]>
   <string id="124364"><![CDATA[. Part Crew Capacity Exceeded.]]></string>
   <string id="124425"><![CDATA[. Crewmember is already in this part.]]></string>
   <string id="124500"><![CDATA[. Seat index ]]></string>
-  <string id="124527"><![CDATA[ is out of range]]></string>
+  <string id="124527"><![CDATA[超出距离]]></string>
   <string id="124560"><![CDATA[OnChildAdd]]></string>
   <string id="124581"><![CDATA[OnChildRemove]]></string>
   <string id="124608"><![CDATA[Part Warning: part ]]></string>
@@ -3993,8 +3998,8 @@ FlightGlobals.mainBody: ]]>
   <string id="125080"><![CDATA[过热!]]></string>
   <string id="125099"><![CDATA[ Exploded!! - blast awesomeness: ]]></string>
   <string id="125166"><![CDATA[OnPartDie]]></string>
-  <string id="125185"><![CDATA[Cannot find clip ']]></string>
-  <string id="125222"><![CDATA[' on animation ']]></string>
+  <string id="125185"><![CDATA[未找到剪辑']]></string>
+  <string id="125222"><![CDATA['在动画上']]></string>
   <string id="125255"><![CDATA[Cannot find a PartModule of typename ']]></string>
   <string id="125332"><![CDATA[Cannot create a PartModule of typename ']]></string>
   <string id="125413"><![CDATA[Cannot add a PartModule because the ConfigNode contains no module name]]></string>
@@ -4006,35 +4011,35 @@ FlightGlobals.mainBody: ]]>
     <![CDATA[: index exceeds module count as defined in cfg.
 Looking for ]]>
   </string>
-  <string id="125868"><![CDATA[ in other indices...]]></string>
+  <string id="125868"><![CDATA[在其他目录..]]></string>
   <string id="125909"><![CDATA[[Part]: PartModule indexing mismatch at ]]></string>
   <string id="125990">
     <![CDATA[.
-Node ']]>
+节点 ']]>
   </string>
-  <string id="126007"><![CDATA[' found in loaded data, but ']]></string>
+  <string id="126007"><![CDATA['无法读取数据，但是']]></string>
   <string id="126066">
-    <![CDATA[' is defined in prefab.
+    <![CDATA['已经在预制中被定义。
 Looking for ]]>
   </string>
-  <string id="126139"><![CDATA[ module found at index ]]></string>
+  <string id="126139"><![CDATA[模块在指引中被找到]]></string>
   <string id="126186"><![CDATA[...no ]]></string>
-  <string id="126199"><![CDATA[ module found on part definition. Skipping...]]></string>
-  <string id="126290"><![CDATA[Cannot destroy a module which does not belong to this part]]></string>
+  <string id="126199"><![CDATA[模块在部件定义中被找到，正在跳过……]]></string>
+  <string id="126290"><![CDATA[不能摧毁模块，因为其并不属于这个部分]]></string>
   <string id="126407"><![CDATA[Part: Cannot add attach node. Node requires a 'name' value.]]></string>
   <string id="126526"><![CDATA[Part: Cannot add attach node. Node requires a 'transform' value.]]></string>
   <string id="126656"><![CDATA[Part: Cannot add attach node. Transform of name ']]></string>
   <string id="126755"><![CDATA[Part: Attach Node (']]></string>
-  <string id="126796"><![CDATA[') 'size' value is incorrect format]]></string>
+  <string id="126796"><![CDATA[') 'size' 值格式不正确]]></string>
   <string id="126867"><![CDATA[method]]></string>
-  <string id="126880"><![CDATA[') 'method' value is incorrect format]]></string>
+  <string id="126880"><![CDATA[') 'method'值格式不正确]]></string>
   <string id="126955"><![CDATA[Resource System Error: Resource id ]]></string>
-  <string id="127026"><![CDATA[ does not exist in part]]></string>
+  <string id="127026"><![CDATA[不存在于部件]]></string>
   <string id="127073"><![CDATA[Cannot add an InternalPart:ConfigNode contains no InternalPart name]]></string>
   <string id="127209"><![CDATA[internal]]></string>
   <string id="127226"><![CDATA[Cannot add an InternalPart: Cannot find internal part of name ']]></string>
   <string id="127353"><![CDATA[[Part Airstream Shielding]: shield at i:]]></string>
-  <string id="127434"><![CDATA[ was null and was removed.]]></string>
+  <string id="127434"><![CDATA[为空并已被删除。]]></string>
   <string id="127487"><![CDATA[ReportSplashDown]]></string>
   <string id="127520"><![CDATA[[PartJoint]: None of the provided nodes was valid!]]></string>
   <string id="127621"><![CDATA[[PartJoint]: Cannot create a PartJoint between two physicsless parts. Something is very wrong here.]]></string>
@@ -4053,12 +4058,12 @@ Looking for ]]>
   <string id="128236"><![CDATA[obj_targetCap]]></string>
   <string id="128263"><![CDATA[Strut]]></string>
   <string id="128274"><![CDATA[[StrutConnector]: Both sides of the strut share the same parent rigidbody. No actual joint was created.]]></string>
-  <string id="128482"><![CDATA[强度 : ]]></string>
+  <string id="128482"><![CDATA[强度：]]></string>
   <string id="128503">
     <![CDATA[
-Shear Strength: ]]>
+切变强度：]]>
   </string>
-  <string id="128538"><![CDATA[Strut Connector]]></string>
+  <string id="128538"><![CDATA[支柱接头]]></string>
   <string id="128569"><![CDATA[[CompoundPartModule]: CompoundPartModule requires a CompoundPart component!]]></string>
   <string id="128721"><![CDATA[vesselName]]></string>
   <string id="128742"><![CDATA[rootUId]]></string>
@@ -4067,11 +4072,11 @@ Shear Strength: ]]>
   <string id="128855"><![CDATA[StopTransfer]]></string>
   <string id="128880"><![CDATA[<color=#ff9900ff>[]]></string>
   <string id="128917"><![CDATA[]: No ]]></string>
-  <string id="128930"><![CDATA[ Container on ]]></string>
+  <string id="128930"><![CDATA[容器在 ]]></string>
   <string id="128959"><![CDATA[.</color>]]></string>
-  <string id="128978"><![CDATA[Supplies]]></string>
-  <string id="128995"><![CDATA[Take Resources]]></string>
-  <string id="129024"><![CDATA[Store Resources]]></string>
+  <string id="128978"><![CDATA[补给]]></string>
+  <string id="128995"><![CDATA[提供资源]]></string>
+  <string id="129024"><![CDATA[保存资源]]></string>
   <string id="129055"><![CDATA[FXModuleAnimateThrottle: Could not find animation component - on part ]]></string>
   <string id="129197"><![CDATA[ failed to load! Check the model file]]></string>
   <string id="129272"><![CDATA[FXModuleAnimateThrottle: Could not find animation ]]></string>
@@ -4087,10 +4092,10 @@ Shear Strength: ]]>
   <string id="130056"><![CDATA[).]]></string>
   <string id="130061"><![CDATA[[FairingPanel]: Cannot create panel with less than two cross sections!]]></string>
   <string id="130203"><![CDATA[[FlagDecal Warning!]: Flag URL is given as ]]></string>
-  <string id="130290"><![CDATA[, but no texture found in database with that name]]></string>
+  <string id="130290"><![CDATA[，但是在数据库为找到对应名称的材质]]></string>
   <string id="130389"><![CDATA[[FlagDecal Warning!]: Flag quad object is given as ]]></string>
-  <string id="130492"><![CDATA[, but has no renderer attached]]></string>
-  <string id="130553"><![CDATA[, but no object found in model with that name]]></string>
+  <string id="130492"><![CDATA[，但是没有节点渲染器]]></string>
+  <string id="130553"><![CDATA[，但是没有在模块中找到对应名称的单位]]></string>
   <string id="130644"><![CDATA[TakeDown]]></string>
   <string id="130661"><![CDATA[PickUp]]></string>
   <string id="130674"><![CDATA[PlaqueDialogSkin]]></string>
@@ -4106,7 +4111,7 @@ Shear Strength: ]]>
   <string id="131035"><![CDATA[命名此地点]]></string>
   <string id="131054"><![CDATA[旗帜文字 :]]></string>
   <string id="131079"><![CDATA[旗帜位于]]></string>
-  <string id="131108"><![CDATA[ reads:]]></string>
+  <string id="131108"><![CDATA[文字:]]></string>
   <string id="131123"><![CDATA[MakeVisible]]></string>
   <string id="131146"><![CDATA[Flag_NoInterruptWhileDeploying]]></string>
   <string id="131207"><![CDATA[occupantID]]></string>
@@ -4166,18 +4171,18 @@ Shear Strength: ]]>
   </string>
   <string id="133760"><![CDATA[- <b>]]></string>
   <string id="133771">
-    <![CDATA[/sec.
+    <![CDATA[/秒.
 ]]>
   </string>
   <string id="133784">
-    <![CDATA[/min.
+    <![CDATA[/分.
 ]]>
   </string>
   <string id="133797">
-    <![CDATA[/hour
+    <![CDATA[/小时
 ]]>
   </string>
-  <string id="133810"><![CDATA[Cannot find fx group of that name for decoupler]]></string>
+  <string id="133810"><![CDATA[无法为断开器找到对应名称的函数组]]></string>
   <string id="133905"><![CDATA[[ModuleDecouple Error]: No attachnode found with id ]]></string>
   <string id="134010"><![CDATA[DECOUPLER_HOR]]></string>
   <string id="134037"><![CDATA[Decouple]]></string>
@@ -4196,7 +4201,7 @@ Shear Strength: ]]>
   <string id="134477"><![CDATA[<color=orange>[]]></string>
   <string id="134508"><![CDATA[]: Cannot deploy while stowed.</color>]]></string>
   <string id="134585"><![CDATA[运动中..]]></string>
-  <string id="134604"><![CDATA[status]]></string>
+  <string id="134604"><![CDATA[地位]]></string>
   <string id="134617"><![CDATA[A]]></string>
   <string id="134620"><![CDATA[切换]]></string>
   <string id="134633"><![CDATA[HeatAnimationEmissive]]></string>
@@ -4212,27 +4217,27 @@ Shear Strength: ]]>
   <string id="135087"><![CDATA[[ModuleAsteroid]: Cannot target center of mass, no CoM node instance (for some reason)]]></string>
   <string id="135261"><![CDATA[]: <i>]]></string>
   <string id="135274"><![CDATA[</i>已经在此模块中存在了.</color>]]></string>
-  <string id="135361"><![CDATA[ can't be done right now.]]></string>
+  <string id="135361"><![CDATA[目前无法完成。]]></string>
   <string id="135412"><![CDATA[<b><color=orange>]]></string>
   <string id="135447"><![CDATA[RenameDialog]]></string>
-  <string id="135472"><![CDATA[Asteroid Name:]]></string>
-  <string id="135501"><![CDATA[Rename Asteroid]]></string>
+  <string id="135472"><![CDATA[天体名称:]]></string>
+  <string id="135501"><![CDATA[重命名天体]]></string>
   <string id="135532"><![CDATA[asteroidSample]]></string>
   <string id="135561"><![CDATA[[ModuleCargoBay]: Could not find an attach node with id ]]></string>
   <string id="135674"><![CDATA[ for NodeOuterFore.]]></string>
   <string id="135713"><![CDATA[ for NodeOuterAft.]]></string>
   <string id="135750"><![CDATA[ for NodeInnerFore.]]></string>
   <string id="135789"><![CDATA[ for NodeInnerAft.]]></string>
-  <string id="135826"><![CDATA[Cargo Doors moving... (from ]]></string>
-  <string id="135883"><![CDATA[, to ]]></string>
-  <string id="135894"><![CDATA[Cargo Doors Closed. (]]></string>
-  <string id="135937"><![CDATA[Cargo Doors Stopped, Not Closed (]]></string>
+  <string id="135826"><![CDATA[仓库门移动中... (from ]]></string>
+  <string id="135883"><![CDATA[，去 ]]></string>
+  <string id="135894"><![CDATA[仓库门关闭。 (]]></string>
+  <string id="135937"><![CDATA[仓库门卡主了。未关闭。(]]></string>
   <string id="136004"><![CDATA[[ModuleCargoBay]: Module ]]></string>
   <string id="136055"><![CDATA[ is not an IScalarModule]]></string>
   <string id="136104"><![CDATA[正在工作]]></string>
   <string id="136127"><![CDATA[没有足够的船员(]]></string>
   <string id="136162"><![CDATA[没有足够的]]></string>
-  <string id="136185"><![CDATA[Tourists Need Crew (]]></string>
+  <string id="136185"><![CDATA[游客们需要机组成员 (]]></string>
   <string id="136226"><![CDATA[最少船员数量:]]></string>
   <string id="136277">
     <![CDATA[无人
@@ -4240,7 +4245,7 @@ Shear Strength: ]]>
   </string>
   <string id="136296">
     <![CDATA[
-<b><color=#99ff00ff>Requires:</color></b>
+<b><color=#99ff00ff>需求:</color></b>
 ]]>
   </string>
   <string id="136383"><![CDATA[deployInvert]]></string>
@@ -4260,8 +4265,8 @@ Shear Strength: ]]>
   <string id="136948"><![CDATA[ doesn't implement IScalarModule]]></string>
   <string id="137013"><![CDATA[<b><color=orange>[]]></string>
   <string id="137050"><![CDATA[]: Unable to deploy!</color></b>]]></string>
-  <string id="137115"><![CDATA[ Experiment Modules will become inoperable if their data is removed.]]></string>
-  <string id="137253"><![CDATA[ Warning!]]></string>
+  <string id="137115"><![CDATA[ 实验模块的数据被移走后蒋无法进行操作。]]></string>
+  <string id="137253"><![CDATA[ 警报!]]></string>
   <string id="137272"><![CDATA[传输所有数据]]></string>
   <string id="137297"><![CDATA[只传输可重用仪器数据]]></string>
   <string id="137354"><![CDATA[仍旧传送]]></string>
@@ -4282,7 +4287,7 @@ Shear Strength: ]]>
 ]]>
   </string>
   <string id="137688">
-    <![CDATA[/packet
+    <![CDATA[/数据包
 ]]>
   </string>
   <string id="137705"><![CDATA[ElectricCharge]]></string>
@@ -4293,10 +4298,10 @@ Shear Strength: ]]>
   <string id="137937"><![CDATA[Extend]]></string>
   <string id="137950"><![CDATA[Couldn't access raycastTransform]]></string>
   <string id="138015"><![CDATA[Cound not find the pivotName! In heirarchy]]></string>
-  <string id="138100"><![CDATA[<b>转动速度 : </b>]]></string>
+  <string id="138100"><![CDATA[<b>转动速度: </b>]]></string>
   <string id="138147">
     <![CDATA[
-<b>面板强度 : </b>]]>
+<b>面板强度: </b>]]>
   </string>
   <string id="138196">
     <![CDATA[
@@ -4323,25 +4328,25 @@ Shear Strength: ]]>
   <string id="138690"><![CDATA[dockUId]]></string>
   <string id="138705"><![CDATA[dockNodeIdx]]></string>
   <string id="138728"><![CDATA[DOCKEDVESSEL]]></string>
-  <string id="138753"><![CDATA[Ready]]></string>
-  <string id="138764"><![CDATA[Undock]]></string>
+  <string id="138753"><![CDATA[准备好]]></string>
+  <string id="138764"><![CDATA[解锁]]></string>
   <string id="138777"><![CDATA[UndockSameVessel]]></string>
   <string id="138810"><![CDATA[EnableXFeed]]></string>
   <string id="138833"><![CDATA[DisableXFeed]]></string>
   <string id="138858"><![CDATA[[Docking Node Module]: WARNING - No node transform found with name ]]></string>
   <string id="138994"><![CDATA[[Docking Node Module]: WARNING - No control transform found with name ]]></string>
   <string id="139136"><![CDATA[[Docking Node Module]: WARNING - The part for a docking node module cannot be physicsless!]]></string>
-  <string id="139318"><![CDATA[Docked]]></string>
-  <string id="139331"><![CDATA[Acquire]]></string>
+  <string id="139318"><![CDATA[对接好]]></string>
+  <string id="139331"><![CDATA[获得]]></string>
   <string id="139346"><![CDATA[Docked (dockee)]]></string>
   <string id="139377"><![CDATA[Docked (docker)]]></string>
   <string id="139408"><![CDATA[Docked (same vessel)]]></string>
   <string id="139449"><![CDATA[Disengage]]></string>
   <string id="139468"><![CDATA[PreAttached]]></string>
-  <string id="139491"><![CDATA[Node Approach]]></string>
-  <string id="139518"><![CDATA[Capture]]></string>
-  <string id="139533"><![CDATA[Node Distanced]]></string>
-  <string id="139562"><![CDATA[Same Vessel Disconnect]]></string>
+  <string id="139491"><![CDATA[节点靠近]]></string>
+  <string id="139518"><![CDATA[俘获]]></string>
+  <string id="139533"><![CDATA[节点距离]]></string>
+  <string id="139562"><![CDATA[同载具断开]]></string>
   <string id="139607"><![CDATA[Disable]]></string>
   <string id="139622"><![CDATA[Enable]]></string>
   <string id="139635"><![CDATA[Pre-Attached Part Decoupled]]></string>
@@ -4356,33 +4361,33 @@ Shear Strength: ]]>
   <string id="140064"><![CDATA[dockingNode]]></string>
   <string id="140087"><![CDATA[TestFire]]></string>
   <string id="140104"><![CDATA[TestStrength]]></string>
-  <string id="140129"><![CDATA[ not found in resource database. Propellant Setup has failed.]]></string>
+  <string id="140129"><![CDATA[未在资源数据库中找到。推进剂设置失败。]]></string>
   <string id="140252"><![CDATA[statusL2]]></string>
   <string id="140269"><![CDATA[已熄火!]]></string>
   <string id="140290"><![CDATA[工作正常]]></string>
   <string id="140305"><![CDATA[不足]]></string>
   <string id="140324"><![CDATA[PROPELLANT]]></string>
-  <string id="140345"><![CDATA[Propellant must have value 'name']]></string>
+  <string id="140345"><![CDATA[推进剂必须有'name'值]]></string>
   <string id="140412"><![CDATA[maxThrust]]></string>
   <string id="140431"><![CDATA[minThrust]]></string>
   <string id="140450"><![CDATA[EngineType]]></string>
-  <string id="140471"><![CDATA[]: Cannot activate while stowed!</color>]]></string>
-  <string id="140552"><![CDATA[Shutdown]]></string>
-  <string id="140569"><![CDATA[Activate]]></string>
-  <string id="140586"><![CDATA[flameout]]></string>
-  <string id="140603"><![CDATA[engage]]></string>
-  <string id="140616"><![CDATA[disengage]]></string>
-  <string id="140635"><![CDATA[running]]></string>
-  <string id="140650"><![CDATA[power]]></string>
-  <string id="140661"><![CDATA[Flameout]]></string>
-  <string id="140678"><![CDATA[Running]]></string>
+  <string id="140471"><![CDATA[]: 无法在被装填的时候启动!</color>]]></string>
+  <string id="140552"><![CDATA[关机]]></string>
+  <string id="140569"><![CDATA[激活]]></string>
+  <string id="140586"><![CDATA[熄火]]></string>
+  <string id="140603"><![CDATA[启动]]></string>
+  <string id="140616"><![CDATA[脱离]]></string>
+  <string id="140635"><![CDATA[奔跑]]></string>
+  <string id="140650"><![CDATA[推力]]></string>
+  <string id="140661"><![CDATA[熄火]]></string>
+  <string id="140678"><![CDATA[奔跑]]></string>
   <string id="140693"><![CDATA[Power]]></string>
-  <string id="140704"><![CDATA[Air combustion failed]]></string>
-  <string id="140747"><![CDATA[Occluded]]></string>
+  <string id="140704"><![CDATA[空气氧化失败]]></string>
+  <string id="140747"><![CDATA[熄火]]></string>
   <string id="140764"><![CDATA[关闭]]></string>
   <string id="140771"><![CDATA[LIQUID_ENGINE]]></string>
   <string id="140798"><![CDATA[thrustPercentage]]></string>
-  <string id="140831"><![CDATA[Engine]]></string>
+  <string id="140831"><![CDATA[轻轻]]></string>
   <string id="140844"><![CDATA[<b>最大推力 : </b>]]></string>
   <string id="140885"><![CDATA[ @Mach ]]></string>
   <string id="140900"><![CDATA[<b>Stationary Thrust: </b>]]></string>
@@ -4433,7 +4438,7 @@ Shear Strength: ]]>
   <string id="141759"><![CDATA[thrustTransform]]></string>
   <string id="141790"><![CDATA[部件]]></string>
   <string id="141801"><![CDATA[directThrottle]]></string>
-  <string id="141830"><![CDATA[spool]]></string>
+  <string id="141830"><![CDATA[线轴]]></string>
   <string id="141841"><![CDATA[TEMP]]></string>
   <string id="141850"><![CDATA[GRAV]]></string>
   <string id="141859"><![CDATA[ACC]]></string>
@@ -4449,30 +4454,30 @@ Shear Strength: ]]>
   <string id="142013"><![CDATA[efficiency]]></string>
   <string id="142034"><![CDATA[INPUT_RESOURCE]]></string>
   <string id="142063"><![CDATA[OUTPUT_RESOURCE]]></string>
-  <string id="142094"><![CDATA[Input Resource must have value 'name']]></string>
-  <string id="142169"><![CDATA[Output Resource must have value 'name']]></string>
+  <string id="142094"><![CDATA[进入资源必须有'name'值]]></string>
+  <string id="142169"><![CDATA[输出资源必须有'name'值]]></string>
   <string id="142246">
     <![CDATA[
-发电机一直在运行.]]>
+发电机一直在运行。]]>
   </string>
   <string id="142303">
     <![CDATA[
-发电机必须被启动.]]>
+发电机必须被启动。]]>
   </string>
   <string id="142358">
-    <![CDATA[<color=orange><b>Requires:</b></color>
+    <![CDATA[<color=orange><b>需要:</b></color>
 ]]>
   </string>
   <string id="142437">
-    <![CDATA[<color=#99ff00ff><b>Outputs:</b></color>
+    <![CDATA[<color=#99ff00ff><b>输出:</b></color>
 ]]>
   </string>
   <string id="142520"><![CDATA[效率]]></string>
   <string id="142541"><![CDATA[启动发电机]]></string>
   <string id="142578"><![CDATA[关闭发动机]]></string>
-  <string id="142615"><![CDATA[rate]]></string>
+  <string id="142615"><![CDATA[比率]]></string>
   <string id="142624"><![CDATA[<b>矢量推力范围 : </b>]]></string>
-  <string id="142673"><![CDATA[grapple]]></string>
+  <string id="142673"><![CDATA[抓钩]]></string>
   <string id="142688"><![CDATA[grapplePos]]></string>
   <string id="142709"><![CDATA[grappleOrt]]></string>
   <string id="142730"><![CDATA[grappleOrt2]]></string>
@@ -4532,10 +4537,10 @@ Level ]]>
   <string id="145422"><![CDATA[foot]]></string>
   <string id="145431"><![CDATA[ModuleLandingLeg.cs :]]></string>
   <string id="145474"><![CDATA[Custom]]></string>
-  <string id="145487"><![CDATA[升力系数 : ]]></string>
+  <string id="145487"><![CDATA[升力系数: ]]></string>
   <string id="145514"><![CDATA[LightsOn]]></string>
   <string id="145531"><![CDATA[LightsOff]]></string>
-  <string id="145550"><![CDATA[/min.]]></string>
+  <string id="145550"><![CDATA[/分。]]></string>
   <string id="145561"><![CDATA[toggleableLight]]></string>
   <string id="145592"><![CDATA[LightAnimation]]></string>
   <string id="145621"><![CDATA[ACTIVE]]></string>
@@ -4544,21 +4549,21 @@ Level ]]>
   <string id="145736"><![CDATA[CUT]]></string>
   <string id="145743"><![CDATA[Repack]]></string>
   <string id="145756"><![CDATA[STOWED]]></string>
-  <string id="145769"><![CDATA[deploy]]></string>
+  <string id="145769"><![CDATA[部署]]></string>
   <string id="145782"><![CDATA[PARACHUTES]]></string>
   <string id="145803"><![CDATA[minAirPressureToOpen]]></string>
   <string id="145844"><![CDATA[[ModuleParachute]: ]]></string>
-  <string id="145883"><![CDATA[ Animation components found in child objects, but none contain states ]]></string>
+  <string id="145883"><![CDATA[在儿童单位中发现动画组件，但其中不包含]]></string>
   <string id="146025"><![CDATA[[ModuleParachute]: No animation components found in child objects]]></string>
   <string id="146157"><![CDATA[SEMIDEPLOYED]]></string>
   <string id="146182"><![CDATA[<b>Semi-Depl. Effective Diam: </b>]]></string>
   <string id="146251"><![CDATA[<b>Fully-Depl. Effective Diam: </b>]]></string>
-  <string id="146322"><![CDATA[<b>未展开时阻力 : </b>]]></string>
-  <string id="146363"><![CDATA[<b>预展开时阻力 : </b>]]></string>
-  <string id="146418"><![CDATA[<b>全展开时阻力 : </b>]]></string>
+  <string id="146322"><![CDATA[<b>未展开时阻力: </b>]]></string>
+  <string id="146363"><![CDATA[<b>预展开时阻力: </b>]]></string>
+  <string id="146418"><![CDATA[<b>全展开时阻力: </b>]]></string>
   <string id="146475"><![CDATA[0.####]]></string>
   <string id="146488"><![CDATA[<b>自动展开高度 : </b>]]></string>
-  <string id="146545"><![CDATA[<b>最小气压 : </b>]]></string>
+  <string id="146545"><![CDATA[<b>最小气压: </b>]]></string>
   <string id="146604"><![CDATA[PACKED]]></string>
   <string id="146617"><![CDATA[]: Chute Destroyed by aero forces and heat.</color>]]></string>
   <string id="146720"><![CDATA[semiDeploy]]></string>
@@ -4594,20 +4599,20 @@ Level ]]>
   <string id="147510"><![CDATA[Max Radius: ]]></string>
   <string id="147535">
     <![CDATA[m
-Panel Mass: ]]>
+面板质量: ]]>
   </string>
   <string id="147564"><![CDATA[N3]]></string>
   <string id="147569">
     <![CDATA[t. / m²
-Panel Cost: ]]>
+面板花费: ]]>
   </string>
   <string id="147610"><![CDATA[ / m²]]></string>
-  <string id="147621"><![CDATA[><b>[LMB]:</b> ]]></string>
+  <string id="147621"><![CDATA[><b>[鼠标左键]:</b> ]]></string>
   <string id="147652"><![CDATA[Close Fairing]]></string>
   <string id="147679"><![CDATA[Place Cross-Section]]></string>
   <string id="147718">
     <![CDATA[</color>
-<color=#A09890><b>[RMB]:</b> ]]>
+<color=#A09890><b>[鼠标右键]:</b> ]]>
   </string>
   <string id="147795"><![CDATA[Edit Previous Section]]></string>
   <string id="147838"><![CDATA[Cancel Placement]]></string>
@@ -4619,18 +4624,18 @@ Panel Cost: ]]>
   <string id="147931"><![CDATA[t</color>]]></string>
   <string id="147950"><![CDATA[FairingDeployStart]]></string>
   <string id="147987"><![CDATA[FairingDeployEnd]]></string>
-  <string id="148020"><![CDATA[<b>Thruster Power: </b>]]></string>
-  <string id="148067"><![CDATA[<b>Thruster Isp: </b>]]></string>
+  <string id="148020"><![CDATA[<b>推力: </b>]]></string>
+  <string id="148067"><![CDATA[<b>推进比冲: </b>]]></string>
   <string id="148110">
     <![CDATA[ (真空中 )
 ]]>
   </string>
   <string id="148125">
     <![CDATA[
-<color=#99ff00ff><b>Requires:</b></color>
+<color=#99ff00ff><b>需要:</b></color>
 ]]>
   </string>
-  <string id="148212"><![CDATA[RCS module unable to find any transforms in part named ]]></string>
+  <string id="148212"><![CDATA[RCS模块无法找到任何转换在这个部件名称]]></string>
   <string id="148323"><![CDATA[RCSthruster]]></string>
   <string id="148346"><![CDATA[单元推进剂]]></string>
   <string id="148375"><![CDATA[fx_gasJet_white]]></string>
@@ -4638,17 +4643,17 @@ Panel Cost: ]]>
   <string id="148423"><![CDATA[WheelState]]></string>
   <string id="148444"><![CDATA[不足]]></string>
   <string id="148465"><![CDATA[不足]]></string>
-  <string id="148488"><![CDATA[<b>俯仰扭矩 : </b>]]></string>
-  <string id="148531"><![CDATA[<b>偏航扭矩 : </b>]]></string>
-  <string id="148570"><![CDATA[<b>滚转扭矩 : </b>]]></string>
+  <string id="148488"><![CDATA[<b>俯仰扭矩: </b>]]></string>
+  <string id="148531"><![CDATA[<b>偏航扭矩: </b>]]></string>
+  <string id="148570"><![CDATA[<b>滚转扭矩: </b>]]></string>
   <string id="148611"><![CDATA[Inactive]]></string>
   <string id="148628"><![CDATA[Deactivate]]></string>
   <string id="148649"><![CDATA[<b>获取资源 : </b>]]></string>
   <string id="148698"><![CDATA[<b>进气区域 : </b>]]></string>
   <string id="148739"><![CDATA[没有氧气]]></string>
-  <string id="148758"><![CDATA[Closed]]></string>
+  <string id="148758"><![CDATA[关闭]]></string>
   <string id="148771"><![CDATA[进气]]></string>
-  <string id="148790"><![CDATA[Intake]]></string>
+  <string id="148790"><![CDATA[进气道]]></string>
   <string id="148803"><![CDATA[LockDrive]]></string>
   <string id="148822"><![CDATA[EngageDrive]]></string>
   <string id="148845"><![CDATA[NeutralDrive]]></string>
@@ -4661,18 +4666,18 @@ Panel Cost: ]]>
   <string id="149206"><![CDATA[LOCKED]]></string>
   <string id="149219"><![CDATA[ActionGroups]]></string>
   <string id="149244"><![CDATA[[ModuleSAS]: No ModuleCommand found in ]]></string>
-  <string id="149323"><![CDATA[. SAS services won't be available.]]></string>
+  <string id="149323"><![CDATA[。SAS服务不可用.]]></string>
   <string id="149392"><![CDATA[standaloneToggle]]></string>
   <string id="149425"><![CDATA[standaloneStateText]]></string>
-  <string id="149464"><![CDATA[Standby]]></string>
-  <string id="149479"><![CDATA[Unpowered]]></string>
-  <string id="149498"><![CDATA[Collect]]></string>
+  <string id="149464"><![CDATA[就绪]]></string>
+  <string id="149479"><![CDATA[无推力]]></string>
+  <string id="149498"><![CDATA[手机]]></string>
   <string id="149513"><![CDATA[丢弃]]></string>
-  <string id="149528"><![CDATA['s Ocean]]></string>
-  <string id="149545"><![CDATA[Sample collection failed! You need to be on the ground or in the water to collect a sample.]]></string>
-  <string id="149729"><![CDATA[N/A]]></string>
-  <string id="149736"><![CDATA[Available Containers:]]></string>
-  <string id="149779"><![CDATA[FULL]]></string>
+  <string id="149528"><![CDATA[的海洋]]></string>
+  <string id="149545"><![CDATA[采样失败。你必须在地面或者海中才能采样。]]></string>
+  <string id="149729"><![CDATA[无]]></string>
+  <string id="149736"><![CDATA[可用容器:]]></string>
+  <string id="149779"><![CDATA[满]]></string>
   <string id="149788"><![CDATA[ScienceData]]></string>
   <string id="149811"><![CDATA[ReviewDataEvent]]></string>
   <string id="149842"><![CDATA[StoreDataExternalEvent]]></string>
@@ -4702,14 +4707,14 @@ Panel Cost: ]]>
   <string id="151308"><![CDATA[查看已存储数据]]></string>
   <string id="151345"><![CDATA[存储数据]]></string>
   <string id="151366"><![CDATA[拿取数据]]></string>
-  <string id="151385"><![CDATA[Research]]></string>
+  <string id="151385"><![CDATA[实验]]></string>
   <string id="151402"><![CDATA[{0:0.000}/{1:0}]]></string>
   <string id="151433"><![CDATA[{0:0.0000} sci/day]]></string>
   <string id="151470"><![CDATA[ALL_VESSEL]]></string>
-  <string id="151491"><![CDATA[no power]]></string>
-  <string id="151508"><![CDATA[no scientists]]></string>
-  <string id="151535"><![CDATA[science full]]></string>
-  <string id="151560"><![CDATA[researching]]></string>
+  <string id="151491"><![CDATA[没有电力]]></string>
+  <string id="151508"><![CDATA[没有科学家]]></string>
+  <string id="151535"><![CDATA[科学家已满]]></string>
+  <string id="151560"><![CDATA[研究中]]></string>
   <string id="151583"><![CDATA[FxModules]]></string>
   <string id="151602"><![CDATA[SCIENCE_GENERIC]]></string>
   <string id="151633"><![CDATA[[ModuleScienceExperiment]: Part Module ]]></string>
@@ -4720,57 +4725,57 @@ Panel Cost: ]]>
   <string id="151850"><![CDATA[ResetExperimentExternal]]></string>
   <string id="151897"><![CDATA[ResetAction]]></string>
   <string id="151920"><![CDATA[CleanUpExperimentExternal]]></string>
-  <string id="151971"><![CDATA[Remove Data]]></string>
-  <string id="151994"><![CDATA[[ScienceExperiment]: This container module reference was non-null just a few seconds ago. This is why we can't have nice things.]]></string>
-  <string id="152252"><![CDATA[]: Something pretty bad happened just now apparently.</color>]]></string>
-  <string id="152375"><![CDATA[]: Experiment Media removed. Module inoperable.</color>]]></string>
+  <string id="151971"><![CDATA[移除数据]]></string>
+  <string id="151994"><![CDATA[[ScienceExperiment]: 这个容器模块说明就在几秒钟前变得空空如也。这就是为什么没有得到任何有趣的东西。]]></string>
+  <string id="152252"><![CDATA[]:显然有些很糟糕的东西刚刚发生了。</color>]]></string>
+  <string id="152375"><![CDATA[]:实验媒介被删除，模块重新可操作。</color>]]></string>
   <string id="152486"><![CDATA[<b><color=#99ff00ff>[]]></string>
-  <string id="152529"><![CDATA[]: Media Restored. Module is operational again.</color></b>]]></string>
-  <string id="152648"><![CDATA[<b><color=orange>Only Scientists can restore inoperable modules</color></b>]]></string>
-  <string id="152800"><![CDATA[[ModuleScienceExperiment]: The CleanUp Event should only be availabel for EVAs!]]></string>
+  <string id="152529"><![CDATA[]:媒介恢复，模块可重新操作。</color></b>]]></string>
+  <string id="152648"><![CDATA[<b><color=orange>只有科学家才能重新装满可操作模块。</color></b>]]></string>
+  <string id="152800"><![CDATA[[ModuleScienceExperiment]:这个清理事件有且只有EVA是可用的！]]></string>
   <string id="152960">
     <![CDATA[</color>
 ]]>
   </string>
-  <string id="152979"><![CDATA[Collectable data: ]]></string>
-  <string id="153016"><![CDATA[Rerunnable: ]]></string>
-  <string id="153041"><![CDATA[Resettable: ]]></string>
+  <string id="152979"><![CDATA[可收集的数据: ]]></string>
+  <string id="153016"><![CDATA[自行可动的: ]]></string>
+  <string id="153041"><![CDATA[可重设的: ]]></string>
   <string id="153066">
     <![CDATA[
 Reset requires: ]]>
   </string>
-  <string id="153101"><![CDATA[Reset cost: ]]></string>
-  <string id="153126"><![CDATA[Deploy Experiment]]></string>
+  <string id="153101"><![CDATA[重设花费: ]]></string>
+  <string id="153126"><![CDATA[开展实验]]></string>
   <string id="153161"><![CDATA[重置数据]]></string>
-  <string id="153194"><![CDATA[Review Data]]></string>
+  <string id="153194"><![CDATA[回顾数据]]></string>
   <string id="153217">
-    <![CDATA[Transmitting this experiment will render this module inoperable.
+<![CDATA[传输实验数据会使这个模块重新可用。
 
-Restoring functionality will require a Scientist.]]>
+恢复功能需要至少1名科学家。]]>
   </string>
   <string id="153449">
-    <![CDATA[Removing the experiment data will render this module inoperable.
+    <![CDATA[删除实验数据会使这个模块重新可用。
 
-Restoring functionality will require a Scientist.]]>
+恢复功能需要至少1名科学家。]]>
   </string>
-  <string id="153681"><![CDATA[<b><color=#99ff00ff>transmission complete - <color=#ffffffff>{0}</color> science gained!</color></b>]]></string>
+  <string id="153681"><![CDATA[<b><color=#99ff00ff>传输完成- <color=#ffffffff>{0}</color> 科学点数获得！</color></b>]]></string>
   <string id="153883"><![CDATA[RESOURCE_PROCESS]]></string>
   <string id="153916"><![CDATA[EXPERIMENT_DATA]]></string>
-  <string id="153947"><![CDATA[Loading: ]]></string>
-  <string id="153966"><![CDATA[experiment]]></string>
-  <string id="153987"><![CDATA[[ModuleScienceLab]: No Container Module found at index ]]></string>
+  <string id="153947"><![CDATA[读取: ]]></string>
+  <string id="153966"><![CDATA[实验]]></string>
+  <string id="153987"><![CDATA[[ModuleScienceLab]:未找到容器模块在指引中]]></string>
   <string id="154098"><![CDATA[CleanModulesEvent]]></string>
   <string id="154133"><![CDATA[Clean Experiments []]></string>
-  <string id="154172"><![CDATA[<b>Crews Required: </b>]]></string>
-  <string id="154219"><![CDATA[<b>Data Storage: </b>]]></string>
-  <string id="154262"><![CDATA[sciencelab@]]></string>
-  <string id="154285"><![CDATA[Research results]]></string>
-  <string id="154318"><![CDATA[[ModuleSeeThroughObject]: No Transform exists in part ]]></string>
-  <string id="154427"><![CDATA[ called ]]></string>
+  <string id="154172"><![CDATA[<b>机组需要: </b>]]></string>
+  <string id="154219"><![CDATA[<b>数据存储: </b>]]></string>
+  <string id="154262"><![CDATA[实验室@]]></string>
+  <string id="154285"><![CDATA[实验结果]]></string>
+  <string id="154318"><![CDATA[[ModuleSeeThroughObject]:没有改变存在于这个部分]]></string>
+  <string id="154427"><![CDATA[称作]]></string>
   <string id="154444"><![CDATA[[ModuleSeeThroughObject]: No MeshRenderer components found in ]]></string>
-  <string id="154569"><![CDATA[ on part ]]></string>
+  <string id="154569"><![CDATA[在部件上]]></string>
   <string id="154588"><![CDATA[[ModuleSeeThroughObject]: Module at index ]]></string>
-  <string id="154673"><![CDATA[ is not an IScalarModule on part ]]></string>
+  <string id="154673"><![CDATA[不是一个资源转换部件]]></string>
   <string id="154740"><![CDATA[[ModuleSeeThroughObject]: No shader called ]]></string>
   <string id="154827"><![CDATA[ found for part ]]></string>
   <string id="154860"><![CDATA[KSP/Specular (Transparent)]]></string>
@@ -4809,8 +4814,8 @@ Restoring functionality will require a Scientist.]]>
   <string id="156280"><![CDATA[RepairWheel]]></string>
   <string id="156303"><![CDATA[ToggleMotorAction]]></string>
   <string id="156338"><![CDATA[wheelStatus]]></string>
-  <string id="156361"><![CDATA[<b>控制类型 :</b> ]]></string>
-  <string id="156404"><![CDATA[<b>最高速度 : </b>]]></string>
+  <string id="156361"><![CDATA[<b>控制类型:</b> ]]></string>
+  <string id="156404"><![CDATA[<b>最高速度: </b>]]></string>
   <string id="156449">
     <![CDATA[ m/s
 ]]>
@@ -5851,7 +5856,7 @@ Spd: ]]>
   <string id="202023"><![CDATA[[PartTest]: Contract for ]]></string>
   <string id="202074"><![CDATA[该部件已经研发完毕，无需实验性测试。]]></string>
   <string id="202187"><![CDATA[我们想要你在这个星球表面插上旗帜:]]></string>
-  <string id="202280"><![CDATA[雷达站确认你已在下列星球表面插上旗帜：]]></string>
+  <string id="202280"><![CDATA[雷达站确认你已在下列星球表面插上旗帜]]></string>
   <string id="202381"><![CDATA[. 干得漂亮!]]></string>
   <string id="202410"><![CDATA[FlagPlant]]></string>
   <string id="202429"><![CDATA[kerbalEVA]]></string>
@@ -5885,7 +5890,7 @@ Spd: ]]>
   <string id="203027"><![CDATA[ 留下]]></string>
   <string id="203040"><![CDATA[。回收这个而且]]></string>
   <string id="203073"><![CDATA[ 并没有造成很大伤害。]]></string>
-  <string id="203134"><![CDATA[ 带回了价值很高的数据。返回 ]]></string>
+  <string id="203134"><![CDATA[带回了价值很高的数据。返回 ]]></string>
   <string id="203191"><![CDATA[ 而且还留下了些啥 ]]></string>
   <string id="203234"><![CDATA[ 装入载具 ]]></string>
   <string id="203257">
@@ -6854,17 +6859,17 @@ Argument of Periapsis: ]]>
   <string id="255080"><![CDATA[dn]]></string>
   <string id="255085"><![CDATA[ap]]></string>
   <string id="255090"><![CDATA[pe]]></string>
-  <string id="255095"><![CDATA[保持稳定性能于 ]]></string>
-  <string id="255142"><![CDATA[秒]]></string>
+  <string id="255095"><![CDATA[Maintain stability for ]]></string>
+  <string id="255142"><![CDATA[ seconds]]></string>
   <string id="255159"><![CDATA[holdSeconds]]></string>
   <string id="255182"><![CDATA[StabilityParameter]]></string>
-  <string id="255219"><![CDATA[保持视线用]]></string>
-  <string id="255268"><![CDATA[你在视线内]]></string>
+  <string id="255219"><![CDATA[Keep line of sight with ]]></string>
+  <string id="255268"><![CDATA[You are in line of sight with ]]></string>
   <string id="255329"><![CDATA[longitude]]></string>
   <string id="255348"><![CDATA[StationaryPointParameter]]></string>
   <string id="255397"><![CDATA[dish]]></string>
   <string id="255406"><![CDATA[ Site]]></string>
-  <string id="255417"><![CDATA[你正在获取测量数据]]></string>
+  <string id="255417"><![CDATA[You gathered survey data from ]]></string>
   <string id="255478"><![CDATA[actionDescription]]></string>
   <string id="255513"><![CDATA[flightThreshold]]></string>
   <string id="255544"><![CDATA[band]]></string>
@@ -6886,7 +6891,7 @@ Argument of Periapsis: ]]>
   <string id="256092"><![CDATA[spaceflight]]></string>
   <string id="256115"><![CDATA[on the surface at]]></string>
   <string id="256150"><![CDATA[in ]]></string>
-  <string id="256157"><![CDATA[地下]]></string>
+  <string id="256157"><![CDATA[下方]]></string>
   <string id="256172"><![CDATA[米的距离]]></string>
   <string id="256197"><![CDATA[上方]]></string>
   <string id="256212"><![CDATA[环绕]]></string>
@@ -7222,11 +7227,11 @@ Argument of Periapsis: ]]>
   <string id="260864"><![CDATA[them]]></string>
   <string id="260873"><![CDATA[their]]></string>
   <string id="260884"><![CDATA[Squad/Contracts/Icons/]]></string>
-  <string id="260929"><![CDATA[天体指引已超出距离]]></string>
-  <string id="261002"><![CDATA[合同文本： ]]></string>
+  <string id="260929"><![CDATA[天体导航已超出距离]]></string>
+  <string id="261002"><![CDATA[合同文本：]]></string>
   <string id="261031"><![CDATA[无法读取]]></string>
-  <string id="261058"><![CDATA[从不存在的节点。正在初始化使用默认 ]]></string>
-  <string id="261155"><![CDATA[，不再节点中。正在初始化使用默认]]></string>
+  <string id="261058"><![CDATA[从不存在的节点。正在初始化使用默认]]></string>
+  <string id="261155"><![CDATA[，不在节点中。正在初始化使用默认]]></string>
   <string id="261264"><![CDATA[ parsed an invalid value "]]></string>
   <string id="261317"><![CDATA[" from ]]></string>
   <string id="261332"><![CDATA[. (]]></string>
@@ -7288,10 +7293,12 @@ Astronaut Complex upgrade required.]]>
     <![CDATA[很高兴见到你！
 
 我是吉恩•科尔曼，航空中心的飞行主管，也是这个快速介绍的引导员。
+
 这里是航空中心，从这里，你可以管理太空计划的各个方面。放轻松，随意看看(按住右键移动视角，或使用[方向键]).
 
 
 在航空中心的设备区上点击右键可以查看更多信息，当你准备好进去的时候，点击左键。
+
 
 如果你需要更多信息，请进入主菜单并找到训练模式。]]>
   </string>
@@ -7317,7 +7324,7 @@ Astronaut Complex upgrade required.]]>
 在左边你可以找到组件栏以组合成你的飞行器。选择一个起始部件，然后连接其他部分以组合成一艘飞船。你可以按下[鼠标右键]或者[方向键]以切换视角。我们刚刚把这里整理干净，别弄太乱了。
 
 
-总之，如果你需要更多建造飞机的方法，请返回主菜单查阅训练模式。If you need more guidance on how to build spacecraft, have a look at the Training Section at the Main Menu.]]>
+总之，如果你需要更多建造飞机的方法，请返回主菜单查阅训练模式。]]>
   </string>
   <string id="266854">
     <![CDATA[你好，我是威尔荷•冯•科尔曼，首席火箭工——-
@@ -7408,7 +7415,7 @@ Astronaut Complex upgrade required.]]>
   <string id="271091"><![CDATA[RDNode]]></string>
   <string id="271104"><![CDATA[]: Node exists in TechTree.cfg but no science cost defined! Something is very wrong here. Strongly recommend checking TechTree.cfg file integrity]]></string>
   <string id="271396"><![CDATA[]: No such tech node defined in tech tree!]]></string>
-  <string id="271481"><![CDATA[[RDTech]: 没有足够的科学点数来解锁此科技.]]></string>
+  <string id="271481"><![CDATA[[RDTech]: 没有足够的科学点数来解锁此科技。]]></string>
   <string id="271584"><![CDATA[<color=orange>Not enough Science to research this node.</color>]]></string>
   <string id="271711"><![CDATA[[RDTech]: Node exceeds Science cost limit.]]></string>
   <string id="271796"><![CDATA[<color=orange>Cannot research technologies over ]]></string>
@@ -7854,7 +7861,7 @@ Effective Immediately.]]>
   <string id="288890"><![CDATA[Rendezvous - Complete]]></string>
   <string id="288933"><![CDATA[Asteroid1TutorialLock]]></string>
   <string id="288976">
-    <![CDATA[只要不掉在家里，流星雨和陨石当然赏心悦目。今天我们一起学习如何保卫家园免受小行星侵袭。
+    <![CDATA[只要不掉在家里，流星雨和陨石当然赏心悦目。今天我们一起学习如何保卫家园免受小行星侵袭。.
 
 凡是玩过十分钟银河侵略者之类游戏的玩家都知道，打小行星要注意预留提前量。]]>
   </string>
@@ -7863,12 +7870,12 @@ Effective Immediately.]]>
 
 交会需要了解目标速度大小和方向，以便准时遇见目标。
 
-打开地图界面了解相关知识。]]>
+现在，打开你的地图界面并了解相关知识。]]>
   </string>
   <string id="290324">
     <![CDATA[这个罕见的小行星被Kerbin捕获，尽管离心率很大至少形成了稳定轨道。
 
-看到这个小行星真是三生有幸，因为大部分小行星仅仅飞过Kerbin一次不会被引力捕获形成稳定轨道。
+看到这个小行星真是三生有幸，因为大部分小行星只是擦个边就一去不回头了，不会被引力捕获形成稳定轨道。
 
 自己选择小行星时我推荐在测控站里面跟踪一个喜欢的小行星，不跟踪的话是无法捕捉的。]]>
   </string>
