@@ -1,22 +1,24 @@
 <zh>
   <!--如果某个词条翻译后导致程序异常请在此词条加入noT属性避免他人再次入坑，如下：
   <string id="39100" noT="1"><![CDATA[LaunchPad]]></string>
-  1：禁止翻译，翻译后肯定会有问题，如：noT="1"
-  2：不建议翻译，暂时不知道翻译后是否会有问题，如：noT="2"
-
-  3：翻译注：词条中有空格的多半会在语句中出现，单词前后有空格是语句的部分可能较大；多个单词连续出现没有空格多半是程序键值，请勿翻译；语句带有.号，是需要显示的可能较大。请酌情翻译。
-  在没有足够把握时不要汉化单个词语的词条，如果汉化了这类词条请坐足够多的测试。
+  1.禁止翻译，翻译后肯定会有问题，如：noT="1"
+  2.不建议翻译，暂时不知道翻译后是否会有问题，如：noT="2"
+  <string id="10929" noT="2"><![CDATA[filled]]></string>
+  3.翻译注：词条中有空格的多半会在语句中出现，单词前后有空格是语句的部分可能较大；多个单词连续出现没有空格多半是程序键值，请勿翻译；语句带有.号，是需要显示的可能较大。请酌情翻译。
+  在没有足够把握时不要汉化单个词语的词条，如果汉化了这类词条请做足够多的测试。
+  4.翻译最好基于游戏过程中可见的文本，翻译非可见部分费时费力而且更容易带来bug。
+  5.翻译时注意语境和中文习惯，切忌逐字逐句照搬翻译。
   -->
   <string id="1">
     <![CDATA[
 ]]>
   </string>
-  <string id="4"><![CDATA[稳定帮助]]></string>
-  <string id="37"><![CDATA[切线加速/切线减速 保持]]></string>
-  <string id="86"><![CDATA[径向,垂线 方式 保持]]></string>
+  <string id="4"><![CDATA[增稳系统]]></string>
+  <string id="37"><![CDATA[保持 前进/后退 方向 ]]></string>
+  <string id="86"><![CDATA[保持 径向/正态 方向 ]]></string>
   <string id="143">
-    <![CDATA[动作 保持
-目标 正在追踪]]>
+    <![CDATA[保持 轨道机动方向 
+ 正在追踪的目标方向]]>
   </string>
   <string id="202"><![CDATA[引擎推力 ]]></string>
   <string id="229"><![CDATA[F2]]></string>
@@ -660,7 +662,7 @@
   <string id="8018"><![CDATA[[候选者列表错误]:不能雇佣 ]]></string>
   <string id="8093"><![CDATA[ 因为他不是申请人]]></string>
   <string id="8146"><![CDATA[[申请人列表错误]: 无法解雇 ]]></string>
-  <string id="8221"><![CDATA[ 因为他不是他不是可用机组他不是可用的机组他不是可用]]></string>
+  <string id="8221"><![CDATA[ 因为他没有空闲]]></string>
   <string id="8302"><![CDATA[[申请人列表错误]: 不能放弃]]></string>
   <string id="8383"><![CDATA[ for dead as he is not MIA]]></string>
   <string id="8436"><![CDATA[[申请人列表错误]: 不能删除 ]]></string>
@@ -5847,9 +5849,9 @@ Spd: ]]>
   <string id="201947"><![CDATA[testAltitudeEnvelope]]></string>
   <string id="201988"><![CDATA[testSpeedEnvelope]]></string>
   <string id="202023"><![CDATA[[PartTest]: Contract for ]]></string>
-  <string id="202074"><![CDATA[不再只是实验性的实践了，这部分已经研究完成。]]></string>
+  <string id="202074"><![CDATA[该部件已经研发完毕，无需实验性测试。]]></string>
   <string id="202187"><![CDATA[我们想要你在这个星球表面插上旗帜:]]></string>
-  <string id="202280"><![CDATA[雷达已确认在星球表现已插上旗帜 ]]></string>
+  <string id="202280"><![CDATA[雷达站确认你已在下列星球表面插上旗帜：]]></string>
   <string id="202381"><![CDATA[. 干得漂亮!]]></string>
   <string id="202410"><![CDATA[FlagPlant]]></string>
   <string id="202429"><![CDATA[kerbalEVA]]></string>
@@ -5883,7 +5885,7 @@ Spd: ]]>
   <string id="203027"><![CDATA[ 留下]]></string>
   <string id="203040"><![CDATA[。回收这个而且]]></string>
   <string id="203073"><![CDATA[ 并没有造成很大伤害。]]></string>
-  <string id="203134"><![CDATA[ 带回了可用数据。返回 ]]></string>
+  <string id="203134"><![CDATA[ 带回了价值很高的数据。返回 ]]></string>
   <string id="203191"><![CDATA[ 而且还留下了些啥 ]]></string>
   <string id="203234"><![CDATA[ 装入载具 ]]></string>
   <string id="203257">
@@ -7852,23 +7854,23 @@ Effective Immediately.]]>
   <string id="288890"><![CDATA[Rendezvous - Complete]]></string>
   <string id="288933"><![CDATA[Asteroid1TutorialLock]]></string>
   <string id="288976">
-    <![CDATA[Asteroids. Awesome to look at and great to have around; not so much when one lands on your house. Today we’re going to learn how to keep that from happening.
+    <![CDATA[只要不掉在家里，流星雨和陨石当然赏心悦目。今天我们一起学习如何保卫家园免受小行星侵袭。
 
-As anyone who has played Galaxy Intruders for more than ten minutes can tell you, it’s not about firing at where they are, it’s about aiming at where they’re going to be.]]>
+凡是玩过十分钟银河侵略者之类游戏的玩家都知道，打小行星要注意预留提前量。]]>
   </string>
   <string id="289636">
-    <![CDATA[For that, we’re going to walk through a process called rendezvous. Really, really helpful for making spaceships meet out there and eventually dock, so pay attention.
+    <![CDATA[因此我们需要了解“交会”这一过程，交会也是飞船对接操作的重要组成部分。
 
-The idea is to know how fast something is going and where it’s headed so you can meet at the same place at the same time.
+交会需要了解目标速度大小和方向，以便准时遇见目标。
 
-Now open your Map View to take a look at some things.]]>
+打开地图界面了解相关知识。]]>
   </string>
   <string id="290324">
-    <![CDATA[Now, through luck or Devine intervention this particular asteroid here has been captured in an eccentric but stable Kerbin orbit.
+    <![CDATA[这个罕见的小行星被Kerbin捕获，尽管离心率很大至少形成了稳定轨道。
 
-This is about as lucky as one can get with these bodies, because in reality most of them will just zoom past Kerbin or take a single trip around it before leaving to never return.
+看到这个小行星真是三生有幸，因为大部分小行星仅仅飞过Kerbin一次不会被引力捕获形成稳定轨道。
 
-When choosing your own I recommend you see what there is to choose from in the Tracking Station and track one of your liking, if you don't track it you'll never catch it.]]>
+自己选择小行星时我推荐在测控站里面跟踪一个喜欢的小行星，不跟踪的话是无法捕捉的。]]>
   </string>
   <string id="291290">
     <![CDATA[First things first, basic orbital mechanics. If you match your orbit to an object’s precisely, you’ll be moving at the same speed as it is.
