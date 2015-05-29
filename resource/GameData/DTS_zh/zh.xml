@@ -637,11 +637,7 @@
   <string id="6264"><![CDATA[<]]></string>
   <string id="6267"><![CDATA[>]]></string>
   <string id="6270"><![CDATA[KERBAL]]></string>
-<<<<<<< HEAD
-  <string id="6283"><![CDATA[[Protocrewmember]: Instance of crewmember ]]></string>
-=======
   <string id="6283"><![CDATA[[Protocrewmember]:机组成员实例]]></string>
->>>>>>> 686257625e56d90c52eee4827202f8c973d8f813
   <string id="6368"><![CDATA[已装上]]></string>
   <string id="6387"><![CDATA[开启]]></string>
   <string id="6396"><![CDATA[与示例不相 ]]></string>
@@ -649,13 +645,8 @@
   <string id="6516"><![CDATA[)]]></string>
   <string id="6519"><![CDATA[[ProtoCrewMember Warning]: Crewmember ]]></string>
   <string id="6596"><![CDATA[已指定载具但载具已满。 ]]></string>
-<<<<<<< HEAD
-  <string id="6689"><![CDATA[设置为失踪.]]></string>
-  <string id="6722"><![CDATA[ 其中还有一部分，但状态已被设置为丢失。载具之前可能曾经保存失败过。正在恢复设定状态。]]></string>
-=======
   <string id="6689"><![CDATA[设置为失踪。]]></string>
   <string id="6722"><![CDATA[其中还有一部分，但状态已被设置为丢失。载具之前可能曾经保存失败过。正在恢复设定状态。]]></string>
->>>>>>> 686257625e56d90c52eee4827202f8c973d8f813
   <string id="6960"><![CDATA[[Crew Assignment]: Part ]]></string>
   <string id="7009"><![CDATA[保持]]></string>
   <string id="7024"><![CDATA[机组，但是只有]></string>
@@ -3003,15 +2994,9 @@ Ext Temp: ]]>
   <string id="88590"><![CDATA[无限燃料]]></string>
   <string id="88617"><![CDATA[无限RCS]]></string>
   <string id="88642"><![CDATA[无限喷气背包燃料]]></string>
-<<<<<<< HEAD
-  <string id="88677"><![CDATA[Biomes visible in map]]></string>
-  <string id="88720"><![CDATA[Allow Part Clipping in Editors [Bug Hazard!]]]></string>
-  <string id="88809"><![CDATA[Non-Strict Part Attachment Orientation Checks]]></string>
-=======
   <string id="88677"><![CDATA[地图可见生物群落]]></string>
   <string id="88720"><![CDATA[允许在编辑器中部件剪切 [Bug Hazard!]]]></string>
   <string id="88809"><![CDATA[不检查部件构架连接点强度]]></string>
->>>>>>> 686257625e56d90c52eee4827202f8c973d8f813
   <string id="88900"><![CDATA[+5科研点]]></string>
   <string id="88921"><![CDATA[+50科研点]]></string>
   <string id="88944"><![CDATA[+500科研点]]></string>
@@ -3717,15 +3702,7 @@ What would you like to do?
   <string id="115348"><![CDATA[检测版本中]]></string>
   <string id="115369"><![CDATA[https://www.kerbalspaceprogram.com/kspstore/]]></string>
   <string id="115458"><![CDATA[Patcher.exe]]></string>
-  <string id="115481">
-<<<<<<< HEAD
-    <![CDATA[不能离开并立刻开始升级。本机客户没有使用许可
-=======
-    <![CDATA[不能离开并立刻开始升级。本机客户没有使用许可。
->>>>>>> 686257625e56d90c52eee4827202f8c973d8f813
-
-]]>
-  </string>
+  <string id="115481"><![CDATA[不能离开并立刻开始升级。本机客户没有使用许可。]]></string>
   <string id="115683"><![CDATA[https://www.kerbalspaceprogram.com/files/KSP_LATEST_VERSION.vrs]]></string>
   <string id="115810"><![CDATA[https://kerbalspaceprogram.com/kspstore/dp/patcher/index.php]]></string>
   <string id="115931"><![CDATA[https://kerbalspaceprogram.com/kspstore/dp/patcher/releases/{0}/{1}/Patcher]]></string>
@@ -4091,11 +4068,7 @@ Looking for ]]>
   <string id="128855"><![CDATA[StopTransfer]]></string>
   <string id="128880"><![CDATA[<color=#ff9900ff>[]]></string>
   <string id="128917"><![CDATA[]: No ]]></string>
-<<<<<<< HEAD
-  <string id="128930"><![CDATA[容器在 ]]></string>
-=======
   <string id="128930"><![CDATA[容器在]]></string>
->>>>>>> 686257625e56d90c52eee4827202f8c973d8f813
   <string id="128959"><![CDATA[.</color>]]></string>
   <string id="128978"><![CDATA[补给]]></string>
   <string id="128995"><![CDATA[提供资源]]></string>
@@ -4288,13 +4261,8 @@ Looking for ]]>
   <string id="136948"><![CDATA[ doesn't implement IScalarModule]]></string>
   <string id="137013"><![CDATA[<b><color=orange>[]]></string>
   <string id="137050"><![CDATA[]: Unable to deploy!</color></b>]]></string>
-<<<<<<< HEAD
-  <string id="137115"><![CDATA[ 实验模块的数据被移走后蒋无法进行操作。]]></string>
-  <string id="137253"><![CDATA[ 警报!]]></string>
-=======
   <string id="137115"><![CDATA[实验模块的数据被移走后将无法进行操作。]]></string>
   <string id="137253"><![CDATA[警报!]]></string>
->>>>>>> 686257625e56d90c52eee4827202f8c973d8f813
   <string id="137272"><![CDATA[传输所有数据]]></string>
   <string id="137297"><![CDATA[只传输可重用仪器数据]]></string>
   <string id="137354"><![CDATA[仍旧传送]]></string>
@@ -4416,11 +4384,7 @@ Looking for ]]>
   <string id="140771"><![CDATA[LIQUID_ENGINE]]></string>
   <string id="140798"><![CDATA[thrustPercentage]]></string>
   <string id="140831"><![CDATA[轻轻]]></string>
-<<<<<<< HEAD
-  <string id="140844"><![CDATA[<b>最大推力 : </b>]]></string>
-=======
   <string id="140844"><![CDATA[<b>最大推力: </b>]]></string>
->>>>>>> 686257625e56d90c52eee4827202f8c973d8f813
   <string id="140885"><![CDATA[ @Mach ]]></string>
   <string id="140900"><![CDATA[<b>静止推力: </b>]]></string>
   <string id="140953">
@@ -5459,7 +5423,7 @@ Burn time: ]]>
 ]]>
   </string>
   <string id="186884">
-    <![CDATA扫描资源:全部资源
+    <![CDATA[扫描资源:全部资源
 ]]>
   </string>
   <string id="186951"><![CDATA[扫描时间: ]]></string>
@@ -5921,17 +5885,10 @@ Spd: ]]>
   <string id="203004"><![CDATA[ 安全的 ]]></string>
   <string id="203027"><![CDATA[ 留下]]></string>
   <string id="203040"><![CDATA[。回收这个而且]]></string>
-<<<<<<< HEAD
-  <string id="203073"><![CDATA[ 并没有造成很大伤害。]]></string>
-  <string id="203134"><![CDATA[带回了价值很高的数据。返回 ]]></string>
-  <string id="203191"><![CDATA[ 而且还留下了些啥 ]]></string>
-  <string id="203234"><![CDATA[ 装入载具 ]]></string>
-=======
   <string id="203073"><![CDATA[并没有造成很大伤害。]]></string>
   <string id="203134"><![CDATA[带回了价值很高的数据。返回]]></string>
   <string id="203191"><![CDATA[而且还留下了些啥]]></string>
   <string id="203234"><![CDATA[装入载具]]></string>
->>>>>>> 686257625e56d90c52eee4827202f8c973d8f813
   <string id="203257">
     <![CDATA[ 目标：
 质量 ]]>
@@ -6532,7 +6489,7 @@ Spd: ]]>
   <string id="231091"><![CDATA[把高度纪录刷新到]]></string>
   <string id="231138"><![CDATA[把距离纪录刷新到]]></string>
   <string id="231185"><![CDATA[把速度纪录刷新到]]></string>
-  <string id="231226"><![CDATA把种类纪录刷新到]]></string>
+  <string id="231226"><![CDATA[把种类纪录刷新到]]></string>
   <string id="231271"><![CDATA[高度]]></string>
   <string id="231288"><![CDATA[距离]]></string>
   <string id="231305"><![CDATA[速度]]></string>
@@ -6928,13 +6885,8 @@ Spd: ]]>
   <string id="255914"><![CDATA[Contract Log: Survey unable to place ]]></string>
   <string id="255989"><![CDATA[ waypoint - the survey definition is misconfigured.]]></string>
   <string id="256092"><![CDATA[spaceflight]]></string>
-<<<<<<< HEAD
-  <string id="256115"><![CDATA[on the surface at]]></string>
-  <string id="256150"><![CDATA[in ]]></string>
-=======
   <string id="256115"><![CDATA[在表面位于]]></string>
   <string id="256150"><![CDATA[里面]]></string>
->>>>>>> 686257625e56d90c52eee4827202f8c973d8f813
   <string id="256157"><![CDATA[下方]]></string>
   <string id="256172"><![CDATA[米的距离]]></string>
   <string id="256197"><![CDATA[上方]]></string>
