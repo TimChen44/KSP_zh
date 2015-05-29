@@ -7876,18 +7876,18 @@ Effective Immediately.]]>
 自己选择小行星时我推荐在测控站里面跟踪一个喜欢的小行星，不跟踪的话是无法捕捉的。]]>
   </string>
   <string id="291290">
-    <![CDATA[First things first, basic orbital mechanics. If you match your orbit to an object’s precisely, you’ll be moving at the same speed as it is.
+    <![CDATA[首先我们需要了解基本的轨道知识，如果想要与目标物体精确匹配轨道，需要速度与其相同。
 
-If you’re closer to the body you're orbiting, in this case Kerbin, than the object you are trying to meet, you will be going faster, and slower if you’re further out.]]>
+若比目标离中心天体（现在是坎星）远就要加速，近就减速。]]>
   </string>
   <string id="291906">
-    <![CDATA[Knowing this, let's get started, you know the usual drill, set the asteroid as your target and tweak that maneuver node on your orbit to have an orbit that gets as close as possible to the asteroid. Actually I'm sure if you fine-tune it thoroughly you can get very close.
+    <![CDATA[了解轨道机动的基础知识之后，你就应该知道怎么做了。无非是设置小行星为目标调整变轨节点以尽可能靠近它。只要调整精准可以靠得很近。
 
-I recommend using your mousewheel scroll when the mouse is over the node modifiers to make fine adjustments, instead of dragging on them.
+我推荐用鼠标滚轮而不是拖动轴来调整变轨节点。
 
-You can check how close your encounter will be if you mouse over the same color Intercept nodes that are close to each other.]]>
+把鼠标移动到交会节点上可以查看变轨后最近距离。]]>
   </string>
-  <string id="292982"><![CDATA[This is what the intersect icons look like.]]></string>
+  <string id="292982"><![CDATA[交会节点长这样：]]></string>
   <string id="293069">
     <![CDATA[When you're happy with your maneuver execute the burn.
 
@@ -8628,15 +8628,15 @@ You can try this again if you want, or press Next if you're ready to move on.]]>
   <string id="391638"><![CDATA[好,现在时间正在以 ]]></string>
   <string id="391687"><![CDATA[ 倍的速度在流逝,我们应该很快就会到位.你能用]]></string>
   <string id="391889">
-    <![CDATA[ keys, or click the arrows on the panel on the top left of the screen.
+    <![CDATA[ 键或点击屏幕左上角的箭头来停止时间加速。
 
-This time, I'll put us back to normal time just before we reach periapsis.
+现在我会帮你在到达近拱点之前停止时间加速。
 
-Out of training though, you'll have to warp time down to 1x yourself, so don't go too fast or you might miss your mark.
-You can also click on any given point on your orbit and click the Warp Here option, the ship's systems will automatically warp time as fast as possible to get you there.]]>
+以后需要玩家自行关闭时间加速，注意不要错过目的地了哦。
+玩家可以点击轨道上某一点选择时间加速至该点，系统会自动用最快速度加速到该点并自动停止。]]>
   </string>
   <string id="392765">
-    <![CDATA[Ok, we are a few seconds away from Periapsis now. Time to turn prograde and do our burn.
+    <![CDATA[还有几秒钟就到达近拱点，准备朝向前进方向打开发动机。
 
 However, instead of closing the map, let's just bring up the NavBall here, so we can see what's happening to our orbit as we accelerate.
 
@@ -10845,13 +10845,13 @@ Length:]]>
   <string id="470978"><![CDATA[CustomSubassembly_]]></string>
   <string id="471015"><![CDATA[CustomSubategory_]]></string>
   <string id="471050"><![CDATA[New subcategory name:]]></string>
-  <string id="471093"><![CDATA[Another subcategory with this name already exist for this category.]]></string>
-  <string id="471229"><![CDATA[Another category with this name already exist.]]></string>
-  <string id="471322"><![CDATA[Another subcategory with this name already exist.]]></string>
-  <string id="471421"><![CDATA[This category has one or more subcategories with parts assigned to it. Deleting this category will delete all subcategories. Are you sure you want to delete?]]></string>
-  <string id="471737"><![CDATA[Deleting this category will delete all subcategories. Are you sure you want to delete?]]></string>
-  <string id="471911"><![CDATA[This subcategory has parts assigned to it. Are you sure you want to delete?]]></string>
-  <string id="472063"><![CDATA[This subcategory has subassemblies assigned to it. Are you sure you want to delete?]]></string>
+  <string id="471093"><![CDATA[同一分类下存在同名子类]]></string>
+  <string id="471229"><![CDATA[存在同名类]]></string>
+  <string id="471322"><![CDATA[存在同名子类]]></string>
+  <string id="471421"><![CDATA[本类有非空子类。确认删除？]]></string>
+  <string id="471737"><![CDATA[删除本类会同时删除所有下属子类。确认删除？]]></string>
+  <string id="471911"><![CDATA[子类非空，确认删除？]]></string>
+  <string id="472063"><![CDATA[子类含有自定义组件，确认删除？]]></string>
   <string id="472231"><![CDATA[Edit category name:]]></string>
   <string id="472270"><![CDATA[Edit subcategory name:]]></string>
   <string id="472315"><![CDATA[Yes (Delete)]]></string>
