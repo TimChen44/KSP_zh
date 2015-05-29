@@ -5126,8 +5126,8 @@ Burn time: ]]>
   <string id="166603"><![CDATA[ ERROR]]></string>
   <string id="166616"><![CDATA[对接器，不是断开器。]]></string>
   <string id="166679"><![CDATA[这几个是对接器，不是断开器。]]></string>
-  <string id="166746"><![CDATA[断开器在不可控的载具上断开后会失控。请加装控制模块在你想要断开后还要控制的载具上。]]></string>
-  <string id="167004"><![CDATA[这些断开器在不可控的载具上断开后会失控。请加装控制模块在你想要断开后还要控制的载具上。]]></string>
+  <string id="166746"><![CDATA[断开器会使在不可控的载具断开后失控。请加装控制模块在你想要断开后还要控制的载具上。]]></string>
+  <string id="167004"><![CDATA[这些断开器会使不可控的载具断开后失控。请加装控制模块在你想要断开后还要控制的载具上。]]></string>
   <string id="167264"><![CDATA[---Docking  : 1]]></string>
   <string id="167295"><![CDATA[---Docking  : 2]]></string>
   <string id="167326"><![CDATA[---Docking  : 2b]]></string>
@@ -5147,8 +5147,8 @@ Burn time: ]]>
   <string id="169202"><![CDATA[这些部件能储存电量，但是载具上没有可发电装置。]]></string>
   <string id="169370"><![CDATA[launchClamp1]]></string>
   <string id="169395"><![CDATA[能发电，没电池。]]></string>
-  <string id="169486"><![CDATA[这个组件能产生电力，但是载具上缺少储电装置。指挥模块能储存很少的电量，但很明显还不够。]]></string>
-  <string id="169756"><![CDATA[这些组件能产生电力，但是载具上缺少储电装置。指挥模块能储存很少的电量，但很明显还不够。]]></string>
+  <string id="169486"><![CDATA[这个组件能产生电力，但是载具上缺少储电装置。指挥模块能储存很少的电量，但很可能还不够。]]></string>
+  <string id="169756"><![CDATA[这些组件能产生电力，但是载具上缺少储电装置。指挥模块能储存很少的电量，但很可能还不够。]]></string>
   <string id="170028"><![CDATA[能发电，但没用。]]></string>
   <string id="170105"><![CDATA[这个组件能产生电力，但载具上只有很少的用电设施。指挥模块会耗电，但耗电量不足以消耗过载。]]></string>
   <string id="170389"><![CDATA[这些组件能产生电力，但载具上只有很少的用电设施。指挥模块会耗电，但耗电量不足以消耗过载。]]></string>
@@ -5180,12 +5180,12 @@ Burn time: ]]>
   <string id="173796"><![CDATA[这个驾驶舱可能控制飞船，但是座位都还]]></string>
   <string id="173919"><![CDATA[指令模块朝向错误。]]></string>
   <string id="173992"><![CDATA[多个指令模块朝向错误。]]></string>
-  <string id="174067"><![CDATA[这个指令模块朝向错误。指令模块作为基本部件控制旋转，如果不装对方向会让你的飞船转得和被打飞的棒球一样。]]></string>
-  <string id="174337"><![CDATA[这些指令模块朝向错误。指令模块作为基本部件控制旋转，如果不装对方向会让你的飞船转得和被打飞的棒球一样。]]></string>
+  <string id="174067"><![CDATA[这个指令模块朝向错误。指令模块作为基本部件控制旋转，如果不装对方向会让你的飞船上的导航球变成无头苍蝇。]]></string>
+  <string id="174337"><![CDATA[这些指令模块朝向错误。指令模块作为基本部件控制旋转，如果不装对方向会让你的飞船上的导航球变成无头苍蝇。]]></string>
   <string id="174617"><![CDATA[降落伞和引擎同级。]]></string>
   <string id="174670"><![CDATA[多个降落伞装和引擎同级。]]></string>
-  <string id="174725"><![CDATA[这个降落赛会在引擎启动的同时打开。]]></string>
-  <string id="174844"><![CDATA[这些降落赛会在引擎启动的同时打开。]]></string>
+  <string id="174725"><![CDATA[这个降落伞会在引擎启动的同时打开。]]></string>
+  <string id="174844"><![CDATA[这些降落伞会在引擎启动的同时打开。]]></string>
   <string id="174967"><![CDATA[先开降落伞？]]></string>
   <string id="175018"><![CDATA[先开降落伞？]]></string>
   <string id="175071"><![CDATA[还没点火，这个降落伞就打开了。]]></string>
@@ -5224,7 +5224,7 @@ Burn time: ]]>
   <string id="178204"><![CDATA[这个空间站模块有空的连接点，没有接上对接口。]]></string>
   <string id="178352"><![CDATA[这几个空间站模块有空的连接点，没有接上对接口。]]></string>
   <string id="178506"><![CDATA[空间站模块]]></string>
-  <string id="178527"><![CDATA[EVA 警报!]]></string>
+  <string id="178527"><![CDATA[EVA警报!]]></string>
   <string id="178552"><![CDATA[没有足够的]]></string>
   <string id="178591">
     <![CDATA[飞船去继续充满EVA背包。
@@ -5398,7 +5398,7 @@ Burn time: ]]>
   <string id="185307"><![CDATA[<color=#FFEE00>无可用数据</color>]]></string>
   <string id="185388"><![CDATA[这里没有可用的轨道探测数据。]]></string>
   <string id="185473"><![CDATA[启用一个有轨道扫描仪的探测来进行高分辨细节探测。]]></string>
-  <string id="185639"><![CDATA[为了得到精确的资源分布(比如生物群落分布)，你也需要降落并在生物群中操作一个表面探测器来获得高精度数据。]]></string>
+  <string id="185639"><![CDATA[为了得到精确的资源分布(比如生物群落分布)，你需要降落在生物群中并操作一个表面探测器来获得高精度数据。]]></string>
   <string id="185959"><![CDATA[高精度扫描不可用- {0}没有表面可扫描。]]></string>
   <string id="186066"><![CDATA[SetColor]]></string>
   <string id="186083"><![CDATA[Color: ]]></string>
@@ -8219,7 +8219,7 @@ I'm really proud of you, I know you have potential.]]>
   <string id="335672"><![CDATA[radialDecoupler]]></string>
   <string id="335703"><![CDATA[solidBooster]]></string>
   <string id="335728"><![CDATA[EditorTutorial]]></string>
-  <string id="335757"><![CDATA[欢迎来到今天的飞船设计讲座,我是Wernher von Kerman. 每当你想把一枚卫星送入轨道,或是进行一场洲际飞行,又或者是到月球表面转转的时候,你就需要给自己造一艘飞船了.虽然你不是一个像我一样的著名的天才火箭设计师,这也不会太难.]]></string>
+  <string id="335757"><![CDATA[欢迎来到今天的飞船设计讲座,我是威尔荷•冯•科尔曼. 每当你想把一枚卫星送入轨道,或是进行一场洲际飞行,又或者是到月球表面转转的时候,你就需要给自己造一艘飞船了.虽然你不是一个像我一样的著名的天才火箭设计师,这也不会太难.]]></string>
   <string id="336407"><![CDATA[首先任何飞船都需要一个指令舱. 这个模块要么塞有一个不怕死的坎巴拉宇航员,要么是一个自动化的控制机器. 从零件列表里选择一个指令舱吧. 好吧, 没有太多可供选择, 还是尽管选一个吧.]]></string>
   <string id="336967"><![CDATA[选得漂亮! 它可不是像我这样著名的坎星火箭科学家会做的选择, 但因为你刚刚起步, 所以没有太多的选择.]]></string>
   <string id="337299"><![CDATA[如果你打算在屏幕中移动飞船,你可以通过点击根部件来把它揪起来(目前就是那个指令仓啦).把这个飞船往上移动,这样你就可以添加更多的组件了.另外,如果你想了解某个组件的更多信息,只要把鼠标移到左边工具箱里的组件上右键就能看到更多的信息.]]></string>
@@ -11603,7 +11603,7 @@ msg: ]]>
   <string id="503991"><![CDATA[(Undershot)]]></string>
   <string id="504014"><![CDATA[: Cannot find a facility of name ']]></string>
   <string id="504083"><![CDATA[SpaceCenterMain: Cannot find gameObject of url ]]></string>
-  <string id="504178"><![CDATA[[雷达站]:无法找到指定名称的载具 ]]></string>
+  <string id="504178"><![CDATA[[TrackingStation]:无法找到指定名称的载具 ]]></string>
   <string id="504279"><![CDATA[这里出了问题。]]></string>
   <string id="504336"><![CDATA[UIApp: No Applauncher button specified, aborting]]></string>
   <string id="504433"><![CDATA[\saves\]]></string>
