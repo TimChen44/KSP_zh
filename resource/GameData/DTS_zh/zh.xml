@@ -6759,7 +6759,7 @@ Spd: ]]>
   <string id="250034"><![CDATA[moduleNames]]></string>
   <string id="250057"><![CDATA[PartRequestParameter]]></string>
   <string id="250098"><![CDATA[让一个部件]]></string>
-  <string id="250121"><![CDATA[发射一个新的无人探测器，要包括天线，而且还能发电]]></string>
+  <string id="250121"><![CDATA[发射一个新的无人探测器，要求拥有天线并可以发电]]></string>
   <string id="250263"><![CDATA[请注意这一定是新的无人探测器，是合同上规定的中转站。]]></string>
   <string id="250471"><![CDATA[ProbeSystemsParameter]]></string>
   <string id="250514"><![CDATA[目标达成]]></string>
@@ -7288,12 +7288,12 @@ Agency: ]]>
   <string id="263558">
     <![CDATA[很高兴见到你！
 
-我是吉恩•科尔曼，航空中心的飞行主管，也是这个快速介绍的引导员。
+我是Gene·Kerman，KSC(坎巴拉航空航天中心)的飞行主管，负责简单介绍KSC(坎巴拉航空航天中心)。
 
-这里是航空中心，从这里，你可以管理太空计划的各个方面。放轻松，随意看看(按住右键移动视角，或使用[方向键]).
+这里是KSC，从这里，你可以管理太空计划的各个方面。(按住右键移动视角，或使用[方向键])随意看看.
 
 
-在航空中心的设备区上点击右键可以查看更多信息，当你准备好进去的时候，点击左键。
+在航空中心的各个设施上点击右键可以查看更多信息，当你准备好进去的时候，点击左键进入。
 
 
 如果你需要更多信息，请进入主菜单并找到训练模式。]]>
@@ -7320,7 +7320,7 @@ Agency: ]]>
 在左边你可以找到组件栏以组合成你的飞行器。选择一个起始部件，然后连接其他部分以组合成一艘飞船。你可以按下[鼠标右键]或者[方向键]以切换视角。我们刚刚把这里整理干净，别弄太乱了。
 
 
-总之，如果你需要更多建造飞机的方法，请返回主菜单查阅训练模式。]]>
+总之，如果你需要了解更多关于飞行器建造的信息，请返回主菜单查阅训练模式。]]>
   </string>
   <string id="266854">
     <![CDATA[你好，我是威尔荷•冯•科尔曼，首席火箭工——-
@@ -7889,11 +7889,10 @@ Cost: \F ]]>
   </string>
   <string id="292982"><![CDATA[交会节点长这样：]]></string>
   <string id="293069">
-    <![CDATA[When you're happy with your maneuver execute the burn.
+    <![CDATA[调整变轨节点直到满意，就可以执行机动了。
+注意：请尽可能精确（时间和速度增量两方面）执行变轨节点，差之毫厘谬之千里。
 
-One final word of warning though, when executing these kind of precision maneuvers try to leave as little deltaV remaining as possible, or the end result could vary greatly from what you had planned.
-
-I won't let you go any further if you don't do it close enough.]]>
+距离不足够接近小行星将无法继续教程。]]>
   </string>
   <string id="293711">
     <![CDATA[Good job. You’re now on a similar but lower orbit to the Asteroid. Keep it targeted and experiment with your maneuver nodes until you have a closest encounter of less than 10 kilometers, then execute the burn and wait until you reach that encounter.
@@ -8583,23 +8582,23 @@ This concludes this tutorial, I think you're ready to start your own missions, s
 并且已经准备好学习如何在太空中移动了.如果你还没有准备好,好吧,我希望你知道你在做什么.     让我们开始吧.]]>
   </string>
   <string id="385454"><![CDATA[环绕轨道其实跟自由落体没什么两样.唯一的不同是当你下落的同时你还在快速的运动,以至于你避开了地面.因为这里没有空气摩擦来减缓你的速度, 你将会无穷无尽的绕着星球"坠落"而不需要开启引擎. 我们目前在坎巴拉星低轨的圆形轨道上.如果想对自己的状态有更好的了解,请按下 ]]></string>
-  <string id="386288"><![CDATA[ 键来进入地图视角.]]></string>
+  <string id="386288"><![CDATA[ 键来进入地图界面.]]></string>
   <string id="386347">
-    <![CDATA[This is the Map View. Here, you can see your ship's position and its current trajectory around the planet.
+    <![CDATA[这就是地图界面，玩家可以在里面看到飞船位置和轨道。
 
-Hold right-click and move the mouse to look around, to see your orbit from various angles. Also, hovering over the icons on the map will display more information about them.
+按住右键同时移动鼠标，可以从多角度查看轨道。把鼠标悬停到图标上查看更多信息。
 
-Close the map when you're ready (press the ]]>
+浏览完毕请按（ ]]>
   </string>
-  <string id="387001"><![CDATA[ 键),我们就可以继续了.]]></string>
+  <string id="387001"><![CDATA[ 键)继续。]]></string>
   <string id="387064">
-    <![CDATA[Good, let's get practical now. I trust you already know your basic spacecraft controls...
+    <![CDATA[相信你已经了解如何驾驶飞船了，我们来实践吧。
 
-Up here, they're very much the same, only that the lack of an atmosphere makes the ship behave quite a bit differently. Because there is no drag slowing you down, for every input you apply, you'll have to apply an opposite one to come to a stop again.
+在大空和大气里面操作飞船的差距不大唯一区别是太空中没有大气阻力。因此每一个指令的效果都不会被大气阻力抵消，需要玩家自行用相反的指令抵消。
 
-I'm going to remotely nudge your attitude controls a little. Try to get the ship back under control afterwards.
+我下面将扰动飞船的高度控制，试试看能不能重新掌控飞船吧。
 
-If you find yourself totally out of control, hit ]]>
+要不然飞船会完全失控，单击 ]]>
   </string>
   <string id="388078"><![CDATA[来打开SAS.准备好了吗?]]></string>
   <string id="388155"><![CDATA[好,走你...]]></string>
@@ -8607,23 +8606,23 @@ If you find yourself totally out of control, hit ]]>
   <string id="388800"><![CDATA[自旋速度 (]]></string>
   <string id="388833"><![CDATA[度每秒)...]]></string>
   <string id="388848">
-    <![CDATA[Nicely Done!
+    <![CDATA[完成的不错！
 
-Attitude control is an essential skill for a spacecraft pilot. Master it, and you'll be well on your way to becoming an expert pilot.
+控制高度是驾驶宇宙飞船的重要技巧，掌握了它对成为专业指令长的帮助很大。
 
-You can try this again if you want, or press Next if you're ready to move on.]]>
+玩家可以重试以熟悉操作或点击Next继续]]>
   </string>
   <string id="389302"><![CDATA[再来一次!]]></string>
   <string id="389333">
-    <![CDATA[Let's have a look at the NavBall now. You've probably seen the symbols on it when you were spinning around.
+    <![CDATA[我们来看看导航球，上面有一些标志。
 
- Here's what they mean:]]>
+ 下面就是它们的涵义:]]>
   </string>
-  <string id="389599"><![CDATA[Prograde and Retrograde Vectors: They point towards and away from your velocity vector respectively. That is, it points to and away from where you're going.]]></string>
-  <string id="389913"><![CDATA[Radial in and out Vectors: They point towards and away from the currently orbited body.]]></string>
-  <string id="390089"><![CDATA[Normal and Antinormal Vectors: They are perpendicular to the Orbital Plane, they point "upwards" and "downwards" with respect to the orbital plane respectively.]]></string>
+  <string id="389599"><![CDATA[顺行和逆行向量：它们指向速度向量相关分别指向飞船的前进和后退方向。]]></string>
+  <string id="389913"><![CDATA[向心和离心向量: 向心指向当前环绕天体，离心相反。]]></string>
+  <string id="390089"><![CDATA[常态和反常向量:垂直于轨道平面，指向轨道平面相对的的“上方”和“下方”]]></string>
   <string id="390411"><![CDATA[好的!现在让我们来玩一点更高洋上的东西.把你的地图打开.]]></string>
-  <string id="390561"><![CDATA[我们现在要做的是学习一些基础的轨道机动.首先来试试抬高你的远拱点(AP点).AP点是你轨道的最高点,在轨道上它被用一个写着[Ap]的标志标识着.如果你将鼠标悬停在近拱点(PE点),你会看见我们在几分钟内就会经过PE点.等我们到了那里之后,我们就要朝向增速矢量并点火加速.按下 ]]></string>
+  <string id="390561"><![CDATA[我们现在要做的是学习一些基础的轨道机动.首先来试试抬高你的远拱点(AP点).AP点是你轨道的最高点,在轨道上它被用一个写着[Ap]的标志标识着.如果你将鼠标悬停在近拱点(PE点),你会看见我们在几分钟内就会经过PE点.等我们到了那里之后,我们就要朝向顺行向量并点火加速.按下 ]]></string>
   <string id="391527"><![CDATA[ 来让时间流速稍微增加一点,这样我们就能快点到了.]]></string>
   <string id="391638"><![CDATA[好,现在时间正在以 ]]></string>
   <string id="391687"><![CDATA[ 倍的速度在流逝,我们应该很快就会到位.你能用]]></string>
@@ -8638,23 +8637,23 @@ You can try this again if you want, or press Next if you're ready to move on.]]>
   <string id="392765">
     <![CDATA[还有几秒钟就到达近拱点，准备朝向前进方向打开发动机。
 
-However, instead of closing the map, let's just bring up the NavBall here, so we can see what's happening to our orbit as we accelerate.
+这次别关地图，我们通过导航球观察前进方向。同时观测机动对轨道的影响。
 
-To bring up the NavBall on the Map, click the little tab on the bottom-center of the screen, or press the Numpad Period key.
+按数字键盘的小数点键或点击屏幕最下方中间的标签打开导航球。
 
-Oh, and if you activate your SAS with []]>
+也可以激活SAS（按 []]>
   </string>
-  <string id="393553"><![CDATA[] you will see shortcuts to the different vectors next to the NavBall, if you don't feel like maneuvering yourself just click the Prograde icon.]]></string>
+  <string id="393553"><![CDATA[] 键）玩家会看到导航球各个向量的快捷方式，如果不用变轨单击顺行向量即可 。]]></string>
   <string id="393843">
-    <![CDATA[Good. Time to do our burn. Turn the ship to face the Prograde Vector now.
+    <![CDATA[该开启发动机了，请把飞船指向顺行向量。
 
-Remember that you can just activate the Stability Assist ([]]>
+注意：玩家可以激活SAS（按 []]>
   </string>
-  <string id="394113"><![CDATA[] key) and click the Prograde button next to the NavBall and the ship will do it for you.]]></string>
-  <string id="394293"><![CDATA[记住这个图标才是增速矢量:]]></string>
-  <string id="394386"><![CDATA[在加速前确认船首已经对准增速矢量.]]></string>
-  <string id="394511"><![CDATA[Ok, we are now turned prograde. Check SAS is engaged for you to keep her steady. Press the ]]></string>
-  <string id="394695"><![CDATA[ key to accelerate at full throttle..]]></string>
+  <string id="394113"><![CDATA[] 键) 单击代表顺行向量的按钮飞船会自动对准方向。]]></string>
+  <string id="394293"><![CDATA[记住这个图标才是顺行向量:]]></string>
+  <string id="394386"><![CDATA[在加速前确认船首已经对准顺行向量]]></string>
+  <string id="394511"><![CDATA[飞船已经对准顺行向量，确保开启SAS以保持飞船稳定 按 ]]></string>
+  <string id="394695"><![CDATA[ 键  将节流阀开到最大 全力加速！]]></string>
   <string id="394770"><![CDATA[注意当你加速的时候你的轨道的另一端开始抬升.继续加速直到你的远拱点达到800,000米.]]></string>
   <string id="395080">
     <![CDATA[好了,关闭节流阀!
