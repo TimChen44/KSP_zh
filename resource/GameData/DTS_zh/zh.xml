@@ -8085,25 +8085,20 @@ Note that this page is added with AddState instead of AddPage, because we don't 
   <string id="322035"><![CDATA[More corrections]]></string>
   <string id="322068"><![CDATA[Great!]]></string>
   <string id="322081">
-    <![CDATA[So you've gotten to the Mun already, right? That's good, but it's easy, we're going to go over a more complex procedure today, getting to another planet directly from a low Kerbin orbit. The difficulty of the task depends a lot on the planet you intend to visit. One obvious reason is that farther Celestial Bodies need more dV to be reached, but you also have to take the CB's characteristics into account, such as atmosphere, gravity and the like. 
-
-So when choosing a planet to visit your first stop should be the Tracking Station's Knowledge Base. Here you can learn more about each CB and see if you're up to the task, but for today there's no need because I know where we're going: Duna.]]>
+    <![CDATA[你登陆过Mun了，对吗？这很好，但它很容易，我们今天试试复杂一点的操作，直接从低Kerbin轨道到另一个行星。这个任务的难度很大程度上取决于你打算拜访的行星。一个显而易见的原因是，要达到更远的天体需要更多的DV，但你也必须考虑到天体的特性，如大气，重力等。
+所以，选择一个合适的目标星球你首先应该了解测控站的基础知识。在这里你可以了解更多关于每个天体的特性并评估你能不能完成任务，但今天没有必要了解因为我知道我们要去哪里：Duna。]]>
   </string>
   <string id="323469">
-    <![CDATA[Duna, the red dot, the bringer of contrast. Let's demystify this CB, shall we?
-
-Open Map view, change focus to Duna ([Tab] to iterate). Access the Knowledge Base when Duna is highlighted via th planete icon on the right of the screen. 
-
-As you can see one of the reasons why we chose Duna for this particular mission is because of its conditions, it has a quite thin atmosphere and it has a pretty low gravity compared to Kerbin, so it should be a simple enough mission for even a newcomer.]]>
+    <![CDATA[Duna  天空中的红点，对比的使者。让我们让揭开这个天体的神秘面纱。
+打开星图，转移焦点到Duna（[Tab]键切换）。点击屏幕右侧的行星图标访问知识库关于Duna的部分。
+正如你所看到为什么我们选择Duna做为了本次任务的目标其中一个原因是因为它的条件，它有一个很薄的大气层，它有比Kerbin低很多的重力，所以它应该是一个很简单的任务，甚至对于一个新玩家也是这样。]]>
   </string>
   <string id="324451"><![CDATA[KnowledgeContainer]]></string>
   <string id="324488"><![CDATA[Planets]]></string>
   <string id="324503">
-    <![CDATA[It's time for a little lecture, in order to make our transfer to Duna, or any other CB for that matter, we're going to use something called the Oberth effect.
-
-The Periapsis is the lowest point in an orbit, and the Apoapsis the highest one, remember? Well, think about your orbit as a hill for a moment, if you're going uphill it's harder than going downhill, right? This is because your kinetic energy is lower when you're traveling to a higher point, so going back to orbits the point of highest kinetic energy of the orbit is the Periapsis, because it's where you're about to change from downhill to uphill.
-
-You may ask yourself what all this has to do with getting to Duna, well back to the hill analogy, you get tired less if you run downhill, you use less energy, it's the same here, you burn less fuel if your kinetic energy is at its highest.]]>
+    <![CDATA[ 为了完成到Duna或其他行星的星际转移，我们需要先讲一下所谓的奥伯特效应。
+还记得，近拱点是一个轨道的最低点，远拱点是轨道的最高点吗？好吧，把你的轨道想象成一座山，你上坡是要比下坡难，对吗？是因为当你运行到一个更高的点，你的动能下降了。回到轨道上面来轨道的最高点是动能的最低点，因为你要从上坡变成下坡。
+你可能会问自己这一切都跟去Duna有什么关系。好回到山的比喻，如果你跑下坡你不怎么累，因为不费力。对于轨道也是一样的，如果你的动能最大，消耗燃料就更少。]]>
   </string>
   <string id="326207">
     <![CDATA[When setting up a transfer orbit using the Oberth effect you usually have to be very patient, it's all about being in the right place at the right time, sometimes it can take weeks, months or even years.
