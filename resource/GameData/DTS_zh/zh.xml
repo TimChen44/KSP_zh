@@ -4369,7 +4369,7 @@ Looking for ]]>
   <string id="140450"><![CDATA[EngineType]]></string>
   <string id="140471"><![CDATA[]: 无法在被装填的时候启动!</color>]]></string>
   <string id="140552"><![CDATA[关机]]></string>
-  <string id="140569"><![CDATA[激活]]></string>
+  <string id="140569" noT="1"><![CDATA[Activate]]></string>
   <string id="140586"><![CDATA[熄火]]></string>
   <string id="140603"><![CDATA[启动]]></string>
   <string id="140616"><![CDATA[脱离]]></string>
@@ -10681,11 +10681,11 @@ No Refunds.]]>
   <string id="464982"><![CDATA[stockIcon_function]]></string>
   <string id="465019" noT="2"><![CDATA[Pods]]></string>
   <string id="465028"><![CDATA[stockIcon_pods]]></string>
-  <string id="465057"><![CDATA[燃料罐]]></string>
+  <string id="465057" noT="2"><![CDATA[Fuel Tanks]]></string>
   <string id="465078"><![CDATA[stockIcon_fueltank]]></string>
   <string id="465115" noT="2"><![CDATA[Engines]]></string>
   <string id="465130"><![CDATA[stockIcon_engine]]></string>
-  <string id="465163"><![CDATA[指令和控制]]></string>
+  <string id="465163" noT="2"><![CDATA[Command and Control]]></string>
   <string id="465202"><![CDATA[stockIcon_cmdctrl]]></string>
   <string id="465237" noT="2"><![CDATA[Structural]]></string>
   <string id="465258"><![CDATA[stockIcon_structural]]></string>
@@ -10717,30 +10717,30 @@ No Refunds.]]>
   <string id="465844"><![CDATA[Surface Attach]]></string>
   <string id="465873"><![CDATA[cs_surface]]></string>
   <string id="465894"><![CDATA[stockIcon_module]]></string>
-  <string id="465927"><![CDATA[按模块筛选]]></string>
-  <string id="465960"><![CDATA[启动表面]]></string>
-  <string id="465985"><![CDATA[平衡环]]></string>
-  <string id="465998"><![CDATA[交流电机]]></string>
-  <string id="466019"><![CDATA[可控表面]]></string>
-  <string id="466050"><![CDATA[机翼]]></string>
-  <string id="466065"><![CDATA[反应轮]]></string>
-  <string id="466094"><![CDATA[命令]]></string>
-  <string id="466109"><![CDATA[可展开太阳能板]]></string>
-  <string id="466154"><![CDATA[发电机]]></string>
-  <string id="466173"><![CDATA[资源入口]]></string>
-  <string id="466204"><![CDATA[数据传输]]></string>
-  <string id="466237"><![CDATA[降落伞]]></string>
-  <string id="466256"><![CDATA[可收放起落架]]></string>
-  <string id="466293"><![CDATA[着陆架]]></string>
-  <string id="466316"><![CDATA[升力表面]]></string>
-  <string id="466347"><![CDATA[挂钩点]]></string>
-  <string id="466372"><![CDATA[对接点]]></string>
-  <string id="466397"><![CDATA[科学实验室]]></string>
+  <string id="465927" noT="1"><![CDATA[Filter by Module]]></string>
+  <string id="465960" noT="1"><![CDATA[Aero Surface]]></string>
+  <string id="465985" noT="1"><![CDATA[Gimbal]]></string>
+  <string id="465998" noT="1"><![CDATA[Alternator]]></string>
+  <string id="466019" noT="1"><![CDATA[Control Surface]]></string>
+  <string id="466050" noT="1"><![CDATA[Winglet]]></string>
+  <string id="466065" noT="1"><![CDATA[Reaction Wheel]]></string>
+  <string id="466094" noT="1"><![CDATA[Command]]></string>
+  <string id="466109" noT="1"><![CDATA[Deployable Solar Panel]]></string>
+  <string id="466154" noT="1"><![CDATA[Generator]]></string>
+  <string id="466173" noT="1"><![CDATA[Resource Intake]]></string>
+  <string id="466204" noT="1"><![CDATA[Data Transmitter]]></string>
+  <string id="466237" noT="1"><![CDATA[Parachute]]></string>
+  <string id="466256" noT="1"><![CDATA[Landing Gear Fixed]]></string>
+  <string id="466293" noT="1"><![CDATA[Landing Leg]]></string>
+  <string id="466316" noT="1"><![CDATA[Lifting Surface]]></string>
+  <string id="466347" noT="1"><![CDATA[Grapple Node]]></string>
+  <string id="466372" noT="1"><![CDATA[Docking Node]]></string>
+  <string id="466397" noT="1"><![CDATA[Science Lab]]></string>
   <string id="466420"><![CDATA[轨道探测器]]></string>
   <string id="466453"><![CDATA[资源转化器]]></string>
   <string id="466490"><![CDATA[资源收集器]]></string>
-  <string id="466527"><![CDATA[资源探测器]></string>
-  <string id="466560"><![CDATA[科学实验]]></string>
+  <string id="466527"><![CDATA[资源探测器]]></string>
+  <string id="466560" noT="1"><![CDATA[Science Experiment]]></string>
   <string id="466597"><![CDATA[R&D_node_icon_aerodynamicsystems]]></string>
   <string id="466662"><![CDATA[R&D_node_icon_flightcontrol]]></string>
   <string id="466717"><![CDATA[R&D_node_icon_highaltitudeflight]]></string>
