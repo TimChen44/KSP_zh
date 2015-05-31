@@ -1,8 +1,8 @@
 GAME
 {
 	version = 0.21.0
-	Title = Mun Orbit
-	Description = The Kerbal 11 Mission in low Mun Orbit. This mission is comprised of two docked vehicles, the Landing Module and the Command Module. The lander is undocked from the Command module, flies down to land, then returns to orbit where the Command Module will rendezvous and dock with it. After that, the lander is discarded and the crew leaves Mun orbit to return home.
+	Title = 登陆Mun
+	Description = Kerbal11任务飞船位于Mun低轨道。本次任务使用的飞船由两个对接的模块登陆舱、指令舱组成。登陆舱脱离指令舱，登陆Mun然后返回轨道，与指令舱交会对接之后，着陆器上升级将被丢弃，船员离开Mun轨道回家。
 	Mode = 0
 	Status = 1
 	scene = 7

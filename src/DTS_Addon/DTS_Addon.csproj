@@ -254,6 +254,12 @@
       <Link>DTS_zh\cnfont\cn16b.fnt.unity3d</Link>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DTS_zh\DTS_zh.csproj">
+      <Project>{71de13ea-3237-47e3-bfe7-7b12ad946d73}</Project>
+      <Name>DTS_zh</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
