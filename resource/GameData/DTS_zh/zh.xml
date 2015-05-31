@@ -3844,7 +3844,7 @@ FlightGlobals.mainBody: ]]>
   <string id="118288"><![CDATA[设为目标]]></string>
   <string id="118315"><![CDATA[取消该目标]]></string>
   <string id="118340"><![CDATA[切换到]]></string>
-  <string id="118359"><![CDATA[在雷达站查看]]></string>
+  <string id="118359"><![CDATA[在测控站查看]]></string>
   <string id="118408"><![CDATA[焦点视角]]></string>
   <string id="118429"><![CDATA[OrbitTargeterCheckingTrackingStationState]]></string>
   <string id="118512"><![CDATA[[Orbit Targeter]: Target is ]]></string>
@@ -5852,7 +5852,7 @@ Spd: ]]>
   <string id="202023"><![CDATA[[PartTest]: Contract for ]]></string>
   <string id="202074"><![CDATA[该部件已经研发完毕，无需实验性测试。]]></string>
   <string id="202187"><![CDATA[我们想要你在这个星球表面插上旗帜:]]></string>
-  <string id="202280"><![CDATA[雷达站确认你已在下列星球表面插上旗帜]]></string>
+  <string id="202280"><![CDATA[测控站确认你已在下列星球表面插上旗帜]]></string>
   <string id="202381"><![CDATA[. 干得漂亮!]]></string>
   <string id="202410"><![CDATA[FlagPlant]]></string>
   <string id="202429"><![CDATA[kerbalEVA]]></string>
@@ -7895,32 +7895,22 @@ Cost: \F ]]>
 距离不足够接近小行星将无法继续教程。]]>
   </string>
   <string id="293711">
-    <![CDATA[Good job. You’re now on a similar but lower orbit to the Asteroid. Keep it targeted and experiment with your maneuver nodes until you have a closest encounter of less than 10 kilometers, then execute the burn and wait until you reach that encounter.
+    <![CDATA[好现在飞船轨道稍低于小行星设置小行星为目标尝试把最小距离缩短至10km以下，时间加速至交会点附近。
 
-This step is actually optional, just keep in mind that the closer your orbit takes you, the less fuel you'll have to use.
+这一步可有可无，但是要记住交会点越近越省油。 
 
-Anyway, when you're done click Next.]]>
+完成时请点击下一步(NEXT)]]>
   </string>
   <string id="294533">
-    <![CDATA[And this is where speed and efficiency is key. Wait until you're about 5 minutes away from your encounter nodes.
-
-Right-click the velocity meter in your NavBall so it shows your relative velocity to your Target. You’re roughly moving at the same speed, but the difference will make one of you drift apart.
-
-Aim retrograde in this set up and use your boosters or RCS thrusters to lower that velocity to 0.0 m/s. That means that relative to the asteroid, you are no longer moving. Note that after such a long wait your batteries could be depleted and your ship unresponsive, not a problem, just get out of map view and deploy your solar panels.
-
-If you get out of the map screen you should even have a visual on the target not too far.]]>
+    <![CDATA[现在是发挥单身多年的手速的时候了！距交会点约5分钟时右击导航球的速度计，使其显示相对目标的速度。虽然速度大致相同，但是微小的差距会让飞船在小星星旁边乱飘。将飞船指向目标模式下的逆行向量使用助推器或者RCS将相对速度减小至零意味着相对小行星静止，然后打开太阳能电池板充满电。如果距离足够近可以在飞船视图肉眼看到小行星。]]>
   </string>
   <string id="296001">
-    <![CDATA[Ok, so now you are "not moving" and you're so close to the asteroid you can almost touch it.
-What you have to do now is aim yourself towards the asteroid by pointing at the pink round icon in your NavBall. Burn a little to get closer and turn yourself retrograde to kill your speed again. Take baby steps trying to get a bit closer every time.
-For small adjustments you can also use RCS translation burns (]]>
+    <![CDATA[现在飞船“静止”且足够接近小行星。现在对准小行星推进一点，接近小行星后再反向减速。重复多次直至快要撞到小行星，建议使用RCS(]]>
   </string>
   <string id="296815"><![CDATA[ ,]]></string>
-  <string id="296820"><![CDATA[ keys) to tweak your approach.]]></string>
+  <string id="296820"><![CDATA[ 键) 微调。]]></string>
   <string id="296881">
-    <![CDATA[And here we are, now all that's left is to grab that rock, but we'll leave it for next time, your head is probably about to explode with new information.
-
-So for now just suffice it to say you achieved quite a feat, good bye for now.]]>
+    <![CDATA[只剩最后一步——捕获了，我们下个教程再见。]]>
   </string>
   <string id="297349"><![CDATA[Finish]]></string>
   <string id="297362"><![CDATA[Asteroid Redirect Mission, Part 2]]></string>
@@ -7932,55 +7922,39 @@ So for now just suffice it to say you achieved quite a feat, good bye for now.]]
   <string id="297574"><![CDATA[Pivot and Alignment]]></string>
   <string id="297613"><![CDATA[Redirect start]]></string>
   <string id="297642">
-    <![CDATA[Well pilot, you caught up to it but don’t pat yourself on the back yet, you’re not even close to done. How about we catch this rock?
+    <![CDATA[接近小行星可能已经累死人了，我们一鼓作气把任务干完吧。
 
-Right-click on the white dome at the top of your ship and arm your grapple.]]>
+右键飞船顶上的白色组件，打开抓钩。]]>
   </string>
   <string id="298062">
-    <![CDATA[This modern marvel of technology will grab onto anything that it touches. The boys at the lab had an intern hanging from there for a whole day. Thing didn’t even budge.
-
-The equipment has limits obviously, so don’t expect to catch any asteroids by ramming it into them at full speed. Think stepping on a soda can but one worth a lot of taxpayer money.]]>
+    <![CDATA[坎星科技制造的抓钩什么都能抓，一个研究员曾经在上面挂了一天。这么逆天的装备自然有其缺陷别想着用它全速撞击小行星，这可都是纳税人的钱。]]>
   </string>
   <string id="298766">
-    <![CDATA[And that’s why we’re going to handle it with care. Now, with your grapple armed, target the asteroid and slowly and carefully use your RCS thrusters to move towards the asteroid.
-
-Keep it straight and once you’re close enough, the mechanism will activate on its own and grab this load of valuable and amazing minerals for us. 
-Be patient, this will take some time, but if you rush it and miss you will make matters worse.]]>
+    <![CDATA[这就是我们认真操作的原因，打开抓钩目标小行星小心谨慎地用RCS靠近。靠近之后注意指向小行星重心一旦接触抓钩会自动把宝贵的小行星抓回来的。这一步要求玩家有耐心，心急吃不了热豆腐。]]>
   </string>
   <string id="299610">
-    <![CDATA[There you go, now we’re grabbed onto the asteroid.
-
-You can pretty much call it yours now, but to make it really yours you should rename it. Right click it and choose Rename Asteroid to do so. 
-
-There’s something important when it comes to moving asteroids; efficiency. If you think the way you’re grabbing the asteroid doesn’t matter, I’d ask you to get up, grab a bag of groceries and carry it around with your arm fully outstretched at a 90 degree angle from your body, then do the same carrying it as you normally would and tell me if they were both the same.]]>
+    <![CDATA[终于抓住了小行星，它是你的了。不右键重命名宣示所有权吗？ 移动小行星的时候要注意效率，想想平举胳膊提起重物和正常用力哪个更省。]]>
   </string>
   <string id="300738">
-    <![CDATA[Your grapple and the thrust of the ship are bound to the same principles, that's why we have a pivot to modify your connection angle and to make aligning to your centre of mass a complete breeze.
-
-Right click on the grapple and unlock the pivot. The grapple itself will remain connected but you will be able to independently move your ship and realign it.
-
-Go ahead and adjust yourself until you have a better alignment, then lock the pivot again.]]>
+    <![CDATA[抓钩和飞船也是一样，抓钩可以调整角度以保证小行星重心在推力上。右键解锁角度就可以自由调整了，调整好了就再锁上。]]>
   </string>
-  <string id="301634"><![CDATA[Now you're all set to start redirecting your asteroid, whether you want to use it to study materials, make it a mass destruction weapon or create a rocky space station like some pesky mutant; you're going to have to move ]]></string>
+  <string id="301634"><![CDATA[无论想拿它干什么，研究、采矿、制造大规模杀伤性武器还是岩石空间站，你可以把小行星带回家了。]]></string>
   <string id="302078">
-    <![CDATA[While you could start setting up maneuver nodes and burning in order to move that heavy load of yours right now, it would come at a great fuel cost, so it's better to plan a better approach.
-
-Open your map, set Kerbin as your target, and find the point where Kerbin's orbit is closest to yours, then set up a maneuver node OPPOSITE to that.]]>
+    <![CDATA[现在可以规划变轨点火了，规划的时候要注意油耗。打开星图设置Kerbin为目标开始规划吧。]]>
   </string>
   <string id="302760">
-    <![CDATA[Now try creating a course that will get you back under Kerbin's SOI, sounds simple enough but watch out for two things.
+    <![CDATA[回家看起来容易不过要注意两点。
+首先载荷质量极大，所以应该注意规划的可行性。一般点火时间超过10分钟很可能用光燃料。 
 
-First of all, you're carrying a LOT of mass, so before calling it done see if the maneuver is doable in real life. Rule of thumb is, if you're getting more than a 10 minutes estimated burn time you will probably run out of fuel before completing it.
-
-Secondly, if it seems like it's impossible getting a return course, right click the maneuver node, along with the delete button two more buttons will appear, these are plus or minus one full orbit, so if you don't get it in this lap maybe you will in the next one, or in 100 years, what difference does it make?]]>
+其次，觉得回不来的话尝试右击规划的变轨节点除了删除下面还有两个按钮。分别表示多转一圈和少转一圈变轨的情况。万一一百年之后能回来呢。]]>
   </string>
   <string id="304128"><![CDATA[Vector cupola (AsteroidCatcher) flight plan]]></string>
   <string id="304215">
-    <![CDATA[That flight plan looks okay, but it seems like you will have to wait for a loooooong time, so I'll leave you to it.
+    <![CDATA[这个规划不错，但是超超超超级耗时你自己做吧，我先撤了。
 
-My last advice about this is to use all of your piloting skills when actually executing the burn, sometimes it's hard to keep your ship steady when it weights tens of tons. And also, patience, I know this is a long mission, but you must endure, or use time warp, whatever suits you best.
+最后说一句：飞船加上小行星质量很大保持飞船姿态非常困难，而且点火时间会很长是时候施展全部技巧了。
 
-That's all for my part, see you on Kerbin.]]>
+本次教程到此结束我们坎星见。]]>
   </string>
   <string id="305113"><![CDATA[default page 1]]></string>
   <string id="305142"><![CDATA[Tutorial Window]]></string>
@@ -8019,40 +7993,28 @@ Note that this page is added with AddState instead of AddPage, because we don't 
   <string id="307471"><![CDATA[Docking - End]]></string>
   <string id="307498"><![CDATA[docking]]></string>
   <string id="307513">
-    <![CDATA[Hello, today we'll be going over a very exciting process, making two separate ships attach so they can share resources, crew, or simply become a bigger ship. 
-If you're interested in launching satellites or creating space stations this will be a must, so pay attention.
-
-Let's begin.]]>
+    <![CDATA[今天我们一起学习对接——也就是把两个分开的飞船合体以便送人送油，或者单纯的搞个大飞船。 如果玩家喜欢一箭多星或者搭建空间站这个教程就是为你量身定制。废话少说我们开始。]]>
   </string>
   <string id="308081">
-    <![CDATA[In order to dock to another ship the first thing you have to do is catch up to it, rendezvous with it using the lingo. To accomplish that the first thing you have to do is put your ship in a coplanar orbit, meaning an orbit with the exact same inclination.
+    <![CDATA[要对接首先要变轨接近目标，首先要和目标轨道倾角一致。
 
-Open your map to see the scenario at hand.]]>
+进入星图看看教程情况。]]>
   </string>
   <string id="308683">
-    <![CDATA[Look at those poor guys, they're doomed to orbit Kerbin forever, unless you go to their rescue, which you should, because our reputation will go down if you don't. If you play around with the camera you will notice your orbit and theirs don't have the same inclination, in this situation, the first thing we need to do is align our orbit with that of the other ship.
-
-Click the stranded ship and set it as your target.]]>
+    <![CDATA[看看可怜的小绿人我们不去救他就一辈子回不来了，不过不救掉声望我们还是要救他。细心的玩家会发现轨道倾角跟目标不一样。点击被困飞船设为目标。]]>
   </string>
-  <string id="309521"><![CDATA[Good, now you will notice a few new things appeared on your orbit, a couple dotted lines ending in your Ascending and Descending nodes indicators. These are the points where the plane of your orbit crosses the plane of the target orbit.]]></string>
-  <string id="309995"><![CDATA[This is what these nodes look like.]]></string>
+  <string id="309521"><![CDATA[现在会看到轨道上出现一些标志，一对升交点降交点标志标识了穿过目标轨道平面的点。]]></string>
+  <string id="309995"><![CDATA[如下图所示：]]></string>
   <string id="310066">
-    <![CDATA[So go ahead and create a maneuver node at the Descending Node and manipulate the Normal direction handles so that your inclination with respect to the target orbit is zero. 
-
-You can mouse over the DN as it moves around the orbit to know the estimated inclination. If you can't seem to get exactly 0 try moving the maneuver node itself a bit.
-
-Execute the burn when you're ready.]]>
+    <![CDATA[在降交点创建变轨节点，改变常态向量匹配倾角。将鼠标悬停在降交点上查看变轨后的轨道面夹角尝试使其为0，准备好了就点火吧。]]>
   </string>
   <string id="310826">
-    <![CDATA[Outstanding! Now your orbit and the stranded ship's are coplanar.
-The next step is to generate a transfer orbit, much like you do when you're targeting another Celestial Body. Create a maneuver node on your orbit, doesn't really matter where since we're going to move it around. Extend the prograde vector until you get an intersecting orbit. Play with the prograde and the node position until you get the same colored intersection nodes close to each other, ideally within a 5km range.]]>
+    <![CDATA[干得漂亮！现在和目标轨道共面了。下一步就像去其他天体一样 生成转移轨道调整顺行/逆行向量直至交会，控制交会点距离小于5km。]]>
   </string>
   <string id="311800"><![CDATA[Vector Vector Intersect 1 Node]]></string>
-  <string id="311861"><![CDATA[That looks nice, execute that maneuver as precisely as possible. You will most likely not get it exactly like the maneuver node predicts, which is why precision is crucial, try to burn leaving exactly 0m/s dV left. I recommend you burn at full throttle until you have about 10m/s to go and then cut your engines and start opening little by little so you don't overshoot it.]]></string>
+  <string id="311861"><![CDATA[好了，注意精确执行轨道机动。建议开满节流阀直至剩下10m/s然后只开一点点。]]></string>
   <string id="312609">
-    <![CDATA[Good, now you're in a trajectory that will get you very close to your target, if you think you can get even closer I suggest fine tuning the encounter using your RCS thrusters instead of the rocket. However no matter how close you get you'll be going too fast to actually do anything about it. That's why you have to step on the brakes.
-
-That is of course just a figure of speech because there's no such thing as a brake pedal in spacecraft. For now let's wait until we're about 60km away from the target. Once there check that the NavBall is in "Target" mode, if it's not click the velocimeter a few times until you're in it. While in target mode turn retrograde and burn at full throttle until your velocity drops below 50m/s.]]>
+    <![CDATA[现在轨道和目标交会了，可以用RCS继续微调。不过无论交会点多近，接近目标之后都需要“刹车”以保持相对静止。然而宇宙飞船上面可没有刹车踏板，需要自行减速。据目标60km时点击导航球上方速度指示器切换到目标模式，背对目标时节流阀全开直到相对速度减到50m/s以下。]]>
   </string>
   <string id="314067">
     <![CDATA[Okay, you are now pretty close to the target ship and you're moving slowly with respect to it, but we have to come to a full stop or we'll drift away.
@@ -8488,60 +8450,34 @@ I'm really proud of you, I know you have potential.]]>
     <![CDATA[欢迎来到月球，我相信你费了好大劲才着陆成功。你最好仔细看看这个飞船，这是最基础的登陆器包涵所有登陆返回所需功能，现在把小绿人带回家吧。]]>
   </string>
   <string id="377486">
-    <![CDATA[Before we do that though let's seize this opportunity to do a little moonwalking.
-
-Hover your mouse over the picture of your Kerbal and click the EVA button and get out on the ladder.
-
-In this case the ladder is already deployed, but always make sure it is before stepping out or you could be unable to get back in the ship.]]>
+    <![CDATA[返回之前抓紧机会来一次月球漫步呢？将鼠标悬停至左下角小绿人头像上，点击“出舱”然后爬到梯子上。现在梯子是打开的，之后要保证梯子打开要不然就回不去了。]]>
   </string>
   <string id="378136">
-    <![CDATA[Exactly! Climb down that ladder using the S key and at the bottom press Space to let go. Look at you, walking on the Mun.
-
-There are a number of things you can do while EVA'ing. First of all, you can walk around with W, A, S, and D, and if you hold down Shift with these same directions you can run. You can press R to toggle the Jetpack control, spacebar to jump and if you right click the Kerbal there are a few other things you can do.
-
-I'll leave it to you to find out, when you've had enough and want to go home get back on the ship.]]>
+    <![CDATA[按S键爬下梯子然后按空格键跳下来，出舱之后活动丰富。首先WASD四键行走，同时按下Shift奔跑。R键开关喷气背包，空格键跳跃等。玩家可以自行探索其他内容，玩够了就回飞船吧。]]>
   </string>
   <string id="379214">
-    <![CDATA[Off we go then.
-
-Getting back to Kerbin works very much the same way as getting from Kerbin to the Mun, but it's actually a lot easier because gravity on the Mun is lower and there is no atmosphere.]]>
+    <![CDATA[该回家了，回家和去Mun差不多还容易一点因为Mun引力小没大气。]]>
   </string>
   <string id="379612">
-    <![CDATA[What you have to do now is throttle all the way up and orient your ship towards Kerbin, in this particular case it's just below the horizon, around heading 270 degrees.
-
-Once you're properly oriented, open your map view and keep burning until your orbit leaves the Mun's SoI and puts you inside Kerbin's SoI, it will be indicated by a theoretical orbit in you map.
-
-As soon as it happens hit X to cut throttle and not waste any fuel.]]>
+    <![CDATA[只需节流阀全开、将飞船转向坎星现在坎星刚好在Mun地平线附近270度左右。方向挑好之后就打开星图等飞船轨道可以离开Mun引力影响范围(SOI)时立即按X关闭节流阀。]]>
   </string>
   <string id="380480"><![CDATA[Vector mk1pod (MunLanderA)]]></string>
   <string id="380533">
-    <![CDATA[That's right, your current trajectory will put you under Kerbin's Sphere of influence, from there, you should already know what to do, but for now let's just wait until we're orbiting Kerbin.
-
-You may use time warp at your discretion.]]>
+    <![CDATA[好，现在的轨道朝向坎星我们等着吧。时间加速到离开Mun的SOI]]>
   </string>
   <string id="381003">
-    <![CDATA[Okay, you're now gravitationally bound to Kerbin, from here it's child's play to get back home, so let's make it interesting.
-
-First put yourself in a circular orbit of less than 300 km radius, remember what you've learned in previous lessons.
-
-You are encouraged to use manuever nodes, but it's not a requirement. If you get another Mun encounter ignore it. Also remember to go easy on the timewarp, you may miss your targets if you overdo it.]]>
+    <![CDATA[现在飞船被坎星捕获，随便就能回去。我们加点难度。综合运用之前教程学到的知识把轨道变成300km圆轨，不幸被月球再次捕获就加速过去，小心时间加速过头！]]>
   </string>
-  <string id="381893"><![CDATA[Good, in this orbit you can even get picky and choose where you want to land, I'll let you choose the landing location, but I'll give you extra points if you manage to land back at the Kerbal Space Center, I hope you took notice of where it is.]]></string>
+  <string id="381893"><![CDATA[现在可以选择着陆地点了，降落在KSC有额外奖励。]]></string>
   <string id="382383">
-    <![CDATA[WOW! You actually pulled it off! You're some kind of scientist robot ninja from the future or something, congratulations.
-
-This concludes this tutorial, you're about ready to take on any mission that comes your way, so go for it.]]>
+    <![CDATA[你真的降落在KSC了，真实天才我很看好你跟我继续教程吧。]]>
   </string>
   <string id="382843">
-    <![CDATA[Oops, you didn't get quite there, but close enough, it was a good effort.
-
-This concludes this tutorial, I think you're ready to start your own missions, so go for it.]]>
+    <![CDATA[别灰心离KSC很近了，继续下一个教程吧。]]>
   </string>
-  <string id="383179"><![CDATA[Ugh, this is so frustrating, you were so close! Well, don't feel bad, you can try the tutorial again any time, see you then.]]></string>
+  <string id="383179"><![CDATA[真遗憾差一点就降落在KSC了，继续下一个教程吧。]]></string>
   <string id="383429">
-    <![CDATA[Well...you're on the ground, safe and sound, and that's what matters the most.
-
-This concludes this tutorial, I think you're ready to start your own missions, so go for it.]]>
+    <![CDATA[能安全着陆就好，继续下一个教程吧]]>
   </string>
   <string id="383775"><![CDATA[环绕轨道 101]]></string>
   <string id="383800"><![CDATA[whatsAnOrbit]]></string>
@@ -8674,39 +8610,27 @@ This concludes this tutorial, I think you're ready to start your own missions, s
     <![CDATA[轨道倾角是轨道和赤道面的夹角。如果控制得很好，倾角应该是0度。即使改变高度倾角也不变。垂直前进方向推进飞船可以改变倾角的同时不改变相对地面的角度。对于现在前进方向向东几乎和赤道平行的轨道。改变倾角就是增加倾角、升高纬度。完成这一目标需要向常态方向推进飞船。]]>
   </string>
   <string id="399658">
-    <![CDATA[If all that I just said made your head spin, the NavBall once again comes to your rescue, to change your orbital inclination. In this case you will need to use the Normal Vector.
-
-Let's try that now: Turn the ship to the Normal Vector's direction and open the throttle.]]>
+    <![CDATA[如果听晕了，就看看导航球上面的常态向量。试试看：调整飞船姿态指向常态向量并打开节流阀。]]>
   </string>
   <string id="400198">
-    <![CDATA[Notice how as you burn north, your orbit starts to tilt up, but the Periapsis and Apoapsis nodes remain mostly the same.
-
-That is because we are accelerating on a completely new direction, so this maneuver doesn't add or take away any energy from the orbit.
-
-Keep accelerating towards the normal until your inclination is about 10°.]]>
+    <![CDATA[注意向“北”推进飞船，倾角变化了而近拱点和远拱点几乎不变。是因为我们的推进方向几乎不改变轨道能量，继续推进直到倾角10°左右。]]>
   </string>
   <string id="400864"><![CDATA[轨道倾角: ]]></string>
   <string id="400903"><![CDATA[干得好!这就是调整轨道倾角的方法.这个机动最好能在轨道速度最慢的点(也就是远拱点)进行,这样你就可以节省一部分D-V.这同时也意味着在更高的轨道上进行轨道倾角的变化,例如我们现在做的,要比在低轨道上进行更省油.同时也要记得进行轨道倾角的变化并不意味着一定是向着正北或正南加速,而是向你速度方向的垂直方向加速.只是在我们的近圆轨道上它恰好是正北而已.接下来我们来看最后一个你必须学会的机动:降低轨道.]]></string>
   <string id="402285"><![CDATA[继续]]></string>
   <string id="402300"><![CDATA[就像你可能猜到的那样,降低轨道的高度跟抬升轨道高度非常相似,只是方向反了过来而已.因为没有空气阻力的关系,我们可以用我们的主引擎来进行减速,就跟加速一样.因为没有任何东西逼着我们必须朝向某个方向.同时因为我们的轨道是近乎圆形的,所以我们可以直接转向减速矢量然后打开引擎.]]></string>
-  <string id="403218"><![CDATA[减速矢量是这样的:]]></string>
+  <string id="403218"><![CDATA[逆行向量是这样的:]]></string>
   <string id="403255">
-    <![CDATA[Keep burning retrograde until the Periapsis altitude is around 20,000m.
-
-Try getting it as close as possible this time. If you overshoot and get it too low, turn prograde and accelerate again. For precision remember that you can fine tune your throttle using the ]]>
+    <![CDATA[朝逆行方向点火知道近拱点为20000m，推进过头就反推，也可以按 ]]>
   </string>
-  <string id="403783"><![CDATA[ keys.]]></string>
+  <string id="403783"><![CDATA[ 键微调尽可能接近目标。]]></string>
   <string id="403796">
-    <![CDATA[That's it! You're now on your way back.
+    <![CDATA[现在开始返回
 
-20,000m is low enough to be in the atmosphere, so you are now on a re-entry course to Kerbin. Once we're below 60,000m, the atmosphere will start slowing the ship down, so that it won't have enough velocity to rise back up again. ]]>
+20000m足够返回，低于60000m大气会使飞船减速，飞船就再也回不去了。]]>
   </string>
   <string id="404340">
-    <![CDATA[This is the end of our lesson now. You can continue doing maneuvers on your own, or wait for periapsis and do a reentry and land.
-
-Don't forget to decouple the capsule and deploy the parachutes.
-
-See you on the ground!]]>
+    <![CDATA[本次教程到此结束，玩家可以继续变轨。当然也可以等着返回，别忘了分离返回舱开降落伞。]]>
   </string>
   <string id="404778"><![CDATA[TutorialScenarioWindow]]></string>
   <string id="404823"><![CDATA[This is the base class for the tutorial scenario. It has no content by itself. Please extend this class and override the OnTutorialSetup method to add your own pages.]]></string>
@@ -8743,32 +8667,27 @@ See you on the ground!]]>
     <![CDATA[, 杰出科学家. 本次教程不需要前置课程，但是获取科研点数要求你了解游戏的每一个部分，所以还是先看看前面的教程比较好。我们现在在坎星宇航中心，我会给你简单介绍一下整个中心。你可以把鼠标悬停到任何一个建筑上在屏幕底端看到它的名字。]]>
   </string>
   <string id="407593">
-    <![CDATA[The large building on the top left closest to the runway is the Space Plane Hangar, here you can build and fly Spaceplanes.
+    <![CDATA[跑道左边是飞行器设计室(SPH)
 
-The large cubelike structure in the middle is the Vehicle Assembly Building - this is where you will be constructing most of your Spacecraft.
+中间是飞船装配大楼(VAB)，玩家主要在这里设计建造飞船。
 
-It is connected to the launchpad located at the upper right, this is where you can put your creations to test and start new missions, however the Launchpad will only allow vertical launches.
-
-Crew management and hiring applications will take place in the Astronaut Complex, which is located next to the flagpole on the left. The facility with the three parabolic antennas is the Tracking Station, through which you can manage, access and observe all active missions.]]>
+它与发射台相连，发射台是测试飞船和开始任务的地方，这里只能垂直发射。
+旗杆左边是航天员中心，负责招募和管理航天员。有三个达巨型抛物面天线的是测控站，负责观测管理所有活动航空航天器。]]>
   </string>
   <string id="409063">
-    <![CDATA[The large complex at the bottom of the space center is the Research and Development Complex, the focus of this tutorial. This is where you will make use of the science points your missions award you, and you will gain more parts.
-
-Go ahead and click it to see it in action.]]>
+    <![CDATA[航天中心下面大型建筑群是研发中心，是本次教程的核心。 在这里玩家获得科学点数，用它研发科技和组件。点击进入科研中心。]]>
   </string>
   <string id="409611"><![CDATA[很好! 你在图纸上看到的就是科技树. 它能告诉你你的研究为坎巴拉科技带来了多大的进展. 现在上面基本没什么东西可看, 这是因为你不是一个像我这样的世界级科学家. 至少现在还不是. 但是我看好你的潜力, 相信你能获得很大的成就.]]></string>
   <string id="410227">
-    <![CDATA[In a typical career game you will start with a few parts and have to earn the rest.
+    <![CDATA[经典的生涯模式中，玩家从最基本的几个组件开始，获得科研点数然后研究科技解锁组件。
 
-For education's sake I've gone ahead and given some data to your space program, so you should have enough Science to unlock the next node. The amount of Science you have is shown on the top right.
-
-Let's get cracking, select any of the available grayed out nodes and click the blue Research button on the right pane.]]>
+为了教程需要我送了一些科研点数以便玩家解锁下一个科技，右上方显示了玩家拥有的科研点数   选择所有灰色的科技节点，点击右边的蓝色按钮：研究以解锁该科技。]]>
   </string>
   <string id="411031"><![CDATA[stackDecoupler]]></string>
   <string id="411060">
-    <![CDATA[Hooray, that's how research is done. You should have noticed new nodes to be researched became available from the one you just researched.
+    <![CDATA[这就是科研的全程，注意解锁科技逐步进行必须满足先决条件。
 
-Don't know what to pick next? Don't worry, you can select a node at any time and useful information will be displayed in the right pane. For example what parts it contains, and how much Science is needed to research it.]]>
+挑花了眼？不用担心玩家可以随时了解每个科技的信息，比如：可以解锁哪些组件需要多少点数。]]>
   </string>
   <string id="411780">
     <![CDATA[Now, you're probably thinking to yourself "This is all nice and jolly, but how do I get more science?".
@@ -9364,7 +9283,7 @@ Show yourself out by using the red button on the upper right when you're done.]]
   <string id="437377"><![CDATA[SSUITextArea_]]></string>
   <string id="437404"><![CDATA[SSUITextField_]]></string>
   <string id="437433"><![CDATA[ Beta]]></string>
-  <string id="437444"><![CDATA[<color=green>[雷达站]:正在追踪<i>]]></string>
+  <string id="437444"><![CDATA[<color=green>[测控站]:正在追踪<i>]]></string>
   <string id="437543"><![CDATA[</i>.</color>]]></string>
   <string id="437570"><![CDATA[{0} by {1} (added in v{2})]]></string>
   <string id="437623"><![CDATA[UNKNOWN]]></string>
