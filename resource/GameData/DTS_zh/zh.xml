@@ -4368,19 +4368,19 @@ Looking for ]]>
   <string id="140431"><![CDATA[minThrust]]></string>
   <string id="140450"><![CDATA[EngineType]]></string>
   <string id="140471"><![CDATA[]: 无法在被装填的时候启动!</color>]]></string>
-  <string id="140552"><![CDATA[关机]]></string>
+  <string id="140552" noT="1"><![CDATA[Shutdown]]></string>
   <string id="140569" noT="1"><![CDATA[Activate]]></string>
-  <string id="140586"><![CDATA[熄火]]></string>
-  <string id="140603"><![CDATA[启动]]></string>
-  <string id="140616"><![CDATA[脱离]]></string>
-  <string id="140635"><![CDATA[奔跑]]></string>
-  <string id="140650"><![CDATA[推力]]></string>
-  <string id="140661"><![CDATA[熄火]]></string>
-  <string id="140678"><![CDATA[奔跑]]></string>
+  <string id="140586" noT="2"><![CDATA[flameout]]></string>
+  <string id="140603" noT="2"><![CDATA[engage]]></string>
+  <string id="140616" noT="2"><![CDATA[disengage]]></string>
+  <string id="140635" noT="2"><![CDATA[running]]></string>
+  <string id="140650" noT="2"><![CDATA[power]]></string>
+  <string id="140661" noT="2"><![CDATA[Flameout]]></string>
+  <string id="140678" noT="2"><![CDATA[Running]]></string>
   <string id="140693"><![CDATA[Power]]></string>
   <string id="140704"><![CDATA[空气氧化失败]]></string>
-  <string id="140747"><![CDATA[熄火]]></string>
-  <string id="140764"><![CDATA[关闭]]></string>
+  <string id="140747" noT="2"><![CDATA[Occluded]]></string>
+  <string id="140764" noT="2"><![CDATA[Off]]></string>
   <string id="140771"><![CDATA[LIQUID_ENGINE]]></string>
   <string id="140798"><![CDATA[thrustPercentage]]></string>
   <string id="140831"><![CDATA[轻轻]]></string>
