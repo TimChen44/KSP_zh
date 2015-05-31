@@ -10592,7 +10592,7 @@ No Refunds.]]>
   <string id="463028"><![CDATA[>准备好的小绿人: ]]></string>
   <string id="463063"><![CDATA[	<b>[最多: ]]></string>
   <string id="463084"><![CDATA[]</></>]]></string>
-  <string id="463099"><![CDATA[>Cannot Hire</>]]></string>
+  <string id="463099"><![CDATA[>无法雇佣</>]]></string>
   <string id="463130"><![CDATA[>Astronaut Complex Capacity Reached</>]]></string>
   <string id="463207"><![CDATA[可招募 []]></string>
   <string id="463230"><![CDATA[已招募 []]></string>
@@ -10649,7 +10649,7 @@ No Refunds.]]>
   </string>
   <string id="464688"><![CDATA[>部件数:</>]]></string>
   <string id="464709"><![CDATA[>质量:</>]]></string>
-  <string id="464728"><![CDATA[t吨/ ]]></string>
+  <string id="464728"><![CDATA[吨/ ]]></string>
   <string id="464737">
     <![CDATA[>尺寸</>
 <]]>
@@ -10685,7 +10685,7 @@ No Refunds.]]>
   <string id="465078"><![CDATA[stockIcon_fueltank]]></string>
   <string id="465115"><![CDATA[引擎]]></string>
   <string id="465130"><![CDATA[stockIcon_engine]]></string>
-  <string id="465163"><![CDATA[操作和欧诺个只]]></string>
+  <string id="465163"><![CDATA[操作和控制]]></string>
   <string id="465202"><![CDATA[stockIcon_cmdctrl]]></string>
   <string id="465237"><![CDATA[构架]]></string>
   <string id="465258"><![CDATA[stockIcon_structural]]></string>
