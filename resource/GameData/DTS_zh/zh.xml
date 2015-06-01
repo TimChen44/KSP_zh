@@ -2370,7 +2370,7 @@ FX Scale: ]]>
   <string id="64739"><![CDATA[Docking (Rotation)]]></string>
   <string id="64776"><![CDATA[清除指定]]></string>
   <string id="64809"><![CDATA[接受]]></string>
-  <string id="64822"><![CDATA[初级:]]></string>
+  <string id="64822"><![CDATA[主部 (Primary):]]></string>
   <string id="64839"><![CDATA[反向]]></string>
   <string id="64852"><![CDATA[灵敏度]]></string>
   <string id="64877"><![CDATA[静止区 ]]></string>
@@ -2469,17 +2469,17 @@ FX Scale: ]]>
   <string id="67332"><![CDATA[地形细节: ]]></string>
   <string id="67365"><![CDATA[SM3地形阴影: ]]></string>
   <string id="67408"><![CDATA[无硬件支持]]></string>
-  <string id="67447"><![CDATA[Terrain Scatters: ]]></string>
+  <string id="67447"><![CDATA[地形散布 (Terrain Scatters): ]]></string>
   <string id="67484"><![CDATA[散布密度: ]]></string>
-  <string id="67519"><![CDATA[<size=12><color=yellow>景象设定可能需要重启游戏以应用变更.</color></size>]]></string>
+  <string id="67519"><![CDATA[<size=12><color=yellow>图像设置可能需要重启游戏以应用变更.</color></size>]]></string>
   <string id="67715"><![CDATA[渲染]]></string>
   <string id="67734"><![CDATA[渲染品质: ]]></string>
   <string id="67779"><![CDATA[贴图品质:]]></string>
   <string id="67812"><![CDATA[  ]]></string>
   <string id="67817"><![CDATA[备用零件阴影:]]></string>
   <string id="67862"><![CDATA[气动效果:]]></string>
-  <string id="67909"><![CDATA[Edge Highlighting (PPFX):]]></string>
-  <string id="67960"><![CDATA[Surface FX:]]></string>
+  <string id="67909"><![CDATA[边缘高亮 (PPFX)]]></string>
+  <string id="67960"><![CDATA[地表效果 (Surface FX):]]></string>
   <string id="67983"><![CDATA[显示]]></string>
   <string id="67994"><![CDATA[分辨率:]]></string>
   <string id="68031"><![CDATA[全屏显示:]]></string>
@@ -2800,7 +2800,7 @@ FX Scale: ]]>
   <string id="82438"><![CDATA[Parse]]></string>
   <string id="82449"><![CDATA[NODE]]></string>
   <string id="82458"><![CDATA[Icon_Only]]></string>
-  <string id="82477"><![CDATA[容量: ]]></string>
+  <string id="82477"><![CDATA[容量 : ]]></string>
   <string id="82494"><![CDATA[ Max.)]]></string>
   <string id="82507">
     <![CDATA[
@@ -4054,7 +4054,7 @@ Looking for ]]>
   <string id="128236"><![CDATA[obj_targetCap]]></string>
   <string id="128263"><![CDATA[Strut]]></string>
   <string id="128274"><![CDATA[[StrutConnector]: Both sides of the strut share the same parent rigidbody. No actual joint was created.]]></string>
-  <string id="128482"><![CDATA[强度：]]></string>
+  <string id="128482"><![CDATA[强度 ：]]></string>
   <string id="128503">
     <![CDATA[
 切变强度：]]>
@@ -11312,7 +11312,7 @@ Display here]]>
   <string id="495304"><![CDATA[当前数据价值: ]]></string>
   <string id="495345"><![CDATA[GameData/Squad/Resources/ResourcesGeneric.cfg]]></string>
   <string id="495436"><![CDATA[[TestLoader]: Loaded ]]></string>
-  <string id="495479"><![CDATA[ 项目!]]></string>
+  <string id="495479" noT=2><![CDATA[ subjects!]]></string>
   <string id="495500"><![CDATA[[TestLoader]: No R&D Node found on given sfs file]]></string>
   <string id="495599"><![CDATA[[TestLoader]: No GAME Node found on given sfs file]]></string>
   <string id="495700"><![CDATA[[TestLoader]: ]]></string>
