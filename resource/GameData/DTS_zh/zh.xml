@@ -1551,7 +1551,7 @@ FX Scale: ]]>
   <string id="37079"><![CDATA[中。确定要继续吗?]]></string>
   <string id="37152"><![CDATA[无法存储试验数据]]></string>
   <string id="37201">
-    <![CDATA[依旧登船
+    <![CDATA[强制登船
 (丢弃实验数据)]]>
   </string>
   <string id="37264"><![CDATA[[KerbalEVA Error]: No referenceTransform reference defined!]]></string>
@@ -7305,7 +7305,7 @@ Agency: ]]>
 这里是飞行器装备间。这里就是我们建造太空船并运送至发射场的地方。让人映像深刻，对吗？
 
 
-在左边你可以找到组件栏以组合成你的飞行器。选择一个起始部件，然后连接其他部分以组合成一艘飞船。你可以按下[鼠标右键]或者[方向键]以切换视角。天啊，这真的，和火箭不太……啊！（翻译吐槽：RMB是鼠标右键的意思啊，我还以为是软妹币呢，阅后请删除） 
+在左边你可以找到组件栏以组合成你的飞行器。选择一个起始部件，然后连接其他部分以组合成一艘飞船。你可以按下[鼠标右键]或者[方向键]以切换视角。天啊，这真的，和火箭不太……啊！（翻译吐槽：RMB是鼠标右键的意思啊，我还以为是软妹币呢） 
 
 
 总之，如果你需要更多关于深空探索飞船的建造方法，请返回主菜单查阅训练模式。]]>
@@ -7331,7 +7331,7 @@ Agency: ]]>
   <string id="267217">
     <![CDATA[又见面了！
 
-这里是雷达追踪站。在这里，你可以总览整个太阳系，也可以看到所有飞船的当前位置和所有进行中的任务。
+这里是测控站。在这里，你可以总览整个太阳系，也可以看到所有飞船的当前位置和所有进行中的任务。
 
 当你在计划中进行任务时，你可以在左边的面板清单中逐一查看，并对他们做出操作和指令。
 
@@ -8089,61 +8089,58 @@ Note that this page is added with AddState instead of AddPage, because we don't 
 所以，选择一个合适的目标星球你首先应该了解测控站的基础知识。在这里你可以了解更多关于每个天体的特性并评估你能不能完成任务，但今天没有必要了解因为我知道我们要去哪里：Duna。]]>
   </string>
   <string id="323469">
-    <![CDATA[Duna  天空中的红点，对比的使者。让我们让揭开这个天体的神秘面纱。
-打开星图，转移焦点到Duna（[Tab]键切换）。点击屏幕右侧的行星图标访问知识库关于Duna的部分。
-正如你所看到为什么我们选择Duna做为了本次任务的目标其中一个原因是因为它的条件，它有一个很薄的大气层，它有比Kerbin低很多的重力，所以它应该是一个很简单的任务，甚至对于一个新玩家也是这样。]]>
+    <![CDATA[让我们让揭开Duna 这个与黑暗的夜空形成鲜明对比的小红点的神秘面纱。
+打开星图，转移焦点到Duna（按[Tab]键切换）。点击屏幕右侧的行星图标访问知识库关于Duna的部分。
+正如你所看到为什么我们选择Duna做为了本次任务的目标其中一个原因是因为它的条件Duna大气层很薄而且重力比Kerbin低很多的，所以即使对于一个新玩家去Duna也应该是一个很简单的任务。]]>
   </string>
   <string id="324451"><![CDATA[KnowledgeContainer]]></string>
   <string id="324488"><![CDATA[Planets]]></string>
   <string id="324503">
     <![CDATA[ 为了完成到Duna或其他行星的星际转移，我们需要先讲一下所谓的奥伯特效应。
-还记得，近拱点是一个轨道的最低点，远拱点是轨道的最高点吗？好吧，把你的轨道想象成一座山，你上坡是要比下坡难，对吗？是因为当你运行到一个更高的点，你的动能下降了。回到轨道上面来轨道的最高点是动能的最低点，因为你要从上坡变成下坡。
-你可能会问自己这一切都跟去Duna有什么关系。好回到山的比喻，如果你跑下坡你不怎么累，因为不费力。对于轨道也是一样的，如果你的动能最大，消耗燃料就更少。]]>
+还记得近拱点和远拱点是什么吗？好吧，近拱点是一个轨道的最低点，远拱点是轨道的最高点。把你的轨道想象成一座山，你上坡是要比下坡难，对吧？这是因为当你往高处走导致动能下降。回到轨道上面来轨道的最高点是动能的最低点，因为你要从上坡变成下坡也就意味着动能从增加变成减少所以远拱点是动能最低点。
+你可能会问上面的都跟去Duna有什么关系。好回到山的比喻，下坡比上坡舒服因为不费力。对于轨道也是一样的，如果你的动能最大，消耗燃料就更少。]]>
   </string>
   <string id="326207">
-    <![CDATA[When setting up a transfer orbit using the Oberth effect you usually have to be very patient, it's all about being in the right place at the right time, sometimes it can take weeks, months or even years.
+    <![CDATA[利用奥伯特效应规划转移轨道的时候得小心一点，时间地点十分重要因为转移十分耗时一旦失败费时费力。
 
-If you look at your mission timer you can see we spawned you close to the transfer window. Outside of training I recommend you speed up time in the Tracking Station if you don't want to wait that long. But how do you know exactly how long you have to wait? Well, that's complicated. The simplest way to guide you is with something called phase angles between the Kerbin and the CB you want to go to taking the Sun as reference. The phase angle to use on Duna is about 45 degrees. Calculating phase angles is beyond the scope of this tutorial, they're not too hard to find pre-calculated in "external resources".]]>
+教程里特意把时间设置到转移的窗口附近。出了教程建议在测控站时间加速到窗口以减少等待时间。问题来了要等多长时间呢？这就很复杂了，最简便的方法是看相位角（表示太阳 Duna Kerbin之间的关系）本次教程不涉及如何计算相位角，这个很容易查到或者用插件查看。]]>
   </string>
-  <string id="327841"><![CDATA[So let's get into action, press []]></string>
+  <string id="327841"><![CDATA[现在开始去Duna 按 []]></string>
   <string id="327908">
-    <![CDATA[] to focus your ship, create a maneuver node around the point of "sunrise" in Kerbin and pull the prograde handle until you intersect Duna's orbit, move the node around Kerbin until you get an encounter node with Duna’s SOI.
+    <![CDATA[] 键 聚焦飞船，“日出”的时候创建一个变轨规划节点向前进方向拉动直到与Duna心轨道与Duna轨道相交 调整节点让交会点进入Duna的SOI（引力影响范围）
 
- Following the same Oberth effect lecture, try getting the encounter as close as possible to Duna's Apoapsis, so its kinetic energy is at the lowest and you have less trouble catching up to it, this is optional, but it's the most efficient way to do it.]]>
+ 按照之前讲过的奥伯特效应，应该让交会点尽可能靠近Duna的远拱点，在那里Duna公转速度最小转移最省油效率最高。]]>
   </string>
   <string id="328868"><![CDATA[Vector landerCabinSmall (Duna Suicide Mission) flight plan]]></string>
   <string id="328985">
-    <![CDATA[That's right! That trajectory looks great. It's going to be quite a burn, some 2 - 3 minutes most likely so make sure you plan your times right, remember that you want to burn half before and half after the node for efficiency.
+    <![CDATA[这个规划的轨道看起来不错，可以执行了。行星转移耗时较长可能需要两三分钟提前总时长的一半执行效率最高。
 
-After the burn you may or may not get exactly the desired result, it's okay, it's quite an amazing feat to set a interplanetary landing course in just one maneuver, even for the more skilled. So we're going to set up a correction node, since your orbit and Duna's are not exactly aligned I suggest you put it on the Descending Node and adjust your Normal and Radial vectors slightly. 
-This adjustment node is crucial to ensure a successful landing on Duna, so take your time setting it up, when you're happy with the results press Next.]]>
+执行完成后可能仍然不会被Duna捕获，这没什么。即使是老手行星际转移同样需要多次修正，一次成功很罕见。 下面要规划修正节点，因为Kerbin Duna轨道面有夹角所以需要在降交点进行常态方向的微调。这次调整对于能否着陆至关重要。结果满意的话点击下一步继续
+]]>
   </string>
   <string id="330517">
-    <![CDATA[Execute that burn, if you do everything correctly you should see the encounter node even after removing the maneuver node. If not I recommend you set up another correction maneuver as soon as possible, the closer you are to the Celestial Body you want to reach the more dV it takes to correct the course.
+    <![CDATA[执行调整之后如果一切正确，你会看到交会点。如果没看到的话建议立即修正 因为距离目标越近修正越耗费DV
 
-Besides that all that's left is to wait until you reach your close encounter, if you want to go crazy with the Time Warp go ahead, but make sure to stop it a little before the encounter node, you could miss your encounter altogether if you're not careful.]]>
+如果看到了交会点等待交会即可，注意不要加速过头。在交会前减速以免错过交会点。]]>
   </string>
   <string id="331641">
-    <![CDATA[You are now on Duna's close proximity, but you're not done yet, a few things could have gone a little wrong.
+    <![CDATA[你离Duna很近了，不过可能会出现以下问题。 
+Duna卫星 Ike 挡路，这事很常见因为Ike的SOI比Duna大。一旦发现立即在离心/向心方向微调轨道
+略微离开Duna，离开Ike之后在调回来。
 
-One thing that happens often is that Ike, Duna's satellite, is in the way, your trajectory leads to an Ike encounter. This is common because Ike's SOI is actually bigger than Duna's. If this happens create a maneuver node as close as possible to your current position and move the Radial vector a little away from Duna, burn and wait until you are close to Ike's orbit, then create another maneuver to get back closer to Duna.
-
-In any case create a node and pull the retrograde vector to create a stable low orbit around Duna, this will give us a better chance of success. This is not mandatory, if you're full of daring and/or can't spare the fuel you could set a collision course and proceed to land.]]>
+解决完这个问题之后创建逆行方向的变轨规划节点，形成绕Duna的稳定低轨道在降落。如果燃料不足或者不想费神也可以直接采用“撞击”式轨道着陆。]]>
   </string>
   <string id="333267">
-    <![CDATA[You landed at Duna! Excelent! 
-All the very same principles you used here apply to traveling to any other planet or Celestial Body in General, so you are definitely ready to go on and conquer space. 
-
-I'm really proud of you, I know you have potential.]]>
+    <![CDATA[成功着陆Duna！好极了！去行星以及其他天体方法的类似，你可以开始征服宇宙了。
+我为你的潜力感到自豪。]]>
   </string>
   <string id="333773">
-    <![CDATA[Well done! You are in a great position to just lower your orbit and start descending on duna.
+    <![CDATA[干得好！现在位置不错试着降低轨道开始着陆吧。 
 
- When landing remember to deploy your ship's legs by right clicking them and clicking the button and aerobraking burning retrograde to reduce your speed. In a planet such as Duna a parachute helps somewhat, but it won't be enough to break your fall.
+ 着陆的时候注意右键放下着陆架。不要迷信大气减速，Duna大气稀薄不够减速至安全着陆，降落伞在Duna用处也不像在Kerbin那么大，需要额外使用飞船引擎自行减速。
 
- All the very same principles you used here apply to traveling to any other planet or Celestial Body in General, so you are definitely ready to go on and conquer space. 
-
-I'm really proud of you, I know you have potential.]]>
+ 去别的行星以及其他天体的方法类似，你可以开始征服宇宙了。
+我为你的潜力感到自豪。]]>
   </string>
   <string id="334911"><![CDATA[飞船设计]]></string>
   <string id="334950"><![CDATA[selectPod]]></string>
@@ -9274,7 +9271,7 @@ I'm really proud of you, I know you have potential.]]>
   <string id="437377"><![CDATA[SSUITextArea_]]></string>
   <string id="437404"><![CDATA[SSUITextField_]]></string>
   <string id="437433"><![CDATA[ Beta]]></string>
-  <string id="437444"><![CDATA[<color=green>[雷达站]:正在追踪<i>]]></string>
+  <string id="437444"><![CDATA[<color=green>[测控站]:正在追踪<i>]]></string>
   <string id="437543"><![CDATA[</i>.</color>]]></string>
   <string id="437570"><![CDATA[{0} by {1} (added in v{2})]]></string>
   <string id="437623"><![CDATA[UNKNOWN]]></string>
@@ -10881,7 +10878,7 @@ Box]]>
   <string id="476369"><![CDATA[地图轨道可见]]></string>
   <string id="476412"><![CDATA[地图轨道理发可用]]></string>
   <string id="476471"><![CDATA[飞行计划可用]></string>
-  <string id="476522"><![CDATA[>此飞行计划需要升级雷达追踪站</>]]></string>
+  <string id="476522"><![CDATA[>此飞行计划需要升级测控站</>]]></string>
   <string id="476637"><![CDATA[坎巴拉人可以使用EVA了]]></string>
   <string id="476686"><![CDATA[坎巴拉人还只能登陆坎巴拉]]></string>
   <string id="476759"><![CDATA[穿上EVA的坎巴拉人可以插旗了]]></string>
