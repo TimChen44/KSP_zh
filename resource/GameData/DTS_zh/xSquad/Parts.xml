@@ -3154,7 +3154,7 @@
 
       <Value name="manufacturer"><![CDATA[C7航空航天科技]]></Value>
 
-      <Value name="description"><![CDATA[可以装下16个小绿人，MK3载人舱被“超复杂的密室”和“超级经济”在太空旅行中闻名，只允许携带随身行李。任何危险品或者有情感的行李请去MK3货仓。]]></Value>
+      <Value name="description"><![CDATA[可以装下16个小绿人，MK3载人舱在太空旅行中享有“超复杂的密室”和“超级经济”美誉。只允许携带随身行李，任何危险品或者有情感的行李请去MK3货仓。]]></Value>
 
     </Values>
   </Config>
@@ -3206,7 +3206,7 @@
 
       <Value name="manufacturer"><![CDATA[C7航空航天科技]]></Value>
 
-      <Value name="description"><![CDATA[C7航空部门没法用管道把燃料从精炼器里输送出来，所以他们直接把炼油罐给了我们！我仿佛从他们眼中看到了“保重”，然后他们就把零件丢给我们了。]]></Value>
+      <Value name="description"><![CDATA[C7航空部门没法用管道把燃料从精炼器里输送出来，所以他们直接把炼油罐给了我们！当他们把零件丢给我们的时候，我仿佛从他们眼中看到了“保重”。]]></Value>
 
     </Values>
   </Config>
