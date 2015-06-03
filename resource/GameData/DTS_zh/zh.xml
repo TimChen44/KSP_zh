@@ -11312,7 +11312,7 @@ Display here]]>
   <string id="495304"><![CDATA[当前数据价值: ]]></string>
   <string id="495345"><![CDATA[GameData/Squad/Resources/ResourcesGeneric.cfg]]></string>
   <string id="495436"><![CDATA[[TestLoader]: Loaded ]]></string>
-  <string id="495479" noT=2><![CDATA[ subjects!]]></string>
+  <string id="495479" noT="2"><![CDATA[ subjects!]]></string>
   <string id="495500"><![CDATA[[TestLoader]: No R&D Node found on given sfs file]]></string>
   <string id="495599"><![CDATA[[TestLoader]: No GAME Node found on given sfs file]]></string>
   <string id="495700"><![CDATA[[TestLoader]: ]]></string>
