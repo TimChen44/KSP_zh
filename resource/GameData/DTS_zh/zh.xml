@@ -3547,26 +3547,26 @@ bitmask: ]]>
   <string id="109543"><![CDATA[>普通</color>]]></string>
   <string id="109574"><![CDATA[>中等</color>]]></string>
   <string id="109609"><![CDATA[>困难</color>]]></string>
-  <string id="109636"><![CDATA[>游客</color>]]></string>
+  <string id="109636"><![CDATA[>自定义</color>]]></string>
   <string id="109667"><![CDATA[一般选项]]></string>
   <string id="109698"><![CDATA[高级选项]]></string>
   <string id="109731"><![CDATA[允许重新发射]]></string>
   <string id="109778"><![CDATA[失踪人员回归]]></string>
   <string id="109821"><![CDATA[在飞行前自动雇佣机组人员]]></string>
   <string id="109892"><![CDATA[No Entry Purchase Required on Research]]></string>
-  <string id="109969"><![CDATA[Indestructible Facilities]]></string>
-  <string id="110020"><![CDATA[Allow Stock Vessels]]></string>
-  <string id="110059"><![CDATA[Career Options]]></string>
-  <string id="110088"><![CDATA[Starting Funds: ]]></string>
-  <string id="110121"><![CDATA[Starting Science: ]]></string>
-  <string id="110158"><![CDATA[Starting Reputation: ]]></string>
-  <string id="110201"><![CDATA[Re-Entry Heating: ]]></string>
-  <string id="110238"><![CDATA[Resource Abundance: ]]></string>
-  <string id="110279"><![CDATA[Science Rewards: ]]></string>
-  <string id="110314"><![CDATA[Funds Rewards: ]]></string>
-  <string id="110345"><![CDATA[Reputation Rewards: ]]></string>
-  <string id="110386"><![CDATA[Funds Penalties: ]]></string>
-  <string id="110421"><![CDATA[Reputation Penalties: ]]></string>
+  <string id="109969"><![CDATA[航天中心设施不可破坏]]></string>
+  <string id="110020"><![CDATA[允许使用游戏自带的飞船设计]]></string>
+  <string id="110059"><![CDATA[生涯选项]]></string>
+  <string id="110088"><![CDATA[起始资金: ]]></string>
+  <string id="110121"><![CDATA[起始科研点数: ]]></string>
+  <string id="110158"><![CDATA[起始声望: ]]></string>
+  <string id="110201"><![CDATA[再入发热: ]]></string>
+  <string id="110238"><![CDATA[资源丰富度: ]]></string>
+  <string id="110279"><![CDATA[任务完成时的科研点数奖励系数: ]]></string>
+  <string id="110314"><![CDATA[任务完成时的资金奖励系数: ]]></string>
+  <string id="110345"><![CDATA[任务完成时的声望奖励系数: ]]></string>
+  <string id="110386"><![CDATA[任务失败时的资金惩罚系数: ]]></string>
+  <string id="110421"><![CDATA[任务失败时的声望奖励系数: ]]></string>
   <string id="110466"><![CDATA[applicationFocus]]></string>
   <string id="110499"><![CDATA[开始新的游戏]]></string>
   <string id="110528">
@@ -3593,7 +3593,7 @@ bitmask: ]]>
   <string id="111801"><![CDATA[生涯模式]]></string>
   <string id="111814"><![CDATA[旗帜:]]></string>
   <string id="111825"><![CDATA[开始!]]></string>
-  <string id="111838"><![CDATA[/saves/]]></string>
+  <string id="111838" noT="1"><![CDATA[/saves/]]></string>
   <string id="111853"><![CDATA[你想要覆盖它吗？]]></string>
   <string id="111910"><![CDATA[已经有一个相同名字的游戏存在了.]]></string>
   <string id="111983" noT="1"><![CDATA[/Ships]]></string>
@@ -3603,7 +3603,7 @@ bitmask: ]]>
   <string id="112089" noT="1"><![CDATA[/saves]]></string>
   <string id="112102" noT="1"><![CDATA[training]]></string>
   <string id="112119" noT="1"><![CDATA[scenarios]]></string>
-  <string id="112138"><![CDATA[/persistent.sfs]]></string>
+  <string id="112138" noT="1"><![CDATA[/persistent.sfs]]></string>
   <string id="112169"><![CDATA[ContractSystem]]></string>
   <string id="112198"><![CDATA[Funding]]></string>
   <string id="112213"><![CDATA[Reputation]]></string>
