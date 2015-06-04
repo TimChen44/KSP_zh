@@ -3080,7 +3080,7 @@ Ext Temp: ]]>
   <string id="91244"><![CDATA[清除当前合同]]></string>
   <string id="91291"><![CDATA[清除完成合同]]></string>
   <string id="91340"><![CDATA[难度选项:]]></string>
-  <string id="91379"><![CDATA[在生涯模式中允许使用游戏原有设计]]></string>
+  <string id="91379"><![CDATA[在生涯模式中允许使用游戏自带的飞船设计]]></string>
   <string id="91448"><![CDATA[宇航员可重生]]></string>
   <string id="91485"><![CDATA[允许返回至发射时]]></string>
   <string id="91530"><![CDATA[允许返回至建造时]]></string>
@@ -3552,8 +3552,8 @@ bitmask: ]]>
   <string id="109698"><![CDATA[高级选项]]></string>
   <string id="109731"><![CDATA[允许重新发射]]></string>
   <string id="109778"><![CDATA[失踪人员回归]]></string>
-  <string id="109821"><![CDATA[在飞行前自动雇佣机组人员]]></string>
-  <string id="109892"><![CDATA[No Entry Purchase Required on Research]]></string>
+  <string id="109821"><![CDATA[发射前自动雇佣机组人员]]></string>
+  <string id="109892"><![CDATA[无需购买已研发部件使用权]]></string>
   <string id="109969"><![CDATA[航天中心设施不可破坏]]></string>
   <string id="110020"><![CDATA[允许使用游戏自带的飞船设计]]></string>
   <string id="110059"><![CDATA[生涯选项]]></string>
@@ -3566,7 +3566,7 @@ bitmask: ]]>
   <string id="110314"><![CDATA[任务完成时的资金奖励系数: ]]></string>
   <string id="110345"><![CDATA[任务完成时的声望奖励系数: ]]></string>
   <string id="110386"><![CDATA[任务失败时的资金惩罚系数: ]]></string>
-  <string id="110421"><![CDATA[任务失败时的声望奖励系数: ]]></string>
+  <string id="110421"><![CDATA[任务失败时的声望惩罚系数: ]]></string>
   <string id="110466"><![CDATA[applicationFocus]]></string>
   <string id="110499"><![CDATA[开始新的游戏]]></string>
   <string id="110528">
