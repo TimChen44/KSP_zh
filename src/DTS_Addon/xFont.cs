@@ -142,7 +142,7 @@ namespace DTS_Addon
             {
                 LoadxFont();
             }
-
+            ST.Text = ST.text;
             for (int i = 0; i < ST.font.fonts.Length; i++)
             {
                 if (ST.font.fonts[i].fontText.name[0] == 'c' && ST.font.fonts[i].fontText.name[1] == 'n') return;
@@ -152,7 +152,9 @@ namespace DTS_Addon
                 ST.font.fonts[i].fontText = f2f.fontDef;
                 ST.font.fonts[i].material = f2f.fontMat;
                 ST.font.fonts[i].SpriteFont = FontStore.GetFont(f2f.fontDef);
+             
             }
+            ST.UpdateMesh();
         }
 
         public static Font2Font GetFont2Font(string name)
