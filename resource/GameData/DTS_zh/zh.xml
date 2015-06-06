@@ -2387,16 +2387,16 @@ FX Scale: ]]>
   <string id="65143"><![CDATA[阀门减小: ]]></string>
   <string id="65174"><![CDATA[阀门最大: ]]></string>
   <string id="65203"><![CDATA[阀门关闭: ]]></string>
-  <string id="65238"><![CDATA[Toggle IVA view: ]]></string>
-  <string id="65273"><![CDATA[Cycle camera view: ]]></string>
+  <string id="65238"><![CDATA[切换/切回舱内视角: ]]></string>
+  <string id="65273"><![CDATA[循环调整视角: ]]></string>
   <string id="65312"><![CDATA[拉高: ]]></string>
   <string id="65333"><![CDATA[降低: ]]></string>
   <string id="65358"><![CDATA[左翻滚: ]]></string>
   <string id="65381"><![CDATA[右翻滚: ]]></string>
   <string id="65406"><![CDATA[左偏航: ]]></string>
   <string id="65427"><![CDATA[右偏航: ]]></string>
-  <string id="65450"><![CDATA[SAS保持: ]]></string>
-  <string id="65471"><![CDATA[SAS Toggle: ]]></string>
+  <string id="65450"><![CDATA[切换SAS状态: ]]></string>
+  <string id="65471"><![CDATA[临时打开SAS: ]]></string>
   <string id="65496"><![CDATA[发射/启动下一级: ]]></string>
   <string id="65553"><![CDATA[锁定当前级: ]]></string>
   <string id="65594"><![CDATA[ + L]]></string>
@@ -8227,7 +8227,7 @@ Duna卫星 Ike 挡路，这事很常见因为Ike的SOI比Duna大。一旦发现�
   <string id="345947"><![CDATA[flightTutorial]]></string>
   <string id="345976"><![CDATA[欢迎来到坎巴拉太空中心发射场! 我是]]></string>
   <string id="346089"><![CDATA[ 由我来教你怎样操作飞船。如果你没有通过飞船建造的基本知识就先看那个教程。准备好了请点击下一步。]]></string>
-  <string id="346521"><![CDATA[操作飞船的本质是在混乱情况下保持飞船稳定。作为指令长，你的指令主要控制俯仰滚转偏航来控制飞船。（教程结束前其他控制将被锁定）]]></string>
+  <string id="346521"><![CDATA[操作飞船的本质是在混乱情况下保持飞船稳定。作为指令长，你的指令主要通过控制飞船的俯仰滚转偏航三个参数来控制飞船。（教程结束前其他控制将被锁定）]]></string>
   <string id="347105">
     <![CDATA[俯仰角是船首和地平线所成的夹角. 正俯仰角意味着你的船首指向天空, 而负的俯仰角则意味着你的船首正指向地面. 你可以通过以下键位控制俯仰角:
 
@@ -8299,7 +8299,7 @@ Duna卫星 Ike 挡路，这事很常见因为Ike的SOI比Duna大。一旦发现�
 
 
 
-经验丰富的宇航员不需要依靠SAS模块保持飞船稳定。
+经验丰富的宇航员不需要依靠SAS模块保持飞船稳定。]]>
   </string>
   <string id="352505"><![CDATA[R.C.S. 全称是反作用控制系统. 由许多小推进器组成，能帮助飞船进行转动和平移. R.C.S系统能通过[]]></string>
   <string id="352863">
