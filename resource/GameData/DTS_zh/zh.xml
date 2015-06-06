@@ -674,8 +674,8 @@
   <string id="8436"><![CDATA[[申请人列表错误]: 不能删除 ]]></string>
   <string id="8515"><![CDATA[ 就像他还没死]]></string>
   <string id="8552"><![CDATA[ExperienceSystem: Found ]]></string>
-  <string id="8601"><![CDATA[ 特点类型]]></string>
-  <string id="8626"><![CDATA[ 效果类型]]></string>
+  <string id="8601" noT="2"><![CDATA[ trait types]]></string>
+  <string id="8626" noT="2"><![CDATA[ effect types]]></string>
   <string id="8653" noT="1"><![CDATA[Tourist]]></string>
   <string id="8668" noT="1"><![CDATA[Pilot]]></string>
   <string id="8679" noT="1"><![CDATA[Engineer]]></string>
@@ -753,7 +753,7 @@
   <string id="10459"><![CDATA[DoLoadScene]]></string>
   <string id="10482"><![CDATA[DoURL]]></string>
   <string id="10493"><![CDATA[A null layer sprite was encountered on control "]]></string>
-  <string id="10590"><![CDATA[".请充满涂层元素，或删除空的元素。]]></string>
+  <string id="10590" noT="2"><![CDATA[". Please fill in the layer reference, or remove the empty element.]]></string>
   <string id="10726"><![CDATA[normal]]></string>
   <string id="10739"><![CDATA[over]]></string>
   <string id="10748"><![CDATA[启用]]></string>
