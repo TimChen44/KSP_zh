@@ -674,8 +674,8 @@
   <string id="8436"><![CDATA[[申请人列表错误]: 不能删除 ]]></string>
   <string id="8515"><![CDATA[ 就像他还没死]]></string>
   <string id="8552"><![CDATA[ExperienceSystem: Found ]]></string>
-  <string id="8601"><![CDATA[ 特点类型]]></string>
-  <string id="8626"><![CDATA[ 效果类型]]></string>
+  <string id="8601" noT="2"><![CDATA[ trait types]]></string>
+  <string id="8626" noT="2"><![CDATA[ effect types]]></string>
   <string id="8653" noT="1"><![CDATA[Tourist]]></string>
   <string id="8668" noT="1"><![CDATA[Pilot]]></string>
   <string id="8679" noT="1"><![CDATA[Engineer]]></string>
@@ -753,7 +753,7 @@
   <string id="10459"><![CDATA[DoLoadScene]]></string>
   <string id="10482"><![CDATA[DoURL]]></string>
   <string id="10493"><![CDATA[A null layer sprite was encountered on control "]]></string>
-  <string id="10590"><![CDATA[".请充满涂层元素，或删除空的元素。]]></string>
+  <string id="10590" noT="2"><![CDATA[". Please fill in the layer reference, or remove the empty element.]]></string>
   <string id="10726"><![CDATA[normal]]></string>
   <string id="10739"><![CDATA[over]]></string>
   <string id="10748"><![CDATA[启用]]></string>
@@ -814,7 +814,7 @@
   <string id="12270"><![CDATA[IUseCamera]]></string>
   <string id="12291"><![CDATA[EZGUI Cam]]></string>
   <string id="12310"><![CDATA[UICamera]]></string>
-  <string id="12327"><![CDATA[开始]]></string>
+  <string id="12327" noT="2"><![CDATA[Start]]></string>
   <string id="12338"><![CDATA[Bring In Forward]]></string>
   <string id="12371"><![CDATA[Bring In Back]]></string>
   <string id="12398"><![CDATA[Dismiss Forward]]></string>
@@ -1676,7 +1676,7 @@ FX Scale: ]]>
   <string id="42369"><![CDATA[新飞船]]></string>
   <string id="42388"><![CDATA[保存并退出]]></string>
   <string id="42423"><![CDATA[<color=orange>不要保存</color>]]></string>
-  <string id="42488"><![CDATA['已经存在。需要改写吗？]]></string>
+  <string id="42488"><![CDATA['已经存在。需要覆盖吗？]]></string>
   <string id="42581"><![CDATA[Confirm File Overwrite]]></string>
   <string id="42626"><![CDATA[<color=orange>覆盖</color>]]></string>
   <string id="42689"><![CDATA[ExitConfirmationDialog]]></string>
@@ -1699,11 +1699,11 @@ FX Scale: ]]>
   <string id="43395"><![CDATA[Select a set of two or more parts to attach...]]></string>
   <string id="43488"><![CDATA[选择另一个部件连接到]]></string>
   <string id="43553"><![CDATA[[EditorLogic]: Selected Part was lost for unknown reasons! This is possibly unwanted behaviour.]]></string>
-  <string id="43745"><![CDATA[Select an attached part to Offset]]></string>
-  <string id="43812"><![CDATA[Select a part to Rotate]]></string>
-  <string id="43859"><![CDATA[<color=orange>Cannot use the Root tool on a single part.</color>]]></string>
-  <string id="43989"><![CDATA[<color=orange>No other valid parts to attach by in the current selection</color>]]></string>
-  <string id="44151"><![CDATA[指挥舱1型]]></string>
+  <string id="43745"><![CDATA[选择一个组件调整偏移量]]></string>
+  <string id="43812"><![CDATA[选择一个组件进行旋转]]></string>
+  <string id="43859"><![CDATA[<color=orange>无法对单个组件使用改变根组件工具</color>]]></string>
+  <string id="43989"><![CDATA[<color=orange>没有当前选中组件可以有效附着的其他组件</color>]]></string>
+  <string id="44151" noT="1"><![CDATA[mk1pod]]></string>
   <string id="44164"><![CDATA[rootPartsOnly]]></string>
   <string id="44191"><![CDATA[无法作为第一个部件]]></string>
   <string id="44264"><![CDATA[inaccessibleParts]]></string>
@@ -1721,16 +1721,16 @@ FX Scale: ]]>
   <string id="44544"><![CDATA[IconTransform ]]></string>
   <string id="44573"><![CDATA[CustomIconTransform ]]></string>
   <string id="44614"><![CDATA[ShipTemplate ]]></string>
-  <string id="44641"><![CDATA[saves/]]></string>
-  <string id="44654"><![CDATA[/Subassemblies/]]></string>
-  <string id="44685"><![CDATA[*.craft]]></string>
+  <string id="44641" noT="1"><![CDATA[saves/]]></string>
+  <string id="44654" noT="1"><![CDATA[/Subassemblies/]]></string>
+  <string id="44685" noT="1"><![CDATA[*.craft]]></string>
   <string id="44700"><![CDATA[[Editor Root Utils]: Cannot set ]]></string>
   <string id="44765"><![CDATA[ as root.]]></string>
   <string id="44784"><![CDATA[ as root as it is not a descendant in ]]></string>
   <string id="44861"><![CDATA['s hierarchy.]]></string>
   <string id="44888"><![CDATA[EditorSubAssembly: Needs to have subassembly selected to save]]></string>
   <string id="45011"><![CDATA[EditorSubAssembly: Cannot save a part which is not attachable]]></string>
-  <string id="45134"><![CDATA[Subassembly]]></string>
+  <string id="45134"><![CDATA[子部件]]></string>
   <string id="45157"><![CDATA[<#bfc3af>]]></string>
   <string id="45176"><![CDATA[</>]]></string>
   <string id="45183"><![CDATA[暂无描述.]]></string>
@@ -1979,9 +1979,9 @@ FX Scale: ]]>
   <string id="52384"><![CDATA[>Temperature Gauges Unavailable</color>]]></string>
   <string id="52463"><![CDATA[Temperature Overlay: ]]></string>
   <string id="52506"><![CDATA[Aerodynamic Forces Overlay: ]]></string>
-  <string id="52563"><![CDATA[没有]]></string>
-  <string id="52572"><![CDATA[在]]></string>
-  <string id="52577"><![CDATA[航线]]></string>
+  <string id="52563" noT="1"><![CDATA[None]]></string>
+  <string id="52572" noT="1"><![CDATA[at]]></string>
+  <string id="52577" noT="1"><![CDATA[flight]]></string>
   <string id="52590"><![CDATA[UT]]></string>
   <string id="52595"><![CDATA[activeVessel]]></string>
   <string id="52620"><![CDATA[mapViewFiltering]]></string>
@@ -2387,16 +2387,16 @@ FX Scale: ]]>
   <string id="65143"><![CDATA[阀门减小: ]]></string>
   <string id="65174"><![CDATA[阀门最大: ]]></string>
   <string id="65203"><![CDATA[阀门关闭: ]]></string>
-  <string id="65238"><![CDATA[Toggle IVA view: ]]></string>
-  <string id="65273"><![CDATA[Cycle camera view: ]]></string>
+  <string id="65238"><![CDATA[切换/切回舱内视角: ]]></string>
+  <string id="65273"><![CDATA[循环调整视角: ]]></string>
   <string id="65312"><![CDATA[拉高: ]]></string>
   <string id="65333"><![CDATA[降低: ]]></string>
   <string id="65358"><![CDATA[左翻滚: ]]></string>
   <string id="65381"><![CDATA[右翻滚: ]]></string>
   <string id="65406"><![CDATA[左偏航: ]]></string>
   <string id="65427"><![CDATA[右偏航: ]]></string>
-  <string id="65450"><![CDATA[SAS保持: ]]></string>
-  <string id="65471"><![CDATA[SAS Toggle: ]]></string>
+  <string id="65450"><![CDATA[切换SAS状态: ]]></string>
+  <string id="65471"><![CDATA[临时打开SAS: ]]></string>
   <string id="65496"><![CDATA[发射/启动下一级: ]]></string>
   <string id="65553"><![CDATA[锁定当前级: ]]></string>
   <string id="65594"><![CDATA[ + L]]></string>
@@ -8156,12 +8156,12 @@ Duna卫星 Ike 挡路，这事很常见因为Ike的SOI比Duna大。一旦发现�
   <string id="335169"><![CDATA[addRocketMotorTest]]></string>
   <string id="335206"><![CDATA[连接火箭引擎]]></string>
   <string id="335253"><![CDATA[stageAppeared]]></string>
-  <string id="335280"><![CDATA[Stages]]></string>
+  <string id="335280"><![CDATA[分级]]></string>
   <string id="335293"><![CDATA[radialAttachments0]]></string>
-  <string id="335330"><![CDATA[侧面连接]]></string>
+  <string id="335330"><![CDATA[侧挂]]></string>
   <string id="335367"><![CDATA[radialAttachments1]]></string>
   <string id="335404"><![CDATA[vehicledynamics]]></string>
-  <string id="335435"><![CDATA[飞船动态]]></string>
+  <string id="335435"><![CDATA[飞船动力学性能]]></string>
   <string id="335468"><![CDATA[saveload]]></string>
   <string id="335485"><![CDATA[储存飞船]]></string>
   <string id="335518"><![CDATA[准备发射!]]></string>
@@ -8188,9 +8188,9 @@ Duna卫星 Ike 挡路，这事很常见因为Ike的SOI比Duna大。一旦发现�
   <string id="340156"><![CDATA[当你添加了那个火箭之后你可能注意到了在右下角出现了一个新的图标,那就是一个分级.有动作的组件就会出现在那里,您可以添加新的分级来控制这些将要触发的指令.这些动作也可以在任何时候使用每个组件的右键菜单来手动触发.]]></string>
   <string id="340824"><![CDATA[有些组件可以径向连接到其他组件的表面.你可以建造复杂的径向结构和附加更多的火箭.在这儿我们有一个特殊的组件--分离器，它可以引发一个微小的爆炸来把前一级和剩余的飞船分离开.这对于去掉耗尽燃料的罐子非常有用.]]></string>
   <string id="341628"><![CDATA[现在把这样一些分离器附着到飞船上.你可以使用屏幕左下角那两个大按钮来控制编辑器,看看如何复制和卡紧这些表面附着的组件.然后你从引擎组里找一些固体燃料助推器连接到那些分离器上.看一下这个配置在你飞船分级上的效果,记好了,你可能需要使用更多的助推器!]]></string>
-  <string id="342478"><![CDATA[你的飞船看上去...有点意思.如果你想修改一下这些组件在飞行中被激活的顺序,你可以在分级指示器中点击和拖拽你想移动的组件把它放到一个不同的分级中.如果你还想瞧瞧飞船的质量,升力或者推力的中心,你可以使用左下角的三个小按钮.最基本的要求是，你要把它们全部集中在整个飞船内.]]></string>
-  <string id="343312"><![CDATA[我或许应该让你注意到如果你就要开始你的太空生涯了的话,在生涯模式中你还没有任何可用的分离器呢.最后必须要说的是,选择名字窗口确保给你的飞船指定一个名字然后保存.]]></string>
-  <string id="343810"><![CDATA[看来我们的时间不多了.我还得去给世界各地的媒体做一个科学简介.我刚才已经说了你现有的组件非常少,你应该做一些研究来解锁更多的组件.如果你不知道该怎么做,就来加入我的"科研教程"吧.现在我将为你解开所有组件让你尽情发挥一下,点击最左边的标签查看不同组件的目录.当你研究够了,请点击右上角的红色按钮到建造设施外面展现自己吧.珍重!]]></string>
+  <string id="342478"><![CDATA[你的飞船看上去...有点意思.如果你想修改在飞行中激活这些组件的顺序,你可以在分级指示器中点击和拖拽你想移动的组件把它放到另一个分级中.如果你还想瞧瞧飞船的质心（重心）,升力或者推力的情况,你可以使用左下角的三个小按钮。最基本的要求是，你要把它们全部集中在整个飞船内.]]></string>
+  <string id="343312"><![CDATA[如果你就要开始你的太空生涯了的话，你要要注意到在生涯模式的最开始你还没有任何分离器可以用.最后必须要说的是,点击屏幕最上方飞船名称框确保给你的飞船命名然后保存它。]]></string>
+  <string id="343810"><![CDATA[看来我们的时间不多了.我还得去给世界级媒体做一个科技简报.我刚才已经说了你现有的组件非常少,你应该做一些研究来解锁更多的组件.如果你不知道该怎么做,就来加入我的"科研教程"吧.现在我将为你解开所有组件让你尽情发挥一下,点击最左边的标签查看不同组件的目录.当你研究够了,请点击右上角的红色按钮到建造设施外面展现自己吧.珍重!]]></string>
   <string id="344920"><![CDATA[TutorialEditor_pod]]></string>
   <string id="344957"><![CDATA[TutorialEditor_fueltank]]></string>
   <string id="345004"><![CDATA[TutorialEditor_engine]]></string>
@@ -8227,7 +8227,7 @@ Duna卫星 Ike 挡路，这事很常见因为Ike的SOI比Duna大。一旦发现�
   <string id="345947"><![CDATA[flightTutorial]]></string>
   <string id="345976"><![CDATA[欢迎来到坎巴拉太空中心发射场! 我是]]></string>
   <string id="346089"><![CDATA[ 由我来教你怎样操作飞船。如果你没有通过飞船建造的基本知识就先看那个教程。准备好了请点击下一步。]]></string>
-  <string id="346521"><![CDATA[操作飞船的本质是在混乱情况下保持飞船稳定。作为指令长，你的指令主要控制俯仰滚转偏航来控制飞船。（教程结束前其他控制将被锁定）]]></string>
+  <string id="346521"><![CDATA[操作飞船的本质是在混乱情况下保持飞船稳定。作为指令长，你的指令主要通过控制飞船的俯仰滚转偏航三个参数来控制飞船。（教程结束前其他控制将被锁定）]]></string>
   <string id="347105">
     <![CDATA[俯仰角是船首和地平线所成的夹角. 正俯仰角意味着你的船首指向天空, 而负的俯仰角则意味着你的船首正指向地面. 你可以通过以下键位控制俯仰角:
 
@@ -8299,7 +8299,7 @@ Duna卫星 Ike 挡路，这事很常见因为Ike的SOI比Duna大。一旦发现�
 
 
 
-经验丰富的宇航员不需要依靠SAS模块保持飞船稳定。
+经验丰富的宇航员不需要依靠SAS模块保持飞船稳定。]]>
   </string>
   <string id="352505"><![CDATA[R.C.S. 全称是反作用控制系统. 由许多小推进器组成，能帮助飞船进行转动和平移. R.C.S系统能通过[]]></string>
   <string id="352863">
@@ -8322,7 +8322,7 @@ Duna卫星 Ike 挡路，这事很常见因为Ike的SOI比Duna大。一旦发现�
   <string id="358783"><![CDATA[好了,说的够多了,我会解锁所有的飞行控制,你就会很清楚怎么发射了.事实上为了让发射更有趣,还有一个控制没有解锁,就是你现在还用不了SAS控制(嘻嘻),试着亲自保持飞船稳定吧!你随时可以按 [Esc] 键来暂停游戏.在暂停菜单里你可以重置飞行,或者结束这个教程并回到主菜单.现在把你的节流阀看到最大然后敲 []]></string>
   <string id="359647"><![CDATA[] 发射!对这个飞船来说,你需要敲两次,第一次点燃引擎,第二次打开夹子.]]></string>
   <string id="359933"><![CDATA[噢你上天了! 现在试着练习我们刚才讨论的所有控制命令,俯仰,偏航,滚转,节流阀,RCS,分级等等.我知道这让你一次全学会太多了,所以如果你忘了,你可以按 []]></string>
-  <string id="360357"><![CDATA[] 然后点击View Key Bindings按钮查看提示.]]></string>
+  <string id="360357"><![CDATA[] 然后点击查看键盘绑定按钮查看提示.]]></string>
   <string id="360470"><![CDATA[只是不要太得意忘形了,保持飞船的稳定,因为你今天就要去往太空了!记住按 []]></string>
   <string id="360694"><![CDATA[] 把你不再需要的空燃料罐卸掉.你可以在分级界面监视每个罐的燃料值, 观察指示条是如何下降的,或者把你的鼠标移到右上角资源按钮上观察整体的燃料值.如果你想通过某个船员的眼睛观察,把鼠标悬停在他们的头像上点击IVA按钮.你可以回到这一视图,按 []]></string>
   <string id="361522"><![CDATA[] 键.]]></string>
@@ -9006,7 +9006,7 @@ Duna卫星 Ike 挡路，这事很常见因为Ike的SOI比Duna大。一旦发现�
   <string id="426653"><![CDATA[建造一艘飞船.]]></string>
   <string id="426696"><![CDATA[没有找到可用飞船]]></string>
   <string id="426741"><![CDATA[Rocket]]></string>
-  <string id="426754"><![CDATA[组装中心]]></string>
+  <string id="426754"><![CDATA[飞船组装大楼]]></string>
   <string id="426805"><![CDATA[missionControlFacility]]></string>
   <string id="426850"><![CDATA[任务控制中心]]></string>
   <string id="426881"><![CDATA[RnDFacility]]></string>
@@ -9174,9 +9174,9 @@ Duna卫星 Ike 挡路，这事很常见因为Ike的SOI比Duna大。一旦发现�
   </string>
   <string id="433533"><![CDATA[返回至发射时(]]></string>
   <string id="433570"><![CDATA[之前)]]></string>
-  <string id="433581"><![CDATA[返回至组装中心 (]]></string>
+  <string id="433581"><![CDATA[返回至飞船组装大楼 (]]></string>
   <string id="433638"><![CDATA[返回至机库 (]]></string>
-  <string id="433697"><![CDATA[返回至组装中心]]></string>
+  <string id="433697"><![CDATA[返回至飞船组装大楼]]></string>
   <string id="433750"><![CDATA[返回至机库]]></string>
   <string id="433805"><![CDATA[返回至主菜单]]></string>
   <string id="433830"><![CDATA[机库]]></string>
@@ -9254,7 +9254,7 @@ Duna卫星 Ike 挡路，这事很常见因为Ike的SOI比Duna大。一旦发现�
   <string id="435824"><![CDATA[回到航天中心]]></string>
   <string id="435871"><![CDATA[重新开始飞行]]></string>
   <string id="435898"><![CDATA[正在重新开始飞行]]></string>
-  <string id="435931"><![CDATA[View Key Bindings]]></string>
+  <string id="435931"><![CDATA[查看键盘绑定]]></string>
   <string id="435966"><![CDATA[重新开始飞行游戏将会回到之前的状态,确定还要继续吗?]]></string>
   <string id="436144"><![CDATA[警告:你正在飞行中.]]></string>
   <string id="436199"><![CDATA[警告:你正在加速中.]]></string>
