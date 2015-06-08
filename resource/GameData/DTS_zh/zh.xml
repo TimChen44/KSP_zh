@@ -10540,48 +10540,36 @@ No Refunds.]]>
   <string id="464105"><![CDATA[basicDefault]]></string>
   <string id="464130"><![CDATA[basicClick]]></string>
   <string id="464151"><![CDATA[basicRClick]]></string>
-  <string id="464174"><![CDATA[工程师的报告]]></string>
+  <string id="464174" noT="1"><![CDATA[Engineer's Report]]></string>
   <string id="464209"><![CDATA[<#e6752a>设计检查单]]></string>
-  <string id="464260"><![CDATA[[Engineer's Report] 无法找到文本。]]></string>
+  <string id="464260" noT="1"><![CDATA[[Engineer's Report] couldn't find the test.]]></string>
   <string id="464347"><![CDATA[没什么可报告的，也没看到新鲜事。]]></string>
   <string id="464430"><![CDATA[这个载具没什么可关心的。]]></string>
-  <string id="464523"><![CDATA[注意]]></string>
-  <string id="464536"><![CDATA[警告]]></string>
-  <string id="464551"><![CDATA[批评]]></string>
-  <string id="464568"><![CDATA[<#e6752a>载具统计]]></string>
-  <string id="464609"><![CDATA[部件数:]]></string>
-  <string id="464622"><![CDATA[质量:]]></string>
-  <string id="464633">
-    <![CDATA[尺寸
-高:
-宽:
-长:]]>
-  </string>
-  <string id="464688"><![CDATA[>部件数:</>]]></string>
-  <string id="464709"><![CDATA[>质量:</>]]></string>
-  <string id="464728"><![CDATA[吨/ ]]></string>
-  <string id="464737">
-    <![CDATA[>尺寸</>
-<]]>
-  </string>
-  <string id="464758">
-    <![CDATA[>高:</>
-<]]>
-  </string>
-  <string id="464785">
-    <![CDATA[>宽:</>
-<]]>
-  </string>
-  <string id="464810"><![CDATA[>长:</>]]></string>
-  <string id="464833">
-    <![CDATA[ 
-<]]>
-  </string>
-  <string id="464840"><![CDATA[m / ]]></string>
-  <string id="464849">
-    <![CDATA[米</>
-<]]>
-  </string>
+  <string id="464523" noT="1"><![CDATA[notice]]></string>
+  <string id="464536" noT="1"><![CDATA[warning]]></string>
+  <string id="464551" noT="1"><![CDATA[critical]]></string>
+  <string id="464568" noT="2"><![CDATA[<#e6752a>Craft Stats]]></string>
+  <string id="464609" noT="2"><![CDATA[Parts:]]></string>
+  <string id="464622" noT="2"><![CDATA[Mass:]]></string>
+  <string id="464633" noT="2"><![CDATA[Size
+Height:
+Width:
+Length:]]></string>
+  <string id="464688" noT="2"><![CDATA[>Parts:</>]]></string>
+  <string id="464709" noT="2"><![CDATA[>Mass:</>]]></string>
+  <string id="464728" noT="2"><![CDATA[t / ]]></string>
+  <string id="464737" noT="2"><![CDATA[>Size</>
+<]]></string>
+  <string id="464758" noT="2"><![CDATA[>Height:</>
+<]]></string>
+  <string id="464785" noT="2"><![CDATA[>Width:</>
+<]]></string>
+  <string id="464810" noT="2"><![CDATA[>Length:</>]]></string>
+  <string id="464833" noT="2"><![CDATA[ 
+<]]></string>
+  <string id="464840" noT="2"><![CDATA[m / ]]></string>
+  <string id="464849" noT="2"><![CDATA[m</>
+<]]></string>
   <string id="464862"><![CDATA[[+] ]]></string>
   <string id="464871"><![CDATA[[-] ]]></string>
   <string id="464880"><![CDATA[OffsetGizmo]]></string>
