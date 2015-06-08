@@ -3543,7 +3543,7 @@ bitmask: ]]>
   <string id="109374"><![CDATA[DifficultyOptionsMenu]]></string>
   <string id="109417"><![CDATA[MainMenuSkin]]></string>
   <string id="109442"><![CDATA[difficultyOptionsMenu]]></string>
-  <string id="109485"><![CDATA[Game Difficulty]]></string>
+  <string id="109485"><![CDATA[游戏难度]]></string>
   <string id="109516"><![CDATA[>简单</color>]]></string>
   <string id="109543"><![CDATA[>普通</color>]]></string>
   <string id="109574"><![CDATA[>中等</color>]]></string>
@@ -9235,7 +9235,7 @@ Duna卫星 Ike 挡路，这事很常见因为Ike的SOI比Duna大。一旦发现�
 <color=orange>无法传导燃料</color>]]>
   </string>
   <string id="435420">
-    <![CDATA[<b>Mass: </b>N/A
+    <![CDATA[<b>质量： </b>N/A
 <b>碰撞容差: </b>]]>
   </string>
   <string id="435503">
@@ -10699,14 +10699,14 @@ No Refunds.]]>
   <string id="468680"><![CDATA[Resource_]]></string>
   <string id="468699"><![CDATA[stockIcon_manufacturer]]></string>
   <string id="468744"><![CDATA[按制造商筛选]]></string>
-  <string id="468789"><![CDATA[基本粒子火箭工业]]></string>
-  <string id="468862"><![CDATA[科灵顿模型火箭与纸制品有限公司]]></string>
-  <string id="468957"><![CDATA[小精灵工业有限公司]]></string>
+  <string id="468789"  noT="2"><![CDATA[Ionic Symphonic Protonic Electronics]]></string>
+  <string id="468862"  noT="2"><![CDATA[Kerlington Model Rockets and Paper Products Inc]]></string>
+  <string id="468957"  noT="2"><![CDATA[Probodobodyne Inc]]></string>
   <string id="468992"><![CDATA[internalIcon_ionicSymphonic]]></string>
   <string id="469047"><![CDATA[internalIcon_kerlington]]></string>
   <string id="469094"><![CDATA[internalIcon_probodobodyne]]></string>
   <string id="469147"><![CDATA[Manufacturer_]]></string>
-  <string id="469174"><![CDATA[C7航空部门和罗茨科马克斯联合制造]]></string>
+  <string id="469174" noT="2"><![CDATA[C7 Aerospace Division and Rockomax Conglomerate]]></string>
   <string id="469269"><![CDATA[Manufacturer_C7 Aerospace Division and Rockomax Conglomerate]]></string>
   <string id="469390"><![CDATA[按科技等级筛选]]></string>
   <string id="469431"><![CDATA[stockIcon_techlevel]]></string>
