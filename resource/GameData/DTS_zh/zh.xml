@@ -2155,7 +2155,7 @@ FX Scale: ]]>
   <string id="57981"><![CDATA[Launcher here(in write): ]]></string>
   <string id="58032"><![CDATA[DONT_SHOW_LAUNCHER ]]></string>
   <string id="58071"><![CDATA[DONT]]></string>
-  <string id="58080"><![CDATA[游戏启动不可用？ ]]></string>
+  <string id="58080" noT="2"><![CDATA[Launcher disabled?  ]]></string>
   <string id="58119"><![CDATA[游戏设置：读取中……]]></string>
   <string id="58168"><![CDATA[游戏设置：无法找到设置]]></string>
   <string id="58237"><![CDATA[SETTINGS_FILE_VERSION]]></string>
@@ -3589,9 +3589,9 @@ bitmask: ]]>
   <string id="111698"><![CDATA[newGameDialog]]></string>
   <string id="111725"><![CDATA[玩家名称:]]></string>
   <string id="111750"><![CDATA[游戏模式;]]></string>
-  <string id="111771"><![CDATA[沙盒模式]]></string>
-  <string id="111786"><![CDATA[科研模式]]></string>
-  <string id="111801"><![CDATA[生涯模式]]></string>
+  <string id="111771" noT="1"><![CDATA[Sandbox]]></string>
+  <string id="111786" noT="1"><![CDATA[Science]]></string>
+  <string id="111801" noT="1"><![CDATA[Career]]></string>
   <string id="111814"><![CDATA[旗帜:]]></string>
   <string id="111825"><![CDATA[开始!]]></string>
   <string id="111838" noT="1"><![CDATA[/saves/]]></string>
