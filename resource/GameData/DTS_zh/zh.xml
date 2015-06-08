@@ -1565,7 +1565,7 @@ FX Scale: ]]>
   <string id="37585"><![CDATA[]: <size=20>抓住梯子</size>]]></string>
   <string id="37600"><![CDATA[]: <size=20>放开梯子</size>]]></string>
   <string id="37619"><![CDATA[]: <size=20>离开飞船</size>]]></string>
-  <string id="37644"><![CDATA[]: Climb]]></string>
+  <string id="37644"><![CDATA[]: 爬上去]]></string>
   <string id="37661"><![CDATA[]: <size=20>登船</size>]]></string>
   <string id="37678"><![CDATA[jp_]]></string>
   <string id="37685"><![CDATA[[KEVA Animation Error]: Animation state ]]></string>
@@ -7339,7 +7339,7 @@ Agency: ]]>
 有时候合同会需要特定的地面位置和轨道，你也可以在这里进行浏览。
 
 
-最后，如果你想要在飞行过程中查看总览地图，请按下[]键。]>
+最后，如果你想要在飞行过程中查看总览地图，请按下[]键。]]>
   </string>
   <string id="268243"><![CDATA[]键]]></string>
   <string id="268254"><![CDATA[BaseConstruction]]></string>
@@ -10753,7 +10753,7 @@ Length:]]></string>
   <string id="472270"><![CDATA[Edit subcategory name:]]></string>
   <string id="472315"><![CDATA[确定(删除)]]></string>
   <string id="472340"><![CDATA[IconList]]></string>
-  <string id="472357"><![CDATA[新图标]]></string>
+  <string id="472357" noT="2"><![CDATA[new icon]]></string>
   <string id="472374"><![CDATA[Add part to category: ]]></string>
   <string id="472419"><![CDATA[PartDropZone: Needs to have a part selected to save]]></string>
   <string id="472522"><![CDATA[Custom category]]></string>
@@ -10833,7 +10833,7 @@ Box]]>
   <string id="474841"><![CDATA[修复 <]]></string>
   <string id="474866"><![CDATA[>£<b> ]]></string>
   <string id="474879"><![CDATA[KSC设施]]></string>
-  <string id="474904"><![CDATA[这是一个航空中心的设施。如果你狠狠地敲一下，这个设施就会完整地、华丽地碎成渣渣]]></string>
+  <string id="474904"><![CDATA[这是航天中心一处的设施。如果受到严重的打击，这个设施就会倒塌然后会华丽地爆炸直到碎成渣渣。]]></string>
   <string id="475154"><![CDATA[KSCUpgradeableLevelText Syntax Error: Missing closing bracket on replacement block: ]]></string>
   <string id="475324"><![CDATA[KSCUpgradeableLevelText Syntax Error: Mismatched brackets on replacement block: ]]></string>
   <string id="475486"><![CDATA[[KSCUpgradeableFacilityText]: Parse Error. No KSC Facility exists called ]]></string>
@@ -10868,7 +10868,7 @@ Box]]>
   <string id="476332"><![CDATA[地图总览可用]]></string>
   <string id="476369"><![CDATA[地图轨道可见]]></string>
   <string id="476412"><![CDATA[地图轨道理发可用]]></string>
-  <string id="476471"><![CDATA[飞行计划可用]></string>
+  <string id="476471"><![CDATA[飞行计划可用]]></string>
   <string id="476522"><![CDATA[>此飞行计划需要升级测控站</>]]></string>
   <string id="476637"><![CDATA[坎巴拉人可以使用EVA了]]></string>
   <string id="476686"><![CDATA[坎巴拉人还只能登陆坎巴拉]]></string>
@@ -10894,7 +10894,7 @@ Box]]>
   <string id="477596"><![CDATA[保存游戏...]]></string>
   <string id="477621"><![CDATA[载入游戏...]]></string>
   <string id="477646"><![CDATA[退回主菜单]]></string>
-  <string id="477681"><![CDATA[<color=orange>这个游戏不允许读取存档。</color>]]></string>
+  <string id="477681"><![CDATA[<color=orange>本次游戏难度设定不允许读取存档。</color>]]></string>
   <string id="477811"><![CDATA[KSCVesselMarker]]></string>
   <string id="477842">
     <![CDATA[
@@ -11443,7 +11443,7 @@ msg: ]]>
   <string id="501672"><![CDATA[</i></color>]]></string>
   <string id="501697"><![CDATA[[Experiments]: Setting FX Modules to ]]></string>
   <string id="501772"><![CDATA[[Experiments]: FX Modules set: ]]></string>
-  <string id="501835"><![CDATA[]: 没有足够的存储容量去研发<i>]]></string>
+  <string id="501835"><![CDATA[]: 没有足够的科研点数容量去研发<i>]]></string>
   <string id="501920"><![CDATA[]: 实验  <i>]]></string>
   <string id="501957"><![CDATA[</i>已在实验室中被研发。</color>]]></string>
   <string id="502064"><![CDATA[<color=#99ff0099>[]]></string>
