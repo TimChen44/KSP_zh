@@ -1565,7 +1565,7 @@ FX Scale: ]]>
   <string id="37585"><![CDATA[]: <size=20>抓住梯子</size>]]></string>
   <string id="37600"><![CDATA[]: <size=20>放开梯子</size>]]></string>
   <string id="37619"><![CDATA[]: <size=20>离开飞船</size>]]></string>
-  <string id="37644"><![CDATA[]: Climb]]></string>
+  <string id="37644"><![CDATA[]: 爬上去]]></string>
   <string id="37661"><![CDATA[]: <size=20>登船</size>]]></string>
   <string id="37678"><![CDATA[jp_]]></string>
   <string id="37685"><![CDATA[[KEVA Animation Error]: Animation state ]]></string>
@@ -7339,7 +7339,7 @@ Agency: ]]>
 有时候合同会需要特定的地面位置和轨道，你也可以在这里进行浏览。
 
 
-最后，如果你想要在飞行过程中查看总览地图，请按下[]键。]>
+最后，如果你想要在飞行过程中查看总览地图，请按下[]键。]]>
   </string>
   <string id="268243"><![CDATA[]键]]></string>
   <string id="268254"><![CDATA[BaseConstruction]]></string>
