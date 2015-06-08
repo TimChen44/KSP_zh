@@ -10894,7 +10894,7 @@ Box]]>
   <string id="477596"><![CDATA[保存游戏...]]></string>
   <string id="477621"><![CDATA[载入游戏...]]></string>
   <string id="477646"><![CDATA[退回主菜单]]></string>
-  <string id="477681"><![CDATA[<color=orange>这个游戏不允许读取存档。</color>]]></string>
+  <string id="477681"><![CDATA[<color=orange>本次游戏难度设定不允许读取存档。</color>]]></string>
   <string id="477811"><![CDATA[KSCVesselMarker]]></string>
   <string id="477842">
     <![CDATA[
@@ -11443,7 +11443,7 @@ msg: ]]>
   <string id="501672"><![CDATA[</i></color>]]></string>
   <string id="501697"><![CDATA[[Experiments]: Setting FX Modules to ]]></string>
   <string id="501772"><![CDATA[[Experiments]: FX Modules set: ]]></string>
-  <string id="501835"><![CDATA[]: 没有足够的存储容量去研发<i>]]></string>
+  <string id="501835"><![CDATA[]: 没有足够的科研点数容量去研发<i>]]></string>
   <string id="501920"><![CDATA[]: 实验  <i>]]></string>
   <string id="501957"><![CDATA[</i>已在实验室中被研发。</color>]]></string>
   <string id="502064"><![CDATA[<color=#99ff0099>[]]></string>
