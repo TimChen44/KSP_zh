@@ -4326,7 +4326,7 @@ Looking for ]]>
   <string id="138705"><![CDATA[dockNodeIdx]]></string>
   <string id="138728"><![CDATA[DOCKEDVESSEL]]></string>
   <string id="138753"><![CDATA[准备好了]]></string>
-  <string id="138764"><![CDATA[解锁]]></string>
+  <string id="138764" noT="1"><![CDATA[Undock]]></string>
   <string id="138777"><![CDATA[UndockSameVessel]]></string>
   <string id="138810"><![CDATA[EnableXFeed]]></string>
   <string id="138833"><![CDATA[DisableXFeed]]></string>
