@@ -10686,7 +10686,7 @@ Length:]]></string>
   <string id="468651"><![CDATA[fuels_xenongas]]></string>
   <string id="468680"><![CDATA[Resource_]]></string>
   <string id="468699"><![CDATA[stockIcon_manufacturer]]></string>
-  <string id="468744"><![CDATA[按制造商筛选]]></string>
+  <string id="468744"  noT="2"><![CDATA[Filter by Manufacturer]]></string>
   <string id="468789"  noT="2"><![CDATA[Ionic Symphonic Protonic Electronics]]></string>
   <string id="468862"  noT="2"><![CDATA[Kerlington Model Rockets and Paper Products Inc]]></string>
   <string id="468957"  noT="2"><![CDATA[Probodobodyne Inc]]></string>
@@ -10696,22 +10696,22 @@ Length:]]></string>
   <string id="469147"><![CDATA[Manufacturer_]]></string>
   <string id="469174" noT="2"><![CDATA[C7 Aerospace Division and Rockomax Conglomerate]]></string>
   <string id="469269"><![CDATA[Manufacturer_C7 Aerospace Division and Rockomax Conglomerate]]></string>
-  <string id="469390"><![CDATA[按科技等级筛选]]></string>
+  <string id="469390" noT="2"><![CDATA[Filter by Tech Level]]></string>
   <string id="469431"><![CDATA[stockIcon_techlevel]]></string>
   <string id="469470"><![CDATA[stockIcon_subassemblies]]></string>
-  <string id="469517"><![CDATA[组件]]></string>
-  <string id="469544"><![CDATA[所有组件]]></string>
-  <string id="469579"><![CDATA[增加默认种类]]></string>
+  <string id="469517" noT="2"><![CDATA[Subassemblies]]></string>
+  <string id="469544" noT="2"><![CDATA[All subassemblies]]></string>
+  <string id="469579" noT="2"><![CDATA[Add custom category]]></string>
   <string id="469618"><![CDATA[internalIcon_plus]]></string>
-  <string id="469653"><![CDATA[种类选择]]></string>
-  <string id="469694"><![CDATA[过滤器选择]]></string>
+  <string id="469653" noT="2"><![CDATA[ categories selected]]></string>
+  <string id="469694" noT="2"><![CDATA[ filters selected]]></string>
   <string id="469729"><![CDATA[CUSTOM_PARTLIST_CATEGORY]]></string>
   <string id="469778"><![CDATA[categoryName]]></string>
   <string id="469803"><![CDATA[SUBCATEGORY]]></string>
   <string id="469826"><![CDATA[PARTS]]></string>
   <string id="469837"><![CDATA[CUSTOM_SUBASSEMBLY_SUBCATEGORY]]></string>
   <string id="469898"><![CDATA[SUBASSEMBLIES]]></string>
-  <string id="469925"><![CDATA[子组件]]></string>
+  <string id="469925" noT="2"><![CDATA[subassembly]]></string>
   <string id="469948"><![CDATA[GameData/Squad/PartList/PartCategories.cfg]]></string>
   <string id="470033"><![CDATA[GameData/Squad/PartList/SubassemblyCategories.cfg]]></string>
   <string id="470132"><![CDATA[New category name:]]></string>
