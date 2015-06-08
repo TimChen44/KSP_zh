@@ -4198,7 +4198,7 @@ Looking for ]]>
   <string id="134477"><![CDATA[<color=orange>[]]></string>
   <string id="134508"><![CDATA[]: Cannot deploy while stowed.</color>]]></string>
   <string id="134585"><![CDATA[运动中..]]></string>
-  <string id="134604"><![CDATA[地位]]></string>
+  <string id="134604" noT="1"><![CDATA[status]]></string>
   <string id="134617"><![CDATA[A]]></string>
   <string id="134620"><![CDATA[切换]]></string>
   <string id="134633"><![CDATA[HeatAnimationEmissive]]></string>
