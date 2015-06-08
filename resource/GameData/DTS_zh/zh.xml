@@ -4193,14 +4193,14 @@ Looking for ]]>
   <string id="134197"><![CDATA[ModuleAnimateGeneric: Could not find animation component - on part ]]></string>
   <string id="134333"><![CDATA[ModuleAnimateGeneric: Could not find animation ]]></string>
   <string id="134428"><![CDATA[ToggleAction]]></string>
-  <string id="134453"><![CDATA[已修正]]></string>
-  <string id="134464"><![CDATA[已锁定]]></string>
+  <string id="134453" noT="2"><![CDATA[Fixed]]></string>
+  <string id="134464" noT="2"><![CDATA[Locked]]></string>
   <string id="134477"><![CDATA[<color=orange>[]]></string>
   <string id="134508"><![CDATA[]: Cannot deploy while stowed.</color>]]></string>
   <string id="134585"><![CDATA[运动中..]]></string>
   <string id="134604" noT="1"><![CDATA[status]]></string>
-  <string id="134617"><![CDATA[A]]></string>
-  <string id="134620"><![CDATA[切换]]></string>
+  <string id="134617" noT="1"><![CDATA[A]]></string>
+  <string id="134620" noT="2"><![CDATA[toggle]]></string>
   <string id="134633"><![CDATA[HeatAnimationEmissive]]></string>
   <string id="134676"><![CDATA[InputGearToggle]]></string>
   <string id="134707"><![CDATA[收回起落架]]></string>
@@ -4231,7 +4231,7 @@ Looking for ]]>
   <string id="135937"><![CDATA[仓库门卡主了。未关闭。(]]></string>
   <string id="136004"><![CDATA[[ModuleCargoBay]: Module ]]></string>
   <string id="136055"><![CDATA[ is not an IScalarModule]]></string>
-  <string id="136104"><![CDATA[正在工作]]></string>
+  <string id="136104" noT="2"><![CDATA[Operational]]></string>
   <string id="136127"><![CDATA[没有足够的船员(]]></string>
   <string id="136162"><![CDATA[没有足够的]]></string>
   <string id="136185"><![CDATA[游客们需要机组成员 (]]></string>
@@ -4433,9 +4433,9 @@ Looking for ]]>
   </string>
   <string id="141740"><![CDATA[thruster_]]></string>
   <string id="141759"><![CDATA[thrustTransform]]></string>
-  <string id="141790"><![CDATA[部件]]></string>
+  <string id="141790" noT="2"><![CDATA[Parts]]></string>
   <string id="141801"><![CDATA[directThrottle]]></string>
-  <string id="141830"><![CDATA[线轴]]></string>
+  <string id="141830" noT="2"><![CDATA[spool]]></string>
   <string id="141841"><![CDATA[TEMP]]></string>
   <string id="141850"><![CDATA[GRAV]]></string>
   <string id="141859"><![CDATA[ACC]]></string>
@@ -4550,7 +4550,7 @@ Looking for ]]>
   <string id="145782"><![CDATA[PARACHUTES]]></string>
   <string id="145803"><![CDATA[minAirPressureToOpen]]></string>
   <string id="145844"><![CDATA[[ModuleParachute]: ]]></string>
-  <string id="145883"><![CDATA[在儿童单位中发现动画组件，但其中不包含]]></string>
+  <string id="145883" noT="2"><![CDATA[ Animation components found in child objects, but none contain states ]]></string>
   <string id="146025"><![CDATA[[ModuleParachute]: No animation components found in child objects]]></string>
   <string id="146157"><![CDATA[SEMIDEPLOYED]]></string>
   <string id="146182"><![CDATA[<b>Semi-Depl. Effective Diam: </b>]]></string>
@@ -4724,7 +4724,7 @@ Looking for ]]>
   <string id="151920"><![CDATA[CleanUpExperimentExternal]]></string>
   <string id="151971"><![CDATA[移除数据]]></string>
   <string id="151994"><![CDATA[[ScienceExperiment]: 这个容器模块说明就在几秒钟前变得空空如也。这就是为什么没有得到任何有趣的东西。]]></string>
-  <string id="152252"><![CDATA[]:显然有些很糟糕的东西刚刚发生了。</color>]]></string>
+  <string id="152252"><![CDATA[]:显然刚刚发生了很糟糕的事情。</color>]]></string>
   <string id="152375"><![CDATA[]:实验媒介被删除，模块重新可操作。</color>]]></string>
   <string id="152486"><![CDATA[<b><color=#99ff00ff>[]]></string>
   <string id="152529"><![CDATA[]:媒介恢复，模块可重新操作。</color></b>]]></string>
@@ -4760,7 +4760,7 @@ Reset requires: ]]>
   <string id="153916"><![CDATA[EXPERIMENT_DATA]]></string>
   <string id="153947"><![CDATA[读取: ]]></string>
   <string id="153966"><![CDATA[实验]]></string>
-  <string id="153987"><![CDATA[[ModuleScienceLab]:未找到容器模块在指引中]]></string>
+  <string id="153987" noT="2"><![CDATA[[ModuleScienceLab]: No Container Module found at index ]]></string>
   <string id="154098"><![CDATA[CleanModulesEvent]]></string>
   <string id="154133"><![CDATA[Clean Experiments []]></string>
   <string id="154172"><![CDATA[<b>机组需要: </b>]]></string>
@@ -11132,11 +11132,11 @@ Orange button test message
   <string id="489528"><![CDATA[animTrigger_select]]></string>
   <string id="489565"><![CDATA[Mission selected]]></string>
   <string id="489598"><![CDATA[Test AI Values]]></string>
-  <string id="489627"><![CDATA[平局分: ]]></string>
+  <string id="489627"><![CDATA[平均分: ]]></string>
   <string id="489650"><![CDATA[最低分: ]]></string>
   <string id="489673"><![CDATA[最高分: ]]></string>
   <string id="489696"><![CDATA[分数范围: ]]></string>
-  <string id="489723"><![CDATA[样本: ]]></string>
+  <string id="489723"><![CDATA[采样: ]]></string>
   <string id="489742"><![CDATA[简单]]></string>
   <string id="489751"><![CDATA[中等]]></string>
   <string id="489764"><![CDATA[困难]]></string>
@@ -11496,18 +11496,18 @@ msg: ]]>
     <![CDATA[
 按[Esc]以取消.]]>
   </string>
-  <string id="503566"><![CDATA[加速时间停止]]></string>
-  <string id="503601"><![CDATA[加速时间停止]]></string>
-  <string id="503640"><![CDATA[自动加速时间取消]]></string>
+  <string id="503566"><![CDATA[时间加速停止]]></string>
+  <string id="503601"><![CDATA[时间加速停止]]></string>
+  <string id="503640"><![CDATA[自动时间加速取消]]></string>
   <string id="503689"><![CDATA[Warping down...  UT: ]]></string>
   <string id="503732"><![CDATA[ DecelStart at ]]></string>
   <string id="503763"><![CDATA[超调量是]]></string>
   <string id="503792"><![CDATA[s.]]></string>
-  <string id="503797"><![CDATA[Warping... T]]></string>
-  <string id="503822"><![CDATA[加速时间完成!]]></string>
-  <string id="503859"><![CDATA[Real-time resumed. Current UT is: ]]></string>
-  <string id="503928"><![CDATA[. TgtUT Error is ]]></string>
-  <string id="503963"><![CDATA[s. ]]></string>
+  <string id="503797"><![CDATA[时间加速中... T]]></string>
+  <string id="503822"><![CDATA[时间加速完成!]]></string>
+  <string id="503859" noT="1"><![CDATA[Real-time resumed. Current UT is: ]]></string>
+  <string id="503928" noT="1"><![CDATA[. TgtUT Error is ]]></string>
+  <string id="503963" noT="1"><![CDATA[s. ]]></string>
   <string id="503970"><![CDATA[(Overshot)]]></string>
   <string id="503991"><![CDATA[(Undershot)]]></string>
   <string id="504014"><![CDATA[: Cannot find a facility of name ']]></string>
@@ -11515,7 +11515,7 @@ msg: ]]>
   <string id="504178"><![CDATA[[Tracking Station]:无法找到指定名称的载具 ]]></string>
   <string id="504279"><![CDATA[这里出了问题。]]></string>
   <string id="504336"><![CDATA[UIApp: No Applauncher button specified, aborting]]></string>
-  <string id="504433"><![CDATA[\saves\]]></string>
+  <string id="504433" noT="1"><![CDATA[\saves\]]></string>
   <string id="504448"><![CDATA[Autogen thumbnail for ]]></string>
   <string id="504493"><![CDATA[ (Stock) from ]]></string>
 </zh>
