@@ -50,10 +50,10 @@ namespace DTS_Addon.SuperTool
             GUI.Label(new Rect(10, 80, 400, 20), xFont.XFont.AllStr);
 
             //开始滚动视图  
-            scrollPosition = GUI.BeginScrollView(new Rect(5, 100, 390, 295), scrollPosition, new Rect(0, 0, 370, (xFont.XFont.sts.Length + xFont.XFont.strs.Length) * 20));
+            scrollPosition = GUI.BeginScrollView(new Rect(5, 100, 390, 295), scrollPosition, new Rect(0, 0, 370, (xFont.XFont.sts.Count + xFont.XFont.strs.Count) * 20));
 
             int index = 0;
-            GUI.Label(new Rect(0, index * 20, 370, 20), "SpriteText:" + xFont.XFont.sts.Length.ToString());
+            GUI.Label(new Rect(0, index * 20, 370, 20), "SpriteText:" + xFont.XFont.sts.Count.ToString());
             index++;
             foreach (var item in xFont.XFont.sts)
             {
@@ -65,7 +65,7 @@ namespace DTS_Addon.SuperTool
 
                 index++;
             }
-            GUI.Label(new Rect(0, index * 20, 370, 20), "SpriteTextRich:" + xFont.XFont.sts.Length.ToString());
+            GUI.Label(new Rect(0, index * 20, 370, 20), "SpriteTextRich:" + xFont.XFont.strs.Count.ToString());
             index++;
             foreach (var item in xFont.XFont.strs)
             {
