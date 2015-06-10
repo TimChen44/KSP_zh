@@ -15,11 +15,13 @@ namespace DTS_Addon
         public static xFont XFont;
 
         GameObject _UI;
+        GameObject _EngineersReport;
 
         void Start()
         {
             XFont = this;
             _UI = GameObject.Find("_UI");
+            _EngineersReport = GameObject.Find("EngineersReport");
         }
 
         public bool IsWatch = false;
@@ -35,8 +37,8 @@ namespace DTS_Addon
         public string AllStr = "";
         string count = "";
 
-        public SpriteText[] sts;
-        public SpriteTextRich[] strs;
+        public List<SpriteText> sts;
+        public List<SpriteTextRich> strs;
 
         void Update()
         {
@@ -44,8 +46,14 @@ namespace DTS_Addon
 
             DateTime r = DateTime.Now;
 
-            sts = _UI.gameObject.GetComponentsInChildren<SpriteText>();
-            strs = _UI.gameObject.GetComponentsInChildren<SpriteTextRich>();
+            sts = _UI.gameObject.GetComponentsInChildren<SpriteText>().ToList();
+            strs = _UI.gameObject.GetComponentsInChildren<SpriteTextRich>().ToList();
+
+            if (_EngineersReport!=null )
+            {
+                sts.AddRange(_EngineersReport.gameObject.GetComponentsInChildren<SpriteText>());
+                strs.AddRange(_EngineersReport.gameObject.GetComponentsInChildren<SpriteTextRich>());
+            }
 
             #region 监视性能
             if (IsWatch)
@@ -59,8 +67,22 @@ namespace DTS_Addon
 
             foreach (SpriteText item in sts)
                 SetSpriteTextFont(item);
+
+            bool RichResult = false;
             foreach (var item in strs)
-                SetSpriteTextRichFont(item);
+            {
+                if (SetSpriteTextRichFont(item) == true)
+                    RichResult = true;
+            }
+            if (RichResult == true)
+            {
+                Debug.Log("[xFont2]RichResult = True");
+                foreach (var item in strs)
+                {
+                    item.Text = item.Text;
+                }
+            }
+
 
             #region 监视性能
             if (IsWatch)
@@ -131,30 +153,35 @@ namespace DTS_Addon
 
             if (ST.font.name[0] == 'c' && ST.font.name[1] == 'n') return;
             Font2Font f2f = GetFont2Font(ST.font.name);
-            Debug.Log("xFont:" + ST.font.name + "-->>" + f2f.Name);
+            Debug.Log("[xFont1]" + ST.font.name + "-->>" + f2f.Name + ST.text);
             ST.SetFont(f2f.fontDef, f2f.fontMat);
 
         }
 
-        public void SetSpriteTextRichFont(SpriteTextRich ST)
+        public bool SetSpriteTextRichFont(SpriteTextRich ST)
         {
+            bool result = false;
             if (FontList.Count == 0)
             {
                 LoadxFont();
             }
-            ST.Text = ST.text;
+            if (ST.font.name[0] == 'c' && ST.font.name[1] == 'n') return result;
+
+            //Debug.Log("[xFont2-1]" + ST.font.name + " :: " + ST.text);
             for (int i = 0; i < ST.font.fonts.Length; i++)
             {
-                if (ST.font.fonts[i].fontText.name[0] == 'c' && ST.font.fonts[i].fontText.name[1] == 'n') return;
+                //if (ST.font.fonts[i].fontText.name[0] == 'c' && ST.font.fonts[i].fontText.name[1] == 'n') return;
 
                 Font2Font f2f = GetFont2Font(ST.font.fonts[i].fontText.name);
-                Debug.Log("xFont:" + ST.font.name + "-->>" + f2f.Name);
+                Debug.Log("[xFont2]" + ST.font.name + "-->>" + f2f.Name + " :: " + ST.text);
                 ST.font.fonts[i].fontText = f2f.fontDef;
                 ST.font.fonts[i].material = f2f.fontMat;
                 ST.font.fonts[i].SpriteFont = FontStore.GetFont(f2f.fontDef);
-             
+                //Debug.Log("[xFont2-2]" + ST.font.name + "-->>" + f2f.Name + " :: " + ST.text);
+                result = true;
             }
-            ST.UpdateMesh();
+            ST.font.name = "cn" + ST.font.name;
+            return result;
         }
 
         public static Font2Font GetFont2Font(string name)
