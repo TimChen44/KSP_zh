@@ -11,7 +11,7 @@ v1.0.2.842
 请详见上一版本的介绍[KSP 0.24.2汉化包技术解密](http://bbs.deeptimes.org/forum.php?mod=viewthread&tid=2137227&extra=page%3D2)
 
 ###补丁安装方法
-将resource文件夹中的三个文件夹覆盖游戏根目录中对应的三个文件夹。
+将resource文件夹中的三个文件夹覆盖游戏根目录中同名的三个文件夹。
 
 ###汉化截图
 **开始界面**
