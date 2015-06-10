@@ -29,7 +29,7 @@
   <string id="202"><![CDATA[引擎推力 ]]></string>
   <string id="229"><![CDATA[F2]]></string>
   <string id="234"><![CDATA[%]]></string>
-  <string id="237"><![CDATA[燃料百分比 ]]></string>
+  <string id="237"><![CDATA[燃料使用百分比 ]]></string>
   <string id="260"><![CDATA[产热 ]]></string>
   <string id="293"><![CDATA[节流阀最大 ]]></string>
   <string id="328"><![CDATA[部件科研点数返回: ]]></string>
@@ -37,7 +37,7 @@
   <string id="418"><![CDATA[回收降落伞]]></string>
   <string id="453"><![CDATA[修复轮胎]]></string>
   <string id="480"><![CDATA[修复登陆支架]]></string>
-  <string id="519"><![CDATA[载具科研点数返回: ]]></string>
+  <string id="519"><![CDATA[载具返回科研点数: ]]></string>
   <string id="566" noT="1"><![CDATA[name]]></string>
   <string id="575"><![CDATA[ExperienceTraitConfig: name cannot be null]]></string>
   <string id="660" noT="1"><![CDATA[title]]></string>
@@ -3793,17 +3793,17 @@ rPos: ]]>
  Transition UT: ]]>
   </string>
   <string id="117545"><![CDATA[. Iterations: ]]></string>
-  <string id="117574"><![CDATA[设置一个新的显眼物体：]]></string>
+  <string id="117574"><![CDATA[设置一个新的环绕天体：]]></string>
   <string id="117629">
     <![CDATA[
 FlightGlobals.mainBody: ]]>
   </string>
-  <string id="117680"><![CDATA[速度恢复。参考物体：]]></string>
+  <string id="117680"><![CDATA[速度已恢复。参考天体：]]></string>
   <string id="117751"><![CDATA[轨道速度:]]></string>
-  <string id="117764"><![CDATA[坐标系: ]]></string>
-  <string id="117799"><![CDATA[轮流]]></string>
-  <string id="117816"><![CDATA[惯性]]></string>
-  <string id="117833"><![CDATA[轨道]]></string>
+  <string id="117764"><![CDATA[参考帧: ]]></string>
+  <string id="117799" noT="2"><![CDATA[Rotating]]></string>
+  <string id="117816" noT="2"><![CDATA[Inertial]]></string>
+  <string id="117833" noT="2"><![CDATA[ orbit]]></string>
   <string id="117846"><![CDATA[降交点 : ]]></string>
   <string id="117881"><![CDATA[升交点 : ]]></string>
   <string id="117914"><![CDATA[远拱点	: ]]></string>
@@ -3839,9 +3839,9 @@ FlightGlobals.mainBody: ]]>
   <string id="118144"><![CDATA[N1]]></string>
   <string id="118149"><![CDATA[T ]]></string>
   <string id="118154"><![CDATA[添加计划机动点]]></string>
-  <string id="118179"><![CDATA[Warp Here]]></string>
-  <string id="118198"><![CDATA[Warp to Next Maneuver]]></string>
-  <string id="118241"><![CDATA[Cannot Auto-Warp so far]]></string>
+  <string id="118179"><![CDATA[时间加速至此]]></string>
+  <string id="118198"><![CDATA[加速至下一个规划的变轨节点]]></string>
+  <string id="118241"><![CDATA[太远了，无法时间加速至该点]]></string>
   <string id="118288"><![CDATA[设为目标]]></string>
   <string id="118315"><![CDATA[取消该目标]]></string>
   <string id="118340"><![CDATA[切换到]]></string>
@@ -3962,7 +3962,7 @@ FlightGlobals.mainBody: ]]>
   <string id="123011"><![CDATA[[ActiveJoint]: host part is null, active joint must terminate.]]></string>
   <string id="123136"><![CDATA[SetTargetRotationLocal should not be used with joints that are configured in world space. For world space joints, use SetTargetRotation.]]></string>
   <string id="123410"><![CDATA[SetTargetRotation must be used with joints that are configured in world space. For local space joints, use SetTargetRotationLocal.]]></string>
-  <string id="123672"><![CDATA[地面]]></string>
+  <string id="123672" noT="2"><![CDATA[the surface]]></string>
   <string id="123695"><![CDATA[OnCollisionEnhancerHit]]></string>
   <string id="123740"><![CDATA[Part Error: Trying to set a reference transform, but transform cannot be found by any method used during loading]]></string>
   <string id="123966"><![CDATA[Here's the transform that was attempted (double click this message)]]></string>
@@ -3971,13 +3971,13 @@ FlightGlobals.mainBody: ]]>
   <string id="124138"><![CDATA[deactivate]]></string>
   <string id="124159"><![CDATA[pFlight]]></string>
   <string id="124174"><![CDATA[Local Scenery]]></string>
-  <string id="124201"><![CDATA[不能移除机组成员]></string>
-  <string id="124252"><![CDATA[。机组成员不在这里]]></string>
-  <string id="124319"><![CDATA[不能增加机组成员]]></string>
-  <string id="124364"><![CDATA[. Part Crew Capacity Exceeded.]]></string>
-  <string id="124425"><![CDATA[。机组成员已经在这里。]]></string>
+  <string id="124201"><![CDATA[不能移除该成员]]></string>
+  <string id="124252"><![CDATA[。该成员不在这个组件内部]]></string>
+  <string id="124319"><![CDATA[不能增加成员数目]]></string>
+  <string id="124364"><![CDATA[. 已达到乘员容量限制.]]></string>
+  <string id="124425"><![CDATA[。机组成员已位于该部件内。]]></string>
   <string id="124500"><![CDATA[. Seat index ]]></string>
-  <string id="124527"><![CDATA[超出距离]]></string>
+  <string id="124527"><![CDATA[已超出距离]]></string>
   <string id="124560"><![CDATA[OnChildAdd]]></string>
   <string id="124581"><![CDATA[OnChildRemove]]></string>
   <string id="124608"><![CDATA[Part Warning: part ]]></string>
@@ -3989,7 +3989,7 @@ FlightGlobals.mainBody: ]]>
   <string id="124874"><![CDATA[ - relative velocity: ]]></string>
   <string id="124919"><![CDATA[ - impact momentum: ]]></string>
   <string id="124960"><![CDATA[ - no impact momentum (no RB)]]></string>
-  <string id="125019"><![CDATA[地面]]></string>
+  <string id="125019" noT="2"><![CDATA[terrain]]></string>
   <string id="125034"><![CDATA[OnPartPack]]></string>
   <string id="125055"><![CDATA[OnPartUnpack]]></string>
   <string id="125080"><![CDATA[过热!]]></string>
@@ -4179,7 +4179,7 @@ Looking for ]]>
     <![CDATA[/小时
 ]]>
   </string>
-  <string id="133810"><![CDATA[无法为断开器找到对应名称的函数组]]></string>
+  <string id="133810" noT="2"><![CDATA[Cannot find fx group of that name for decoupler]]></string>
   <string id="133905"><![CDATA[[ModuleDecouple Error]: No attachnode found with id ]]></string>
   <string id="134010"><![CDATA[DECOUPLER_HOR]]></string>
   <string id="134037"><![CDATA[Decouple]]></string>
@@ -4187,7 +4187,7 @@ Looking for ]]>
   <string id="134101"><![CDATA[Decoupler]]></string>
   <string id="134120"><![CDATA[anchor]]></string>
   <string id="134133"><![CDATA[decouple]]></string>
-  <string id="134150"><![CDATA[运动中..]]></string>
+  <string id="134150" noT="2"><![CDATA[Moving..]]></string>
   <string id="134167"><![CDATA[_onMove]]></string>
   <string id="134182"><![CDATA[_onStop]]></string>
   <string id="134197"><![CDATA[ModuleAnimateGeneric: Could not find animation component - on part ]]></string>
@@ -4197,7 +4197,7 @@ Looking for ]]>
   <string id="134464" noT="2"><![CDATA[Locked]]></string>
   <string id="134477"><![CDATA[<color=orange>[]]></string>
   <string id="134508"><![CDATA[]: Cannot deploy while stowed.</color>]]></string>
-  <string id="134585"><![CDATA[运动中..]]></string>
+  <string id="134585" noT="2"><![CDATA[Moving...]]></string>
   <string id="134604" noT="1"><![CDATA[status]]></string>
   <string id="134617" noT="1"><![CDATA[A]]></string>
   <string id="134620" noT="2"><![CDATA[toggle]]></string>
