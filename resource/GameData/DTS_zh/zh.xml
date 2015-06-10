@@ -29,7 +29,7 @@
   <string id="202"><![CDATA[引擎推力 ]]></string>
   <string id="229"><![CDATA[F2]]></string>
   <string id="234"><![CDATA[%]]></string>
-  <string id="237"><![CDATA[燃料百分比 ]]></string>
+  <string id="237"><![CDATA[燃料使用百分比 ]]></string>
   <string id="260"><![CDATA[产热 ]]></string>
   <string id="293"><![CDATA[节流阀最大 ]]></string>
   <string id="328"><![CDATA[部件科研点数返回: ]]></string>
@@ -37,7 +37,7 @@
   <string id="418"><![CDATA[回收降落伞]]></string>
   <string id="453"><![CDATA[修复轮胎]]></string>
   <string id="480"><![CDATA[修复登陆支架]]></string>
-  <string id="519"><![CDATA[载具科研点数返回: ]]></string>
+  <string id="519"><![CDATA[载具返回科研点数: ]]></string>
   <string id="566" noT="1"><![CDATA[name]]></string>
   <string id="575"><![CDATA[ExperienceTraitConfig: name cannot be null]]></string>
   <string id="660" noT="1"><![CDATA[title]]></string>
@@ -4179,7 +4179,7 @@ Looking for ]]>
     <![CDATA[/小时
 ]]>
   </string>
-  <string id="133810"><![CDATA[无法为断开器找到对应名称的函数组]]></string>
+  <string id="133810" noT="2"><![CDATA[Cannot find fx group of that name for decoupler]]></string>
   <string id="133905"><![CDATA[[ModuleDecouple Error]: No attachnode found with id ]]></string>
   <string id="134010"><![CDATA[DECOUPLER_HOR]]></string>
   <string id="134037"><![CDATA[Decouple]]></string>
@@ -4187,7 +4187,7 @@ Looking for ]]>
   <string id="134101"><![CDATA[Decoupler]]></string>
   <string id="134120"><![CDATA[anchor]]></string>
   <string id="134133"><![CDATA[decouple]]></string>
-  <string id="134150"><![CDATA[运动中..]]></string>
+  <string id="134150" noT="2"><![CDATA[Moving..]]></string>
   <string id="134167"><![CDATA[_onMove]]></string>
   <string id="134182"><![CDATA[_onStop]]></string>
   <string id="134197"><![CDATA[ModuleAnimateGeneric: Could not find animation component - on part ]]></string>
@@ -4197,7 +4197,7 @@ Looking for ]]>
   <string id="134464" noT="2"><![CDATA[Locked]]></string>
   <string id="134477"><![CDATA[<color=orange>[]]></string>
   <string id="134508"><![CDATA[]: Cannot deploy while stowed.</color>]]></string>
-  <string id="134585"><![CDATA[运动中..]]></string>
+  <string id="134585" noT="2"><![CDATA[Moving...]]></string>
   <string id="134604" noT="1"><![CDATA[status]]></string>
   <string id="134617" noT="1"><![CDATA[A]]></string>
   <string id="134620" noT="2"><![CDATA[toggle]]></string>
