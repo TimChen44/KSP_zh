@@ -645,7 +645,7 @@
   <string id="6451"><![CDATA[ 在机组名册上。(已存入指引: ]]></string>
   <string id="6516"><![CDATA[)]]></string>
   <string id="6519"><![CDATA[[ProtoCrewMember Warning]: Crewmember ]]></string>
-  <string id="6596"><![CDATA[已指定载具但载具已满。 ]]></string>
+  <string id="6596"><![CDATA[已指定载具但载具已满。]]></string>
   <string id="6689"><![CDATA[设置为失踪。]]></string>
   <string id="6722"><![CDATA[其中还有一部分，但状态已被设置为丢失。载具之前可能曾经保存失败过。正在恢复设定状态。]]></string>
   <string id="6960"><![CDATA[[Crew Assignment]: Part ]]></string>
@@ -657,7 +657,7 @@
   <string id="7154"><![CDATA[刚刚成为了一名勇敢的宇航员。(招募费用: ]]></string>
   <string id="7263"><![CDATA[N2]]></string>
   <string id="7268"><![CDATA[)</color>]]></string>
-  <string id="7287"><![CDATA[ 刚刚壮烈了。</color>]]></string>
+  <string id="7287"><![CDATA[刚刚成为了一名英勇的宇航员。</color>]]></string>
   <string id="7374"><![CDATA[<color=orange><b>不能雇佣更多小绿人。资金不足！</b></color>]]></string>
   <string id="7528"><![CDATA[<color=orange><b>不能雇佣更多小绿人。航天员中心已满！</b></color>]]></string>
   <string id="7718"><![CDATA[是可用的。自动雇佣未开启或现在不可用。]]></string>
@@ -5224,7 +5224,7 @@ Burn time: ]]>
   <string id="178165"><![CDATA[空间站模块故障。]]></string>
   <string id="178204"><![CDATA[这个空间站模块有空的连接点，没有接上对接口。]]></string>
   <string id="178352"><![CDATA[这几个空间站模块有空的连接点，没有接上对接口。]]></string>
-  <string id="178506"><![CDATA[空间站模块]]></string>
+  <string id="178506"><![CDATA[StationHub]]></string>
   <string id="178527"><![CDATA[EVA警报!]]></string>
   <string id="178552"><![CDATA[没有足够的]]></string>
   <string id="178591">
@@ -5366,7 +5366,7 @@ Burn time: ]]>
   <string id="184126"><![CDATA[No Storage Space]]></string>
   <string id="184159"><![CDATA[{0:0.00000}t]]></string>
   <string id="184184"><![CDATA[{0:0.00000}t ({1:0.000})%]]></string>
-  <string id="184235"><![CDATA[Resource analysis performed for {0} {1}]]></string>
+  <string id="184235"><![CDATA[执行资源分析于{0} {1}]]></string>
   <string id="184314"><![CDATA[RunAnalysis]]></string>
   <string id="184337"><![CDATA[{0:0.00} {1} jettisoned]]></string>
   <string id="184384"><![CDATA[FuelJettisonAction]]></string>
@@ -5376,7 +5376,7 @@ Burn time: ]]>
   <string id="184472"><![CDATA[{0:0.000} [{1:0.000}N]]]></string>
   <string id="184517"><![CDATA[{0:0.000} [{1:0.000}E]]]></string>
   <string id="184562"><![CDATA[[RESOURCES] Error updating ModuleGPS]]></string>
-  <string id="184635"><![CDATA[No resource data available for {0}]]></string>
+  <string id="184635"><![CDATA[在{0}没有可用的资源数据]]></string>
   <string id="184704"><![CDATA[Narrow-Band Scanner]]></string>
   <string id="184743"><![CDATA[S]]></string>
   <string id="184746"><![CDATA[{0:0.000}{1}]]></string>
@@ -5479,7 +5479,7 @@ Burn time: ]]>
   <string id="187870"><![CDATA[比率]]></string>
   <string id="187881"><![CDATA[挖掘机移动中]]></string>
   <string id="187906"><![CDATA[必须先着地]]></string>
-  <string id="187937"><![CDATA[必须砸进]]></string>
+  <string id="187937"><![CDATA[必须溅落进]]></string>
   <string id="187980"><![CDATA[没有接触地面]]></string>
   <string id="188015"><![CDATA[没有收获]]></string>
   <string id="188052"><![CDATA[不够丰富]]></string>
@@ -5751,8 +5751,8 @@ Spd: ]]>
   <string id="198006"><![CDATA[，发射地点]]></string>
   <string id="198033"><![CDATA[，飞行于]]></string>
   <string id="198050"><![CDATA[，着陆于]]></string>
-  <string id="198067"><![CDATA[, 轨道上]]></string>
-  <string id="198082"><![CDATA[,砸在]]></string>
+  <string id="198067"><![CDATA[，轨道上]]></string>
+  <string id="198082"><![CDATA[，溅落]]></string>
   <string id="198113"><![CDATA[，低轨轨迹线]]></string>
   <string id="198162"><![CDATA[，逃逸轨迹线]]></string>
   <string id="198201"><![CDATA['的]]></string>
@@ -6452,12 +6452,12 @@ Spd: ]]>
   <string id="229682"><![CDATA[你成功把一堆岩石扔出了太阳系。]]></string>
   <string id="229789"><![CDATA[那颗小行星无！影！无！踪！了！]]></string>
   <string id="229846"><![CDATA[看起来那颗小行星已经离开太阳系了。任务完成。]]></string>
-  <string id="229996"><![CDATA[武装合同]]></string>
+  <string id="229996"><![CDATA[ARMContract]]></string>
   <string id="230019"><![CDATA[asteroidClass]]></string>
   <string id="230046"><![CDATA[isLanding]]></string>
   <string id="230065"><![CDATA[Dres]]></string>
   <string id="230074"><![CDATA[outpost]]></string>
-  <string id="230089"><![CDATA[Build a new surface outpost on ]]></string>
+  <string id="230089"><![CDATA[建立一座新的表面前哨位于]]></string>
   <string id="230152"><![CDATA[基地]]></string>
   <string id="230165"><![CDATA[construction]]></string>
   <string id="230190"><![CDATA[建造一个新的前哨以中转和支援]]></string>
@@ -6475,7 +6475,7 @@ Spd: ]]>
   <string id="230654"><![CDATA[原件属于]]></string>
   <string id="230675"><![CDATA[isru]]></string>
   <string id="230684"><![CDATA[我们检测到一些 ]]></string>
-  <string id="230725"><![CDATA[。解开]]></string>
+  <string id="230725"><![CDATA[. Extract]]></string>
   <string id="230746"><![CDATA[他的原件然后传送至]]></string>
   <string id="230809"><![CDATA[他的原件。]]></string>
   <string id="230836"><![CDATA[你已经解开]]></string>
@@ -6569,10 +6569,10 @@ Spd: ]]>
   <string id="237008"><![CDATA[focusedSurvey]]></string>
   <string id="237035"><![CDATA[海关：]]></string>
   <string id="237048"><![CDATA[一个VIP]]></string>
-  <string id="237059"><![CDATA[ 游客们]]></string>
+  <string id="237059"><![CDATA[游客们]]></string>
   <string id="237078"><![CDATA[目的地]]></string>
   <string id="237101"><![CDATA[终点站]]></string>
-  <string id="237126"><![CDATA[ 和返回]]></string>
+  <string id="237126"><![CDATA[和返回]]></string>
   <string id="237147"><![CDATA[游客们]]></string>
   <string id="237164"><![CDATA[有]]></string>
   <string id="237173"><![CDATA[有]]></string>
@@ -6617,7 +6617,7 @@ Spd: ]]>
   <string id="238709"><![CDATA[冲出大气层!]]></string>
   <string id="238754"><![CDATA[汇合两艘载具位于轨道上载 ]]></string>
   <string id="238825"><![CDATA[获得科研数据来自 ]]></string>
-  <string id="238882"><![CDATA[砸进了海里位于 ]]></string>
+  <string id="238882"><![CDATA[溅落于海中位于 ]]></string>
   <string id="238945"><![CDATA[开始建造一座空间站位于]]></string>
   <string id="239020"><![CDATA[行走于表面位于 ]]></string>
   <string id="239067"><![CDATA[在太空中做着自己的事情]]></string>
@@ -6745,8 +6745,8 @@ Spd: ]]>
   <string id="249477"><![CDATA[在环绕]]></string>
   <string id="249504"><![CDATA[最后，准备好发射你的]]></string>
   <string id="249569"><![CDATA[准备好发射你的]]></string>
-  <string id="249618"><![CDATA[最后，砸下你的]]></string>
-  <string id="249659"><![CDATA[砸下你的]]></string>
+  <string id="249618"><![CDATA[最后，溅落你的]]></string>
+  <string id="249659"><![CDATA[溅落你的]]></string>
   <string id="249684"><![CDATA[下于]]></string>
   <string id="249703"><![CDATA[最后，让你的]]></string>
   <string id="249740"><![CDATA[让你的]]></string>
@@ -6765,7 +6765,7 @@ Spd: ]]>
   <string id="250471"><![CDATA[ProbeSystemsParameter]]></string>
   <string id="250514"><![CDATA[目标达成]]></string>
   <string id="250539"><![CDATA[开始建造表面前哨在]]></string>
-  <string id="250642"><![CDATA[ 经过把两个不同的载具用对接口连接起来或者用勾爪接起来。]]></string>
+  <string id="250642"><![CDATA[经过把两个不同的载具用对接口连接起来或者用勾爪接起来。]]></string>
   <string id="250818"><![CDATA[把两个不同的载具紧贴在一起，在接近位置]]></string>
   <string id="250905"><![CDATA[用对接口或者勾爪贴合。]]></string>
   <string id="251010"><![CDATA[起飞一个载具，使之摆脱引力范围在]]></string>
@@ -6784,9 +6784,9 @@ Spd: ]]>
   <string id="252316"><![CDATA[飞船达到突破大气层的高度 ]]></string>
   <string id="252435"><![CDATA[ 米来达成目标.]]></string>
   <string id="252494"><![CDATA[有两个不同载具在轨道环绕]]></string>
-  <string id="252573"><![CDATA[在事业内，降低他们的相对速度来实现这一目标]]></string>
+  <string id="252573"><![CDATA[在视野内，降低他们的相对速度来实现这一目标]]></string>
   <string id="252753"><![CDATA[传输或者回收科研数据( ]]></string>
-  <string id="252860"><![CDATA[把一个载具砸到海里位于  ]]></string>
+  <string id="252860"><![CDATA[把一个载具溅落至海里位于  ]]></string>
   <string id="252939"><![CDATA[开始建造轨道空间站并环绕 ]]></string>
   <string id="253028"><![CDATA[让一个坎巴拉人行走于表面位于]]></string>
   <string id="253103"><![CDATA[ProgressTrackingParameter]]></string>
@@ -7662,7 +7662,7 @@ Cost: \F ]]>
   <string id="281098"><![CDATA[个实验]]></string>
   <string id="281123"><![CDATA[数据被回收:]]></string>
   <string id="281146"><![CDATA[挣得科学点]]></string>
-  <string id="281179"><![CDATA[<color=orange>R&D out of service. No Science Earned.</color>]]></string>
+  <string id="281179"><![CDATA[<color=orange>研究与发展部无服务。没有科学点数获得。</color>]]></string>
   <string id="281300"><![CDATA[下一步]]></string>
   <string id="281309"><![CDATA[完 成]]></string>
   <string id="281318"><![CDATA[ 数据已收集]]></string>
@@ -7697,7 +7697,7 @@ Cost: \F ]]>
   <string id="282269"><![CDATA[[VesselRecovery]: ]]></string>
   <string id="282306"><![CDATA[已回收]]></string>
   <string id="282329"><![CDATA[. Recovery Value: ]]></string>
-  <string id="282366"><![CDATA[ is available again]]></string>
+  <string id="282366"><![CDATA[已重新可用]]></string>
   <string id="282405"><![CDATA[) reputation. Total Rep: ]]></string>
   <string id="282456"><![CDATA[) reputation: ']]></string>
   <string id="282487"><![CDATA[Adding ]]></string>
@@ -7719,7 +7719,7 @@ Cost: \F ]]>
   <string id="282939"><![CDATA[为每]]></string>
   <string id="282960">
     <![CDATA[
-* Yields ]]>
+*生产每]]>
   </string>
   <string id="282981"><![CDATA[为每单位的]]></string>
   <string id="283022"><![CDATA[[CurrencyConverter for ]]></string>
@@ -7739,7 +7739,7 @@ Cost: \F ]]>
   <string id="283419"><![CDATA[No Effect ]]></string>
   <string id="283440"><![CDATA[货币]]></string>
   <string id="283457"><![CDATA[操作]]></string>
-  <string id="283476"><![CDATA[值]]></string>
+  <string id="283476" not="2"><![CDATA[valueId]]></string>
   <string id="283491"><![CDATA[Strategy: Config cannot be null]]></string>
   <string id="283554"><![CDATA[Strategy: Cannot add effect ']]></string>
   <string id="283613"><![CDATA[策略不能被取消因为最大持续时间尚未过去。]]></string>
@@ -10507,8 +10507,8 @@ No Refunds.]]>
   <string id="463207"><![CDATA[可招募 []]></string>
   <string id="463230"><![CDATA[已招募 []]></string>
   <string id="463251"><![CDATA[已失去 []]></string>
-  <string id="463264"><![CDATA[ 失踪]]]></string>
-  <string id="463283"><![CDATA[>下次招募: £ ]]></string>
+  <string id="463264"><![CDATA[失踪]]]></string>
+  <string id="463283"><![CDATA[>Next Hire: £ ]]></string>
   <string id="463312"><![CDATA[Next Hire: £ ]]></string>
   <string id="463339"><![CDATA[kerbalicon_eva]]></string>
   <string id="463368"><![CDATA[kerbalicon_recruit]]></string>
@@ -10920,8 +10920,8 @@ Box]]>
   <string id="478240"><![CDATA[value2]]></string>
   <string id="478253"><![CDATA[vessel_icon]]></string>
   <string id="478276"><![CDATA[[#e6752a]飞行器特性: 旗帜]]></string>
-  <string id="478349"><![CDATA[旗帜安置点]]></string>
-  <string id="478366"><![CDATA[安置者:]]></string>
+  <string id="478349" not=“2”><![CDATA[FlagSite]]></string>
+  <string id="478366" not=“2”><![CDATA[placedBy]]></string>
   <string id="478383"><![CDATA[[#e6752a]旗帜:]]></string>
   <string id="478412"><![CDATA[key1]]></string>
   <string id="478421"><![CDATA[key2]]></string>
@@ -10979,8 +10979,8 @@ Box]]>
   <string id="479845"><![CDATA[hmbl]]></string>
   <string id="479854"><![CDATA[solid]]></string>
   <string id="479865"><![CDATA[dots]]></string>
-  <string id="479874"><![CDATA[no resource selected]]></string>
-  <string id="479915"><![CDATA[No resource data available  You will need to perform an orbital survey first.]]></string>
+  <string id="479874"><![CDATA[资源未选择]]></string>
+  <string id="479915"><![CDATA[没有资源数据可用，你需要先执行一次环绕探索。]]></string>
   <string id="480071"><![CDATA[label_name]]></string>
   <string id="480092"><![CDATA[label_%]]></string>
   <string id="480107"><![CDATA[f1]]></string>
@@ -11278,13 +11278,13 @@ SetTexture [_MainTex] {
   <string id="494450"><![CDATA[lineTo]]></string>
   <string id="494463"><![CDATA[No RDNode registered with id ]]></string>
   <string id="494522"><![CDATA[9+]]></string>
-  <string id="494527"><![CDATA[<#90ff00>owned</>]]></string>
+  <string id="494527"><![CDATA[<#90ff00>拥有</>]]></string>
   <string id="494562"><![CDATA[#ccff00]]></string>
   <string id="494577"><![CDATA[part_unlocked]]></string>
   <string id="494604"><![CDATA[part_available]]></string>
-  <string id="494633"><![CDATA[Are you sure you want to research this part?]]></string>
+  <string id="494633"><![CDATA[你确定要研发这个部件吗？]]></string>
   <string id="494722"><![CDATA[Research part]]></string>
-  <string id="494749"><![CDATA[<color=orange>Not enough Funds to purchase this part.</color>]]></string>
+  <string id="494749"><![CDATA[<color=orange>没有足够的资金来购买这个部件。</color>]]></string>
   <string id="494872"><![CDATA[part Stats here]]></string>
   <string id="494903">
     <![CDATA[primary info fields
@@ -11350,7 +11350,7 @@ Display here]]>
   <string id="497826"><![CDATA[EngineVibration]]></string>
   <string id="497857"><![CDATA[kerbalEVAfemale]]></string>
   <string id="497888"><![CDATA[Unnamed Kerbal]]></string>
-  <string id="497917"><![CDATA[. 速度:]]></string>
+  <string id="497917" not=“2”><![CDATA[. Vel:]]></string>
   <string id="497932"><![CDATA[KerbalEVA Error: Trying to restore EVA vessel data, but EVA does not own the vessel]]></string>
   <string id="498100"><![CDATA[------------------- initializing editor mode... ------------------]]></string>
   <string id="498234"><![CDATA[editor started]]></string>
