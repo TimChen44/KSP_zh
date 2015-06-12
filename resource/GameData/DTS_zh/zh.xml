@@ -4307,7 +4307,7 @@ Looking for ]]>
   <string id="138309">
     <![CDATA[
 
-<color=#99ff00ff><b>Outputs:</b></color>
+<color=#99ff00ff><b>输出:</b></color>
 ]]>
   </string>
   <string id="138396"><![CDATA[正在展开..]]></string>
@@ -4615,7 +4615,7 @@ Looking for ]]>
   <string id="147838"><![CDATA[Cancel Placement]]></string>
   <string id="147871">
     <![CDATA[
-<b>Cost:</b> ]]>
+<b>花费:</b> ]]>
   </string>
   <string id="147900"><![CDATA[  <b>质量:</b> ]]></string>
   <string id="147931"><![CDATA[t</color>]]></string>
@@ -11290,7 +11290,7 @@ SetTexture [_MainTex] {
     <![CDATA[primary info fields
 Display here]]>
   </string>
-  <string id="494968"><![CDATA[<color=green><b>已购买</b></color>		<b>Unit Cost:</b> ]]></string>
+  <string id="494968"><![CDATA[<color=green><b>已购买</b></color>		<b>单位消耗:</b> ]]></string>
   <string id="495083"><![CDATA[<b>购买花费 :</b> ]]></string>
   <string id="495130"><![CDATA[		<b>单位消耗:</b> ]]></string>
   <string id="495171"><![CDATA[_localLightDirection]]></string>
