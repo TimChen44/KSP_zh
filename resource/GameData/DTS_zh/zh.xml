@@ -10920,8 +10920,8 @@ Box]]>
   <string id="478240"><![CDATA[value2]]></string>
   <string id="478253"><![CDATA[vessel_icon]]></string>
   <string id="478276"><![CDATA[[#e6752a]飞行器特性: 旗帜]]></string>
-  <string id="478349" not=“2”><![CDATA[FlagSite]]></string>
-  <string id="478366" not=“2”><![CDATA[placedBy]]></string>
+  <string id="478349" not="2"><![CDATA[FlagSite]]></string>
+  <string id="478366" not="2"><![CDATA[placedBy]]></string>
   <string id="478383"><![CDATA[[#e6752a]旗帜:]]></string>
   <string id="478412"><![CDATA[key1]]></string>
   <string id="478421"><![CDATA[key2]]></string>
@@ -11350,7 +11350,7 @@ Display here]]>
   <string id="497826"><![CDATA[EngineVibration]]></string>
   <string id="497857"><![CDATA[kerbalEVAfemale]]></string>
   <string id="497888"><![CDATA[Unnamed Kerbal]]></string>
-  <string id="497917" not=“2”><![CDATA[. Vel:]]></string>
+  <string id="497917" not="2"><![CDATA[. Vel:]]></string>
   <string id="497932"><![CDATA[KerbalEVA Error: Trying to restore EVA vessel data, but EVA does not own the vessel]]></string>
   <string id="498100"><![CDATA[------------------- initializing editor mode... ------------------]]></string>
   <string id="498234"><![CDATA[editor started]]></string>
