@@ -9327,7 +9327,7 @@ Duna卫星 Ike 挡路,这事很常见因为Ike的SOI比Duna大.一旦发现立�
   <string id="439757"><![CDATA[thumbs/]]></string>
   <string id="439772"><![CDATA[Kill]]></string>
   <string id="439781"><![CDATA[选择]]></string>
-  <string id="439794"><![CDATA[旗帜]]></string>
+  <string id="439794" noT="1"><![CDATA[Flags]]></string>
   <string id="439805"><![CDATA[请选择一个旗帜]]></string>
   <string id="439832"><![CDATA[已选择的旗帜]]></string>
   <string id="439861"><![CDATA[List Item]]></string>
