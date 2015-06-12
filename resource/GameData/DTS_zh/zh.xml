@@ -4384,7 +4384,7 @@ Looking for ]]>
   <string id="140764" noT="2"><![CDATA[Off]]></string>
   <string id="140771"><![CDATA[LIQUID_ENGINE]]></string>
   <string id="140798"><![CDATA[thrustPercentage]]></string>
-  <string id="140831"><![CDATA[轻轻]]></string>
+  <string id="140831"><![CDATA[引擎推力]]></string>
   <string id="140844"><![CDATA[<b>最大推力: </b>]]></string>
   <string id="140885"><![CDATA[ @Mach ]]></string>
   <string id="140900"><![CDATA[<b>静止推力: </b>]]></string>
@@ -4472,7 +4472,7 @@ Looking for ]]>
   <string id="142520"><![CDATA[效率]]></string>
   <string id="142541"><![CDATA[启动发电机]]></string>
   <string id="142578"><![CDATA[关闭发动机]]></string>
-  <string id="142615"><![CDATA[比率]]></string>
+  <string id="142615" not="1"><![CDATA[rate]]></string>
   <string id="142624"><![CDATA[<b>矢量推力范围 : </b>]]></string>
   <string id="142673"><![CDATA[抓钩]]></string>
   <string id="142688"><![CDATA[grapplePos]]></string>
@@ -4553,8 +4553,8 @@ Looking for ]]>
   <string id="145883" noT="2"><![CDATA[ Animation components found in child objects, but none contain states ]]></string>
   <string id="146025"><![CDATA[[ModuleParachute]: No animation components found in child objects]]></string>
   <string id="146157"><![CDATA[SEMIDEPLOYED]]></string>
-  <string id="146182"><![CDATA[<b>Semi-Depl. Effective Diam: </b>]]></string>
-  <string id="146251"><![CDATA[<b>Fully-Depl. Effective Diam: </b>]]></string>
+  <string id="146182"><![CDATA[<b>预展开有效直径: </b>]]></string>
+  <string id="146251"><![CDATA[<b>全展开有效直径: </b>]]></string>
   <string id="146322"><![CDATA[<b>未展开时阻力: </b>]]></string>
   <string id="146363"><![CDATA[<b>预展开时阻力: </b>]]></string>
   <string id="146418"><![CDATA[<b>全展开时阻力: </b>]]></string>
@@ -4867,7 +4867,7 @@ Reset requires: ]]>
 ]]>
   </string>
   <string id="158411">
-    <![CDATA[>Drains evenly.</color>
+    <![CDATA[>均匀地吸收。</color>
 ]]>
   </string>
   <string id="158460">
