@@ -1434,12 +1434,12 @@ FX Scale: ]]>
     <![CDATA[ to
 [Esc]: Cancel</color>]]>
   </string>
-  <string id="33760"><![CDATA[<color=orange>Crew Transfer Interrupted</color>]]></string>
+  <string id="33760"><![CDATA[<color=orange>机组成员转移动作被打断/color>]]></string>
   <string id="33855"><![CDATA[<color=orange>]]></string>
-  <string id="33884"><![CDATA[ is already in this module.</color>]]></string>
-  <string id="33955"><![CDATA[<color=orange>This module is full.</color>]]></string>
+  <string id="33884"><![CDATA[已经在这个模块中了</color>]]></string>
+  <string id="33955"><![CDATA[<color=orange>这个模块已经满了.</color>]]></string>
   <string id="34040"><![CDATA[<color=#b4d455>]]></string>
-  <string id="34071"><![CDATA[ moved to ]]></string>
+  <string id="34071"><![CDATA[移动至]]></string>
   <string id="34092"><![CDATA[</color>]]></string>
   <string id="34109"><![CDATA[main camera pivot]]></string>
   <string id="34144" noT="1"><![CDATA[Mouse X]]></string>
@@ -3345,9 +3345,9 @@ Ext Temp: ]]>
   <string id="102358"><![CDATA[/screenshot]]></string>
   <string id="102381"><![CDATA[截图!!]]></string>
   <string id="102406"><![CDATA[没有可操作的SAS模块和驾驶员面板，无法启动SAS系统。</b></color>]]></string>
-  <string id="102576"><![CDATA[<color=orange><b>SAS Disengaged.</b></color>]]></string>
+  <string id="102576"><![CDATA[<color=orange><b>SAS未起效.</b></color>]]></string>
   <string id="102665"><![CDATA[<color=orange><b>[]]></string>
-  <string id="102702"><![CDATA[]: SAS Disengaged.</b></color>]]></string>
+  <string id="102702"><![CDATA[]:SAS未起效.</b></color>]]></string>
   <string id="102763"><![CDATA[pitchPIDR]]></string>
   <string id="102782"><![CDATA[yawPIDR]]></string>
   <string id="102797"><![CDATA[rollPIDR]]></string>
@@ -4196,7 +4196,7 @@ Looking for ]]>
   <string id="134453" noT="2"><![CDATA[Fixed]]></string>
   <string id="134464" noT="2"><![CDATA[Locked]]></string>
   <string id="134477"><![CDATA[<color=orange>[]]></string>
-  <string id="134508"><![CDATA[]: Cannot deploy while stowed.</color>]]></string>
+  <string id="134508"><![CDATA[]:在舱室中不能展开.</color>]]></string>
   <string id="134585" noT="2"><![CDATA[Moving...]]></string>
   <string id="134604" noT="1"><![CDATA[status]]></string>
   <string id="134617" noT="1"><![CDATA[A]]></string>
@@ -4261,7 +4261,7 @@ Looking for ]]>
   <string id="136881"><![CDATA[[TransmitterModule]: Part Module ]]></string>
   <string id="136948"><![CDATA[ doesn't implement IScalarModule]]></string>
   <string id="137013"><![CDATA[<b><color=orange>[]]></string>
-  <string id="137050"><![CDATA[]: Unable to deploy!</color></b>]]></string>
+  <string id="137050"><![CDATA[]:无法部署!</color></b>]]></string>
   <string id="137115"><![CDATA[实验模块的数据被移走后将无法进行操作。]]></string>
   <string id="137253"><![CDATA[警报!]]></string>
   <string id="137272"><![CDATA[传输所有数据]]></string>
@@ -4291,7 +4291,7 @@ Looking for ]]>
   <string id="137734"><![CDATA[待机]]></string>
   <string id="137743"><![CDATA[DECOUPLER_VERT]]></string>
   <string id="137772"><![CDATA[Separator]]></string>
-  <string id="137791"><![CDATA[<color=orange><b>[Solar Panels]:</b> Cannot deploy while stowed.</color>]]></string>
+  <string id="137791"><![CDATA[<color=orange><b>[太阳能板]:</b>不能在舱室内执行展开.</color>]]></string>
   <string id="137937"><![CDATA[Extend]]></string>
   <string id="137950"><![CDATA[Couldn't access raycastTransform]]></string>
   <string id="138015"><![CDATA[Cound not find the pivotName! In heirarchy]]></string>
@@ -7375,7 +7375,7 @@ Agency: ]]>
   <string id="269367"><![CDATA[数据大小:]]></string>
   <string id="269390"><![CDATA[ Mits]]></string>
   <string id="269401"><![CDATA[<color=orange>传输后无法操作.</color>]]></string>
-  <string id="269506"><![CDATA[<color=#99ff00ff>Re-Runnable.</color>]]></string>
+  <string id="269506"><![CDATA[<color=#99ff00ff>重新可运行.</color>]]></string>
   <string id="269581"><![CDATA[回收: +]]></string>
   <string id="269604"><![CDATA[ 科学点数]]></string>
   <string id="269621"><![CDATA[: +]]></string>
@@ -7451,13 +7451,13 @@ Agency: ]]>
   <string id="274030"><![CDATA[回收@]]></string>
   <string id="274049"><![CDATA[[R&D]: No Experiment definition found with id ]]></string>
   <string id="274142"><![CDATA[[R&D]: No Science Subject found with id ]]></string>
-  <string id="274223"><![CDATA[<color=orange>No response from R&D... No Science Added.</color>]]></string>
+  <string id="274223"><![CDATA[<color=orange>未从科技和研发中心收到反馈信息...没有科研点数增加.</color>]]></string>
   <string id="274350"><![CDATA[[Research & Development]: +]]></string>
   <string id="274405"><![CDATA[ data on ]]></string>
   <string id="274424"><![CDATA[. +]]></string>
   <string id="274431"><![CDATA[ Science Added. Subject value is ]]></string>
-  <string id="274498"><![CDATA[<color=#99FF00FF>[Research & Development]: ]]></string>
-  <string id="274585"><![CDATA[数据受到从 <i>]]></string>
+  <string id="274498"><![CDATA[<color=#99FF00FF>[科研和发展中心]: ]]></string>
+  <string id="274585"><![CDATA[数据收到到从 <i>]]></string>
   <string id="274628"><![CDATA[</i>. +]]></string>
   <string id="274643"><![CDATA[ 科学点数已获取.</color>]]></string>
   <string id="274690"><![CDATA[ 数据已得到]]></string>
