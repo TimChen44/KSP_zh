@@ -1434,12 +1434,12 @@ FX Scale: ]]>
     <![CDATA[ to
 [Esc]: Cancel</color>]]>
   </string>
-  <string id="33760"><![CDATA[<color=orange>Crew Transfer Interrupted</color>]]></string>
+  <string id="33760"><![CDATA[<color=orange>机组成员转移动作被打断/color>]]></string>
   <string id="33855"><![CDATA[<color=orange>]]></string>
-  <string id="33884"><![CDATA[ is already in this module.</color>]]></string>
-  <string id="33955"><![CDATA[<color=orange>This module is full.</color>]]></string>
+  <string id="33884"><![CDATA[已经在这个模块中了</color>]]></string>
+  <string id="33955"><![CDATA[<color=orange>这个模块已经满了.</color>]]></string>
   <string id="34040"><![CDATA[<color=#b4d455>]]></string>
-  <string id="34071"><![CDATA[ moved to ]]></string>
+  <string id="34071"><![CDATA[移动至]]></string>
   <string id="34092"><![CDATA[</color>]]></string>
   <string id="34109"><![CDATA[main camera pivot]]></string>
   <string id="34144" noT="1"><![CDATA[Mouse X]]></string>
@@ -2197,7 +2197,7 @@ FX Scale: ]]>
   <string id="59580"><![CDATA[摇杆]]></string>
   <string id="59599"><![CDATA[控制映射]]></string>
   <string id="59630"><![CDATA[载具]]></string>
-  <string id="59643"><![CDATA[宇航员]]></string>
+  <string id="59643"><![CDATA[小绿人]]></string>
   <string id="59658"><![CDATA[游戏]]></string>
   <string id="59667"><![CDATA[其他]]></string>
   <string id="59678"><![CDATA[键盘/按键绑定]]></string>
@@ -3345,9 +3345,9 @@ Ext Temp: ]]>
   <string id="102358"><![CDATA[/screenshot]]></string>
   <string id="102381"><![CDATA[已经截图!!]]></string>
   <string id="102406"><![CDATA[没有可操作的SAS模块和驾驶员面板，无法启动SAS系统。</b></color>]]></string>
-  <string id="102576"><![CDATA[<color=orange><b>SAS Disengaged.</b></color>]]></string>
+  <string id="102576"><![CDATA[<color=orange><b>SAS未起效.</b></color>]]></string>
   <string id="102665"><![CDATA[<color=orange><b>[]]></string>
-  <string id="102702"><![CDATA[]: SAS Disengaged.</b></color>]]></string>
+  <string id="102702"><![CDATA[]:SAS未起效.</b></color>]]></string>
   <string id="102763"><![CDATA[pitchPIDR]]></string>
   <string id="102782"><![CDATA[yawPIDR]]></string>
   <string id="102797"><![CDATA[rollPIDR]]></string>
@@ -4196,7 +4196,7 @@ Looking for ]]>
   <string id="134453" noT="2"><![CDATA[Fixed]]></string>
   <string id="134464" noT="2"><![CDATA[Locked]]></string>
   <string id="134477"><![CDATA[<color=orange>[]]></string>
-  <string id="134508"><![CDATA[]: Cannot deploy while stowed.</color>]]></string>
+  <string id="134508"><![CDATA[]:在舱室中不能展开.</color>]]></string>
   <string id="134585" noT="2"><![CDATA[Moving...]]></string>
   <string id="134604" noT="1"><![CDATA[status]]></string>
   <string id="134617" noT="1"><![CDATA[A]]></string>
@@ -4261,7 +4261,7 @@ Looking for ]]>
   <string id="136881"><![CDATA[[TransmitterModule]: Part Module ]]></string>
   <string id="136948"><![CDATA[ doesn't implement IScalarModule]]></string>
   <string id="137013"><![CDATA[<b><color=orange>[]]></string>
-  <string id="137050"><![CDATA[]: Unable to deploy!</color></b>]]></string>
+  <string id="137050"><![CDATA[]:无法部署!</color></b>]]></string>
   <string id="137115"><![CDATA[实验模块的数据被移走后将无法进行操作。]]></string>
   <string id="137253"><![CDATA[警报!]]></string>
   <string id="137272"><![CDATA[传输所有数据]]></string>
@@ -4291,7 +4291,7 @@ Looking for ]]>
   <string id="137734"><![CDATA[待机]]></string>
   <string id="137743"><![CDATA[DECOUPLER_VERT]]></string>
   <string id="137772"><![CDATA[Separator]]></string>
-  <string id="137791"><![CDATA[<color=orange><b>[Solar Panels]:</b> Cannot deploy while stowed.</color>]]></string>
+  <string id="137791"><![CDATA[<color=orange><b>[太阳能板]:</b>不能在舱室内执行展开.</color>]]></string>
   <string id="137937"><![CDATA[Extend]]></string>
   <string id="137950"><![CDATA[Couldn't access raycastTransform]]></string>
   <string id="138015"><![CDATA[Cound not find the pivotName! In heirarchy]]></string>
@@ -4307,7 +4307,7 @@ Looking for ]]>
   <string id="138309">
     <![CDATA[
 
-<color=#99ff00ff><b>Outputs:</b></color>
+<color=#99ff00ff><b>输出:</b></color>
 ]]>
   </string>
   <string id="138396"><![CDATA[正在展开..]]></string>
@@ -4384,7 +4384,7 @@ Looking for ]]>
   <string id="140764" noT="2"><![CDATA[Off]]></string>
   <string id="140771"><![CDATA[LIQUID_ENGINE]]></string>
   <string id="140798"><![CDATA[thrustPercentage]]></string>
-  <string id="140831"><![CDATA[轻轻]]></string>
+  <string id="140831"><![CDATA[引擎推力]]></string>
   <string id="140844"><![CDATA[<b>最大推力: </b>]]></string>
   <string id="140885"><![CDATA[ @Mach ]]></string>
   <string id="140900"><![CDATA[<b>静止推力: </b>]]></string>
@@ -4472,7 +4472,7 @@ Looking for ]]>
   <string id="142520"><![CDATA[效率]]></string>
   <string id="142541"><![CDATA[启动发电机]]></string>
   <string id="142578"><![CDATA[关闭发动机]]></string>
-  <string id="142615"><![CDATA[比率]]></string>
+  <string id="142615" not="1"><![CDATA[rate]]></string>
   <string id="142624"><![CDATA[<b>矢量推力范围 : </b>]]></string>
   <string id="142673"><![CDATA[抓钩]]></string>
   <string id="142688"><![CDATA[grapplePos]]></string>
@@ -4553,8 +4553,8 @@ Looking for ]]>
   <string id="145883" noT="2"><![CDATA[ Animation components found in child objects, but none contain states ]]></string>
   <string id="146025"><![CDATA[[ModuleParachute]: No animation components found in child objects]]></string>
   <string id="146157"><![CDATA[SEMIDEPLOYED]]></string>
-  <string id="146182"><![CDATA[<b>Semi-Depl. Effective Diam: </b>]]></string>
-  <string id="146251"><![CDATA[<b>Fully-Depl. Effective Diam: </b>]]></string>
+  <string id="146182"><![CDATA[<b>预展开有效直径: </b>]]></string>
+  <string id="146251"><![CDATA[<b>全展开有效直径: </b>]]></string>
   <string id="146322"><![CDATA[<b>未展开时阻力: </b>]]></string>
   <string id="146363"><![CDATA[<b>预展开时阻力: </b>]]></string>
   <string id="146418"><![CDATA[<b>全展开时阻力: </b>]]></string>
@@ -4615,7 +4615,7 @@ Looking for ]]>
   <string id="147838"><![CDATA[Cancel Placement]]></string>
   <string id="147871">
     <![CDATA[
-<b>Cost:</b> ]]>
+<b>花费:</b> ]]>
   </string>
   <string id="147900"><![CDATA[  <b>质量:</b> ]]></string>
   <string id="147931"><![CDATA[t</color>]]></string>
@@ -4867,7 +4867,7 @@ Reset requires: ]]>
 ]]>
   </string>
   <string id="158411">
-    <![CDATA[>Drains evenly.</color>
+    <![CDATA[>均匀地吸收。</color>
 ]]>
   </string>
   <string id="158460">
@@ -5862,8 +5862,8 @@ Spd: ]]>
   <string id="202484"><![CDATA[Capsule]]></string>
   <string id="202499"><![CDATA[Derelict]]></string>
   <string id="202516"><![CDATA[Heap]]></string>
-  <string id="202525"><![CDATA[怪物]]></string>
-  <string id="202534"><![CDATA[Craft]]></string>
+  <string id="202525"><![CDATA[大船]]></string>
+  <string id="202534"><![CDATA[飞行器]]></string>
   <string id="202545"><![CDATA[残骸]]></string>
   <string id="202558"><![CDATA[Scrap]]></string>
   <string id="202569"><![CDATA[Prototype]]></string>
@@ -5882,9 +5882,9 @@ Spd: ]]>
   <string id="202900"><![CDATA[在较低于 ]]></string>
   <string id="202915"><![CDATA[在环绕那里的轨道 ]]></string>
   <string id="202948"><![CDATA[，他已经站在 ]]></string>
-  <string id="202985"><![CDATA[。返回 ]]></string>
-  <string id="203004"><![CDATA[ 安全的 ]]></string>
-  <string id="203027"><![CDATA[ 留下]]></string>
+  <string id="202985"><![CDATA[。返回]]></string>
+  <string id="203004"><![CDATA[安全的到达]]></string>
+  <string id="203027"><![CDATA[留下]]></string>
   <string id="203040"><![CDATA[。回收这个而且]]></string>
   <string id="203073"><![CDATA[并没有造成很大伤害。]]></string>
   <string id="203134"><![CDATA[带回了价值很高的数据。返回]]></string>
@@ -5913,12 +5913,12 @@ Spd: ]]>
 
 ]]>
   </string>
-  <string id="203601"><![CDATA[ 现在加入你的宇航员大军了,他以后也将有机会参加你的太空任务.]]></string>
+  <string id="203601"><![CDATA[现在加入你的宇航员大军了,他以后也将有机会参加你的太空任务.]]></string>
   <string id="203749"><![CDATA[干得漂亮! ]]></string>
   <string id="203770"><![CDATA[已经完整回收而且而且如报告的一样开始分析。]]></string>
   <string id="203906"><![CDATA[干得漂亮极了! ]]></string>
-  <string id="203931"><![CDATA[ 已被回收。 ]]></string>
-  <string id="203976"><![CDATA[ 将会被审阅当我们分析完数据从]]></string>
+  <string id="203931"><![CDATA[已被回收。 ]]></string>
+  <string id="203976"><![CDATA[将会被审阅当我们分析完数据从]]></string>
   <string id="204079">
     <![CDATA[载具
 
@@ -6538,13 +6538,13 @@ Spd: ]]>
   <string id="235240"><![CDATA[SatelliteContract]]></string>
   <string id="235275"><![CDATA[deviation]]></string>
   <string id="235294"><![CDATA[orbitType]]></string>
-  <string id="235313"><![CDATA[station]]></string>
+  <string id="235313"><![CDATA[空间站]]></string>
   <string id="235328"><![CDATA[建造一个新的环极地空间站。]]></string>
   <string id="235419"><![CDATA[建造一个新的空间站并环绕 ]]></string>
-  <string id="235490"><![CDATA[空间站]]></string>
+  <string id="235490" not="2"><![CDATA[ Station ]]></string>
   <string id="235509"><![CDATA[[建造一个新的空间站作为中转并支援]]></string>
   <string id="235632"><![CDATA[极地轨道上的坎巴拉星人]]></string>
-  <string id="235685"><![CDATA[ 轨道上的坎巴拉星人 ]]></string>
+  <string id="235685"><![CDATA[轨道上的坎巴拉星人]]></string>
   <string id="235728"><![CDATA[你已经完成了建造新的空间站，现在它正环绕太阳。]]></string>
   <string id="235908"><![CDATA[你已经完成了建造新的空间站，现在它正环绕]]></string>
   <string id="236035"><![CDATA[StationContract]]></string>
@@ -6567,8 +6567,8 @@ Spd: ]]>
   <string id="236946"><![CDATA[surveyBriefing]]></string>
   <string id="236975"><![CDATA[surveyDebriefing]]></string>
   <string id="237008"><![CDATA[focusedSurvey]]></string>
-  <string id="237035"><![CDATA[海关：]]></string>
-  <string id="237048"><![CDATA[一个VIP]]></string>
+  <string id="237035"><![CDATA[护送：]]></string>
+  <string id="237048"><![CDATA[一位VIP]]></string>
   <string id="237059"><![CDATA[游客们]]></string>
   <string id="237078"><![CDATA[目的地]]></string>
   <string id="237101"><![CDATA[终点站]]></string>
@@ -6577,8 +6577,8 @@ Spd: ]]>
   <string id="237164"><![CDATA[有]]></string>
   <string id="237173"><![CDATA[有]]></string>
   <string id="237184"><![CDATA[参加旅游去看]]></string>
-  <string id="237257"><![CDATA[. 保持]]></string>
-  <string id="237272"><![CDATA[活动，而且显得 ]]></string>
+  <string id="237257"><![CDATA[。保持]]></string>
+  <string id="237272"><![CDATA[活动，而且显得]]></string>
   <string id="237307"><![CDATA[玩得开心]]></string>
   <string id="237334"><![CDATA[完整]]></string>
   <string id="237353"><![CDATA[VIP的]]></string>
@@ -6590,7 +6590,7 @@ Spd: ]]>
   <string id="237533"><![CDATA[这次旅游很成功！ ]]></string>
   <string id="237582"><![CDATA[没什么却又很多有意思的事情发生在这次旅行中，还拍了很多照片。]]></string>
   <string id="237758"><![CDATA[VIP]]></string>
-  <string id="237773"><![CDATA[一个游客]]></string>
+  <string id="237773"><![CDATA[一位游客]]></string>
   <string id="237792"><![CDATA[走丢了。我们正在解密这次旅游的内幕。]]></string>
   <string id="237897"><![CDATA[那个游客]]></string>
   <string id="237926"><![CDATA[的特权被取消了。去]]></string>
@@ -6646,7 +6646,7 @@ Spd: ]]>
   <string id="241059"><![CDATA[我们很愿意带回一个载具从 ]]></string>
   <string id="241132"><![CDATA[。至少一位科学家向我们保证，绝对不会带回任何有害污染物。]]></string>
   <string id="241306"><![CDATA[我们需要到达一个稳定的轨道位于 ]]></string>
-  <string id="241389"><![CDATA[。你所要做的，就是把你自己扔到地面山然后人间蒸发。]]></string>
+  <string id="241389"><![CDATA[。你所要做的，就是把你自己扔到地面上然后人间蒸发。]]></string>
   <string id="241529"><![CDATA[我们想要你出发去 ]]></string>
   <string id="241576"><![CDATA[然后保持一个稳定循环轨道。这不是你一个人的事情，这是属于科学的！]]></string>
   <string id="241722"><![CDATA[你留有足够的燃料从轨道返回对吗？我们想要那些零件都能返回，保证！]]></string>
@@ -6723,9 +6723,9 @@ Spd: ]]>
   <string id="248697"><![CDATA[typeString]]></string>
   <string id="248718"><![CDATA[FacilitySystemsParameter]]></string>
   <string id="248767"><![CDATA[potato]]></string>
-  <string id="248780"><![CDATA[亚轨道空天飞行]]></string>
+  <string id="248780"><![CDATA[亚轨道空天飞行于]]></string>
   <string id="248833"><![CDATA[大气飞行位于 ]]></string>
-  <string id="248878"><![CDATA[轨道环绕于 ]]></string>
+  <string id="248878"><![CDATA[轨道环绕于]]></string>
   <string id="248905"><![CDATA[太空中的东西]]></string>
   <string id="248936"><![CDATA[KerbalDestinationParameter]]></string>
   <string id="248989"><![CDATA[的单飞之旅]]></string>
@@ -6740,9 +6740,9 @@ Spd: ]]>
   <string id="249346"><![CDATA[发射你的]]></string>
   <string id="249365"><![CDATA[最后，着陆你的]]></string>
   <string id="249402"><![CDATA[着陆你的]]></string>
-  <string id="249423"><![CDATA[最后，放下你的]]></string>
-  <string id="249458"><![CDATA[放下你的]]></string>
-  <string id="249477"><![CDATA[在环绕]]></string>
+  <string id="249423"><![CDATA[最后，使你的]]></string>
+  <string id="249458"><![CDATA[使你的]]></string>
+  <string id="249477"><![CDATA[环绕于]]></string>
   <string id="249504"><![CDATA[最后，准备好发射你的]]></string>
   <string id="249569"><![CDATA[准备好发射你的]]></string>
   <string id="249618"><![CDATA[最后，溅落你的]]></string>
@@ -6856,7 +6856,7 @@ Spd: ]]>
   <string id="255080"><![CDATA[dn]]></string>
   <string id="255085"><![CDATA[近地点]]></string>
   <string id="255090"><![CDATA[远地点]]></string>
-  <string id="255095"><![CDATA[保持稳定于]]></string>
+  <string id="255095"><![CDATA[保持稳定至少]]></string>
   <string id="255142"><![CDATA[秒]]></string>
   <string id="255159"><![CDATA[holdSeconds]]></string>
   <string id="255182"><![CDATA[StabilityParameter]]></string>
@@ -7167,27 +7167,27 @@ Spd: ]]>
   <string id="260309"><![CDATA[7]]></string>
   <string id="260312"><![CDATA[8]]></string>
   <string id="260315"><![CDATA[9]]></string>
-  <string id="260318"><![CDATA[zero]]></string>
-  <string id="260327"><![CDATA[one]]></string>
-  <string id="260334"><![CDATA[two]]></string>
-  <string id="260341"><![CDATA[three]]></string>
-  <string id="260352"><![CDATA[four]]></string>
-  <string id="260361"><![CDATA[five]]></string>
-  <string id="260370"><![CDATA[six]]></string>
-  <string id="260377"><![CDATA[seven]]></string>
-  <string id="260388"><![CDATA[eight]]></string>
-  <string id="260399"><![CDATA[nine]]></string>
-  <string id="260408"><![CDATA[ten]]></string>
-  <string id="260415"><![CDATA[eleven]]></string>
-  <string id="260428"><![CDATA[twelve]]></string>
-  <string id="260441"><![CDATA[thirteen]]></string>
-  <string id="260458"><![CDATA[fourteen]]></string>
-  <string id="260475"><![CDATA[fifteen]]></string>
-  <string id="260490"><![CDATA[sixteen]]></string>
-  <string id="260505"><![CDATA[seventeen]]></string>
-  <string id="260524"><![CDATA[eighteen]]></string>
-  <string id="260541"><![CDATA[nineteen]]></string>
-  <string id="260558"><![CDATA[twenty]]></string>
+  <string id="260318"><![CDATA[0]]></string>
+  <string id="260327"><![CDATA[1]]></string>
+  <string id="260334"><![CDATA[2]]></string>
+  <string id="260341"><![CDATA[3]]></string>
+  <string id="260352"><![CDATA[4]]></string>
+  <string id="260361"><![CDATA[5]]></string>
+  <string id="260370"><![CDATA[6]]></string>
+  <string id="260377"><![CDATA[7]]></string>
+  <string id="260388"><![CDATA[8]]></string>
+  <string id="260399"><![CDATA[9]]></string>
+  <string id="260408"><![CDATA[10]]></string>
+  <string id="260415"><![CDATA[11]]></string>
+  <string id="260428"><![CDATA[12]]></string>
+  <string id="260441"><![CDATA[13]]></string>
+  <string id="260458"><![CDATA[14]]></string>
+  <string id="260475"><![CDATA[15]]></string>
+  <string id="260490"><![CDATA[16]]></string>
+  <string id="260505"><![CDATA[17]]></string>
+  <string id="260524"><![CDATA[18]]></string>
+  <string id="260541"><![CDATA[19]]></string>
+  <string id="260558"><![CDATA[20]]></string>
   <string id="260571"><![CDATA[Beta]]></string>
   <string id="260580"><![CDATA[Gamma]]></string>
   <string id="260591"><![CDATA[Delta]]></string>
@@ -7214,15 +7214,15 @@ Spd: ]]>
   <string id="260784"><![CDATA[ units]]></string>
   <string id="260797"><![CDATA[km]]></string>
   <string id="260802"><![CDATA[#,###.#]]></string>
-  <string id="260817"><![CDATA[it]]></string>
-  <string id="260822"><![CDATA[he]]></string>
-  <string id="260827"><![CDATA[him]]></string>
-  <string id="260834"><![CDATA[his]]></string>
-  <string id="260841"><![CDATA[she]]></string>
-  <string id="260848"><![CDATA[her]]></string>
-  <string id="260855"><![CDATA[they]]></string>
-  <string id="260864"><![CDATA[them]]></string>
-  <string id="260873"><![CDATA[their]]></string>
+  <string id="260817"><![CDATA[它]]></string>
+  <string id="260822"><![CDATA[他]]></string>
+  <string id="260827"><![CDATA[他]]></string>
+  <string id="260834"><![CDATA[他的]]></string>
+  <string id="260841"><![CDATA[她]]></string>
+  <string id="260848"><![CDATA[她的]]></string>
+  <string id="260855"><![CDATA[他们]]></string>
+  <string id="260864"><![CDATA[他们]]></string>
+  <string id="260873"><![CDATA[他们的]]></string>
   <string id="260884"><![CDATA[Squad/Contracts/Icons/]]></string>
   <string id="260929"><![CDATA[天体导航已超出距离]]></string>
   <string id="261002"><![CDATA[合同文本：]]></string>
@@ -7375,7 +7375,7 @@ Agency: ]]>
   <string id="269367"><![CDATA[数据大小:]]></string>
   <string id="269390"><![CDATA[ Mits]]></string>
   <string id="269401"><![CDATA[<color=orange>传输后无法操作.</color>]]></string>
-  <string id="269506"><![CDATA[<color=#99ff00ff>Re-Runnable.</color>]]></string>
+  <string id="269506"><![CDATA[<color=#99ff00ff>重新可运行.</color>]]></string>
   <string id="269581"><![CDATA[回收: +]]></string>
   <string id="269604"><![CDATA[ 科学点数]]></string>
   <string id="269621"><![CDATA[: +]]></string>
@@ -7451,13 +7451,13 @@ Agency: ]]>
   <string id="274030"><![CDATA[回收@]]></string>
   <string id="274049"><![CDATA[[R&D]: No Experiment definition found with id ]]></string>
   <string id="274142"><![CDATA[[R&D]: No Science Subject found with id ]]></string>
-  <string id="274223"><![CDATA[<color=orange>No response from R&D... No Science Added.</color>]]></string>
+  <string id="274223"><![CDATA[<color=orange>未从科技和研发中心收到反馈信息...没有科研点数增加.</color>]]></string>
   <string id="274350"><![CDATA[[Research & Development]: +]]></string>
   <string id="274405"><![CDATA[ data on ]]></string>
   <string id="274424"><![CDATA[. +]]></string>
   <string id="274431"><![CDATA[ Science Added. Subject value is ]]></string>
-  <string id="274498"><![CDATA[<color=#99FF00FF>[Research & Development]: ]]></string>
-  <string id="274585"><![CDATA[数据受到从 <i>]]></string>
+  <string id="274498"><![CDATA[<color=#99FF00FF>[科研和发展中心]: ]]></string>
+  <string id="274585"><![CDATA[数据收到到从 <i>]]></string>
   <string id="274628"><![CDATA[</i>. +]]></string>
   <string id="274643"><![CDATA[ 科学点数已获取.</color>]]></string>
   <string id="274690"><![CDATA[ 数据已得到]]></string>
@@ -10920,8 +10920,8 @@ Box]]>
   <string id="478240"><![CDATA[value2]]></string>
   <string id="478253"><![CDATA[vessel_icon]]></string>
   <string id="478276"><![CDATA[[#e6752a]飞行器特性: 旗帜]]></string>
-  <string id="478349" not=“2”><![CDATA[FlagSite]]></string>
-  <string id="478366" not=“2”><![CDATA[placedBy]]></string>
+  <string id="478349" not="2"><![CDATA[FlagSite]]></string>
+  <string id="478366" not="2"><![CDATA[placedBy]]></string>
   <string id="478383"><![CDATA[[#e6752a]旗帜:]]></string>
   <string id="478412"><![CDATA[key1]]></string>
   <string id="478421"><![CDATA[key2]]></string>
@@ -11290,7 +11290,7 @@ SetTexture [_MainTex] {
     <![CDATA[primary info fields
 Display here]]>
   </string>
-  <string id="494968"><![CDATA[<color=green><b>已购买</b></color>		<b>Unit Cost:</b> ]]></string>
+  <string id="494968"><![CDATA[<color=green><b>已购买</b></color>		<b>单位消耗:</b> ]]></string>
   <string id="495083"><![CDATA[<b>购买花费 :</b> ]]></string>
   <string id="495130"><![CDATA[		<b>单位消耗:</b> ]]></string>
   <string id="495171"><![CDATA[_localLightDirection]]></string>
@@ -11350,7 +11350,7 @@ Display here]]>
   <string id="497826"><![CDATA[EngineVibration]]></string>
   <string id="497857"><![CDATA[kerbalEVAfemale]]></string>
   <string id="497888"><![CDATA[Unnamed Kerbal]]></string>
-  <string id="497917" not=“2”><![CDATA[. Vel:]]></string>
+  <string id="497917" not="2"><![CDATA[. Vel:]]></string>
   <string id="497932"><![CDATA[KerbalEVA Error: Trying to restore EVA vessel data, but EVA does not own the vessel]]></string>
   <string id="498100"><![CDATA[------------------- initializing editor mode... ------------------]]></string>
   <string id="498234"><![CDATA[editor started]]></string>
