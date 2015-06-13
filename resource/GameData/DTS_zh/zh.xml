@@ -48,7 +48,7 @@
   <string id="725"><![CDATA[EXPERIENCE_TRAIT]]></string>
   <string id="758"><![CDATA[ExperienceSystemConfig: Experience trait ']]></string>
   <string id="843"><![CDATA['已经存在]]></string>
-  <string id="876"><![CDATA[调整人员]]></string>
+  <string id="876"><![CDATA[modifiers]]></string>
   <string id="895"><![CDATA[ExperienceTrait: Config cannot be null]]></string>
   <string id="972"><![CDATA[ExperienceTrait: Cannot add effect ']]></string>
   <string id="1045"><![CDATA['并不存在.]]></string>
@@ -5238,9 +5238,9 @@ Burn time: ]]>
 确定要继续吗?]]>
   </string>
   <string id="178787"><![CDATA[用EVA继续]]></string>
-  <string id="178820"><![CDATA[无用的实验组件]]></string>
+  <string id="178820"><![CDATA[尚未解锁的实验组件]]></string>
   <string id="178881">
-    <![CDATA[这个载具包括了一些目前用不到的实验组件:
+    <![CDATA[这个载具包括了一些尚未解锁的实验组件:
 
 ]]>
   </string>
