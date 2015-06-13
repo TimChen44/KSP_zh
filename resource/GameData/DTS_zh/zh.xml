@@ -687,11 +687,11 @@
   <string id="8737"><![CDATA[CREW]]></string>
   <string id="8746"><![CDATA[APPLICANTS]]></string>
   <string id="8767"><![CDATA[RECRUIT]]></string>
-  <string id="8782"><![CDATA[训练]]></string>
-  <string id="8799"><![CDATA[飞行]]></string>
-  <string id="8812"><![CDATA[低轨]]></string>
-  <string id="8829"><![CDATA[飞越]]></string>
-  <string id="8840"><![CDATA[处于轨道]]></string>
+  <string id="8782" not="2"><![CDATA[Training]]></string>
+  <string id="8799" not="1"><![CDATA[Flight]]></string>
+  <string id="8812" not="2"><![CDATA[Suborbit]]></string>
+  <string id="8829" not="2"><![CDATA[Flyby]]></string>
+  <string id="8840" not="2"><![CDATA[Orbit]]></string>
   <string id="8851"><![CDATA[训练在]]></string>
   <string id="8868"><![CDATA[飞行在]]></string>
   <string id="8887"><![CDATA[低轨位于]]></string>
