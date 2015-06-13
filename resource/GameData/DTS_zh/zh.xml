@@ -5593,7 +5593,7 @@ Burn time: ]]>
   <string id="193097"><![CDATA[完美主义不仅仅是一种态度.]]></string>
   <string id="193178"><![CDATA[将小绿人的极限推上新的高度.]]></string>
   <string id="193245"><![CDATA[重赏之下必有勇夫.]]></string>
-  <string id="193352"><![CDATA[记录]]></string>
+  <string id="193352"><![CDATA[Record]]></string>
   <string id="193365"><![CDATA[为了科学!]]></string>
   <string id="193390"><![CDATA[科学精神]]></string>
   <string id="193411"><![CDATA[任务期限短,同时资金奖励也较少.]]></string>
@@ -5782,7 +5782,7 @@ Spd: ]]>
   <string id="199345"><![CDATA[update]]></string>
   <string id="199358"><![CDATA[[ContractsSystem]: 合同 ]]></string>
   <string id="199415"><![CDATA[不再提供从]]></string>
-  <string id="199478"><![CDATA[通用]]></string>
+  <string id="199478"><![CDATA[generic]]></string>
   <string id="199493"><![CDATA[Any Science Data]]></string>
   <string id="199526"><![CDATA[Srf]]></string>
   <string id="199533"><![CDATA[我们想要你从这个星球附近的太空中收集到的科研数据:]]></string>
@@ -6310,8 +6310,8 @@ Spd: ]]>
   <string id="222685"><![CDATA[Tour.Reputation.BaseReward]]></string>
   <string id="222738"><![CDATA[Tour.Reputation.BaseFailure]]></string>
   <string id="222793"><![CDATA[SURVEY_DEFINITION]]></string>
-  <string id="222828"><![CDATA[Perform visual surveys of @.]]></string>
-  <string id="222885"><![CDATA[任务报告中]]></string>
+  <string id="222828"><![CDATA[执行一次于 @ 的可视调查.]]></string>
+  <string id="222885"><![CDATA[Briefing]]></string>
   <string id="222902"><![CDATA[@ 的情况我们并不了解,前去看看能找到些什么.]]></string>
   <string id="223082"><![CDATA[任务报告]]></string>
   <string id="223103"><![CDATA[结果真是太精彩了!我们获得如此多的信息关于 @! 正在转账付费.]]></string>
@@ -6346,7 +6346,7 @@ Spd: ]]>
   <string id="224337"><![CDATA[seismicScan]]></string>
   <string id="224360"><![CDATA[读取加速度数值]]></string>
   <string id="224403"><![CDATA[加速度]]></string>
-  <string id="224418"><![CDATA[科技]]></string>
+  <string id="224418"><![CDATA[Tech]]></string>
   <string id="224427"><![CDATA[sensorAccelerometer]]></string>
   <string id="224466"><![CDATA[执行@ 的气温调查.]]></string>
   <string id="224529"><![CDATA[我们想要知道@ 上一个特殊区域的气温变化.去获取一些测量数据.]]></string>
@@ -6558,7 +6558,7 @@ Spd: ]]>
   <string id="236476"><![CDATA[附近]]></string>
   <string id="236489"><![CDATA[测量]]></string>
   <string id="236502"><![CDATA[我们需要测试我们新获得的科技,来此一次严格的测试吧,去]]></string>
-  <string id="236650"><![CDATA[ 如下指定位置]]></string>
+  <string id="236650"><![CDATA[如下指定位置]]></string>
   <string id="236719"><![CDATA[警报!这是一个对气态星球的调查——按照计划.]]></string>
   <string id="236840"><![CDATA[centerLatitude]]></string>
   <string id="236869"><![CDATA[centerLongitude]]></string>
@@ -6611,7 +6611,7 @@ Spd: ]]>
   <string id="238563"><![CDATA[回到]]></string>
   <string id="238584"><![CDATA[从飞过]]></string>
   <string id="238621"><![CDATA[从表面]]></string>
-  <string id="238664"><![CDATA[轨道 ]]></string>
+  <string id="238664"><![CDATA[环绕 ]]></string>
   <string id="238677"><![CDATA[轨道.]]></string>
   <string id="238690"><![CDATA[轨道位于]]></string>
   <string id="238709"><![CDATA[冲出大气层!]]></string>
