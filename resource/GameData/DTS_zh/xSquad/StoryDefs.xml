@@ -28,12 +28,12 @@
       <Node name="LeadIns">
         <Values>
           <Value name="generic"><![CDATA[造成的后果下]]></Value>
-          <Value name="generic"><![CDATA[之后]]></Value>
+          <Value name="generic"><![CDATA[发生之后]]></Value>
           <Value name="generic"><![CDATA[的余波中]]></Value>
           <Value name="generic"><![CDATA[被处理后]]></Value>
           <Value name="generic"><![CDATA[之后不久]]></Value>
           <Value name="generic"><![CDATA[不久之前]]></Value>
-          <Value name="generic"><![CDATA[的几天以前]]></Value>
+          <Value name="generic"><![CDATA[的几天前]]></Value>
         </Values>
       </Node>
       <Node name="Situations">
@@ -267,7 +267,7 @@
           <Value name="generic"><![CDATA[[Adjunctives:Mindset] [BriefingConclusions:Conclusive]]]></Value>
           <Value name="Adjunctive"><![CDATA[[Adjunctives:Mindset] [BriefingConclusions:Conclusive]]]></Value>
           <Value name="Conclusive"><![CDATA[我们需要你的帮助.]]></Value>
-          <Value name="Conclusive"><![CDATA[这里就是需要你的地方.]]></Value>
+          <Value name="Conclusive"><![CDATA[这就是需要你的原因.]]></Value>
           <Value name="Conclusive"><![CDATA[这就是我们为什么来这儿的原因.]]></Value>
         </Values>
       </Node>
