@@ -10870,11 +10870,11 @@ Box]]>
   <string id="476412"><![CDATA[地图轨道理发可用]]></string>
   <string id="476471"><![CDATA[飞行计划可用]]></string>
   <string id="476522"><![CDATA[>此飞行计划需要升级测控站</>]]></string>
-  <string id="476637"><![CDATA[坎巴拉人可以使用EVA了]]></string>
+  <string id="476637"><![CDATA[坎巴拉人可以在空中出仓了]]></string>
   <string id="476686"><![CDATA[坎巴拉人还只能登陆坎巴拉]]></string>
-  <string id="476759"><![CDATA[穿上EVA的坎巴拉人可以插旗了]]></string>
-  <string id="476820"><![CDATA[穿上EVA的坎巴拉人会爬墙了]]></string>
-  <string id="476893"><![CDATA[穿上EVA的坎巴拉人可以收集表面标本]]></string>
+  <string id="476759"><![CDATA[坎巴拉人可以再舱外插旗了]]></string>
+  <string id="476820"><![CDATA[坎巴拉人可以在舱外爬墙了]]></string>
+  <string id="476893"><![CDATA[坎巴拉人可以在舱外收集表面标本了]]></string>
   <string id="476972"><![CDATA[>EVA表面样本需要宇航综合设施升级</>]]></string>
   <string id="477095"><![CDATA[位置目标追踪中]]></string>
   <string id="477142"><![CDATA[Track Class ]]></string>
@@ -11125,9 +11125,9 @@ Orange button test message
   <string id="489673"><![CDATA[最高分: ]]></string>
   <string id="489696"><![CDATA[分数范围: ]]></string>
   <string id="489723"><![CDATA[采样: ]]></string>
-  <string id="489742"><![CDATA[简单]]></string>
-  <string id="489751"><![CDATA[中等]]></string>
-  <string id="489764"><![CDATA[困难]]></string>
+  <string id="489742 not="1"><![CDATA[EASY]]></string>
+  <string id="489751 not="1""><![CDATA[MEDIUM]]></string>
+  <string id="489764 not="1""><![CDATA[HARD]]></string>
   <string id="489773"><![CDATA[[#aaaaaa][已取消] [#fefa87]]]></string>
   <string id="489834"><![CDATA[[#fefa87]]]></string>
   <string id="489853"><![CDATA[<b><#DB8310>合同:</></b><br>]]></string>
