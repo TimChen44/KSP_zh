@@ -48,7 +48,7 @@
   <string id="725"><![CDATA[EXPERIENCE_TRAIT]]></string>
   <string id="758"><![CDATA[ExperienceSystemConfig: Experience trait ']]></string>
   <string id="843"><![CDATA['已经存在]]></string>
-  <string id="876"><![CDATA[modifiers]]></string>
+  <string id="876" noT="1"><![CDATA[modifiers]]></string>
   <string id="895"><![CDATA[ExperienceTrait: Config cannot be null]]></string>
   <string id="972"><![CDATA[ExperienceTrait: Cannot add effect ']]></string>
   <string id="1045"><![CDATA['并不存在.]]></string>
