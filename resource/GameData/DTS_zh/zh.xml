@@ -11125,9 +11125,9 @@ Orange button test message
   <string id="489673"><![CDATA[最高分: ]]></string>
   <string id="489696"><![CDATA[分数范围: ]]></string>
   <string id="489723"><![CDATA[采样: ]]></string>
-  <string id="489742 not="1"><![CDATA[EASY]]></string>
-  <string id="489751 not="1""><![CDATA[MEDIUM]]></string>
-  <string id="489764 not="1""><![CDATA[HARD]]></string>
+  <string id="489742" not="1"><![CDATA[EASY]]></string>
+  <string id="489751" not="1"><![CDATA[MEDIUM]]></string>
+  <string id="489764" not="1"><![CDATA[HARD]]></string>
   <string id="489773"><![CDATA[[#aaaaaa][已取消] [#fefa87]]]></string>
   <string id="489834"><![CDATA[[#fefa87]]]></string>
   <string id="489853"><![CDATA[<b><#DB8310>合同:</></b><br>]]></string>
