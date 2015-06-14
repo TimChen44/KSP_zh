@@ -7347,9 +7347,9 @@ Agency: ]]>
   <string id="268308"><![CDATA[FirstCrewToSurvive]]></string>
   <string id="268345"><![CDATA[[Progress Node Reached]: ]]></string>
   <string id="268396"><![CDATA[[Progress Node Complete]: ]]></string>
-  <string id="268449"><![CDATA[到达]]></string>
-  <string id="268464"><![CDATA[完成]]></string>
-  <string id="268483"><![CDATA[机组]]></string>
+  <string id="268449" noT="1"><![CDATA[reached]]></string>
+  <string id="268464" noT="1"><![CDATA[completed]]></string>
+  <string id="268483" noT="1"><![CDATA[crews]]></string>
   <string id="268494"><![CDATA[Progress]]></string>
   <string id="268511"><![CDATA[Reached]]></string>
   <string id="268526"><![CDATA[Not Reached]]></string>
