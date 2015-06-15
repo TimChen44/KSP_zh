@@ -5723,8 +5723,8 @@ Burn time: ]]>
   <string id="197425"><![CDATA[Parameter.AcquirePart]]></string>
   <string id="197468"><![CDATA[传输或者回收科研数据 (太空中):]]></string>
   <string id="197577"><![CDATA[传输或者回收科研数据 (地表):]]></string>
-  <string id="197690"><![CDATA[体]]></string>
-  <string id="197699"><![CDATA[地点]]></string>
+  <string id="197690" not="1"><![CDATA[body]]></string>
+  <string id="197699" not="1"><![CDATA[location]]></string>
   <string id="197716"><![CDATA[进入环绕轨道:]]></string>
   <string id="197759"><![CDATA[进入SOI:]]></string>
   <string id="197786"><![CDATA[不要失去超过]]></string>
@@ -5734,7 +5734,7 @@ Burn time: ]]>
   <string id="197888"><![CDATA[降落于]]></string>
   <string id="197905"><![CDATA[测试 ]]></string>
   <string id="197916"><![CDATA[节点]]></string>
-  <string id="197927"><![CDATA[测试]]></string>
+  <string id="197927" not="2"><![CDATA[tested]]></string>
   <string id="197940"><![CDATA[插旗在 ]]></string>
   <string id="197969">
     <![CDATA[</b>
