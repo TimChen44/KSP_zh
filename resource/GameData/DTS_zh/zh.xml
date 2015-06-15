@@ -5724,7 +5724,7 @@ Burn time: ]]>
   <string id="197468"><![CDATA[传输或者回收科研数据 (太空中):]]></string>
   <string id="197577"><![CDATA[传输或者回收科研数据 (地表):]]></string>
   <string id="197690" not="1"><![CDATA[body]]></string>
-  <string id="197699" not="1"><![CDATA[location]]></string>
+  <string id="197699" not="2"><![CDATA[location]]></string>
   <string id="197716"><![CDATA[进入环绕轨道:]]></string>
   <string id="197759"><![CDATA[进入SOI:]]></string>
   <string id="197786"><![CDATA[不要失去超过]]></string>
@@ -5733,7 +5733,7 @@ Burn time: ]]>
   <string id="197871"><![CDATA[countMax]]></string>
   <string id="197888"><![CDATA[降落于]]></string>
   <string id="197905"><![CDATA[测试 ]]></string>
-  <string id="197916"><![CDATA[节点]]></string>
+  <string id="197916" not="2"><![CDATA[notes]]></string>
   <string id="197927" not="2"><![CDATA[tested]]></string>
   <string id="197940"><![CDATA[插旗在 ]]></string>
   <string id="197969">
@@ -5761,7 +5761,7 @@ Spd: ]]>
   <string id="198254"><![CDATA[failOn]]></string>
   <string id="198267"><![CDATA[Parameter.RecoverPart]]></string>
   <string id="198310"><![CDATA[回收一个部件.]]></string>
-  <string id="198341"><![CDATA[载具必须丢下旗帜于]]></string>
+  <string id="198341"><![CDATA[载具必须携带任务旗帜属于]]></string>
   <string id="198416"><![CDATA[Contract Predicate ]]></string>
   <string id="198455"><![CDATA[ has invalid config.]]></string>
   <string id="198496"><![CDATA[ has an invalid agent name.]]></string>
