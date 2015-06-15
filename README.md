@@ -28,4 +28,7 @@ v1.0.2.842
 现版本汉化中的部分中文资源来自KSP 0.24版汉化，在这里再次感谢0.24版热心网友
 
 394966931 Frighter jekiyuan(原总) 光明之门 starikki 作者无敌AA 以及本人 (排名按首字母顺序)
+
+#项目许可
+
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />本汉化项目 采用 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享 署名-非商业性使用-相同方式共享 4.0 国际 许可协议</a>进行许可。
