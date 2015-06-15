@@ -5926,15 +5926,15 @@ Spd: ]]>
   </string>
   <string id="204100"><![CDATA[已经丢失,并且,]]></string>
   <string id="204129"><![CDATA[已经毁坏！这份合同完了.]]></string>
-  <string id="204206"><![CDATA[已经丢失！ 我们正在中止行动.]]></string>
+  <string id="204206"><![CDATA[已经丢失！我们正在中止行动.]]></string>
   <string id="204301"><![CDATA[已经毁坏！我们正在中止行动.]]></string>
   <string id="204406"><![CDATA[我们正在中止行动.]]></string>
-  <string id="204479"><![CDATA[营救 ]]></string>
+  <string id="204479"><![CDATA[合同:营救]]></string>
   <string id="204526"><![CDATA[刚刚被取消]]></string>
-  <string id="204567"><![CDATA[按计划回收]]></string>
-  <string id="204616"><![CDATA[营救]]></string>
+  <string id="204567"><![CDATA[合同:营救]]></string>
+  <string id="204616"><![CDATA[合同已经到达截止日期:营救]]></string>
   <string id="204695"><![CDATA[已经到期.]]></string>
-  <string id="204722"><![CDATA[这份合同已经截止并将被回收]]></string>
+  <string id="204722"><![CDATA[合同已经到达截止日期:回收]]></string>
   <string id="204803"><![CDATA[Template.RecoverAsset]]></string>
   <string id="204846"><![CDATA[targetBody]]></string>
   <string id="204867"><![CDATA[kerbalName]]></string>
