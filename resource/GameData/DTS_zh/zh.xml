@@ -6583,7 +6583,7 @@ Spd: ]]>
   <string id="237334"><![CDATA[完成]]></string>
   <string id="237353"><![CDATA[VIP的]]></string>
   <string id="237372"><![CDATA[每个游客的]]></string>
-  <string id="237401"><![CDATA[单次飞行旅程,然后带着]]></string>
+  <string id="237401"><![CDATA[飞行旅程,然后带着]]></string>
   <string id="237464"><![CDATA[按照收费标准来收回]]></string>
   <string id="237513"><![CDATA[旅行费]]></string>
   <string id="237522"><![CDATA[旅行费]]></string>
@@ -6728,7 +6728,7 @@ Spd: ]]>
   <string id="248878"><![CDATA[轨道环绕于]]></string>
   <string id="248905"><![CDATA[太空中的东西]]></string>
   <string id="248936"><![CDATA[KerbalDestinationParameter]]></string>
-  <string id="248989"><![CDATA[的单飞之旅]]></string>
+  <string id="248989"><![CDATA[的飞行旅程]]></string>
   <string id="249028"><![CDATA[KerbalTourParameter]]></string>
   <string id="249067"><![CDATA[做点什么在表面位于]]></string>
   <string id="249130"><![CDATA[最后,接上你的 ]]></string>
@@ -6910,7 +6910,7 @@ Spd: ]]>
   <string id="256790"><![CDATA[表面积]]></string>
   <string id="256799"><![CDATA[Sector]]></string>
   <string id="256812"><![CDATA[Site]]></string>
-  <string id="256821"><![CDATA[Zone]]></string>
+  <string id="256821"><![CDATA[区域]]></string>
   <string id="256830"><![CDATA[Bill's]]></string>
   <string id="256843"><![CDATA[Bob's]]></string>
   <string id="256854"><![CDATA[Bobak's]]></string>
