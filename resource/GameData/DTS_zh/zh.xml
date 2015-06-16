@@ -4634,7 +4634,7 @@ Looking for ]]>
   </string>
   <string id="148212"><![CDATA[RCS模块无法找到任何转换在这个部件名称]]></string>
   <string id="148323"><![CDATA[RCSthruster]]></string>
-  <string id="148346"><![CDATA[单元推进剂]]></string>
+  <string id="148346"><![CDATA[MonoPropellant]]></string>
   <string id="148375"><![CDATA[fx_gasJet_white]]></string>
   <string id="148406"><![CDATA[rcsGroup]]></string>
   <string id="148423"><![CDATA[WheelState]]></string>
@@ -5393,8 +5393,8 @@ Burn time: ]]>
   <string id="185090"><![CDATA[Map Center:]]></string>
   <string id="185113"><![CDATA[Resource:]]></string>
   <string id="185132"><![CDATA[<color=#FFFFFF>{0}</color> [<color=#FFEE00>{1:0.00%}</color> avg]]]></string>
-  <string id="185264"><![CDATA[资源]]></string>
-  <string id="185281"><![CDATA[刷新]]></string>
+  <string id="185264" not="2"><![CDATA[Resource]]></string>
+  <string id="185281" not="2"><![CDATA[Refresh]]></string>
   <string id="185296"><![CDATA[Color]]></string>
   <string id="185307"><![CDATA[<color=#FFEE00>无可用数据</color>]]></string>
   <string id="185388"><![CDATA[这里没有可用的轨道探测数据.]]></string>
@@ -5495,7 +5495,7 @@ Burn time: ]]>
   <string id="188461"><![CDATA[Exospheric]]></string>
   <string id="188482"><![CDATA[abundanceDisplay]]></string>
   <string id="188515"><![CDATA[太高]]></string>
-  <string id="188532"><![CDATA[不可用]]></string>
+  <string id="188532" not="2"><![CDATA[Unavailable]]></string>
   <string id="188555"><![CDATA[0.0000]]></string>
   <string id="188568"><![CDATA[{0}]]></string>
   <string id="188575"><![CDATA[({0} avg.)]]></string>
@@ -5543,7 +5543,7 @@ Burn time: ]]>
   <string id="189971"><![CDATA[FlowMode]]></string>
   <string id="189988"><![CDATA[ResourceSetup]]></string>
   <string id="190015"><![CDATA[RESOURCE_CONFIGURATION]]></string>
-  <string id="190060"><![CDATA[分布]]></string>
+  <string id="190060" not="2"><![CDATA[Distribution]]></string>
   <string id="190085"><![CDATA[<b><#DB8310>委托方:</> ]]></string>
   <string id="190130"><![CDATA[</><br><br><br>]]></string>
   <string id="190161"><![CDATA[<b><#DB8310>描述:</></><br><br>]]></string>
@@ -5580,7 +5580,7 @@ Burn time: ]]>
   <string id="191975"><![CDATA[Agent: Cannot load mentality of name ']]></string>
   <string id="192052"><![CDATA['. Agent already has a mentality of that type.]]></string>
   <string id="192145"><![CDATA[Lower Reputation rewards, but higher financial stakes.]]></string>
-  <string id="192254"><![CDATA[商业理念]]></string>
+  <string id="192254" not="2"><![CDATA[Commercial]]></string>
   <string id="192275"><![CDATA[更短的任务期限,但是有更多资金奖励.]]></string>
   <string id="192384"><![CDATA[无论任务成功与否,对声誉的影响都不大.]]></string>
   <string id="192489"><![CDATA[大力支持环保.]]></string>
@@ -5595,7 +5595,7 @@ Burn time: ]]>
   <string id="193245"><![CDATA[重赏之下必有勇夫.]]></string>
   <string id="193352"><![CDATA[Record]]></string>
   <string id="193365"><![CDATA[为了科学!]]></string>
-  <string id="193390"><![CDATA[科学精神]]></string>
+  <string id="193390" not="2"><![CDATA[Scientific]]></string>
   <string id="193411"><![CDATA[任务期限短,同时资金奖励也较少.]]></string>
   <string id="193532"><![CDATA[无论任务成功与否,对声誉的影响都很大.]]></string>
   <string id="193710"><![CDATA[奖励 ]]></string>
@@ -5704,7 +5704,7 @@ Burn time: ]]>
   <string id="197052"><![CDATA[ReachAltitudeEnvelope]]></string>
   <string id="197095"><![CDATA[minAlt]]></string>
   <string id="197108"><![CDATA[maxAlt]]></string>
-  <string id="197121"><![CDATA[生物群落]]></string>
+  <string id="197121" not="2"><![CDATA[biome]]></string>
   <string id="197132"><![CDATA[dest]]></string>
   <string id="197141"><![CDATA[发射台]]></string>
   <string id="197164"><![CDATA[正在飞行]]></string>
@@ -5812,13 +5812,13 @@ Spd: ]]>
   <string id="200663"><![CDATA[高级 ]]></string>
   <string id="200676"><![CDATA[超级 ]]></string>
   <string id="200693"><![CDATA[终极 ]]></string>
-  <string id="200712"><![CDATA[旅程]]></string>
-  <string id="200725"><![CDATA[集合]]></string>
-  <string id="200736"><![CDATA[航行]]></string>
-  <string id="200749"><![CDATA[跋涉]]></string>
-  <string id="200758"><![CDATA[旅行]]></string>
-  <string id="200773"><![CDATA[远征]]></string>
-  <string id="200794"><![CDATA[挑战]]></string>
+  <string id="200712" not="2"><![CDATA[Course]]></string>
+  <string id="200725" not="2"><![CDATA[Rally]]></string>
+  <string id="200736" not="2"><![CDATA[Voyage]]></string>
+  <string id="200749" not="2"><![CDATA[Trek]]></string>
+  <string id="200758" not="2"><![CDATA[Journey]]></string>
+  <string id="200773" not="2"><![CDATA[Expedition]]></string>
+  <string id="200794" not="2"><![CDATA[Challenge]]></string>
   <string id="200813"><![CDATA[你已成功到访 ]]></string>
   <string id="200874"><![CDATA[ 星球内部而且只用单个载具！]]></string>
   <string id="200953"><![CDATA[警报！这份合同需要在一个极危险的地点完成—— 按计划的话]]></string>
@@ -5891,7 +5891,7 @@ Spd: ]]>
   <string id="203191"><![CDATA[而且还留下了些啥]]></string>
   <string id="203234"><![CDATA[装入载具]]></string>
   <string id="203257">
-    <![CDATA[ 目标：
+    <![CDATA[ 状态：
 质量 ]]>
   </string>
   <string id="203286">
@@ -5931,7 +5931,7 @@ Spd: ]]>
   <string id="204406"><![CDATA[我们正在中止行动.]]></string>
   <string id="204479"><![CDATA[合同:营救]]></string>
   <string id="204526"><![CDATA[刚刚被取消]]></string>
-  <string id="204567"><![CDATA[合同:营救]]></string>
+  <string id="204567"><![CDATA[合同:回收]]></string>
   <string id="204616"><![CDATA[合同已经到达截止日期:营救]]></string>
   <string id="204695"><![CDATA[已经到期.]]></string>
   <string id="204722"><![CDATA[合同已经到达截止日期:回收]]></string>
@@ -6336,16 +6336,16 @@ Spd: ]]>
   <string id="223713"><![CDATA[ReputationMultiplier]]></string>
   <string id="223754"><![CDATA[crewReport]]></string>
   <string id="223775"><![CDATA[获取一份舱内报告]]></string>
-  <string id="223812"><![CDATA[报告]]></string>
+  <string id="223812"><![CDATA[report]]></string>
   <string id="223825"><![CDATA[surfaceSample]]></string>
   <string id="223852"><![CDATA[获取一份表面样本]]></string>
-  <string id="223895"><![CDATA[样本]]></string>
+  <string id="223895"><![CDATA[sample]]></string>
   <string id="223908"><![CDATA[在@.上获取一份地震数据]]></string>
   <string id="223967"><![CDATA[我们需要确认一些在@ 内部发生的理论.前往那里然后获取一份加速度数据.]]></string>
   <string id="224199"><![CDATA[那里有一些地震读数,是我们需要的关于@的.谢谢你.]]></string>
   <string id="224337"><![CDATA[seismicScan]]></string>
   <string id="224360"><![CDATA[读取加速度数值]]></string>
-  <string id="224403"><![CDATA[加速度]]></string>
+  <string id="224403"><![CDATA[seismic]]></string>
   <string id="224418"><![CDATA[Tech]]></string>
   <string id="224427"><![CDATA[sensorAccelerometer]]></string>
   <string id="224466"><![CDATA[执行@ 的气温调查.]]></string>
@@ -6360,7 +6360,7 @@ Spd: ]]>
   <string id="225298"><![CDATA[如果这些大气数据是正确的,那说明我们的科技在@ 有了极好的长进.]]></string>
   <string id="225478"><![CDATA[barometerScan]]></string>
   <string id="225505"><![CDATA[读取气压数据]]></string>
-  <string id="225550"><![CDATA[气压]]></string>
+  <string id="225550"><![CDATA[pressure]]></string>
   <string id="225567"><![CDATA[sensorBarometer]]></string>
   <string id="225598"><![CDATA[atmosphereAnalysis]]></string>
   <string id="225635"><![CDATA[进行大气分析]]></string>
@@ -6371,7 +6371,7 @@ Spd: ]]>
   <string id="225969"><![CDATA[你的帮助在获得重力读数的行动中是不可或缺的.]]></string>
   <string id="226133"><![CDATA[gravityScan]]></string>
   <string id="226156"><![CDATA[记录重力焦点]]></string>
-  <string id="226211"><![CDATA[重力]]></string>
+  <string id="226211"><![CDATA[gravity]]></string>
   <string id="226226"><![CDATA[sensorGravimeter]]></string>
   <string id="226259"><![CDATA[PART_REQUEST]]></string>
   <string id="226284"><![CDATA[Trivial]]></string>
@@ -6384,7 +6384,7 @@ Spd: ]]>
   <string id="226495"><![CDATA[MinimumScience]]></string>
   <string id="226524"><![CDATA[Chance]]></string>
   <string id="226537"><![CDATA[在前哨站放一个观察站]]></string>
-  <string id="226610"><![CDATA[观察站]]></string>
+  <string id="226610"><![CDATA[cupola]]></string>
   <string id="226623"><![CDATA[在前哨站放一个ISRU资源转换器]]></string>
   <string id="226728"><![CDATA[在空间站放一座实验室]]></string>
   <string id="226797"><![CDATA[在空间站放一个观察站]]></string>
@@ -6407,7 +6407,7 @@ Spd: ]]>
   <string id="227680"><![CDATA[LiquidFuel]]></string>
   <string id="227701"><![CDATA[液体燃料]]></string>
   <string id="227724"><![CDATA[fuelTankSmallFlat]]></string>
-  <string id="227759"><![CDATA[monopropellant]]></string>
+  <string id="227759"><![CDATA[单元推进剂]]></string>
   <string id="227788"><![CDATA[rcsTankMini]]></string>
   <string id="227811"><![CDATA[XenonGas]]></string>
   <string id="227828"><![CDATA[氙气]]></string>
@@ -6458,12 +6458,12 @@ Spd: ]]>
   <string id="230065"><![CDATA[Dres]]></string>
   <string id="230074"><![CDATA[outpost]]></string>
   <string id="230089"><![CDATA[建立一座新的表面前哨位于]]></string>
-  <string id="230152"><![CDATA[基地]]></string>
+  <string id="230152" not="2"><![CDATA[ Base ]]></string>
   <string id="230165"><![CDATA[construction]]></string>
   <string id="230190"><![CDATA[建造一个新的前哨以中转和支援]]></string>
   <string id="230297"><![CDATA[坎巴拉星人位于]]></string>
   <string id="230352"><![CDATA[你完成了建造新的表面前哨位于]]></string>
-  <string id="230471"><![CDATA[基地合同]]></string>
+  <string id="230471" not="1"><![CDATA[BaseContract]]></string>
   <string id="230496"><![CDATA[capacity]]></string>
   <string id="230513"><![CDATA[LaunchClamp]]></string>
   <string id="230536"><![CDATA[Matter]]></string>
