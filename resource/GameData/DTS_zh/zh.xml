@@ -1501,7 +1501,7 @@ FX Scale: ]]>
   <string id="35724"><![CDATA[End Run]]></string>
   <string id="35739"><![CDATA[Jump Start]]></string>
   <string id="35760"><![CDATA[Jump Launch]]></string>
-  <string id="35783"><![CDATA[降落]]></string>
+  <string id="35783"><![CDATA[Landed]]></string>
   <string id="35796"><![CDATA[Recover Start]]></string>
   <string id="35823"><![CDATA[Recover End]]></string>
   <string id="35846"><![CDATA[Pack Toggle]]></string>
@@ -6310,9 +6310,9 @@ Spd: ]]>
   <string id="222685"><![CDATA[Tour.Reputation.BaseReward]]></string>
   <string id="222738"><![CDATA[Tour.Reputation.BaseFailure]]></string>
   <string id="222793"><![CDATA[SURVEY_DEFINITION]]></string>
-  <string id="222828"><![CDATA[执行一次于 @ 的可视调查.]]></string>
+  <string id="222828"><![CDATA[执行一次可视调查于 @.]]></string>
   <string id="222885"><![CDATA[Briefing]]></string>
-  <string id="222902"><![CDATA[@ 的情况我们并不了解,前去看看能找到些什么.]]></string>
+  <string id="222902"><![CDATA[ @ 的情况我们并不了解,前去看看能找到些什么.]]></string>
   <string id="223082"><![CDATA[任务报告]]></string>
   <string id="223103"><![CDATA[结果真是太精彩了!我们获得如此多的信息关于 @! 正在转账付费.]]></string>
   <string id="223279"><![CDATA[FundsReward]]></string>
@@ -10497,15 +10497,15 @@ No Refunds.]]>
   <string id="462790"><![CDATA[K.I.A.]]></string>
   <string id="462803"><![CDATA[Missing in Action]]></string>
   <string id="462838"><![CDATA[<b><color=orange>没有足够的资金来招募.</color></b>]]></string>
-  <string id="462980"><![CDATA[Active Kerbals: ]]></string>
-  <string id="463013"><![CDATA[	[Max: ]]></string>
+  <string id="462980"><![CDATA[可用的小绿人: ]]></string>
+  <string id="463013"><![CDATA[	[最大: ]]></string>
   <string id="463028"><![CDATA[>准备好的小绿人: ]]></string>
   <string id="463063"><![CDATA[	<b>[最多: ]]></string>
   <string id="463084"><![CDATA[]</></>]]></string>
   <string id="463099"><![CDATA[>无法雇佣</>]]></string>
   <string id="463130"><![CDATA[>Astronaut Complex Capacity Reached</>]]></string>
-  <string id="463207"><![CDATA[可招募 []]></string>
-  <string id="463230"><![CDATA[已招募 []]></string>
+  <string id="463207"><![CDATA[可用的 []]></string>
+  <string id="463230"><![CDATA[已分配 []]></string>
   <string id="463251"><![CDATA[已失去 []]></string>
   <string id="463264"><![CDATA[失踪]]]></string>
   <string id="463283"><![CDATA[>Next Hire: £ ]]></string>
