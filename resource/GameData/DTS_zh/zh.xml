@@ -1501,7 +1501,7 @@ FX Scale: ]]>
   <string id="35724"><![CDATA[End Run]]></string>
   <string id="35739"><![CDATA[Jump Start]]></string>
   <string id="35760"><![CDATA[Jump Launch]]></string>
-  <string id="35783"><![CDATA[Landed]]></string>
+  <string id="35783" noT="1"><![CDATA[Landed]]></string>
   <string id="35796"><![CDATA[Recover Start]]></string>
   <string id="35823"><![CDATA[Recover End]]></string>
   <string id="35846"><![CDATA[Pack Toggle]]></string>
@@ -4634,7 +4634,7 @@ Looking for ]]>
   </string>
   <string id="148212"><![CDATA[RCS模块无法找到任何转换在这个部件名称]]></string>
   <string id="148323"><![CDATA[RCSthruster]]></string>
-  <string id="148346"><![CDATA[MonoPropellant]]></string>
+  <string id="148346" noT="2"><![CDATA[MonoPropellant]]></string>
   <string id="148375"><![CDATA[fx_gasJet_white]]></string>
   <string id="148406"><![CDATA[rcsGroup]]></string>
   <string id="148423"><![CDATA[WheelState]]></string>
@@ -6310,7 +6310,7 @@ Spd: ]]>
   <string id="222685"><![CDATA[Tour.Reputation.BaseReward]]></string>
   <string id="222738"><![CDATA[Tour.Reputation.BaseFailure]]></string>
   <string id="222793"><![CDATA[SURVEY_DEFINITION]]></string>
-  <string id="222828"><![CDATA[执行一次可视调查于 @.]]></string>
+  <string id="222828"><![CDATA[于 @执行一次可视调查.]]></string>
   <string id="222885"><![CDATA[Briefing]]></string>
   <string id="222902"><![CDATA[ @ 的情况我们并不了解,前去看看能找到些什么.]]></string>
   <string id="223082"><![CDATA[任务报告]]></string>
@@ -6336,7 +6336,7 @@ Spd: ]]>
   <string id="223713"><![CDATA[ReputationMultiplier]]></string>
   <string id="223754"><![CDATA[crewReport]]></string>
   <string id="223775"><![CDATA[获取一份舱内报告]]></string>
-  <string id="223812"><![CDATA[report]]></string>
+  <string id="223812" noT="2"><![CDATA[report]]></string>
   <string id="223825"><![CDATA[surfaceSample]]></string>
   <string id="223852"><![CDATA[获取一份表面样本]]></string>
   <string id="223895"><![CDATA[sample]]></string>
@@ -6345,7 +6345,7 @@ Spd: ]]>
   <string id="224199"><![CDATA[那里有一些地震读数,是我们需要的关于@的.谢谢你.]]></string>
   <string id="224337"><![CDATA[seismicScan]]></string>
   <string id="224360"><![CDATA[读取加速度数值]]></string>
-  <string id="224403"><![CDATA[seismic]]></string>
+  <string id="224403" noT="2"><![CDATA[seismic]]></string>
   <string id="224418"><![CDATA[Tech]]></string>
   <string id="224427"><![CDATA[sensorAccelerometer]]></string>
   <string id="224466"><![CDATA[执行@ 的气温调查.]]></string>
@@ -6360,7 +6360,7 @@ Spd: ]]>
   <string id="225298"><![CDATA[如果这些大气数据是正确的,那说明我们的科技在@ 有了极好的长进.]]></string>
   <string id="225478"><![CDATA[barometerScan]]></string>
   <string id="225505"><![CDATA[读取气压数据]]></string>
-  <string id="225550"><![CDATA[pressure]]></string>
+  <string id="225550" noT="2"><![CDATA[pressure]]></string>
   <string id="225567"><![CDATA[sensorBarometer]]></string>
   <string id="225598"><![CDATA[atmosphereAnalysis]]></string>
   <string id="225635"><![CDATA[进行大气分析]]></string>
@@ -6371,7 +6371,7 @@ Spd: ]]>
   <string id="225969"><![CDATA[你的帮助在获得重力读数的行动中是不可或缺的.]]></string>
   <string id="226133"><![CDATA[gravityScan]]></string>
   <string id="226156"><![CDATA[记录重力焦点]]></string>
-  <string id="226211"><![CDATA[gravity]]></string>
+  <string id="226211" noT="2"><![CDATA[gravity]]></string>
   <string id="226226"><![CDATA[sensorGravimeter]]></string>
   <string id="226259"><![CDATA[PART_REQUEST]]></string>
   <string id="226284"><![CDATA[Trivial]]></string>
@@ -6384,7 +6384,7 @@ Spd: ]]>
   <string id="226495"><![CDATA[MinimumScience]]></string>
   <string id="226524"><![CDATA[Chance]]></string>
   <string id="226537"><![CDATA[在前哨站放一个观察站]]></string>
-  <string id="226610"><![CDATA[cupola]]></string>
+  <string id="226610" noT="2"><![CDATA[cupola]]></string>
   <string id="226623"><![CDATA[在前哨站放一个ISRU资源转换器]]></string>
   <string id="226728"><![CDATA[在空间站放一座实验室]]></string>
   <string id="226797"><![CDATA[在空间站放一个观察站]]></string>
@@ -6431,7 +6431,7 @@ Spd: ]]>
   <string id="228250"><![CDATA[小行星到轨道环绕]]></string>
   <string id="228313"><![CDATA[推进一组新的]]></string>
   <string id="228342"><![CDATA[小新星离开太阳系.]]></string>
-  <string id="228411"><![CDATA[arm]]></string>
+  <string id="228411" noT="1"><![CDATA[arm]]></string>
   <string id="228418"><![CDATA[捕获一组新的]]></string>
   <string id="228459"><![CDATA[小行星,然后带着它到]]></string>
   <string id="228516"><![CDATA[然后着陆...动作要轻.]]></string>
@@ -6517,11 +6517,11 @@ Spd: ]]>
   <string id="233014"><![CDATA[把一颗卫星放到特定轨道位于]]></string>
   <string id="233099"><![CDATA[赤道轨道]]></string>
   <string id="233132"><![CDATA[极地轨道]]></string>
-  <string id="233155"><![CDATA[Orbit]]></string>
+  <string id="233155" noT="2"><![CDATA[Orbit]]></string>
   <string id="233168"><![CDATA[苔原轨道]]></string>
   <string id="233193"><![CDATA[气象静止轨道]]></string>
   <string id="233226"><![CDATA[同步轨道]]></string>
-  <string id="233261"><![CDATA[satellites]]></string>
+  <string id="233261" noT="2"><![CDATA[satellites]]></string>
   <string id="233282"><![CDATA[我们要你按照说明制造一颗卫星并发射到赤道轨道环绕]]></string>
   <string id="233486"><![CDATA[[我们要你按照说明制造一颗卫星并发射到极地轨道环绕]]></string>
   <string id="233678"><![CDATA[我们要你按照说明制造一颗卫星并发射到大偏心率轨道]]></string>
@@ -6556,7 +6556,7 @@ Spd: ]]>
   <string id="236227"><![CDATA[在指定位置执行可视调查.]]></string>
   <string id="236326"><![CDATA[你已经完成了在指定位置执行可视调查的任务.]]></string>
   <string id="236476"><![CDATA[附近]]></string>
-  <string id="236489"><![CDATA[survey]]></string>
+  <string id="236489" noT="2"><![CDATA[survey]]></string>
   <string id="236502"><![CDATA[我们需要测试我们新获得的科技,来此一次严格的测试吧,去]]></string>
   <string id="236650"><![CDATA[如下指定位置]]></string>
   <string id="236719"><![CDATA[警报!这是一个对气态星球的调查——按照计划.]]></string>
@@ -6622,7 +6622,7 @@ Spd: ]]>
   <string id="239020"><![CDATA[行走于表面位于 ]]></string>
   <string id="239067"><![CDATA[在太空中做着自己的事情]]></string>
   <string id="239106"><![CDATA[Outpost]]></string>
-  <string id="239121"><![CDATA[Docking]]></string>
+  <string id="239121" noT="1"><![CDATA[Docking]]></string>
   <string id="239136"><![CDATA[Launch]]></string>
   <string id="239149"><![CDATA[Spaceflight]]></string>
   <string id="239172"><![CDATA[Space]]></string>
@@ -6850,7 +6850,7 @@ Spd: ]]>
   <string id="254930"><![CDATA[sma]]></string>
   <string id="254937"><![CDATA[argumentOfPeriapsis]]></string>
   <string id="254976"><![CDATA[meanAnomalyAtEpoch]]></string>
-  <string id="255013"><![CDATA[epoch]]></string>
+  <string id="255013" noT="1"><![CDATA[epoch]]></string>
   <string id="255024"><![CDATA[SpecificOrbitParameter]]></string>
   <string id="255069"><![CDATA[orbit]]></string>
   <string id="255080"><![CDATA[dn]]></string>
@@ -6864,7 +6864,7 @@ Spd: ]]>
   <string id="255268"><![CDATA[在视线内于]]></string>
   <string id="255329"><![CDATA[longitude]]></string>
   <string id="255348"><![CDATA[StationaryPointParameter]]></string>
-  <string id="255397"><![CDATA[dish]]></string>
+  <string id="255397" noT="1"><![CDATA[dish]]></string>
   <string id="255406"><![CDATA[ Site]]></string>
   <string id="255417"><![CDATA[你获得探测数据从]]></string>
   <string id="255478"><![CDATA[actionDescription]]></string>
@@ -7282,7 +7282,7 @@ Agency: ]]>
   <string id="263307"><![CDATA[intro_TS]]></string>
   <string id="263324"><![CDATA[Instructor_Gene]]></string>
   <string id="263355"><![CDATA[Instructor_Wernher]]></string>
-  <string id="263392"><![CDATA[welcome]]></string>
+  <string id="263392" noT="1"><![CDATA[welcome]]></string>
   <string id="263407"><![CDATA[欢迎来到航天中心]]></string>
   <string id="263462"><![CDATA[欢迎来到]]></string>
   <string id="263493"><![CDATA[欢迎来到雷达追踪站!]]></string>
@@ -7608,7 +7608,7 @@ Total Biomes: ]]>
   <string id="279500"><![CDATA[Open]]></string>
   <string id="279509"><![CDATA[Save All]]></string>
   <string id="279526"><![CDATA[Discard All]]></string>
-  <string id="279549"><![CDATA[manufacturer]]></string>
+  <string id="279549" noT="1"><![CDATA[manufacturer]]></string>
   <string id="279574">
     <![CDATA[</b>
 我们也假设模块信息占用
@@ -8202,7 +8202,7 @@ Duna卫星 Ike 挡路,这事很常见因为Ike的SOI比Duna大.一旦发现立�
   <string id="345216"><![CDATA[基础飞行操作: 俯仰]]></string>
   <string id="345273"><![CDATA[基础飞行操作: 偏航]]></string>
   <string id="345326"><![CDATA[基础飞行操作: 滚转]]></string>
-  <string id="345381"><![CDATA[basicCtrlsConclude]]></string>
+  <string id="345381" noT="2"><![CDATA[basicCtrlsConclude]]></string>
   <string id="345418"><![CDATA[俯仰 ,偏航和滚转]]></string>
   <string id="345457"><![CDATA[节流阀]]></string>
   <string id="345474"><![CDATA[基础控制总结]]></string>
