@@ -6845,17 +6845,17 @@ Spd: ]]>
 近地点辐角: ]]>
   </string>
   <string id="254851"><![CDATA[deviationWindow]]></string>
-  <string id="254882"><![CDATA[倾角]]></string>
-  <string id="254905"><![CDATA[离心率]]></string>
+  <string id="254882" not="2"><![CDATA[inclination]]></string>
+  <string id="254905" not="2"><![CDATA[eccentricity]]></string>
   <string id="254930"><![CDATA[sma]]></string>
   <string id="254937"><![CDATA[argumentOfPeriapsis]]></string>
   <string id="254976"><![CDATA[meanAnomalyAtEpoch]]></string>
-  <string id="255013"><![CDATA[纪元]]></string>
+  <string id="255013"><![CDATA[epoch]]></string>
   <string id="255024"><![CDATA[SpecificOrbitParameter]]></string>
   <string id="255069"><![CDATA[orbit]]></string>
   <string id="255080"><![CDATA[dn]]></string>
-  <string id="255085"><![CDATA[近地点]]></string>
-  <string id="255090"><![CDATA[远地点]]></string>
+  <string id="255085" not="1"><![CDATA[ap]]></string>
+  <string id="255090" not="1"><![CDATA[pe]]></string>
   <string id="255095"><![CDATA[保持稳定至少]]></string>
   <string id="255142"><![CDATA[秒]]></string>
   <string id="255159"><![CDATA[holdSeconds]]></string>
@@ -6864,7 +6864,7 @@ Spd: ]]>
   <string id="255268"><![CDATA[在视线内于]]></string>
   <string id="255329"><![CDATA[longitude]]></string>
   <string id="255348"><![CDATA[StationaryPointParameter]]></string>
-  <string id="255397"><![CDATA[盘]]></string>
+  <string id="255397"><![CDATA[dish]]></string>
   <string id="255406"><![CDATA[ Site]]></string>
   <string id="255417"><![CDATA[你获得探测数据从]]></string>
   <string id="255478"><![CDATA[actionDescription]]></string>
@@ -7282,7 +7282,7 @@ Agency: ]]>
   <string id="263307"><![CDATA[intro_TS]]></string>
   <string id="263324"><![CDATA[Instructor_Gene]]></string>
   <string id="263355"><![CDATA[Instructor_Wernher]]></string>
-  <string id="263392"><![CDATA[欢迎]]></string>
+  <string id="263392"><![CDATA[welcome]]></string>
   <string id="263407"><![CDATA[欢迎来到航天中心]]></string>
   <string id="263462"><![CDATA[欢迎来到]]></string>
   <string id="263493"><![CDATA[欢迎来到雷达追踪站!]]></string>
