@@ -6431,7 +6431,7 @@ Spd: ]]>
   <string id="228250"><![CDATA[小行星到轨道环绕]]></string>
   <string id="228313"><![CDATA[推进一组新的]]></string>
   <string id="228342"><![CDATA[小新星离开太阳系.]]></string>
-  <string id="228411"><![CDATA[武装]]></string>
+  <string id="228411"><![CDATA[arm]]></string>
   <string id="228418"><![CDATA[捕获一组新的]]></string>
   <string id="228459"><![CDATA[小行星,然后带着它到]]></string>
   <string id="228516"><![CDATA[然后着陆...动作要轻.]]></string>
@@ -7554,8 +7554,8 @@ Total Biomes: ]]>
   <string id="276976"><![CDATA[来运行]]></string>
   <string id="276993"><![CDATA[需要一个科学家操纵载具来运行.]]></string>
   <string id="277088"><![CDATA[需要一个科学家,但未指定位置.这个模块可能不会正常工作.]]></string>
-  <string id="277286"><![CDATA[只能被在EVA里的工程师于外部控制.]]></string>
-  <string id="277401"><![CDATA[只能用EVA在外部控制.]]></string>
+  <string id="277286"><![CDATA[只能由出舱的工程师于外部控制.]]></string>
+  <string id="277401"><![CDATA[只能用出舱在外部控制.]]></string>
   <string id="277492"><![CDATA[需要一个有动力的载具从外部操作.]]></string>
   <string id="277603"><![CDATA[只能被科学家从外部控制.]]></string>
   <string id="277704"><![CDATA[需要一个至少经过最低训练的机组人员从外部操作.]]></string>
@@ -7608,7 +7608,7 @@ Total Biomes: ]]>
   <string id="279500"><![CDATA[Open]]></string>
   <string id="279509"><![CDATA[Save All]]></string>
   <string id="279526"><![CDATA[Discard All]]></string>
-  <string id="279549"><![CDATA[制造商]]></string>
+  <string id="279549"><![CDATA[manufacturer]]></string>
   <string id="279574">
     <![CDATA[</b>
 我们也假设模块信息占用
@@ -8202,7 +8202,7 @@ Duna卫星 Ike 挡路,这事很常见因为Ike的SOI比Duna大.一旦发现立�
   <string id="345216"><![CDATA[基础飞行操作: 俯仰]]></string>
   <string id="345273"><![CDATA[基础飞行操作: 偏航]]></string>
   <string id="345326"><![CDATA[基础飞行操作: 滚转]]></string>
-  <string id="345381"><![CDATA[基础控制小结]]></string>
+  <string id="345381"><![CDATA[basicCtrlsConclude]]></string>
   <string id="345418"><![CDATA[俯仰 ,偏航和滚转]]></string>
   <string id="345457"><![CDATA[节流阀]]></string>
   <string id="345474"><![CDATA[基础控制总结]]></string>
