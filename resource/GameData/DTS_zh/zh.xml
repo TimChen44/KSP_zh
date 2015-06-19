@@ -761,7 +761,7 @@
   <string id="10778"><![CDATA[一般]]></string>
   <string id="10791"><![CDATA[Over]]></string>
   <string id="10800"><![CDATA[启动]]></string>
-  <string id="10813"><![CDATA[已禁用]]></string>
+  <string id="10813" noT="1"><![CDATA[Disabled]]></string>
   <string id="10830"><![CDATA[From Over]]></string>
   <string id="10849"><![CDATA[From Active]]></string>
   <string id="10872"><![CDATA[From Disabled]]></string>
