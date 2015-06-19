@@ -754,13 +754,13 @@
   <string id="10482"><![CDATA[DoURL]]></string>
   <string id="10493"><![CDATA[A null layer sprite was encountered on control "]]></string>
   <string id="10590" noT="2"><![CDATA[". Please fill in the layer reference, or remove the empty element.]]></string>
-  <string id="10726"><![CDATA[normal]]></string>
-  <string id="10739"><![CDATA[over]]></string>
+  <string id="10726"><![CDATA[一般]]></string>
+  <string id="10739"><![CDATA[加速]]></string>
   <string id="10748"><![CDATA[启用]]></string>
   <string id="10761"><![CDATA[关闭]]></string>
-  <string id="10778"><![CDATA[一般]]></string>
-  <string id="10791"><![CDATA[Over]]></string>
-  <string id="10800"><![CDATA[启动]]></string>
+  <string id="10778" noT="1"><![CDATA[Normal]]></string>
+  <string id="10791" noT="1"><![CDATA[Over]]></string>
+  <string id="10800" noT="1"><![CDATA[Active]]></string>
   <string id="10813" noT="1"><![CDATA[Disabled]]></string>
   <string id="10830"><![CDATA[From Over]]></string>
   <string id="10849"><![CDATA[From Active]]></string>
@@ -4474,7 +4474,7 @@ Looking for ]]>
   <string id="142578"><![CDATA[关闭发动机]]></string>
   <string id="142615" not="1"><![CDATA[rate]]></string>
   <string id="142624"><![CDATA[<b>矢量推力范围 : </b>]]></string>
-  <string id="142673"><![CDATA[抓钩]]></string>
+  <string id="142673"><![CDATA[grapple]]></string>
   <string id="142688"><![CDATA[grapplePos]]></string>
   <string id="142709"><![CDATA[grappleOrt]]></string>
   <string id="142730"><![CDATA[grappleOrt2]]></string>
