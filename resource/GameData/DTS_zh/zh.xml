@@ -4474,7 +4474,7 @@ Looking for ]]>
   <string id="142578"><![CDATA[关闭发动机]]></string>
   <string id="142615" not="1"><![CDATA[rate]]></string>
   <string id="142624"><![CDATA[<b>矢量推力范围 : </b>]]></string>
-  <string id="142673"><![CDATA[grapple]]></string>
+  <string id="142673" noT="1"><![CDATA[grapple]]></string>
   <string id="142688"><![CDATA[grapplePos]]></string>
   <string id="142709"><![CDATA[grappleOrt]]></string>
   <string id="142730"><![CDATA[grappleOrt2]]></string>
