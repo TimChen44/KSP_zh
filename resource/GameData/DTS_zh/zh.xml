@@ -4333,7 +4333,7 @@ Looking for ]]>
   <string id="138858"><![CDATA[[Docking Node Module]: WARNING - No node transform found with name ]]></string>
   <string id="138994"><![CDATA[[Docking Node Module]: WARNING - No control transform found with name ]]></string>
   <string id="139136"><![CDATA[[Docking Node Module]: WARNING - The part for a docking node module cannot be physicsless!]]></string>
-  <string id="139318"><![CDATA[对接好]]></string>
+  <string id="139318" noT="1"><![CDATA[Docked]]></string>
   <string id="139331"><![CDATA[获得]]></string>
   <string id="139346"><![CDATA[Docked (dockee)]]></string>
   <string id="139377"><![CDATA[Docked (docker)]]></string>
