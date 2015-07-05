@@ -2127,7 +2127,7 @@ FX Scale: ]]>
   <string id="57083"><![CDATA[在]]></string>
   <string id="57092"><![CDATA[正在环绕]]></string>
   <string id="57109"><![CDATA[处于逃逸轨道]]></string>
-  <string id="57150"><![CDATA[未命名的载具></string>
+  <string id="57150"><![CDATA[未命名的载具]]></string>
   <string id="57179"><![CDATA[音量]]></string>
   <string id="57192"><![CDATA[飞船 : ]]></string>
   <string id="57217"><![CDATA[环境 : ]]></string>
@@ -4312,7 +4312,7 @@ Looking for ]]>
   </string>
   <string id="138396"><![CDATA[正在展开..]]></string>
   <string id="138419"><![CDATA[正在收回..]]></string>
-  <string id="138444"><![CDATA[已收回]]></string>
+  <string id="138444" noT="1"><![CDATA[Retracted]]></string>
   <string id="138463"><![CDATA[已损坏!]]></string>
   <string id="138478"><![CDATA[由于大气阻力导致了损坏!]]></string>
   <string id="138553"><![CDATA[阳光直射]]></string>
