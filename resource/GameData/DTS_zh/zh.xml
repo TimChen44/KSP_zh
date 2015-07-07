@@ -5108,7 +5108,7 @@ Burn time: ]]></string>
 <string id="186453"><![CDATA[<color=#FFEE00>无可用数据</color>]]></string>
 <string id="186534"><![CDATA[这里没有可用的轨道探测数据.]]></string>
 <string id="186619"><![CDATA[启用一个有轨道扫描仪的探测来进行高分辨细节探测.]]></string>
-<string id="186785"><![CDATA[为了得到精确的资源分布(比如生物群落分布),你需要降落在生物群中并操作一个表面探测器来获得高精度数据.]]></string>
+<string id="186785"><![CDATA[为了得到精确的资源分布(比如生物群落分布),你需要降落在生物群中并操作一个地表探测器来获得高精度数据.]]></string>
 <string id="187105"><![CDATA[高精度扫描不可用- {0}没有表面可扫描.]]></string>
 <string id="187212"><![CDATA[SetColor]]></string>
 <string id="187229"><![CDATA[Color: ]]></string>
@@ -8022,7 +8022,7 @@ Duna卫星 Ike 挡路,这事很常见因为Ike的SOI比Duna大.一旦发现立�
 <string id="404931"><![CDATA[ 键微调以尽可能接近目标.]]></string>
 <string id="404944"><![CDATA[没错,现在开始返回吧.
 
-20000m足够低,现在飞船处在载入轨道.一旦飞船高度低于低于60000m大气会给飞船减速,飞船速度就不足以返回太空了.]]></string>
+20000m足够低,现在飞船处在再入轨道.一旦飞船高度低于低于60000m大气会给飞船减速,飞船速度就不足以返回太空了.]]></string>
 <string id="405488"><![CDATA[本次教程到此结束,玩家可以继续变轨.当然也可以等着返回,别忘了分离返回舱开降落伞.我们地面见.]]></string>
 <string id="405926"><![CDATA[TutorialScenarioWindow]]></string>
 <string id="405971"><![CDATA[This is the base class for the tutorial scenario. It has no content by itself. Please extend this class and override the OnTutorialSetup method to add your own pages.]]></string>
@@ -9817,7 +9817,7 @@ No Refunds.]]></string>
 <string id="463460"><![CDATA[valueRich]]></string>
 <string id="463479"><![CDATA[..]]></string>
 <string id="463484"><![CDATA[ [DETACHED]]]></string>
-<string id="463507"><![CDATA[<b>没有坐人</b>]]></string>
+<string id="463507"><![CDATA[<b>没有乘员</b>]]></string>
 <string id="463542"><![CDATA[scrolllist_avail]]></string>
 <string id="463575"><![CDATA[ACoperationalCheck]]></string>
 <string id="463612"><![CDATA[AstronautComplex]]></string>
@@ -9865,7 +9865,7 @@ No Refunds.]]></string>
 <string id="464858"><![CDATA[米</>]]></string>
 <string id="464867"><![CDATA[这个载具没有可用的描述. 
 
-去组装车间或者机库进入一个.]]></string>
+去组装车间或者机库输入一段描述.]]></string>
 <string id="465025"><![CDATA[[CurrencyWidgetsApp]: Widgets already spawned!]]></string>
 <string id="465118"><![CDATA[[CurrencyWidgetsApp]: No live widgets to Despawn!]]></string>
 <string id="465217"><![CDATA[basicDefault]]></string>
@@ -10141,7 +10141,7 @@ Box]]></string>
 <string id="475586"><![CDATA[完成升级]]></string>
 <string id="475615"><![CDATA[状态: <b><]]></string>
 <string id="475640"><![CDATA[>操作 (]]></string>
-<string id="475669"><![CDATA[ 上海)</></b>]]></string>
+<string id="475669"><![CDATA[ 伤害)</></b>]]></string>
 <string id="475700"><![CDATA[状态: <b><#B4D455>完成操作</></b>]]></string>
 <string id="475789"><![CDATA[>无服务</></b>]]></string>
 <string id="475834"><![CDATA[重建 lvl ]]></string>
