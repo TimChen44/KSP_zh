@@ -18,7 +18,7 @@ namespace DTS_zh
 
             if (dict_zh == null)
             {
-                Loadzh();
+                Load();
             }
             if (dict_zh.ContainsKey(id))
             {
@@ -28,7 +28,7 @@ namespace DTS_zh
 
             if (dict_en == null)
             {
-                Loaden();
+                Load();
             }
             if (dict_en.ContainsKey(id))
             {
@@ -36,6 +36,12 @@ namespace DTS_zh
             }
             return "[Not Find " + id.ToString() + "]";
         }
+        public static void Load()
+        {
+            Loaden();
+            Loadzh();
+        }
+
 
         public static void Loadzh()
         {
@@ -51,7 +57,15 @@ namespace DTS_zh
             foreach (XmlNode item in doc.DocumentElement.ChildNodes)
             {
                 if (!(item is XmlElement)) continue;
-                dict_zh[int.Parse(((XmlElement)item).GetAttribute("id"))] = ((XmlCDataSection)item.FirstChild).InnerText;
+
+                if (((XmlElement)item).HasAttribute("noT") == true)
+                {
+                    dict_zh[int.Parse(((XmlElement)item).GetAttribute("id"))] = dict_en[int.Parse(((XmlElement)item).GetAttribute("id"))];
+                }
+                else
+                {
+                    dict_zh[int.Parse(((XmlElement)item).GetAttribute("id"))] = ((XmlCDataSection)item.FirstChild).InnerText;
+                }
             }
 
             Debug.Log("[xRead]Loaded:" + dict_zh.Count.ToString());

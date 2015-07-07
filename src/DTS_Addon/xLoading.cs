@@ -43,7 +43,7 @@ namespace DTS_Addon
             if (nowText != loadText.text)
             {
                 int c = random.Next(mytips.Count);
-                loadText.text = "深度时空荣誉汉化...\r\n\r\n" + mytips[c];
+                loadText.text = "" + mytips[c];
                 nowText = loadText.text;
                 if (mytips.Count > 1)
                     mytips.RemoveAt(c);
