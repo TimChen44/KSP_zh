@@ -165,12 +165,12 @@ namespace DTS_Addon
             {
                 LoadxFont();
             }
-            if (ST.font.name[0] == 'c' && ST.font.name[1] == 'n') return result;
+           // if (ST.font.name[0] == 'c' && ST.font.name[1] == 'n') return result;
 
             //Debug.Log("[xFont2-1]" + ST.font.name + " :: " + ST.text);
             for (int i = 0; i < ST.font.fonts.Length; i++)
             {
-                //if (ST.font.fonts[i].fontText.name[0] == 'c' && ST.font.fonts[i].fontText.name[1] == 'n') return;
+                if (ST.font.fonts[i].fontText.name[0] == 'c' && ST.font.fonts[i].fontText.name[1] == 'n') continue;
 
                 Font2Font f2f = GetFont2Font(ST.font.fonts[i].fontText.name);
                 Debug.Log("[xFont2]" + ST.font.name + "-->>" + f2f.Name + " :: " + ST.text);

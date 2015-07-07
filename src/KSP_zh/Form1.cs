@@ -85,36 +85,36 @@ namespace KSP_zh
 
         private void button8_Click(object sender, EventArgs e)
         {
-            if (oldvel.Text == "")
-            {
-                MessageBox.Show("比对版本不能为空");
-                return;
-            }
-            UpXml.CreateXmlUP_x64(KSPPath, vel, oldvel.Text, label4);
-
-            UpXml.CreateXmlLose_x64(KSPPath, vel, oldvel.Text, label4);
-
-            MessageBox.Show("OK");
-        }
-
-        private void button9_Click(object sender, EventArgs e)
-        {
             //if (oldvel.Text == "")
             //{
             //    MessageBox.Show("比对版本不能为空");
             //    return;
             //}
-            vel = textBox1.Text;
-            UpXml.CreateXmlUP_x32to64(KSPPath, vel, label4);
+            //UpXml.CreateXmlUP_x64(KSPPath, vel, oldvel.Text, label4);
 
-            MessageBox.Show("OK");
+            //UpXml.CreateXmlLose_x64(KSPPath, vel, oldvel.Text, label4);
+
+            //MessageBox.Show("OK");
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            ////if (oldvel.Text == "")
+            ////{
+            ////    MessageBox.Show("比对版本不能为空");
+            ////    return;
+            ////}
+            //vel = textBox1.Text;
+            //UpXml.CreateXmlUP_x32to64(KSPPath, vel, label4);
+
+            //MessageBox.Show("OK");
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-            ExtractText.GetText64(KSPPath, vel);
-            // ExtractCfg.Extract(KSPPath, vel);
-            MessageBox.Show("OK");
+            //ExtractText.GetText64(KSPPath, vel);
+            //// ExtractCfg.Extract(KSPPath, vel);
+            //MessageBox.Show("OK");
         }
 
         private void button10_Click(object sender, EventArgs e)
