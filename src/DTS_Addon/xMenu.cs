@@ -34,7 +34,7 @@ class xMenu : MonoBehaviour
         TM(mainMenu.trainingBtn, "训练");
 
         TextMesh t1 = mainMenu.updBtn.transform.GetComponent<TextMesh>();
-        t1.text = "版本：壹点贰\r\n\r\n如果你喜欢本游戏请购买正版。\r\n\r\n如果你喜欢本游戏的汉化并想让他更加完善请访问https://github.com/TimChen44/KSP_zh\r\n\r\n如果你用盗版游戏并使用本汉化造成的电脑爆炸、房屋倒塌等灾难本汉化组一概不负责任。\r\n\r\n警告：对因为使用本汉化或游戏安装路径中含有中文字符产生的任何非自然现象请自行解决。";
+        t1.text = "如果你喜欢本游戏请购买正版。\r\n\r\n如果你喜欢本游戏的汉化并想让他更加完善请访问https://github.com/TimChen44/KSP_zh\r\n\r\n如果你用盗版游戏并使用本汉化造成的电脑爆炸、房屋倒塌等灾难本汉化组一概不负责任。\r\n\r\n警告：对因为使用本汉化或游戏安装路径中含有中文字符产生的任何非自然现象请自行解决。";
         t1.fontSize = 20;
         mainMenu.updBtn.gameObject.SetActive(true);
 

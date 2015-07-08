@@ -112,7 +112,7 @@
 
       <Value name="title"><![CDATA[Mk1-2指令舱]]></Value>
 
-      <Value name="manufacturer"><![CDATA[Kerlington模型火箭与纸制品有限公司]]></Value>
+      <Value name="manufacturer"><![CDATA[科灵顿模型火箭与纸制品有限公司]]></Value>
 
       <Value name="description"><![CDATA[这款现代化的指令舱采用了完全可循环使用的设计.而且它宽敞的座舱最多可以装下3名宇航员.]]></Value>
 
@@ -168,7 +168,7 @@
 
       <Value name="title"><![CDATA[AV-R8型小翼]]></Value>
 
-      <Value name="manufacturer"><![CDATA[Kerlington模型火箭与纸制品有限公司]]></Value>
+      <Value name="manufacturer"><![CDATA[科灵顿模型火箭与纸制品有限公司]]></Value>
 
       <Value name="description"><![CDATA[R8活动控制型小翼系列将Kerlington模型火箭公司推上了太空飞船建造业的舞台.这款小翼拥有可动转轴,让它可以旋转以作为控制翼面使用.这项技术被普遍认为是将控制技术的水平提升到了一个新境界,并且绝大多数人认为这将让Kerlington的员工与R8粉们之间变成一山不容二虎的状况.]]></Value>
 
@@ -210,7 +210,7 @@
 
       <Value name="title"><![CDATA[FL-R25-RCS燃料罐]]></Value>
 
-      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="manufacturer"><![CDATA[鸡巴蛋的垃圾场和飞船组件公司]]></Value>
 
       <Value name="description"><![CDATA[这是一个用于RCS喷口的单元推进剂燃料罐.全新的管线技术进展允许人们将RCS管路延伸到飞船上的任何位置.因此不像液体燃料罐,RCS燃料罐可以被放置在任何位置.]]></Value>
 
@@ -224,7 +224,7 @@
 
       <Value name="title"><![CDATA[FL-R1-RCS燃料罐]]></Value>
 
-      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="manufacturer"><![CDATA[鸡巴蛋的垃圾场和飞船组件公司]]></Value>
 
       <Value name="description"><![CDATA[一个大号的标准RCS燃料罐.]]></Value>
 
@@ -308,7 +308,7 @@
 
       <Value name="title"><![CDATA[FL-A5转接器]]></Value>
 
-      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="manufacturer"><![CDATA[鸡巴蛋的垃圾场和飞船组件公司]]></Value>
 
       <Value name="description"><![CDATA[一个小号部件连接转换器,适用于FL-T舱体.]]></Value>
 
@@ -322,7 +322,7 @@
 
       <Value name="title"><![CDATA[FL-A10转接器]]></Value>
 
-      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="manufacturer"><![CDATA[鸡巴蛋的垃圾场和飞船组件公司]]></Value>
 
       <Value name="description"><![CDATA[一个小号部件连接转换器,适用于FL-T舱体.]]></Value>
 
@@ -463,7 +463,7 @@
 
       <Value name="title"><![CDATA[88-88型通讯天线]]></Value>
 
-      <Value name="manufacturer"><![CDATA[离子-质子同步电子工业]]></Value>
+      <Value name="manufacturer"><![CDATA[基本粒子同步电子工业]]></Value>
 
       <Value name="description"><![CDATA[高增益天线,其88-88型号支持长距离高速通信.]]></Value>
 
@@ -477,7 +477,7 @@
 
       <Value name="title"><![CDATA[PPD-10-'顺风车'载人舱]]></Value>
 
-      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="manufacturer"><![CDATA[鸡巴蛋的垃圾场和飞船组件公司]]></Value>
 
       <Value name="description"><![CDATA[这是一个必要的发明--在根本不打算返回的情况下,我们该如何在轨道上'存放'4个小绿人呢？谁需要这个玩意，还有他的动机都还是谜团。]]></Value>
 
@@ -491,7 +491,7 @@
 
       <Value name="title"><![CDATA[PPD-12穹顶舱]]></Value>
 
-      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="manufacturer"><![CDATA[鸡巴蛋的垃圾场和飞船组件公司]]></Value>
 
       <Value name="description"><![CDATA[PPD-12的开发目的是用于给在轨空间站提供一个广阔视野的控制室,以及给文艺的Kerbal宇航员们一个凝视这美丽的宇宙的场所.]]></Value>
 
@@ -533,7 +533,7 @@
 
       <Value name="title"><![CDATA["飞吻"对接口(防护型)]]></Value>
 
-      <Value name="manufacturer"><![CDATA[kerbal运动有限责任公司]]></Value>
+      <Value name="manufacturer"><![CDATA[坎巴拉运动有限公司]]></Value>
 
       <Value name="description"><![CDATA[当一个原本和平的'我们缺少飞船的对接系统'的抗议声变得充斥着火药味之后,它被发明了出来."飞吻"对接口可以为两艘飞船提供稳固的连接.对接之后,也可以轻松容易地分离.防护型版本安装了可以被部署的挡板,用来在飞船上升时保护脆弱的对接口.]]></Value>
 
@@ -547,7 +547,7 @@
 
       <Value name="title"><![CDATA["飞吻"对接口]]></Value>
 
-      <Value name="manufacturer"><![CDATA[kerbal运动有限责任公司]]></Value>
+      <Value name="manufacturer"><![CDATA[坎巴拉运动有限公司]]></Value>
 
       <Value name="description"><![CDATA[当一个原本和平的'我们缺少飞船的对接系统'的抗议声变得充斥着火药味之后,它被发明了出来."飞吻"对接口可以为两艘飞船提供稳固的连接.对接之后,也可以轻松容易地分离.]]></Value>
 
@@ -561,7 +561,7 @@
 
       <Value name="title"><![CDATA["飞吻"对接口(微型)]]></Value>
 
-      <Value name="manufacturer"><![CDATA[kerbal运动有限责任公司]]></Value>
+      <Value name="manufacturer"><![CDATA[坎巴拉运动有限公司]]></Value>
 
       <Value name="description"><![CDATA[设计之初被定位为小型版的"飞吻"对接口,很快发现爱好者和专业太空机构由于它那紧凑的外形,轻重量结构和看起来十分可爱等原因而使用了它.由于体型娇小,它被用来传输各种物资,而不是让我们的宇航员通过.]]></Value>
 
@@ -575,7 +575,7 @@
 
       <Value name="title"><![CDATA["飞吻"对接口(大型)]]></Value>
 
-      <Value name="manufacturer"><![CDATA[kerbal运动有限责任公司]]></Value>
+      <Value name="manufacturer"><![CDATA[坎巴拉运动有限公司]]></Value>
 
       <Value name="description"><![CDATA[大型"飞吻"对接口是花费了大量人力物力研究如何使对接点更加稳固而得到的答案.得益于一位机智的门卫的天才提议'为什么不把他做的大一点?',公众现在可以好好享受在太空中对接巨大的家伙所带来的纯粹愉悦感了.]]></Value>
 
@@ -589,7 +589,7 @@
 
       <Value name="title"><![CDATA["飞吻"对接口(内置型)]]></Value>
 
-      <Value name="manufacturer"><![CDATA[kerbal运动有限责任公司]]></Value>
+      <Value name="manufacturer"><![CDATA[坎巴拉运动有限公司]]></Value>
 
       <Value name="description"><![CDATA[内置型"飞吻"是一个偶然的发明,起因是某位(该好好重新配一副眼镜的)工程师错误理解了防护型"飞吻"对接口的蓝图设计.但是团队中的其他人非常喜欢这种自带气动挡板的侧向对接口的设计.于是他为这个设计申请了专利,并直到现在为止都矢口否认这不是他故意的...]]></Value>
 
@@ -617,9 +617,9 @@
 
       <Value name="title"><![CDATA[FTX-2外部燃料管]]></Value>
 
-      <Value name="manufacturer"><![CDATA[FLOOYD动力学研究实验室]]></Value>
+      <Value name="manufacturer"><![CDATA[佛洛依德动力学研究实验室]]></Value>
 
-      <Value name="description"><![CDATA[FLOOYD动力学研究实验室的最新技术突破促使FTX燃料管系列的诞生.虽然被批评为'涂成黄色的污水管道',但是大多数人认为相对来说黄色还是不错的,而且这些燃料管确实可以从侧挂燃料箱里抽出燃料.在召回了FTX-1系列的产品之后,所有的FTX-2管道上都涂上了指明燃料流动方向的箭头,这样工程师们就能分辨燃料到底应该流到哪儿去了.]]></Value>
+      <Value name="description"><![CDATA[佛洛依德动力学研究实验室的最新技术突破促使FTX燃料管系列的诞生.虽然被批评为'涂成黄色的污水管道',但是大多数人认为相对来说黄色还是不错的,而且这些燃料管确实可以从侧挂燃料箱里抽出燃料.在召回了FTX-1系列的产品之后,所有的FTX-2管道上都涂上了指明燃料流动方向的箭头,这样工程师们就能分辨燃料到底应该流到哪儿去了.]]></Value>
 
     </Values>
 
@@ -687,7 +687,7 @@
 
       <Value name="title"><![CDATA[FL-T100型燃料箱]]></Value>
 
-      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="manufacturer"><![CDATA[鸡巴蛋的垃圾场和飞船组件公司]]></Value>
 
       <Value name="description"><![CDATA[这个FL-T100型燃料箱做的比它的大哥FL-T200还萌.请淡定而小心地使用本品.]]></Value>
 
@@ -700,7 +700,7 @@
 
       <Value name="title"><![CDATA[FL-T200型燃料箱]]></Value>
 
-      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="manufacturer"><![CDATA[鸡巴蛋的垃圾场和飞船组件公司]]></Value>
 
       <Value name="description"><![CDATA[FL-T200型燃料箱一开始并不被航天工程领域所接受,因为绝大部分火箭工程师都会忍不住去端详这个'可爱的小燃料箱'.这个第一印象直到装配区开始频繁的发生剧烈爆炸才被抛开,甚至于有人定下了'禁止对燃料箱卖萌'的条例.FL-T200型燃料箱现在被广泛的应用于航天计划中,尤其是针对与LV-909型发动机的连接.]]></Value>
 
@@ -714,7 +714,7 @@
 
       <Value name="title"><![CDATA[FL-T400燃料箱]]></Value>
 
-      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="manufacturer"><![CDATA[鸡巴蛋的垃圾场和飞船组件公司]]></Value>
 
       <Value name="description"><![CDATA[FL系列被认为是在之前的太空计划中使用的燃料箱的重大升级,通常是由于之前的燃料箱的能力应该是保证燃料不爆炸,而结果往往是相反的.燃料箱底部应当安装的是液体燃料引擎.也可以与其他燃料箱堆叠放置以增加燃料箱最底部引擎的燃料量.]]></Value>
 
@@ -727,7 +727,7 @@
     <Values>
 
       <Value name="title"><![CDATA[FL-T800型燃料箱]]></Value>
-      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="manufacturer"><![CDATA[鸡巴蛋的垃圾场和飞船组件公司]]></Value>
 
       <Value name="description"><![CDATA[把FL-T400拉长之后,FL-T800型燃料箱能装载两倍多的燃料,并且有着稍微高一点的坚固性.'燃料箱侧面的黑色条纹能让火箭飞得更快更高更强!'我们的工程师这样告诉我们.]]></Value>
 
@@ -741,7 +741,7 @@
 
       <Value name="title"><![CDATA[IX-6315 “黎明”离子推进系统]]></Value>
 
-      <Value name="manufacturer"><![CDATA[离子-质子同步电子工业]]></Value>
+      <Value name="manufacturer"><![CDATA[基本粒子同步电子工业]]></Value>
 
       <Value name="description"><![CDATA[通过电离氙气产生离子，通过小尺寸的推进端口，“黎明”可以产生令人难以置信的高效率推进，同时非常低的推力和超高的电耗也是事实。根据服务商的反馈信息，有传闻说这款引擎是“黑暗魔法”打造的，请相信这只是传闻和夸张。]]></Value>
 
@@ -782,7 +782,7 @@
 
       <Value name="title"><![CDATA[Mk1着陆舱]]></Value>
 
-      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="manufacturer"><![CDATA[鸡巴蛋的垃圾场和飞船组件公司]]></Value>
 
       <Value name="description"><![CDATA[该舱体是用于无大气星球着陆的轻量级着陆舱,能容纳一名乘员.配备有全新的整体防撞缓冲技术.]]></Value>
 
@@ -852,7 +852,7 @@
 
       <Value name="title"><![CDATA[铁人 XL太阳能板阵列]]></Value>
 
-      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="manufacturer"><![CDATA[小精灵探测器有限公司]]></Value>
 
       <Value name="description"><![CDATA[作为可以买到的最大的单个太阳能阵列,铁人XL在具有紧凑的初始大小的同时提供极强的发电能力.]]></Value>
 
@@ -921,7 +921,7 @@
 
       <Value name="title"><![CDATA[LV-T45 "回旋"液态燃料引擎]]></Value>
 
-      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="manufacturer"><![CDATA[鸡巴蛋的垃圾场和飞船组件公司]]></Value>
 
       <Value name="description"><![CDATA[LV-T45引擎的矢量推力技术是LV-T系列的另一个重大突破.它可以偏转喷口的方向来帮助飞船转向.虽然这些升级让它较之前版本的LV-T系列引擎推力下降了一点.]]></Value>
 
@@ -935,7 +935,7 @@
 
       <Value name="title"><![CDATA[LV-909 "猎犬"液态燃料引擎]]></Value>
 
-      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="manufacturer"><![CDATA[鸡巴蛋的垃圾场和飞船组件公司]]></Value>
 
       <Value name="description"><![CDATA[909型引擎最开始遭到了航天工程师们的质疑,因为它违背了长久以来的惯例:'推力再大点!'.尽管如此,LV-909型还是找到了它在飞船建造业中的位置,通常被用做最末级或着陆用引擎.]]></Value>
 
@@ -963,7 +963,7 @@
 
       <Value name="title"><![CDATA[LV-T30 "信赖"液态燃料引擎]]></Value>
 
-      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="manufacturer"><![CDATA[鸡巴蛋的垃圾场和飞船组件公司]]></Value>
 
       <Value name="description"><![CDATA[虽然由于用途不明确被人批评为'没人用的垃圾',但是LV-T系列的引擎已经证明了自己还是比较可靠的.LV-T30引擎最值得夸耀的一点就是它的故障率低于50%.工程师和LV-T爱好者认为这是它与旧型号相比最主要的改进.]]></Value>
 
@@ -977,7 +977,7 @@
 
       <Value name="title"><![CDATA[16型通讯天线]]></Value>
 
-      <Value name="manufacturer"><![CDATA[离子-质子同步电子工业]]></Value>
+      <Value name="manufacturer"><![CDATA[基本粒子同步电子工业]]></Value>
 
       <Value name="description"><![CDATA[16型是一种多功能的轻量级天线,适合一般距离的通信和长距离的备用通信,以及政府秘密窃听行动.]]></Value>
 
@@ -1005,7 +1005,7 @@
 
       <Value name="title"><![CDATA[DTS-M1通信天线]]></Value>
 
-      <Value name="manufacturer"><![CDATA[离子-质子同步电子工业]]></Value>
+      <Value name="manufacturer"><![CDATA[基本粒子同步电子工业]]></Value>
 
       <Value name="description"><![CDATA[DTS-M1是一个完全可部署的通讯和数据传输系统.本产品的设计使其在收起状态时只占用极小的空间.组装时会需要一些天线优化或是踢上几脚以获得最好的性能.]]></Value>
 
@@ -1019,7 +1019,7 @@
 
       <Value name="title"><![CDATA[LV-1“蚂蚁” 液态燃料推进器]]></Value>
 
-      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="manufacturer"><![CDATA[鸡巴蛋的垃圾场和飞船组件公司]]></Value>
 
       <Value name="description"><![CDATA[这TM是啥?给蚂蚁用都嫌小...]]></Value>
 
@@ -1033,7 +1033,7 @@
 
       <Value name="title"><![CDATA[奥斯卡-B型燃料箱]]></Value>
 
-      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="manufacturer"><![CDATA[小精灵探测器有限公司]]></Value>
 
       <Value name="description"><![CDATA[奥斯卡-B型燃料箱是一个小巧的空间探测器的燃料容器，或作为小飞船等的备份罐。请不要洗冷水，或午夜后喂食。]]></Value>
 
@@ -1061,7 +1061,7 @@
 
       <Value name="title"><![CDATA[Mk1指令舱]]></Value>
 
-      <Value name="manufacturer"><![CDATA[Kerlington模型火箭与纸制品有限公司]]></Value>
+      <Value name="manufacturer"><![CDATA[科灵顿模型火箭与纸制品有限公司]]></Value>
 
       <Value name="description"><![CDATA[它最初仅仅是火箭模型论证时使用的一个占位模块.然而全世界科学家一致认为Mk1指挥舱是比它的前辈更安全可靠的选择.现役的很多载具上都能看到它的身影.]]></Value>
 
@@ -1186,7 +1186,7 @@
 
       <Value name="title"><![CDATA[LV-N "神经元"热核推进器]]></Value>
 
-      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="manufacturer"><![CDATA[鸡巴蛋的垃圾场和飞船组件公司]]></Value>
 
       <Value name="description"><![CDATA[先不管侧面喷涂着的大大的放射性标志,或者它有放射性的废气,还有很容易过热爆炸的特性,LV-N核火箭引擎还算是无害的...一般来说是的。请注意，LV-N是LV系列中唯一只消耗液体燃料的！啊，前途如此光明！]]></Value>
 
@@ -1255,7 +1255,7 @@
 
       <Value name="title"><![CDATA[QBE探测器核心]]></Value>
 
-      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="manufacturer"><![CDATA[小精灵探测器有限公司]]></Value>
 
       <Value name="description"><![CDATA[QBE是一款具有立方体的外观,坚固的结构,以及较轻的重量的探测器核心.它还能承受比其他探测器核心更高的温度.其简约的外观甚至吸引了一批现代艺术收藏家.相信我,每个人都爱它.]]></Value>
 
@@ -1269,7 +1269,7 @@
 
       <Value name="title"><![CDATA[HECS探测器核心]]></Value>
 
-      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="manufacturer"><![CDATA[小精灵探测器有限公司]]></Value>
 
       <Value name="description"><![CDATA[HECS是广泛运用的OKTO核心的重制版,它更受那些认为'六边形看起来有科技感多了'的设计师们的欢迎.]]></Value>
 
@@ -1283,7 +1283,7 @@
 
       <Value name="title"><![CDATA[OKTO探测器核心2代]]></Value>
 
-      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="manufacturer"><![CDATA[小精灵探测器有限公司]]></Value>
 
       <Value name="description"><![CDATA[OKTO的一个扁平版本,OKTO2的设计完全没有考虑喜欢拿OKTO一代当椅子的工程师们的感受.]]></Value>
 
@@ -1297,7 +1297,7 @@
 
       <Value name="title"><![CDATA[OKTO探测器核心]]></Value>
 
-      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="manufacturer"><![CDATA[小精灵探测器有限公司]]></Value>
 
       <Value name="description"><![CDATA[OKTO是超棒的新手级别的无人探测器核心,它的简单几何形状和许多平面的设计为在它上面安装各种玩意提供了很大的方便.]]></Value>
 
@@ -1311,7 +1311,7 @@
 
       <Value name="title"><![CDATA[无人舱第一型]]></Value>
 
-      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="manufacturer"><![CDATA[小精灵探测器有限公司]]></Value>
 
       <Value name="description"><![CDATA[探测者动力提供了乘员安全问题的终极解决办法.一个轻型的球体里面塞了一些远程接收装置和一个微型陀螺仪以便分清上下左右.因为宇航员根本塞不进这个球体,所以他们也就肯定当然绝对不会受到任何的伤害.只不过该设备还是需要电来工作的,如果没电了就会喜闻乐见地失控.它内置的电池差不多可以让它持续工作十分钟.]]></Value>
 
@@ -1408,7 +1408,7 @@
 
       <Value name="title"><![CDATA[LV-1R "蜘蛛"液态燃料引擎]]></Value>
 
-      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="manufacturer"><![CDATA[鸡巴蛋的垃圾场和飞船组件公司]]></Value>
 
       <Value name="description"><![CDATA[为了安抚那些由于LV-1推力太过弱小而愤怒的工程师们,侧面安装的LV-1R提供了一个更吸引人的解决方案:'多放几个就好啦...'.安装时不要指向面部.]]></Value>
 
@@ -1464,7 +1464,7 @@
 
       <Value name="title"><![CDATA[FL-R10-RCS燃料罐]]></Value>
 
-      <Value name="manufacturer"><![CDATA[Jebediah Kerman的垃圾场和飞船组件公司]]></Value>
+      <Value name="manufacturer"><![CDATA[鸡巴蛋的垃圾场和飞船组件公司]]></Value>
 
       <Value name="description"><![CDATA[FL-R10是为小型探测器而研制的迷你型RCS燃料罐,RCS燃料容量也很低.]]></Value>
 
@@ -1506,7 +1506,7 @@
 
       <Value name="title"><![CDATA[探测者动力车辆主体]]></Value>
 
-      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="manufacturer"><![CDATA[小精灵探测器有限公司]]></Value>
 
       <Value name="description"><![CDATA[一款多用途的外壳组件,本来是打算用来作为各种航天器的控制器的---尤其是探测车.某人在维护时把一枚电池忘在里面了,所以它也储存了一些电力.]]></Value>
 
@@ -1561,7 +1561,7 @@
 
       <Value name="title"><![CDATA[PB-NUK热核发电机]]></Value>
 
-      <Value name="manufacturer"><![CDATA[离子-质子同步电子工业]]></Value>
+      <Value name="manufacturer"><![CDATA[基本粒子同步电子工业]]></Value>
 
       <Value name="description"><![CDATA[通过对“铀-238”自然衰变的利用,这个简单雅致的发电器可以在几十年中提供持续、稳定的电力.本产品同时还是防水的,即使放到洗碗机里都没问题.]]></Value>
 
@@ -1603,7 +1603,7 @@
 
       <Value name="title"><![CDATA[EAS-1外部驾驶座椅]]></Value>
 
-      <Value name="manufacturer"><![CDATA[Kerlington模型火箭与纸制品有限公司]]></Value>
+      <Value name="manufacturer"><![CDATA[科灵顿模型火箭与纸制品有限公司]]></Value>
 
       <Value name="description"><![CDATA[EAS-1外部驾驶座椅能提供所有操作飞船需要的设备,与一个指令舱毫无二致.不过没有那些毫无意义的诸如'加压'或'安全带'之类的功能.它就是一个骨架,彻彻底底的最高效设计.]]></Value>
 
@@ -1617,7 +1617,7 @@
 
       <Value name="title"><![CDATA[双重-C型加速计]]></Value>
 
-      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="manufacturer"><![CDATA[小精灵探测器有限公司]]></Value>
 
       <Value name="description"><![CDATA[这款设备内置一个极度敏感的加速度传感器,当正确的安装在稳定的表面上后能侦测并记录准确的地震信息.里面的加速度计在飞行中也能使用,因此双重-C型加速计也被用于测量在飞行中的加速度.震动或暴露在真空中导致的损坏不在保修范围内.]]></Value>
 
@@ -1631,7 +1631,7 @@
 
       <Value name="title"><![CDATA[气压计]]></Value>
 
-      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="manufacturer"><![CDATA[小精灵探测器有限公司]]></Value>
 
       <Value name="description"><![CDATA[一款用来测量当地气压的仪器,暴露在空气中导致的损坏不在保修范围内.]]></Value>
 
@@ -1645,7 +1645,7 @@
 
       <Value name="title"><![CDATA[GRAVMAX负引力子传感器]]></Value>
 
-      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="manufacturer"><![CDATA[小精灵探测器有限公司]]></Value>
 
       <Value name="description"><![CDATA[一种能捕捉并测量负引力子的仪器,用来测量重力场的精确强度.用本仪器测量正引力子导致的损坏不在保修范围内.]]></Value>
 
@@ -1659,7 +1659,7 @@
 
       <Value name="title"><![CDATA[2HOT温度计]]></Value>
 
-      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="manufacturer"><![CDATA[小精灵探测器有限公司]]></Value>
 
       <Value name="description"><![CDATA[这款温度计绝对不是从某个路边摊买回来然后装了几根电线的产物.如果有工程师承认这东西就是从某个路边摊买回来然后装了几根电线那就不在保修范围内.]]></Value>
 
@@ -1729,7 +1729,7 @@
 
       <Value name="title"><![CDATA[SP-W-2x3太阳能电池板]]></Value>
 
-      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="manufacturer"><![CDATA[小精灵探测器有限公司]]></Value>
 
       <Value name="description"><![CDATA[探测者动力出品的太阳能电池板是电力能源行业的世界标准,飞向宇宙浩瀚无垠.SP系列还附带了保护罩,在不需要电池板时可以起到收回保护作用.]]></Value>
 
@@ -1743,7 +1743,7 @@
 
       <Value name="title"><![CDATA[SP-L-1x6太阳能电池板]]></Value>
 
-      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="manufacturer"><![CDATA[小精灵探测器有限公司]]></Value>
 
       <Value name="description"><![CDATA[另一种SP系列的太阳能电池板.]]></Value>
 
@@ -1757,7 +1757,7 @@
 
       <Value name="title"><![CDATA[OX-4W-2x3太阳能电池板]]></Value>
 
-      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="manufacturer"><![CDATA[小精灵探测器有限公司]]></Value>
 
       <Value name="description"><![CDATA[OX-4系列的设计和SP系列差不多,只是没有那些很沉的罩子.]]></Value>
 
@@ -1771,7 +1771,7 @@
 
       <Value name="title"><![CDATA[OX-4L-1x6太阳能电池板]]></Value>
 
-      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="manufacturer"><![CDATA[小精灵探测器有限公司]]></Value>
 
       <Value name="description"><![CDATA[OX-4系列的设计和SP系列差不多,只是没有那些很沉的罩子.]]></Value>
 
@@ -1785,7 +1785,7 @@
 
       <Value name="title"><![CDATA[OX-STAT太阳能电池板]]></Value>
 
-      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="manufacturer"><![CDATA[小精灵探测器有限公司]]></Value>
 
       <Value name="description"><![CDATA[OX-STAT太阳能电池板是一块没有太阳跟踪和折叠展开功能的简单的板子.因此它价格便宜量又足,而且很轻.]]></Value>
 
@@ -2119,7 +2119,7 @@
 
       <Value name="title"><![CDATA[EAS-4支柱连接器]]></Value>
 
-      <Value name="manufacturer"><![CDATA[Kerlington模型火箭与纸制品有限公司]]></Value>
+      <Value name="manufacturer"><![CDATA[科灵顿模型火箭与纸制品有限公司]]></Value>
 
       <Value name="description"><![CDATA[支柱连接器被许多航天器工程师们高度重视,因为它们在构建更加坚固的航天器中有很大帮助.当连接器两端都连接上之后,一条连接梁会将两个端点相连,利用它可以建造更坚固(且更重)的东西.]]></Value>
 
@@ -2230,7 +2230,7 @@
 
       <Value name="title"><![CDATA[ROUND-8环状燃料罐]]></Value>
 
-      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="manufacturer"><![CDATA[小精灵探测器有限公司]]></Value>
 
       <Value name="description"><![CDATA[一个形状怪异(但无疑是非常方便)的燃料罐.]]></Value>
 
@@ -2328,7 +2328,7 @@
 
       <Value name="title"><![CDATA[高级三角小翼]]></Value>
 
-      <Value name="manufacturer"><![CDATA[Kerlington模型火箭与纸制品有限公司]]></Value>
+      <Value name="manufacturer"><![CDATA[科灵顿模型火箭与纸制品有限公司]]></Value>
 
       <Value name="description"><![CDATA[高级三角小翼是一个装配着小型副翼的大型气动面.它的超轻型结构提供了比AV-R8小翼更多的升力,但是那小得可怜的副翼则会让它的转向极其缓慢.]]></Value>
 
@@ -2342,7 +2342,7 @@
 
       <Value name="title"><![CDATA[AV-T1型小翼]]></Value>
 
-      <Value name="manufacturer"><![CDATA[Kerlington模型火箭与纸制品有限公司]]></Value>
+      <Value name="manufacturer"><![CDATA[科灵顿模型火箭与纸制品有限公司]]></Value>
 
       <Value name="description"><![CDATA[你是说不是模型飞机用的？]]></Value>
 
@@ -2356,7 +2356,7 @@
 
       <Value name="title"><![CDATA[PB-X50R氙气罐]]></Value>
 
-      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="manufacturer"><![CDATA[小精灵探测器有限公司]]></Value>
 
       <Value name="description"><![CDATA[X50R是一个小型的氙气燃料，不仅启发了工程师们对于小型离子驱动飞船的适用，也彻底改变了他们的观念——小油箱里的燃料更经济。]]></Value>
 
@@ -2370,7 +2370,7 @@
 
       <Value name="title"><![CDATA[PB-X150氙气罐]]></Value>
 
-      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="manufacturer"><![CDATA[小精灵探测器有限公司]]></Value>
 
       <Value name="description"><![CDATA[虽然大部分KSC员工不会念'氙'这个字,但当被告知如何正确发音后,他们都同意'氙'字听起来非常酷---所以他们尽了最大努力把它当作了燃料来使.]]></Value>
 
@@ -3154,7 +3154,7 @@
 
       <Value name="manufacturer"><![CDATA[C7航空航天科技]]></Value>
 
-      <Value name="description"><![CDATA[可以装下16个小绿人，MK3载人舱被“超复杂的密室”和“超级经济”在太空旅行中闻名，只允许携带随身行李。任何危险品或者有情感的行李请去MK3货仓。]]></Value>
+      <Value name="description"><![CDATA[可以装下16个小绿人，MK3载人舱在太空旅行中享有“超复杂的密室”和“超级经济”美誉。只允许携带随身行李，任何危险品或者有情感的行李请去MK3货仓。]]></Value>
 
     </Values>
   </Config>
@@ -3206,7 +3206,7 @@
 
       <Value name="manufacturer"><![CDATA[C7航空航天科技]]></Value>
 
-      <Value name="description"><![CDATA[C7航空部门没法用管道把燃料从精炼器里输送出来，所以他们直接把炼油罐给了我们！我仿佛从他们眼中看到了“保重”，然后他们就把零件丢给我们了。]]></Value>
+      <Value name="description"><![CDATA[C7航空部门没法用管道把燃料从精炼器里输送出来，所以他们直接把炼油罐给了我们！当他们把零件丢给我们的时候，我仿佛从他们眼中看到了“保重”。]]></Value>
 
     </Values>
   </Config>
@@ -3295,7 +3295,7 @@
 
       <Value name="title"><![CDATA[PB-X750氙气罐]]></Value>
 
-      <Value name="manufacturer"><![CDATA[探测者动力有限公司]]></Value>
+      <Value name="manufacturer"><![CDATA[小精灵探测器有限公司]]></Value>
 
       <Value name="description"><![CDATA[虽然大多数的公司员工不能准确发出“氙”这个音，但被告知如何说是正确的时候，他们都同意因为这听起来超级酷的，应尽可能可以作为燃料，无论成本是多少。]]></Value>
 
@@ -3306,9 +3306,9 @@
 
     <Values>
 
-      <Value name="title"><![CDATA[土豆爱摇滚]]></Value>
+      <Value name="title"><![CDATA[像土豆的岩石]]></Value>
 
-      <Value name="manufacturer"><![CDATA[太阳能系统]]></Value>
+      <Value name="manufacturer"><![CDATA[太阳系]]></Value>
 
       <Value name="description"><![CDATA[好大啊，像岩石一样。]]></Value>
 
@@ -3503,9 +3503,9 @@
 
       <Value name="title"><![CDATA[高级勾爪]]></Value>
 
-      <Value name="manufacturer"><![CDATA[kerbal运动有限责任公司]]></Value>
+      <Value name="manufacturer"><![CDATA[坎巴拉运动有限公司]]></Value>
 
-      <Value name="description"><![CDATA[kerbal运动有限责任公司的工程师们一直为，如何从繁复的机械中替换废弃零件的问题纠结。在实验室里，一个实习生倒着晃动来清理他的鞋子时，我们的团队被灵感击中了！为什么不把火箭的部分倒过来摇晃？抓臂填补了项目空白，这个能让沉重的机器离地的大家伙。它也已经找到了其他用途，除了精密仪器的提取工作。它又叫“利爪”！]]></Value>
+      <Value name="description"><![CDATA[坎巴拉运动有限公司的工程师们一直为，如何从繁复的机械中替换废弃零件的问题纠结。在实验室里，一个实习生倒着晃动来清理他的鞋子时，我们的团队被灵感击中了！为什么不把火箭的部分倒过来摇晃？抓臂填补了项目空白，这个能让沉重的机器离地的大家伙。它也已经找到了其他用途，除了精密仪器的提取工作。它又叫“利爪”！]]></Value>
 
     </Values>
   </Config>
@@ -3714,6 +3714,71 @@
       <Value name="manufacturer"><![CDATA[鸡巴蛋克尔曼的垃圾场和飞船组件公司]]></Value>
 
       <Value name="description"><![CDATA[这个铝翼面使用简单螺栓，并且没有切割边缘但很便宜，会让你的火箭稍微不稳定]]></Value>
+
+    </Values>
+  </Config>
+
+ <Config name="foldingRadLarge">
+
+    <Values>
+
+      <Value name="title"><![CDATA[热控系统(大)]]></Value>
+
+      <Value name="manufacturer"><![CDATA[Probodobodyne 公司]]></Value>
+
+      <Value name="description"><![CDATA[这个热控系统由多个足够亮瞎狗眼又能展开的散热器面板组成]]></Value>
+
+    </Values>
+  </Config>
+
+<Config name="foldingRadMed">
+
+    <Values>
+
+      <Value name="title"><![CDATA[热控系统(中)]]></Value>
+
+      <Value name="manufacturer"><![CDATA[Probodobodyne 公司]]></Value>
+
+      <Value name="description"><![CDATA[这个热控系统由多个能亮瞎狗眼又能展开的散热器面板组成]]></Value>
+
+    </Values>
+  </Config>
+
+<Config name="foldingRadSmall">
+
+    <Values>
+
+      <Value name="title"><![CDATA[热控系统(小)]]></Value>
+
+      <Value name="manufacturer"><![CDATA[Probodobodyne 公司]]></Value>
+
+      <Value name="description"><![CDATA[这个热控系统由多个能亮瞎狗眼又能展开的小散热器面板组成]]></Value>
+
+    </Values>
+  </Config>
+
+<Config name="radPanelLg">
+
+    <Values>
+
+      <Value name="title"><![CDATA[散热器面板(大)]]></Value>
+
+      <Value name="manufacturer"><![CDATA[Probodobodyne 公司]]></Value>
+
+      <Value name="description"><![CDATA[一个能在太空帮助径向散热的大面板.]]></Value>
+
+    </Values>
+  </Config>
+
+<Config name="radPanelSm">
+
+    <Values>
+
+      <Value name="title"><![CDATA[散热器面板(小)]]></Value>
+
+      <Value name="manufacturer"><![CDATA[Probodobodyne 公司]]></Value>
+
+      <Value name="description"><![CDATA[个能在太空帮助径向散热的小面板.]]></Value>
 
     </Values>
   </Config>
