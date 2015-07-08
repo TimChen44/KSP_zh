@@ -3765,7 +3765,7 @@
 
       <Value name="manufacturer"><![CDATA[Probodobodyne 公司]]></Value>
 
-      <Value name="description"><![CDATA[一个能在太空帮助径向散热的大面板.]]></Value>
+      <Value name="description"><![CDATA[一个能在太空帮助向外散热的大面板.]]></Value>
 
     </Values>
   </Config>
@@ -3778,7 +3778,7 @@
 
       <Value name="manufacturer"><![CDATA[Probodobodyne 公司]]></Value>
 
-      <Value name="description"><![CDATA[个能在太空帮助径向散热的小面板.]]></Value>
+      <Value name="description"><![CDATA[一个能在太空帮助向外散热的小面板.]]></Value>
 
     </Values>
   </Config>
