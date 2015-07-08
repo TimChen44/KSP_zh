@@ -3718,4 +3718,69 @@
     </Values>
   </Config>
 
+ <Config name="foldingRadLarge">
+
+    <Values>
+
+      <Value name="title"><![CDATA[热控系统(大)]]></Value>
+
+      <Value name="manufacturer"><![CDATA[Probodobodyne 公司]]></Value>
+
+      <Value name="description"><![CDATA[这个热控系统由多个足够亮瞎狗眼又能展开的散热器面板组成]]></Value>
+
+    </Values>
+  </Config>
+
+<Config name="foldingRadMed">
+
+    <Values>
+
+      <Value name="title"><![CDATA[热控系统(中)]]></Value>
+
+      <Value name="manufacturer"><![CDATA[Probodobodyne 公司]]></Value>
+
+      <Value name="description"><![CDATA[这个热控系统由多个能亮瞎狗眼又能展开的散热器面板组成]]></Value>
+
+    </Values>
+  </Config>
+
+<Config name="foldingRadSmall">
+
+    <Values>
+
+      <Value name="title"><![CDATA[热控系统(小)]]></Value>
+
+      <Value name="manufacturer"><![CDATA[Probodobodyne 公司]]></Value>
+
+      <Value name="description"><![CDATA[这个热控系统由多个能亮瞎狗眼又能展开的小散热器面板组成]]></Value>
+
+    </Values>
+  </Config>
+
+<Config name="radPanelLg">
+
+    <Values>
+
+      <Value name="title"><![CDATA[散热器面板(大)]]></Value>
+
+      <Value name="manufacturer"><![CDATA[Probodobodyne 公司]]></Value>
+
+      <Value name="description"><![CDATA[一个能在太空帮助径向散热的大面板.]]></Value>
+
+    </Values>
+  </Config>
+
+<Config name="radPanelSm">
+
+    <Values>
+
+      <Value name="title"><![CDATA[散热器面板(小)]]></Value>
+
+      <Value name="manufacturer"><![CDATA[Probodobodyne 公司]]></Value>
+
+      <Value name="description"><![CDATA[个能在太空帮助径向散热的小面板.]]></Value>
+
+    </Values>
+  </Config>
+
  </Configs>
