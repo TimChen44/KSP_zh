@@ -1,25 +1,149 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <!--一条记录创建一个Config-->
 <Configs>
-  <!--战略-->
+  <!--合同目标战略-->
   <Config url="Squad/Contracts/Contracts/Contracts">
+
     <Nodes>
+
       <Node name="Base">
         <Nodes>
+
           <Node name="PART_REQUEST">
             <Values>
-              <Value name="Title"><![CDATA[一Have a research lab at the outpost]]></Value>
+              <Value name="Title"><![CDATA[有研究实验室的前哨站]]></Value>
             </Values>
           </Node>
+
           <Node name="PART_REQUEST">
             <Values>
-              <Value name="Title"><![CDATA[二Have a viewing cupola at the outpost]]></Value>
+              <Value name="Title"><![CDATA[有观景穹顶的前哨站]]></Value>
             </Values>
           </Node>
+
+          <Node name="PART_REQUEST">
+            <Values>
+              <Value name="Title"><![CDATA[有ISRU资源转换单元的前哨站]]></Value>
+            </Values>
+          </Node>
+
         </Nodes>
-        
+       </Node>
+
+      <Node name="Satellite">
+        <Nodes>
+
+          <Node name="PART_REQUEST">
+            <Values>
+              <Value name="Title"><![CDATA[有个神秘的粘液罐在卫星上]]></Value>
+            </Values>
+          </Node>
+
+          <Node name="PART_REQUEST">
+            <Values>
+              <Value name="Title"><![CDATA[有个温度计在卫星上]]></Value>
+            </Values>
+          </Node>
+
+          <Node name="PART_REQUEST">
+            <Values>
+              <Value name="Title"><![CDATA[有个负引力子传感器在卫星上]]></Value>
+            </Values>
+          </Node>
+
+           <Node name="PART_REQUEST">
+            <Values>
+              <Value name="Title"><![CDATA[有个materials bay在卫星上]]></Value>
+            </Values>
+          </Node>
+
+           <Node name="PART_REQUEST">
+            <Values>
+              <Value name="Title"><![CDATA[有个加速度计在卫星上]]></Value>
+            </Values>
+          </Node>
+
+           <Node name="PART_REQUEST">
+            <Values>
+              <Value name="Title"><![CDATA[有个资源测量扫描仪在卫星上]]></Value>
+            </Values>
+          </Node>
+
+        </Nodes>
       </Node>
-      
+
+      <Node name="Station">
+        <Nodes>
+
+          <Node name="PART_REQUEST">
+            <Values>
+              <Value name="Title"><![CDATA[有个研究实验室在驻地]]></Value>
+            </Values>
+          </Node>
+
+          <Node name="PART_REQUEST">
+            <Values>
+              <Value name="Title"><![CDATA[有个观景穹顶在驻地]]></Value>
+            </Values>
+          </Node>
+
+          <Node name="PART_REQUEST">
+            <Values>
+              <Value name="Title"><![CDATA[有个ISRU资源转换单元在驻地]]></Value>
+            </Values>
+          </Node>
+
+        </Nodes>
+      </Node>
+
+      <Node name="Survey">
+        <Nodes>
+
+          <Node name="SURVEY_DEFINITION">
+            <Values>
+              <Value name="Title"><![CDATA[执行@视觉调查]]></Value>
+              <Value name="Briefing"><![CDATA[我们对@地点不是很了解,前往那里,看看你能看到什么.]]></Value>
+              <Value name="Debriefing"><![CDATA[这些结果是太棒了!我们知道这么多关于@!我们转发的资金了.]]></Value>
+            </Values>
+          </Node>
+
+          <Node name="SURVEY_DEFINITION">
+            <Values>
+              <Value name="Title"><![CDATA[到达@进行地震勘测]]></Value>
+              <Value name="Briefing"><![CDATA[我们想要确认关于什么在@里面怎么回事的相关理论,到达那里并采取一些加速度计读数.]]></Value>
+              <Value name="Debriefing"><![CDATA[这些关于@的地震读数都是我们需要的.谢谢.]]></Value>
+            </Values>
+          </Node>
+
+           <Node name="SURVEY_DEFINITION">
+            <Values>
+              <Value name="Title"><![CDATA[执行@温度扫描.]]></Value>
+              <Value name="Briefing"><![CDATA[我们希望看到在@一个特定的区域有个怎样的温度波动.获得测量结果需要花一些时间的.]]></Value>
+              <Value name="Debriefing"><![CDATA[@它看起来比我们预期的温暖,但正是我们所需要的.]]></Value>
+            </Values>
+          </Node>
+
+           <Node name="SURVEY_DEFINITION">
+            <Values>
+              <Value name="Title"><![CDATA[到达@进行大气扫描.]]></Value>
+              <Value name="Briefing"><![CDATA[我们很好奇@的大气成分.到达那里并采集一些的数据.]]></Value>
+              <Value name="Debriefing"><![CDATA[如果这些@大气读数准确,就完成了我们的技术应当令人钦佩.]]></Value>
+            </Values>
+          </Node>
+
+           <Node name="SURVEY_DEFINITION">
+            <Values>
+              <Value name="Title"><![CDATA[执行@重力扫描.]]></Value>
+              <Value name="Briefing"><![CDATA[我们想要一些在@特定位置的重力测量值数据.]]></Value>
+              <Value name="Debriefing"><![CDATA[您帮助采集的这些重力读数是必不可少的.]]></Value>
+            </Values>
+          </Node>
+
+        </Nodes>
+      </Node>
+
     </Nodes>
-  </Config>
+
+ 
+ </Config>
 </Configs>
