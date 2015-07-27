@@ -33,7 +33,7 @@
           <Value name="generic"><![CDATA[被处理后]]></Value>
           <Value name="generic"><![CDATA[之后不久]]></Value>
           <Value name="generic"><![CDATA[的不久前]]></Value>
-          <Value name="generic"><![CDATA[的数日前]]></Value>
+          <Value name="generic"><![CDATA[的几天前]]></Value>
         </Values>
       </Node>
       <Node name="Situations">
@@ -57,12 +57,12 @@
           <Value name="generic"><![CDATA[[Adverbs:EmphasisUncertain] 小事故]]></Value>
           <Value name="generic"><![CDATA[重大事故]]></Value>
           <Value name="generic"><![CDATA[[Adjectives:OpinionSkepticalUncertain] 新发现]]></Value>
-          <Value name="generic"><![CDATA[一次意外点火]]></Value>
-          <Value name="generic"><![CDATA[另一次意外点火]]></Value>
+          <Value name="generic"><![CDATA[一次点火意外]]></Value>
+          <Value name="generic"><![CDATA[再次点火意外]]></Value>
           <Value name="generic"><![CDATA[[Adjectives:OpinionSkepticalUncertain] 迫降]]></Value>
           <Value name="action"><![CDATA[迅速解体意外]]></Value>
-          <Value name="action"><![CDATA[证明关于[Facts:Subject]的[Adjectives:OpinionSkepticalUncertain]理论]]></Value>
-          <Value name="action"><![CDATA[反驳关于[Facts:Subject]的[Adjectives:OpinionSkepticalUncertain]理论]]></Value>
+          <Value name="action"><![CDATA[证明关于[Facts:Subject]那[Adjectives:OpinionSkepticalUncertain]的理论]]></Value>
+          <Value name="action"><![CDATA[反驳关于[Facts:Subject]那[Adjectives:OpinionSkepticalUncertain]的理论]]></Value>
           <Value name="action"><![CDATA[无意中实施过高的压力测试]]></Value>
           <Value name="action"><![CDATA[突然着火]]></Value>
           <Value name="action"><![CDATA[低估了标准固态火箭燃料的不稳定性]]></Value>
@@ -231,7 +231,7 @@
 
           <Value name="Kerbin"><![CDATA[在[Adverbs:EmphasisSkeptical] 6个小时就是Kerbin的一天]]></Value>
           <Value name="Kerbin"><![CDATA[Kerbin不是某些蠢货说的扁球体而是个完美的球体]]></Value>
-          <Value name="KerbinSrf,Deserts"><![CDATA[Kerbin沙漠中发现的沙子真有办法搞得到处都是真不可思议]]></Value>
+          <Value name="KerbinSrf,Deserts"><![CDATA[Kerbin沙漠中发现不可思议的沙子真有办法搞得到处都是]]></Value>
 
           <Value name="Orbit"><![CDATA[all it takes to reach orbit was to have such poor aim that you manage to fall and miss the ground]]></Value>
           <Value name="Orbit"><![CDATA[有些关于在轨道上的物体会发生什么事请的流言是真的]]></Value>
@@ -240,8 +240,8 @@
           <Value name="Orbit,Space"><![CDATA[身处零重力环境真的像看起来那么 [Adjectives:OpinionVeryAppreciative]]]></Value>
 
           <Value name="Mun"><![CDATA[Mun [Adverbs:EmphasisSkeptical] 无法到达]]></Value>
-          <Value name="Mun"><![CDATA[想要去MUN的想法实在是太 [Adjectives:AppreciativeSkeptical] 了]]></Value>
-          <Value name="Mun"><![CDATA[到达MUN对我们来说实在是 [Adjectives:AppreciativeSkeptical]]]></Value>
+          <Value name="Mun"><![CDATA[想去MUN将是[Adjectives:AppreciativeSkeptical] 的主意]]></Value>
+          <Value name="Mun"><![CDATA[到达MUN对我们来说将是 [Adjectives:AppreciativeSkeptical]]]></Value>
           <Value name="Mun"><![CDATA[MUN [Adverbs:EmphasisSkeptical] 没有像大家想的那么 [Adjectives:AppreciativeImpossible]]]></Value>
 
           <Value name="MunSrf"><![CDATA[Mun的表面是 [Adverbs:EmphasisSkeptical] [Adjectives:OpinionAppreciative]]]></Value>
@@ -331,7 +331,7 @@
           <Value name="Insulting,Very,Depreciative,Attitude"><![CDATA[卑劣]]></Value>
 
           <Value name="Praiseful,Mild,Appreciative,Intellect"><![CDATA[出色地]]></Value>
-          <Value name="Praiseful,Mild,Appreciative,Intellect"><![CDATA[众所周知地]]></Value>
+          <Value name="Praiseful,Mild,Appreciative,Intellect"><![CDATA[众人皆知的]]></Value>
           <Value name="Praiseful,Very,Appreciative,Intellect"><![CDATA[天才的]]></Value>
           <Value name="Praiseful,Very,Appreciative,Intellect"><![CDATA[卓越的]]></Value>
 
