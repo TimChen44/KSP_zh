@@ -128,7 +128,7 @@
       <Node name="Predicates">
         <Values>
           <Value name="generic,Objective"><![CDATA[意识到 [ObjectPredicates:Motivation]]]></Value>
-          <Value name="generic,Objective"><![CDATA[suddenly became aware of how [ObjectPredicates:Motivation]]]></Value>
+          <Value name="generic,Objective"><![CDATA[突然意识到 [ObjectPredicates:Motivation]]]></Value>
           <Value name="generic,Objective"><![CDATA[得出了一个 [Adjectives:Uncertain] 结论在于如何 [ObjectPredicates:Motivation]]]></Value>
           <Value name="generic,Objective"><![CDATA[移除了一个 [Adverbs:generic] 又有趣的问题, 无论之前如何 [ObjectPredicates:Motivation]]]></Value>
           <Value name="generic,Objective"><![CDATA[很迷惑对于 [ObjectPredicates:Motivation]]]></Value>
