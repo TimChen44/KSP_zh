@@ -32,8 +32,8 @@
           <Value name="generic"><![CDATA[的善后事宜]]></Value>
           <Value name="generic"><![CDATA[被处理后]]></Value>
           <Value name="generic"><![CDATA[之后不久]]></Value>
-          <Value name="generic"><![CDATA[不久之前]]></Value>
-          <Value name="generic"><![CDATA[数日前]]></Value>
+          <Value name="generic"><![CDATA[的不久前]]></Value>
+          <Value name="generic"><![CDATA[的数日前]]></Value>
         </Values>
       </Node>
       <Node name="Situations">
@@ -60,7 +60,7 @@
           <Value name="generic"><![CDATA[一次意外点火]]></Value>
           <Value name="generic"><![CDATA[另一次意外点火]]></Value>
           <Value name="generic"><![CDATA[[Adjectives:OpinionSkepticalUncertain] 迫降]]></Value>
-          <Value name="action"><![CDATA[意外的迅速解体]]></Value>
+          <Value name="action"><![CDATA[迅速解体意外]]></Value>
           <Value name="action"><![CDATA[证明关于[Facts:Subject]的[Adjectives:OpinionSkepticalUncertain]理论]]></Value>
           <Value name="action"><![CDATA[反驳关于[Facts:Subject]的[Adjectives:OpinionSkepticalUncertain]理论]]></Value>
           <Value name="action"><![CDATA[无意中实施过高的压力测试]]></Value>
@@ -229,9 +229,9 @@
           <Value name="Parts"><![CDATA[有个有关我们的 [Topic] 的传言与它的实际功能相比,严重地夸大了]]></Value>
           <Value name="Parts"><![CDATA[有个有关我们的 [Topic] 的传言与它的实际功能相比,[Adverbs:Emphasis] 太 [Adjectives:InsultingIntellect] 了]]></Value>
 
-          <Value name="Kerbin"><![CDATA[在Kerbin的一天 [Adverbs:EmphasisSkeptical] 是6个小时长]]></Value>
-          <Value name="Kerbin"><![CDATA[Kerbin 是个完美的球体,而不是某些蠢货说的扁球体]]></Value>
-          <Value name="KerbinSrf,Deserts"><![CDATA[Kerbin上的沙子真的有一不小心就能撒得到处都是的能力呢]]></Value>
+          <Value name="Kerbin"><![CDATA[在[Adverbs:EmphasisSkeptical] 6个小时就是Kerbin的一天]]></Value>
+          <Value name="Kerbin"><![CDATA[Kerbin不是某些蠢货说的扁球体而是个完美的球体]]></Value>
+          <Value name="KerbinSrf,Deserts"><![CDATA[Kerbin沙漠中发现的沙子真有办法搞得到处都是真不可思议]]></Value>
 
           <Value name="Orbit"><![CDATA[all it takes to reach orbit was to have such poor aim that you manage to fall and miss the ground]]></Value>
           <Value name="Orbit"><![CDATA[有些关于在轨道上的物体会发生什么事请的流言是真的]]></Value>
