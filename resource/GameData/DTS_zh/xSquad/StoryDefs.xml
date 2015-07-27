@@ -61,8 +61,8 @@
           <Value name="generic"><![CDATA[再次点火意外]]></Value>
           <Value name="generic"><![CDATA[[Adjectives:OpinionSkepticalUncertain] 迫降]]></Value>
           <Value name="action"><![CDATA[迅速解体意外]]></Value>
-          <Value name="action"><![CDATA[证明关于[Facts:Subject]那[Adjectives:OpinionSkepticalUncertain]的理论]]></Value>
-          <Value name="action"><![CDATA[反驳关于[Facts:Subject]那[Adjectives:OpinionSkepticalUncertain]的理论]]></Value>
+          <Value name="action"><![CDATA[证明关于[Facts:Subject]那[Adjectives:OpinionSkepticalUncertain]理论]]></Value>
+          <Value name="action"><![CDATA[反驳关于[Facts:Subject]那[Adjectives:OpinionSkepticalUncertain]理论]]></Value>
           <Value name="action"><![CDATA[无意中实施过高的压力测试]]></Value>
           <Value name="action"><![CDATA[突然着火]]></Value>
           <Value name="action"><![CDATA[低估了标准固态火箭燃料的不稳定性]]></Value>
