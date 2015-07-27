@@ -29,11 +29,11 @@
         <Values>
           <Value name="generic"><![CDATA[造成的后果下]]></Value>
           <Value name="generic"><![CDATA[发生之后]]></Value>
-          <Value name="generic"><![CDATA[的余波中]]></Value>
+          <Value name="generic"><![CDATA[的善后事宜]]></Value>
           <Value name="generic"><![CDATA[被处理后]]></Value>
           <Value name="generic"><![CDATA[之后不久]]></Value>
           <Value name="generic"><![CDATA[不久之前]]></Value>
-          <Value name="generic"><![CDATA[的几天前]]></Value>
+          <Value name="generic"><![CDATA[数日前]]></Value>
         </Values>
       </Node>
       <Node name="Situations">
@@ -57,13 +57,13 @@
           <Value name="generic"><![CDATA[[Adverbs:EmphasisUncertain] 小事故]]></Value>
           <Value name="generic"><![CDATA[重大事故]]></Value>
           <Value name="generic"><![CDATA[[Adjectives:OpinionSkepticalUncertain] 新发现]]></Value>
-          <Value name="generic"><![CDATA[意外的点火]]></Value>
-          <Value name="generic"><![CDATA[又一次的意外点火]]></Value>
+          <Value name="generic"><![CDATA[一次意外点火]]></Value>
+          <Value name="generic"><![CDATA[另一次意外点火]]></Value>
           <Value name="generic"><![CDATA[[Adjectives:OpinionSkepticalUncertain] 迫降]]></Value>
-          <Value name="action"><![CDATA[没有预料到的的快速解体]]></Value>
+          <Value name="action"><![CDATA[意外的迅速解体]]></Value>
           <Value name="action"><![CDATA[证明关于[Facts:Subject]的[Adjectives:OpinionSkepticalUncertain]理论]]></Value>
-          <Value name="action"><![CDATA[证伪关于[Facts:Subject]的[Adjectives:OpinionSkepticalUncertain]理论]]></Value>
-          <Value name="action"><![CDATA[无意中进行指标过高的压力测试]]></Value>
+          <Value name="action"><![CDATA[反驳关于[Facts:Subject]的[Adjectives:OpinionSkepticalUncertain]理论]]></Value>
+          <Value name="action"><![CDATA[无意中实施过高的压力测试]]></Value>
           <Value name="action"><![CDATA[突然着火]]></Value>
           <Value name="action"><![CDATA[低估了标准固态火箭燃料的不稳定性]]></Value>
           <Value name="action"><![CDATA[掉到垃圾堆里]]></Value>
@@ -101,8 +101,8 @@
           <Value name="Pioneer"><![CDATA[不知疲倦的团队]]></Value>
           <Value name="Perfectionist"><![CDATA[一队着装无可挑剔的代表们]]></Value>
           <Value name="Perfectionist"><![CDATA[质检小组]]></Value>
-          <Value name="Record"><![CDATA[秘书长]]></Value>
-          <Value name="Record"><![CDATA[几位记录员]]></Value>
+          <Value name="Record"><![CDATA[头头]]></Value>
+          <Value name="Record"><![CDATA[一群手下]]></Value>
           <Value name="Ecomental"><![CDATA[一个忧心忡忡的成员]]></Value>
         </Values>
       </Node>
