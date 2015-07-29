@@ -13,6 +13,7 @@
 <string name="Raise"><![CDATA[升起]]></string>
 <string name="Board"><![CDATA[登船]]></string>
 <string name="Lower"><![CDATA[降下]]></string>
+<string name="Landed"><![CDATA[已降落]]></string>
 <string name="Raise"><![CDATA[升起]]></string>
 <string name="Release Clamp"><![CDATA[分离连接]]></string>
 <string name="Decouple"><![CDATA[分离]]></string>
