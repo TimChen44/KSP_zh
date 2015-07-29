@@ -229,7 +229,7 @@
           <Value name="Parts"><![CDATA[有个有关我们的 [Topic] 的传言与它的实际功能相比,严重地夸大了]]></Value>
           <Value name="Parts"><![CDATA[有个有关我们的 [Topic] 的传言与它的实际功能相比,[Adverbs:Emphasis] 太 [Adjectives:InsultingIntellect] 了]]></Value>
 
-          <Value name="Kerbin"><![CDATA[在[Adverbs:EmphasisSkeptical] 6个小时就是Kerbin的一天]]></Value>
+          <Value name="Kerbin"><![CDATA[Kerbin一天[Adverbs:EmphasisSkeptical] 就是6小时]]></Value>
           <Value name="Kerbin"><![CDATA[Kerbin不是某些蠢货说的扁球体而是个完美的球体]]></Value>
           <Value name="KerbinSrf,Deserts"><![CDATA[Kerbin沙漠中发现不可思议的沙子真有办法搞得到处都是]]></Value>
 
