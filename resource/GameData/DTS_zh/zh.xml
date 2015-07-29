@@ -1770,7 +1770,7 @@ FX Scale: ]]></string>
 <string id="47879"><![CDATA[SAParentParent]]></string>
 <string id="47908"><![CDATA[Part Triggers]]></string>
 <string id="47935"><![CDATA[collider]]></string>
-<string id="47952"><![CDATA[Part ]]></string>
+<string id="47952"><![CDATA[零件 ]]></string>
 <string id="47963"><![CDATA[(p2) craft ID reset as it matched that of ]]></string>
 <string id="48048"><![CDATA[(p1). New id: ]]></string>
 <string id="48077"><![CDATA[(p1) craft ID reset as it matched that of ]]></string>
@@ -3365,7 +3365,7 @@ bitmask: ]]></string>
 <string id="106197"><![CDATA[Cannot add a Module because ConfigNode contains no module name]]></string>
 <string id="106322"><![CDATA[InternalSeat]]></string>
 <string id="106347"><![CDATA[Module]]></string>
-<string id="106360"><![CDATA[Module ]]></string>
+<string id="106360"><![CDATA[模块 ]]></string>
 <string id="106375"><![CDATA[hand100]]></string>
 <string id="106390"><![CDATA[hand1000]]></string>
 <string id="106407"><![CDATA[hand10000]]></string>
