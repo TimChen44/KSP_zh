@@ -7575,7 +7575,7 @@ Note that this page is added with AddState instead of AddPage, because we don't 
 ]]></string>
 <string id="317212"><![CDATA[目标图标如下所示：]]></string>
 <string id="317291"><![CDATA[尝试接近到目标50米以内]]></string>
-<string id="317437"><![CDATA[马上停止！！ 马上停止！！
+<string id="317437"><![CDATA[马上停止!! 马上停止!!
 
  抱歉我并不是要吓唬你,现在该部署对接口了右键对接口打开护罩.我们现在需要微调一下,之前我们的目标是整个目标飞行器.可是对接在对接口之间进行所以需要把目标换成目标飞行器的对接口,同时右键自己的对接口从当前飞船的对接口控制飞船.
 
@@ -7583,11 +7583,11 @@ Note that this page is added with AddState instead of AddPage, because we don't 
 <string id="318691"><![CDATA[要两个对接口接触,先得对其两个对接口这意味着两个对接口的顺行向量重合.幸运的是有很多工具帮助玩家完成这一任务
 
 - 按 []]></string>
-<string id="319311"><![CDATA[] to find one of your liking, I recommend the Chase mode for this task.
+<string id="319311"><![CDATA[] 找到一个你喜欢的,我建议你尽快完成这个任务.
 
-- Apart from Staging mode, your HUD also has a Docking mode, press the Docking button under the stages on the lower left of the screen. What this does is change the control scheme from rotation to translation, so your W, A, S, D keys will control translation and LeftShift and LeftControl are up and down, a bit like controlling a Kerbal EVA.
+- 除了分段模式, 你的HUD还具有一个对接模式, 按下在屏幕的左下角的阶段对接按钮. 这样做是从旋转控制改变为平移控制, 让您的W,A,S,D键控制平移和左Shift键和左侧Control控制向上向下,有点像控制Kerbal EVA。
 
-- Using docking mode isn't strictly necessary. Use whichever mode works best for you, but remember you can use the I, K, J, L, H and N to translate in the normal Staging mode, you can check the key bindings at any time in the Pause Menu. ]]></string>
+- 使用对接模式并不是必需的. 无论哪种模式最适合你. 但请记住, 你可以使用 I, K, J, L, H和N在正常和临时模式之间转换, 你可以任何时间在暂停菜单中检查键绑定的.  ]]></string>
 <string id="320623"><![CDATA[无论用什么方法玩家必须对其两个对接口并使其尽可能靠近,若两个对接口距离一米以内对接口就会由磁力吸到一起.
 
 这一步留给玩家自行练习,担心搞砸的话可以使用快速存档功能,[]]></string>
