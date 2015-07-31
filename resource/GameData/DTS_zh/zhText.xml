@@ -13,7 +13,6 @@
 <string name="Raise"><![CDATA[升起]]></string>
 <string name="Board"><![CDATA[登船]]></string>
 <string name="Lower"><![CDATA[降下]]></string>
-<string name="Landed"><![CDATA[已降落]]></string>
 <string name="Raise"><![CDATA[升起]]></string>
 <string name="Release Clamp"><![CDATA[分离连接]]></string>
 <string name="Decouple"><![CDATA[分离]]></string>
@@ -194,7 +193,7 @@
 <string name="Launch"><![CDATA[发射]]></string>
 <string name="Delete"><![CDATA[删除]]></string>
 <string name="Close"><![CDATA[关闭]]></string>
-
+<string name="Edit"><![CDATA[编辑]]></string>
 
 <string name="Parts with crew capacity"><![CDATA[部件内乘员空间]]></string>
 <string name="Available crew"><![CDATA[空闲航天员]]></string>
