@@ -749,8 +749,8 @@
 <string id="10493"><![CDATA[A null layer sprite was encountered on control "]]></string>
 <string id="10590" noT="2"><![CDATA[". Please fill in the layer reference, or remove the empty element.]]></string>
 <string id="10726" noT="1"><![CDATA[normal]]></string>
-<string id="10739"><![CDATA[加速]]></string>
-<string id="10748"><![CDATA[启用]]></string>
+<string id="10739" noT="1"><![CDATA[over]]></string>
+<string id="10748" noT="1"><![CDATA[active]]></string>
 <string id="10761"><![CDATA[关闭]]></string>
 <string id="10778" noT="1"><![CDATA[Normal]]></string>
 <string id="10791" noT="1"><![CDATA[Over]]></string>
