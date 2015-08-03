@@ -427,8 +427,8 @@
           <Value name="Emphasis"><![CDATA[确实]]></Value>
 
           <Value name="Skeptical"><![CDATA[明显]]></Value>
-          <Value name="Skeptical"><![CDATA[不知怎么地就]]></Value>
-          <Value name="Skeptical"><![CDATA[因为某些原因就]]></Value>
+          <Value name="Skeptical"><![CDATA[不知怎么地]]></Value>
+          <Value name="Skeptical"><![CDATA[因为某些原因]]></Value>
           <Value name="Skeptical"><![CDATA[好像]]></Value>
 
           <Value name="Cautious"><![CDATA[合理的]]></Value>
