@@ -9906,7 +9906,7 @@ Length:]]></string>
 <string id="465992"><![CDATA[OffsetGizmo]]></string>
 <string id="466015"><![CDATA[RotateGizmo]]></string>
 <string id="466038"><![CDATA[Category_]]></string>
-<string id="466057"><![CDATA[按功能筛选]]></string>
+<string id="466057" noT="1"><![CDATA[Filter by Function]]></string>
 <string id="466094"><![CDATA[stockIcon_function]]></string>
 <string id="466131"><![CDATA[指令舱]]></string>
 <string id="466140"><![CDATA[stockIcon_pods]]></string>
