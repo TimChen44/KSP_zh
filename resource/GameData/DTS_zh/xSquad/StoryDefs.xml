@@ -49,7 +49,7 @@
         <Values>
           <Value name="generic"><![CDATA[[Situations] 才是让我们陷入如此地步的最终原因..]]></Value>
           <Value name="generic"><![CDATA[[Situations] 才是最大的问题所在.]]></Value>
-          <Value name="generic"><![CDATA[[Situations] 才是 [Adverbs:ConfirmativeEmphasisUncertainSkeptical] 的原因]]></Value>
+          <Value name="generic"><![CDATA[[Situations] 才是 [Adverbs:ConfirmativeEmphasisUncertainSkeptical] 原因]]></Value>
         </Values>
       </Node>
       <Node name="Circumstances">
@@ -57,10 +57,10 @@
           <Value name="generic"><![CDATA[[Adverbs:EmphasisUncertain] 小事故]]></Value>
           <Value name="generic"><![CDATA[重大事故]]></Value>
           <Value name="generic"><![CDATA[[Adjectives:OpinionSkepticalUncertain] 新发现]]></Value>
-          <Value name="generic"><![CDATA[一次点火意外]]></Value>
-          <Value name="generic"><![CDATA[再次点火意外]]></Value>
+          <Value name="generic"><![CDATA[爆炸意外]]></Value>
+          <Value name="generic"><![CDATA[点火失败]]></Value>
           <Value name="generic"><![CDATA[[Adjectives:OpinionSkepticalUncertain] 降落事故]]></Value>
-          <Value name="action"><![CDATA[迅速解体意外]]></Value>
+          <Value name="action"><![CDATA[空中意外解体]]></Value>
           <Value name="action"><![CDATA[证明关于[Facts:Subject]那[Adjectives:OpinionSkepticalUncertain]理论]]></Value>
           <Value name="action"><![CDATA[反驳关于[Facts:Subject]那[Adjectives:OpinionSkepticalUncertain]理论]]></Value>
           <Value name="action"><![CDATA[无意中实施过高的压力测试]]></Value>
@@ -101,7 +101,7 @@
           <Value name="Pioneer"><![CDATA[不知疲倦的团队]]></Value>
           <Value name="Perfectionist"><![CDATA[一队着装无可挑剔的代表们]]></Value>
           <Value name="Perfectionist"><![CDATA[质检小组]]></Value>
-          <Value name="Record"><![CDATA[头头]]></Value>
+          <Value name="Record"><![CDATA[专家组]]></Value>
           <Value name="Record"><![CDATA[一群手下]]></Value>
           <Value name="Ecomental"><![CDATA[一个忧心忡忡的成员]]></Value>
         </Values>
