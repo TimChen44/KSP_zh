@@ -193,7 +193,7 @@
 <string name="Launch"><![CDATA[发射]]></string>
 <string name="Delete"><![CDATA[删除]]></string>
 <string name="Close"><![CDATA[关闭]]></string>
-
+<string name="Edit"><![CDATA[编辑]]></string>
 
 <string name="Parts with crew capacity"><![CDATA[部件内乘员空间]]></string>
 <string name="Available crew"><![CDATA[空闲航天员]]></string>
@@ -313,7 +313,6 @@
 
 <string name="Part count:"><![CDATA[部件数量]]></string>
 <string name="Total mass:"><![CDATA[总质量:]]></string>
-
 
 <string name='[#e6752a]Base:'><![CDATA[[#e6752a]基地:]]></string>
 <string name='[#e6752a]EVA:'><![CDATA[[#e6752a]EVA:]]></string>
