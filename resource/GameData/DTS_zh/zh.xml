@@ -4352,7 +4352,7 @@ Looking for ]]></string>
 <string id="147311"><![CDATA[0.####]]></string>
 <string id="147324"><![CDATA[<b>自动展开高度 : </b>]]></string>
 <string id="147381"><![CDATA[<b>最小气压: </b>]]></string>
-<string id="147440" not="1"><![CDATA[deploySafe]]></string>
+<string id="147440" noT="1"><![CDATA[deploySafe]]></string>
 <string id="147461"><![CDATA[PACKED]]></string>
 <string id="147474"><![CDATA[安全]]></string>
 <string id="147483"><![CDATA[风险]]></string>
@@ -5547,7 +5547,7 @@ Spd: ]]></string>
 <string id="203734"><![CDATA[Device]]></string>
 <string id="203747"><![CDATA[Unit]]></string>
 <string id="203756"><![CDATA[组件]]></string>
-<string id="203775"><![CDATA[拯救 ]]></string>
+<string id="203775"><![CDATA[营救 ]]></string>
 <string id="203786"><![CDATA[获得 ]]></string>
 <string id="203801"><![CDATA[回收 ]]></string>
 <string id="203818"><![CDATA[已经加入机组成员!]]></string>
@@ -7585,7 +7585,7 @@ Note that this page is added with AddState instead of AddPage, because we don't 
 - 按 []]></string>
 <string id="319311"><![CDATA[] 找到一个你喜欢的,我建议你尽快完成这个任务.
 
-- 除了分段模式, 你的HUD还具有一个对接模式, 按下在屏幕的左下角的阶段对接按钮. 这样做是从旋转控制改变为平移控制, 让您的W,A,S,D键控制平移和左Shift键和左侧Control控制向上向下,有点像控制Kerbal EVA。
+- 除了分段模式, 你的HUD还具有一个对接模式, 按下在屏幕的左下角的阶段对接按钮. 这样做是从旋转控制改变为平移控制, 让您的 W, A, S, D键控制平移和左Shift键和左侧Control控制向上向下,有点像控制Kerbal EVA。
 
 - 使用对接模式并不是必需的. 无论哪种模式最适合你. 但请记住, 你可以使用 I, K, J, L, H和N在正常和临时模式之间转换, 你可以任何时间在暂停菜单中检查键绑定的.  ]]></string>
 <string id="320623"><![CDATA[无论用什么方法玩家必须对其两个对接口并使其尽可能靠近,若两个对接口距离一米以内对接口就会由磁力吸到一起.
