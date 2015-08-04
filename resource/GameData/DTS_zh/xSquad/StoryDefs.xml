@@ -97,7 +97,7 @@
           <Value name="Patient"><![CDATA[一个[Adverbs:CautiousSkepticalEmphasis] 休息的团队]]></Value>
           <Value name="Scientific"><![CDATA[boffins研究员们]]></Value>
           <Value name="Scientific"><![CDATA[[Adjectives:Appreciative] 天才们]]></Value>
-          <Value name="Pioneer"><![CDATA[[Adjectives:PraisefulIntellect] 头脑们]]></Value>
+          <Value name="Pioneer"><![CDATA[[Adjectives:PraisefulIntellect] 智者们]]></Value>
           <Value name="Pioneer"><![CDATA[不知疲倦的团队]]></Value>
           <Value name="Perfectionist"><![CDATA[一队着装无可挑剔的代表们]]></Value>
           <Value name="Perfectionist"><![CDATA[质检小组]]></Value>
@@ -164,7 +164,7 @@
           <Value name="generic"><![CDATA[这里没人能弄明白,]]></Value>
           <Value name="generic"><![CDATA[我们没人能确定,]]></Value>
           <Value name="generic"><![CDATA[让我们[Adverbs:Emphasis]确定,]]></Value>
-          <Value name="generic"><![CDATA[我们基本不了解是否,]]></Value>
+          <Value name="generic"><![CDATA[我们是否知之甚少]]></Value>
           <Value name="generic"><![CDATA[这看起来[Adjectives:Opinion],]]></Value>
           <Value name="generic"><![CDATA[这看起来是[Adverbs:Emphasis] [Adjectives:ConfirmativeSkepticalUncertain],]]></Value>
           <Value name="generic"><![CDATA[我们没有任何研究进展,]]></Value>
