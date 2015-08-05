@@ -3532,7 +3532,7 @@ What would you like to do?
 <string id="113125"><![CDATA[不是现在]]></string>
 <string id="113140"><![CDATA[删除存档]]></string>
 <string id="113169"><![CDATA[无法删除 ]]></string>
-<string id="113202"><![CDATA[无]]></string>
+<string id="113202"><![CDATA[否]]></string>
 <string id="113207"><![CDATA[任务]]></string>
 <string id="113222"><![CDATA[任务]]></string>
 <string id="113239"><![CDATA[进行中]]></string>
@@ -5372,8 +5372,8 @@ Burn time: ]]></string>
 <string id="197571"><![CDATA[Contract: Contract parameter type name ']]></string>
 <string id="197652"><![CDATA[' is invalid]]></string>
 <string id="197677"><![CDATA[OnStateChange]]></string>
-<string id="197704"><![CDATA[Contract Parameter Complete]]></string>
-<string id="197759"><![CDATA[Contract Parameter Failed]]></string>
+<string id="197704"><![CDATA[合同已完成]]></string>
+<string id="197759"><![CDATA[合同失败]]></string>
 <string id="197810"><![CDATA[optional]]></string>
 <string id="197827"><![CDATA[disableOnStateChange]]></string>
 <string id="197868"><![CDATA[ContractParameter: Contract parameter config is invalid]]></string>
@@ -6085,7 +6085,7 @@ Spd: ]]></string>
 <string id="229125"><![CDATA[keostationary]]></string>
 <string id="229152"><![CDATA[stationary]]></string>
 <string id="229173"><![CDATA[keliosynchronous]]></string>
-<string id="229206"><![CDATA[keosynchronous]]></string>
+<string id="229206" noT="2"><![CDATA[keosynchronous]]></string>
 <string id="229235"><![CDATA[synchronous]]></string>
 <string id="229258"><![CDATA[Kolniya]]></string>
 <string id="229273"><![CDATA[C]]></string>
@@ -6426,7 +6426,7 @@ Spd: ]]></string>
 <string id="251203"><![CDATA[PartRequestParameter]]></string>
 <string id="251244"><![CDATA[让一个部件]]></string>
 <string id="251267"><![CDATA[发射一个新的无人探测器,要求拥有天线并可以发电]]></string>
-<string id="251409"><![CDATA[请注意这一定是新的无人探测器,是合同上规定的中转站.]]></string>
+<string id="251409"><![CDATA[请注意为了完成合同,你必须发射一枚新的无人探测器.]]></string>
 <string id="251617"><![CDATA[ProbeSystemsParameter]]></string>
 <string id="251660"><![CDATA[目标达成]]></string>
 <string id="251685"><![CDATA[开始建造表面前哨在]]></string>
@@ -6488,7 +6488,7 @@ Spd: ]]></string>
 <string id="255616"><![CDATA[到达]]></string>
 <string id="255629"><![CDATA[到达计划的轨道环绕]]></string>
 <string id="255698"><![CDATA[未定义的]]></string>
-<string id="255717"><![CDATA[角度]]></string>
+<string id="255717"><![CDATA[度]]></string>
 <string id="255734"><![CDATA[特定轨道:
 远地点: ]]></string>
 <string id="255789"><![CDATA[米
