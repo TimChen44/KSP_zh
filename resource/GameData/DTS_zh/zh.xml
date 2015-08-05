@@ -634,7 +634,7 @@
 <string id="6270"><![CDATA[KERBAL]]></string>
 <string id="6283"><![CDATA[[Protocrewmember]:机组成员实例]]></string>
 <string id="6368"><![CDATA[已装上]]></string>
-<string id="6387"><![CDATA[开启]]></string>
+<string id="6387"><![CDATA[到]]></string>
 <string id="6396"><![CDATA[与示例不相 ]]></string>
 <string id="6451"><![CDATA[ 在机组名册上.(已存入指引: ]]></string>
 <string id="6516"><![CDATA[)]]></string>
@@ -1770,7 +1770,7 @@ FX Scale: ]]></string>
 <string id="47879"><![CDATA[SAParentParent]]></string>
 <string id="47908"><![CDATA[Part Triggers]]></string>
 <string id="47935"><![CDATA[collider]]></string>
-<string id="47952"><![CDATA[Part ]]></string>
+<string id="47952"><![CDATA[零件 ]]></string>
 <string id="47963"><![CDATA[(p2) craft ID reset as it matched that of ]]></string>
 <string id="48048"><![CDATA[(p1). New id: ]]></string>
 <string id="48077"><![CDATA[(p1) craft ID reset as it matched that of ]]></string>
@@ -3365,7 +3365,7 @@ bitmask: ]]></string>
 <string id="106197"><![CDATA[Cannot add a Module because ConfigNode contains no module name]]></string>
 <string id="106322"><![CDATA[InternalSeat]]></string>
 <string id="106347"><![CDATA[Module]]></string>
-<string id="106360"><![CDATA[Module ]]></string>
+<string id="106360"><![CDATA[模块 ]]></string>
 <string id="106375"><![CDATA[hand100]]></string>
 <string id="106390"><![CDATA[hand1000]]></string>
 <string id="106407"><![CDATA[hand10000]]></string>
@@ -5546,10 +5546,10 @@ Spd: ]]></string>
 <string id="203715"><![CDATA[Prototype]]></string>
 <string id="203734"><![CDATA[Device]]></string>
 <string id="203747"><![CDATA[Unit]]></string>
-<string id="203756"><![CDATA[Component]]></string>
-<string id="203775"><![CDATA[保存 ]]></string>
-<string id="203786"><![CDATA[Obtain ]]></string>
-<string id="203801"><![CDATA[Recover ]]></string>
+<string id="203756"><![CDATA[组件]]></string>
+<string id="203775"><![CDATA[营救 ]]></string>
+<string id="203786"><![CDATA[获得 ]]></string>
+<string id="203801"><![CDATA[回收 ]]></string>
 <string id="203818"><![CDATA[已经加入机组成员!]]></string>
 <string id="203865"><![CDATA[现在是太空计划的宇航员之一了.]]></string>
 <string id="203944"><![CDATA[从那儿的表面 ]]></string>
@@ -6121,7 +6121,7 @@ Spd: ]]></string>
 <string id="231165"><![CDATA[asteroidClass]]></string>
 <string id="231192"><![CDATA[isLanding]]></string>
 <string id="231211"><![CDATA[Dres]]></string>
-<string id="231220"><![CDATA[outpost]]></string>
+<string id="231220"><![CDATA[前哨]]></string>
 <string id="231235"><![CDATA[建立一座新的表面前哨位于]]></string>
 <string id="231298"><![CDATA[ Base ]]></string>
 <string id="231311"><![CDATA[construction]]></string>
@@ -6432,9 +6432,9 @@ Spd: ]]></string>
 <string id="251685"><![CDATA[开始建造表面前哨在]]></string>
 <string id="251788"><![CDATA[经过把两个不同的载具用对接口连接起来或者用勾爪接起来.]]></string>
 <string id="251964"><![CDATA[把两个不同的载具紧贴在一起,在接近位置]]></string>
-<string id="252051"><![CDATA[用对接口或者勾爪贴合.]]></string>
+<string id="252051"><![CDATA[用对接口或者勾爪来达到目的.]]></string>
 <string id="252156"><![CDATA[起飞一个载具,使之摆脱引力范围在]]></string>
-<string id="252259"><![CDATA[贴合在一起]]></string>
+<string id="252259"><![CDATA[达成目标.]]></string>
 <string id="252304"><![CDATA[从发射台或跑道发射你的第一艘飞船来完成这个目标.]]></string>
 <string id="252468"><![CDATA[查下一面坎巴拉的旗帜位于 ]]></string>
 <string id="252559"><![CDATA[让一个载具飞行于接近]]></string>
@@ -6556,16 +6556,16 @@ Spd: ]]></string>
 <string id="257667"><![CDATA[RecordsDistance]]></string>
 <string id="257698"><![CDATA[RecordsSpeed]]></string>
 <string id="257723"><![CDATA[Chronometric Disturbance]]></string>
-<string id="257772"><![CDATA[龙头]]></string>
+<string id="257772"><![CDATA[Dragon's Head]]></string>
 <string id="257799"><![CDATA[Inner Frontier]]></string>
 <string id="257828"><![CDATA[Krobin Pass]]></string>
 <string id="257851"><![CDATA[Orion's Landing]]></string>
 <string id="257882"><![CDATA[Rosalux Point]]></string>
-<string id="257909"><![CDATA[闪点]]></string>
-<string id="257936"><![CDATA[表面积]]></string>
+<string id="257909"><![CDATA[Thunder Point]]></string>
+<string id="257936"><![CDATA[Area]]></string>
 <string id="257945"><![CDATA[Sector]]></string>
 <string id="257958"><![CDATA[Site]]></string>
-<string id="257967"><![CDATA[区域]]></string>
+<string id="257967"><![CDATA[Zone]]></string>
 <string id="257976"><![CDATA[Bill's]]></string>
 <string id="257989"><![CDATA[Bob's]]></string>
 <string id="258000"><![CDATA[Bobak's]]></string>
@@ -7135,18 +7135,18 @@ Total Biomes: ]]></string>
 <string id="276892"><![CDATA[sbv]]></string>
 <string id="276899"><![CDATA[的地表]]></string>
 <string id="276920"><![CDATA[的海洋]]></string>
-<string id="276939"><![CDATA[于飞过]]></string>
-<string id="276978"><![CDATA[于飞在]]></string>
+<string id="276939"><![CDATA[当飞过时]]></string>
+<string id="276978"><![CDATA[当飞行时]]></string>
 <string id="277013"><![CDATA[记录于 位置:上层大气 天体:]]></string>
 <string id="277078"><![CDATA[的上层大气]]></string>
 <string id="277117"><![CDATA[刚刚越过天空于]]></string>
 <string id="277164"><![CDATA[正处于天空附近于]]></string>
 <string id="277207"><![CDATA[正位于高轨于]]></string>
-<string id="277260"><![CDATA[从大体环绕]></string>
-  <string id="276161"><![CDATA[在高层大气于]]></string>
-<string id="277307"><![CDATA[ in the upper atmosphere over ]]></string>
+<string id="277260"><![CDATA[从某处环绕]]></string>
+<string id="276161"><![CDATA[在高层大气于]]></string>
+<string id="277307"><![CDATA[通过上层大气]]></string>
 <string id="277368"><![CDATA[刚刚越过天空于]]></string>
-<string id="277411"><![CDATA[,大概环绕]]></string>
+<string id="277411"><![CDATA[,某处环绕]]></string>
 <string id="277450"><![CDATA[Score for transmitter: ]]></string>
 <string id="277497"><![CDATA[ - Data Rate: ]]></string>
 <string id="277526"><![CDATA[ - Data Cost: ]]></string>
@@ -7575,7 +7575,7 @@ Note that this page is added with AddState instead of AddPage, because we don't 
 ]]></string>
 <string id="317212"><![CDATA[目标图标如下所示：]]></string>
 <string id="317291"><![CDATA[尝试接近到目标50米以内]]></string>
-<string id="317437"><![CDATA[马上停止！！ 马上停止！！
+<string id="317437"><![CDATA[马上停止!! 马上停止!!
 
  抱歉我并不是要吓唬你,现在该部署对接口了右键对接口打开护罩.我们现在需要微调一下,之前我们的目标是整个目标飞行器.可是对接在对接口之间进行所以需要把目标换成目标飞行器的对接口,同时右键自己的对接口从当前飞船的对接口控制飞船.
 
@@ -7583,11 +7583,11 @@ Note that this page is added with AddState instead of AddPage, because we don't 
 <string id="318691"><![CDATA[要两个对接口接触,先得对其两个对接口这意味着两个对接口的顺行向量重合.幸运的是有很多工具帮助玩家完成这一任务
 
 - 按 []]></string>
-<string id="319311"><![CDATA[]找到一个你喜欢的,我建议你尽快完成这个任务.
+<string id="319311"><![CDATA[] 找到一个你喜欢的,我建议你尽快完成这个任务.
 
 - 除了分段模式, 你的HUD还具有一个对接模式, 按下在屏幕的左下角的阶段对接按钮. 这样做是从旋转控制改变为平移控制, 让您的 W, A, S, D键控制平移和左Shift键和左侧Control控制向上向下,有点像控制Kerbal EVA。
 
-- 使用对接模式并不是必需的. 无论哪种模式最适合你. 但请记住, 你可以使用 I, K, J, L, H和N在正常和临时模式之间转换, 你可以任何时间在暂停菜单中检查键绑定的. ]]></string>
+- 使用对接模式并不是必需的. 无论哪种模式最适合你. 但请记住, 你可以使用 I, K, J, L, H和N在正常和临时模式之间转换, 你可以任何时间在暂停菜单中检查键绑定的.  ]]></string>
 <string id="320623"><![CDATA[无论用什么方法玩家必须对其两个对接口并使其尽可能靠近,若两个对接口距离一米以内对接口就会由磁力吸到一起.
 
 这一步留给玩家自行练习,担心搞砸的话可以使用快速存档功能,[]]></string>

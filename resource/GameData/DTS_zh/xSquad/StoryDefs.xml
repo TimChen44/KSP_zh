@@ -29,10 +29,10 @@
         <Values>
           <Value name="generic"><![CDATA[造成的后果下]]></Value>
           <Value name="generic"><![CDATA[发生之后]]></Value>
-          <Value name="generic"><![CDATA[的余波中]]></Value>
+          <Value name="generic"><![CDATA[的善后事宜]]></Value>
           <Value name="generic"><![CDATA[被处理后]]></Value>
           <Value name="generic"><![CDATA[之后不久]]></Value>
-          <Value name="generic"><![CDATA[不久之前]]></Value>
+          <Value name="generic"><![CDATA[的不久前]]></Value>
           <Value name="generic"><![CDATA[的几天前]]></Value>
         </Values>
       </Node>
@@ -49,7 +49,7 @@
         <Values>
           <Value name="generic"><![CDATA[[Situations] 才是让我们陷入如此地步的最终原因..]]></Value>
           <Value name="generic"><![CDATA[[Situations] 才是最大的问题所在.]]></Value>
-          <Value name="generic"><![CDATA[[Situations] 才是 [Adverbs:ConfirmativeEmphasisUncertainSkeptical] 的原因]]></Value>
+          <Value name="generic"><![CDATA[[Situations] 才是 [Adverbs:ConfirmativeEmphasisUncertainSkeptical] 原因]]></Value>
         </Values>
       </Node>
       <Node name="Circumstances">
@@ -57,13 +57,13 @@
           <Value name="generic"><![CDATA[[Adverbs:EmphasisUncertain] 小事故]]></Value>
           <Value name="generic"><![CDATA[重大事故]]></Value>
           <Value name="generic"><![CDATA[[Adjectives:OpinionSkepticalUncertain] 新发现]]></Value>
-          <Value name="generic"><![CDATA[意外的点火]]></Value>
-          <Value name="generic"><![CDATA[又一次的意外点火]]></Value>
-          <Value name="generic"><![CDATA[[Adjectives:OpinionSkepticalUncertain] 迫降]]></Value>
-          <Value name="action"><![CDATA[没有预料到的的快速解体]]></Value>
-          <Value name="action"><![CDATA[证明关于[Facts:Subject]的[Adjectives:OpinionSkepticalUncertain]理论]]></Value>
-          <Value name="action"><![CDATA[证伪关于[Facts:Subject]的[Adjectives:OpinionSkepticalUncertain]理论]]></Value>
-          <Value name="action"><![CDATA[无意中进行指标过高的压力测试]]></Value>
+          <Value name="generic"><![CDATA[爆炸意外]]></Value>
+          <Value name="generic"><![CDATA[点火失败]]></Value>
+          <Value name="generic"><![CDATA[[Adjectives:OpinionSkepticalUncertain] 降落事故]]></Value>
+          <Value name="action"><![CDATA[空中意外解体]]></Value>
+          <Value name="action"><![CDATA[证明关于[Facts:Subject]那[Adjectives:OpinionSkepticalUncertain]理论]]></Value>
+          <Value name="action"><![CDATA[反驳关于[Facts:Subject]那[Adjectives:OpinionSkepticalUncertain]理论]]></Value>
+          <Value name="action"><![CDATA[无意中实施过高的压力测试]]></Value>
           <Value name="action"><![CDATA[突然着火]]></Value>
           <Value name="action"><![CDATA[低估了标准固态火箭燃料的不稳定性]]></Value>
           <Value name="action"><![CDATA[掉到垃圾堆里]]></Value>
@@ -97,12 +97,12 @@
           <Value name="Patient"><![CDATA[一个[Adverbs:CautiousSkepticalEmphasis] 休息的团队]]></Value>
           <Value name="Scientific"><![CDATA[boffins研究员们]]></Value>
           <Value name="Scientific"><![CDATA[[Adjectives:Appreciative] 天才们]]></Value>
-          <Value name="Pioneer"><![CDATA[[Adjectives:PraisefulIntellect] 头脑们]]></Value>
+          <Value name="Pioneer"><![CDATA[[Adjectives:PraisefulIntellect] 智者们]]></Value>
           <Value name="Pioneer"><![CDATA[不知疲倦的团队]]></Value>
           <Value name="Perfectionist"><![CDATA[一队着装无可挑剔的代表们]]></Value>
           <Value name="Perfectionist"><![CDATA[质检小组]]></Value>
-          <Value name="Record"><![CDATA[秘书长]]></Value>
-          <Value name="Record"><![CDATA[几位记录员]]></Value>
+          <Value name="Record"><![CDATA[专家组]]></Value>
+          <Value name="Record"><![CDATA[一群手下]]></Value>
           <Value name="Ecomental"><![CDATA[一个忧心忡忡的成员]]></Value>
         </Values>
       </Node>
@@ -128,7 +128,7 @@
       <Node name="Predicates">
         <Values>
           <Value name="generic,Objective"><![CDATA[意识到 [ObjectPredicates:Motivation]]]></Value>
-          <Value name="generic,Objective"><![CDATA[suddenly became aware of how [ObjectPredicates:Motivation]]]></Value>
+          <Value name="generic,Objective"><![CDATA[突然意识到 [ObjectPredicates:Motivation]]]></Value>
           <Value name="generic,Objective"><![CDATA[得出了一个 [Adjectives:Uncertain] 结论在于如何 [ObjectPredicates:Motivation]]]></Value>
           <Value name="generic,Objective"><![CDATA[移除了一个 [Adverbs:generic] 又有趣的问题, 无论之前如何 [ObjectPredicates:Motivation]]]></Value>
           <Value name="generic,Objective"><![CDATA[很迷惑对于 [ObjectPredicates:Motivation]]]></Value>
@@ -164,7 +164,7 @@
           <Value name="generic"><![CDATA[这里没人能弄明白,]]></Value>
           <Value name="generic"><![CDATA[我们没人能确定,]]></Value>
           <Value name="generic"><![CDATA[让我们[Adverbs:Emphasis]确定,]]></Value>
-          <Value name="generic"><![CDATA[我们基本不了解是否,]]></Value>
+          <Value name="generic"><![CDATA[我们是否知之甚少]]></Value>
           <Value name="generic"><![CDATA[这看起来[Adjectives:Opinion],]]></Value>
           <Value name="generic"><![CDATA[这看起来是[Adverbs:Emphasis] [Adjectives:ConfirmativeSkepticalUncertain],]]></Value>
           <Value name="generic"><![CDATA[我们没有任何研究进展,]]></Value>
@@ -214,7 +214,7 @@
           <Value name="generic"><![CDATA[我们真的已经无聊到了极点,或者说不知道接下来该干点儿什么了]]></Value>
 
           <Value name="Kerbal"><![CDATA[所有的小绿人都享受失重的感觉]]></Value>
-          <Value name="Kerbal"><![CDATA[愚蠢的小绿人门不介意像别的家伙们一样在太空中打转]]></Value>
+          <Value name="Kerbal"><![CDATA[愚蠢的小绿人不介意像别人一样在太空中打转]]></Value>
           <Value name="Kerbal"><![CDATA[一些小绿人好像更喜欢别人都会害怕的东西]]></Value>
           <Value name="Kerbal"><![CDATA[愚蠢的小绿人欢乐多]]></Value>
           <Value name="Kerbal"><![CDATA[勇敢的小绿人心理愈合速度要比不怎么勇敢的小绿人来得快些]]></Value>
@@ -229,9 +229,9 @@
           <Value name="Parts"><![CDATA[有个有关我们的 [Topic] 的传言与它的实际功能相比,严重地夸大了]]></Value>
           <Value name="Parts"><![CDATA[有个有关我们的 [Topic] 的传言与它的实际功能相比,[Adverbs:Emphasis] 太 [Adjectives:InsultingIntellect] 了]]></Value>
 
-          <Value name="Kerbin"><![CDATA[在Kerbin的一天 [Adverbs:EmphasisSkeptical] 是6个小时长]]></Value>
-          <Value name="Kerbin"><![CDATA[Kerbin 是个完美的球体,而不是某些蠢货说的扁球体]]></Value>
-          <Value name="KerbinSrf,Deserts"><![CDATA[Kerbin上的沙子真的有一不小心就能撒得到处都是的能力呢]]></Value>
+          <Value name="Kerbin"><![CDATA[Kerbin一天[Adverbs:EmphasisSkeptical] 就是6小时]]></Value>
+          <Value name="Kerbin"><![CDATA[Kerbin不是某些蠢货说的扁球体而是个完美的球体]]></Value>
+          <Value name="KerbinSrf,Deserts"><![CDATA[Kerbin沙漠中发现的沙子真有不可思议魔力能搞得到处都是]]></Value>
 
           <Value name="Orbit"><![CDATA[all it takes to reach orbit was to have such poor aim that you manage to fall and miss the ground]]></Value>
           <Value name="Orbit"><![CDATA[有些关于在轨道上的物体会发生什么事请的流言是真的]]></Value>
@@ -240,8 +240,8 @@
           <Value name="Orbit,Space"><![CDATA[身处零重力环境真的像看起来那么 [Adjectives:OpinionVeryAppreciative]]]></Value>
 
           <Value name="Mun"><![CDATA[Mun [Adverbs:EmphasisSkeptical] 无法到达]]></Value>
-          <Value name="Mun"><![CDATA[想要去MUN的想法实在是太 [Adjectives:AppreciativeSkeptical] 了]]></Value>
-          <Value name="Mun"><![CDATA[到达MUN对我们来说实在是 [Adjectives:AppreciativeSkeptical]]]></Value>
+          <Value name="Mun"><![CDATA[想去MUN将是[Adjectives:AppreciativeSkeptical]主意]]></Value>
+          <Value name="Mun"><![CDATA[到达MUN对我们来说将是 [Adjectives:AppreciativeSkeptical]]]></Value>
           <Value name="Mun"><![CDATA[MUN [Adverbs:EmphasisSkeptical] 没有像大家想的那么 [Adjectives:AppreciativeImpossible]]]></Value>
 
           <Value name="MunSrf"><![CDATA[Mun的表面是 [Adverbs:EmphasisSkeptical] [Adjectives:OpinionAppreciative]]]></Value>
@@ -331,7 +331,7 @@
           <Value name="Insulting,Very,Depreciative,Attitude"><![CDATA[卑劣]]></Value>
 
           <Value name="Praiseful,Mild,Appreciative,Intellect"><![CDATA[出色地]]></Value>
-          <Value name="Praiseful,Mild,Appreciative,Intellect"><![CDATA[众所周知地]]></Value>
+          <Value name="Praiseful,Mild,Appreciative,Intellect"><![CDATA[众人皆知的]]></Value>
           <Value name="Praiseful,Very,Appreciative,Intellect"><![CDATA[天才的]]></Value>
           <Value name="Praiseful,Very,Appreciative,Intellect"><![CDATA[卓越的]]></Value>
 
@@ -427,8 +427,8 @@
           <Value name="Emphasis"><![CDATA[确实]]></Value>
 
           <Value name="Skeptical"><![CDATA[明显]]></Value>
-          <Value name="Skeptical"><![CDATA[不知怎么地就]]></Value>
-          <Value name="Skeptical"><![CDATA[因为某些原因就]]></Value>
+          <Value name="Skeptical"><![CDATA[不知怎么地]]></Value>
+          <Value name="Skeptical"><![CDATA[因为某些原因]]></Value>
           <Value name="Skeptical"><![CDATA[好像]]></Value>
 
           <Value name="Cautious"><![CDATA[合理的]]></Value>
