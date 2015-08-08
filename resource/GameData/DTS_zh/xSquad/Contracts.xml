@@ -27,36 +27,6 @@
             </Values>
           </Node>
 
-          <Node name="RESOURCE_REQUEST">
-            <Values>
-              <Value name="Title"><![CDATA[液体燃料]]></Value>
-            </Values>
-          </Node>
-
-          <Node name="RESOURCE_REQUEST">
-            <Values>
-              <Value name="Title"><![CDATA[矿石]]></Value>
-            </Values>
-          </Node>
-
-          <Node name="RESOURCE_REQUEST">
-            <Values>
-              <Value name="Title"><![CDATA[电荷]]></Value>
-            </Values>
-          </Node>
-
-          <Node name="RESOURCE_REQUEST">
-            <Values>
-              <Value name="Title"><![CDATA[单元推进剂]]></Value>
-            </Values>
-          </Node>
-
-          <Node name="RESOURCE_REQUEST">
-            <Values>
-              <Value name="Title"><![CDATA[氙气]]></Value>
-            </Values>
-          </Node>
-
         </Nodes>
        </Node>
 
@@ -120,6 +90,36 @@
           <Node name="PART_REQUEST">
             <Values>
               <Value name="Title"><![CDATA[有个ISRU资源转换单元在驻地]]></Value>
+            </Values>
+          </Node>
+
+         <Node name="RESOURCE_REQUEST">
+            <Values>
+              <Value name="Title"><![CDATA[液体燃料]]></Value>
+            </Values>
+          </Node>
+
+          <Node name="RESOURCE_REQUEST">
+            <Values>
+              <Value name="Title"><![CDATA[矿石]]></Value>
+            </Values>
+          </Node>
+
+          <Node name="RESOURCE_REQUEST">
+            <Values>
+              <Value name="Title"><![CDATA[电荷]]></Value>
+            </Values>
+          </Node>
+
+          <Node name="RESOURCE_REQUEST">
+            <Values>
+              <Value name="Title"><![CDATA[单元推进剂]]></Value>
+            </Values>
+          </Node>
+
+          <Node name="RESOURCE_REQUEST">
+            <Values>
+              <Value name="Title"><![CDATA[氙气]]></Value>
             </Values>
           </Node>
 
