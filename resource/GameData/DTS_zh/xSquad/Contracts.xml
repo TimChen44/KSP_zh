@@ -93,35 +93,96 @@
             </Values>
           </Node>
 
+         <Node name="RESOURCE_REQUEST">
+            <Values>
+              <Value name="Title"><![CDATA[液体燃料]]></Value>
+            </Values>
+          </Node>
+
+          <Node name="RESOURCE_REQUEST">
+            <Values>
+              <Value name="Title"><![CDATA[矿石]]></Value>
+            </Values>
+          </Node>
+
+          <Node name="RESOURCE_REQUEST">
+            <Values>
+              <Value name="Title"><![CDATA[电荷]]></Value>
+            </Values>
+          </Node>
+
+          <Node name="RESOURCE_REQUEST">
+            <Values>
+              <Value name="Title"><![CDATA[单元推进剂]]></Value>
+            </Values>
+          </Node>
+
+          <Node name="RESOURCE_REQUEST">
+            <Values>
+              <Value name="Title"><![CDATA[氙气]]></Value>
+            </Values>
+          </Node>
+
         </Nodes>
       </Node>
 
       <Node name="Survey">
         <Nodes>
 
-          <Node name="SURVEY_DEFINITION">
-            <Values>
-              <Value name="Title"><![CDATA[执行@视觉调查]]></Value>
-              <Value name="Briefing"><![CDATA[我们对@地点不是很了解,前往那里,看看你能看到什么.]]></Value>
-              <Value name="Debriefing"><![CDATA[这些结果是太棒了!我们知道这么多关于@!我们转发的资金了.]]></Value>
-            </Values>
+         <Node name="SURVEY_DEFINITION">
+          <Values>
+              <Value name="Title"><![CDATA[进行@视觉调查]]></Value>
+              <Value name="Briefing"><![CDATA[我们对@某些地方不是很了解,前往那里看看,纪录下你能看到的.]]></Value>
+              <Value name="Debriefing"><![CDATA[这些结果是太棒了!我们对@有了更进一步的认识!已经把钱打到你的账上了.]]></Value>
+          </Values>
+               <Nodes>
+                      <Node name="PARAM">
+                        <Values>
+                          <Value name="Description"><![CDATA[舱外报告]]></Value>
+                        </Values>
+                      </Node>
+                      <Node name="PARAM">
+                        <Values>
+                          <Value name="Description"><![CDATA[舱内报告]]></Value>
+                        </Values>
+                      </Node>
+                      <Node name="PARAM">
+                        <Values>
+                           <Value name="Description"><![CDATA[采集地面样本]]></Value>
+                        </Values>
+                      </Node>
+              </Nodes>    
           </Node>
 
           <Node name="SURVEY_DEFINITION">
             <Values>
               <Value name="Title"><![CDATA[到达@进行地震勘测]]></Value>
-              <Value name="Briefing"><![CDATA[我们想要确认关于什么在@里面怎么回事的相关理论,到达那里并采取一些加速度计读数.]]></Value>
-              <Value name="Debriefing"><![CDATA[这些关于@的地震读数都是我们需要的.谢谢.]]></Value>
+              <Value name="Briefing"><![CDATA[我们想要证明一些关于@内部情况的相关理论,到达那里并采集一些地震数据.]]></Value>
+              <Value name="Debriefing"><![CDATA[这些关于@的地震数据都是我们需要的.谢谢.]]></Value>
             </Values>
-          </Node>
+                   <Nodes>
+                      <Node name="PARAM">
+                        <Values>
+                            <Value name="Description"><![CDATA[采集地震读数]]></Value>
+                        </Values>
+                      </Node>
+                   </Nodes>            
+           </Node>
 
            <Node name="SURVEY_DEFINITION">
             <Values>
-              <Value name="Title"><![CDATA[执行@温度扫描.]]></Value>
+              <Value name="Title"><![CDATA[进行@温度测量.]]></Value>
               <Value name="Briefing"><![CDATA[我们希望看到在@一个特定的区域有个怎样的温度波动.获得测量结果需要花一些时间的.]]></Value>
               <Value name="Debriefing"><![CDATA[@它看起来比我们预期的温暖,但正是我们所需要的.]]></Value>
             </Values>
-          </Node>
+                   <Nodes>
+                      <Node name="PARAM">
+                        <Values>       
+                           <Value name="Description"><![CDATA[测量温度]]></Value>
+                        </Values>
+                      </Node>
+                   </Nodes>            
+           </Node>
 
            <Node name="SURVEY_DEFINITION">
             <Values>
@@ -129,15 +190,30 @@
               <Value name="Briefing"><![CDATA[我们很好奇@的大气成分.到达那里并采集一些的数据.]]></Value>
               <Value name="Debriefing"><![CDATA[如果这些@大气读数准确,就完成了我们的技术应当令人钦佩.]]></Value>
             </Values>
-          </Node>
+                   <Nodes>
+                      <Node name="PARAM">
+                        <Values>            
+                            <Value name="Description"><![CDATA[采集大气读数]]></Value>
+                        </Values>
+                      </Node>
+                   </Nodes>            
+           </Node>
 
            <Node name="SURVEY_DEFINITION">
             <Values>
-              <Value name="Title"><![CDATA[执行@重力扫描.]]></Value>
-              <Value name="Briefing"><![CDATA[我们想要一些在@特定位置的重力测量值数据.]]></Value>
+              <Value name="Title"><![CDATA[进行@引力扫描.]]></Value>
+              <Value name="Briefing"><![CDATA[我们想要一些在@特定位置的引力测量值数据.]]></Value>
               <Value name="Debriefing"><![CDATA[您帮助采集的这些重力读数是必不可少的.]]></Value>
             </Values>
-          </Node>
+                   <Nodes>
+                      <Node name="PARAM">
+                        <Values>              
+                          <Value name="Description"><![CDATA[记录引力]]></Value>
+                        </Values>
+                      </Node>
+                   </Nodes>            
+           </Node>
+             
 
         </Nodes>
       </Node>

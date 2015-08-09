@@ -6137,7 +6137,7 @@ Spd: ]]></string>
 <string id="231733"><![CDATA[Extract ]]></string>
 <string id="231750"><![CDATA[然后传递至]]></string>
 <string id="231789"><![CDATA[#,###]]></string>
-<string id="231800"><![CDATA[原件属于]]></string>
+<string id="231800"><![CDATA[单位的]]></string>
 <string id="231821"><![CDATA[isru]]></string>
 <string id="231830"><![CDATA[我们检测到一些 ]]></string>
 <string id="231871"><![CDATA[. Extract]]></string>
@@ -6474,7 +6474,7 @@ Spd: ]]></string>
 <string id="254968"><![CDATA[notifyLevel]]></string>
 <string id="254991"><![CDATA[ResourceExtractionParameter]]></string>
 <string id="255046"><![CDATA[%的 ]]></string>
-<string id="255057"><![CDATA[Have ]]></string>
+<string id="255057"><![CDATA[拥有 ]]></string>
 <string id="255068"><![CDATA[在你的]]></string>
 <string id="255087"><![CDATA[goalResource]]></string>
 <string id="255112"><![CDATA[ResourcePossessionParameter]]></string>
@@ -6542,7 +6542,7 @@ Spd: ]]></string>
 <string id="257135"><![CDATA[ waypoint - the survey definition is misconfigured.]]></string>
 <string id="257238"><![CDATA[spaceflight]]></string>
 <string id="257261"><![CDATA[在表面位于]]></string>
-<string id="257296"><![CDATA[里面]]></string>
+<string id="257296"><![CDATA[在]]></string>
 <string id="257303"><![CDATA[下方]]></string>
 <string id="257318"><![CDATA[米的距离]]></string>
 <string id="257343"><![CDATA[上方]]></string>
