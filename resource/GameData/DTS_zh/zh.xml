@@ -3721,10 +3721,10 @@ FlightGlobals.mainBody: ]]></string>
 <string id="119116"><![CDATA[[Orbit Targeter]: Dropping target because it is the current main body]]></string>
 <string id="119256"><![CDATA[[Orbit Targeter]: Dropping target because it is a parent of the current main body]]></string>
 <string id="119420"><![CDATA[[Orbit Targeter]: Dropping target because it is a landed or splashed vessel]]></string>
-<string id="119572"><![CDATA[指向升交点]]></string>
-<string id="119615"><![CDATA[指向降交点]]></string>
-<string id="119660"><![CDATA[指向交会点 1]]></string>
-<string id="119707"><![CDATA[指向交会点 2]]></string>
+<string id="119572" noT="1"><![CDATA[Vector Ascending Node]]></string>
+<string id="119615" noT="1"><![CDATA[Vector Descending Node]]></string>
+<string id="119660" noT="1"><![CDATA[Vector Intersect 1 Node]]></string>
+<string id="119707" noT="1"><![CDATA[Vector Intersect 2 Node]]></string>
 <string id="119754"><![CDATA[交会点 1
 相隔距离 : ]]></string>
 <string id="119803"><![CDATA[km
