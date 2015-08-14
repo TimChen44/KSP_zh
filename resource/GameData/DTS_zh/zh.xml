@@ -3721,10 +3721,10 @@ FlightGlobals.mainBody: ]]></string>
 <string id="119116"><![CDATA[[Orbit Targeter]: Dropping target because it is the current main body]]></string>
 <string id="119256"><![CDATA[[Orbit Targeter]: Dropping target because it is a parent of the current main body]]></string>
 <string id="119420"><![CDATA[[Orbit Targeter]: Dropping target because it is a landed or splashed vessel]]></string>
-<string id="119572"><![CDATA[指向升交点]]></string>
-<string id="119615"><![CDATA[指向降交点]]></string>
-<string id="119660"><![CDATA[指向交会点 1]]></string>
-<string id="119707"><![CDATA[指向交会点 2]]></string>
+<string id="119572" noT="1"><![CDATA[Vector Ascending Node]]></string>
+<string id="119615" noT="1"><![CDATA[Vector Descending Node]]></string>
+<string id="119660" noT="1"><![CDATA[Vector Intersect 1 Node]]></string>
+<string id="119707" noT="1"><![CDATA[Vector Intersect 2 Node]]></string>
 <string id="119754"><![CDATA[交会点 1
 相隔距离 : ]]></string>
 <string id="119803"><![CDATA[km
@@ -4142,7 +4142,7 @@ Looking for ]]></string>
 <string id="139526"><![CDATA[dockUId]]></string>
 <string id="139541"><![CDATA[dockNodeIdx]]></string>
 <string id="139564"><![CDATA[DOCKEDVESSEL]]></string>
-<string id="139589"><![CDATA[准备好了]]></string>
+<string id="139589" noT="1"><![CDATA[Ready]]></string>
 <string id="139600" noT="1"><![CDATA[Undock]]></string>
 <string id="139613"><![CDATA[UndockSameVessel]]></string>
 <string id="139646"><![CDATA[EnableXFeed]]></string>
@@ -7562,11 +7562,11 @@ Note that this page is added with AddState instead of AddPage, because we don't 
 <string id="311141"><![CDATA[如下图所示：]]></string>
 <string id="311212"><![CDATA[在降交点创建变轨节点,改变常态向量匹配倾角.将鼠标悬停在降交点上查看变轨后的轨道面夹角尝试使其为0,准备好了就点火吧. 
 ]]></string>
-<string id="311972"><![CDATA[干得漂亮！现在和目标轨道共面了.下一步就像去其他天体一样 生成转移轨道调整顺行/逆行向量直至交会,控制交会点距离小于5km.]]></string>
+<string id="311972"><![CDATA[干得漂亮! 现在飞船轨道与目标轨道共面了. 下一步生成一个转移轨道就像去其他天体一样, 调整顺行/逆行向量直至轨道与目标轨道交会. 控制飞船与目标的交会点距离小于5km.]]></string>
 <string id="312946"><![CDATA[Vector Vector Intersect 1 Node]]></string>
-<string id="313007"><![CDATA[好了,注意精确执行轨道机动.建议开满节流阀直至剩下10m/s然后只开一点点节流阀慢慢推.]]></string>
-<string id="313755"><![CDATA[现在轨道和目标交会了,可以用RCS继续微调.不过无论交会点多近,接近目标之后都需要“刹车”以保持相对静止.然而宇宙飞船上面可没有刹车踏板,需要自行减速.据目标60km时点击导航球上方速度指示器切换到目标模式,背对目标时节流阀全开直到相对速度减到50m/s以下.]]></string>
-<string id="315213"><![CDATA[好现在飞船缓缓靠近目标,不过还是需要停下以免飘走.全程注意精度！首先退出星图视角,距离目标10km左右时再次将飞船指向目标反向,按[]]></string>
+<string id="313007"><![CDATA[这看起来不错, 执行该动作要尽可能准确. 你很可能会得不到和预想完全一样的动作节点, 这就是为什么精度是至关重要的原因, 现在尝试加速让速增量dV (导航球右边弯弯的那个进度条) 刚好到0m/s. 我建议你先全速状态直至剩下10m/s, 然后减少节流阀并一点点慢慢推, 这样你就不会冲过头了.]]></string>
+<string id="313755"><![CDATA[现在轨道和目标交会了,可以用RCS继续微调.不过无论交会点多近, 接近目标之后都需要“刹车”以保持相对静止. 然而宇宙飞船上面可没有刹车踏板, 需要自行减速. 距离目标60km时点击导航球上方速度指示器切换到Target(目标模式), 背对目标, 全开节流阀直到相对速度减到50m/s以下.]]></string>
+<string id="315213"><![CDATA[好, 现在飞船缓缓靠近目标, 不过还是需要停下以免飘走. 全程注意精度! 首先退出星图视角, 距离目标10km左右时再次将飞船指向目标反向,按[]]></string>
 <string id="315859"><![CDATA[] 打开RCS喷口, 按住 []]></string>
 <string id="315982"><![CDATA[] 减速 直到速度为0.
 
@@ -7577,7 +7577,7 @@ Note that this page is added with AddState instead of AddPage, because we don't 
 <string id="317291"><![CDATA[尝试接近到目标50米以内]]></string>
 <string id="317437"><![CDATA[马上停止!! 马上停止!!
 
- 抱歉我并不是要吓唬你,现在该部署对接口了右键对接口打开护罩.我们现在需要微调一下,之前我们的目标是整个目标飞行器.可是对接在对接口之间进行所以需要把目标换成目标飞行器的对接口,同时右键自己的对接口从当前飞船的对接口控制飞船.
+ 抱歉我并不是要吓唬你,现在该部署对接口了右键对接口打开护罩.我们现在需要微调一下,之前我们的目标是整个目标飞行器.可现在是接口之间进行对接, 所以需要把目标换成目标飞行器的对接口,同时右键自己的对接口选择"从这里控制"用当前飞船的对接口控制飞船 ( 吐槽--如不选对接口控制也能对接上 ).
 
 完成上述操作之后,继续缓慢接近直到两个对接口接触.]]></string>
 <string id="318691"><![CDATA[要两个对接口接触,先得对其两个对接口这意味着两个对接口的顺行向量重合.幸运的是有很多工具帮助玩家完成这一任务
@@ -7587,7 +7587,7 @@ Note that this page is added with AddState instead of AddPage, because we don't 
 
 - 除了分段模式, 你的HUD还具有一个对接模式, 按下在屏幕的左下角的阶段对接按钮. 这样做是从旋转控制改变为平移控制, 让您的 W, A, S, D键控制平移和左Shift键和左侧Control控制向上向下,有点像控制Kerbal EVA。
 
-- 使用对接模式并不是必需的. 无论哪种模式最适合你. 但请记住, 你可以使用 I, K, J, L, H和N在正常和临时模式之间转换, 你可以任何时间在暂停菜单中检查键绑定的.  ]]></string>
+- 使用对接模式并不是必需的. 无论哪种模式最适合你. 但请记住, 分段模式中你也可以使用 I, K, J, L, H和N像在对接模式中那样控制飞船, 你可以任何时间在暂停菜单中检查键绑定.  ]]></string>
 <string id="320623"><![CDATA[无论用什么方法玩家必须对其两个对接口并使其尽可能靠近,若两个对接口距离一米以内对接口就会由磁力吸到一起.
 
 这一步留给玩家自行练习,担心搞砸的话可以使用快速存档功能,[]]></string>
@@ -7596,9 +7596,9 @@ Note that this page is added with AddState instead of AddPage, because we don't 
 <string id="321474"><![CDATA[Stranded]]></string>
 <string id="321491"><![CDATA[干得好,你完成了航天器操作最难的部分之一.
 
-有三种方法完成救援任务,一、给被困飞船输油,把它扔那自生自灭.不推荐这样做,如果像这样按  []]></string>
-<string id="322109"><![CDATA[] + 右键单击要输油和受油的燃料罐.
-二、把要救的乘员转移到自己的飞船上右键对接口分离飞船返回坎星.点击被困飞船载人舱舱门选择乘员转移选项.
+有三种方法完成救援任务,一、把它扔那自生自灭这样做我们是不赞成的. 如果给被困飞船输油, 像这样按住  []]></string>
+<string id="322109"><![CDATA[] + 单击右键依次单击选择要输油和受油的燃料罐.
+二、点击被困飞船载人舱舱门选择乘员转移选项. 把要救的乘员转移到自己的飞船上在右键对接口分离飞船并返回坎星.
 三、在对接状态下返回.
 现在该做出你的选择了,我们地面见. ]]></string>
 <string id="322945"><![CDATA[Interplanetary Travel]]></string>
