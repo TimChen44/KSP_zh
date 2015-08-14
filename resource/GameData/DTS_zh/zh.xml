@@ -4142,7 +4142,7 @@ Looking for ]]></string>
 <string id="139526"><![CDATA[dockUId]]></string>
 <string id="139541"><![CDATA[dockNodeIdx]]></string>
 <string id="139564"><![CDATA[DOCKEDVESSEL]]></string>
-<string id="139589"><![CDATA[准备好了]]></string>
+<string id="139589" noT="1"><![CDATA[Ready]]></string>
 <string id="139600" noT="1"><![CDATA[Undock]]></string>
 <string id="139613"><![CDATA[UndockSameVessel]]></string>
 <string id="139646"><![CDATA[EnableXFeed]]></string>
@@ -7577,7 +7577,7 @@ Note that this page is added with AddState instead of AddPage, because we don't 
 <string id="317291"><![CDATA[尝试接近到目标50米以内]]></string>
 <string id="317437"><![CDATA[马上停止!! 马上停止!!
 
- 抱歉我并不是要吓唬你,现在该部署对接口了右键对接口打开护罩.我们现在需要微调一下,之前我们的目标是整个目标飞行器.可是对接在对接口之间进行所以需要把目标换成目标飞行器的对接口,同时右键自己的对接口选择"从这里控制"用当前飞船的对接口控制飞船 ( 吐槽--如不选对接口控制我不保证能对接上 ).
+ 抱歉我并不是要吓唬你,现在该部署对接口了右键对接口打开护罩.我们现在需要微调一下,之前我们的目标是整个目标飞行器.可是现在是接口之间进行所以需要把目标换成目标飞行器的对接口,同时右键自己的对接口选择当前飞船的对接口控制飞船( 不选也行 ) .
 
 完成上述操作之后,继续缓慢接近直到两个对接口接触.]]></string>
 <string id="318691"><![CDATA[要两个对接口接触,先得对其两个对接口这意味着两个对接口的顺行向量重合.幸运的是有很多工具帮助玩家完成这一任务
@@ -7587,7 +7587,7 @@ Note that this page is added with AddState instead of AddPage, because we don't 
 
 - 除了分段模式, 你的HUD还具有一个对接模式, 按下在屏幕的左下角的阶段对接按钮. 这样做是从旋转控制改变为平移控制, 让您的 W, A, S, D键控制平移和左Shift键和左侧Control控制向上向下,有点像控制Kerbal EVA。
 
-- 使用对接模式并不是必需的. 无论哪种模式最适合你. 但请记住, 你可以使用 I, K, J, L, H和N在正常和临时模式之间转换, 你可以任何时间在暂停菜单中检查键绑定的.  ]]></string>
+- 使用对接模式并不是必需的. 无论哪种模式最适合你. 但请记住, 分段模式中你也可以使用 I, K, J, L, H和N像在对接模式中那样控制飞船, 你可以在暂停菜单中检查键绑定.  ]]></string>
 <string id="320623"><![CDATA[无论用什么方法玩家必须对其两个对接口并使其尽可能靠近,若两个对接口距离一米以内对接口就会由磁力吸到一起.
 
 这一步留给玩家自行练习,担心搞砸的话可以使用快速存档功能,[]]></string>
