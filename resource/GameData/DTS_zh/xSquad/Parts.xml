@@ -3787,11 +3787,11 @@
 
     <Values>
 
-      <Value name="title"><![CDATA[J-404 "Panther" Afterburning Turbofan]]></Value>
+      <Value name="title"><![CDATA[J-404 "黑豹" 加力式涡扇发动机]]></Value>
 
-      <Value name="manufacturer"><![CDATA[C7 Aerospace Division]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
 
-      <Value name="description"><![CDATA[A high performance jet engine with a variable geometry thrust vectoring nozzle and an afterburner for extra thrust.]]></Value>
+      <Value name="description"><![CDATA[高性能喷气发动机带有可变几何推力矢量喷管,并提供额外的推力加力燃烧室.]]></Value>
 
     </Values>
   </Config>
@@ -3800,11 +3800,11 @@
 
     <Values>
 
-      <Value name="title"><![CDATA[J-90 "Goliath" Turbofan Engine]]></Value>
+      <Value name="title"><![CDATA[J-90 "歌利亚" 涡扇发动机]]></Value>
 
-      <Value name="manufacturer"><![CDATA[C7 Aerospace Division]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
 
-      <Value name="description"><![CDATA[The largest and highest thrust jet engine ever built. This engine works best at low cruising speeds and altitudes.]]></Value>
+      <Value name="description"><![CDATA[有史以来建造的最大和最高推力喷气发动机.这台发动机最适合低巡航速度和高度.]]></Value>
 
     </Values>
   </Config>
@@ -3813,11 +3813,11 @@
 
     <Values>
 
-      <Value name="title"><![CDATA[J-X4 "Whiplash" Turbo Ramjet Engine]]></Value>
+      <Value name="title"><![CDATA[J-X4 "鞭打" 涡轮冲压喷气发动机]]></Value>
 
-      <Value name="manufacturer"><![CDATA[C7 Aerospace Division]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
 
-      <Value name="description"><![CDATA[A highly advanced turbine engine using space-grade materials for very high performance. This new model features the latest in thrust vectoring and compression technology and is designed to operate best at higher altitudes and speeds. The advanced turbo ramjet design bleeds air around the compressor at high speed allowing a far maximum speed than regular jet engines, so engineers from C7 Aerospace assured us all those leaks are intentional.]]></Value>
+      <Value name="description"><![CDATA[采用宇航级材料非常先进性能非常高的涡轮发动机.这种新型号的特点在于采用了最新的推力矢量和压缩技术,旨在高海拔高速度能更好的运行.先进的漏气压缩机设计使得涡轮冲压发动机的最高速度远远高于普通喷气发动机.所以C7航天工程师向我们保证,不必担心这些泄漏.]]></Value>
 
     </Values>
   </Config>
@@ -3826,7 +3826,7 @@
 
     <Values>
 
-      <Value name="title"><![CDATA[S3 KS-25 "Vector" Liquid Fuel Engine]]></Value>
+      <Value name="title"><![CDATA[S3 KS-25 "向量" 液体燃料引擎]]></Value>
 
       <Value name="manufacturer"><![CDATA[Kerbodyne]]></Value>
 
@@ -3839,9 +3839,9 @@
 
     <Values>
 
-      <Value name="title"><![CDATA[J-20 "Juno" Basic Jet Engine]]></Value>
+      <Value name="title"><![CDATA[J-20 "朱诺" 基本的喷气发动机]]></Value>
 
-      <Value name="manufacturer"><![CDATA[C7 Aerospace Division]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
 
       <Value name="description"><![CDATA[A small turbojet. Not very efficient, anemic thrust, but hey--it's cheap! And it's so cute...look at the little thing!]]></Value>
 
@@ -3852,9 +3852,9 @@
 
     <Values>
 
-      <Value name="title"><![CDATA[Mk0 Liquid Fuel Fuselage]]></Value>
+      <Value name="title"><![CDATA[Mk0 液体燃料机身]]></Value>
 
-      <Value name="manufacturer"><![CDATA[C7 Aerospace Division]]></Value>
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
 
       <Value name="description"><![CDATA[A small container for jet fuel.]]></Value>
 
