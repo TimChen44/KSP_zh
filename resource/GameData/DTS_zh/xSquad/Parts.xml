@@ -2288,7 +2288,7 @@
 
       <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
 
-      <Value name="description"><![CDATA[一种利用航天级材料制造的高性能涡轮式喷气引擎.因利用了最新的矢量推进及压气技术,这款引擎被设计为在高空高速下拥有更好的操作性,C7航空部门的工程师们也向我们保证一旦达到高空它就一定会因失压而停机.]]></Value>
+      <Value name="description"><![CDATA[一种利用航天级材料制造的高性能涡轮式喷气引擎.因利用了最新的矢量推进及压气技术,这款引擎在高空高速下拥有更好的性能,C7航空部门的工程师们也向我们保证一旦达到高空它就一定会因失压而停机.]]></Value>
 
     </Values>
 
@@ -3817,7 +3817,7 @@
 
       <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
 
-      <Value name="description"><![CDATA[有史以来建造的最大和最高推力喷气发动机.这台发动机最适合低巡航速度和高度.]]></Value>
+      <Value name="description"><![CDATA[有史以来最大和推力最高的喷气发动机.这台发动机适合低空低速巡航.]]></Value>
 
     </Values>
   </Config>
@@ -3830,7 +3830,7 @@
 
       <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
 
-      <Value name="description"><![CDATA[采用宇航级材料非常先进性能非常高的涡轮发动机.这种新型号的特点在于采用了最新的推力矢量和压缩技术,旨在高海拔高速度能更好的运行.先进的漏气压缩机设计使得涡轮冲压发动机的最高速度远远高于普通喷气发动机.所以C7航天工程师向我们保证,不必担心这些泄漏.]]></Value>
+      <Value name="description"><![CDATA[采用宇航级材料的高性能涡轮发动机。本型号采用最先进的推力矢量和压缩技术以提高高空高速下的性能。先进的漏气压缩机设计使得涡轮冲压发动机的最高速度远远高于普通喷气发动机.所以C7航天工程师向我们保证,不必担心这些泄漏.]]></Value>
 
     </Values>
   </Config>
@@ -3839,11 +3839,11 @@
 
     <Values>
 
-      <Value name="title"><![CDATA[S3 KS-25 "向量" 液体燃料引擎]]></Value>
+      <Value name="title"><![CDATA[S3 KS-25 "矢量" 液体燃料引擎]]></Value>
 
       <Value name="manufacturer"><![CDATA[Kerbodyne]]></Value>
 
-      <Value name="description"><![CDATA[Kerbodyne主打发动机,KS-25 有着过人之处的高推力重量比和优异的海平面效率的第一级发动机.  Kerbodyne工程师让发动机通过分级燃烧循环并在极高的压力室中运转来达到这一点. 特殊的新型合金不得不被发明出来抑制发动机变成炸弹的趋势.]]></Value>
+      <Value name="description"><![CDATA[Kerbodyne公司主打的一级发动机型号，KS-25的长处在于其高推重比和优异的海平面比冲。 科博达因公司的工程师通过实现分级燃烧循环，提高引擎腔内压力达到这一点。新型合金的发明保证提高了内部压力的引擎不会爆炸。这一版本被设计具有非常耐用的部件和极高的可重用性，以及较高的矢量喷口范围，这也让它比其他第一级引擎更重更贵。]]></Value>
 
     </Values>
   </Config>
@@ -3869,7 +3869,7 @@
 
       <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
 
-      <Value name="description"><![CDATA[一个小飞机燃料的容器.]]></Value>
+      <Value name="description"><![CDATA[一个小型的飞机燃料箱.]]></Value>
 
     </Values>
   </Config>

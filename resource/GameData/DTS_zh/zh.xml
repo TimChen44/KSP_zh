@@ -4836,10 +4836,10 @@ Actuator Speed: ]]></string>
 <string id="180178"><![CDATA[移除数据]]></string>
 <string id="180201"><![CDATA[[ScienceExperiment]: 这个容器模块说明就在几秒钟前变得空空如也.这就是为什么没有得到任何有趣的东西.]]></string>
 <string id="180459"><![CDATA[]:显然刚刚发生了很糟糕的事情.</color>]]></string>
-<string id="180582"><![CDATA[]:实验媒介被删除,模块重新可操作.</color>]]></string>
+<string id="180582"><![CDATA[]:实验媒介被删除,组件可以重新使用了.</color>]]></string>
 <string id="180693"><![CDATA[<b><color=#99ff00ff>[]]></string>
-<string id="180736"><![CDATA[]:媒介恢复,模块可重新操作.</color></b>]]></string>
-<string id="180855"><![CDATA[<b><color=orange>只有科学家才能重新装满可操作模块.</color></b>]]></string>
+<string id="180736"><![CDATA[]:媒介恢复,组件可以重新使用了.</color></b>]]></string>
+<string id="180855"><![CDATA[<b><color=orange>只有科学家才能重新装满无法使用的模块.</color></b>]]></string>
 <string id="181007"><![CDATA[[ModuleScienceExperiment]:这个清理事件有且只有EVA是可用的！]]></string>
 <string id="181167"><![CDATA[</color>
 ]]></string>
