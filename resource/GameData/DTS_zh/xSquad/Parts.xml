@@ -3830,7 +3830,7 @@
 
       <Value name="manufacturer"><![CDATA[Kerbodyne]]></Value>
 
-      <Value name="description"><![CDATA[Kerbodyne's flagship engine, the KS-25 excels as a first stage engine through its high thrust-to-weight ratio and exceptional sea level efficiency. Kerbodyne engineers achieved this by running the engine in a staged combustion cycle and at extremely high chamber pressures. Special new alloys had to be invented to suppress the engine's tendency to become a bomb. The single version is designed with very durable components and high reusability, as well as higher gimbal range, but because of that is also heavier than its expendable counterpart used in first stage clusters.]]></Value>
+      <Value name="description"><![CDATA[Kerbodyne主打发动机,KS-25 有着过人之处的高推力重量比和优异的海平面效率的第一级发动机.  Kerbodyne工程师让发动机通过分级燃烧循环并在极高的压力室中运转来达到这一点. 特殊的新型合金不得不被发明出来抑制发动机变成炸弹的趋势.]]></Value>
 
     </Values>
   </Config>
@@ -3839,11 +3839,11 @@
 
     <Values>
 
-      <Value name="title"><![CDATA[J-20 "朱诺" 基本的喷气发动机]]></Value>
+      <Value name="title"><![CDATA[J-20 "侏儒" 基本型喷气发动机]]></Value>
 
       <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
 
-      <Value name="description"><![CDATA[A small turbojet. Not very efficient, anemic thrust, but hey--it's cheap! And it's so cute...look at the little thing!]]></Value>
+      <Value name="description"><![CDATA[小型涡喷发动机.效率不是很高, 推力平平，但是便宜嘿~! 而且它是如此可爱... ... 看看这小东西!]]></Value>
 
     </Values>
   </Config>
@@ -3856,7 +3856,7 @@
 
       <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
 
-      <Value name="description"><![CDATA[A small container for jet fuel.]]></Value>
+      <Value name="description"><![CDATA[一个小飞机燃料的容器.]]></Value>
 
     </Values>
   </Config>
