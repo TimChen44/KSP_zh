@@ -3783,4 +3783,264 @@
     </Values>
   </Config>
 
+ <Config name="miniIntake">
+
+    <Values>
+
+      <Value name="title"><![CDATA[小型的圆状进气口]]></Value>
+
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+
+      <Value name="description"><![CDATA[吸气式引擎必须具备的, 发动机要运行首先要有空气.... 将外界空气通过进气口吸进来.]]></Value>
+
+    </Values>
+  </Config>
+
+  <Config name="turboJet">
+
+    <Values>
+
+      <Value name="title"><![CDATA[J-404 "黑豹" 加力式涡扇发动机]]></Value>
+
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+
+      <Value name="description"><![CDATA[高性能喷气发动机带有可变几何推力矢量喷管,并提供额外的推力加力燃烧室.]]></Value>
+
+    </Values>
+  </Config>
+
+<Config name="turboFanSize2">
+
+    <Values>
+
+      <Value name="title"><![CDATA[J-90 "歌利亚" 涡扇发动机]]></Value>
+
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+
+      <Value name="description"><![CDATA[有史以来建造的最大和最高推力喷气发动机.这台发动机最适合低巡航速度和高度.]]></Value>
+
+    </Values>
+  </Config>
+
+<Config name="turboFanEngine">
+
+    <Values>
+
+      <Value name="title"><![CDATA[J-X4 "鞭打" 涡轮冲压喷气发动机]]></Value>
+
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+
+      <Value name="description"><![CDATA[采用宇航级材料非常先进性能非常高的涡轮发动机.这种新型号的特点在于采用了最新的推力矢量和压缩技术,旨在高海拔高速度能更好的运行.先进的漏气压缩机设计使得涡轮冲压发动机的最高速度远远高于普通喷气发动机.所以C7航天工程师向我们保证,不必担心这些泄漏.]]></Value>
+
+    </Values>
+  </Config>
+
+<Config name="SSME">
+
+    <Values>
+
+      <Value name="title"><![CDATA[S3 KS-25 "向量" 液体燃料引擎]]></Value>
+
+      <Value name="manufacturer"><![CDATA[Kerbodyne]]></Value>
+
+      <Value name="description"><![CDATA[Kerbodyne主打发动机,KS-25 有着过人之处的高推力重量比和优异的海平面效率的第一级发动机.  Kerbodyne工程师让发动机通过分级燃烧循环并在极高的压力室中运转来达到这一点. 特殊的新型合金不得不被发明出来抑制发动机变成炸弹的趋势.]]></Value>
+
+    </Values>
+  </Config>
+  
+  <Config name="miniJetEngine">
+
+    <Values>
+
+      <Value name="title"><![CDATA[J-20 "侏儒" 基本型喷气发动机]]></Value>
+
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+
+      <Value name="description"><![CDATA[小型涡喷发动机.效率不是很高, 推力平平，但是便宜嘿~! 而且它是如此可爱... ... 看看这小东西!]]></Value>
+
+    </Values>
+  </Config>
+  
+  <Config name="miniFuselage">
+
+    <Values>
+
+      <Value name="title"><![CDATA[Mk0 液体燃料机身]]></Value>
+
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+
+      <Value name="description"><![CDATA[一个小飞机燃料的容器.]]></Value>
+
+    </Values>
+  </Config>
+
+<Config name="adapterEngines">
+
+    <Values>
+
+      <Value name="title"><![CDATA[MK3引擎支架]]></Value>
+
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+
+      <Value name="description"><![CDATA[火箭发动机安装板上的一种结构.]]></Value>
+
+    </Values>
+  </Config>
+
+<Config name="Size3LargeTank">
+
+    <Values>
+
+      <Value name="title"><![CDATA[Kerbodyne S3-14400储罐]]></Value>
+
+      <Value name="manufacturer"><![CDATA[Kerbodyne]]></Value>
+
+      <Value name="description"><![CDATA[当没有人在相信(甚至要求)比本已巨大的S3-7200更大的油箱, Kerbodyne加紧设计无畏级S3-14400模型搭载燃料比以前大两倍, 这个油箱可能只是收拾推进剂足以证明其比例巨大的成本.]]></Value>
+
+    </Values>
+  </Config>
+
+<Config name="Size3MediumTank">
+
+    <Values>
+
+      <Value name="title"><![CDATA[Kerbodyne S3-7200储罐]]></Value>
+
+      <Value name="manufacturer"><![CDATA[Kerbodyne]]></Value>
+
+      <Value name="description"><![CDATA[Kerbodyne标志重型燃料箱. 高级火箭发动机专用.]]></Value>
+
+    </Values>
+  </Config>
+
+<Config name="Size3SmallTank">
+
+    <Values>
+
+      <Value name="title"><![CDATA[Kerbodyne S3-3600储罐]]></Value>
+
+      <Value name="manufacturer"><![CDATA[Kerbodyne]]></Value>
+
+      <Value name="description"><![CDATA[Kerbodyne标志半容量版本油箱，不完全准确一半的成本.]]></Value>
+
+    </Values>
+  </Config>
+
+<Config name="MiniDrill">
+
+    <Values>
+
+      <Value name="title"><![CDATA["小号-O-Matic" 矿用挖掘机]]></Value>
+
+      <Value name="manufacturer"><![CDATA[Kerbodyne]]></Value>
+
+      <Value name="description"><![CDATA[流行的钻-O-Matic的缩小版，此次演练的目的是帮助提宝贵的资源，从行星和小行星的地壳。不像其较大的表弟，这个较小的模式只适用于超过2.5％的矿石的浓度。当一个熟练的工程师操作，你就能更好的效率运行。这些模块在自己理想的工作温度最佳状态，并具有自动关机过多过热的情况。散热器可以用来帮助管理过热.]]></Value>
+
+    </Values>
+  </Config>
+
+<Config name="MiniISRU">
+
+    <Values>
+
+      <Value name="title"><![CDATA[转换-O-Tron 125]]></Value>
+
+      <Value name="manufacturer"><![CDATA[Kerbodyne]]></Value>
+
+      <Value name="description"><![CDATA[Kerbodyne移动式加工厂的缩小版，该模块可以将含有微量甚至氧和氢量的原料，并将它们破解成有用的燃料产品。用一个熟练的工程师操作就能有更好的效率运行。尽管这种较小的模型是轻于它的大表妹，它是低效率的，及不适合长期操作。这些模块在自己理想的工作温度最佳状态，并具有自动关机过多过热的情况。散热器可以用来帮助管理过热.]]></Value>
+
+    </Values>
+  </Config>
+
+<Config name="RadialOreTank">
+
+    <Values>
+
+      <Value name="title"><![CDATA[径向固定储罐]]></Value>
+
+      <Value name="manufacturer"><![CDATA[Jebediah克尔曼的垃圾场及航天器零部件有限公司]]></Value>
+
+      <Value name="description"><![CDATA[用于储存原材料或备用小吃的小型径向储罐.]]></Value>
+
+    </Values>
+  </Config>
+
+<Config name="radialEngineBody">
+
+    <Values>
+
+      <Value name="title"><![CDATA[引擎预冷器]]></Value>
+
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+
+      <Value name="description"><![CDATA[先进材料让这款散热器可从连接发动机吸走热量。此外，它具有超音速飞行和静态的强大吸力优化额外的进气面积.]]></Value>
+
+    </Values>
+  </Config>
+
+<Config name="nacelleBody">
+
+    <Values>
+
+      <Value name="title"><![CDATA[发动机短舱]]></Value>
+
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+
+      <Value name="description"><![CDATA[发动机短舱是用于空气吸气发动机提供动力的自助式的解决方案。它包括一些储备的燃料，使其成为一个非常实用的选择。 C7工程师向我们保证，这些单位是相当安全的，即使有凹痕和烧痕只会给你一个更独特的外观。优化亚音速飞行;包括非常强大的吸力静态.]]></Value>
+
+    </Values>
+  </Config>
+
+<Config name="smallHardpoint">
+
+    <Values>
+
+      <Value name="title"><![CDATA[小型结构塔]]></Value>
+
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+
+      <Value name="description"><![CDATA[对于引擎的支持一种结构塔。设计以适应对机身，和船体机构。这是缩小型，多为与较小的发动机中使用。配备应急螺栓火灾或灾难性故障的情况下分开喷气发动机（不在保修范围内）.]]></Value>
+
+    </Values>
+  </Config>
+
+<Config name="structuralPylon">
+
+    <Values>
+
+      <Value name="title"><![CDATA[结构塔]]></Value>
+
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+
+      <Value name="description"><![CDATA[对于引擎的支持一种结构塔。设计以适应对机身，和船体机构。配备应急螺栓火灾或灾难性故障的情况下分开喷气发动机。 （不在保修范围内）.]]></Value>
+
+    </Values>
+  </Config>
+
+<Config name="radPanelEdge">
+
+    <Values>
+
+      <Value name="title"><![CDATA[散热器面板（边）]]></Value>
+
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+
+      <Value name="description"><![CDATA[一个径向附着散热器面板来帮助散热.]]></Value>
+
+    </Values>
+  </Config>
+
+<Config name="mk3CargoRamp">
+
+    <Values>
+
+      <Value name="title"><![CDATA[Mk3舷梯]]></Value>
+
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+
+      <Value name="description"><![CDATA[对于地面上的货物配送，或者在海面上，还是在半空，或在真空完备的部署系统。不管你想要的，真的.]]></Value>
+
+    </Values>
+  </Config>
+
  </Configs>
