@@ -3887,54 +3887,15 @@
     </Values>
   </Config>
 
-<Config name="Size3LargeTank">
-
-    <Values>
-
-      <Value name="title"><![CDATA[Kerbodyne S3-14400储罐]]></Value>
-
-      <Value name="manufacturer"><![CDATA[Kerbodyne]]></Value>
-
-      <Value name="description"><![CDATA[当没有人在相信(甚至要求)比本已巨大的S3-7200更大的油箱, Kerbodyne加紧设计无畏级S3-14400模型搭载燃料比以前大两倍, 这个油箱可能只是收拾推进剂足以证明其比例巨大的成本.]]></Value>
-
-    </Values>
-  </Config>
-
-<Config name="Size3MediumTank">
-
-    <Values>
-
-      <Value name="title"><![CDATA[Kerbodyne S3-7200储罐]]></Value>
-
-      <Value name="manufacturer"><![CDATA[Kerbodyne]]></Value>
-
-      <Value name="description"><![CDATA[Kerbodyne标志重型燃料箱. 高级火箭发动机专用.]]></Value>
-
-    </Values>
-  </Config>
-
-<Config name="Size3SmallTank">
-
-    <Values>
-
-      <Value name="title"><![CDATA[Kerbodyne S3-3600储罐]]></Value>
-
-      <Value name="manufacturer"><![CDATA[Kerbodyne]]></Value>
-
-      <Value name="description"><![CDATA[Kerbodyne标志半容量版本油箱，不完全准确一半的成本.]]></Value>
-
-    </Values>
-  </Config>
-
 <Config name="MiniDrill">
 
     <Values>
 
-      <Value name="title"><![CDATA["小号-O-Matic" 矿用挖掘机]]></Value>
+      <Value name="title"><![CDATA["小地鼠"挖矿机]]></Value>
 
       <Value name="manufacturer"><![CDATA[Kerbodyne]]></Value>
 
-      <Value name="description"><![CDATA[流行的钻-O-Matic的缩小版，此次演练的目的是帮助提宝贵的资源，从行星和小行星的地壳。不像其较大的表弟，这个较小的模式只适用于超过2.5％的矿石的浓度。当一个熟练的工程师操作，你就能更好的效率运行。这些模块在自己理想的工作温度最佳状态，并具有自动关机过多过热的情况。散热器可以用来帮助管理过热.]]></Value>
+      <Value name="description"><![CDATA[流行“地鼠”挖矿机的缩小版, 帮助从行星和小行星的地壳提取宝贵的资源. 不像其较大的表弟，这个较小的模式只适用于超过2.5％的矿石的浓度。当一个熟练的工程师操作，你就能更好的效率运行。这些模块在自己理想的工作温度最佳状态，并具有自动关机过多过热的情况。散热器可以用来帮助管理过热.]]></Value>
 
     </Values>
   </Config>
@@ -3958,65 +3919,13 @@
 
       <Value name="title"><![CDATA[径向固定储罐]]></Value>
 
-      <Value name="manufacturer"><![CDATA[Jebediah克尔曼的垃圾场及航天器零部件有限公司]]></Value>
+      <Value name="manufacturer"><![CDATA[鸡巴蛋的垃圾场和飞船组件公司]]></Value>
 
       <Value name="description"><![CDATA[用于储存原材料或备用小吃的小型径向储罐.]]></Value>
 
     </Values>
   </Config>
-
-<Config name="radialEngineBody">
-
-    <Values>
-
-      <Value name="title"><![CDATA[引擎预冷器]]></Value>
-
-      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
-
-      <Value name="description"><![CDATA[先进材料让这款散热器可从连接发动机吸走热量。此外，它具有超音速飞行和静态的强大吸力优化额外的进气面积.]]></Value>
-
-    </Values>
-  </Config>
-
-<Config name="nacelleBody">
-
-    <Values>
-
-      <Value name="title"><![CDATA[发动机短舱]]></Value>
-
-      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
-
-      <Value name="description"><![CDATA[发动机短舱是用于空气吸气发动机提供动力的自助式的解决方案。它包括一些储备的燃料，使其成为一个非常实用的选择。 C7工程师向我们保证，这些单位是相当安全的，即使有凹痕和烧痕只会给你一个更独特的外观。优化亚音速飞行;包括非常强大的吸力静态.]]></Value>
-
-    </Values>
-  </Config>
-
-<Config name="smallHardpoint">
-
-    <Values>
-
-      <Value name="title"><![CDATA[小型结构塔]]></Value>
-
-      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
-
-      <Value name="description"><![CDATA[对于引擎的支持一种结构塔。设计以适应对机身，和船体机构。这是缩小型，多为与较小的发动机中使用。配备应急螺栓火灾或灾难性故障的情况下分开喷气发动机（不在保修范围内）.]]></Value>
-
-    </Values>
-  </Config>
-
-<Config name="structuralPylon">
-
-    <Values>
-
-      <Value name="title"><![CDATA[结构塔]]></Value>
-
-      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
-
-      <Value name="description"><![CDATA[对于引擎的支持一种结构塔。设计以适应对机身，和船体机构。配备应急螺栓火灾或灾难性故障的情况下分开喷气发动机。 （不在保修范围内）.]]></Value>
-
-    </Values>
-  </Config>
-
+  
 <Config name="radPanelEdge">
 
     <Values>
@@ -4034,11 +3943,11 @@
 
     <Values>
 
-      <Value name="title"><![CDATA[Mk3舷梯]]></Value>
+      <Value name="title"><![CDATA[Mk3型货仓后舷梯]]></Value>
 
       <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
 
-      <Value name="description"><![CDATA[对于地面上的货物配送，或者在海面上，还是在半空，或在真空完备的部署系统。不管你想要的，真的.]]></Value>
+      <Value name="description"><![CDATA[不管是在地面还是海面或是半空?真空?有你想要的,没有做不到的,真的.]]></Value>
 
     </Values>
   </Config>
