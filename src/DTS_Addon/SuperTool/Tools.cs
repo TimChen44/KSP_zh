@@ -328,7 +328,7 @@ namespace DTS_Addon
                 for (int i = 0; i < Components.Count; i++)
                 {
                     var compt = Components[i];
-                    GUI.Label(new Rect(0, i * 20, 260, 20), (compt.active == true ? "O" : "X") + " - " + compt.GetType().Name + ":" + compt.GetType().FullName);
+                    GUI.Label(new Rect(0, i * 20, 260, 20), (compt.gameObject.active == true ? "O" : "X") + " - " + compt.GetType().Name + ":" + compt.GetType().FullName);
                     if (GUI.Button(new Rect(260, i * 20, 30, 20), "编"))
                     {
                         Component = compt;
@@ -373,7 +373,7 @@ namespace DTS_Addon
                     {
                         var mg = Component as MeshFilter;
 
-                        var mat = mg.renderer.material;
+                        var mat = mg.GetComponent<Renderer>().material;
                         if (mat != null)
                         {
                             GUI.TextField(new Rect(135, 25, 165, 20), "mat:" + mat.name);
@@ -490,7 +490,7 @@ namespace DTS_Addon
                 for (int i = 0; i < CaptureComponents.Count; i++)
                 {
                     var compt = CaptureComponents[i];
-                    GUI.Label(new Rect(0, i * 20, 260, 20), (compt.active == true ? "O" : "X") + " - " + compt.GetType().Name + ":" + compt.GetType().FullName);
+                    GUI.Label(new Rect(0, i * 20, 260, 20), (compt.gameObject.active == true ? "O" : "X") + " - " + compt.GetType().Name + ":" + compt.GetType().FullName);
                     if (GUI.Button(new Rect(260, i * 20, 30, 20), "编"))
                     {
                         SObject = compt.gameObject;
