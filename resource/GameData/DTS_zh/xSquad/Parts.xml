@@ -3952,4 +3952,17 @@
     </Values>
   </Config>
 
+<Config name="HighGainAntenna">
+
+    <Values>
+
+      <Value name="title"><![CDATA[HG-55型通讯天线]]></Value>
+
+      <Value name="manufacturer"><![CDATA[基本粒子同步电子工业]]></Value>
+
+      <Value name="description"><![CDATA[该高增益天线允许极快的双向数据传输,最初设计用于深空探测器. 请注意,不要传输大型交响乐数据,可能导致天线长期暴露于RF辐射,因此造成的任何损失概不负责.]]></Value>
+
+    </Values>
+  </Config>
+  
  </Configs>
