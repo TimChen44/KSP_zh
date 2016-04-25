@@ -3952,4 +3952,56 @@
     </Values>
   </Config>
 
+<Config name="HighGainAntenna">
+
+    <Values>
+
+      <Value name="title"><![CDATA[HG-55型通讯天线]]></Value>
+
+      <Value name="manufacturer"><![CDATA[基本粒子同步电子工业]]></Value>
+
+      <Value name="description"><![CDATA[该高增益天线允许极快的双向数据传输,最初设计用于深空探测器. 请注意,不要传输大型交响乐数据,可能导致天线长期暴露于RF辐射,因此造成的任何损失概不负责.]]></Value>
+
+    </Values>
+  </Config>
+  
+  <Config name="HECS2_ProbeCore">
+
+    <Values>
+
+      <Value name="title"><![CDATA[HECS2探测器核心]]></Value>
+
+      <Value name="manufacturer"><![CDATA[小精灵探测器有限公司]]></Value>
+
+      <Value name="description"><![CDATA[一个更大的探测器核心，基于流行的HECS设计。借助集成的电池组，专业化的飞行控制和内置的反应轮，HECS2是更先进的合适卫星的探测器核心。]]></Value>
+
+    </Values>
+  </Config>
+
+<Config name="InflatableHeatShield">
+
+    <Values>
+
+      <Value name="title"><![CDATA[热盾 (10m)]]></Value>
+
+      <Value name="manufacturer"><![CDATA[O.M.B拆迁办]]></Value>
+
+      <Value name="description"><![CDATA[根据孩子的玩具设计的，这个隔热板使用一组用慷慨的10米热毯盖住隔热罩充气环以及空气动力学特性不受限制的充气城堡提供再入减速。]]></Value>
+
+    </Values>
+  </Config>
+
+<Config name="LgRadialSolarPanel">
+
+    <Values>
+
+      <Value name="title"><![CDATA[OX-STAT-XL 光伏电池板]]></Value>
+
+      <Value name="manufacturer"><![CDATA[小精灵探测器有限公司]]></Value>
+
+      <Value name="description"><![CDATA[OX-STAT的放大版本，该版本XL拥有比它小表弟更大的面积，同时保持一个静态的太阳能电池板对控制成本和重量有好处。]]></Value>
+
+    </Values>
+  </Config>
+
  </Configs>
