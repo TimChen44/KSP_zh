@@ -9201,15 +9201,15 @@ Give the new ship a name and save it -- that's always a good practice. Then I re
 <string id="483101"><![CDATA[GameData/Squad/Tutorials]]></string>
 <string id="483150"><![CDATA[GameData/Squad/Tutorials/Hopper.craft]]></string>
 <string id="483225"><![CDATA[[Tutorial]: Intermediate Construction: Hopper.craft does not exist!]]></string>
-<string id="483361"><![CDATA[Intermediate Construction]]></string>
-<string id="483412"><![CDATA[Hello again. Glad you could come back.
+<string id="483361"><![CDATA[中间建筑]]></string>
+<string id="483412"><![CDATA[再一次问好。很高兴你还能回来。
 
-To get started, go ahead and enter the VAB and I'll give you the overview of what we're building today.]]></string>
-<string id="483700"><![CDATA[Ah, here we are again. Now, to business.
+如要开始，请进入VAB 我给各位简单的介绍一下该建筑。]]></string>
+<string id="483700"><![CDATA[咳, 我们又回到这里了。 
 
-If you remember, in our last construction tutorial we covered how to build a simple hopper and some of the basics of the construction area.
+我想你不会忘记，前一个建造教程中，我们简单的介绍了如何让一个物体飞起来那种基础知识。
 
-In this tutorial we'll expand your knowledge of some of the more useful features in the VAB, and we'll build a more complex craft that will be able to get us out of the atmosphere.]]></string>
+但在本教程中，我们将对VAB的一些更实用的功能进行讲解来扩充你的知识，我们将建造一个更为复杂能把我们带出大气层的工艺品。]]></string>
 <string id="484428"><![CDATA[newLoad]]></string>
 <string id="484443"><![CDATA[Loading Saved Designs]]></string>
 <string id="484486"><![CDATA[To build our new design let's start with the craft we built in the Basic Construction Tutorial, though this one is just called "Hopper". This will save us a little bit of time, and the accounting department is always happy when we save on time.
