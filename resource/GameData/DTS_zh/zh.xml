@@ -9223,17 +9223,17 @@ Give the new ship a name and save it -- that's always a good practice. Then I re
 如果删除后又不知怎么调整参数，那你就重新加载一次吧。]]></string>
 <string id="485996"><![CDATA[rename]]></string>
 <string id="486009"><![CDATA[重命名飞行器]]></string>
-<string id="486048"><![CDATA[让我们还改变飞行器的名称和描述, 让这个垃圾桶也能有个专用名字。
+<string id="486048"><![CDATA[让我们改变飞行器的名称和描述, 让这个垃圾桶也能有个专用名字。
 
 只要名称不与 "Hopper"重复就可以继续进行我们的教程。]]></string>
 <string id="486476"><![CDATA[addGoo]]></string>
-<string id="486489"><![CDATA[Adding Some Extra Functionality]]></string>
-<string id="486552"><![CDATA[Great. For this craft, we are going to give the ship some additional purpose by attaching a science experiment. We can run these experiments during our travels and get valuable science data for Kerbalkind.
+<string id="486489"><![CDATA[加入一些额外的功能]]></string>
+<string id="486552"><![CDATA[太好了。我们将通过附加一个科学实验单元到船上给本次飞行完成一些额外的目的。这样就可以在我们的旅程中运行这些实验并获得Kerbalkind宝贵的科学数据。
 
-There are a number of science experiments to be performed, but at the moment we only have the Mystery Goo Containment Unit available.
+要进行一些科学实验，但目前我们只有神秘的粘液罐这个组件。
 
-Switch to the <color=]]></string>
-<string id="487280"><![CDATA[>Science</color> tab to look at it. This is one of the most basic scientific experiments Kerbal scientists have devised and one of the first things they want to try and understand better; I mean, they don't even know what color the goo is!]]></string>
+切换到<color=]]></string>
+<string id="487280"><![CDATA[>Science</color> 标签来关注一下吧。科学实验页面的第一件是科学家他们想了解的最基本事情之一；我的意思是，他们甚至不知道咕是什么颜色！]]></string>
 <string id="487760"><![CDATA[gooTest]]></string>
 <string id="487775"><![CDATA[Using Symmetry]]></string>
 <string id="487804"><![CDATA[When you pick up the part you will see that it's designed to attach to the sides of other parts, i.e.  "radially". If we attach only one of these, then during flight our craft will be unbalanced.
