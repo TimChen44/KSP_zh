@@ -8003,7 +8003,7 @@ Total Biomes: ]]></string>
 <string id="340530"><![CDATA[ "]]></string>
 <string id="340535"><![CDATA["]]></string>
 <string id="340538"><![CDATA[Modified Part Configs:]]></string>
-<string id="340583"><![CDATA[Open]]></string>
+<string id="340583"><![CDATA[打开]]></string>
 <string id="340592"><![CDATA[Save All]]></string>
 <string id="340609"><![CDATA[Discard All]]></string>
 <string id="340632" noT="1"><![CDATA[manufacturer]]></string>
@@ -8289,7 +8289,7 @@ If you want to go back and try the others, then press <color=]]></string>
 <string id="352420"><![CDATA[>End Scenario</color>. Otherwise press <color=]]></string>
 <string id="352513"><![CDATA[>Next</color> and we'll proceed.]]></string>
 <string id="352578"><![CDATA[flightPlan]]></string>
-<string id="352599"><![CDATA[Flight Plan]]></string>
+<string id="352599"><![CDATA[飞行计划]]></string>
 <string id="352622"><![CDATA[Alrighty then, let's do it. As I said before, the plan here is to get our vessel (and pilot) safely into orbit.
 
 As with the suborbital flight we did previously, we will follow a curved path to get to the point where we can "circularize" our orbit. Today's "gravity turn", however, will be much shallower than the path we followed previously so that we build speed towards orbit.
@@ -8308,7 +8308,7 @@ Hit [Space] when you are ready to "Go for Orbit".
 If you want Valentina (the Kerbal pilot) to fly the curve for you, then you can enable S.A.S. and set the mode to <color=]]></string>
 <string id="355548"><![CDATA[>Target</color> after liftoff.]]></string>
 <string id="355609"><![CDATA[liftoff]]></string>
-<string id="355624"><![CDATA[On Your Way]]></string>
+<string id="355624"><![CDATA[用你的方式]]></string>
 <string id="355647"><![CDATA[Don't worry about your throttle. You just need to pay attention to the target marker, and the proper times to stage. I'll prompt you along the way.
 
 Get ready to start pitching down once you reach 60m/s!]]></string>
@@ -8746,7 +8746,7 @@ Whether you want to put a satellite into orbit, make a transcontinental flight, 
 
 It should be pretty easy even if you're not a famous rocket scientist like myself.]]></string>
 <string id="425032"><![CDATA[overview]]></string>
-<string id="425049"><![CDATA[Overview]]></string>
+<string id="425049"><![CDATA[总览]]></string>
 <string id="425066"><![CDATA[In this tutorial, I will first show you around the Kerbal Space Center, then take you to the Vehicle Assembly Building, where you'll learn how to construct a simple ship.
 
 We'll cover adding and removing parts, what the parts do, how to change the performance settings of the parts which have that option, and how to control staging.
@@ -9204,28 +9204,28 @@ Give the new ship a name and save it -- that's always a good practice. Then I re
 <string id="483361"><![CDATA[中间建筑]]></string>
 <string id="483412"><![CDATA[再一次问好。很高兴你还能回来。
 
-如要开始，请进入VAB 我给各位简单的介绍一下该建筑。]]></string>
+如要开始，进入VAB 我再介绍一下该建筑的功能。]]></string>
 <string id="483700"><![CDATA[咳, 我们又回到这里了。 
 
-我想你不会忘记，前一个建造教程中，我们简单的介绍了如何让一个物体飞起来那种基础知识。
+我想你不会忘记，前个建造教程中，我们简单的介绍了如何让一个不明物体飞起来那种基础知识。
 
-但在本教程中，我们将对VAB的一些更实用的功能进行讲解来扩充你的知识，我们将建造一个更为复杂能把我们带出大气层的工艺品。]]></string>
+但在本教程中，我们将对VAB的一些更实用的功能进行讲解来扩充你的知识，我们将建造一个更为复杂能把我们带出大气层的飞行器。]]></string>
 <string id="484428"><![CDATA[newLoad]]></string>
-<string id="484443"><![CDATA[Loading Saved Designs]]></string>
-<string id="484486"><![CDATA[To build our new design let's start with the craft we built in the Basic Construction Tutorial, though this one is just called "Hopper". This will save us a little bit of time, and the accounting department is always happy when we save on time.
+<string id="484443"><![CDATA[加载保存的设计]]></string>
+<string id="484486"><![CDATA[一个全新设计教程让大家从一个被称为 "Hopper"的飞行器开始。 这将节省我们的一点点时间，会计部门总是乐意帮我们节省时间。
 
 <color=]]></string>
-<string id="484994"><![CDATA[>Open</color> button in the top right corner and load the "Hopper", then remove its <color=]]></string>
-<string id="485178"><![CDATA[>RT-5 "Flea"</color> motor.
+<string id="484994"><![CDATA[>打开</color> 按钮在右上角请加载 "Hopper", 然后删除 <color=]]></string>
+<string id="485178"><![CDATA[>RT-5 "跳蚤"</color> 发动机。
 
-If you mess up, you can recreate the craft from the part list by placing a pod first, then a parachute, and tweaking the parachute to open at 0.75 atmospheres and at 1000m or above. Note that throughout this tutorial I will leave all parts you need available to be placed.
+要是你搞砸了，你可以重新打开零件列表选一个吊舱在配上一个降落伞，调整降落伞打开参数0.75个大气压以及1000米以上。请注意，在本教程中我将会让你可以放置所有需要的零件。
 
-If you delete the craft file somehow, close the load dialog and open it again and the craft will be back.]]></string>
+如果删除后又不知怎么调整参数，那你就重新加载一次吧。]]></string>
 <string id="485996"><![CDATA[rename]]></string>
-<string id="486009"><![CDATA[Renaming the Vessel]]></string>
-<string id="486048"><![CDATA[First off let's change the name of our craft, and the description if you want, so that we still have our trash can special for later on.
+<string id="486009"><![CDATA[重命名飞行器]]></string>
+<string id="486048"><![CDATA[让我们还改变飞行器的名称和描述, 让这个垃圾桶也能有个专用名字。
 
-Simply change the name to something other than "Hopper" and we can proceed.]]></string>
+只要名称不与 "Hopper"重复就可以继续进行我们的教程。]]></string>
 <string id="486476"><![CDATA[addGoo]]></string>
 <string id="486489"><![CDATA[Adding Some Extra Functionality]]></string>
 <string id="486552"><![CDATA[Great. For this craft, we are going to give the ship some additional purpose by attaching a science experiment. We can run these experiments during our travels and get valuable science data for Kerbalkind.
