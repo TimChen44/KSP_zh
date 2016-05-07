@@ -8820,7 +8820,7 @@ You can hide these options by right-clicking on the background scene or picking 
 <string id="434487"><![CDATA[Next up, we are going to need something to make us go.
 
 <color=]]></string>
-<string id="434614"><![CDATA[>Click</color> on the <color=]]></string>
+<string id="434614"><![CDATA[>点击</color> 那个 <color=]]></string>
 <string id="434673"><![CDATA[>Engines</color> tab on the left to show the available engines and solid rocket motors.
 
 Grab one and connect it to the bottom of the pod. You may need to zoom or move the camera to be able to do so.]]></string>
@@ -9215,10 +9215,10 @@ Give the new ship a name and save it -- that's always a good practice. Then I re
 <string id="484486"><![CDATA[一个全新设计教程让大家从一个被称为 "Hopper"的飞行器开始。 这将节省我们的一点点时间，会计部门总是乐意帮我们节省时间。
 
 <color=]]></string>
-<string id="484994"><![CDATA[>打开</color> 按钮在右上角请加载 "Hopper", 然后删除 <color=]]></string>
-<string id="485178"><![CDATA[>RT-5 "跳蚤"</color> 发动机。
+<string id="484994"><![CDATA[>打开</color> 按钮在右上角找然后加载 "Hopper", 请删除 <color=]]></string>
+<string id="485178"><![CDATA[>RT-5 "跳蚤"</color>发动机继续。
 
-要是你搞砸了，你可以重新打开零件列表选一个吊舱在配上一个降落伞，调整降落伞打开参数0.75个大气压以及1000米以上。请注意，在本教程中我将会让你可以放置所有需要的零件。
+要是你搞砸了，你可以重新打开零件列表选一个指令仓在配上一个降落伞，调整降落伞打开参数0.75个大气压以及1000米以上。请注意，在本教程中我将会让你可以放置所有需要的零件。
 
 如果删除后又不知怎么调整参数，那你就重新加载一次吧。]]></string>
 <string id="485996"><![CDATA[rename]]></string>
@@ -9228,25 +9228,25 @@ Give the new ship a name and save it -- that's always a good practice. Then I re
 只要名称不与 "Hopper"重复就可以继续进行我们的教程。]]></string>
 <string id="486476"><![CDATA[addGoo]]></string>
 <string id="486489"><![CDATA[加入一些额外的功能]]></string>
-<string id="486552"><![CDATA[太好了。我们将通过附加一个科学实验单元到船上给本次飞行完成一些额外的目的。这样就可以在我们的旅程中运行这些实验并获得Kerbalkind宝贵的科学数据。
+<string id="486552"><![CDATA[太好了。我们将通过附加一个科学实验单元到飞船上给本次飞行完成一些额外的目的。这样就可以在我们的旅程中运行这些实验并获得Kerbalkind宝贵的科学数据。
 
 要进行一些科学实验，但目前我们只有神秘的粘液罐这个组件。
 
 切换到<color=]]></string>
-<string id="487280"><![CDATA[>Science</color> 标签来关注一下吧。科学实验页面的第一件是科学家他们想了解的最基本事情之一；我的意思是，他们甚至不知道咕是什么颜色！]]></string>
+<string id="487280"><![CDATA[>Science</color> 标签来关注一下吧。该页面的第一件是科学家他们想了解的最基本项目之一；我的意思是，他们甚至不知道咕是什么颜色！]]></string>
 <string id="487760"><![CDATA[gooTest]]></string>
-<string id="487775"><![CDATA[Using Symmetry]]></string>
-<string id="487804"><![CDATA[When you pick up the part you will see that it's designed to attach to the sides of other parts, i.e.  "radially". If we attach only one of these, then during flight our craft will be unbalanced.
+<string id="487775"><![CDATA[利用对称性]]></string>
+<string id="487804"><![CDATA[当你拿起部件，你会发现它是附加到其他部件两侧的设计，即“径向”。如果我们只附加一个，在飞行过程中我们的飞船将是不平衡的。
 
-One way to solve this is to add an extra Goo Container on the opposite side of the rocket so they balance. Luckily we have a symmetry tool to help here.]]></string>
-<string id="488504"><![CDATA[These buttons control symmetry (highlighted) and angle snap, and can be found in the lower left of the screen. Press the <color=]]></string>
-<string id="488762"><![CDATA[>symmetry</color> button (or press the <color=]]></string>
-<string id="488855"><![CDATA[]</color> key) to cycle through the available symmetry modes.]]></string>
-<string id="488978"><![CDATA[Set this to <color=]]></string>
-<string id="489017"><![CDATA[>2x</color> and then pick up and place a <color=]]></string>
-<string id="489114"><![CDATA[>Mystery Goo Containment Unit</color> on the side of the pod, near the top. You will notice that a second one has been placed opposite the first by the symmetry tool. If you had already placed a lone canister, pick it up, make sure symmetry is set correctly, and place it again, so that it has a duplicate on the other side.
+解决这个问题的一种方式是在相反侧也添加一个额外粘液罐，这样就平衡了。幸运的是在这里有一个对称的工具来帮助我们。]]></string>
+<string id="488504"><![CDATA[这些按钮控制着对称（高亮）与角度捕捉，可以在屏幕的左下角找到。请按<color=]]></string>
+<string id="488762"><![CDATA[>symmetry</color> 按钮（或按<color=]]></string>
+<string id="488855"><![CDATA[]</color> 键) 可循环切换得到想要的对称模式。]]></string>
+<string id="488978"><![CDATA[先设定 <color=]]></string>
+<string id="489017"><![CDATA[>2x</color> 再拿起并放置<color=]]></string>
+<string id="489114"><![CDATA[>神秘的粘液罐</color> 在指令仓靠近顶部一侧, 你会发现，第二个已经被对称性工具放置到了对面。  如果您已经放置一个孤独的罐子，那把它捡起来，确保对称性设置正确，并再次将其放置，一样一样的。
 
-Remember to place the canisters near the nose of the pod!]]></string>
+记得放置的位置要靠近指令仓鼻子！]]></string>
 <string id="489882"><![CDATA[Decoupling Parts]]></string>
 <string id="489915"><![CDATA[If we add too many more parts here, the craft we are making will be too heavy to survive reentry safely (and too heavy to be slowed by our parachute, leading to Sudden Impact Syndrome). So we will need to add a decoupler below the pod.
 
