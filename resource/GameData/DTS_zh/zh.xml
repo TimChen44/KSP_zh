@@ -9218,7 +9218,7 @@ Give the new ship a name and save it -- that's always a good practice. Then I re
 <string id="484994"><![CDATA[>打开</color> 按钮在右上角找然后加载 "Hopper", 请删除 <color=]]></string>
 <string id="485178"><![CDATA[>RT-5 "跳蚤"</color>发动机继续。
 
-要是你搞砸了，你可以重新打开零件列表选一个指令仓在配上一个降落伞，调整降落伞打开参数0.75个大气压以及1000米以上。请注意，在本教程中我将会让你可以放置所有需要的零件。
+要是你搞砸了，你可以重新打开零件列表选一个指令仓在配上一个降落伞，调整降落伞打开参数0.75个大气压以及1000米以上。请注意，在本教程后面我将会开放所有需要的零件让你可以放置。
 
 如果删除后又不知怎么调整参数，那你就重新加载一次吧。]]></string>
 <string id="485996"><![CDATA[rename]]></string>
@@ -9244,72 +9244,72 @@ Give the new ship a name and save it -- that's always a good practice. Then I re
 <string id="488855"><![CDATA[]</color> 键) 可循环切换得到想要的对称模式。]]></string>
 <string id="488978"><![CDATA[先设定 <color=]]></string>
 <string id="489017"><![CDATA[>2x</color> 再拿起并放置<color=]]></string>
-<string id="489114"><![CDATA[>神秘的粘液罐</color> 在指令仓靠近顶部一侧, 你会发现，第二个已经被对称性工具放置到了对面。  如果您已经放置一个孤独的罐子，那把它捡起来，确保对称性设置正确，并再次将其放置，一样一样的。
+<string id="489114"><![CDATA[>神秘的粘液罐</color> 在指令仓靠近顶部一侧, 你会发现，第二个已经被对称性工具放置到了对面。如果您已经放置一个孤独的罐子，那把它捡起来，确保对称性设置正确，并再次将其放置，一样一样的。
 
-记得放置的位置要靠近指令仓鼻子！]]></string>
-<string id="489882"><![CDATA[Decoupling Parts]]></string>
-<string id="489915"><![CDATA[If we add too many more parts here, the craft we are making will be too heavy to survive reentry safely (and too heavy to be slowed by our parachute, leading to Sudden Impact Syndrome). So we will need to add a decoupler below the pod.
+注意放置的位置，不要把指令仓仓门堵了！]]></string>
+<string id="489882"><![CDATA[分离配件]]></string>
+<string id="489915"><![CDATA[如果我们在这里添加了太多的部件，我们的飞行器返回时就会因为过重变得不安全（降落伞无法给太重我们减速，过高的速度打开还会撕裂。）。因此，我们需要在指令仓下面添加分离环。
 
-Decouplers can be found in the Structural tab, and will let us split the craft when we no longer need the lower parts. We won't be able to recover the discarded parts, but at least our craft (and our Kerbal!) will survive reentry and landing.
+分离环可以在构架选项卡中找到，当我们不再需要下面的部份时可以让我们分裂飞行器。我们无法恢复丢弃的部分，但至少飞行器能（把我们带回 Kerbal!）安全再入和着陆。
 
-Decouplers can be used in many ways, but for now let's just add one of these to the bottom of the pod. Go to the <color=]]></string>
-<string id="491119"><![CDATA[>Structural</color> tab, grab a <color=]]></string>
-<string id="491198"><![CDATA[>TR-18A</color>, and place it.
+分离环可以以多种方式来使用，但现在我们只需要添加到指令仓底部。进入<color=]]></string>
+<string id="491119"><![CDATA[>架构</color> 标签，抓取 <color=]]></string>
+<string id="491198"><![CDATA[>TR-18A</color>，并把它。
 
-Note that stack decouplers have arrows. The arrows show which side is the side that decouples. Make sure your decoupler's arrow is pointing up, towards the pod. (It will be, by default.)]]></string>
+安装时需要注意分离环上有三角箭头。箭头指向那一侧表示分离一侧。确保箭头向上对着指令舱。（默认情况下）]]></string>
 <string id="491636"><![CDATA[autostageExplain]]></string>
-<string id="491669"><![CDATA[Revisiting the Staging Stack]]></string>
-<string id="491726"><![CDATA[Well done. You'll recall, I hope, that in the previous tutorial we had to adjust the staging stack when we added the engine to our earlier rocket. 
+<string id="491669"><![CDATA[重温分级堆栈]]></string>
+<string id="491726"><![CDATA[做得好。我希望你还记得，在先前教程里，我们有学习过如何给火箭分级添加发动机和调整分级堆栈。 
 
-When you add a decoupler, the extra stage is automatically added to the stack so that any new parts below the decoupler won't be staged at the same time as those above it.
+当您添加一个分离器后，额外的分级会自动添加到堆栈，使分离器下方的发动机不会与上方的同时点火。
 
-You can of course still move these all around, but hopefully this will save you some time as you go.
+当然你可以任意移动分级的一切，但我希望节省您的时间。
 
-If you ever want to return to this default staging setup, click the <color=]]></string>
-<string id="492726"><![CDATA[>Reset</color> button at the bottom of the Staging Stack.]]></string>
+如果你想返回到默认分级设置，点击 <color=]]></string>
+<string id="492726"><![CDATA[>Reset</color> 按钮，在分级堆栈的底部（右下角）。]]></string>
 <string id="492841"><![CDATA[placeTanks]]></string>
-<string id="492862"><![CDATA[Adding Some Fuel Tanks]]></string>
-<string id="492907"><![CDATA[This time we are going to use a Liquid Propellant Rocket Engine. Unlike Solid Rocket Motors, these engines don't carry their own propellants with them, so we need to add some fuel tanks.
+<string id="492862"><![CDATA[加入一些燃料罐]]></string>
+<string id="492907"><![CDATA[这一次，我们将使用液体火箭发动机。这些发动机不像固体火箭发动机，自己不携带推进剂，所以我们需要添加一些燃油箱。
 
-Go to the Fuel Tanks tab. We are still using these early parts so there are only FLT-100s available. This is another area, like engines, where advancement brings bigger and better parts.
+进入燃料罐标签。我们仍在使用这些早期部件所以有只FL-T100。只有不断进步才会带来更大更好的零件，就像发动机，这是另外一个范围。
 
-We are going to need 5 of these tanks to get us to space. Before you grab 5 tanks from the part toolbox, though, let me give you another tip, because efficency is my middle name (it goes right after "Von").
+我们需要5个这样的燃料罐。您可以不必从工具箱一个个抓取燃料罐，让我给你一个提示。
 
-Once you place the first tank on the rocket, you can duplicate that by holding the <color=]]></string>
-<string id="494257"><![CDATA[]</color> Key and clicking on the tank. You can do this on the bottom tank a few times and quickly get 5 of these attached without having to go back to the toolbox.
+一旦您将第一燃料罐装上火箭，你可以通过按住 <color=]]></string>
+<string id="494257"><![CDATA[]</color> 键并单击燃料罐。您可以在底部这样做几次，可以迅速得到5个，而不必回到工具箱。
 
-Add 5 <color=]]></string>
-<string id="494617"><![CDATA[>FLT-100 Fuel Tanks</color> to the vessel and we can proceed.]]></string>
+加入5个 <color=]]></string>
+<string id="494617"><![CDATA[>FL-T100 燃料罐</color> 可以继续进行教程。]]></string>
 <string id="494740"><![CDATA[placeEngine]]></string>
-<string id="494763"><![CDATA[Adding a Rocket Engine]]></string>
-<string id="494808"><![CDATA[Good! Switch over to the <color=]]></string>
-<string id="494873"><![CDATA[>Engines</color> tab now.
+<string id="494763"><![CDATA[添加一个火箭发动机]]></string>
+<string id="494808"><![CDATA[好！切换到 <color=]]></string>
+<string id="494873"><![CDATA[>引擎</color> 标签。
 
-The "Swivel" engine you see here is obviously different from the "Flea" we used before. This is a liquid engine and it needs (and burns) both Liquid Fuel and Oxidizer; funnily enough, that's what we just added to the rocket.
+你在这里看到的是“回旋”引擎，，该引擎与我们之前使用的“跳蚤”明显不同。这是一种液体的发动机，它需要（燃烧）液体燃料和氧化剂，我们刚才添加到火箭上的那些罐子里装的就是。
 
-Attach the <color=]]></string>
-<string id="495417"><![CDATA[>LV-T45 "Swivel"</color> to the bottom of the rocket stack now, and keep an eye on the staging stack to see how it changes.]]></string>
+附加 <color=]]></string>
+<string id="495417"><![CDATA[>LV-T45 "回旋"</color> 到火箭的底部，此时可以看到分级堆栈的变化。]]></string>
 <string id="495665"><![CDATA[placeFins]]></string>
-<string id="495684"><![CDATA[Adding Fins for Balance]]></string>
-<string id="495731"><![CDATA[We are almost there and you're doing fine, maybe not as speedily as someone of my caliber though.
+<string id="495684"><![CDATA[添加平衡翼]]></string>
+<string id="495731"><![CDATA[这么快我们就到这里了，你虽然做的很好，但要想成为像我这样有才干的人还早。
 
-The last thing we are going to need to do is to give this rocket a little better stability, so it keeps going the way we want it to go. We will achieve this by adding some fins near the bottom of the rocket. Fins can be found in the <color=]]></string>
-<string id="496411"><![CDATA[>Aerodynamics</color> tab.
+我们将需要做的最后一件事就是给这支火箭更好一点的稳定性，所以我们希望它能去它该去的方向。我们将通过在接近火箭的底部的地方增加一些翼实现这一目标。翼可以在 <color=]]></string>
+<string id="496411"><![CDATA[>空气动力学</color> 标签找到。
 
-Set the symmetry mode to <color=]]></string>
-<string id="496532"><![CDATA[>4x</color> so we will place them on both axes. Also, turn on angle snap.]]></string>
-<string id="496680"><![CDATA[You can turn on angle snap by clicking the button next to the symmetry icon (highlighted blue in this example), or by pressing <color=]]></string>
-<string id="496950"><![CDATA[]</color>. That will help you to align the fins neatly.]]></string>
-<string id="497061"><![CDATA[Drop a <color=]]></string>
-<string id="497090"><![CDATA[>Basic Fin</color> on the last rocket tank. You'll see the other three symmetry counterparts will be placed as well.]]></string>
-<string id="497324"><![CDATA[Ready to Rock!]]></string>
-<string id="497353"><![CDATA[Excellent, we've now got a rocket that will let us reach for the stars. Admittedly, I did say "reach for", as this is a basic rocket which can't achieve orbit. But on the bright side, that means reentry will also be basic!
+设置对称模式 <color=]]></string>
+<string id="496532"><![CDATA[>4x</color> 我们要把它们放在轴线上。因此，要开启角度捕捉。]]></string>
+<string id="496680"><![CDATA[您可以点击对称图标旁边的（在这个例子中突出蓝色）按钮打开角度捕捉，或按 <color=]]></string>
+<string id="496950"><![CDATA[]</color>. 这将帮助你整齐地对准翼面。]]></string>
+<string id="497061"><![CDATA[放置一个 <color=]]></string>
+<string id="497090"><![CDATA[>标准翼面</color> 到最后一个火箭罐上。同时你将会看到另外三个也对称的被放置好。]]></string>
+<string id="497324"><![CDATA[准备摇滚！]]></string>
+<string id="497353"><![CDATA[太好了，我们现在已经有了一个火箭，这将让我们能够到星星。固然，我的确说的是“够到”，因为这个火箭基本无法实现入轨。想开点，返回地面是木有问题的！
 
-You've done a great job in building a basic hopper and a suborbit-capable rocket. Hopefully, you've learned a few things about how to build a craft and how to use some of the shortcuts that are in here.
+你在建造这个能装人又能开展科学实验的基本火箭做了很多工作。希望你已经清楚了解如何建造飞行器，以及在这里如何运用一些快捷方式。
 
-Feel free to hang around a bit and try your hand at other things too, or perhaps you could look at the next lesson on suborbital flight, where we will see just how well this rocket performs. Or, head over to the science tutorial to learn how to advance your career and unlock more parts.
+随意温习一下，尝试一些其他的东西，或者你可以到亚轨道飞行看看，下一课，我们将看到这种火箭进行到底有多好。
 
-If you could show yourself out of the construction facility with the red button on the top right when you're done experimenting that would be great. Auf wiedersehen!
+课程结束，按完成按钮结束本课程，你可以尝试发射火箭或按右上方的红色按钮退出，下课~！
 
 <color=]]></string>
 <string id="499137"><![CDATA[Hopper]]></string>
