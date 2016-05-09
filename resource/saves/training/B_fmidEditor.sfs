@@ -1,8 +1,8 @@
 GAME
 {
 	version = 1.0.0
-	Title = Intermediate Construction
-	Description = This tutorial, presented by famous rocket scientist Wernher von Kerman himself, covers how to design a craft that can escape Kerbin's atmosphere and return safely.
+	Title = 中级火箭建造
+	Description = 本教程还是由著名航天科学家Wernher von Kerman亲自指导，介绍如何建造能逃脱Kerbin大气层并安全返回的飞行器。
 	Mode = SANDBOX
     // scene to load when starting this save.
 	scene = 5
