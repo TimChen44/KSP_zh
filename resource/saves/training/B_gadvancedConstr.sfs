@@ -1,8 +1,8 @@
 GAME
 {
 	version = 1.0.0
-	Title = Intermediate Construction
-	Description = This tutorial, presented by famous rocket scientist Wernher von Kerman himself, covers how to design a craft that can escape Kerbin's atmosphere and return safely.
+	Title = Advanced   Construction
+	Description = This tutorial, presented by famous rocket scientist Wernher von Kerman himself, covers how to design a craft that can orbit Kerbin and return safely.
 	Mode = SANDBOX
     // scene to load when starting this save.
 	scene = 5
@@ -57,7 +57,7 @@ GAME
 	SCENARIO
 	{
 		// the name of the ScenarioModule class to spawn
-		name = TutorialEditorMid
+		name = TutorialEditorAdvanced
 		// the scene in which the module gets spawned (7 = flight)
 		scene = 5, 6
 	}
