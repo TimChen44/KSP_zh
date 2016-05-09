@@ -2,7 +2,7 @@ GAME
 {
 	version = 1.0.0
 	Title = 中级飞船建造
-	Description = 本教程还是由航天科学家Wernher von Kerman亲自指导，介绍如何设计一个可以逃脱Kerbin大气层并安全返回的飞行器。
+	Description =本教程还是由航天科学家Wernher von Kerman亲自指导，介绍如何设计一个可以逃脱Kerbin大气层并安全返回的飞行器。
 	Mode = SANDBOX
     // scene to load when starting this save.
 	scene = 5
