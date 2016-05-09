@@ -1,8 +1,8 @@
 GAME
 {
 	version = 1.0.0
-	Title = Suborbital Flight
-	Description = Learn how to escape Kerbin's atmosphere and return safely. In this tutorial, flight instructor Gene Kerman will take you through the essential flight controls and instruments required to launch a simple rocket to an almost respectable altitude--and how to get back in one piece!
+	Title = 亚轨道飞行
+	Description = 了解如何逃脱Kerbin大气层并安全返回。在本教程中，飞行教员Gene Kerman将带您通过简单的火箭基本飞行控制系统和仪器到达所需高度！
 	Mode = 3
 	scene = 7
 	flag = Squad/Flags/default
