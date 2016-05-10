@@ -1,0 +1,162 @@
+GAME
+{
+	version = 1.0.0
+	Title = Advanced   Construction
+	Description = This tutorial, presented by famous rocket scientist Wernher von Kerman himself, covers how to design a craft that can orbit Kerbin and return safely.
+	Mode = SANDBOX
+    // scene to load when starting this save.
+	scene = 5
+	flag = Squad/Flags/default
+	PARAMETERS
+	{
+		preset = Custom
+		EDITOR
+		{
+			CanLeaveToSpaceCenter = False
+			CanLeaveToMainMenu = True
+		}
+		FLIGHT
+		{
+			CanQuickSave = False
+			CanQuickLoad = False
+			CanAutoSave = True
+			CanUseMap = True
+			CanSwitchVesselsNear = False
+			CanSwitchVesselsFar = False
+			CanTimeWarpHigh = False
+			CanTimeWarpLow = False
+			CanEVA = False
+			CanIVA = True
+			CanBoard = False
+			CanRestart = True
+			CanLeaveToEditor = True
+			CanLeaveToTrackingStation = False
+			CanLeaveToSpaceCenter = False
+			CanLeaveToMainMenu = True
+		}
+		SPACECENTER
+		{
+			CanGoInVAB = True
+			CanGoInSPH = False
+			CanGoInTrackingStation = False
+			CanLaunchAtPad = False
+			CanLaunchAtRunway = False
+			CanLeaveToMainMenu = True
+			CanGoToRnD = False
+			CanGoToAstronautC = False
+			CanGoToAdmin = False
+			CanGoToMissionControl = False
+			CanSelectFlag = False
+			
+		}
+		DIFFICULTY
+		{
+			MissingCrewsRespawn = True
+		}
+	}
+	SCENARIO
+	{
+		// the name of the ScenarioModule class to spawn
+		name = TutorialEditorAdvanced
+		// the scene in which the module gets spawned (7 = flight)
+		scene = 5, 6
+	}
+	FLIGHTSTATE
+	{
+		version = 0.22.0
+		UT = 0.84
+		activeVessel = 0
+	}
+	ROSTER
+	{
+		KERBAL
+		{
+			name = Jebediah Kerman
+			gender = Male
+			type = Crew
+			trait = Pilot
+			brave = 0.5
+			dumb = 0.5
+			badS = True
+			tour = False
+			state = Available
+			ToD = 0
+			idx = 0
+			CAREER_LOG
+			{
+				flight = 1
+				0 = Recover
+			}
+			FLIGHT_LOG
+			{
+				flight = 1
+			}
+		}
+		KERBAL
+		{
+			name = Bill Kerman
+			gender = Male
+			type = Crew
+			trait = Engineer
+			brave = 0.5
+			dumb = 0.8
+			badS = False
+			tour = False
+			state = Available
+			ToD = 0
+			idx = -1
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
+		}
+		KERBAL
+		{
+			name = Bob Kerman
+			gender = Male
+			type = Crew
+			trait = Scientist
+			brave = 0.3
+			dumb = 0.1
+			badS = False
+			tour = False
+			state = Available
+			ToD = 0
+			idx = -1
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
+		}
+		KERBAL
+		{
+			name = Valentina Kerman
+			gender = Female
+			type = Crew
+			trait = Pilot
+			brave = 0.55
+			dumb = 0.4
+			badS = True
+			tour = False
+			state = Available
+			ToD = 0
+			idx = -1
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
+		}
+	}
+}
