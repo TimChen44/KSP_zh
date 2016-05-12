@@ -8414,8 +8414,8 @@ When there are multiple crew you can cycle through the POV of them using the []]
 
 Return to External View by pressing []]></string>
 <string id="366030"><![CDATA[deathBonusPage]]></string>
-<string id="366059"><![CDATA[Aw, shucks, something went terribly wrong here, you might want to try to stay alive when on an actual mission. 
-Don't feel bad, I'll send someone to clean that up and you can try again another time.]]></string>
+<string id="366059"><![CDATA[噢，糟糕，在这里发生了可怕的错误，实际任务中你可能想尽量活着。
+别难过，我会派人来清理它，你可以选择另一个时间再尝试一次。]]></string>
 <string id="366457"><![CDATA[dockingCtrlBonusPage]]></string>
 <string id="366498"><![CDATA[Docking Control Mode]]></string>
 <string id="366539"><![CDATA[I see you've found the Docking Controls. In this mode, controls behave somewhat differently, to make maneuvering around in orbit easier. However, that is a topic for a whole other tutorial, so let's just go back to the subject at hand for now.
@@ -9201,7 +9201,7 @@ Give the new ship a name and save it -- that's always a good practice. Then I re
 <string id="483101"><![CDATA[GameData/Squad/Tutorials]]></string>
 <string id="483150"><![CDATA[GameData/Squad/Tutorials/Hopper.craft]]></string>
 <string id="483225"><![CDATA[[Tutorial]: Intermediate Construction: Hopper.craft does not exist!]]></string>
-<string id="483361"><![CDATA[中间建筑]]></string>
+<string id="483361"><![CDATA[中级建造]]></string>
 <string id="483412"><![CDATA[再一次问好。很高兴你还能回来。
 
 如要开始，进入VAB 我再介绍一下该建筑的功能。]]></string>
@@ -9452,183 +9452,184 @@ Don't feel bad, I'll send someone to clean that up and you can try again.]]></st
 <string id="516281"><![CDATA[onFlightTutorial]]></string>
 <string id="516314"><![CDATA[FlightSuborbital]]></string>
 <string id="516347"><![CDATA[[Tutorial]: Could not find config node for FlightSuborbital tutorial!]]></string>
-<string id="516487"><![CDATA[Hello again. Glad you could make it back.
+<string id="516487"><![CDATA[再一次问好。很高兴你能继续我们的教程。
 
-Today we will take an exciting step: getting our first Kerbal into Space! (Yep, with a capital S!)
+今天，我们将首次利用飞行器进入太空！一个激动人心的一步。（没错，就是用上节课造的那个火箭）
 
-Hopefully, you remember the controls we discussed in the basic flight tutorial, but don't forget that you can always press <color=]]></string>
-<string id="517035"><![CDATA[]</color> and click the view key bindings button for a reminder.
+但愿你还记得我们基本飞行教程中学习过的飞船控制，要忘了，你可以随时按 <color=]]></string>
+<string id="517035"><![CDATA[]</color> 键点 “查看键盘绑定” 按钮打开查看视图。
 
-If you're ready, let's get started.]]></string>
-<string id="517239"><![CDATA[Your mission today is to make a short suborbital (less than orbital) flight out over the water to the east. It's a nice arcing path that ensures a gentle, survivable reentry; straight up then straight down is...not so good for survival.
+你准备好了吗？让我们开始吧。]]></string>
+<string id="517239"><![CDATA[今天你的任务是向东做一个简短的亚轨道（弹道轨道）飞行。还想用直上直下？就是......安全性不是很好，还是用一个漂亮的弧形确保温柔安全的再入轨道吧。
 
-I've set up the pink target indicator on the navball as aim point but do note that this is not the case for normal missions (the target marker is normally used for other things, and does not help with ascents). Starting with the nose pointing straight up on the launch pad, or 90 degrees elevation from the eastern horizon:
+我已经帮你在指示器设置了目标，一个粉色的瞄准点，但要注意，正常的任务（目标标记通常用于其他的事情，并不是帮助飞船爬升）不是这样的。现在火箭90度立在发射台上，我们的行程是这样的：
 
-	 * Tilt east to 80 degrees elevation on the navball by 150 m/s (start at 50 m/s);
-	 * Tilt east to 70 degrees on the navball by 400 m/s (start at 250 m/s);
-	 * After burnout, coast up into space, and have a look around;
-	 * Prepare for reentry;
-	 * Lastly, reenter and land safely!
+	 * 调整仰角向东倾斜80度 到达150m/s（50m/s开始）；
+	 * 在倾斜70度 到达400m/s（250m/s开始）；
+	 * 燃料耗尽后，四处看一看浩瀚的宇宙；
+	 * 准备再入;
+	 * 最后，重新再入和安全着陆！
 
-Once we reach burnout (i.e.run out of propellant) we'll have a bit more time to discuss some other things.]]></string>
+等到燃料耗尽后，我们会有更多的时间来讨论一些其他的事情。]]></string>
 <string id="519147"><![CDATA[节流阀]]></string>
-<string id="519164"><![CDATA[Throttle Control]]></string>
-<string id="519197"><![CDATA[Unlike the "Hopper" in our first lesson, this new craft has Liquid Fuel engines. This means we can use the throttle to set the output power of the ship's engines.
+<string id="519164"><![CDATA[节气门控制]]></string>
+<string id="519197"><![CDATA[新飞船具有的这种液体燃料发动机不像我们的第一课的“跳蚤”。我们可以使用节流阀控制飞船引擎的输出功率。
 
-Throttle is controlled by the following keys:
+节流阀由以下按键控制：
 		<color=]]></string>
-<string id="519637"><![CDATA[]</color> : Throttle Up
+<string id="519637"><![CDATA[]</color> : 节流阀  加大
 		<color=]]></string>
-<string id="519704"><![CDATA[]</color> : Throttle Down
+<string id="519704"><![CDATA[]</color> : 节流阀  减小
 		<color=]]></string>
-<string id="519775"><![CDATA[]</color> : Throttle Max
+<string id="519775"><![CDATA[]</color> : 节流阀  最大
 		<color=]]></string>
-<string id="519844"><![CDATA[]</color> : Throttle Cutoff
+<string id="519844"><![CDATA[]</color> : 节流阀  关闭
 
-Try these out now! You'll see the indicator needle slide up and down along the graph on the lower left side of the navball.]]></string>
+现在尝试一下操作！你会看到指示器左侧的指针上下滑动。]]></string>
 <string id="520150"><![CDATA[SAS]]></string>
 <string id="520157"><![CDATA[S.A.S.]]></string>
-<string id="520170"><![CDATA[S.A.S stands for Stability Augmentation System, although Kerbal astronauts usually refer to it as Sickness Avoidance Scheme.
+<string id="520170"><![CDATA[S.A.S 就是稳定增强系统（Stability Augmentation System）, Kerbal的宇航员通常把它当作呕吐规避方案（Sickness Avoidance Scheme）。
 
-Whatever it stands for, what it does is try to stop the ship from spinning around, using the computer-controlled "Auto-Torque Drive Compensator" technology to counteract the rotation of the ship. In its simplest mode it will keep the ship aligned with the orientation it has when you turn S.A.S. on, or, if you pitch/yaw/roll while S.A.S. is on, the orientation when you release the controls.
+不管它代表什么，它的作用是使用计算机控制的“自动扭矩驱动补偿”技术来试图停止和抵消飞船乱转。在最简单的模式下，当你未打开S.A.S.时，你需要不断的操作俯仰/偏航/翻滚来保持飞船的航线，而S.A.S.会让飞船一直保持对准的方向而不用您控制。
 
-SAS can be activated (or deactivated if on) momentarily by holding down the <color=]]></string>
-<string id="521378"><![CDATA[]</color> key, and it can be toggled by pressing the <color=]]></string>
-<string id="521499"><![CDATA[]</color> key.
+SAS可以暂时激活（或暂时停用）按住 <color=]]></string>
+<string id="521378"><![CDATA[]</color> 键，并且可以通过按下 <color=]]></string>
+<string id="521499"><![CDATA[]</color> 键切换。
 
-If you have problems following the maneuvers, once you enable SAS and lift off you can click the small red button to the left of the navball that has a miniature target indicator (it's the lower left of all the buttons). That will cause the S.A.S. to follow the target indicator and fly for you. Note: this autopiloting function will not be available until you are flying.]]></string>
+如果你有机动方面的问题，一旦启用SAS并升空您可以点击目标指示器的左侧一些红色小按钮（所有按键在左下方）。S.A.S.将自动对准目标带你飞行。]]></string>
 <string id="522277"><![CDATA[prepForLaunch]]></string>
-<string id="522304"><![CDATA[Launch Preparations]]></string>
-<string id="522343"><![CDATA[This craft has a bit too much engine, so we're going to throttle down for launch. Set your throttle to <color=]]></string>
-<string id="522565"><![CDATA[>2/3</color> (the upper of the two middle notches on the slider).
+<string id="522304"><![CDATA[准备发射]]></string>
+<string id="522343"><![CDATA[飞船用现在这个引擎有点大了，所以我们将要减速发射。设置你的节流阀到 <color=]]></string>
+<string id="522565"><![CDATA[>2/3</color> 的附近（位于滑槽从上至下第二个长条R标记）
 
-Also, turn on S.A.S. to help control things (press <color=]]></string>
-<string id="522817"><![CDATA[]</color>). It will keep you pointed where you want to be pointed.]]></string>
+此外，打开S.A.S.以便帮助控制飞行（按 <color=]]></string>
+<string id="522817"><![CDATA[]</color>)。并选择你想要对准的方位。]]></string>
 <string id="522951"><![CDATA[readingwarning]]></string>
-<string id="522980"><![CDATA[Detailed Information Ahead]]></string>
-<string id="523033"><![CDATA[During this lesson some of the information is quite detailed and could take a while to read. As this is a short suborbital hop, and I don't want you to miss anything important, I will place a warning at the top of pages where you might want to pause the game to read.
+<string id="522980"><![CDATA[提前阅读详细信息]]></string>
+<string id="523033"><![CDATA[在这一课中有一些资料相当详细，可能需要你花一些时间来阅读。由于这是一个短暂亚轨道飞行，我不想让你错过任何重要的信息，我会在页面顶部那里放置一个警告，你可能要暂停游戏阅读。
 
-The warning will look like this:
+警告内容如下：
 
 <color=]]></string>
-<string id="523655"><![CDATA[>WARNING</color>: Detailed info! Press <color=]]></string>
-<string id="523748"><![CDATA[]</color> to pause if necessary.]]></string>
-<string id="523813"><![CDATA[Ok, enough talk! I'll unlock the rest of the flight controls and you'll be clear to launch.
+<string id="523655"><![CDATA[>警告</color>: 详情！ 按 <color=]]></string>
+<string id="523748"><![CDATA[]</color> 如果必要请暂停。]]></string>
+<string id="523813"><![CDATA[好吧，少废话！我要解锁其余的飞行控制,你需要明白
 
-At any time you may press <color=]]></string>
-<string id="524067"><![CDATA[]</color> to pause the game. In the Pause Menu you can restart the flight, or end this Tutorial and return to the Main Menu.
+在任何时候，你可以按<color=]]></string>
+<string id="524067"><![CDATA[]</color> 暂停游戏。在暂停菜单中可以选择重新飞行或结束本教程并返回到主菜单。
 
-I've enabled the Target marker on the NavBall. Give it a look to make sure you see it, and then let's get ready to light this candle.
+我已经在指示器启用了目标标记。看看它确保你看到了，然后让我们准备点燃这支大蜡烛。
 
-Double-check your throttle is set to <color=]]></string>
-<string id="524679"><![CDATA[>2/3</color> (the upper of the two middle notches on the slider) and S.A.S. is enabled, then hit <color=]]></string>
-<string id="524889"><![CDATA[]</color> when you're ready to launch. Remember to start turning at 50m/s!]]></string>
+仔细再检查一次节流阀有没有在 <color=]]></string>
+<string id="524679"><![CDATA[>2/3</color> 的附近（位于滑槽从上至下第二个长条R标记）和S.A.S.已启用，然后按 <color=]]></string>
+<string id="524889"><![CDATA[]</color> 当你准备发射。别忘记在50米/秒时开始转弯！]]></string>
 <string id="525039"><![CDATA[pitchProgramWait]]></string>
-<string id="525072"><![CDATA[Hold Tight...]]></string>
-<string id="525099"><![CDATA[Wait for a bit more speed before we start to turn.]]></string>
+<string id="525072"><![CDATA[抓紧...]]></string>
+<string id="525099"><![CDATA[在我们开始之前等待更高的速度。]]></string>
 <string id="525200"><![CDATA[pitchProgram1]]></string>
-<string id="525227"><![CDATA[Start the Turn]]></string>
-<string id="525256"><![CDATA[Now's the time to start turning.
+<string id="525227"><![CDATA[开始转向]]></string>
+<string id="525256"><![CDATA[现在是开始转向的时间。
 
-Follow the target marker to 80 degrees by the time you reach 150m/s.]]></string>
+达到150m/s时对准80度的目标标记。]]></string>
 <string id="525462"><![CDATA[holdMid]]></string>
-<string id="525477"><![CDATA[Hold Steady Again]]></string>
-<string id="525512"><![CDATA[Good work!
+<string id="525477"><![CDATA[再次保持稳定]]></string>
+<string id="525512"><![CDATA[干得好！
 
-Get ready to turn further once you reach 250m/s.]]></string>
+一旦你达到250m/s准备好进行下一步。]]></string>
 <string id="525633"><![CDATA[pitchProgram2]]></string>
-<string id="525660"><![CDATA[Steady on 70]]></string>
-<string id="525685"><![CDATA[Looking good! Now let's turn a little more.
+<string id="525660"><![CDATA[稳定在70度]]></string>
+<string id="525685"><![CDATA[看起来不错！现在让我们在来多一点。
 
-We are aiming to get to the 70 degree pitch line.
+我们现在的目标是到70度。
 
-You can follow the marker as it moves there.]]></string>
+您可以跟着标记因为它会移动。]]></string>
 <string id="525967"><![CDATA[holdSteady]]></string>
-<string id="525988"><![CDATA[Hold Steady - Throttle Up]]></string>
-<string id="526039"><![CDATA[Excellent work. We've got the rocket just where it needs to be in order to reach space.
+<string id="525988"><![CDATA[保持稳定 - 节流阀加大]]></string>
+<string id="526039"><![CDATA[出色的工作。我们的火箭刚刚已经到达了它需要以达到高度。
 
-You should be able to let S.A.S. keep the craft steady for a while as we accelerate further.
+您应该让S.A.S.保持飞行器稳定一段时间，我们进一步加快。
 
-Now go ahead and throttle up to full power.]]></string>
+现在，继续前进，节流阀开到最大。]]></string>
 <string id="526493"><![CDATA[holdSteady2]]></string>
-<string id="526516"><![CDATA[Hold Steady]]></string>
-<string id="526539"><![CDATA[We're really cooking along now! As we get up to these higher speeds, you might start to see some heat from atmospheric friction.
+<string id="526516"><![CDATA[保持稳定]]></string>
+<string id="526539"><![CDATA[我们一起做饭吧！当我们飞船到达更高的速度，你会开始看到飞船与大气摩擦产生热量。
 
-Hold the course and we'll reach stage burnout safely.]]></string>
+淡定，我们在飞船里很安全的。]]></string>
 <string id="526907"><![CDATA[burnout]]></string>
-<string id="526922"><![CDATA[Out of Gas]]></string>
-<string id="526943"><![CDATA[Coasting to Space]]></string>
-<string id="526978"><![CDATA[Now that we are coasting our way to apoapsis (that's the highest point on our current projected path), we've got a little time to chat. Once you clear the atmosphere we'll go over what you can do in space.]]></string>
+<string id="526922"><![CDATA[没油了]]></string>
+<string id="526943"><![CDATA[太空滑行]]></string>
+<string id="526978"><![CDATA[我们现在正以滑行的方式飞向我们的远拱点（这是我们目前的预测路径上的最高点），我们有一点时间来聊天。越过大气层我们将到达太空，你想在太空中做什么。]]></string>
 <string id="527390"><![CDATA[science]]></string>
-<string id="527405"><![CDATA[What to Do in Space]]></string>
-<string id="527444"><![CDATA[While we float up here beyond the atmosphere, I'll quickly tell you about a couple of things you can do.
+<string id="527405"><![CDATA[能在太空做什么]]></string>
+<string id="527444"><![CDATA[虽然我们已经能在飘起来了，但我告诉你你能做的不止这些。
 
-With an advanced enough astronaut complex in the KSC, we can train our Kerbals to be able to space walk (or EVA), although we won't be doing that on this flight.
+随着航天科技不断提高，我们可以训练我们的宇航员能够太空行走（或EVA），但这个行程我们不会这么做。
 
-Also, when we are carrying science devices like our goo containers, we can perform experiments.
+此外，我们可以用设备开展科学实验，如我们这次带上来的咕咕罐，我们可以进行实验。
 
-Feel free to play with the goo canisters now by right-clicking on them. I'll let you know when it's time for the next phase of this suborbital flight.]]></string>
+随意在咕咕罐上右击他们。亚轨道飞行的下一阶段到了我会告诉你的。]]></string>
 <string id="528478"><![CDATA[reorient]]></string>
 <string id="528495"><![CDATA[Reorient]]></string>
-<string id="528512"><![CDATA[]</color> to pause if necessary.
+<string id="528512"><![CDATA[]</color> 如果必要就暂停。
 
-As we near the edge of the atmosphere again, it's time to reorient the pod to get ready for re-entry. We're only going to reenter with the pod and chute and goo canisters, but we're not going to decouple yet; in real missions it's best to keep your upper stage around until the last moment, you never know when you might need it...
+当我们再次接近大气层的边缘，是时候重新调整指令仓准备好重新进入。我们只要指令舱和降落伞还有咕咕罐重新进入，但我们现在还不打算分离火箭;在现实的任务中最好保持你的上级，不到最后一刻，你永远不知道什么时候你可能需要它...
 
-Anyway, it's best to re-enter bottom-first, and since we ascended at about 70 degrees pitch, we'll naturally re-enter at about -70 degrees pitch.
+不管怎么说，现在我们是从上至下进入，因为我们上升时是约70俯仰角度，我们很自然的在-70的俯仰角度重新再入。
 
-That means you want to aim the top of the capsule at the 70 degrees pitch line, but the opposite heading. This is at a heading of 270 on the navball and 70 degrees pitch, and I've placed the target marker there to help you see where this lies.
+这意味着你的顶端目标还在节线70度,但航向相反。我已经放置了目标标记来帮助你看到，在指示器的270和70度。
 
-Turn S.A.S. off, change your attitude, and then turn it back on again.]]></string>
+可以先关闭S.A.S.，改变你的姿态，然后将其重新打开。]]></string>
 <string id="530172"><![CDATA[stabilize]]></string>
-<string id="530191"><![CDATA[Stablize]]></string>
-<string id="530208"><![CDATA[Nice! Now hold steady on your new attitude (let SAS do its job), and get ready to decouple the stage and start reentry!]]></string>
-<string id="530448"><![CDATA[Booster Away!]]></string>
-<string id="530475"><![CDATA[Now it's time to get rid of that booster, since it's just weighing us down.
+<string id="530191"><![CDATA[稳定]]></string>
+<string id="530208"><![CDATA[太好了！现在维持新的姿态（让SAS完成其工作），并准备分离阶段，开始再入！]]></string>
+<string id="530448"><![CDATA[助推器脱离！]]></string>
+<string id="530475"><![CDATA[现在是时候摆脱助推器了，因为它现在只是个承重的包袱。
 
-Stage to discard the unneeded parts and mass.]]></string>
+现阶段要丢弃不需要的零件和重量。]]></string>
 <string id="530721"><![CDATA[sasOff]]></string>
-<string id="530734"><![CDATA[Aerodynamic Stabilization]]></string>
-<string id="530785"><![CDATA[During re-entry, with your pod oriented this way (drag-producing items near the top), aerodynamic forces alone will hold it properly stabilized.
+<string id="530734"><![CDATA[气动稳定]]></string>
+<string id="530785"><![CDATA[指令仓再入中（靠近顶部会开始生产阻力）, 能靠空气动力独自维持正常稳定。
 
-So it's time to turn S.A.S. off and let the air do the work for you. Once it's off and you've hit the atmosphere, we'll move to the next bit.]]></string>
+因此，把S.A.S.关掉，利用空气为你工作。你一旦通过大气层，我们将进入下一阶段。]]></string>
 <string id="531361"><![CDATA[reentry]]></string>
-<string id="531376"><![CDATA[Reentry!]]></string>
-<string id="531393"><![CDATA[]</color> to pause if necessary.
+<string id="531376"><![CDATA[再入！]]></string>
+<string id="531393"><![CDATA[]</color> 如果必要请暂停。
 
-You are now reentering Kerbin's atmosphere. Make sure to keep all hands and feet inside the pod at all times. We don't want you getting burnt or anything! Don't mind the flames. Wernher IS a "World Famous Rocket Scientist" after all, and he's built this ship to withstand them.
+你现在重新进入Kerbin的大气层。请务必让所有手和脚收回舱内。我们不希望你身上的任何东西被烧伤！
 
-Last time we watched the parachute icon to wait for the right time to open the chute. This time we are going to do something a little different. Remember in the construction tutorial where you designed this vessel, you set the chute to not semi-deploy until 0.75 atmospheres of pressure? That means the chute won't perform the first of its two deployment steps until then, even if you activate it by staging now. On Kerbin, 0.75atm means about 2000m altitude above sea level, and the craft should be travelling slowly enough by then that the chute will survive deployment.
+上次我们的教程中任何时间都能打开降落伞。我们这次要做的与上次有点不同。还记得在建造教程中是你设计了这个飞行器，设置中有一个高度和0.75个大气压的项目？这意味着降落伞将不会在你执行部署步骤就会打开，直到在Kerbin的0.75大气压和2000m左右的海拔高度才会打开。等飞行器慢下来才会安全的部署。
 
-So let's take the bold step of arming the chute now and let the smarts in there pop it at the right altitude.
 
-You know you can trust me! Stage the chute now by pressing <color=]]></string>
+因此，让我们现在迈出勇敢第一步，利用你的智慧在合适的高度弹出它。
+
+你知道你可以信任我！现在按 <color=]]></string>
 <string id="533523"><![CDATA[chuteWait]]></string>
-<string id="533542"><![CDATA[Ready the Chute]]></string>
-<string id="533573"><![CDATA[]</color> to pause if necessary.
+<string id="533542"><![CDATA[准备好降落伞]]></string>
+<string id="533573"><![CDATA[]</color> 如果必要请暂停。
 
-Awesome! So while we set your chute to not actually semi-deploy until around 2km (we do look out for you at Mission Control!), we do need to ensure that the opening height (its second, full-deployment step) is correct.
+真棒！所以，我们部署了降落伞但因为设置实际上并没有打开，直到2km左右（要看你在任务中怎么控制！），我们需要确保开启高度（第二步，全面部署步骤）是正确的。
 
-You can even adjust these parameters during flight, so right-click on the parachute now and check their sliders.
+你甚至可以在飞行中调整这些参数，所以现在右击降落伞并检查他们的参数滑块。
 
-Don't touch the pressure slider (or bad things WILL happen), and make sure the full deploy altitude is no less than 1000m or you will not have enough time to slow down!
+请勿触摸改变压力滑块（会有不好的事情发生），并确保全面部署的海拔高度超过1000m，太低你会没有足够的时间慢下来！
 
-Once you're satisfied, just hang on until about 2km and watch the parachute trigger itself according to the settings we've chosen.
+一旦你满意，只要撑到约2公里，根据我们所选择的设置观看触发器打开降落伞。
 
-While we're waiting I want you to look at the bottom of the capsule. Note that you do not have a heat shield: you don't need one because this is such a gentle flight. Actually, a heat shield would make things more dangerous on this craft because the additional mass would be pushing the limits of this model of parachute.]]></string>
+当我们在等待时，我想让你看看飞船的底部。请注意，您不必隔热罩：你并不需要这个，因为这是一次温柔的飞行。实际上，一个隔热罩会使飞行器更危险，因为附加的质量将超过这一型号降落伞的限制。]]></string>
 <string id="535557"><![CDATA[chuteDeployed]]></string>
-<string id="535584"><![CDATA[Chute Away!]]></string>
-<string id="535607"><![CDATA[Yes! The chute is away.
+<string id="535584"><![CDATA[降落了！]]></string>
+<string id="535607"><![CDATA[是的!降落了。
 
-Now enjoy a leisurely float down to the surface.]]></string>
+现在，享受悠闲的时光吧。]]></string>
 <string id="535755"><![CDATA[splashdown]]></string>
-<string id="535776"><![CDATA[Welcome back!]]></string>
-<string id="535803"><![CDATA[Welcome back, and congratulations on completing -- and even surviving! -- your first real mission.
+<string id="535776"><![CDATA[欢迎回来！]]></string>
+<string id="535803"><![CDATA[欢迎回来，并祝贺安全完成了任务！ - 你的第一个使命。
 
-You've managed to launch, control your vessel into space, orient yourself correctly, and land safely. That's quite an achievement.
+你成功升空，飞船轨迹控制正确，安全着陆。这都是了不起的成就。
 
-If you want to practice this again, choose revert to launch from the pause menu. Otherwise, end the scenario.
+如果您还想再练习一次这个，从暂停菜单选择重新开始。否则，结束场景。
 
-And be sure to check out the other tutorials. My next one is about "Going for Orbit" and is really exciting. There's always lots more to learn at the KSC!]]></string>
+而且一定要继续其他教程。我的下一个教程是关于“逃逸轨道”，非常激动人心对吧。在KSC总是有很多东西要学！]]></string>
 <string id="536799"><![CDATA[Aha!, You're a curious one arent' you? The IVA button over each crewmember's portrait will let you see the ship from his own perspective.
 
 Note that in this mode, your flight UI has less instruments, since most of them can be found in the cockpit itself.
@@ -9661,14 +9662,14 @@ You probably won't make it high enough, however, so you could just restart the l
 Press <color=]]></string>
 <string id="540686"><![CDATA[]</color> and choose Revert to try again.]]></string>
 <string id="540769"><![CDATA[onFlipOut]]></string>
-<string id="540788"><![CDATA[]</color> to pause if necessary.
+<string id="540788"><![CDATA[]</color> 如果必要就暂停。
 
-Great work! You've succeeded in getting your ship on a trajectory bound for space. I've now set your target indicator to align with your velocity vector; that will minimize drag by turning the smallest side of the vehicle into the air flow. Somewhere around here, you will see the navball speed indicator auto-switch from "Surface" to "Orbit," accompanied by the speed number jumping. Go ahead and switch it back to "Surface" mode by clicking on it until it says "Surface" again.
+做得好！你的飞船已经按计划飞向太空。我现在设置你的目标指示与您的速度向量一致;将把阻力减到最小。伴随着飞行速度跳跃，你会看到指示器中上方的速度指示自动从“Surface”切换到“Orbit”。来吧，点击它，切换一下模式。
 
-You might have noticed some flickering flames near the end of our burn there, which is due to the high speed of your craft in the atmosphere. Normally our ascent would be a little slower, but I'm sure my friend Wernher has helped you build a ship that can withstand this heat, and besides this high and this slow you'll be fine.
+您可能已经注意到我们附近有火焰，就像过年的烟火，是由于飞行器在大气中高速飞行造成的。但我敢肯定，我的朋友Wernher帮你造的这艘船能承受这种热量你会没事的。
 
-If you want to have a look at your trajectory, you can switch to the map (<color=]]></string>
-<string id="542642"><![CDATA[] </color> key) to have a look at your projected path. Just remember to come back to flight mode again!]]></string>
+如果你想看看你的轨迹，你可以切换到地图 (<color=]]></string>
+<string id="542642"><![CDATA[] </color> 键），看看你的预测路径。不过，别忘了再回到飞行模式！]]></string>
 <string id="542850"><![CDATA[Oops. Looks like you're not going to clear the atmosphere]]></string>
 <string id="542965"><![CDATA[ with enough margin.]]></string>
 <string id="543006"><![CDATA[. Press <color=]]></string>
