@@ -1,8 +1,8 @@
 GAME
 {
 	version = 1.0.0
-	Title = Advanced   Construction
-	Description = This tutorial, presented by famous rocket scientist Wernher von Kerman himself, covers how to design a craft that can orbit Kerbin and return safely.
+	Title = 高级火箭建造
+	Description = 本教程，由著名火箭专家Wernher von Kerman介绍如何设计可以进入Kerbin轨道并安全返回的飞行器。
 	Mode = SANDBOX
     // scene to load when starting this save.
 	scene = 5
