@@ -8904,7 +8904,7 @@ Back at the Training menu, try the Flight Basics tutorial to learn how to fly th
 <string id="443638"><![CDATA[stackDecoupler]]></string>
 <string id="443667"><![CDATA[RCSFuelTank]]></string>
 <string id="443690"><![CDATA[fuelTank]]></string>
-<string id="443707"><![CDATA[氧化剂]]></string>
+<string id="443707" noT="1"><![CDATA[Oxidizer]]></string>
 <string id="443724"><![CDATA[RCSBlock]]></string>
 <string id="443741"><![CDATA[solarPanels5]]></string>
 <string id="443766"><![CDATA[radialDecoupler]]></string>
@@ -8966,31 +8966,31 @@ Back at the Training menu, try the Flight Basics tutorial to learn how to fly th
 <string id="449830"><![CDATA[接下来，我们将添加一个RCS罐。 RCS就是反作用力控制系统，罐子里面装的就是动力源。
 
 进入 <color=]]></string>
-<string id="450100"><![CDATA[>Tanks</color> 标签并添加 <color=]]></string>
-<string id="450185"><![CDATA[>FL-R25 RCS Fuel Tank</color> 到分离器下面。]]></string>
+<string id="450100"><![CDATA[>燃料罐</color> 标签并添加 <color=]]></string>
+<string id="450185"><![CDATA[>FL-R25 RCS燃料罐</color> 到分离器下面。]]></string>
 <string id="450286"><![CDATA[tweakRCSTank]]></string>
 <string id="450311"><![CDATA[调整RCS载荷]]></string>
 <string id="450346"><![CDATA[你的飞行器用不完一整罐推进剂，所以要减少一些重量，<color=]]></string>
-<string id="450546"><![CDATA[>right-click</color> 部分得到它的选项，下将滑块移动到100个单元推进剂。
+<string id="450546"><![CDATA[>右击</color> 部分得到它的选项，下将滑块移动到100个单元推进剂。
 
-因为RCS使用的是单元推进剂，而大型火箭发动机使用两种推进剂（燃料和氧化剂），所以只有一种。
+因为RCS使用的是单元推进剂，而大型火箭发动机使用两种推进剂（燃料和氧化剂），所以选项里只有一项。
 
 RCS通常效率较低，但适合任何方向的较小速度的变化（而不是当成主引擎），并且可以用于旋转飞行器以及移动它。]]></string>
 <string id="451406"><![CDATA[addT100]]></string>
-<string id="451421"><![CDATA[添加推进剂贮箱]]></string>
+<string id="451421"><![CDATA[添加推进剂燃料箱]]></string>
 <string id="451462"><![CDATA[为抵消RCS的重量我们将在这一段安装一台末端发动机和适量的液体燃料，所以我们需要一个额外的油箱。
 
-所以加一个小火箭推进剂油箱（它是一个名为 <color=]]></string>
-<string id="451930"><![CDATA[>FL-T100 Fuel Tank</color>), ，然后添加一个中号的 (<color=]]></string>
-<string id="452057"><![CDATA[>FL-T400 Fuel Tank</color>) 在其下方]]></string>
+所以给这个一个小火箭加一个小的 （<color=]]></string>
+<string id="451930"><![CDATA[>FL-T100 燃料箱</color>）然后在添加一个中号的 (<color=]]></string>
+<string id="452057"><![CDATA[>FL-T400 燃料箱</color>) 在其下方]]></string>
 <string id="452132"><![CDATA[add909]]></string>
 <string id="452145"><![CDATA[添加小猎犬引擎]]></string>
-<string id="452186"><![CDATA[最后这级的主要部分，是增加一个引擎。“小猎犬”发动机在有大气压时几乎没有产生什么推力，但是在太空中会很高效（20公里的高空中大气足够薄到没有气动干扰）。这使得它是末端一个很好的选择，因此火箭未达到这种发动机良好的工作条件前不要激活它。 
+<string id="452186"><![CDATA[最后这级的主要部分，是增加一个引擎。“猎犬”发动机在常压下几乎没有什么推力，但是在太空中却很高效（20公里的高空中大气足够薄到没有气动干扰）。这使得它是末端一个很好的选择，因此火箭未达到这种发动机良好的工作条件前不要激活它。 
 
 如果你选择了错误的引擎，你随时可以把它扔掉，然后再试一次。
 
 添加 <color=]]></string>
-<string id="453240"><![CDATA[>LV-909 "Terrier"</color> 到罐子的底部。]]></string>
+<string id="453240"><![CDATA[>LV-909 "猎犬"</color> 到罐子的底部。]]></string>
 <string id="453345"><![CDATA[turnOnCoM]]></string>
 <string id="453364"><![CDATA[显示重心]]></string>
 <string id="453403"><![CDATA[做得很好！这一级组装得相当不错，不过要想进入轨道还需要继续努力。我们在这里已经有了这个简单的飞行器，让我们探讨探讨一个能够提供帮助的工具。
@@ -9000,27 +9000,27 @@ RCS通常效率较低，但适合任何方向的较小速度的变化（而不�
 这使得我们增加了一个工具，所以装配时需要显示这么一个有用而重要的标记给你。让我们看看这个指标是如何在这里工作的。
 
 <color=]]></string>
-<string id="455127"><![CDATA[>点击</color> 通讯指示开关，我们来玩一玩。这里有一张照片，与该指标突出显示。]]></string>
+<string id="455127"><![CDATA[>点击</color> 通讯指示器相应的开关，我们来玩一玩。这里有一张照片，突出显示的那个按钮。]]></string>
 <string id="455371"><![CDATA[moveCoM]]></string>
-<string id="455386"><![CDATA[看看 CoM]]></string>
+<string id="455386"><![CDATA[观察CoM]]></string>
 <string id="455413"><![CDATA[好吧，让我们调整一些燃料罐含量参数，看看它如何影响重心。
 
 <color=]]></string>
-<string id="455627"><![CDATA[>右击</color> 每个油箱并拖动燃料和氧化剂的含量下降到0（不碰单元推进剂的含量，因为“小猎犬”发动机不烧他们）。
+<string id="455627"><![CDATA[>右击</color> 每个油箱并拖动燃料和氧化剂的含量下降到0（不碰单元推进剂的含量，因为“猎犬”发动机不烧他们）。
 
 当你这样做，你会看到CoM移动。在飞行过程中容器的CoM也在以相同的方式移动，因为燃料一直燃烧，直到罐子烧空。]]></string>
 <string id="456331"><![CDATA[refillTank]]></string>
 <string id="456352"><![CDATA[重新装满罐子]]></string>
-<string id="456383"><![CDATA[好了，现在继续补充燃料罐，我们在对该级火箭在添加一些“配件”。
+<string id="456383"><![CDATA[好了，现在重新补充燃料罐，我们在对该级火箭在添加一些“配件”。
 
 我们将要放置的这些东西不是装饰品，是可以在进入轨道后帮助我们的东西。]]></string>
 <string id="456833"><![CDATA[placeRCS]]></string>
 <string id="456850"><![CDATA[在何处放置RCS推进器]]></string>
-<string id="456907"><![CDATA[现在你知道如何判断CoM的位置了对吧，进一步了解RCS推进器的信息。RCS推进器在指挥和控制标签中。
+<string id="456907"><![CDATA[现在你知道如何判断CoM的位置了对吧，进一步了解RCS推进器的信息。RCS推进器在操作和控制标签中。
 
 不旋转的移动飞船被称为“平移”。与另一个飞行器对接也会用到，所以这是一个很有用的机动。平移时为了避免不必要的旋转，你需要平衡CoM附近的推进器，使力的净总和在这个支点平衡。为此需要两组相同的推进器，每一组与CoM的距离相等，在CoM周围都要有（要看我们要干什么）。
 
-飞行的过程中CoM会一直变化，使得这个平衡点变得复杂。所以，你需要一个折中的办法找到从“湿”到“干”之间的CoM点。
+飞行的过程中CoM会一直变化，使得这个平衡点变得复杂。所以，你需要想办法找到从“湿”到“干”之间CoM的折中点。
 
 要注意，在游戏的职业生涯模式里，RCS推进器早期是不可用的。在此期间，只能利用指令仓内置的动量轮，虽然它不能让你平移，但有足够能力让你的飞船转弯。]]></string>
 <string id="459223"><![CDATA[placeRCS2]]></string>
@@ -9028,7 +9028,7 @@ RCS通常效率较低，但适合任何方向的较小速度的变化（而不�
 <string id="459293"><![CDATA[开启角度捕捉让我们调整推进器部件变得更容易。要做到这一点请通过点击左下角的捕捉图标切换或按 <color=]]></string>
 <string id="459603"><![CDATA[]</color> 键，确保我们有 <color=]]></string>
 <string id="459678"><![CDATA[>4x</color> 的对称性，然后将一组 <color=]]></string>
-<string id="459805"><![CDATA[>4 RV-105 RCS推进器模块</color> 放置在你现在的火箭上。
+<string id="459805"><![CDATA[>4 RV-105 RCS推进器模块</color> 放置在火箭的燃料罐上（放到指令仓或分离环上无效）。
 
 这种微小的火箭一定要放置到推进剂燃料罐正确的地方。 （你需要一个提示。）
 
@@ -9046,19 +9046,19 @@ RCS通常效率较低，但适合任何方向的较小速度的变化（而不�
 <string id="462537"><![CDATA[placeElec2]]></string>
 <string id="462558"><![CDATA[添加电池和太阳能电池板]]></string>
 <string id="462625"><![CDATA[切换到 <color=]]></string>
-<string id="462668"><![CDATA[>通用设备</color> 这个列表，这时我们把角度捕捉打开，并且仍在 <color=]]></string>
+<string id="462668"><![CDATA[>功能</color> 这个列表，这时我们把角度捕捉打开，并且仍在 <color=]]></string>
 <string id="462858"><![CDATA[>4x</color> 对称模式。
 
 我们利用之前学习过的调节技能。就是 <color=]]></string>
 <string id="463104"><![CDATA[]</color> 键，我们前面使用过的。
 
 抓住 <color=]]></string>
-<string id="463203"><![CDATA[>OX-STAT</color> 太阳能电池板，放置它在燃料箱的下端，然后按 <color=]]></string>
-<string id="463391"><![CDATA[]</color> 然后旋转90度。 <color=]]></string>
+<string id="463203"><![CDATA[>OX-STAT</color> 太阳能电池板，然后按 <color=]]></string>
+<string id="463391"><![CDATA[]</color> 旋转90度后放置在FL-T400燃料箱上（放到别的地方本任务无法继续）。<color=]]></string>
 <string id="463486"><![CDATA[>点击</color> 在放置一组。
 
-现在继续把一套4个 <color=]]></string>
-<string id="463650"><![CDATA[>Z-100</color> 电池放到太阳能电池板之间。]]></string>
+一共4个 <color=]]></string>
+<string id="463650"><![CDATA[>Z-100</color> 电池组到太阳能电池板之间。]]></string>
 <string id="463751"><![CDATA[summaryUpper]]></string>
 <string id="463776"><![CDATA[上阶段完成]]></string>
 <string id="463817"><![CDATA[优秀的工作。您已经完成了能在轨道探索的上面一级的建造。
@@ -9071,7 +9071,7 @@ RCS通常效率较低，但适合任何方向的较小速度的变化（而不�
 
 我们上升的过程中需要丢弃下面已经空掉的部分。
 
-哦，您注意到了没当添加分离器后整流罩会被放置在发动机周围？当我们分离时这些也会自动抛弃。]]></string>
+哦，您注意到了没当，添加分离器后整流罩会被放置在发动机周围？当我们分离时这些也会自动抛弃。]]></string>
 <string id="465244"><![CDATA[addLowerTanks]]></string>
 <string id="465271"><![CDATA[添加燃料罐]]></string>
 <string id="465290"><![CDATA[现在，我们需要这级添加燃料箱。
@@ -9087,108 +9087,108 @@ Let's get "Scientifical" for a second. Rocket engine performance is measured by 
 所以添加你看到的那个大的引擎 <color=]]></string>
 <string id="467383"><![CDATA[>LV-T45 "回旋"</color>到燃料罐的底部。]]></string>
 <string id="467525"><![CDATA[tweakT45]]></string>
-<string id="467542"><![CDATA[Tweak the Swivel]]></string>
-<string id="467575"><![CDATA[At its default thrust level, the "Swivel" is too powerful for the rocket we're creating (and for the ascent profile we're going to teach you in the "Go For Orbit" tutorial). So you'll need to lower its thrust level. This isn't as good a solution as picking a smaller, lighter engine with the thrust level we want, but, well, there are only so many options. 
+<string id="467542"><![CDATA[回旋的调整]]></string>
+<string id="467575"><![CDATA[在其默认的推力水平下，相对我们现在建造的火箭还说“回旋”太强大了（和上次教你的“入轨”教程一样）。所以你需要降低它的推力水平。这不是一个很好的解决方案，选择一个较轻的发动机与推力水平才是我们想要的，但是现在也没有这么多的选择。
 
 <color=]]></string>
-<string id="468309"><![CDATA[>Right-click</color> the "Swivel" and lower its thrust limiter to 65. It will then only produce 65% of its full thrust potential, but it will also run longer because it's only burning 65% as much fuel. ]]></string>
+<string id="468309"><![CDATA[>右击</color> “回旋”，降低其推力限制器（Thrust Limiter）项参数到65。它全推也只会产生65%的推力，但它也将能运行更长的时间，因为它燃烧65%的燃料。]]></string>
 <string id="468715"><![CDATA[addRadials]]></string>
-<string id="468736"><![CDATA[Add Radial Decouplers]]></string>
-<string id="468779"><![CDATA[Nice. You now have the core of your rocket completed, but as I said before, we'll also be adding boosters to help the sustainer engine get the rocket up and running.
+<string id="468736"><![CDATA[添加径向分离器]]></string>
+<string id="468779"><![CDATA[不错。你刚刚完成了火箭的核心部分，但正如我之前说的，我们还将添加一些助推器来帮助主引擎。
 
-We'll add two boosters symmetrically so that we keep our craft balanced, and to make sure we don't lug the useless dry mass of the boosters around after they burn out, we'll attach them using decouplers.
+我们将对称的加两个助推器，让我们的飞行器保持平衡，并确保助推器用完后我们不会继续挑着，等他们烧完后，我们将使用分离器抛弃他们。
 
-This time, however, we'll use radial decouplers so the boosters can sit beside our lower stage core instead of under it. That way, the sustainter and boosters can fire at the same time. 
+这一次，我们将使用径向分离这两个助推器，这样就可以放到低级火箭核心旁边。这样一来，发射时主引擎和助推器可以一同工作了。
 
-Select the <color=]]></string>
-<string id="469937"><![CDATA[>TT-38K Radial Decoupler</color> and add it in <color=]]></string>
-<string id="470046"><![CDATA[>2x</color> symmetry near the bottom of the lowest tank on the lower stage.]]></string>
+选择<color=]]></string>
+<string id="469937"><![CDATA[>TT-38K 径向分离器</color> 调整对称性到 <color=]]></string>
+<string id="470046"><![CDATA[>2x</color> 并安装到最下面的燃料罐附近。]]></string>
 <string id="470198"><![CDATA[addRT10s]]></string>
-<string id="470215"><![CDATA[Add SRBs]]></string>
-<string id="470232"><![CDATA["Moar Boosters" is something you often hear around the KSC, and now it's time to add some!
+<string id="470215"><![CDATA[添加固体助推器]]></string>
+<string id="470232"><![CDATA[“捡回来的助推器”，你在KSC周围经常能看到的东西，现在出去捡一些回来添加上去！
 
-Add a pair of <color=]]></string>
-<string id="470460"><![CDATA[>RT-10 "Hammer"</color> SRBs to the decouplers, so we have that extra kick early on.]]></string>
+添加一对<color=]]></string>
+<string id="470460"><![CDATA[>RT-10 "大锤"</color> 固推到分离器上，这样能给我们早期提供更大的推力。]]></string>
 <string id="470630"><![CDATA[tweakRT10s]]></string>
-<string id="470651"><![CDATA[Tweak SRB Thrust]]></string>
-<string id="470684"><![CDATA[Unlike LF (Liquid Fuel) engines, where you can adjust the throttle during flight, once you light an SRB, it burns at constant thrust till it's out of fuel. We can, however, use the throttle limiter as we did on the "Swivel" to set that constant thrust before we roll out to the launchpad.
+<string id="470651"><![CDATA[调整固推的推力]]></string>
+<string id="470684"><![CDATA[不像LF（液体燃料）发动机，你可以在飞行过程中调整油门，固推一旦点燃将一直燃烧保持恒定推力，直到它烧完燃料。但是我们可以使用限制器，就像调整“回旋”设置一样。
 
 <color=]]></string>
-<string id="471280"><![CDATA[>Right-Click</color> on one of the SRBs and change its thrust limiter to 50. Do note that changing a tweakable value on one part that's been placed using symmetry will have that same change applied to its symmetry counterparts.
+<string id="471280"><![CDATA[>右击</color> 两个固推之一，并改变其推力限制器参数至50.请注意，对称性具将会自动把参数应用到别的部分上。
 
-(Remember when I said I'd teach you how to make that pod-and-Thumper craft from Construction Basics survivable? Well, this thrust adjusting is how that could be done. Although you'd also have to put a decoupler on it.)]]></string>
+（还记得当我说我会教你如何使这种基本飞行器变得安全吗？嗯，这个推力调节是如何做到的。虽然你也会把它分离。）]]></string>
 <string id="472176"><![CDATA[addNosecones]]></string>
-<string id="472201"><![CDATA[Add Nose Cones]]></string>
-<string id="472230"><![CDATA[Right now the SRBs have flat, pancake tops, which is simply not a good look. Oh, and bad aerodynamically.
+<string id="472201"><![CDATA[添加头锥]]></string>
+<string id="472230"><![CDATA[现在固推的顶部平平的能煎饼，根本不好看。哦，还破坏空气动力学。
 
-Let's fix that by adding a pair of nose cones. <color=]]></string>
-<string id="472554"><![CDATA[>Nose cones</color> can be found in the <color=]]></string>
-<string id="472649"><![CDATA[>Aerodynamics</color> category, and you can add a pair of them using <color=]]></string>
-<string id="472803"><![CDATA[>2x</color> symmetry.]]></string>
+让我们来解决此问题，添加一双鼻锥。<color=]]></string>
+<string id="472554"><![CDATA[>鼻锥</color>可以在<color=]]></string>
+<string id="472649"><![CDATA[>空气动力学</color>类别中找到，您可以使用<color=]]></string>
+<string id="472803"><![CDATA[>2x</color>对称性。]]></string>
 <string id="472846"><![CDATA[addFins]]></string>
-<string id="472861"><![CDATA[Add Fins]]></string>
-<string id="472878"><![CDATA[While we're on that tab in the toolbox, let's add some fins too. Fins come in various sizes and styles, and as we learned earlier, will help stabilize your craft.
+<string id="472861"><![CDATA[添加翼]]></string>
+<string id="472878"><![CDATA[虽然我们在工具箱中的该选项卡上了，让我们添加一些翼吧。翼有各种大小和样式，早些时候，我们教程中讲过这将有助于稳定你的飞行器。
 
-Since these fins are control surfaces, they also add some extra control authority when low in the atmosphere, where the air is thick enough for them to have a helpful effect.
+因为这些翼添加了一些控制面，他们在有大气的地方有控制力，但在空气稀薄的地方就起不到什么作用了。
 
-Add the <color=]]></string>
-<string id="473590"><![CDATA[>AV-R8 Winglets</color> in <color=]]></string>
-<string id="473659"><![CDATA[>4x</color> symmetry near the bottom of the lowest fuel tank in the lowest stage, and make sure they don't intersect the decouplers and SRBs. If they do overlap those parts, any flight will be interesting, but exceptionally short.]]></string>
+添加 <color=]]></string>
+<string id="473590"><![CDATA[>AV-R8 型小翼</color> 对称性选 <color=]]></string>
+<string id="473659"><![CDATA[>4x</color> 放到最低的燃料箱的底部附近，并确保他们不与分离器上的固推相交。如果部件重叠，飞行会很有趣但行程极短。]]></string>
 <string id="474121"><![CDATA[changeStaging]]></string>
-<string id="474148"><![CDATA[Fix Staging]]></string>
-<string id="474171"><![CDATA[Excellent! We've now got all the components on our basic orbital rocket, but let's run through a few extra things before we call it a day.
+<string id="474148"><![CDATA[修改分级操作]]></string>
+<string id="474171"><![CDATA[非常好！轨道火箭所有组件我们已经装完了，我们在细致巡查一下就能收工了。
 
-Firstly, we should review the Staging Stack to check the order of actions and parts displayed there. It's lucky I've highlighted this for you, because the SRBs are set to fire before the sustainer, and that just won't do. You won't have enough thrust to get off the pad that way!
+首先，我们应该检查分级堆栈操作那里显示的顺序。我已经给你强调这个很幸运，因为只有助推器点火你是不会有足够的推力让火箭飞起来的 ！
 
-Move the Swivel's staging icon down into the same stage as the SRBs.
+拖动回旋图标下移到固推同一阶段。
 
-Note that the automatically created staging sequence would work if we did not want the long-burning sustainer to ignite at the same time as the high-thrust boosters, but since we do, we had to adjust it manually. ]]></string>
+请注意，自动创建的临时序列是将助推器和主引擎分开的，，但由于我们要同时点燃，我们不得不手动调整。 ]]></string>
 <string id="475581"><![CDATA[rotateVessel]]></string>
-<string id="475606"><![CDATA[Align for Launch]]></string>
-<string id="475639"><![CDATA[Finally, pick up the pod and rotate it 90 degrees around the vertical axis (Press <color=]]></string>
-<string id="475819"><![CDATA[]</color> or <color=]]></string>
-<string id="475860"><![CDATA[]</color>).
+<string id="475606"><![CDATA[对于对齐发射]]></string>
+<string id="475639"><![CDATA[最后，拿起吊舱并旋转90度（按<color=]]></string>
+<string id="475819"><![CDATA[]</color> 或 <color=]]></string>
+<string id="475860"><![CDATA[]</color>)。
 
-This will rotate the ship not just in the VAB, but also set its orientation when we go to the launchpad, so that our desired flight heading of east (compass 90) will be a matter of steering in the pitch (up-and-down) axis rather than yaw (right-and-left).
+这将不只是在旋转VAB内的飞船，也是设置其方向，当我们到发射场时，这样东 （指南针 90） 我们对飞行操作将会是在俯仰 （上下） 轴转向问题，而不是偏航 （右左）。
 
-By default, parts in the VAB are oriented so that they are aligned north.]]></string>
+默认情况下，零件在 VAB 是面向北排列。]]></string>
 <string id="476548"><![CDATA[actionEditor]]></string>
-<string id="476573"><![CDATA[Action Groups]]></string>
-<string id="476600"><![CDATA[We always make every effort to ensure our brave crew survive, and hopefully you will take the same stance in your space program. It doesn't always work out that way, of course, but it's the thought that counts. (At least to those of us not in the rocket at the time.) 
+<string id="476573"><![CDATA[动作组]]></string>
+<string id="476600"><![CDATA[我们总是尽一切努力确保我们勇敢的船员生存下来，并希望你的太空计划有着相同的立场。当然，并不总是安全的，但有个重要的前提，至少我们不在火箭上。
 
-With that in mind, let's set up an abort action group for your craft, for use in case of emergency. Note that in career mode, you'll have to upgrade the VAB or SPH in order to access action groups.
+考虑到这一点，让我们给你的飞行器建一个在紧急情况下用于中止行动的动作组。请注意，在生涯模式中，你要升级 VAB 或 SPH 才能访问这个动作组。
 
 <color=]]></string>
-<string id="477554"><![CDATA[>Click</color> on the turquoise action groups button on the left of the toolbar; it's part of a cluster of three buttons.]]></string>
+<string id="477554"><![CDATA[>单击</color> 在工具栏左侧的绿松石行动小组按钮;它的三个按钮的群集的一部分。]]></string>
 <string id="477798"><![CDATA[actionGroups]]></string>
-<string id="477823"><![CDATA[Action groups let you assign the functions of one or more parts to a single, specific key. There are some default action groups (landing gear automatically go in the gear group, brakes on wheels go in the brake group, etc.) and some custom ones activated by the keyboard (not keypad) numbers. Because of the order of these keys on standard boards, the action groups are numbered 1 through 9 and then 0.
+<string id="477823"><![CDATA[行动组能让你的单个按键分配激活一个或多个部件的功能。有一些默认行动组 （起落架自动转到齿轮组中，在车轮上的制动器转到在制动组等） 和一些自定义的键盘 （不是键盘） 的激活号码。由于这些标准板上的键的顺序，行动组编号 1 通过 9 和 0。
 
-To set up an action group, click on the desired action key from the menu, then click on the part you want to activate. The actions already assigned to that group appear in the Group Actions column, and the actions that can be assigned from the selected part appear in the Selection Column.
+若要设置一个行动小组，所需的操作重点从菜单上，单击然后点击您想要激活的部分。已经分配给该组的行动出现在组操作列，并且可以从所选部件分配操作将显示在选择列。
 
-To add and remove items, you simply click on them to move them left or right between columns. To clear all action group selections from a part, click Reset in the Selection column.
+要添加和移除项，你只需点击他们向左或右移动列之间。若要清除所有行动组选读部分，单击复位在选择列中。
 
-We're going to set up the Abort action group. It's triggered by pressing <color=]]></string>
-<string id="479739"><![CDATA[]</color> or by clicking the big red abort button in flight (it slides out from the left of the altitude panel at the top of the screen when you mouse over that area). First, <color=]]></string>
-<string id="480105"><![CDATA[>click</color> on the <color=]]></string>
-<string id="480164"><![CDATA[>Abort</color> button in the Action Groups column.]]></string>
+我们要成立中止行动小组。触发它按 <color=]]></string>
+<string id="479739"><![CDATA[]</color>或在飞行中通过单击大红色中止按钮 （当你鼠标停留在屏幕顶部的区域上方时滑出的海拔面板它在左边）。第一，<color=]]></string>
+<string id="480105"><![CDATA[>单击</color>关于<color=]]></string>
+<string id="480164"><![CDATA[>中止</color> 行动组列中的按钮。]]></string>
 <string id="480265"><![CDATA[actionAbort]]></string>
-<string id="480288"><![CDATA[Abort Group]]></string>
-<string id="480311"><![CDATA[Great! Now <color=]]></string>
-<string id="480348"><![CDATA[>click</color> on the decoupler right below the pod, and add its <color=]]></string>
-<string id="480494"><![CDATA[>Decouple</color> action to the group.
+<string id="480288"><![CDATA[放弃组]]></string>
+<string id="480311"><![CDATA[太好了 ！现在<color=]]></string>
+<string id="480348"><![CDATA[>单击</color> 在正下方指令仓，分离器并添加其 <color=]]></string>
+<string id="480494"><![CDATA[>分离</color> 该小组的行动。
 
-Then <color=]]></string>
-<string id="480599"><![CDATA[>click</color> on each liquid engine in turn and assign their <color=]]></string>
-<string id="480739"><![CDATA[>Shutdown</color> functions to the group. Finally, <color=]]></string>
-<string id="480856"><![CDATA[>click</color> on one of the radial decouplers and assign <color=]]></string>
-<string id="480988"><![CDATA[>Decouple</color> to the group. (Since these were placed with symmetry, applying the action to one radial decoupler will apply it to them all.) 
+然后 <color=]]></string>
+<string id="480599"><![CDATA[>单击</color> 对每种液体发动机反过来和分配其 <color=]]></string>
+<string id="480739"><![CDATA[>关闭</color> 到组的功能。最后， <color=]]></string>
+<string id="480856"><![CDATA[>单击</color> 上一个径向分离器和分配 <color=]]></string>
+<string id="480988"><![CDATA[>分离</color> 到组。（因为这些被放在与对称性，将操作应用于一个径向分离器将它对其应用所有。）
 
-Now when you trigger the abort action in flight, the engines will shut down (or, if they can't shut down, be decoupled), the capsule will separate from the rest of the ship, and it should be safe to land by itself. Remember to deploy your parachute once it's safe, however! (This may require staging a number of times, since the stage counter won't advance by itself when parts decouple before they are staged.)]]></string>
-<string id="482104"><![CDATA[And there we are! Your orbital rocket is ready to fly.
+现在当你在飞行时触发中止行动，引擎将关闭 （或，如果他们不能关闭，分离），胶囊会分开船，和它的其余部分应安全土地本身。别忘了它是安全的但是一旦打开降落伞 ！（这可能需要分期的次数，因为舞台计数器不会推进本身时部分分离之前他们上演。]]></string>
+<string id="482104"><![CDATA[还有我们 ！你轨道火箭是箭在弦上。
 
-It's been a long lesson (and thanks for hanging in there) in which we've covered lots of different advanced techniques for rocket construction.
+这是一个漫长的课（感谢你挂在那里），我们已经介绍了大量不同的火箭建造先进技术。
 
-Give the new ship a name and save it -- that's always a good practice. Then I recommend you try flying it in the "Go For Orbit" tutorial.
+给新船命名并保存它 — — 这始终是一个好的做法。然后我建议你试试"轨道"教程的驾驶它飞行。
 
 <color=]]></string>
 <string id="482800"><![CDATA[tutorialEditor_Most]]></string>
