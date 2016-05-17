@@ -9082,7 +9082,7 @@ RCS通常效率较低，但适合任何方向的较小速度的变化（而不�
 <string id="465640"><![CDATA[添加回旋引擎]]></string>
 <string id="465679"><![CDATA[我们的下面这段火箭需要一个主引擎。这台发动机将与助推器一起工作直到分离。
 
-Let's get "Scientifical" for a second. Rocket engine performance is measured by Specific Impulse (or Isp), and the Isp of an engine changes as the amount of atmospheric pressure around it changes. Just as the upper stage needed an engine that is good at the low air pressures of high altitudes, the lower stage will need boosters which are powerful at the higher air pressure of the low altitude of the launch pad. And to help carry the rocket through the transition from launch to upper stage, it will need a "sustainer" engine which usually sits between boosters and upper stage engines from a performance perspective, having a wide range in between the two.
+我们来学习第二次"科学"。火箭发动机性能由比冲量 （或 Isp），衡量火箭引擎燃料的能量效率的标准量。正如最上级阶段需要擅长高海拔低气压的发动机，低级阶段需要在发射台低海拔较高空气压力强大的助推器。从性能的角度来看这将需要一个“支撑”发动机加上助推器来帮助从发射过渡到上层的携带火箭，在两者之间的选择范围很宽。
 
 所以添加你看到的那个大的引擎 <color=]]></string>
 <string id="467383"><![CDATA[>LV-T45 "回旋"</color>到燃料罐的底部。]]></string>
