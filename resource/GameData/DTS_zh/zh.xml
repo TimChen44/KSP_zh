@@ -9168,22 +9168,22 @@ RCS通常效率较低，但适合任何方向的较小速度的变化（而不�
 添加和移除项，你只需点击他们就会向左或右在两列之间来回移动。若要清除所有行动组选读部分，在选择列中单击复位。
 
 我们现在要建立一个中止行动组。触发它按 <color=]]></string>
-<string id="479739"><![CDATA[]</color>或在飞行中通过单击大红色中止按钮 （当你鼠标停留在屏幕顶部的区域上方时会滑出一个面板，左边红色那个就是）。第一，<color=]]></string>
-<string id="480105"><![CDATA[>单击</color>关于<color=]]></string>
-<string id="480164"><![CDATA[>中止</color> 行动组列中的按钮。]]></string>
+<string id="479739"><![CDATA[]</color>或在飞行中通过单击大红色中止按钮 （当你鼠标停留在屏幕顶部的区域上方时会滑出一个面板，左边红色那个就是）。第一步，<color=]]></string>
+<string id="480105"><![CDATA[>单击</color>左侧行动组列中的<color=]]></string>
+<string id="480164"><![CDATA[>Abort</color> 按钮。]]></string>
 <string id="480265"><![CDATA[actionAbort]]></string>
 <string id="480288"><![CDATA[中止组]]></string>
 <string id="480311"><![CDATA[太好了 ！现在<color=]]></string>
-<string id="480348"><![CDATA[>单击</color> 在指令仓下方的分离器并添加其 <color=]]></string>
-<string id="480494"><![CDATA[>Decouple</color> 到操作小组中。
+<string id="480348"><![CDATA[>单击</color> 在指令仓下方的分离器并添加 <color=]]></string>
+<string id="480494"><![CDATA[>Decouple</color> 项到操作小组中。
 
 然后 <color=]]></string>
-<string id="480599"><![CDATA[>单击</color> 液体发动机并分配 <color=]]></string>
-<string id="480739"><![CDATA[>Shutdown</color> 到操作组。最后， <color=]]></string>
-<string id="480856"><![CDATA[>单击</color> 一个径向分离器并分配 <color=]]></string>
-<string id="480988"><![CDATA[>Decouple</color> 到操作组。（因为用了对称性，只须操作一个就会应用到所有径向分离器。）
+<string id="480599"><![CDATA[>单击</color> 液体发动机分配 <color=]]></string>
+<string id="480739"><![CDATA[>Shutdown Engine</color> 到操作组（回旋，猎犬两个都要）。最后， <color=]]></string>
+<string id="480856"><![CDATA[>单击</color> 径向分离器并分配 <color=]]></string>
+<string id="480988"><![CDATA[>Decouple</color> 到操作组。（因为分离器用了对称工具，所以只须操作一个就会应用到所有径向分离器。）
 
-现在当你在飞行时触发中止行动，引擎将关闭 （或把不能关闭固推分离），分离环会将飞船和其余部分分开保证安全。别忘了你还要打开它的降落伞才能安全哦！]]></string>
+现在当你在飞行时触发中止行动，引擎将关闭 （或把不能关闭固推分离），分离环会将飞船和其余部分分开保证安全。别忘了你还要手动打开它的降落伞才能安全哦！]]></string>
 <string id="482104"><![CDATA[还有我们 ！你的轨道火箭已经箭在弦上了。
 
 这是一个漫长的课（感谢你挂在那里），我们已经介绍了大量不同的先进火箭建造技术。
