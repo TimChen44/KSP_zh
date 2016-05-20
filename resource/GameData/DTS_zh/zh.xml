@@ -8277,129 +8277,130 @@ Cost: \F ]]></string>
 <string id="351249"><![CDATA[[Tutorial]: Could not find config node for GoForOrbit tutorial!]]></string>
 <string id="351376"><![CDATA[pitchTarget]]></string>
 <string id="351399"><![CDATA[欢迎 !]]></string>
-<string id="351414"><![CDATA[Today we will tackle an absolutely essential skill for any Space Program: Getting to Orbit. Without this skill we might as well be teaching you Kerbal Flight Simulator.
+<string id="351414"><![CDATA[今天我们将学习任何太空计划都要面临的一项必不可少的技能 ︰ 入轨。如果你不会，我们现在就会教你Kerbal 的模拟入轨飞行。
 
-I trust you've already checked the other Flight tutorials, as well as the Advanced Construction one to be familiar with the "Kerbal 1" vessel we will be launching today.
+我相信你已经学习过其他的飞行教程，以及所有的建造教程，我们将在今天发射的飞船就是你熟悉的"Kerbal 1号"。
 
-If not, I highly recommend you do so before going through this one.
+如果没有，我强烈建议你这样做之前回头学习一遍。
 
-If you want to go back and try the others, then press <color=]]></string>
+如果你想要回头学习，再试试其它的教程，按<color=]]></string>
 <string id="352358"><![CDATA[>[]]></string>
-<string id="352363"><![CDATA[]</color> and choose <color=]]></string>
-<string id="352420"><![CDATA[>End Scenario</color>. Otherwise press <color=]]></string>
-<string id="352513"><![CDATA[>Next</color> and we'll proceed.]]></string>
+<string id="352363"><![CDATA[]</color> 并选择 <color=]]></string>
+<string id="352420"><![CDATA[>结束场景</color>。否则请按<color=]]></string>
+<string id="352513"><![CDATA[>下一步</color> 然后我们会继续进行本教程。]]></string>
 <string id="352578"><![CDATA[flightPlan]]></string>
 <string id="352599"><![CDATA[飞行计划]]></string>
-<string id="352622"><![CDATA[Alrighty then, let's do it. As I said before, the plan here is to get our vessel (and pilot) safely into orbit.
+<string id="352622"><![CDATA[那么，让我们开始做吧。正如我之前所说，这次的飞行计划是让我们飞船 （飞行员） 安全地进入轨道。
 
-As with the suborbital flight we did previously, we will follow a curved path to get to the point where we can "circularize" our orbit. Today's "gravity turn", however, will be much shallower than the path we followed previously so that we build speed towards orbit.
+正如之前我拉所做的亚轨道飞行，我们将按照曲线路径飞上去，我们可以"将通报"我们的轨道。然而，今天的"重力转弯，"将会比我们以前跟着，我们建立的速度朝向轨道的路径要浅得多。
 
-This is different from how the Kerbal pilots of old did it, they would head straight up and then hang a right as if the air was soup or something. We'll be turning early and smoothly, but don't turn too far or you might be mistaken for one of those low-flying turkeys...
+不同于 Kerbal 老飞行员的做法，他们会直上，然后右转弯，仿佛空气是汤之类的东西。我们会早期顺利，但不要太远或你可能被误认为是那些低空飞行火鸡之一......
 
-As with the previous flight, I will place a target marker on the navball to show you the optimal velocity vector. But do note that this indicator won't be around normally, and is not usually used the way this tutorial uses it. I'll also display some technical information about your path as you go, to help you learn the right way to get there.
+开始飞行任务之前，我将目标标记到指示器上显示最优的速度向量。但是请注意此目标通常情况下是不存在的，目标标记并不像本教程中那样使用它。我也有教程介绍如何去正确使用它，你可以去看看。
 
-For now to set your throttle to the max (Press <color=]]></string>
-<string id="354730"><![CDATA[]</color>) and prepare to launch!]]></string>
+现在将你的节流阀设置调到最高 （按<color=]]></string>
+<string id="354730"><![CDATA[]</color>) 并准备发射 ！]]></string>
 <string id="354797"><![CDATA[准备就绪]]></string>
-<string id="354824"><![CDATA[You should now see the marker on the navball, so you'll have something to follow, and this ship has been designed so that you don't need to worry about throttle control during the ascent.
+<string id="354824"><![CDATA[现在您应该看到该标记已经在指示器上了，所以你只要跟着目标就行了，该艘飞船设计时已经对引擎进行了调整，所以你不必担心在上升过程中的节气门控制。
 
-Hit [Space] when you are ready to "Go for Orbit".
+你准备好"入轨"了就按 [Space]键 。
 
-If you want Valentina (the Kerbal pilot) to fly the curve for you, then you can enable S.A.S. and set the mode to <color=]]></string>
-<string id="355548"><![CDATA[>Target</color> after liftoff.]]></string>
+如果你想Valentina （Kerbal飞行员） 代替你驾驶飞船，那么你可以启用S.A.S.并选择模式里的<color=]]></string>
+<string id="355548"><![CDATA[>目标</color> 然后后升空。]]></string>
 <string id="355609"><![CDATA[liftoff]]></string>
 <string id="355624"><![CDATA[用你的方式]]></string>
-<string id="355647"><![CDATA[Don't worry about your throttle. You just need to pay attention to the target marker, and the proper times to stage. I'll prompt you along the way.
+<string id="355647"><![CDATA[别担心你的节流阀。你只需要注意目标标记和在适当的时间分离火箭。我会在飞行机动时提示你。
 
-Get ready to start pitching down once you reach 60m/s!]]></string>
+准备开始火箭的俯仰操作，一旦你达到 60m/s 就向下！]]></string>
 <string id="356055"><![CDATA[turnStart]]></string>
-<string id="356074"><![CDATA[Start Pitching]]></string>
-<string id="356103"><![CDATA[Time to start pitching down! Follow that target marker.
+<string id="356074"><![CDATA[开始俯仰]]></string>
+<string id="356103"><![CDATA[按照该目标标记开始向下 ！
 
-Don't worry about your throttle. You just need to pay attention to the target marker and the proper times to stage. I'll prompt you along the way.]]></string>
+别担心你的节流阀。你只需要注意目标标记和在适当的时间分离火箭。我会在飞行机动时提示你。]]></string>
 <string id="356511"><![CDATA[solidsNear]]></string>
-<string id="356532"><![CDATA[Get Ready to Stage]]></string>
-<string id="356569"><![CDATA[We are almost of our fuel in the SRBs, so get ready to eject them by staging.
+<string id="356532"><![CDATA[准备分段]]></string>
+<string id="356569"><![CDATA[我们准备用完固推的燃料了，所以准备将他们分离。
 
-You will need to press <color=]]></string>
-<string id="356789"><![CDATA[]</color> when its time.]]></string>
+您需要操作时请按<color=]]></string>
+<string id="356789"><![CDATA[]</color> 激活分离]]></string>
 <string id="356838"><![CDATA[solidsDone]]></string>
-<string id="356859"><![CDATA[Stage Away Boosters]]></string>
-<string id="356898"><![CDATA[Stage now to discard those empty SRBs.
+<string id="356859"><![CDATA[分离助推器]]></string>
+<string id="356898"><![CDATA[现在开始丢掉那些空固推。
 
-Hit <color=]]></string>
-<string id="357001"><![CDATA[]</color> now!]]></string>
+按<color=]]></string>
+<string id="357001"><![CDATA[]</color> 现在!]]></string>
 <string id="357030"><![CDATA[solidsGone]]></string>
-<string id="357051"><![CDATA[SRBs Away]]></string>
-<string id="357070"><![CDATA[You're doing great. Keep following the target indicator, and get ready to stage again to discard the lower stage.]]></string>
+<string id="357051"><![CDATA[固推分离了]]></string>
+<string id="357070"><![CDATA[你做得真棒。保持目标指示器，并准备再次分离最下面一级。]]></string>
 <string id="357298"><![CDATA[lowerNear]]></string>
-<string id="357317"><![CDATA[Staging Again]]></string>
-<string id="357344"><![CDATA[Stage now to get rid of the exhausted lower parts.
+<string id="357317"><![CDATA[再次分离]]></string>
+<string id="357344"><![CDATA[现在摆脱枯竭的下半部分。
 
-Hit <color=]]></string>
+现在按 <color=]]></string>
 <string id="357471"><![CDATA[]</color>!]]></string>
 <string id="357492"><![CDATA[lowerGone]]></string>
-<string id="357511"><![CDATA[Lower Stage Away]]></string>
-<string id="357544"><![CDATA[Stage again to ignite the Upper stage engine.]]></string>
+<string id="357511"><![CDATA[离开下面级]]></string>
+<string id="357544"><![CDATA[点燃上半段火箭的引擎。]]></string>
 <string id="357635"><![CDATA[upperLit]]></string>
-<string id="357652"><![CDATA[Upper Stage Lit - Go To Map]]></string>
-<string id="357707"><![CDATA[Excellent. You've survived through the first phase of the launch and now we have a longer, more gentle burn to accelerate towards apoapsis.
+<string id="357652"><![CDATA[上半段火箭点燃了 - 准备打开地图]]></string>
+<string id="357707"><![CDATA[非常好。你已经完成了这次发射的第一阶段，火箭用更长 更温柔的燃烧方式朝远拱点加速。
 
-If you switch to map mode (press <color=]]></string>
-<string id="358071"><![CDATA[]</color>) we can have a look at the trajectory of the rocket and watch the apoapsis rise as we gain speed.]]></string>
+如果你切换到地图模式 （按 <color=]]></string>
+<string id="358071"><![CDATA[]</color>) 我们可以看看火箭的轨迹，远拱点高度一直在增加，因为我们的速度在加快。]]></string>
 <string id="358287"><![CDATA[openNavball]]></string>
-<string id="358310"><![CDATA[While you are here, we do need to keep the vessel following the target indicator or we may not reach orbit. Don't forget that failure IS always an option.
+<string id="358310"><![CDATA[我们需要你在这里不断的让飞船跟随指示器的目标，我们不一定能达到预定轨道。但不要忘了，失败是成功的老妈。
 
-Press <color=]]></string>
-<string id="358650"><![CDATA[]</color> to bring up the navball and we can discuss your trajectory
+按 <color=]]></string>
+<string id="358650"><![CDATA[]</color> 调出导航球，我们可以讨论您的轨迹
 
-I'll keep altitude and apoapsis displays open so you can track your progress.]]></string>
+我会保持目前高度和远拱点高度的显示，以便您可以继续追踪。]]></string>
 <string id="358946"><![CDATA[seco]]></string>
 <string id="358955"><![CDATA[NavBall]]></string>
-<string id="358970"><![CDATA[Great. Now you can keep an eye on that trajectory while we track our future path.
+<string id="358970"><![CDATA[太好了。现在，您可以继续留意该轨迹未来的路径。
 
-If you hover over the apoapsis (Ap) node on the map, you will be able to see the estimated highest altitude on our future path. You can <color=]]></string>
-<string id="359424"><![CDATA[>right-click</color> on that marker to pin it  so that it remains visible even when you move your mouse away.
+如果你悬停在地图上的远拱点(Ap)节点,你将能够看到预计路径的最高海拔高度。你可以<color=]]></string>
+<string id="359424"><![CDATA[>右击</color> 该标记，这样，即使移动鼠标离开仍然可见。
 
-We need to keep burning along that path until we will clear the atmosphere by a handy margin. We'll aim for 80km.
+我们需要继续沿着这条路径飞行直到通过大气层。我们的目标高度是80km。
 
-Cut the engine (press <color=]]></string>
-<string id="359936"><![CDATA[]</color>) once the apoapsis hits 80km; I'll cut it for you once it passes 81km. Meanwhile I'll keep an altitude display open so you can track your progress ascending, and an apoapsis display to track your progress reaching an 80km Ap.]]></string>
+如须关闭引擎请（按 <color=]]></string>
+<string id="359936"><![CDATA[]</color>) 继续飞行让远拱点高度达到80km; 一旦它达到81km就自动关闭引擎。同时我会一直保持打开高度显示，以便您可以追踪你的飞船继续飞行上升到达 80km Ap节点。]]></string>
 <string id="360408"><![CDATA[coast]]></string>
-<string id="360419"><![CDATA[Coasting Along]]></string>
+<string id="360419"><![CDATA[惯性滑行]]></string>
 <string id="360448"><![CDATA[outOfAtmo]]></string>
-<string id="360467"><![CDATA[Warping Ahead]]></string>
-<string id="360494"><![CDATA[Now that we are clear of the atmosphere, we can warp ahead through time to get to the apoapsis more quickly. Important rocket scientists like us do not have time to waste!
+<string id="360467"><![CDATA[时间加速]]></string>
+<string id="360494"><![CDATA[我们在大气层缓慢飞行，我们可以通过加速时间提前到达远拱点。火箭科学家表示没有时间可以浪费！
 
-Press <color=]]></string>
-<string id="360868"><![CDATA[>Next</color> when you're ready and we'll warp till it's time to make our next burn.]]></string>
+按 <color=]]></string>
+<string id="360868"><![CDATA[>下一步</color> 当你准备好，我们就会加速，直到下一个阶段。]]></string>
 <string id="361038"><![CDATA[nearAp]]></string>
-<string id="361051"><![CDATA[Orient Your Vessel]]></string>
-<string id="361088"><![CDATA[We're almost there. Now all we need to do is accelerate some more so that we fall past Kerbin. That's basically what an orbit is: falling and missing. Gravity will be pulling us towards the center of Kerbin, but we'll be travelling so fast that we constantly miss.
+<string id="361051"><![CDATA[飞船定向]]></string>
+<string id="361088"><![CDATA[我们就快到了。现在我们需要做的就是一些更加快，我们下降，过去 Kerbin。这基本上就是什么轨道是 ︰ 下降和失踪。重力把我们拉向 Kerbin 中心，所以我们要快点，否则我们将错过这次旅行。
 
-Rotate your craft to align it with the prograde marker (We'll learn more about that later), or use S.A.S.'s <color=]]></string>
-<string id="361852"><![CDATA[>Manuever</color> mode. When it's time to throttle up, I'll tell you.]]></string>
+旋转你的飞行器与标记对齐 （关于这个我们以后将了解更多），或使用S.A.S.的<color=]]></string>
+<string id="361852"><![CDATA[>Manuever</color> 模式。当要调节节流阀的时候我会告诉你。]]></string>
 <string id="361992"><![CDATA[circularize]]></string>
 <string id="362015"><![CDATA[Circularize]]></string>
-<string id="362038"><![CDATA[Now throttle up!
+<string id="362038"><![CDATA[现在将节流阀推上去 ！
 
-I'll cut your engines once you've completed the burn I've calculated for you, or you can yourself once you're in a stable orbit.]]></string>
+一旦你进入一个稳定的轨道我就关掉你的引擎，或者你可以自己动手。]]></string>
 <string id="362332"><![CDATA[inOrbit]]></string>
-<string id="362347"><![CDATA[In Orbit]]></string>
-<string id="362364"><![CDATA[Congratulations! You are now officially in orbit. That is quite the achievement!
+<string id="362347"><![CDATA[在轨道上]]></string>
+<string id="362364"><![CDATA[恭喜！您现在正式进入轨道。那么大的成就！
 
-Hopefully you can see the difference between the suborbital hop and this reaching orbit ascent, and just how far (and early) we turned.
+希望你可以看到这次的飞行计划与那个亚轨道飞行的区别，之间的差异。
 
-Also, notice how we designed our rocket to accelerate reasonably through the ascent, and didn't go straight to "Ludicrous" speed. Over-powering the ship is a common rookie mistake.]]></string>
+另外，还要注意我们如何操作火箭通过合理加速上升，并没有直奔那种“可笑”的速度。新手常见的错误过度加速飞船。
+]]></string>
 <string id="363164"><![CDATA[summary]]></string>
 <string id="363179"><![CDATA[Summary]]></string>
-<string id="363194"><![CDATA[That's as far as I will be taking you today. We can catch up again in the Orbit 101 tutorial where I will show you about orbits and adjusting them.
+<string id="363194"><![CDATA[今天我就带您到这里了。我们可以在轨道教程里继续学习轨道的调整和飞行器对接等相关内容。
 
-If you want to fly solo for a bit you can also try bringing Valentina home from this tutorial flight. You will need to turn around 180 degrees and burn retrograde until your periapsis is less than 20km, at which height the atmosphere will do most of the braking for you. Stage away the upper stage when you hit the atmosphere's edge, orient retrograde, and re-enter like I taught you in the flight basics tutorial.
+这个教程到这就结束了，你可以继续单飞一下，你也可以尝试把Valentina带回家。您将需要180 度转身加速逆行，直到你的飞行速度小于 20 km，回到大气层大气会为你做大部分的制动。再入和后面的降落过程就像在飞行基础知识教程内容一样。
 
-Or simply choose <color=]]></string>
-<string id="364374"><![CDATA[>End Scenario</color> from the <color=]]></string>
-<string id="364451"><![CDATA[>Pause</color> menu and I'll see you later.]]></string>
+或者简单地选择 <color=]]></string>
+<string id="364374"><![CDATA[>结束场景</color> 它在<color=]]></string>
+<string id="364451"><![CDATA[>暂停</color> 菜单里，希望后面的教程我还能见到你。]]></string>
 <string id="364538"><![CDATA[Finish]]></string>
 <string id="364551"><![CDATA[ivaBonusPage]]></string>
 <string id="364576"><![CDATA[Internal View]]></string>
@@ -8422,10 +8423,10 @@ Return to External View by pressing []]></string>
 
 Press the Staging button on the bottom-left corner to return to the Staging Control Mode.]]></string>
 <string id="367209"><![CDATA[failBonusPage]]></string>
-<string id="367236"><![CDATA[Off Course]]></string>
-<string id="367257"><![CDATA[Aw, shucks, something went wrong here--you're way off course. You need to be quick about following the instructions. If you're having trouble controlling your vessel set it to S.A.S. follow target mode as I explained and let S.A.S. fly it for you; you'll just have to worry about staging. Once you've seen how it should be flown, then you can try flying on manual. Don't feel bad, it takes lots of practice!
+<string id="367236"><![CDATA[偏航]]></string>
+<string id="367257"><![CDATA[噢，天哪，在这里什么地方出了问题 — — 你的飞船偏离了航线。你需要快点按照提示操作。如果你控制飞船有麻烦将它设置为S.A.S.，选择目标飞行模式让飞船自动飞向目标;你只需要分级你的火箭。你会看到它如何飞行，然后你可以在尝试飞行计划。不要难过，你需要大量的练习 ！
 
-If you still have propellant left, you can try reaching orbit on your own. Or you can try aborting and landing safely--always a good skill to practice. Otherwise please restart the tutorial.]]></string>
+如果你没有用完推进剂，你可以尝试到达你自己的轨道。或者你也可以尝试一下中止任务（动作组）并安全着陆安全 — — 技能得到实践总是件好事。否则，请重新启动教程。]]></string>
 <string id="368457"><![CDATA[Found IVA Mode]]></string>
 <string id="368486"><![CDATA[Vessel Died]]></string>
 <string id="368509"><![CDATA[Found Docking Mode]]></string>
@@ -8433,11 +8434,11 @@ If you still have propellant left, you can try reaching orbit on your own. Or yo
 <string id="368575"><![CDATA[SolidFuel]]></string>
 <string id="368594"><![CDATA[m
 Apoapsis: ]]></string>
-<string id="368619"><![CDATA[And that's going to get us there. I've made sure the engine is shut off now and we'll coast till we clear the atmosphere at 70km altitude.
+<string id="368619"><![CDATA[我们将这样到达那里。我确信现在发动机关闭后，我们将继续上升飞行并通过70km高空的大气层。
 
-You may notice your speed dropping a little as we coast. That's nothing to be concerned about; it's just gravity trying to bring us down and air trying to prevent our success. We'll beat it though! You're looking good.
+我们关闭引擎后您可能会注意到速度在一点点下降。这没有什么可担心;只是引力试图把我们击倒并阻止我们成功。放心，我们会打败它！
 
-Meanwhile I'll keep an altitude display open so you can track your progress ascending to your apoapsis.
+同时我会保持高度显示打开，以便您可以跟踪你的进步提升到您的远拱点。
 
 Altitude: ]]></string>
 <string id="369571"><![CDATA[solidBooster]]></string>
