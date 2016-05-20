@@ -9722,22 +9722,22 @@ EVA的控制：
 ]]></string>
 <string id="549975"><![CDATA[滑行到远拱点]]></string>
 <string id="550016"><![CDATA[好！你的油门被切断了，所以我们开始滑行了。
- 
+
 我给你创建了一个环形轨道的节点，在“现实生活”中你都会规划自己要做的事。嘿，在这里我不能每一件小事都要管！
- 
+
 来吧，点击
 <color=]]></string>
 <string id="550498"><![CDATA[>下一步</color> 按钮，准备时间加速。]]></string>
 <string id="550640"><![CDATA[我们快到了。旋转你的飞行器与蓝色机动标记对齐。或使用S.A.S.的<color=]]></string>
 <string id="550878"><![CDATA[>Maneuver</color>模式（将你的飞船对齐节点）为您代劳。
- 
+
 一旦执行节点的时间到机动的一半左右，估计燃烧时间微调发动机工作。 （正如我们在先前教程讨论的，这使得机动更为有效和精确。）
- 
+
 如果搞不定，就顺向加速，以确保远、近拱点高度差不超过5公里足够接近圆形的轨道。]]></string>
 <string id="551764"><![CDATA[howToEject]]></string>
 <string id="551785"><![CDATA[如何返回]]></string>
 <string id="551812"><![CDATA[要从月球环绕到其他天体（或从地球轨道到太阳轨道），你必须达到一个逃逸速度，这点很重要，你在轨道上这样做了不少了。你要创建正确轨道确保飞船能达到逃逸速度。
- 
+
 切换到地图视图 (按<color=]]></string>
 <string id="552442"><![CDATA[]</color> key) if you're not there already. Zoom far enough out and rotate the camera to show all three objects--your ship, the Mun, and Kerbin--from above. Note your direction of travel in your orbit: if you're looking from the top, you're orbiting counter-clockwise. Next, check the direction of travel of the Mun in its orbit around Kerbin. Mun is orbiting in the same direction as you are: aligned with the rotation of the parent, a "prograde" orbit. 
 
