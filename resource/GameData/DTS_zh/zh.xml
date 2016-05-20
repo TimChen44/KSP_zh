@@ -9677,67 +9677,68 @@ Press <color=]]></string>
 <string id="543037"><![CDATA[>Revert Flight</color> to try again.]]></string>
 <string id="543110"><![CDATA[FromMun]]></string>
 <string id="543125"><![CDATA[[Tutorial]: Could not find config node for FromMun tutorial!]]></string>
-<string id="543246"><![CDATA[Welcome to From the Mun!
- 
-In our last lesson, we landed this craft on the Mun. Hopefully, your pilot had a chance to stretch her legs and look around; if not we'll start there. After that, we'll be heading home to Kerbin!
- 
-In this lesson I'll teach you how to take off from the Mun and reach a stable orbit, and then how to return from the Mun (or any moon) to its parent planet. Indeed, the same skill can be used to depart Kerbin towards other planets in the inner solar system. Lastly, I'll cover re-entering Kerbin at high velocity. (Heat shield: required!)
- 
-When you're ready we can review the flight plan.]]></string>
-<string id="544476"><![CDATA[Gone Walkabout]]></string>
-<string id="544505"><![CDATA[To send Valentina on Extra Vehicular Activities (EVA), click the EVA button on her portrait. Have her Jump off the craft and play with the experience of walking in munar gravity. When she's finished frolicking, turn her jetpack on and fly her up to the pod again. She can get back inside by grabbing the handles near the door and then hitting the keystroke to go back inside. Once you're back in the pod, or if you want to skip the EVA, click <color=]]></string>
-<string id="545407"><![CDATA[>Next</color>.
+<string id="543246"><![CDATA[欢迎学习往返Mun的课程 ！
 
-EVA Controls:
-		<color=]]></string>
-<string id="545486"><![CDATA[]</color>  : Surface Movement
-		<color=]]></string>
-<string id="545565"><![CDATA[]</color>  : Toggle Jetpack
-		<color=]]></string>
-<string id="545640"><![CDATA[]</color>  : Jetpack Up
-		<color=]]></string>
-<string id="545707"><![CDATA[]</color>  : Jetpack Down
-		<color=]]></string>
-<string id="545778"><![CDATA[]</color>  : Jetpack Movement]]></string>
-<string id="545837"><![CDATA[Ok, moving on. This return flight will have three distinct phases: ascent from the Mun's surface, trans-Kerbin injection, and transmunar re-entry. Once you've finished the first phase, establishing your low munar orbit, we'll cover the details for the next.
- 
-For now, here's what you're going to do (as always in these lessons, I'll add a target marker to assist your steering):
-	* Throttle up, then immediately pitch over, down the 90 degree heading line (which is east), following the marker.
-	* Cut the throttle when your apoapsis gets above 50km.
-	* Circularize at apoapsis.
- 
-This will be much simpler than when you did your Kerbin ascent in the Go For Orbit tutorial. The Mun has a much shallower gravity well than Kerbin, so you only need a single stage-- and not even all of that. Remember, this is the same stage you used to land on the Mun, and we're also going to use it to return home. Mun's gravity is so much weaker than Kerbin's, plus we're not being held back by an atmosphere, that this one stage will have the fuel capacity for this entire landing-and-return leg of the mission. ]]></string>
-<string id="548035"><![CDATA[I've placed the marker on your navball. When you're ready, throttle up to max (hit <color=]]></string>
-<string id="548217"><![CDATA[]</color>) and immediately start turning. Given your orientation when this tutorial begins, that will be by yawing.
- 
-Your thrust-to-weight ratio (TWR) is very high in the Mun's weak gravity, and again there's no atmosphere to worry about, so you can turn very, very sharply without risking disaster the way this flight path would on Kerbin. We'll be at only 6 degrees pitch by 40m/s. As always, you can use SAS's follow-target mode to follow the marker if you're having trouble.
- 
-So go ahead, throttle up, and start turning!]]></string>
-<string id="549271"><![CDATA[Up you go! Or rather, sideways you go!
+在我们的上一节课中登陆这个飞行器。我希望你的飞行员出仓去伸展一下她们的双腿，看看周围;然后返回到仓内。之后将出发回到Kerbin ！
 
-I'll track your apoapsis here so you don't have to swap to map view; cut your engine once it's ]]></string>
-<string id="549543"><![CDATA[m or more. I'll cut throttle for you if you get very distracted and the apoapsis goes beyond 100km.
+在这节课我会教你如何从Mun起飞到达一个稳定的轨道，然后如何从Mun轨道（或月亮）返回到母星。事实上，相同的技能也可以用于离开 Kerbin到达太阳系中其他行星那里。最后，我们会高速再入Kerbin。(隔热板︰ 需要 ！)
 
-Note: If your vertical velocity relative to the terrain goes negative, I'll have you pitch up to counteract that.
+当你准备好了，我们可以查看飞行计划。]]></string>
+<string id="544476"><![CDATA[出仓徒步旅行]]></string>
+<string id="544505"><![CDATA[若要 Valentina 宇航员出仓活动 (EVA)，请单击她肖像上的 EVA 按钮。让她跳下飞行器尝试在mun 的重力下行走。玩够了就打开她的喷射背包飞回到指令仓。她可以靠近门把手后抓住然后返回到仓内。一旦你回到仓内，或者您都不想出去，请单击<color=]]></string>
+<string id="545407"><![CDATA[>下一步</color>.
+
+EVA的控制：
+		<color=]]></string>
+<string id="545486"><![CDATA[]</color>  : 地面活动
+		<color=]]></string>
+<string id="545565"><![CDATA[]</color>  : 切换喷射背包
+		<color=]]></string>
+<string id="545640"><![CDATA[]</color>  : 喷射背包向上
+		<color=]]></string>
+<string id="545707"><![CDATA[]</color>  : 喷射背包向下
+		<color=]]></string>
+<string id="545778"><![CDATA[]</color>  : 喷射背包移动]]></string>
+<string id="545837"><![CDATA[好了，继续前进。回程飞行有三个不同的阶段：从Mun的表面升空到环绕轨道，加速提升轨道至Kerbin，以及Kerbin再入。一旦你已经完成了第一阶段，建立Mun 低轨道后，我们在来讨论后面的细节。
+ 
+现在，下面这些就是你要做的（在这个教程中我将添加一个目标标记，帮助您转向）：
+*向上推节流阀，然后立即俯仰调整飞船向船首线90度飞行（向东），跟随目标标记。
+*当你的远拱点到达50km上方时关闭节流阀。
+*在远拱点加速让飞船进入圆形轨道。
+ 
+你现在做的将比Kerbin入轨教程简单得多。Mun重力比Kerbin要低得多，所以你只需要火箭的一小段就完成发射到入轨的所有一切。记住，这不单单用于Mun，而我们也将用它回家。Mun的重力比起Kerbin的弱太多，再加上不受大气影响，这一小段火箭将会具备整个登陆 到 返回的能力。 ]]></string>
+<string id="548035"><![CDATA[我在你的指示器上设置了目标标记。当你准备好，节流阀推到最大（按<color=]]></string>
+<string id="548217"><![CDATA[]</color>) 并立即开始转向。由本教程开始时给出的方向偏航。
+
+你的推重比 （TWR） 对于Mun低引力来说是非常高的，再有就是没有大气，所以此次返回 Kerbin 不会发生什么的灾难性的事情。我们以40 m/s俯仰角度 6 度飞行 。一如既往，你可以使用 S.A.S. 的跟随目标模式。
+
+所以加油上吧，并开始转向 ！]]></string>
+<string id="549271"><![CDATA[飞起来了！或者说，横着飞吧！
+
+在这里我会跟踪显示远拱点，所以你不必切换到地图视图;一但到达目标高度，关掉你的引擎]]></string>
+<string id="549543"><![CDATA[米或更多。如果你分心超过了 100 km，我会替你关闭引擎。
+
+注 ︰ 如果垂直方向的速度相对于地形变为负值，就要向上来抵消。
 ]]></string>
-<string id="549975"><![CDATA[Coasting to Apoapsis]]></string>
-<string id="550016"><![CDATA[Ok! Your throttle is cut, so let's coast on up.
- 
-I've created the circularization node for you, but in "real life" you'll be doing that planning yourself. Hey, I can't manage every little thing around here!
- 
-Go ahead and click the <color=]]></string>
-<string id="550498"><![CDATA[>Next</color> button when you're ready and we'll warp to the maneuver.]]></string>
-<string id="550640"><![CDATA[We're almost there. Rotate your craft to align it with the blue manuever marker by yourself. or use the S.A.S. <color=]]></string>
-<string id="550878"><![CDATA[>Maneuver</color> mode (this aligns your ship with the node's burn vector) to do it for you.
- 
-Burn to execute the node once your time-to-maneuver is about half the estimated burn time. (As we discussed in a prior tutorial, this makes the burn more efficient and precise.) 
- 
-If all else fails, burn prograde to make sure your periapsis is no more than 5km lower than your apoapsis-- close enough to a circular orbit for our current purposes.]]></string>
+<string id="549975"><![CDATA[滑行到远拱点]]></string>
+<string id="550016"><![CDATA[好！你的油门被切断了，所以我们开始滑行了。
+ 
+我给你创建了一个环形轨道的节点，在“现实生活”中你都会规划自己要做的事。嘿，在这里我不能每一件小事都要管！
+ 
+来吧，点击
+<color=]]></string>
+<string id="550498"><![CDATA[>下一步</color> 按钮，准备时间加速。]]></string>
+<string id="550640"><![CDATA[我们快到了。旋转你的飞行器与蓝色机动标记对齐。或使用S.A.S.的<color=]]></string>
+<string id="550878"><![CDATA[>Maneuver</color>模式（将你的飞船对齐节点）为您代劳。
+ 
+一旦执行节点的时间到机动的一半左右，估计燃烧时间微调发动机工作。 （正如我们在先前教程讨论的，这使得机动更为有效和精确。）
+ 
+如果搞不定，就顺向加速，以确保远、近拱点高度差不超过5公里足够接近圆形的轨道。]]></string>
 <string id="551764"><![CDATA[howToEject]]></string>
-<string id="551785"><![CDATA[How To Return]]></string>
-<string id="551812"><![CDATA[To return from a moon to the body it orbits (or to eject from a planet into solar orbit), you must reach escape velocity, and it matters quite a lot when in your orbit you do so. You want to make sure the effort you expend to reach escape velocity creates the correct resultant orbit.
- 
-Switch to map view (<color=]]></string>
+<string id="551785"><![CDATA[如何返回]]></string>
+<string id="551812"><![CDATA[要从月球环绕到其他天体（或从地球轨道到太阳轨道），你必须达到一个逃逸速度，这点很重要，你在轨道上这样做了不少了。你要创建正确轨道确保飞船能达到逃逸速度。
+ 
+切换到地图视图 (按<color=]]></string>
 <string id="552442"><![CDATA[]</color> key) if you're not there already. Zoom far enough out and rotate the camera to show all three objects--your ship, the Mun, and Kerbin--from above. Note your direction of travel in your orbit: if you're looking from the top, you're orbiting counter-clockwise. Next, check the direction of travel of the Mun in its orbit around Kerbin. Mun is orbiting in the same direction as you are: aligned with the rotation of the parent, a "prograde" orbit. 
 
 We're going to eject opposite to the Mun's direction of travel, but we will be accelerating forward with respect to our own orbit around Mun in order to do that. Let's see how it's done.]]></string>
