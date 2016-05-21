@@ -9722,48 +9722,48 @@ EVA的控制：
 ]]></string>
 <string id="549975"><![CDATA[滑行到远拱点]]></string>
 <string id="550016"><![CDATA[好！你的油门被切断了，所以我们开始滑行了。
-
+ 
 我给你创建了一个环形轨道的节点，在“现实生活”中你都会规划自己要做的事。嘿，在这里我不能每一件小事都要管！
-
+ 
 来吧，点击
 <color=]]></string>
 <string id="550498"><![CDATA[>下一步</color> 按钮，准备时间加速。]]></string>
 <string id="550640"><![CDATA[我们快到了。旋转你的飞行器与蓝色机动标记对齐。或使用S.A.S.的<color=]]></string>
 <string id="550878"><![CDATA[>Maneuver</color>模式（将你的飞船对齐节点）为您代劳。
-
+ 
 一旦执行节点的时间到机动的一半左右，估计燃烧时间微调发动机工作。 （正如我们在先前教程讨论的，这使得机动更为有效和精确。）
-
+ 
 如果搞不定，就顺向加速，以确保远、近拱点高度差不超过5公里足够接近圆形的轨道。]]></string>
 <string id="551764"><![CDATA[howToEject]]></string>
 <string id="551785"><![CDATA[如何返回]]></string>
 <string id="551812"><![CDATA[要从月球环绕到其他天体（或从地球轨道到太阳轨道），你必须达到一个逃逸速度，这点很重要，你在轨道上这样做了不少了。你要创建正确轨道确保飞船能达到逃逸速度。
-
+ 
 切换到地图视图 (按<color=]]></string>
-<string id="552442"><![CDATA[]</color> key) if you're not there already. Zoom far enough out and rotate the camera to show all three objects--your ship, the Mun, and Kerbin--from above. Note your direction of travel in your orbit: if you're looking from the top, you're orbiting counter-clockwise. Next, check the direction of travel of the Mun in its orbit around Kerbin. Mun is orbiting in the same direction as you are: aligned with the rotation of the parent, a "prograde" orbit. 
+<string id="552442"><![CDATA[]</color> 键）。缩放视图到足够远并旋转镜头，在视图上能显示三个对象 ——你的飞船、Mun和Kerbin 。请注意您在轨道上行进方向：如果你从顶部看，你绕逆时针旋转。接下来，检查Mun的行进轨道方向与Kerbin的轨道方向。现在相同的轨道，你有：与父，一个“顺行”轨道的旋转对准。
 
-We're going to eject opposite to the Mun's direction of travel, but we will be accelerating forward with respect to our own orbit around Mun in order to do that. Let's see how it's done.]]></string>
+我们将弹出对面行驶的门的方向，但我们将关于加速推进我们自己的身边门轨道，为了做到这一点。让我们来看看它是如何做。]]></string>
 <string id="553730"><![CDATA[createReturn]]></string>
-<string id="553755"><![CDATA[Create the Return Node]]></string>
-<string id="553800"><![CDATA[Remove any existing nodes, then create a new node on your current Mun orbit. It doesn't matter where; we will be moving it to visualize the results of your burn homewards.
+<string id="553755"><![CDATA[创建返回节点]]></string>
+<string id="553800"><![CDATA[删除现有的节点，然后在当前Mun轨道的创建新节点。在哪都不要紧 ; 我们将利用这个节点离开Mun轨道。
 
-Drag the prograde handle until you have an escape trajectory (which means that your projected path leaves Mun's SOI). Now drag the node itself and watch as your Kerbin periapsis changes. You'll find that you have the lowest Pe when your ejection vector is parallel to Mun's orbital track but heading the opposite direction. (If the Kerbin Pe disappears under Kerbin's surface, drag on the retrograde handle to reduce the burn until you can see the Pe again. This will keep your reentry survivable.)
+拖动节点上的顺行标记手柄，直到出现逃逸轨迹（这意味着你预计出了离开Mun路径）。现在拖动节点本身并观察Kerbin的近拱点变化。平行于Mun的轨道上你会找用最低的 Pe弹射向量，但朝着相反的方向。（如果 Kerbin Pe 消失在 Kerbin 的表面下，拖动逆行标记手柄，减少燃烧，直到你可以再次见到 Pe 。这会保障你的再入安全。）
 
-You've now created an ejection maneuver which, despite being prograde in munar orbit, gives you a retrograde kick in terms of your eventual Kerbin orbit! You can use the same principle to travel to other planets from Kerbin, although there you'll need to be mindful of "transfer windows" (a term for the most efficient times to travel between planets).
+现在，您已经创建了一个弹射机动节点，尽管现在位于Mun轨道上顺行，最终会到Kerbin轨道逆行方向！您可以使用同样的原理用于从Kerbin到达其他行星，但你需要注意选择合理的“发射窗口”（一个术语，行星间旅行最有效率时间段）。
 
-Once you've set your Kerbin periapsis to be between 5km and 32km, click next to proceed. (You may need to fine-tune by adding radial-in or -out delta-V to the maneuver, or moving the node itself slightly).]]></string>
+设置好Kerbin 拱点 5km至32km之间，设好后点击下一步。 （您可能需要微调节点中三角形的径向机动，或微调移动节点本身）。]]></string>
 <string id="556266"><![CDATA[burnReturn]]></string>
-<string id="556287"><![CDATA[Eject!]]></string>
-<string id="556300"><![CDATA[Warp to and execute the maneuver node you've created. Once that's done, remove the node so we have a clear view of the ship's path. We rocket scientists like tidiness, and it's always good to clean up after yourself!
- 
-If the resulting orbit deviated from the plotted burn so much that Kerbin periapsis is below 5km or above 32km, you'll need to fine-tune your path with another burn to avoid a possibly disastrous re-entry. A maneuver node could help you to do that.
- 
-Once your periapsis is within those limits and you have cleared any remaining maneuver nodes, we'll continue.]]></string>
+<string id="556287"><![CDATA[弹出 ！]]></string>
+<string id="556300"><![CDATA[加速时间并到您已经创建的节点执行机动。一旦做完我们的飞船有了明确的飞行路径就移除节点。我们火箭科学家喜欢整洁，总是一点点都要收拾干净 ！
+
+如果跑过了头产生了轨道偏离，到达Kerbin的拱点低于 5 km或高于 32 km ，你需要在路径中在调整一次，以避免返回时可能发生的灾难性事件。机动节点可以帮助您做到这一点。
+
+一旦你的拱点在这些范围内，您可以清除剩余的机动节点，我们将继续。]]></string>
 <string id="557460"><![CDATA[warpToKerbin]]></string>
-<string id="557485"><![CDATA[The Long Road Home]]></string>
-<string id="557522"><![CDATA[Congratulations! You're on your way home.
- 
-Let's warp ahead until you're near Kerbin. <color=]]></string>
-<string id="557712"><![CDATA[>Click</color> on your orbit near, but at least a Kerbin's-radius away from periapsis, and choose <color=]]></string>
+<string id="557485"><![CDATA[漫长的回家路]]></string>
+<string id="557522"><![CDATA[恭喜！你在回家的路上。
+ 
+让我们加速时间，直到你在Kerbin附近。<color=]]></string>
+<string id="557712"><![CDATA[>点击</color> 出现在Kerbin轨道附近的拱点，并选择<color=]]></string>
 <string id="557924"><![CDATA[>Warp Here</color>. You could alternatively use the timewarp controls by pressing the <color=]]></string>
 <string id="558112"><![CDATA[]</color> key, but do remember to decrease warp as you approach; Kerbin's gravity speeds you up a lot as you get close!
  
