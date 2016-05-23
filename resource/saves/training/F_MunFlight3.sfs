@@ -1,8 +1,8 @@
 GAME
 {
 	version = 0.21.0
-	Title = 离开Mun
-	Description = 他们成功地在Mun安全着陆，本教程将介绍如何把勇敢的Kerbal船员从Mun带回家。
+	Title = 奔月III
+	Description = 前一课程他们已经成功地在Mun安全着陆，本教程将介绍如何把勇敢的Kerbal宇航员从Mun带回家。
 	Mode = 3
 	Status = 1
 	scene = 7
