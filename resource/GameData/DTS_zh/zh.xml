@@ -10188,71 +10188,71 @@ I suggest you use the navball to orient yourself instead of looking at the ship.
 <string id="617015"><![CDATA[[TutorialFSM Error]: State ]]></string>
 <string id="617070"><![CDATA[ is not a Tutorial Page. You can't call GoToNextPage from normal KFSMStates.]]></string>
 <string id="617224"><![CDATA[[TutorialFSM Error]: There is no previous state defined for ]]></string>
-<string id="617345"><![CDATA[. Make sure it's not the first page.]]></string>
-<string id="617418"><![CDATA[Hello and welcome to today's lecture on the Kerbal scientific method. I am ]]></string>
-<string id="617570"><![CDATA[, scientist extraordinaire. This tutorial doesn't really require any previous knowledge, but in order to gather science points you will have to acquaint yourself with almost every aspect of the game, so you should do them all at some point.
+<string id="617345"><![CDATA[。请确保它不是第一页。]]></string>
+<string id="617418"><![CDATA[您好，欢迎收看今天的Kerbal 科学方法讲座。 我是]]></string>
+<string id="617570"><![CDATA[，一个非凡科学家。本教程并不真正需要任何以前的知识，但为了收集科学点，你将要自己熟悉游戏中的每一个方面，所以你应该找些时间做完所有这些。
 
-We are now at the Kerbal Space Center. For a tour, see the Basic Construction tutorial. For now we'll focus on the Research and Development Complex.]]></string>
+我们现在是在Kerbal航天中心。关于飞行器建造请到基本建造教程中学习。现在，我们将专注复杂研究与发展。]]></string>
 <string id="618352"><![CDATA[rndBuilding]]></string>
 <string id="618375"><![CDATA[研究与发展部]]></string>
-<string id="618440"><![CDATA[The large complex nearest to you is the Research and Development Complex. This is where you will make use of the science points your missions award you to unlock more parts.
+<string id="618440"><![CDATA[这个离你最近的大型复杂的研究和开发部门。在这里，您将利用科学任务奖励为你解开更多的部件。
 
-Go ahead and click on it to see it in action.]]></string>
+来吧，点击它，看看效果。]]></string>
 <string id="618882"><![CDATA[insideRnD]]></string>
 <string id="618901"><![CDATA[研究与发展部内]]></string>
-<string id="618946"><![CDATA[Very good! What you see in the middle of the graph paper background is the Tech Tree. It shows how far your research has taken Kerbal technology.
+<string id="618946"><![CDATA[很好！你在方格背景中间看到的是科技树。它显示的是你在Kerbal目前研究的技术进度页面。
 
-You don't have much to show right now, because you're not a world-class scientist like myself. At least not yet. But I trust you have the potential to achieve great things.]]></string>
+你现在没有太多来展示，因为你不是一个像我这样的世界级科学家。至少目前还没有。但是，我相信你一定有实现这个的潜力。]]></string>
 <string id="619586"><![CDATA[unlockNextNode]]></string>
-<string id="619615"><![CDATA[Unlock a Node]]></string>
-<string id="619642"><![CDATA[In a typical career game, you will start with a few parts and have to earn the rest.
+<string id="619615"><![CDATA[解锁节点]]></string>
+<string id="619642"><![CDATA[在典型的职业发展游戏中，你将从几个很少部件开始，必须完成工作任务获得更多。
 
-For education's sake, I've gone ahead and given some data units to your space program, so you should have enough science to unlock the next node. The total of your current available science points is shown on the top right.
+因为教学的缘故，我已经先一步给予有一定的数据单元的太空计划，所以你应该有足够的科学点解锁下一个节点。您当前可用科学点的总量显示在右上角。
 
-Let's get cracking. Select any of the available grayed out nodes and <color=]]></string>
-<string id="620418"><![CDATA[>click</color> the blue <color=]]></string>
-<string id="620481"><![CDATA[>Research</color> button on the right pane. Some of your science points will be spent to buy that invention. ]]></string>
+让我们开始。选择任何可用变灰的节点并<color=]]></string>
+<string id="620418"><![CDATA[>点击</color> 那个蓝色 <color=]]></string>
+<string id="620481"><![CDATA[>科研</color> 按钮在右窗格中。花去一些科学点购买那项发明。 ]]></string>
 <string id="620701"><![CDATA[nodeUnlocked]]></string>
 <string id="620726"><![CDATA[科技解锁]]></string>
-<string id="620753"><![CDATA[Hooray! That's how research is done. You may have noticed that additional nodes were linked to the one you just researched, and are now available to be researched as well.
+<string id="620753"><![CDATA[万岁 ！就是这样进行研究。你可能已经注意到了另一个附加节点被链接到你刚刚研究节点上，并且现在是可以进行研究的。
 
-Don't know what to pick next? Don't worry; you can select a node at any time and useful information will be displayed in the right pane. This includes the new parts that it contains, and how much science is needed to research it.]]></string>
+不知道怎样选择下一步？别担心;你可以在任何时候选择一个节点，有用的信息将显示在右窗格中。这包括它包含了哪些新部件，需要多少科学点去研究它。]]></string>
 <string id="621559"><![CDATA[whereDoesIt]]></string>
-<string id="621582"><![CDATA[Where Does it Come From?]]></string>
-<string id="621631"><![CDATA[Now, you're probably thinking to yourself, "This is all nice and jolly, but how do I get more science?"
+<string id="621582"><![CDATA[这东西从哪里来？]]></string>
+<string id="621631"><![CDATA[现在，你自己可能在想，“这全部一切都有是多么美好，但我如何获得更多的科学点？”
 
-You can get more by doing many things, such as gathering crew reports from regions your Kerbals visit, fulfilling some kinds of contracts, collecting samples from various locations, equiping your ships with parts for experiments (such as the Mystery Goo Containment Unit) and using them, etc. There are many possibilities, really.
+你可以做很多事情，比如收集Kerbals船员的区域报告 ，履行合同这几种，飞船搭载实验部件 （如神秘咕咕单元） 在不同的地点部署收集样本等。有很多可能性，真的。
 
-Most of these actions are performed through "context menus" which are displayed when you right-click on various parts, and sometimes on Kerbals. Just keep in mind that your mission needs to transmit the results or survive a physical return to Kerbin in order for the raw data points to be converted into useful science.]]></string>
+大多数这些操作都是通过右键单击各部件显示"内容菜单"进行选择，有时是在 Kerbals 上执行。请记住，你需要将任务结果发送或安全返回 Kerbin 提交原始数据，以转换成有用的科学点。]]></string>
 <string id="623145"><![CDATA[situations]]></string>
-<string id="623166"><![CDATA[All of the activities I mentioned, and the many others you can discover, are tracked in a record for future reference. You can access these Science Archives by clicking the yellow button on the upper left. 
+<string id="623166"><![CDATA[所有我提到的活动和许多其他的。你可以发现跟踪记录以备将来参考。您可以通过单击左上角上的黄色按钮访问这些科学档案。
 
-Well, what are you waiting for? <color=]]></string>
-<string id="623662"><![CDATA[>Click</color> it!]]></string>
+你还在等什么？<color=]]></string>
+<string id="623662"><![CDATA[>点击</color> 它！]]></string>
 <string id="623699"><![CDATA[scienceArchives]]></string>
 <string id="623730"><![CDATA[科学档案]]></string>
-<string id="623763"><![CDATA[That's it! The first and most important thing to notice is the rugged good looks of this fellow in charge. You can also see which science activities you have already performed, when, with whom and how much science they earned for you.
+<string id="623763"><![CDATA[就是这样 ！要注意的第一个和最重要的一点是坚固耐用好看的这个家伙在充电。您还可以查看您已经执行的哪些科学活动和他们帮你赚到多少科学点。
 
-This is important, because you see, if you repeat the same experiment multiple times, its scientific value diminishes, because you already knew part of the answer.
+这一点很重要，因为你看如果你重复相同的实验多次，其科学价值会减少，因为你已经知道答案的一部分了。
 
-Mind you, as a result you will receive less science each time you repeat an action, until you get practically nothing for it all anymore.]]></string>
+你要知道，因此你重复的动作将收到更少科学点，直到你几乎得不到什么有用的了。]]></string>
 <string id="624841"><![CDATA[scienceArchivsPlanets]]></string>
-<string id="624884"><![CDATA[Another outstanding feature of the archives is that you can check which celestial bodies you have already visited and conducted experiments on or around.
+<string id="624884"><![CDATA[档案的另一个显著特征是，你可以检查哪些你已经去过并在周围进行实验的天体。
 
-You can do so by clicking the icon corresponding to the body that you're interested in.
+你可以通过单击对应图标打开您感兴趣的。
 
-For now, you will only see the records of the research I gave you, but once you start doing your own science, you will be able to check it here.]]></string>
+现在，你只会看到我给你的研究记录，但是一旦你开始做你自己的科学研究，你将能够在这里检查它。]]></string>
 <string id="625662"><![CDATA[Conclusion]]></string>
-<string id="625683"><![CDATA[That covers the basics of science.
+<string id="625683"><![CDATA[包含科学基础的知识。
 
-This is a theoretical class, and I'm sure it will all make a lot more sense when you go out and try it yourself.
+这是理论课，我确信只要你走出去，你将能学到更多，自己试试。
 
-Remember that science requires curiosity, so go out and experiment. And don't be discouraged if a mission doesn't go quite as planned; if you learn something new, it's not a complete failure.
+记住，科学需要人们的好奇心，所以走出去并做实验。如果一个任务不会完全按计划进行; 请不要灰心你学习到了新的东西，它并不是一个彻底的失败。
 
-If you're still feeling lost, feel free to try the other tutorials. I'm looking forward to your accomplishments.
+如果你仍然感到失落，随意尝试一下其他的教程。我期待着你的成就。
 
-I must continue my own research now. When you're done, show yourself out by using the red <color=]]></string>
-<string id="626793"><![CDATA[>Leave</color> button on the upper right.]]></string>
+现在我必须继续我自己的研究了。当你完成并想出去时，请使用红的<color=]]></string>
+<string id="626793"><![CDATA[>离开</color> 按钮退出，它在界面右上角。]]></string>
 <string id="626876"><![CDATA[archives]]></string>
 <string id="626893"><![CDATA[Archives_Wernher(Clone)]]></string>
 <string id="626940"><![CDATA[V ]]></string>
