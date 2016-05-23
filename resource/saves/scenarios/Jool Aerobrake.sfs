@@ -1,8 +1,8 @@
 GAME
 {
 	version = 1.1.0
-	Title = Jool Aerobrake
-	Description = Join the crew of the Inspiration of the Windward Spirit as they aerobrake in the Jool system!^^Just don't forget to retract the solar panels...
+	Title = Jool 航空减速装置
+	Description = 加入帆一样的散热系统船员觉得有一种乘风破浪的感觉 。^ ^ 只是不要忘记收回太阳能电池板...
 	linkURL = 
 	linkCaption = 
 	Mode = SCENARIO
