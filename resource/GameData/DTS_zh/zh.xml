@@ -9739,18 +9739,18 @@ EVA的控制：
 <string id="551812"><![CDATA[要从月球环绕到其他天体（或从地球轨道到太阳轨道），你必须达到一个逃逸速度，这点很重要，你在轨道上这样做了不少了。你要创建正确轨道确保飞船能达到逃逸速度。
  
 切换到地图视图 (按<color=]]></string>
-<string id="552442"><![CDATA[]</color> 键）。缩放视图到足够远并旋转镜头，在视图上能显示三个对象 ——你的飞船、Mun和Kerbin 。请注意您在轨道上行进方向：如果你从顶部看，你绕逆时针旋转。接下来，检查Mun的行进轨道方向与Kerbin的轨道方向。现在相同的轨道，你有：与父，一个“顺行”轨道的旋转对准。
+<string id="552442"><![CDATA[]</color> 键）。缩放视图到足够远并旋转镜头，在视图上能显示三个对象 ——你的飞船、Mun和Kerbin 。请注意您在轨道上行进方向：从顶部上看你现在是绕Mun逆时针旋转。接下来观察Mun与Kerbin的轨道方向，与母星是相同的轨道，一个“顺行”旋转的轨道。
 
-我们将弹出对面行驶的门的方向，但我们将关于加速推进我们自己的身边门轨道，为了做到这一点。让我们来看看它是如何做。]]></string>
+我们将弹出对面行驶的Mun的方向，但我们将关于加速推进我们自己的身边Mun轨道，为了做到这一点。让我们来看看要如何做。]]></string>
 <string id="553730"><![CDATA[createReturn]]></string>
 <string id="553755"><![CDATA[创建返回节点]]></string>
 <string id="553800"><![CDATA[删除现有的节点，然后在当前Mun轨道的创建新节点。在哪都不要紧 ; 我们将利用这个节点离开Mun轨道。
 
-拖动节点上的顺行标记手柄，直到出现逃逸轨迹（这意味着你预计出了离开Mun路径）。现在拖动节点本身并观察Kerbin的近拱点变化。平行于Mun的轨道上你会找用最低的 Pe弹射向量，但朝着相反的方向。（如果 Kerbin Pe 消失在 Kerbin 的表面下，拖动逆行标记手柄，减少燃烧，直到你可以再次见到 Pe 。这会保障你的再入安全。）
+拖动节点上的顺行标记手柄，直到出现逃逸轨迹（这意味着你预计出了离开Mun路径）。现在拖动节点本身并观察Kerbin的近拱点变化。大概平行于Kerbin与Mun之间的轨道上你会找到最低的 Pe弹射向量，但朝着相反的方向。（如果 Kerbin Pe 消失在 Kerbin 的表面下，拖动逆行标记手柄，减少燃烧，直到你可以再次见到 Pe 。这会保障你的再入安全。）
 
-现在，您已经创建了一个弹射机动节点，尽管现在位于Mun轨道上顺行，最终会到Kerbin轨道逆行方向！您可以使用同样的原理用于从Kerbin到达其他行星，但你需要注意选择合理的“发射窗口”（一个术语，行星间旅行最有效率时间段）。
+现在，您需要创建一个弹射机动节点，尽管现是在Mun轨道顺行，弹射到Kerbin轨道就变成了逆行方向！您可以使用同样的原理用于从Kerbin到达其他行星，但你需要注意选择合理的“发射窗口”（一个术语，行星间旅行最有效率时间段）。
 
-设置好Kerbin 拱点 5km至32km之间，设好后点击下一步。 （您可能需要微调节点中三角形的径向机动，或微调移动节点本身）。]]></string>
+设置好Kerbin 拱点 5km至32km之间，设好后点击下一步。 （您可能需要微调节点中顺向逆向机动，或微调移动节点本身）。]]></string>
 <string id="556266"><![CDATA[burnReturn]]></string>
 <string id="556287"><![CDATA[弹出 ！]]></string>
 <string id="556300"><![CDATA[加速时间并到您已经创建的节点执行机动。一旦做完我们的飞船有了明确的飞行路径就移除节点。我们火箭科学家喜欢整洁，总是一点点都要收拾干净 ！
@@ -9764,35 +9764,35 @@ EVA的控制：
  
 让我们加速时间，直到你在Kerbin附近。<color=]]></string>
 <string id="557712"><![CDATA[>点击</color> 出现在Kerbin轨道附近的拱点，并选择<color=]]></string>
-<string id="557924"><![CDATA[>Warp Here</color>. You could alternatively use the timewarp controls by pressing the <color=]]></string>
-<string id="558112"><![CDATA[]</color> key, but do remember to decrease warp as you approach; Kerbin's gravity speeds you up a lot as you get close!
- 
-We'll advance once your altitude drops below 120km. If you used auto-warp, you may want to manually increase timewarp to 5x or 10x once the automatic warp finishes in order to cover the last distance (assuming your auto-warp ended well before 120km altitude).]]></string>
+<string id="557924"><![CDATA[>时间加速至此</color>。您可以通过按下时间加速控件进行控制 <color=]]></string>
+<string id="558112"><![CDATA[]</color> 键，但千万记住，当你接近接近Kerbin的引力时就要减少时间加速;引力会加快你的飞船的速度！
+ 
+高度低于120公里我们会提前告知。如果您使用自动时间加速，接近后您可能需要手动修改到5倍或10倍时间加速。（假设你的自动加速点高度在120公里结束）。]]></string>
 <string id="558876"><![CDATA[prepForReentry]]></string>
-<string id="558905"><![CDATA[Prepare for Reentry]]></string>
-<string id="558944"><![CDATA[Just like I've taught you before, orient retrograde and stabilize, then turn SAS off, then decouple your last stage, and you'll be ready for re-entry.
- 
-Do that quickly, because you're descending fast!]]></string>
-<string id="559348"><![CDATA[Note that this time you do have a heat shield on the capsule: while it's just barely possible to survive a transmunar reentry without one, it's very dangerous indeed. Try coming back directly from anywhere farther than the Mun, and you'll be a crispy critter without a shield! 
+<string id="558905"><![CDATA[准备再入]]></string>
+<string id="558944"><![CDATA[就像我之前教你的，向东方逆行并稳定，然后打开SAS电源接着分离火箭，您就可以安全再入。
+ 
+做到这一点要快，因为你降得快！]]></string>
+<string id="559348"><![CDATA[请注意，这一次的返回指令仓带有隔热罩 ︰ 虽然没有这个隔热材料也勉强可以再入，但这是非常危险的。尝试直接从比Mun远的地方回来，你将会变成为一个脆皮动物 ！
 
-An alternative method to avoid excessive re-entry heat would be to maneuver into a parking orbit and/or make a braking burn, and then make a gentler, slower re-entry. That, however, would require a great deal of additional fuel-- and to be honest, is way less fun.
+这是一种替代方法，以避免再入时过度的热量将轨道飞行器和降落伞烧坏，使再入更温和更慢的速度重返大气层。当然，将需要大量的额外的燃料 — — 老实说，这个方式也是蛮好玩的。
 
-Because of the added mass of the heat shield (but no extra drag to compensate because it mounts flush with the pod), this ship won't be able to slow down as well as the pod would by itself. For that reason, your craft has a drogue parachute mounted to the side in addition to the main chute up top. Once the drogue chute icon shows 'safe' (no red or orange background), you can stage to deploy it.
+这艘船本身无法自行减速，由于隔热罩 （因为它的尺寸与挂载的指令仓齐平所以没有提供额外的阻力） 又附加一定重量。出于这个原因，你的飞行器另外多装了一个径向减速降落伞。一旦降落伞图标显示“安全” （没有红色或橙色的背景），你就可以部署它。
 
-Drogue parachutes are weaker braking devices, but work at higher speeds and altitudes than regular parachutes can, in order to slow the ship to the point where it's safe to use the more powerful normal parachutes. So once the drogue is doing its part of the job, we'll continue.]]></string>
+这种减速降落伞装置制动效果较弱，但能工作在更高的速度和海拔高度，比常规的慢点才能安全正常打开的降落伞更强大。所以一旦径向减速降落伞工作，我们将继续。]]></string>
 <string id="561794"><![CDATA[drogueDep]]></string>
-<string id="561813"><![CDATA[Drogue Away!]]></string>
-<string id="561838"><![CDATA[Ok, your drogue parachute is staged. Once the main parachute also shows safe, stage again to arm or deploy it as well, and then we'll continue.
+<string id="561813"><![CDATA[减速伞部署]]></string>
+<string id="561838"><![CDATA[很好，你的减速降落伞已经部署了。一旦主降落伞也显示安全，再次部署，然后我们将继续。
 
 
-If for some reason your drogue fails(and goes to the cut state-- red chute icon on any color background) you still have a chance: you might slow down to a safe enough speed to deploy your main parachute even without the drogue. Fingers crossed!]]></string>
+如果由于某种原因，你的减速伞打开失败（图标变成红色），你还是有机会的：即使没有部署减速伞，主降落伞也可能会放慢到一个足够安全的速度。祝你好运！]]></string>
 <string id="562620"><![CDATA[mainDep]]></string>
-<string id="562635"><![CDATA[And Now We Wait]]></string>
-<string id="562666"><![CDATA[With everything staged and activated, there's nothing more to do but wait.]]></string>
-<string id="562816"><![CDATA[Hurrah! Home Safe!]]></string>
-<string id="562853"><![CDATA[Congratulations! You've successfully returned from the Mun! A ticker-tape parade would be held in your honor... if this weren't a training simulation. Instead you'll just have to go and do a real Mun mission in your own career or sandbox save!
+<string id="562635"><![CDATA[现在我们等待]]></string>
+<string id="562666"><![CDATA[所有阶段都已经激活，现在除了等没别的可做了。]]></string>
+<string id="562816"><![CDATA[好耶 ！平安回家 ！]]></string>
+<string id="562853"><![CDATA[祝贺你 ！您已经成功地从Mun 返回 ！如果这不是模拟训练将会举行盛大欢迎游行。你可以去职业生涯或沙箱完成这个使命 ！
 
-When you're ready, open the pause menu to either end or restart this scenario. And once again: well done!]]></string>
+当你准备好退出任务请选择结束场景。 做得很好 ！]]></string>
 <string id="563555"><![CDATA[Thats as far as I will be taking you today. We can catch up again in the Orbit 101 tutorial where I will show you about orbits and adjusting them.
 
 If you want to fly solo for a bit you can also try bringing Valentina home. You will need to turn around 180 degrees and burn retrograde until your periapsis is less than 20km. Stage away the upper stage when you hit the atmosphere's edge, orient retrograde and reenter like I taught you in the Flight Basics tutorial.

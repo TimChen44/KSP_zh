@@ -1,8 +1,8 @@
 GAME
 {
 	version = 1.1.0
-	Title = Refuel at Minmus
-	Description = Criske Kerman was a little over enthusiastic with the Aeris 4B, now she's stuck in orbit.^^Luckily there's a refuelling ship nearby.
+	Title = 在 Minmus 加油
+	Description = Criske Kerman 与Aeris 4B现在被困在了轨道上，^ ^ 幸运的是附近有加油船 。
 	linkURL = 
 	linkCaption = 
 	Mode = SCENARIO

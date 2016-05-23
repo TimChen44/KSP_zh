@@ -1,8 +1,8 @@
 GAME
 {
 	version = 1.1.0
-	Title = Prospecting Eeloo
-	Description = Prospect for ore on lonely Eeloo with this orbiting survey platform, complete with lander and ground-truthing rovers.
+	Title = Eeloo 勘探
+	Description = 用轨道上的勘测平台对孤独 Eeloo 进行勘探，并完成探测器着陆和对地面实况调查。
 	linkURL = 
 	linkCaption = 
 	Mode = SCENARIO

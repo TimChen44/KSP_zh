@@ -1,8 +1,8 @@
 GAME
 {
 	version = 1.1.0
-	Title = EVA on Duna
-	Description = Susa Kerman is exploring the red planet. Can you bring her home?^^Her ship is rather basic, so be careful...
+	Title = EVA 小行星
+	Description = Susa Kerman 正在探索这颗红色星球。你可以带她回家吗？^^ 她的飞船相当简陋，所以要小心...
 	linkURL = 
 	linkCaption = 
 	Mode = SCENARIO
