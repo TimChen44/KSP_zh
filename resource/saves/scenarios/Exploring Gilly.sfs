@@ -1,8 +1,8 @@
 GAME
 {
 	version = 1.1.0
-	Title = Exploring Gilly
-	Description = Where's the best place to try out the new MoonScoot 3000?^^Gilly of course!
+	Title = 探索 Gilly
+	Description = 哪里尝试新的奔月 3000？ ^ ^ Gilly是最好的地方 ！
 	linkURL = 
 	linkCaption = 
 	Mode = SCENARIO

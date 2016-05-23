@@ -1,8 +1,8 @@
 GAME
 {
 	version = 1.1.0
-	Title = Mun Rover
-	Description = Explore the landscape of Kerbin's nearest neighbour in this RCS-assisted rover.
+	Title = Mun 探测车 
+	Description = 利用这种RCS助力探测车探索Kerbin最近的邻居。
 	linkURL = 
 	linkCaption = 
 	Mode = SCENARIO

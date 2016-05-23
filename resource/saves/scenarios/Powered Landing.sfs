@@ -1,8 +1,8 @@
 GAME
 {
 	version = 1.1.0
-	Title = Powered Landing
-	Description = Bring the Homeseeker flyback booster to a gentle landing at the KSC so it can be refuelled and used again.^^What do you mean it's hard? It's not like we're asking you to land on something small.^^Like a boat!
+	Title = 动力着陆
+	Description = 利用Homeseeker 反激式助推器温柔的降落在 KSC 航天中心，它可以加油并再次使用。^ ^ 你觉得很难？告诉你降落的东西很少 → .. → 它就像一条小船 ！
 	linkURL = 
 	linkCaption = 
 	Mode = SCENARIO

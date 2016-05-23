@@ -1,8 +1,8 @@
 GAME
 {
 	version = 1.1.0
-	Title = Dynawing Re-entry
-	Description = It's over 1000 Km to the KSC, we've got a half tank of monoprop, it's dawn, and we're wearing space suits.^^Hit it.
+	Title = 航天飞机再入
+	Description = 还有 1000 Km就到KSC航天中心了，我们的推进剂还有一半，现在是黎明，我们穿着宇航服。 ^ ^ 打它。
 	linkURL = 
 	linkCaption = 
 	Mode = SCENARIO

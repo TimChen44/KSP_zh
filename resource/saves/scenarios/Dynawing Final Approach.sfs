@@ -1,8 +1,8 @@
 GAME
 {
 	version = 1.1.0
-	Title = Dynawing Final Approach
-	Description = The Dynawing is on final approach to the KSC runway. All you have to do is land her.^^Preferably in one piece!
+	Title = 航天飞机最后进场
+	Description = 航天飞机正在靠近KSC航天中心的跑道。你最好能让一个整体着陆 ^ ^  ！
 	linkURL = 
 	linkCaption = 
 	Mode = SCENARIO
