@@ -1,14 +1,15 @@
 GAME
 {
-	version = 0.21.0
-	Title = 飞船建造基础
-	Description =欢迎来到由著名航天科学家Wernher von Kerman亲自指导的教程，内容涵盖飞船装配大楼内的基本操作。接下来的时间他将会对你严格要求，可别想随随便便地糊弄过去哦！
-	Mode = 3 
+	version = 1.0.0
+	Title = 入门基础火箭建造
+	Description = 教程由著名火箭专家Wernher von Kerman亲自在装配大楼展示火箭建造的基础知识。他已经在那里等着你了。不要拖拖拉拉 ！
+	Mode = SANDBOX
     // scene to load when starting this save.
-	scene = 6
+	scene = 5
 	flag = Squad/Flags/default
 	PARAMETERS
 	{
+		preset = Custom
 		EDITOR
 		{
 			CanLeaveToSpaceCenter = False
@@ -18,7 +19,7 @@ GAME
 		{
 			CanQuickSave = False
 			CanQuickLoad = False
-			CanAutoSave = False
+			CanAutoSave = True
 			CanUseMap = True
 			CanSwitchVesselsNear = False
 			CanSwitchVesselsFar = False
@@ -32,7 +33,22 @@ GAME
 			CanLeaveToTrackingStation = False
 			CanLeaveToSpaceCenter = False
 			CanLeaveToMainMenu = True
-		}		
+		}
+		SPACECENTER
+		{
+			CanGoInVAB = False
+			CanGoInSPH = False
+			CanGoInTrackingStation = False
+			CanLaunchAtPad = False
+			CanLaunchAtRunway = False
+			CanLeaveToMainMenu = True
+			CanGoToRnD = False
+			CanGoToAstronautC = False
+			CanGoToAdmin = False
+			CanGoToMissionControl = False
+			CanSelectFlag = False
+			
+		}
 		DIFFICULTY
 		{
 			MissingCrewsRespawn = True
@@ -43,7 +59,7 @@ GAME
 		// the name of the ScenarioModule class to spawn
 		name = TutorialEditor
 		// the scene in which the module gets spawned (7 = flight)
-		scene = 6
+		scene = 5, 6
 	}
 	FLIGHTSTATE
 	{
@@ -53,38 +69,94 @@ GAME
 	}
 	ROSTER
 	{
-		CREW
+		KERBAL
 		{
 			name = Jebediah Kerman
+			gender = Male
+			type = Crew
+			trait = Pilot
 			brave = 0.5
 			dumb = 0.5
 			badS = True
-			state = 0
-			ToD = 7663.07999999987
+			tour = False
+			state = Available
+			ToD = 0
 			idx = 0
+			CAREER_LOG
+			{
+				flight = 1
+				0 = Recover
+			}
+			FLIGHT_LOG
+			{
+				flight = 1
+			}
 		}
-		CREW
+		KERBAL
 		{
 			name = Bill Kerman
+			gender = Male
+			type = Crew
+			trait = Engineer
 			brave = 0.5
 			dumb = 0.8
 			badS = False
-			state = 0
-			ToD = 13100736.3688264
-			idx = 1
+			tour = False
+			state = Available
+			ToD = 0
+			idx = -1
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
 		}
-		CREW
+		KERBAL
 		{
 			name = Bob Kerman
+			gender = Male
+			type = Crew
+			trait = Scientist
 			brave = 0.3
 			dumb = 0.1
 			badS = False
-			state = 0
-			ToD = 7838.27999999971
-			idx = 1
+			tour = False
+			state = Available
+			ToD = 0
+			idx = -1
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
 		}
-		APPLICANTS
+		KERBAL
 		{
+			name = Valentina Kerman
+			gender = Female
+			type = Crew
+			trait = Pilot
+			brave = 0.55
+			dumb = 0.4
+			badS = True
+			tour = False
+			state = Available
+			ToD = 0
+			idx = -1
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
 		}
 	}
 }

@@ -1,8 +1,8 @@
 GAME
 {
 	version = 1.0.0
-	Title = 轨道一号
-	Description = 这个教学关卡包含了驾驶轨道飞行器的重要概念和基本操作例如：近拱点和远拱点的涵义及改变他们的方法。玩家将从Kerbin低轨上的“轨道一号”飞船开始探索轨道的奥秘。
+	Title = 轨道1号
+	Description = 该培训场景涵盖飞行航天器在轨道上的基础知识 ︰ 基本动作像升降远拱点和近拱点，还有像“远拱点”和“拱点”这个术语的意思。开始时，会在Kerbin周围的低圆形轨道 ，轨道飞行器1号蓄势待发。 
 	linkURL = 
 	linkCaption = 
 	Mode = 3
@@ -4528,12 +4528,12 @@ GAME
 					isEnabled = True
 					persistentState = STOWED
 					minAirPressureToOpen = 0.01
-					deployAltitude = 500
+					deployAltitude = 1000
 					minAirPressureToOpen_UIFlight
 					{
 						controlEnabled = True
 						minValue = 0.01
-						maxValue = 0.5
+						maxValue = 0.75
 						stepIncrement = 0.01
 					}
 					deployAltitude_UIFlight

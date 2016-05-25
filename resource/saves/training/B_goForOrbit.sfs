@@ -2,7 +2,7 @@ GAME
 {
 	version = 1.1.0
 	Title = 入轨飞行
-	Description = Gene Kerman 用先前建造的飞船开设了一个教你去如何操作飞船入轨的课程。将会让你有很大的进步 ！
+	Description = Gene Kerman用先前建造的飞船开设了一个教你去如何操作飞船入轨的课程。将会让你有很大的进步 ！
 	Mode = 3
 	scene = 7
 	flag = Squad/Flags/default

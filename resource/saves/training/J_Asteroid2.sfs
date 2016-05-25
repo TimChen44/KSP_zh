@@ -1,7 +1,7 @@
 GAME
 {
 	version = 1.0.0
-	Title = 捕获小行星II
+	Title = 捕获小行星Ⅱ
 	Description = 第二部分是如何捕获附近小行星以及决定其用途。
 	Mode = 3
 	scene = 7
@@ -10,8 +10,8 @@ GAME
 	{
 		FLIGHT
 		{
-			CanQuickSave = True
-			CanQuickLoad = True
+			CanQuickSave = False
+			CanQuickLoad = False
 			CanAutoSave = True
 			CanUseMap = True
 			CanSwitchVesselsNear = False
@@ -744,7 +744,7 @@ GAME
 				RESOURCE
 				{
 					name = Oxidizer
-					amount = 1760
+					amount = 0
 					maxAmount = 1760
 					flowState = True
 					isTweakable = True
@@ -2139,7 +2139,7 @@ GAME
 				RESOURCE
 				{
 					name = Oxidizer
-					amount = 55
+					amount = 0
 					maxAmount = 55
 					flowState = True
 					isTweakable = True
@@ -2455,7 +2455,7 @@ GAME
 				RESOURCE
 				{
 					name = Oxidizer
-					amount = 55
+					amount = 0
 					maxAmount = 55
 					flowState = True
 					isTweakable = True
@@ -2771,7 +2771,7 @@ GAME
 				RESOURCE
 				{
 					name = Oxidizer
-					amount = 55
+					amount = 0
 					maxAmount = 55
 					flowState = True
 					isTweakable = True
@@ -3087,7 +3087,7 @@ GAME
 				RESOURCE
 				{
 					name = Oxidizer
-					amount = 55
+					amount = 0
 					maxAmount = 55
 					flowState = True
 					isTweakable = True
