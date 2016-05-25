@@ -1,8 +1,8 @@
 GAME
 {
 	version = 0.21.0
-	Title = 捕获小行星I
-	Description = 捕获小行星任务将带领玩家了解捕获小行星的全部过程，第一部分是如何变轨以与小行星交会。
+	Title = 捕获小行星Ⅰ
+	Description = 捕获小行星任务将带领玩家了解捕获小行星的全部过程，第一部分是如何变轨以与小行星交会
 	Mode = 3
 	scene = 7
 	flag = Squad/Flags/default
@@ -10,8 +10,8 @@ GAME
 	{
 		FLIGHT
 		{
-			CanQuickSave = True
-			CanQuickLoad = True
+			CanQuickSave = False
+			CanQuickLoad = False
 			CanAutoSave = True
 			CanUseMap = True
 			CanSwitchVesselsNear = False
@@ -96,7 +96,7 @@ GAME
 			{
 				SMA = 900005.621660407
 				ECC = 0.100034226434928
-				INC = 4.18261957830375E-06
+				INC = 4.18261957830375E-03
 				LPE = 156.993906862297
 				LAN = 202.981557966175
 				MNA = 0.405415427706269
@@ -742,7 +742,7 @@ GAME
 				RESOURCE
 				{
 					name = Oxidizer
-					amount = 1760
+					amount = 0
 					maxAmount = 1760
 					flowState = True
 					isTweakable = True
@@ -1877,7 +1877,7 @@ GAME
 				RESOURCE
 				{
 					name = Oxidizer
-					amount = 3520
+					amount = 0
 					maxAmount = 3520
 					flowState = True
 					isTweakable = True
@@ -1983,7 +1983,7 @@ GAME
 				RESOURCE
 				{
 					name = Oxidizer
-					amount = 55
+					amount = 0
 					maxAmount = 55
 					flowState = True
 					isTweakable = True
@@ -2366,7 +2366,7 @@ GAME
 				RESOURCE
 				{
 					name = Oxidizer
-					amount = 55
+					amount = 0
 					maxAmount = 55
 					flowState = True
 					isTweakable = True
@@ -2749,7 +2749,7 @@ GAME
 				RESOURCE
 				{
 					name = Oxidizer
-					amount = 55
+					amount = 0
 					maxAmount = 55
 					flowState = True
 					isTweakable = True
@@ -3132,7 +3132,7 @@ GAME
 				RESOURCE
 				{
 					name = Oxidizer
-					amount = 55
+					amount = 0
 					maxAmount = 55
 					flowState = True
 					isTweakable = True
@@ -4637,7 +4637,7 @@ GAME
 				RESOURCE
 				{
 					name = Oxidizer
-					amount = 55
+					amount = 0
 					maxAmount = 55
 					flowState = True
 					isTweakable = True
@@ -4953,7 +4953,7 @@ GAME
 				RESOURCE
 				{
 					name = Oxidizer
-					amount = 55
+					amount = 0
 					maxAmount = 55
 					flowState = True
 					isTweakable = True
@@ -5269,7 +5269,7 @@ GAME
 				RESOURCE
 				{
 					name = Oxidizer
-					amount = 55
+					amount = 0
 					maxAmount = 55
 					flowState = True
 					isTweakable = True
@@ -5585,7 +5585,7 @@ GAME
 				RESOURCE
 				{
 					name = Oxidizer
-					amount = 55
+					amount = 0
 					maxAmount = 55
 					flowState = True
 					isTweakable = True

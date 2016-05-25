@@ -2,7 +2,7 @@ GAME
 {
 	version = 1.0.0
 	Title = 交会对接
-	Description = 让我们来回顾一下两个飞船交会对接的步骤
+	Description = 让我们来回顾一下两个飞船交会对接的步骤。
 	Mode = 3
 	Status = 1
 	scene = 7
@@ -11,12 +11,12 @@ GAME
 	{
 		FLIGHT
 		{
-			CanQuickSave = True
-			CanQuickLoad = True
+			CanQuickSave = False
+			CanQuickLoad = False
 			CanAutoSave = True
 			CanUseMap = True
 			CanSwitchVesselsNear = True
-			CanSwitchVesselsFar = True
+			CanSwitchVesselsFar = False
 			CanTimeWarpHigh = True
 			CanTimeWarpLow = True
 			CanEVA = True
@@ -183,9 +183,7 @@ GAME
 				flag = Squad/Flags/default
 				rTrf = Mark1-2Pod
 				modCost = 0
-				crew = Obmin Kerman
-				crew = Durick Kerman
-				crew = Shepzor Kerman
+				crew = Valentina Kerman
 				EVENTS
 				{
 				}
@@ -2045,7 +2043,7 @@ GAME
 					name = ModuleParachute
 					isEnabled = True
 					persistentState = STOWED
-					deployAltitude = 500
+					deployAltitude = 1000
 					minAirPressureToOpen = 0.01
 					staged = False
 					deployAltitude_UIFlight
@@ -2197,7 +2195,7 @@ GAME
 					name = ModuleParachute
 					isEnabled = True
 					persistentState = STOWED
-					deployAltitude = 500
+					deployAltitude = 1000
 					minAirPressureToOpen = 0.01
 					staged = False
 					deployAltitude_UIFlight
@@ -2417,7 +2415,6 @@ GAME
 				modCost = 0
 				crew = Bob Kerman
 				crew = Bill Kerman
-				crew = Jebediah Kerman
 				EVENTS
 				{
 				}
@@ -4079,50 +4076,6 @@ GAME
 		}
 		KERBAL
 		{
-			name = Durick Kerman
-			type = Crew
-			brave = 0.8761138
-			dumb = 0.7346076
-			badS = False
-			state = Assigned
-			ToD = 213554.209361572
-			idx = 1
-			CAREER_LOG
-			{
-				flight = 0
-			}
-			FLIGHT_LOG
-			{
-				flight = 0
-				0 = Flight,Kerbin
-				0 = Suborbit,Kerbin
-				0 = Orbit,Kerbin
-			}
-		}
-		KERBAL
-		{
-			name = Shepzor Kerman
-			type = Crew
-			brave = 0.3756579
-			dumb = 0.03231001
-			badS = True
-			state = Assigned
-			ToD = 92197.1895556641
-			idx = 2
-			CAREER_LOG
-			{
-				flight = 0
-			}
-			FLIGHT_LOG
-			{
-				flight = 0
-				0 = Flight,Kerbin
-				0 = Suborbit,Kerbin
-				0 = Orbit,Kerbin
-			}
-		}
-		KERBAL
-		{
 			name = Jebrod Kerman
 			type = Applicant
 			brave = 0.1226976
@@ -4311,6 +4264,28 @@ GAME
 				0 = Flight,Kerbin
 				0 = Suborbit,Kerbin
 				0 = Orbit,Kerbin
+			}
+		}
+		KERBAL
+		{
+			name = Valentina Kerman
+			gender = Female
+			type = Crew
+			trait = Pilot
+			brave = 0.55
+			dumb = 0.4
+			badS = True
+			tour = False
+			state = Assigned
+			ToD = 0
+			idx = 0
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
 			}
 		}
 	}

@@ -1,14 +1,34 @@
 GAME
 {
 	version = 1.0.0
-	Title = 科研操作基础
-	Description = 这一教程中Wernher von Kerman将带着玩家了解坎星人的科研方法，领略实验的原理与科学的奥秘。
-	Mode = 3 
+	Title = Science Basics
+	Description = 在本教程中Wernher von Kerman将引导您学习 Kerbal 的科研方法，同时您会认可实验工作是那么酷的一件事情 ！
+	Mode = CAREER
     // scene to load when starting this save.
 	scene = 5
 	flag = Squad/Flags/default
 	PARAMETERS
 	{
+		preset = Custom
+		FLIGHT
+		{
+			CanQuickSave = False
+			CanQuickLoad = False
+			CanAutoSave = False
+			CanUseMap = True
+			CanSwitchVesselsNear = True
+			CanSwitchVesselsFar = False
+			CanTimeWarpHigh = True
+			CanTimeWarpLow = True
+			CanEVA = True
+			CanIVA = True
+			CanBoard = True
+			CanRestart = False
+			CanLeaveToEditor = False
+			CanLeaveToTrackingStation = True
+			CanLeaveToSpaceCenter = True
+			CanLeaveToMainMenu = False
+		}
 		SPACECENTER
 		{
 			CanGoInVAB = False
@@ -17,8 +37,11 @@ GAME
 			CanLaunchAtPad = False
 			CanLaunchAtRunway = False
 			CanLeaveToMainMenu = True
-			CanGoToRnD = True
+			CanGoToRnD = False
 			CanGoToAstronautC = False
+			CanGoToAdmin = False
+			CanGoToMissionControl = False
+			CanSelectFlag = False
 			
 		}	
 		RESEARCHANDDEVELOPMENT
