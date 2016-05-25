@@ -3,7 +3,7 @@ GAME
 	version = 0.21.0
 	Title = 撞击事故
 	Description = 原定飞掠Mun的Mun 7飞船即将撞击Mun！试着避免灾难并拯救宇航员。
-	Mode = 0
+	Mode = SCENARIO
 	Status = 1
 	scene = 7
 	flag = Squad/Flags/default
@@ -60,9 +60,9 @@ GAME
 			MissingCrewsRespawn = True
 		}
 	}
-		FLIGHTSTATE
+	FLIGHTSTATE
 	{
-		version = 0.21.0
+		version = 1.1.0
 		UT = 16279.7438671885
 		activeVessel = 0		
 		VESSEL
@@ -84,7 +84,7 @@ GAME
 			nrm = 0.6492413,0.1313908,0.7491477
 			rot = 0.4248028,0.1230495,0.7032374,-0.5566494
 			CoM = 1.168907E-07,-0.02533101,-2.034467E-05
-			stg = 2
+			stg = 3
 			prst = False
 			eva = False
 			ref = 3542642751
@@ -103,33 +103,43 @@ GAME
 			PART
 			{
 				name = mk1pod
-				uid = 2443698232
-				mid = 716389081
+				cid = 4294458906
+				uid = 395547515
+				mid = 422969419
+				launchID = 1
 				parent = 0
 				position = 0,0,0
 				rotation = 0,0,0,1
 				mirror = 1,1,1
+				symMethod = Radial
 				istg = 0
 				dstg = 0
 				sqor = -1
+				sepI = 0
 				sidx = -1
 				attm = 0
-				srfN = None, -1
-				attN = bottom, 1
-				attN = top, 6
+				srfN = , -1
+				attN = bottom, 2
+				attN = top, 1
 				mass = 0.8
-				temp = 16.40517
+				temp = 329.264298935077
+				tempExt = 328.574838137123
+				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
 				connected = True
 				attached = True
-				flag = Squad/Flags/line
-				rTrf = mk1pod
-				crew = 0
+				flag = Squad/Flags/default
+				rTrf = mk1pod (Mun 7)
+				modCost = 0
+				crew = Jebediah Kerman
 				EVENTS
 				{
 				}
 				ACTIONS
+				{
+				}
+				PARTDATA
 				{
 				}
 				MODULE
@@ -137,12 +147,14 @@ GAME
 					name = ModuleCommand
 					isEnabled = True
 					controlSrcStatusText = Operational
+					stagingEnabled = True
 					EVENTS
 					{
 						MakeReference
 						{
 							active = True
 							guiActive = True
+							guiActiveUncommand = False
 							guiIcon = Control From Here
 							guiName = Control From Here
 							category = Control From Here
@@ -154,9 +166,22 @@ GAME
 						{
 							active = True
 							guiActive = True
+							guiActiveUncommand = True
 							guiIcon = Rename Vessel
 							guiName = Rename Vessel
 							category = Rename Vessel
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
 							guiActiveUnfocused = False
 							unfocusedRange = 2
 							externalToEVAOnly = True
@@ -168,20 +193,10 @@ GAME
 				}
 				MODULE
 				{
-					name = ModuleSAS
-					isEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-				}
-				MODULE
-				{
 					name = ModuleReactionWheel
 					isEnabled = True
-					stateString = Operational
+					stateString = Idle
+					stagingEnabled = True
 					WheelState = Active
 					EVENTS
 					{
@@ -189,9 +204,23 @@ GAME
 						{
 							active = True
 							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
 							guiIcon = Toggle Torque
 							guiName = Toggle Torque
 							category = Toggle Torque
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
 							guiActiveUnfocused = False
 							unfocusedRange = 2
 							externalToEVAOnly = True
@@ -215,27 +244,308 @@ GAME
 				}
 				MODULE
 				{
-					name = ModuleTripLogger
-					isEnabled = False
+					name = ModuleScienceExperiment
+					isEnabled = True
+					Deployed = False
+					Inoperable = False
+					stagingEnabled = True
 					EVENTS
 					{
+						DeployExperiment
+						{
+							active = True
+							guiActive = True
+							guiActiveUncommand = False
+							guiIcon = Deploy
+							guiName = Crew Report
+							category = Deploy
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						CollectDataExternalEvent
+						{
+							active = False
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = 
+							guiName = Take Data
+							category = 
+							guiActiveUnfocused = True
+							unfocusedRange = 1.5
+							externalToEVAOnly = True
+						}
+						ReviewDataEvent
+						{
+							active = False
+							guiActive = True
+							guiActiveUncommand = False
+							guiIcon = Review Data
+							guiName = Review Report
+							category = Review Data
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ResetExperiment
+						{
+							active = False
+							guiActive = True
+							guiActiveUncommand = False
+							guiIcon = Reset
+							guiName = Discard Crew Report
+							category = Reset
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						DeployExperimentExternal
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Deploy
+							guiName = Crew Report
+							category = Deploy
+							guiActiveUnfocused = True
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ResetExperimentExternal
+						{
+							active = False
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Reset
+							guiName = Discard Crew Report
+							category = Reset
+							guiActiveUnfocused = True
+							unfocusedRange = 1.5
+							externalToEVAOnly = True
+						}
+						CleanUpExperimentExternal
+						{
+							active = False
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Restore
+							guiName = Restore
+							category = Restore
+							guiActiveUnfocused = True
+							unfocusedRange = 1.5
+							externalToEVAOnly = True
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						DeployAction
+						{
+							actionGroup = None
+						}
+						ResetAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+				MODULE
+				{
+					name = ModuleScienceContainer
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+						StoreDataExternalEvent
+						{
+							active = False
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = 
+							guiName = Store Experiments (0)
+							category = 
+							guiActiveUnfocused = True
+							unfocusedRange = 1.3
+							externalToEVAOnly = True
+						}
+						CollectDataExternalEvent
+						{
+							active = False
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = 
+							guiName = Take Data (0)
+							category = 
+							guiActiveUnfocused = True
+							unfocusedRange = 1.3
+							externalToEVAOnly = True
+						}
+						ReviewDataEvent
+						{
+							active = False
+							guiActive = True
+							guiActiveUncommand = False
+							guiIcon = Review Data
+							guiName = Review Stored Data (0)
+							category = Review Data
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
 					}
 					ACTIONS
 					{
 					}
-					Surfaced
+				}
+				MODULE
+				{
+					name = FlagDecal
+					isEnabled = True
+					flagDisplayed = True
+					stagingEnabled = True
+					EVENTS
+					{
+						ToggleFlag
+						{
+							active = True
+							guiActive = False
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Toggle Flag
+							guiName = Toggle Flag
+							category = Toggle Flag
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
 					{
 					}
-					Flew
+				}
+				MODULE
+				{
+					name = ModuleConductionMultiplier
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
 					{
 					}
-					FlewBy
+				}
+				MODULE
+				{
+					name = ModuleTripLogger
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
 					{
 					}
-					Orbited
+					Log
 					{
+						flight = 0
+						0 = Flight,Kerbin
+						0 = Suborbit,Kerbin
+						0 = Orbit,Kerbin
 					}
-					SubOrbited
+				}
+				MODULE
+				{
+					name = TransferDialogSpawner
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+						SpawnDialog
+						{
+							active = True
+							guiActive = True
+							guiActiveUncommand = True
+							guiIcon = Transfer Crew
+							guiName = Transfer Crew
+							category = Transfer Crew
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
 					{
 					}
 				}
@@ -245,54 +555,483 @@ GAME
 					amount = 50
 					maxAmount = 50
 					flowState = True
+					isTweakable = True
+					hideFlow = False
+					isVisible = True
+					flowMode = Both
+				}
+				RESOURCE
+				{
+					name = MonoPropellant
+					amount = 0
+					maxAmount = 10
+					flowState = True
+					isTweakable = True
+					hideFlow = False
+					isVisible = True
 					flowMode = Both
 				}
 			}
 			PART
 			{
-				name = stackDecouplerMini
-				uid = 775927210
-				mid = 716389081
+				name = parachuteSingle
+				cid = 4294451470
+				uid = 2315672668
+				mid = 422969419
+				launchID = 1
 				parent = 0
-				position = 0,-0.480947971343994,0
+				position = 0,0.65746021270752,0
 				rotation = 0,0,0,1
 				mirror = 1,1,1
+				symMethod = Radial
 				istg = 0
-				dstg = 1
-				sqor = 0
+				dstg = 0
+				sqor = -1
+				sepI = 0
 				sidx = 0
 				attm = 0
-				srfN = None, -1
-				attN = bottom, 2
-				attN = top, 0
-				mass = 0.015
-				temp = 16.31418
+				srfN = srfAttach, -1
+				attN = bottom, 0
+				mass = 0.1
+				temp = 328.166711589846
+				tempExt = 327.804305749981
+				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
 				connected = True
 				attached = True
-				flag = Squad/Flags/line
-				rTrf = stackDecouplerMini
+				flag = Squad/Flags/default
+				rTrf = parachuteSingle
+				modCost = 0
 				EVENTS
 				{
 				}
 				ACTIONS
 				{
 				}
+				PARTDATA
+				{
+				}
+				MODULE
+				{
+					name = ModuleParachute
+					isEnabled = True
+					persistentState = STOWED
+					minAirPressureToOpen = 0.04
+					deployAltitude = 1000
+					stagingEnabled = True
+					minAirPressureToOpen_UIFlight
+					{
+						controlEnabled = True
+						minValue = 0.01
+						maxValue = 0.75
+						stepIncrement = 0.01
+					}
+					deployAltitude_UIFlight
+					{
+						controlEnabled = True
+						minValue = 50
+						maxValue = 5000
+						stepIncrement = 50
+					}
+					EVENTS
+					{
+						Deploy
+						{
+							active = True
+							guiActive = True
+							guiActiveUncommand = False
+							guiIcon = Deploy Chute
+							guiName = Deploy Chute
+							category = Deploy Chute
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+						CutParachute
+						{
+							active = False
+							guiActive = True
+							guiActiveUncommand = False
+							guiIcon = Cut Parachute
+							guiName = Cut Parachute
+							category = Cut Parachute
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+						Repack
+						{
+							active = False
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Repack Chute
+							guiName = Repack Chute
+							category = Repack Chute
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+						Disarm
+						{
+							active = False
+							guiActive = True
+							guiActiveUncommand = False
+							guiIcon = Disarm
+							guiName = Disarm
+							category = Disarm
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						DeployAction
+						{
+							actionGroup = None
+						}
+						CutAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+				MODULE
+				{
+					name = ModuleTestSubject
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+						RunTestEvent
+						{
+							active = False
+							guiActive = True
+							guiActiveUncommand = False
+							guiIcon = Run Test
+							guiName = Run Test
+							category = Run Test
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleDragModifier
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleDragModifier
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
+			}
+			PART
+			{
+				name = HeatShield1
+				cid = 4294439730
+				uid = 239891446
+				mid = 422969419
+				launchID = 1
+				parent = 0
+				position = 0,-0.427040100097656,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 1
+				dstg = 1
+				sqor = -1
+				sepI = 0
+				sidx = -1
+				attm = 0
+				srfN = , -1
+				attN = direct, 3
+				attN = bottom, -1
+				attN = top, 0
+				mass = 0.1
+				temp = 335.740422776265
+				tempExt = 328.085860624593
+				tempExtUnexp = 4
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				flag = Squad/Flags/default
+				rTrf = HeatShield1
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				MODULE
+				{
+					name = ModuleJettison
+					isEnabled = True
+					isJettisoned = True
+					shroudHideOverride = False
+					stagingEnabled = True
+					shroudHideOverride_UIFlight
+					{
+						controlEnabled = True
+					}
+					EVENTS
+					{
+						Jettison
+						{
+							active = False
+							guiActive = True
+							guiActiveUncommand = False
+							guiIcon = Jettison
+							guiName = Jettison
+							category = Jettison
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						JettisonAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+				MODULE
+				{
+					name = ModuleAblator
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleTestSubject
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+						RunTestEvent
+						{
+							active = False
+							guiActive = True
+							guiActiveUncommand = False
+							guiIcon = Run Test
+							guiName = Run Test
+							category = Run Test
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
+				RESOURCE
+				{
+					name = Ablator
+					amount = 59.9981485959347
+					maxAmount = 200
+					flowState = True
+					isTweakable = True
+					hideFlow = False
+					isVisible = True
+					flowMode = Both
+				}
+			}
+			PART
+			{
+				name = stackDecouplerMini
+				cid = 4294432460
+				uid = 3271950717
+				mid = 422969419
+				launchID = 1
+				parent = 2
+				position = 0,-0.502949714660645,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 1
+				dstg = 3
+				sqor = -1
+				sepI = 1
+				sidx = 0
+				attm = 0
+				srfN = , -1
+				attN = bottom, 4
+				attN = top, 2
+				mass = 0.015
+				temp = 321.2649225921
+				tempExt = 321.353510153369
+				tempExtUnexp = 4
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				flag = Squad/Flags/default
+				rTrf = stackDecouplerMini
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
 				MODULE
 				{
 					name = ModuleDecouple
 					isEnabled = True
+					ejectionForcePercent = 100
 					isDecoupled = False
+					stagingEnabled = True
+					ejectionForcePercent_UIFlight
+					{
+						controlEnabled = True
+						minValue = 0
+						maxValue = 100
+						stepIncrement = 1
+					}
 					EVENTS
 					{
 						Decouple
 						{
 							active = True
 							guiActive = True
+							guiActiveUncommand = False
 							guiIcon = Decouple
 							guiName = Decouple
 							category = Decouple
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Decoupler: Disable Staging
+							category = Disable Staging
 							guiActiveUnfocused = False
 							unfocusedRange = 2
 							externalToEVAOnly = True
@@ -306,101 +1045,224 @@ GAME
 						}
 					}
 				}
+				MODULE
+				{
+					name = ModuleToggleCrossfeed
+					isEnabled = True
+					crossfeedStatus = False
+					stagingEnabled = True
+					EVENTS
+					{
+						ToggleEvent
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Disable Crossfeed
+							guiName = Enable Crossfeed
+							category = Disable Crossfeed
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+						EnableAction
+						{
+							actionGroup = None
+						}
+						DisableAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+				MODULE
+				{
+					name = ModuleTestSubject
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+						RunTestEvent
+						{
+							active = False
+							guiActive = True
+							guiActiveUncommand = False
+							guiIcon = Run Test
+							guiName = Run Test
+							category = Run Test
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
 			}
 			PART
 			{
 				name = miniFuelTank
-				uid = 1245021330
-				mid = 716389081
-				parent = 1
-				position = 0,-0.731132030487061,0
+				cid = 4294423550
+				uid = 1057236238
+				mid = 422969419
+				launchID = 1
+				parent = 3
+				position = 0,-0.753129959106445,0
 				rotation = 0,0,0,1
 				mirror = 1,1,1
-				istg = 2
-				dstg = 2
+				symMethod = Radial
+				istg = 4
+				dstg = 4
 				sqor = -1
+				sepI = 1
 				sidx = -1
 				attm = 0
-				srfN = None, -1
-				attN = top, 1
-				attN = bottom, 3
-				mass = 0.015
-				temp = 16.33055
+				srfN = srfAttach, -1
+				attN = top, 3
+				attN = bottom, 5
+				mass = 0.025
+				temp = 321.217666477977
+				tempExt = 320.808467170394
+				tempExtUnexp = 4
 				expt = 0.5
-				state = 0
+				state = 1
 				connected = True
 				attached = True
-				flag = Squad/Flags/line
+				flag = Squad/Flags/default
 				rTrf = miniFuelTank
+				modCost = 0
 				EVENTS
 				{
 				}
 				ACTIONS
 				{
 				}
+				PARTDATA
+				{
+				}
 				RESOURCE
 				{
 					name = LiquidFuel
-					amount = 5.735
-					maxAmount = 5.735
+					amount = 18
+					maxAmount = 18
 					flowState = True
+					isTweakable = True
+					hideFlow = False
+					isVisible = True
 					flowMode = Both
 				}
 				RESOURCE
 				{
 					name = Oxidizer
-					amount = 7
-					maxAmount = 7
+					amount = 22
+					maxAmount = 22
 					flowState = True
+					isTweakable = True
+					hideFlow = False
+					isVisible = True
 					flowMode = Both
 				}
 			}
 			PART
 			{
 				name = microEngine
-				uid = 4189208159
-				mid = 716389081
-				parent = 2
-				position = 0,-0.905405044555664,0
+				cid = 4294418724
+				uid = 2090642091
+				mid = 422969419
+				launchID = 1
+				parent = 4
+				position = 0,-0.927399635314941,0
 				rotation = 0,0,0,1
 				mirror = 1,1,1
-				istg = 1
-				dstg = 2
-				sqor = 1
+				symMethod = Radial
+				istg = 2
+				dstg = 4
+				sqor = -1
+				sepI = 1
 				sidx = 0
 				attm = 0
-				srfN = None, -1
-				attN = top, 2
-				attN = None, -1
-				mass = 0.03
-				temp = 16.28039
+				srfN = , -1
+				attN = top, 4
+				attN = bottom, -1
+				mass = 0.02
+				temp = 320.916371904021
+				tempExt = 320.570428918726
+				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
 				connected = True
 				attached = True
-				flag = Squad/Flags/line
+				flag = Squad/Flags/default
 				rTrf = microEngine
+				modCost = 0
 				EVENTS
 				{
 				}
 				ACTIONS
 				{
 				}
+				PARTDATA
+				{
+				}
 				MODULE
 				{
 					name = ModuleEngines
 					isEnabled = True
+					staged = False
+					flameout = False
 					EngineIgnited = False
 					engineShutdown = False
 					currentThrottle = 0
-					flameout = False
-					staged = False
+					thrustPercentage = 100
+					manuallyOverridden = False
+					stagingEnabled = True
+					thrustPercentage_UIFlight
+					{
+						controlEnabled = True
+						minValue = 0
+						maxValue = 100
+						stepIncrement = 0.5
+					}
 					EVENTS
 					{
 						Activate
 						{
 							active = True
 							guiActive = True
+							guiActiveUncommand = False
 							guiIcon = Activate Engine
 							guiName = Activate Engine
 							category = Activate Engine
@@ -412,9 +1274,22 @@ GAME
 						{
 							active = False
 							guiActive = True
+							guiActiveUncommand = False
 							guiIcon = Shutdown Engine
 							guiName = Shutdown Engine
 							category = Shutdown Engine
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
 							guiActiveUnfocused = False
 							unfocusedRange = 2
 							externalToEVAOnly = True
@@ -436,294 +1311,102 @@ GAME
 						}
 					}
 				}
-			}
-			PART
-			{
-				name = batteryPack
-				uid = 2121724688
-				mid = 716389081
-				parent = 2
-				position = -0.302745908498764,-0.71677303314209,1.80450605569149E-08
-				rotation = 0,-0.7071068,0,-0.7071068
-				mirror = 1,1,1
-				istg = 2
-				dstg = 2
-				sqor = -1
-				sidx = -1
-				attm = 1
-				sym = 5
-				srfN = srfAttach, 2
-				mass = 0.005
-				temp = 16.27017
-				expt = 0.5
-				state = 0
-				connected = True
-				attached = True
-				flag = Squad/Flags/line
-				rTrf = batteryPack
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				RESOURCE
-				{
-					name = ElectricCharge
-					amount = 100
-					maxAmount = 100
-					flowState = True
-					flowMode = Both
-				}
-			}
-			PART
-			{
-				name = batteryPack
-				uid = 3149619603
-				mid = 716389081
-				parent = 2
-				position = 0.302745908498764,-0.71677303314209,-4.45119496816915E-08
-				rotation = 0,-0.7071068,0,0.7071068
-				mirror = 1,1,1
-				istg = 2
-				dstg = 2
-				sqor = -1
-				sidx = -1
-				attm = 1
-				sym = 4
-				srfN = srfAttach, 2
-				mass = 0.005
-				temp = 16.26124
-				expt = 0.5
-				state = 0
-				connected = True
-				attached = True
-				flag = Squad/Flags/line
-				rTrf = batteryPack
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				RESOURCE
-				{
-					name = ElectricCharge
-					amount = 100
-					maxAmount = 100
-					flowState = True
-					flowMode = Both
-				}
-			}
-			PART
-			{
-				name = parachuteSingle
-				uid = 2084703745
-				mid = 716389081
-				parent = 0
-				position = 0,0.657455921173096,0
-				rotation = 0,0,0,1
-				mirror = 1,1,1
-				istg = 0
-				dstg = 0
-				sqor = 0
-				sidx = 1
-				attm = 0
-				srfN = None, -1
-				attN = bottom, 0
-				mass = 0.1
-				temp = 16.27766
-				expt = 0.5
-				state = 0
-				connected = True
-				attached = True
-				flag = Squad/Flags/line
-				rTrf = parachuteSingle
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
 				MODULE
 				{
-					name = ModuleParachute
+					name = ModuleTestSubject
 					isEnabled = True
-					persistentState = STOWED
-					staged = False
+					stagingEnabled = True
 					EVENTS
 					{
-						Deploy
+						RunTestEvent
+						{
+							active = False
+							guiActive = True
+							guiActiveUncommand = False
+							guiIcon = Run Test
+							guiName = Run Test
+							category = Run Test
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleStaging
 						{
 							active = True
-							guiActive = True
-							guiIcon = Deploy Chute
-							guiName = Deploy Chute
-							category = Deploy Chute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						CutParachute
-						{
-							active = False
-							guiActive = True
-							guiIcon = Cut Parachute
-							guiName = Cut Parachute
-							category = Cut Parachute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						Repack
-						{
-							active = False
 							guiActive = False
-							guiIcon = Repack Chute
-							guiName = Repack Chute
-							category = Repack Chute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
 							externalToEVAOnly = True
 						}
 					}
 					ACTIONS
 					{
-						DeployAction
-						{
-							actionGroup = None
-						}
-						CutAction
-						{
-							actionGroup = None
-						}
 					}
 				}
 			}
 			PART
 			{
 				name = solarPanels5
-				uid = 1508824905
-				mid = 716389081
-				parent = 0
-				position = 0.52694571018219,-0.0631461143493652,3.14084083186117E-08
-				rotation = -0.128709,0.6952942,0.1287089,0.6952942
+				cid = 4294403128
+				uid = 3154032724
+				mid = 422969419
+				launchID = 1
+				parent = 4
+				position = -0.302897989749908,-0.741209983825684,1.80541306349369E-08
+				rotation = 0,-0.7071068,0,0.7071068
 				mirror = 1,1,1
-				istg = 0
-				dstg = 0
+				symMethod = Radial
+				istg = 4
+				dstg = 4
 				sqor = -1
-				sidx = -1
-				attm = 1
-				sym = 8
-				srfN = srfAttach, 0
-				mass = 0.005
-				temp = 16.27159
-				expt = 0.5
-				state = 0
-				connected = True
-				attached = True
-				flag = Squad/Flags/line
-				rTrf = solarPanels5
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				MODULE
-				{
-					name = ModuleDeployableSolarPanel
-					isEnabled = True
-					currentRotation = (0, 0, 0, 1)
-					stateString = EXTENDED
-					storedAnimationTime = 0
-					storedAnimationSpeed = 0
-					EVENTS
-					{
-						Extend
-						{
-							active = False
-							guiActive = True
-							guiIcon = Extend Panels
-							guiName = Extend Panels
-							category = Extend Panels
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						Retract
-						{
-							active = False
-							guiActive = True
-							guiIcon = Retract Panels
-							guiName = Retract Panels
-							category = Retract Panels
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						ExtendPanelsAction
-						{
-							actionGroup = None
-						}
-						ExtendAction
-						{
-							actionGroup = None
-						}
-						RetractAction
-						{
-							actionGroup = None
-						}
-					}
-				}
-			}
-			PART
-			{
-				name = solarPanels5
-				uid = 3423796051
-				mid = 716389081
-				parent = 0
-				position = -0.52694571018219,-0.0631461143493652,1.46586396354564E-08
-				rotation = 0.1287089,0.6952941,0.128709,-0.6952943
-				mirror = 1,1,1
-				istg = 0
-				dstg = 0
-				sqor = -1
+				sepI = 1
 				sidx = -1
 				attm = 1
 				sym = 7
-				srfN = srfAttach, 0
+				srfN = srfAttach, 4
 				mass = 0.005
-				temp = 16.26252
+				temp = 321.17931571409
+				tempExt = 320.696960214481
+				tempExtUnexp = 4
 				expt = 0.5
-				state = 0
+				state = 1
 				connected = True
 				attached = True
-				flag = Squad/Flags/line
+				flag = Squad/Flags/default
 				rTrf = solarPanels5
+				modCost = 0
 				EVENTS
 				{
 				}
 				ACTIONS
 				{
 				}
+				PARTDATA
+				{
+				}
 				MODULE
 				{
 					name = ModuleDeployableSolarPanel
 					isEnabled = True
-					currentRotation = (0, 0, 0, 1)
+					currentRotation = (0, -6.057208E-07, 0, 1)
 					stateString = EXTENDED
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
+					efficiencyMult = 1
+					launchUT = 501.219999999834
+					stagingEnabled = True
 					EVENTS
 					{
 						Extend
 						{
 							active = False
 							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
 							guiIcon = Extend Panels
 							guiName = Extend Panels
 							category = Extend Panels
@@ -735,11 +1418,25 @@ GAME
 						{
 							active = False
 							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
 							guiIcon = Retract Panels
 							guiName = Retract Panels
 							category = Retract Panels
 							guiActiveUnfocused = True
 							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
 							externalToEVAOnly = True
 						}
 					}
@@ -748,14 +1445,17 @@ GAME
 						ExtendPanelsAction
 						{
 							actionGroup = None
+							active = False
 						}
 						ExtendAction
 						{
 							actionGroup = None
+							active = False
 						}
 						RetractAction
 						{
 							actionGroup = None
+							active = False
 						}
 					}
 				}
@@ -763,47 +1463,62 @@ GAME
 			PART
 			{
 				name = solarPanels5
-				uid = 1559208676
-				mid = 716389081
-				parent = 0
-				position = 0.356194108724594,0.381989002227783,2.12308197689026E-08
-				rotation = -0.128709,0.6952942,0.1287089,0.6952942
+				cid = 4294402618
+				uid = 2460973459
+				mid = 422969419
+				launchID = 1
+				parent = 4
+				position = 0.302897989749908,-0.741209983825684,-4.45343211197269E-08
+				rotation = 0,0.7071068,0,0.7071068
 				mirror = 1,1,1
-				istg = 0
-				dstg = 0
+				symMethod = Radial
+				istg = 4
+				dstg = 4
 				sqor = -1
+				sepI = 1
 				sidx = -1
 				attm = 1
-				sym = 10
-				srfN = srfAttach, 0
+				sym = 6
+				srfN = srfAttach, 4
 				mass = 0.005
-				temp = 16.2517
+				temp = 321.179315624972
+				tempExt = 320.696960124963
+				tempExtUnexp = 4
 				expt = 0.5
-				state = 0
+				state = 1
 				connected = True
 				attached = True
-				flag = Squad/Flags/line
+				flag = Squad/Flags/default
 				rTrf = solarPanels5
+				modCost = 0
 				EVENTS
 				{
 				}
 				ACTIONS
 				{
 				}
+				PARTDATA
+				{
+				}
 				MODULE
 				{
 					name = ModuleDeployableSolarPanel
 					isEnabled = True
-					currentRotation = (0, 0, 0, 1)
+					currentRotation = (0, -6.057208E-07, 0, 1)
 					stateString = EXTENDED
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
+					efficiencyMult = 1
+					launchUT = 501.219999999834
+					stagingEnabled = True
 					EVENTS
 					{
 						Extend
 						{
 							active = False
 							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
 							guiIcon = Extend Panels
 							guiName = Extend Panels
 							category = Extend Panels
@@ -815,11 +1530,25 @@ GAME
 						{
 							active = False
 							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
 							guiIcon = Retract Panels
 							guiName = Retract Panels
 							category = Retract Panels
 							guiActiveUnfocused = True
 							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
 							externalToEVAOnly = True
 						}
 					}
@@ -828,105 +1557,28 @@ GAME
 						ExtendPanelsAction
 						{
 							actionGroup = None
+							active = False
 						}
 						ExtendAction
 						{
 							actionGroup = None
+							active = False
 						}
 						RetractAction
 						{
 							actionGroup = None
-						}
-					}
-				}
-			}
-			PART
-			{
-				name = solarPanels5
-				uid = 2802843389
-				mid = 716389081
-				parent = 0
-				position = -0.356194108724594,0.381989002227783,9.90865167693755E-09
-				rotation = 0.1287089,0.6952941,0.128709,-0.6952943
-				mirror = 1,1,1
-				istg = 0
-				dstg = 0
-				sqor = -1
-				sidx = -1
-				attm = 1
-				sym = 9
-				srfN = srfAttach, 0
-				mass = 0.005
-				temp = 16.24265
-				expt = 0.5
-				state = 0
-				connected = True
-				attached = True
-				flag = Squad/Flags/line
-				rTrf = solarPanels5
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				MODULE
-				{
-					name = ModuleDeployableSolarPanel
-					isEnabled = True
-					currentRotation = (0, 0, 0, 1)
-					stateString = EXTENDED
-					storedAnimationTime = 0
-					storedAnimationSpeed = 0
-					EVENTS
-					{
-						Extend
-						{
 							active = False
-							guiActive = True
-							guiIcon = Extend Panels
-							guiName = Extend Panels
-							category = Extend Panels
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						Retract
-						{
-							active = False
-							guiActive = True
-							guiIcon = Retract Panels
-							guiName = Retract Panels
-							category = Retract Panels
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						ExtendPanelsAction
-						{
-							actionGroup = None
-						}
-						ExtendAction
-						{
-							actionGroup = None
-						}
-						RetractAction
-						{
-							actionGroup = None
 						}
 					}
 				}
 			}
 			ACTIONGROUPS
 			{
-				Stage = True, 1012.73691528304
+				Stage = False, 803.251015398571
 				Gear = True, 0
 				Light = False, 0
 				RCS = False, 0
-				SAS = True, 16232.7238671874
+				SAS = False, 805.931015398568
 				Brakes = False, 0
 				Abort = False, 0
 				Custom01 = False, 0
@@ -940,42 +1592,121 @@ GAME
 				Custom09 = False, 0
 				Custom10 = False, 0
 			}
+			DISCOVERY
+			{
+				state = -1
+				lastObservedTime = 0
+				lifetime = Infinity
+				refTime = Infinity
+				size = 2
+			}
+			FLIGHTPLAN
+			{
+			}
+			CTRLSTATE
+			{
+				pitch = 0
+				yaw = 0
+				roll = 0
+				trimPitch = 0
+				trimYaw = 0
+				trimRoll = 0
+				mainThrottle = 0
+			}
 		}
 	}
 	ROSTER
 	{
-		CREW
+		KERBAL
 		{
 			name = Jebediah Kerman
+			gender = Male
+			type = Crew
+			trait = Pilot
 			brave = 0.5
 			dumb = 0.5
 			badS = True
-			state = 1
+			tour = False
+			state = Assigned
 			ToD = 0
 			idx = 0
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+				0 = Flight,Kerbin
+				0 = Suborbit,Kerbin
+				0 = Orbit,Kerbin
+			}
 		}
-		CREW
+		KERBAL
 		{
 			name = Bill Kerman
+			gender = Male
+			type = Crew
+			trait = Engineer
 			brave = 0.5
 			dumb = 0.8
 			badS = False
-			state = 0
+			tour = False
+			state = Available
 			ToD = 0
 			idx = -1
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
 		}
-		CREW
+		KERBAL
 		{
 			name = Bob Kerman
+			gender = Male
+			type = Crew
+			trait = Scientist
 			brave = 0.3
 			dumb = 0.1
 			badS = False
-			state = 0
+			tour = False
+			state = Available
 			ToD = 0
 			idx = -1
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
 		}
-		APPLICANTS
+		KERBAL
 		{
+			name = Valentina Kerman
+			gender = Female
+			type = Crew
+			trait = Pilot
+			brave = 0.55
+			dumb = 0.4
+			badS = True
+			tour = False
+			state = Available
+			ToD = 0
+			idx = -1
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
 		}
 	}
 }

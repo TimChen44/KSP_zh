@@ -3,7 +3,7 @@ GAME
 	version = 0.21.0
 	Title = 出舱活动
 	Description = Jebediah Kerman 在距离飞船40m远的地方活动。
-	Mode = 0
+	Mode = SCENARIO
 	Status = 1
 	scene = 7
 	flag = Squad/Flags/default
@@ -84,7 +84,7 @@ GAME
 			nrm = -0.6795578,0.001949705,-0.7336195
 			rot = 0.2424639,0.2686996,0.7060905,-0.6086444
 			CoM = -0.0001096711,-1.207046,0.0003059433
-			stg = 2
+			stg = 3
 			prst = False
 			eva = False
 			ref = 2481141951
