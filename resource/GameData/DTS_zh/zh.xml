@@ -8740,144 +8740,145 @@ Duna卫星 Ike 挡路,这事很常见因为Ike的SOI比Duna大.一旦发现立�
  去别的行星以及其他天体的方法类似,你可以开始征服宇宙了.
 我为你的潜力感到自豪.]]></string>
 <string id="424280"><![CDATA[Squad/Tutorials/StagingStack]]></string>
-<string id="424337"><![CDATA[Basic Construction]]></string>
-<string id="424374"><![CDATA[Welcome to today's lecture on vessel construction. I'm Wernher von Kerman.
+<string id="424337"><![CDATA[基本建造]]></string>
+<string id="424374"><![CDATA[欢迎学习飞船建造教程。我是Wernher von Kerman。
 
-Whether you want to put a satellite into orbit, make a transcontinental flight, or step onto the very surface of the Mun, you're going to need to build yourself a ship.
+无论你是想将卫星送入轨道飞行横贯大陆，还是踏上Mun的表面，都需要有建造飞行器的知识。
 
-It should be pretty easy even if you're not a famous rocket scientist like myself.]]></string>
+它很容易，即使你不是一个像我这样著名的火箭科学家。]]></string>
 <string id="425032"><![CDATA[overview]]></string>
-<string id="425049"><![CDATA[总览]]></string>
-<string id="425066"><![CDATA[In this tutorial, I will first show you around the Kerbal Space Center, then take you to the Vehicle Assembly Building, where you'll learn how to construct a simple ship.
+<string id="425049"><![CDATA[教程总览]]></string>
+<string id="425066"><![CDATA[在本教程中，我将首先带您参观坎巴拉航天中心，然后再把你带到航天器装配大楼，在那里您将学习如何建造一艘简单的飞船。
 
-We'll cover adding and removing parts, what the parts do, how to change the performance settings of the parts which have that option, and how to control staging.
+我们将讨论如何添加和移除零件以及这些东西是干什么用的， 如何更改部件性能设置，还有如何控制分级等。
 
-At the end of the tutorial you will have a craft fit for a quick hop from the launchpad.
+完成本教程后你将有一艘能从发射台起飞的快速飞行器。
 
-At each step I will lock out all controls other than the ones you need for that step. If you still manage to mess up (it took even me some time to become as skilled as I am now!), you can press the <color=]]></string>
-<string id="426328"><![CDATA[>Back</color> button to go back and fix things. (It won't light up unless you do mess up.)]]></string>
+我会锁定所有教程内容步骤以外的所有部件。如果这样你仍然搞砸了 （我也花了一些时间才变得像现在这样熟练 ！），您可以按 <color=]]></string>
+<string id="426328"><![CDATA[>Back</color> 按钮，回去修正错误。 （除非你把事情弄糟了，不然它不会亮起。）]]></string>
 <string id="426510"><![CDATA[spaceCenter]]></string>
-<string id="426533"><![CDATA[坎巴拉太空中心]]></string>
-<string id="426572"><![CDATA[We are now at the Kerbal Space Center. I'll give you a quick rundown on how to get around.
+<string id="426533"><![CDATA[坎巴拉航天中心]]></string>
+<string id="426572"><![CDATA[我们现在是在坎巴拉航天中心。我下面将给你简单介绍一下。
 
-The KSC, for short, is home to the pinnacle of Kerbal endeavour and achievements for space exploration. Using the facilities you can see here, you will be able to manage your space program, create rockets and planes, track your Kerbal explorers as they roam the solar system, find exciting new uses for explosive substances, and in case of emergency, hire more Kerbals.
+坎巴拉航天中心简称KSC，是坎巴拉航天人的努力和太空探索成就的象征。你可以看看这里，使用相应设施你将能够管理自己的太空计划，创造火箭和飞机；还有跟踪您的探险家，因为他们要在太空漫游；在发现易爆物质令人兴奋的新用途的紧急情况下，还须要雇佣多一些小绿人。
 
-To find out about each of the facilities, you can hover your mouse over them or the facilities buttons (they show up when the cursor is outside this window). If you need to repair a structure (or upgrade them in career), you can do this by right-clicking them.
+要了解每一个设施，你可以将鼠标悬停在建筑上或左边的设施按钮。如果您需要修复结构（或在生涯模式中升级它们），你可以通过右键点击他们做到这一点。
 
-Take some time to hover the mouse over the buildings and see what they each are, and when you're ready enter the Vehicle Assembly Building (VAB).]]></string>
+花一些时间来将鼠标悬停在建筑物上，看看它们都是些什么，当你准备好后就进入航天器装配大楼（VAB）。]]></string>
 <string id="428314"><![CDATA[insideVAB]]></string>
-<string id="428333"><![CDATA[Inside the VAB]]></string>
-<string id="428362"><![CDATA[Very good! What you see in the middle of this screen is the construction area. This is where parts are placed and your craft is constructed.
+<string id="428333"><![CDATA[VAB 内部]]></string>
+<string id="428362"><![CDATA[很好！你现在屏幕中看到的就是航天器装配大楼内部。在这里放置了建造火箭所需的零件，同时也在这里完成建造。
 
-On the left side of the screen is the Parts Toolbox. It will show all the parts you have available in each of the different categories, once there are any to pick, that is!]]></string>
+在屏幕的左侧是部件工具箱。它将每个可用的零件显示在不同的类别标签中，建造时需要什么零件来这里挑就是了！]]></string>
 <string id="428992"><![CDATA[selectPod]]></string>
-<string id="429011"><![CDATA[Select a Command Module]]></string>
-<string id="429058"><![CDATA[If you want your craft to be controllable you need a command module, and it's best to make it the first part you place.
+<string id="429011"><![CDATA[选择一个指令舱]]></string>
+<string id="429058"><![CDATA[如果要飞行器可以控制，你就需要有一个命令模块，并且最好放置到第一个。
 
-This part will either contain some plucky Kerbal crew or an automated pilot mechanism.
+这一部分可以是勇敢的 Kerbal 宇航员或是自动化模块控制。
 
-As we're just starting there's only one choice. Go ahead and pick that command module from the <color=]]></string>
-<string id="429682"><![CDATA[>Pods</color> tab.]]></string>
+我们刚刚开始只有一个选择。走起，该命令模块在 <color=]]></string>
+<string id="429682"><![CDATA[>Pods</color> 标签。]]></string>
 <string id="429719"><![CDATA[camControls]]></string>
-<string id="429742"><![CDATA[Looking Around]]></string>
-<string id="429771"><![CDATA[After at least one part is placed, you can look around with the following controls.
-	Orbit the camera:
+<string id="429742"><![CDATA[看看周围]]></string>
+<string id="429771"><![CDATA[至少有一部件被放置后，你可以用下列控制来看看周围。
+轨道相机：
 		<color=]]></string>
-<string id="429997"><![CDATA[>[Arrow Keys]</color> or
+<string id="429997"><![CDATA[>[方向键]</color> 或
 		<color=]]></string>
-<string id="430066"><![CDATA[>Right Mouse Drag</color>
-	Move the camera up/down:
+<string id="430066"><![CDATA[>鼠标右键拖动</color>
+	将摄像机向上/向下:
 		<color=]]></string>
 <string id="430189"><![CDATA[]</color> / <color=]]></string>
-<string id="430228"><![CDATA[]</color> or
+<string id="430228"><![CDATA[]</color> 或
 		<color=]]></string>
 <string id="430273"><![CDATA[</color>
-	Zoom the camera:
+	调整摄像机的焦距：
 		<color=]]></string>
 <string id="430346"><![CDATA[>[Shift]</color> + <color=]]></string>
 <string id="430399"><![CDATA[addParachute]]></string>
-<string id="430424"><![CDATA[Adding a Parachute]]></string>
-<string id="430461"><![CDATA[If you'd like your pilot to be able to make more than one flight, he or she will have to return safely to the ground (or water) on Kerbin. Parachutes are a simple way to make sure that happens. They can be found on the <color=]]></string>
-<string id="430915"><![CDATA[>Utility</color> tab (change tabs by clicking their icons on the left of the part list window).
+<string id="430424"><![CDATA[添加一个降落伞]]></string>
+<string id="430461"><![CDATA[如果您不希望飞行员是一次性的，那他或她就必须安全返回Kerbin地面（或水里）。使用降落伞就是一种简单的方式。它们可以在<color=]]></string>
+<string id="430915"><![CDATA[>Utility</color> 标签找到（通过点击左侧的工具列表中部件窗口选项卡图标来改变）。
 
-When you're choosing parts you can view the details of available parts by hovering over them in the toolbox. When the info is visible, most parts have an additional information window which can be opened with a right-click. Note that the parachute states how large its effective diameters are and what the maximum safe speed for deployment is.
+你选择部件时可以通过鼠标悬停在工具箱中的部件上查看细节。当信息中可见有附加信息窗口时，可以用右键单击打开部件。需要注意降落伞有效直径大小和部署的最大安全速度是多少。
 
-Go ahead and select the <color=]]></string>
-<string id="431863"><![CDATA[>Mk16 Parachute</color> by <color=]]></string>
-<string id="431932"><![CDATA[>left-clicking</color> on it. Then move it to the top of the command pod so that the green sphere at the bottom of the parachute lines up with the green sphere at the top of the pod. <color=]]></string>
-<string id="432314"><![CDATA[>Click</color> again to attach.]]></string>
+来吧，选择<color=]]></string>
+<string id="431863"><![CDATA[>Mk16 降落伞</color> 通过 <color=]]></string>
+<string id="431932"><![CDATA[>左击</color> 选择部件。然后将其移动到指令仓的顶部，降落伞的底部与在指令仓的顶部对齐后降落伞会显示绿色，此时再次<color=]]></string>
+<string id="432314"><![CDATA[>左击</color> 安装上去]]></string>
 <string id="432377"><![CDATA[parachuteParams]]></string>
-<string id="432408"><![CDATA[Adjusting Part Options]]></string>
-<string id="432453"><![CDATA[Some parts, like our parachute here, have configurable options. To see these we need to <color=]]></string>
-<string id="432645"><![CDATA[>right-click</color> on the parachute we just attached to the pod. Do that now and you will see the available parameters.
+<string id="432408"><![CDATA[调整部件选项]]></string>
+<string id="432453"><![CDATA[有些部件，这里像我们的降落伞，是有可配置选项的。想要打开选项我们需要<color=]]></string>
+<string id="432645"><![CDATA[>右击</color>安装在指令仓上的降落伞。您将看到降落伞的设置参数。
 
-On the parachute you will see that we can adjust our altitude and the atmospheric pressure at which to open; that setting can be quite useful on distant worlds.
+在降落伞的设置参数中你会看到，我们可以调整打开的高度和打开大气压力;该设置在遥远的世界非常有用。
 
-For now let's check that the opening height on the chute is at least 1000m, because safety is the Kerbal way, after all. For the min pressure slider, move it all the way to the right (0.75). This setting prevents the chute from activating until the atmosepheric pressure is above the configured value - on Kerbin 0.75 is about 2 kilometers in altitude, so even if you stage early and arm the parachute, it will wait until then to activate.
+现在让我们检查降落伞的打开高度至少要有 1000 米，因为这毕竟是Kerbal的安全高度。对于压力滑块，将它移动到最右侧 (0.75) 。降落伞将在大于所配置的大气压力值时才被激活，该设置可防止在不合适的高度上激活降落伞。 Kerbin 0.75上 是约 2 公里的高度，所以即使你过早的部署了降落伞，它也会等到大气压力满足要求后才会激活。
 
-You can hide these options by right-clicking on the background scene or picking up another part (when there's one available). When you're happy with that we can proceed.]]></string>
+您可以通过在背景场景右键单击或捡起另一个部件 （如果有可用）来隐藏这些选项。当您满意，我们可以继续进行。]]></string>
 <string id="434437"><![CDATA[addBacc]]></string>
-<string id="434452"><![CDATA[Add a Solid Motor]]></string>
-<string id="434487"><![CDATA[Next up, we are going to need something to make us go.
+<string id="434452"><![CDATA[添加固体燃料发动机]]></string>
+<string id="434487"><![CDATA[下一步，我们要需要一些东西来让我们飞起来。
 
 <color=]]></string>
 <string id="434614"><![CDATA[>点击</color> 那个 <color=]]></string>
-<string id="434673"><![CDATA[>Engines</color> tab on the left to show the available engines and solid rocket motors.
+<string id="434673"><![CDATA[>Engines</color> 选项卡选择一个可用的引擎或固体火箭发动机。
 
-Grab one and connect it to the bottom of the pod. You may need to zoom or move the camera to be able to do so.]]></string>
+抓一个将其连接到指令仓的底部。要做到这个你可能需要缩放或移动相机。]]></string>
 <string id="435073"><![CDATA[removeBACC]]></string>
-<string id="435094"><![CDATA[Oops!]]></string>
-<string id="435105"><![CDATA[Oops! I forgot you're just starting out. You're not a famous rocket scientist, and to make that craft survivable as it stands now you'd have to be better at rocket science than me. Hah, impossible!
+<string id="435094"><![CDATA[哎呀 ！]]></string>
+<string id="435105"><![CDATA[哎呀！我忘了你才刚刚起步。你不是一个著名的火箭科学家，而现在要架起这种飞行器你必须要比我更擅长火箭科学。哈哈，不可能 ！
 
-The problem with that craft is that this solid rocket is too powerful for the payload (a single small pod and chute). It will either burn up on ascent from going too fast, or burn up coming back down. Even if you survive that, the craft's mass will cause it to fall too fast for the parachute to operate properly, and you'd hit the surface before it could stop you!
+现在飞行器的问题在于这种固体火箭对于这个有效载荷（一个小小指令仓加一个降落伞）太强大了。飞行器会因为上升的速度过快而烧起来，这样你就回不来了。即使活下来，飞船的整体质量导致下降速度太快，降落伞无法正常运行你将会直接打到地面上！
 
-Ok, I promise to teach you how to change that to make it work in a later tutorial, but for now let's continue.
+好吧，我答应教你如何解决这个问题，不过要到后面的教程才会学习，现在让我们继续。
 
-Well, at least this way I get to tell you about removing parts. Pick up the <color=]]></string>
-<string id="436629"><![CDATA[>BACC "Thumper"</color>, and either drop it back over the Parts Toolbox or press <color=]]></string>
+嗯，至少现在我可以告诉你删除哪些部件。拿起<color=]]></string>
+<string id="436629"><![CDATA[>BACC "Thumper"</color>要丢弃它就扔到零件工具箱里或按 <color=]]></string>
 <string id="436807"><![CDATA[>[Delete]</color>.]]></string>
 <string id="436844"><![CDATA[addFlea]]></string>
-<string id="436859"><![CDATA[The Right Solid Motor]]></string>
-<string id="436902"><![CDATA[Instead, let's add the solid motor that's a better match for a ship of this size.
+<string id="436859"><![CDATA[正确的固体发动机]]></string>
+<string id="436902"><![CDATA[现在取而代之的固体发动机能更好的匹配这种规模的飞船。
 
-At the start of your career you will have what I consider rubbish parts. Literally: the motor here looks like, and may well be, a converted trash can.
+你在职业生涯游戏模式开始时你就只会有这些垃圾部件。意思就是说：看起来像垃圾桶里转换过来的。
 
-That said, it does have enough oomph to get this little craft moving skyward, and quickly. As you progress you will be able to unlock more engines and other parts.
+也就是说，它确实有足够的动力去很快的移动这个小飞行器。当你进步后，将能够解锁更多的引擎和其他部件。
 
-For now though, let's pick up the <color=]]></string>
-<string id="437786"><![CDATA[>RT-5 "Flea"</color> and connect it to the bottom of the pod.]]></string>
+不过现在，我们只能拿起<color=]]></string>
+<string id="437786"><![CDATA[>RT-5 “跳蚤"</color> 并将其连接到指令仓的底部。]]></string>
 <string id="437909"><![CDATA[staging]]></string>
-<string id="437924"><![CDATA[The Staging Stack]]></string>
-<string id="437959"><![CDATA[Nice one. You've built the simplest survivable craft possible. We could go launch this right now, but it might be safer to explain one other thing first.]]></string>
-<string id="438267"><![CDATA[In the bottom right you will see the staging stack - it's the box with the number 0 and icons for the parachute and engine in it. This stack shows us which parts will be activated as we "stage" our rocket.]]></string>
-<string id="438679"><![CDATA[What this shows is that when we activate the next stage both the engine and the parachute will be triggered. While it could be considered funny to open the chute and fire the motor at the same time, it's not going to give you much of a flight.
+<string id="437924"><![CDATA[分段堆栈]]></string>
+<string id="437959"><![CDATA[好家伙。你已经建造了一个最简单的飞行器。我们现在就可以去启动它，不过牢记安全第一，预防为主是不会错的。]]></string>
+<string id="438267"><![CDATA[在右下角你会看到分段堆栈 — — 现在降落伞和引擎图标都在它的数字 0框内。此堆栈显示的是我们的部件会在火箭哪个"阶段"激活。]]></string>
+<string id="438679"><![CDATA[这里显示当我们激活下一阶段时，引擎和降落伞将会一同触发。虽然打开降落伞飞行会很有趣，但你飞不了多远。
 
-To fix this we need to separate the engine and chute into two stages. If you mouse over the "0" stage you will see a little + and - appear to the left of the box. <color=]]></string>
-<string id="439511"><![CDATA[>Click</color> the <color=]]></string>
-<string id="439564"><![CDATA[>plus</color> button to add a new stage. If you add too many, click the minus button on the extra ones to remove them. Make sure you have precisely two stages.]]></string>
+要解决此问题，我们需要将发动机和 降落伞分成两个阶段。如果您将鼠标移动到"0"的阶段，你将看到一个小 + 和-显示在方框的左侧。 <color=]]></string>
+<string id="439511"><![CDATA[>单击</color> 那个 <color=]]></string>
+<string id="439564"><![CDATA[>加号</color> 按钮添加一个新的阶段。如果你添加了太多，单击减号按钮，将额外的删除。请确保你正好有两个阶段。]]></string>
 <string id="439884"><![CDATA[staging2]]></string>
-<string id="439901"><![CDATA[Adjusting the Staging Stack]]></string>
-<string id="439956"><![CDATA[Excellent. It's important to note that the stages activate from the highest number and then count down. So our first stage will be stage 1 (the engine) and our second one will be stage 0 (the chute). 
+<string id="439901"><![CDATA[调整分段堆栈]]></string>
+<string id="439956"><![CDATA[非常好。值得注意的是，阶段激活顺序是从数字最大的开始激活，然后倒数。因此，我们的第一个阶段将是数字1的阶段（引擎）和我们的第二个将是数字0的阶段（降落伞）。
 
-Now <color=]]></string>
-<string id="440384"><![CDATA[>drag</color> the engine icon from stage 0 down to stage 1 to give our pilot some comfort.]]></string>
+现在<color=]]></string>
+<string id="440384"><![CDATA[>拖动</color> 引擎图标从阶段 0 拖到阶段 1，让我们的飞行员更舒适一点。]]></string>
 <string id="440566"><![CDATA[nameSave1]]></string>
-<string id="440585"><![CDATA[Saving it for Later]]></string>
-<string id="440624"><![CDATA[That's it. We now have a safe - well, relatively safe craft that's ready to go. Let's make sure that if we need this design again we don't have to build it all from scratch.
+<string id="440585"><![CDATA[保存起来以备后用]]></string>
+<string id="440624"><![CDATA[就是这样。我们现在加一个保险 - 好，相对安全的飞行器已经准备好了。如果我们还需要这样的设计，相信你不想从头在开始再来建造一次。
 
-At the top of the screen you will see the name for our craft. Hmm. "untitled space craft" doesn't seem so majestic. Why don't you change that to be something more your style, and you can add a description if you'd like to?
+在屏幕的顶部，你会看到我们的飞行器名称。嗯。 “未命名飞船”似乎不是很给力。你为什么不换一换，起一个更有个性的名字，你还可以给飞行器添加一些描述，如果你想的话？
 
-When you use the load screens later, these names and descriptions help you to grab the right vessel.
+当你以后使用载入功能时，这些名称和描述可以帮助您选到正确的飞行器。
 
-When you're happy with the name, <color=]]></string>
-<string id="441708"><![CDATA[>Save</color> icon in the upper right.]]></string>
-<string id="441785"><![CDATA[Summing Up]]></string>
-<string id="441806"><![CDATA[Excellent work. Feel free to play around with the parts and techniques I've shown you, and when you're ready to continue, press the red button in the upper right to exit.
+当你有个满意的名称，就点<color=]]></string>
+<string id="441708"><![CDATA[>保存</color> ，在右上角的图标。]]></string>
+<string id="441785"><![CDATA[总结]]></string>
+<string id="441806"><![CDATA[优秀作品。我已经给你展示了基础飞行器的制造部件和建造技术，你现在可随意的玩一玩，当你准备好继续学习，请按右上方红色的退出按钮。
 
-Back at the Training menu, try the Flight Basics tutorial to learn how to fly this little craft, and then the Intermediate Construction tutorial can teach you more about the editor.
+回到训练菜单，尝试飞行基础知识教程学习如何让这个小玩意飞起来，后面还有中级建造教程可以教会你更多。
+
 
 <color=]]></string>
-<string id="442532"><![CDATA[>注意 ︰ 纯属娱乐，当你退出时，您在此处创建任何船只都将会丢失。</color>]]></string>
+<string id="442532"><![CDATA[>注意︰纯属娱乐（大片子），当你退出时，您在此处创建任何船只都将会丢失。</color>]]></string>
 <string id="442738"><![CDATA[statename]]></string>
 <string id="442757"><![CDATA[complete]]></string>
 <string id="442774"><![CDATA[tutorialEditor_Stages]]></string>
