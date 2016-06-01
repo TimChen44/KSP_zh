@@ -8403,25 +8403,25 @@ Cost: \F ]]></string>
 <string id="364451"><![CDATA[>暂停</color> 菜单里，希望后面的教程我还能见到你。]]></string>
 <string id="364538"><![CDATA[Finish]]></string>
 <string id="364551"><![CDATA[ivaBonusPage]]></string>
-<string id="364576"><![CDATA[Internal View]]></string>
-<string id="364603"><![CDATA[Aha!, You're a curious one arent' you? The IVA button over each crewmember's portrait will let you see the ship from his own perspective.
+<string id="364576"><![CDATA[仓内视图]]></string>
+<string id="364603"><![CDATA[啊哈 ！你真是好奇的一个人，不是吗？每个船员的肖像都有个 IVA 按钮，点击后将以该船员的第一人称视角看到飞船内部。
 
-Note that in this mode, your flight UI has less instruments, since most of them can be found in the cockpit itself.
+注意，在这种模式下，用户界面只显示较少仪器，不过大多都可以在驾驶舱看见。
 
-In Internal View, right-clicking will toggle between mouse-look and interact modes, so you can look aroud without having to hold down the right mouse button. Try looking around and clicking on things, the Engineering department says there are many devices in here that actually work. They seemed to be quite proud of that, in fact.
+在内部视图中，右键单击将切换鼠标外观和交互模式，所以可以无需一直按住鼠标按钮来看你的周围。试着环顾四周，点击东西，工程部说实际上这里有许多设备在工作。事实上，他们似乎相当自豪。
 
-When there are multiple crew you can cycle through the POV of them using the []]></string>
-<string id="365939"><![CDATA[] key.
+当有多个乘员时，您可以通过按 []]></string>
+<string id="365939"><![CDATA[] 键来循环切换。
 
-Return to External View by pressing []]></string>
+要返回到外部视图按 []]></string>
 <string id="366030"><![CDATA[deathBonusPage]]></string>
 <string id="366059"><![CDATA[噢，糟糕，在这里发生了可怕的错误，实际任务中你可能想尽量活着。
 别难过，我会派人来清理它，你可以选择另一个时间再尝试一次。]]></string>
 <string id="366457"><![CDATA[dockingCtrlBonusPage]]></string>
-<string id="366498"><![CDATA[Docking Control Mode]]></string>
-<string id="366539"><![CDATA[I see you've found the Docking Controls. In this mode, controls behave somewhat differently, to make maneuvering around in orbit easier. However, that is a topic for a whole other tutorial, so let's just go back to the subject at hand for now.
+<string id="366498"><![CDATA[对接控制模式]]></string>
+<string id="366539"><![CDATA[我看你已经找到了对接控制器。在这种模式下，控制方式有些不同，能在轨道上左右的移动而不是翻转。然而，这是另一个教程的话题，所以我们回到现在主题上。
 
-Press the Staging button on the bottom-left corner to return to the Staging Control Mode.]]></string>
+按下左下角的分段模式按钮，返回到分段控制模式。]]></string>
 <string id="367209"><![CDATA[failBonusPage]]></string>
 <string id="367236"><![CDATA[偏航]]></string>
 <string id="367257"><![CDATA[噢，天哪，在这里什么地方出了问题 — — 你的飞船偏离了航线。你需要快点按照提示操作。如果你控制飞船有麻烦将它设置为S.A.S.，选择目标飞行模式让飞船自动飞向目标;你只需要分级你的火箭。你会看到它如何飞行，然后你可以在尝试飞行计划。不要难过，你需要大量的练习 ！
@@ -8444,56 +8444,57 @@ Altitude: ]]></string>
 <string id="369571"><![CDATA[solidBooster]]></string>
 <string id="369596"><![CDATA[liquidEngine2]]></string>
 <string id="369623"><![CDATA[liquidEngine3]]></string>
-<string id="369650"><![CDATA[Asteroid Redirect Mission, Part 1]]></string>
-<string id="369717"><![CDATA[Asteroids. Awesome to look at and great to have around; not so much when one lands on your house. Today we're going to learn how to keep that from happening.
+<string id="369650"><![CDATA[小行星重新导向任务，第1部分]]></string>
+<string id="369717"><![CDATA[小行星。在我们周围随处可见这些令人敬畏的大石头;不知道什么时候就有一个会落到你的房顶上。今天我们要学习如何确保这种情况不会发生。
 
-As anyone who has played Galaxy Intruders for more than ten minutes can tell you, it's not about firing at where they are, but about aiming at where they're going to be.]]></string>
+我可以告诉你，这不是玩银河入侵者那种射击游戏，而是把它们送到该去的地方。]]></string>
 <string id="370375"><![CDATA[rendezvous]]></string>
-<string id="370396"><![CDATA[For that, we're going to walk through a process called "rendezvous." It's really, REALLY helpful for making spaceships meet out there in space, and eventually dock, so pay attention.
+<string id="370396"><![CDATA[为此，我们经历的这个过程被称为"交会"。这是真的，实际上这一过程有助于太空飞船最终的会合并停靠，所以要注意。
 
-The idea is to know how fast something is going and where it's headed so you can be at the same place at the same time in order to meet it.
+我们先要知道这个东西的速度有多快以及它的去向。
 
-Now open your map view to take a look at some things.]]></string>
+打开地图视图就能看到这些东西。]]></string>
 <string id="371154"><![CDATA[mapView]]></string>
-<string id="371169"><![CDATA[Asteroids]]></string>
-<string id="371188"><![CDATA[Through luck, divine intervention or some well conceived tutorial writing, this particular asteroid here has been captured in an eccentric but stable Kerbin orbit.
+<string id="371169"><![CDATA[小行星]]></string>
+<string id="371188"><![CDATA[幸运的是，因教程的需要所以神一样的编辑敲了几下键盘，让一颗小行星进入了Kerbin引力范围形成了一个偏心但稳定的轨道。
 
-This is about as lucky as one can get with these bodies, because in reality most of them will just zoom past Kerbin or take a single trip around it before leaving, never to return.
+和这大约一样幸运，同时我们又能够去捕捉到它，因为在现实生活中大部分将只是飞驰而过或绕一圈后就再也没有回来。
 
-When choosing your own target asteroid, I recommend you see what there is to choose from through the tracking station and designate one of your liking to be permanently tracked. (If you don't track it, catching it will be just about impossible.)]]></string>
+当要选择一个目标时，我建议你通过测控站选择你喜欢的并指定为永久跟踪目标。（如果你不跟踪它，将几乎不可能抓住它。）]]></string>
 <string id="372374"><![CDATA[attitude1]]></string>
-<string id="372393"><![CDATA[Rendezvous - Theory]]></string>
-<string id="372432"><![CDATA[First things first--Basic orbital mechanics. If you match your orbit to an object's precisely, you'll be moving at the same speed as it is.
+<string id="372393"><![CDATA[交会 - 原理]]></string>
+<string id="372432"><![CDATA[首先第一件事情是了解基本的轨道力学。就是精确的匹配目标轨道，换种说法就是要与目标以相同的速度运动。
 
-Because of the way orbits work, if you're closer to the body you're orbiting than the object you are trying to meet, you will be going faster than it is--and you'll be going slower than it is if you're orbiting higher.]]></string>
+由于是在轨道运行，如果你要更接近你轨道上的目标对象，你就要比它快，并且你的轨道就会比它高，反则比它慢将会远离目标，并且轨道比它低。]]></string>
 <string id="373152"><![CDATA[attitude2]]></string>
-<string id="373171"><![CDATA[Rendezvous - Practice]]></string>
-<string id="373214"><![CDATA[Knowing this, let's get started. You know the usual drill from previous tutorials: tweak that maneuver node on your orbit to plot an intercept that gets as close as possible to the asteroid. I've already targeted it for you, but if you deselect it, target it again.
+<string id="373171"><![CDATA[交会 - 实践]]></string>
+<string id="373214"><![CDATA[知道了这一点，让我们开始吧。通过教程学习和平时的演练：你应该知道如何调整你的轨道上的机动节点来获取一个尽可能接近小行星拦截轨迹。不过我已经针对任务为你准备了一个，但如果你取消了，那就再复习一次吧。
 
-Actually, I'm sure if you fine-tune it thoroughly--moving it and tweaking the burn amounts--you can get very close.
+其实，我敢肯定如果你在进行一下微调 - 移动它及调整燃烧量 - 你将会非常接近小行星。
 
-I recommend using your mousewheel when the mouse pointer is over the node modifiers to make fine adjustments, instead of click-dragging on their handles as we did before, but use whichever method gives you finer control.
+我建议移动鼠标指针到机动节点上时使用鼠标滚轮来对机动节点进行微调，而不是像以前一样点击- 拖动机动手柄，但使用哪种方法都是为您能更好的控制飞行。
 
-You can check how close your encounter will be if you mouse over the color-matched pairs of closest-approach indicators.]]></string>
+您可以查看如何接近并相遇，如果你鼠标移到机动节点上将用两种颜色显示你与目标的距离位置。]]></string>
 <string id="374668"><![CDATA[交会节点长这样：]]></string>
 <string id="374755"><![CDATA[precision]]></string>
-<string id="374774"><![CDATA[Rendezvous - Precision]]></string>
-<string id="374819"><![CDATA[When you're happy with your plotted maneuver, execute the burn.
+<string id="374774"><![CDATA[交会 - 精确]]></string>
+<string id="374819"><![CDATA[当你对策划的机动满意，就打开发动机执行。
 
-One final word of warning though: when executing this kind of precision maneuver, try to leave as little deltaV remaining as possible or the end result could vary greatly from what you had planned.
+最后在提醒一句：在执行这种精确机动时，deltaV系统留下的剩余时间尽可能的少，否则最终结果会可能与你计划有很大的不同。
 
-We will not proceed until the intercept is within tolerances needed for this tutorial--if you don't get it after one maneuver, plot and excute another one a bit further ahead and so on until your final intercept separation is less than 100 kilometers.]]></string>
+如果你没有得到所要求的距离，你再策划执行一次机动，直到你的最后拦截间隔距离小于100km，距离超过允许的公差我们将无法继续。]]></string>
 <string id="375851"><![CDATA[attitude3]]></string>
-<string id="375870"><![CDATA[Rendezvous - Fine Tune]]></string>
-<string id="375915"><![CDATA[Good job. You're now on an orbit similar to but lower than the asteroid's. Keep it targeted and experiment with your maneuver nodes until you have a closest-approach distance of less than 10 kilometers, then execute the burn and wait for that encounter.
+<string id="375870"><![CDATA[交会 - 微调]]></string>
+<string id="375915"><![CDATA[做得好。现在您的轨道比小行星的轨道低一点。保持目标尝试再策划一次机动，让你与小行星的距离在10km以内，然后打开发动机执行。
 
-This step is actually optional. Just keep in mind that the closer your orbit takes you, the less fuel you'll have to use.
+这个步骤实际上是可以随意选择的。只要记住，在轨道上你需要节省使用燃料。
 
-Anyway, when you're done click <color=]]></string>
-<string id="376749"><![CDATA[>Next</color>.]]></string>
+无论如何，当你完成点击
+<color=]]></string>
+<string id="376749"><![CDATA[>下一步</color>.]]></string>
 <string id="376778"><![CDATA[lowerPe3]]></string>
-<string id="376795"><![CDATA[Rendezvous - Approach]]></string>
-<string id="376838"><![CDATA[And this is where speed and efficiency are key. Wait until you're about 5 minutes away from your encounter.
+<string id="376795"><![CDATA[交会对接-方法]]></string>
+<string id="376838"><![CDATA[这是速度与效率的关键。等待，相遇大约需要 5 分钟。
 
 <color=]]></string>
 <string id="377072"><![CDATA[>Click</color> the velocity meter in your navball until it is in target mode and so displays your relative velocity to your target. You're moving at roughly the same speed, but even a small difference will cause you to drift apart.
@@ -8847,20 +8848,20 @@ Duna卫星 Ike 挡路,这事很常见因为Ike的SOI比Duna大.一旦发现立�
 不过现在，我们只能拿起<color=]]></string>
 <string id="437786"><![CDATA[>RT-5 “跳蚤"</color> 并将其连接到指令仓的底部。]]></string>
 <string id="437909"><![CDATA[staging]]></string>
-<string id="437924"><![CDATA[分段堆栈]]></string>
+<string id="437924"><![CDATA[分级堆栈]]></string>
 <string id="437959"><![CDATA[好家伙。你已经建造了一个最简单的飞行器。我们现在就可以去启动它，不过牢记安全第一，预防为主是不会错的。]]></string>
-<string id="438267"><![CDATA[在右下角你会看到分段堆栈 — — 现在降落伞和引擎图标都在它的数字 0框内。此堆栈显示的是我们的部件会在火箭哪个"阶段"激活。]]></string>
-<string id="438679"><![CDATA[这里显示当我们激活下一阶段时，引擎和降落伞将会一同触发。虽然打开降落伞飞行会很有趣，但你飞不了多远。
+<string id="438267"><![CDATA[在右下角你会看到分级堆栈 — — 现在降落伞和引擎图标都在数字 0的分级框内。此堆栈显示的是我们的部件会在火箭哪个"阶段"激活。]]></string>
+<string id="438679"><![CDATA[这里显示当我们激活分级时，将会同时触发引擎和降落伞。虽然打开降落伞飞行会很有趣，但你飞不了多远。
 
-要解决此问题，我们需要将发动机和 降落伞分成两个阶段。如果您将鼠标移动到"0"的阶段，你将看到一个小 + 和-显示在方框的左侧。 <color=]]></string>
+要解决此问题，我们需要将发动机和 降落伞放到不同的分级上。如果您将鼠标移动到数字"0"的分级堆栈上，你将看到一个小 + 和-显示在方框的左侧。 <color=]]></string>
 <string id="439511"><![CDATA[>单击</color> 那个 <color=]]></string>
-<string id="439564"><![CDATA[>加号</color> 按钮添加一个新的阶段。如果你添加了太多，单击减号按钮，将额外的删除。请确保你正好有两个阶段。]]></string>
+<string id="439564"><![CDATA[>加号</color> 按钮添加一个新的阶段。如果你添加了太多，单击减号按钮，将额外的删除。请确保你正好有两个分级。]]></string>
 <string id="439884"><![CDATA[staging2]]></string>
-<string id="439901"><![CDATA[调整分段堆栈]]></string>
-<string id="439956"><![CDATA[非常好。值得注意的是，阶段激活顺序是从数字最大的开始激活，然后倒数。因此，我们的第一个阶段将是数字1的阶段（引擎）和我们的第二个将是数字0的阶段（降落伞）。
+<string id="439901"><![CDATA[调整分级堆栈]]></string>
+<string id="439956"><![CDATA[非常好。值得注意的是，分级激活顺序是从数字最大的开始激活，然后倒数。因此，我们的第一个分级将是数字1的分级（引擎），我们的第二个将是数字0的分级（降落伞）。
 
 现在<color=]]></string>
-<string id="440384"><![CDATA[>拖动</color> 引擎图标从阶段 0 拖到阶段 1，让我们的飞行员更舒适一点。]]></string>
+<string id="440384"><![CDATA[>拖动</color> 引擎图标从分级 0 拖到分级1，这能让我们的飞行员更舒适一点。]]></string>
 <string id="440566"><![CDATA[nameSave1]]></string>
 <string id="440585"><![CDATA[保存起来以备后用]]></string>
 <string id="440624"><![CDATA[就是这样。我们现在加一个保险 - 好，相对安全的飞行器已经准备好了。如果我们还需要这样的设计，相信你不想从头在开始再来建造一次。
