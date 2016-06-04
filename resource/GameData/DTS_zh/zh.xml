@@ -8498,85 +8498,86 @@ Altitude: ]]></string>
 <string id="376838"><![CDATA[这是速度与效率的关键。等待，相遇大约需要 5 分钟。
 
 <color=]]></string>
-<string id="377072"><![CDATA[>点击</color> 在导航球顶上的流速计，直到其处于目标模式等显示您的相对速度目标。你在移动大致相同的速度，但即使是小的差异将导致你渐行渐远。
+<string id="377072"><![CDATA[>点击</color> 在导航球顶上的测速计，切换到目标模式来显示您与目标的相对速度。移动到与目标大致相同的速度，即使是很小的差异也将导致对接失败。
 
-转船目标逆行并使用您的助推器或RCS推进器的速度降低到0.0米/秒。这意味着，相对于小行星，你就不再移动。请注意，这种漫长的等待后，你的电池可能会耗尽，你的船没有反应。不是一个问题。刚走出地图视图和部署太阳能电池板开始充电电池和船舶供电。
+将飞行器掉转与目标相反方向，并使用火箭助推器或RCS推进器将相对速度降低到0.0米/秒。这意味着，相对于小行星，你们的距离不再改变。请注意，这种漫长的等待后，你的电池可能会耗尽，你的飞行器会没有反应。不是一个问题。部署你的太阳能电池板开始为充电电池和飞船供电。
 
-而如果你离开地图画面，则很可能通过这段时间的方式获得目标小行星的视觉瞄准。]]></string>
+离开了地图画面，你现在可以目视到小行星目标。]]></string>
 <string id="378602"><![CDATA[closeToAsteroid]]></string>
-<string id="378633"><![CDATA[Rendezvous - Almost There!]]></string>
-<string id="378686"><![CDATA[Ok, so now you are "not moving" and you're so close to the asteroid you can almost touch it. 
+<string id="378633"><![CDATA[交会 - 即将完成！]]></string>
+<string id="378686"><![CDATA[好了，现在你是"不动"的，你如此靠近小行星几乎可以触摸到它。
 
-What you have to do now is aim yourself towards the asteroid by pointing at the pink round icon in your navball, since it points toward the target's location. Burn a little to get closer and turn yourself retrograde to kill your speed again. 
+你现在要做的是用导航球的目标模式，选择粉红色的圆形目标位置，因为这颗小行星就是目标。开始一点点的开始接近，并准备逆行停止。
 
-For small adjustments you can also use RCS translation burns (<color=]]></string>
+您还可以使用 RCS平移机动进行小小的调整 （<color=]]></string>
 <string id="379504"><![CDATA[]</color>, <color=]]></string>
-<string id="379541"><![CDATA[]</color> and <color=]]></string>
-<string id="379584"><![CDATA[]</color> keys) to tweak your approach.
+<string id="379541"><![CDATA[]</color> 和 <color=]]></string>
+<string id="379584"><![CDATA[]</color> 按键) 慢慢靠近。
 
-Repeat these steps as needed.]]></string>
+根据需要重复这些步骤。]]></string>
 <string id="379726"><![CDATA[conclusion]]></string>
-<string id="379747"><![CDATA[Rendezvous - Complete]]></string>
-<string id="379790"><![CDATA[And here we are at the target. Now all that's left is to grab that rock, but we'll leave that for next time, since your head is probably about to explode with new information already.
+<string id="379747"><![CDATA[交会 - 完成]]></string>
+<string id="379790"><![CDATA[我们现在是向着目标的。剩下的就是去抓住这个石头了，但我们要留到下一课，因为信息量太大，你的脑袋不够用大概已经快爆炸了。
 
-So for now, just suffice it to say that you achieved quite a feat. Goodbye for now.]]></string>
-<string id="380328"><![CDATA[Aw, shucks, something went terribly wrong here. You might want to try to stay alive when on an actual mission, you know...
-Don't feel bad, you can always try again.]]></string>
+我想说你现在已经相当了不起了。下一节课再见。]]></string>
+<string id="380328"><![CDATA[噢，糟糕，在这里发生了可怕的错误，实际任务中你可能想尽量活着。
+
+别难过，我会派人来清理它，你可以选择另一个时间再尝试一次。]]></string>
 <string id="380658"><![CDATA[Died]]></string>
 <string id="380667"><![CDATA[Asteroid1TutorialLock]]></string>
-<string id="380710"><![CDATA[Asteroid Redirect Mission, Part 2]]></string>
-<string id="380777"><![CDATA[Well pilot, you caught up to the target asteroid, but don't pat yourself on the back yet. You're not even close to done. How about we catch this rock?
+<string id="380710"><![CDATA[小行星重定向任务，第2部分]]></string>
+<string id="380777"><![CDATA[好了飞行员，你只是赶上了目标小行星，还没到骄傲的时候。你还没有完成任务呢。怎么样，我们来抓住这个石头？
 
 <color=]]></string>
-<string id="381097"><![CDATA[>Right-click</color> on the <color=]]></string>
-<string id="381168"><![CDATA[>"The Klaw"</color>, the grasping device (a white dome) at the top of your ship, and arm it from the part's action menu.]]></string>
+<string id="381097"><![CDATA[>右键点击</color> 在你的飞船顶部的 <color=]]></string>
+<string id="381168"><![CDATA[>"The Klaw"</color>，钩抓装置（白色圆顶状），并从行动菜单中选择部署它。]]></string>
 <string id="381410"><![CDATA[grappleDeploy]]></string>
-<string id="381437"><![CDATA[The Grappling Device]]></string>
-<string id="381478"><![CDATA[This modern marvel of technology will grab onto anything that it touches. The boys at the lab had an intern hanging from there for a whole day. Thing didn't even budge.
+<string id="381437"><![CDATA[抓钩装置]]></string>
+<string id="381478"><![CDATA[这是一个现代科学技术的奇迹，能抓住它接触到的任何一件东西。实验室里一个男生用这个将一个实习生挂到了天花板上。至今都不能动弹。
 
-The equipment has limits, though, so don't expect to catch any asteroids by ramming it into them at full speed. Think stepping on a soda can, but one that's worth a lot of taxpayer money.]]></string>
+不过该设备也有限制的，高速赶上并用它撞击小行星这个是不可行的。感觉就像用手捏爆了一个易拉罐一样，不过这个代价也太高了。]]></string>
 <string id="382194"><![CDATA[BeginApproach]]></string>
-<string id="382221"><![CDATA[And that's why we're going to handle the claw with care. Now, with your grapple armed, target the asteroid (If you haven't already) and slowly and carefully use your RCS thrusters to move towards the asteroid.
+<string id="382221"><![CDATA[这就是为什么我们要小心使用这个爪子的原因。现在，将你的钩抓对齐目标小行星（如果你还没有的话），慢慢地，小心地使用你的RCS推进器向小行星移动。
 
-Once you're close enough, and if the angle of the surface is not overly steep, the mechanism will activate on its own and grab this load of valuable and amazing minerals for us. 
+一旦你足够接近，表面的角度又不是过于陡峭，抓钩的机构会自动激活抓住这个宝贵的大石头。
 
-Be patient; this will take some time, but if you rush it and miss you will make matters worse.
+请耐心一点;这将需要花一些时间，但如果你冲撞它，这样你只会让事情变得更糟。
 
-If you fail to activate the grapple on the first try, you do have enough RCS propellant to back away and try again.]]></string>
+如果您在第一次尝试中不能激活抓钩，你也有足够的RCS推进剂退回来，然后再试一次。]]></string>
 <string id="383427"><![CDATA[asteroidCatched]]></string>
-<string id="383458"><![CDATA[There you go. Now we've grabbed onto the asteroid.
+<string id="383458"><![CDATA[这样就对了。现在我们已经抓住这颗小行星。
 
-You can pretty much call it yours now, but to make things more official, you should rename it. <color=]]></string>
-<string id="383768"><![CDATA[>Right-click</color> it and choose <color=]]></string>
-<string id="383853"><![CDATA[>Rename Asteroid</color> to do so. 
+现在它已经归你所有了，但为了更正式一点，你应该给它命名。<color=]]></string>
+<string id="383768"><![CDATA[>右键点击</color> 小行星并选择 <color=]]></string>
+<string id="383853"><![CDATA[>重命名小行星</color> 选项起个霸气的名字吧。
 
-There's something important when it comes to moving asteroids; efficiency. If you think the way you're grabbing the asteroid doesn't matter, I'd ask you to get up, grab a bag of groceries and carry it around with your arm fully outstretched at a 90 degree angle from your body. Then do the same carrying the bag close as you normally would and tell me if that took the same effort.
+这里有一些重要的事情，涉及到小行星的搬运效率。你可能会觉得，抓住小行星直接拖走不就行了，还要注意什么效率。那现在请你起身，随便找一包东西拿在手里，拿着的手臂与你的身体成90度完全伸直。然后你告诉我，你是选择用这样的方式来拿东西还是用通常的方式来拿？
 
-<color=]]></string>
-<string id="384709"><![CDATA[>Right-click</color> the asteroid again and choose <color=]]></string>
-<string id="384826"><![CDATA[>Target Center of Mass</color> to help you align things in the next step.]]></string>
+再次<color=]]></string>
+<string id="384709"><![CDATA[>右键点击</color> 小行星，并选择<color=]]></string>
+<string id="384826"><![CDATA[>目标中心质量</color> 协助接下来的调整步骤。]]></string>
 <string id="384974"><![CDATA[alignment]]></string>
-<string id="384993"><![CDATA[Pivot and Alignment]]></string>
-<string id="385032"><![CDATA[Your grapple and the thrust of the ship must obey the same principles. That's why we have a pivot to modify your connection angle and to make aligning to your centre of mass a complete breeze.
+<string id="384993"><![CDATA[枢轴对齐]]></string>
+<string id="385032"><![CDATA[必须遵守抓钩与飞船的推力重心相同的原则。这就是为什么我们要修改支点连接的角度，让调整你与目标的质量中心变得轻而易举。
 
 <color=]]></string>
-<string id="385436"><![CDATA[>Right-click</color> on the grapple and choose <color=]]></string>
-<string id="385545"><![CDATA[>Free Pivot</color>. The grapple itself will remain connected to the asteroid, but you will be able to independently move your ship and realign it.
+<string id="385436"><![CDATA[>右键点击</color> 抓钩，然后选择 <color=]]></string>
+<string id="385545"><![CDATA[>自由枢轴</color>。抓钩会继续保持抓住小行星，但此时能独立改变飞船的方向来重新调整角度。
 
-What you're trying to set up here is aiming the nose of the ship so that it points at the asteroid's center of mass. If you can do that, the asteroid will not wobble around or try to drag your ship to the side while the engine is firing. Obviously, that will make it easier for the ship to push the asteroid where you want it to go. 
+调整你的机头使其指向小行星的质量中心。如果你能做到这一点，这颗小行星将不会左右摇晃或是飞船点火时跑到船的侧面。显然，这将使得飞船更容易的把它推到你希望去的地方。
 
-Go ahead and adjust yourself until you have a better alignment, then lock the pivot again.]]></string>
+来吧，调整飞船直到你觉得可以了，然后再次锁定支点。]]></string>
 <string id="386695"><![CDATA[Redirect Start]]></string>
-<string id="386724"><![CDATA[Now you're all set to start redirecting your asteroid. Whether you want to use it to study materials, make it a mass destruction weapon by dropping on a world, or create a rocky space station like some pesky mutant, you're going to have to move your pet rock.]]></string>
-<string id="387244"><![CDATA[While you could start setting up maneuver nodes and burning in order to move that heavy load of yours right now, it would come at a great fuel cost, so it's better to plan a more efficient approach.
+<string id="386724"><![CDATA[现在开始重定向你的小行星。无论你是想用它做研究材料，或落下地面上使它成为大规模杀伤性武器，还是创建一个岩石空间站，你都要携带你的石头到达目的地。]]></string>
+<string id="387244"><![CDATA[虽然现在你就可以开始设置机动节点并执行燃烧，不过这样会需要很高的燃料成本，所以要好好的计划一个更有效的路径。
 
-Open your map, set Kerbin as your target, and find the point where Kerbin's orbit is closest to yours, then set up a maneuver node OPPOSITE to that, on the far side of your orbital path. This is when you will be at your lowest velocity, making it that much easier to adjust your orbit.]]></string>
-<string id="388216"><![CDATA[Rendezvous - Almost there!]]></string>
-<string id="388269"><![CDATA[Now try creating a maneuver which will get you back under Kerbin's SOI. Sounds simple enough, but watch out for two things.
+打开你的地图，将 Kerbin 设置为你的目标，并找到 Kerbin 轨道最接近你的位置，然后设置一个机动节点，在你的轨道相反的另一边。这时你将在一个最低的速度，使得更容易调整你的轨道。]]></string>
+<string id="388216"><![CDATA[交会 - 几乎没有！]]></string>
+<string id="388269"><![CDATA[现在尝试创建一个机动，这将让你在Kerbin的SOI回来。听起来很简单，但要注意两件事情。
 
-First of all, you're carrying a LOT of mass, so before calling it done, see if the maneuver is achievable. Rule of thumb is, if you're getting more than a 10 minutes estimated burn time, you will probably run out of fuel before completing it.
+首先，你现在携带的是一大块石头，所以要检查燃料用完之前能不能完成节点机动。经验法则是，如果预计的燃烧时间超过10分钟，你可能会在机动完成之前就耗尽燃料。
 
-Secondly, if it seems like it's impossible getting a return course, right click the maneuver node. Along with a delete button, two more buttons will appear. These alter the calculation of the burn's results to see what would happen if it was made not on this orbit, but the one after that, or the one after that. So if you don't get it in this lap, maybe you will in the next one, or in 100 years (we might be late for tea.)]]></string>
+其次，如果现在看来似乎是不可能完成的，可以右键单击动作节点。会出现一个删除按钮以及另外两个按钮。删除节点另外在创建一个，或改变节点执行时间的圈数，看看改变后轨道上发生变化。所以如果你没有在这一圈得到，也许你会在下一个，或100年（我们已经人走茶凉了。）]]></string>
 <string id="389857"><![CDATA[这个规划可以,但是超超超级耗时.留给玩家自行完成,我先撤了.
 
 最后说一句：飞船加上小行星质量很大保持飞船姿态非常困难,而且点火时间会很长是时候施展全部技巧了.
