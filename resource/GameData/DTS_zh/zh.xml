@@ -8416,6 +8416,7 @@ Cost: \F ]]></string>
 要返回到外部视图按 []]></string>
 <string id="366030"><![CDATA[deathBonusPage]]></string>
 <string id="366059"><![CDATA[噢，糟糕，在这里发生了可怕的错误，实际任务中你可能想尽量活着。
+
 别难过，我会派人来清理它，你可以选择另一个时间再尝试一次。]]></string>
 <string id="366457"><![CDATA[dockingCtrlBonusPage]]></string>
 <string id="366498"><![CDATA[对接控制模式]]></string>
@@ -8497,85 +8498,86 @@ Altitude: ]]></string>
 <string id="376838"><![CDATA[这是速度与效率的关键。等待，相遇大约需要 5 分钟。
 
 <color=]]></string>
-<string id="377072"><![CDATA[>Click</color> the velocity meter in your navball until it is in target mode and so displays your relative velocity to your target. You're moving at roughly the same speed, but even a small difference will cause you to drift apart.
+<string id="377072"><![CDATA[>点击</color> 在导航球顶上的测速计，切换到目标模式来显示您与目标的相对速度。移动到与目标大致相同的速度，即使是很小的差异也将导致对接失败。
 
-Turn the ship target-retrograde and use your boosters or RCS thrusters to lower that velocity to 0.0 m/s. That means that relative to the asteroid, you are no longer moving. Note that after such a long wait, your batteries could be depleted and your ship unresponsive. Not a problem. Just get out of map view and deploy your solar panels to start charging the batteries and supplying power to the ship.
+将飞行器掉转与目标相反方向，并使用火箭助推器或RCS推进器将相对速度降低到0.0米/秒。这意味着，相对于小行星，你们的距离不再改变。请注意，这种漫长的等待后，你的电池可能会耗尽，你的飞行器会没有反应。不是一个问题。部署你的太阳能电池板开始为充电电池和飞船供电。
 
-And if you do leave the map screen, you can probably get a visual sighting of the target asteroid by this time in the approach.]]></string>
+离开了地图画面，你现在可以目视到小行星目标。]]></string>
 <string id="378602"><![CDATA[closeToAsteroid]]></string>
-<string id="378633"><![CDATA[Rendezvous - Almost There!]]></string>
-<string id="378686"><![CDATA[Ok, so now you are "not moving" and you're so close to the asteroid you can almost touch it. 
+<string id="378633"><![CDATA[交会 - 即将完成！]]></string>
+<string id="378686"><![CDATA[好了，现在你是"不动"的，你如此靠近小行星几乎可以触摸到它。
 
-What you have to do now is aim yourself towards the asteroid by pointing at the pink round icon in your navball, since it points toward the target's location. Burn a little to get closer and turn yourself retrograde to kill your speed again. 
+你现在要做的是用导航球的目标模式，选择粉红色的圆形目标位置，因为这颗小行星就是目标。开始一点点的开始接近，并准备逆行停止。
 
-For small adjustments you can also use RCS translation burns (<color=]]></string>
+您还可以使用 RCS平移机动进行小小的调整 （<color=]]></string>
 <string id="379504"><![CDATA[]</color>, <color=]]></string>
-<string id="379541"><![CDATA[]</color> and <color=]]></string>
-<string id="379584"><![CDATA[]</color> keys) to tweak your approach.
+<string id="379541"><![CDATA[]</color> 和 <color=]]></string>
+<string id="379584"><![CDATA[]</color> 按键) 慢慢靠近。
 
-Repeat these steps as needed.]]></string>
+根据需要重复这些步骤。]]></string>
 <string id="379726"><![CDATA[conclusion]]></string>
-<string id="379747"><![CDATA[Rendezvous - Complete]]></string>
-<string id="379790"><![CDATA[And here we are at the target. Now all that's left is to grab that rock, but we'll leave that for next time, since your head is probably about to explode with new information already.
+<string id="379747"><![CDATA[交会 - 完成]]></string>
+<string id="379790"><![CDATA[我们现在是向着目标的。剩下的就是去抓住这个石头了，但我们要留到下一课，因为信息量太大，你的脑袋不够用大概已经快爆炸了。
 
-So for now, just suffice it to say that you achieved quite a feat. Goodbye for now.]]></string>
-<string id="380328"><![CDATA[Aw, shucks, something went terribly wrong here. You might want to try to stay alive when on an actual mission, you know...
-Don't feel bad, you can always try again.]]></string>
+我想说你现在已经相当了不起了。下一节课再见。]]></string>
+<string id="380328"><![CDATA[噢，糟糕，在这里发生了可怕的错误，实际任务中你可能想尽量活着。
+
+别难过，我会派人来清理它，你可以选择另一个时间再尝试一次。]]></string>
 <string id="380658"><![CDATA[Died]]></string>
 <string id="380667"><![CDATA[Asteroid1TutorialLock]]></string>
-<string id="380710"><![CDATA[Asteroid Redirect Mission, Part 2]]></string>
-<string id="380777"><![CDATA[Well pilot, you caught up to the target asteroid, but don't pat yourself on the back yet. You're not even close to done. How about we catch this rock?
+<string id="380710"><![CDATA[小行星重定向任务，第2部分]]></string>
+<string id="380777"><![CDATA[好了飞行员，你只是赶上了目标小行星，还没到骄傲的时候。你还没有完成任务呢。怎么样，我们来抓住这个石头？
 
 <color=]]></string>
-<string id="381097"><![CDATA[>Right-click</color> on the <color=]]></string>
-<string id="381168"><![CDATA[>"The Klaw"</color>, the grasping device (a white dome) at the top of your ship, and arm it from the part's action menu.]]></string>
+<string id="381097"><![CDATA[>右键点击</color> 在你的飞船顶部的 <color=]]></string>
+<string id="381168"><![CDATA[>"The Klaw"</color>，钩抓装置（白色圆顶状），并从行动菜单中选择部署它。]]></string>
 <string id="381410"><![CDATA[grappleDeploy]]></string>
-<string id="381437"><![CDATA[The Grappling Device]]></string>
-<string id="381478"><![CDATA[This modern marvel of technology will grab onto anything that it touches. The boys at the lab had an intern hanging from there for a whole day. Thing didn't even budge.
+<string id="381437"><![CDATA[抓钩装置]]></string>
+<string id="381478"><![CDATA[这是一个现代科学技术的奇迹，能抓住它接触到的任何一件东西。实验室里一个男生用这个将一个实习生挂到了天花板上。至今都不能动弹。
 
-The equipment has limits, though, so don't expect to catch any asteroids by ramming it into them at full speed. Think stepping on a soda can, but one that's worth a lot of taxpayer money.]]></string>
+不过该设备也有限制的，高速赶上并用它撞击小行星这个是不可行的。感觉就像用手捏爆了一个易拉罐一样，不过这个代价也太高了。]]></string>
 <string id="382194"><![CDATA[BeginApproach]]></string>
-<string id="382221"><![CDATA[And that's why we're going to handle the claw with care. Now, with your grapple armed, target the asteroid (If you haven't already) and slowly and carefully use your RCS thrusters to move towards the asteroid.
+<string id="382221"><![CDATA[这就是为什么我们要小心使用这个爪子的原因。现在，将你的钩抓对齐目标小行星（如果你还没有的话），慢慢地，小心地使用你的RCS推进器向小行星移动。
 
-Once you're close enough, and if the angle of the surface is not overly steep, the mechanism will activate on its own and grab this load of valuable and amazing minerals for us. 
+一旦你足够接近，表面的角度又不是过于陡峭，抓钩的机构会自动激活抓住这个宝贵的大石头。
 
-Be patient; this will take some time, but if you rush it and miss you will make matters worse.
+请耐心一点;这将需要花一些时间，但如果你冲撞它，这样你只会让事情变得更糟。
 
-If you fail to activate the grapple on the first try, you do have enough RCS propellant to back away and try again.]]></string>
+如果您在第一次尝试中不能激活抓钩，你也有足够的RCS推进剂退回来，然后再试一次。]]></string>
 <string id="383427"><![CDATA[asteroidCatched]]></string>
-<string id="383458"><![CDATA[There you go. Now we've grabbed onto the asteroid.
+<string id="383458"><![CDATA[这样就对了。现在我们已经抓住这颗小行星。
 
-You can pretty much call it yours now, but to make things more official, you should rename it. <color=]]></string>
-<string id="383768"><![CDATA[>Right-click</color> it and choose <color=]]></string>
-<string id="383853"><![CDATA[>Rename Asteroid</color> to do so. 
+现在它已经归你所有了，但为了更正式一点，你应该给它命名。<color=]]></string>
+<string id="383768"><![CDATA[>右键点击</color> 小行星并选择 <color=]]></string>
+<string id="383853"><![CDATA[>重命名小行星</color> 选项起个霸气的名字吧。
 
-There's something important when it comes to moving asteroids; efficiency. If you think the way you're grabbing the asteroid doesn't matter, I'd ask you to get up, grab a bag of groceries and carry it around with your arm fully outstretched at a 90 degree angle from your body. Then do the same carrying the bag close as you normally would and tell me if that took the same effort.
+这里有一些重要的事情，涉及到小行星的搬运效率。你可能会觉得，抓住小行星直接拖走不就行了，还要注意什么效率。那现在请你起身，随便找一包东西拿在手里，拿着的手臂与你的身体成90度完全伸直。然后你告诉我，你是选择用这样的方式来拿东西还是用通常的方式来拿？
 
-<color=]]></string>
-<string id="384709"><![CDATA[>Right-click</color> the asteroid again and choose <color=]]></string>
-<string id="384826"><![CDATA[>Target Center of Mass</color> to help you align things in the next step.]]></string>
+再次<color=]]></string>
+<string id="384709"><![CDATA[>右键点击</color> 小行星，并选择<color=]]></string>
+<string id="384826"><![CDATA[>目标中心质量</color> 协助接下来的调整步骤。]]></string>
 <string id="384974"><![CDATA[alignment]]></string>
-<string id="384993"><![CDATA[Pivot and Alignment]]></string>
-<string id="385032"><![CDATA[Your grapple and the thrust of the ship must obey the same principles. That's why we have a pivot to modify your connection angle and to make aligning to your centre of mass a complete breeze.
+<string id="384993"><![CDATA[枢轴对齐]]></string>
+<string id="385032"><![CDATA[必须遵守抓钩与飞船的推力重心相同的原则。这就是为什么我们要修改支点连接的角度，让调整你与目标的质量中心变得轻而易举。
 
 <color=]]></string>
-<string id="385436"><![CDATA[>Right-click</color> on the grapple and choose <color=]]></string>
-<string id="385545"><![CDATA[>Free Pivot</color>. The grapple itself will remain connected to the asteroid, but you will be able to independently move your ship and realign it.
+<string id="385436"><![CDATA[>右键点击</color> 抓钩，然后选择 <color=]]></string>
+<string id="385545"><![CDATA[>自由枢轴</color>。抓钩会继续保持抓住小行星，但此时能独立改变飞船的方向来重新调整角度。
 
-What you're trying to set up here is aiming the nose of the ship so that it points at the asteroid's center of mass. If you can do that, the asteroid will not wobble around or try to drag your ship to the side while the engine is firing. Obviously, that will make it easier for the ship to push the asteroid where you want it to go. 
+调整你的机头使其指向小行星的质量中心。如果你能做到这一点，这颗小行星将不会左右摇晃或是飞船点火时跑到船的侧面。显然，这将使得飞船更容易的把它推到你希望去的地方。
 
-Go ahead and adjust yourself until you have a better alignment, then lock the pivot again.]]></string>
+来吧，调整飞船直到你觉得可以了，然后再次锁定支点。]]></string>
 <string id="386695"><![CDATA[Redirect Start]]></string>
-<string id="386724"><![CDATA[Now you're all set to start redirecting your asteroid. Whether you want to use it to study materials, make it a mass destruction weapon by dropping on a world, or create a rocky space station like some pesky mutant, you're going to have to move your pet rock.]]></string>
-<string id="387244"><![CDATA[While you could start setting up maneuver nodes and burning in order to move that heavy load of yours right now, it would come at a great fuel cost, so it's better to plan a more efficient approach.
+<string id="386724"><![CDATA[现在开始重定向你的小行星。无论你是想用它做研究材料，或落下地面上使它成为大规模杀伤性武器，还是创建一个岩石空间站，你都要携带你的石头到达目的地。]]></string>
+<string id="387244"><![CDATA[虽然现在你就可以开始设置机动节点并执行燃烧，不过这样会需要很高的燃料成本，所以要好好的计划一个更有效的路径。
 
-Open your map, set Kerbin as your target, and find the point where Kerbin's orbit is closest to yours, then set up a maneuver node OPPOSITE to that, on the far side of your orbital path. This is when you will be at your lowest velocity, making it that much easier to adjust your orbit.]]></string>
-<string id="388216"><![CDATA[Rendezvous - Almost there!]]></string>
-<string id="388269"><![CDATA[Now try creating a maneuver which will get you back under Kerbin's SOI. Sounds simple enough, but watch out for two things.
+打开你的地图，将 Kerbin 设置为你的目标，并找到 Kerbin 轨道最接近你的位置，然后设置一个机动节点，在你的轨道相反的另一边。这时你将在一个最低的速度，使得更容易调整你的轨道。]]></string>
+<string id="388216"><![CDATA[交会 - 几乎没有！]]></string>
+<string id="388269"><![CDATA[现在尝试创建一个机动，这将让你在Kerbin的SOI回来。听起来很简单，但要注意两件事情。
 
-First of all, you're carrying a LOT of mass, so before calling it done, see if the maneuver is achievable. Rule of thumb is, if you're getting more than a 10 minutes estimated burn time, you will probably run out of fuel before completing it.
+首先，你现在携带的是一大块石头，所以要检查燃料用完之前能不能完成节点机动。经验法则是，如果预计的燃烧时间超过10分钟，你可能会在机动完成之前就耗尽燃料。
 
-Secondly, if it seems like it's impossible getting a return course, right click the maneuver node. Along with a delete button, two more buttons will appear. These alter the calculation of the burn's results to see what would happen if it was made not on this orbit, but the one after that, or the one after that. So if you don't get it in this lap, maybe you will in the next one, or in 100 years (we might be late for tea.)]]></string>
+其次，如果现在看来似乎是不可能完成的，可以右键单击动作节点。会出现一个删除按钮以及另外两个按钮。删除节点另外在创建一个，或改变节点执行时间的圈数，看看改变后轨道上发生变化。所以如果你没有在这一圈得到，也许你会在下一个，或100年（我们已经人走茶凉了。）]]></string>
 <string id="389857"><![CDATA[这个规划可以,但是超超超级耗时.留给玩家自行完成,我先撤了.
 
 最后说一句：飞船加上小行星质量很大保持飞船姿态非常困难,而且点火时间会很长是时候施展全部技巧了.
@@ -8841,9 +8843,9 @@ Duna卫星 Ike 挡路,这事很常见因为Ike的SOI比Duna大.一旦发现立�
 <string id="436859"><![CDATA[正确的固体发动机]]></string>
 <string id="436902"><![CDATA[现在取而代之的固体发动机能更好的匹配这种规模的飞船。
 
-你在职业生涯游戏模式开始时你就只会有这些垃圾部件。意思就是说：看起来像垃圾桶里转换过来的。
+你在职业生涯游戏模式开始时你就只会有这个垃圾部件。我的意思是：它看起来像是从垃圾桶里捡来的。
 
-也就是说，它确实有足够的动力去很快的移动这个小飞行器。当你进步后，将能够解锁更多的引擎和其他部件。
+不过它确实有足够的动力去让这个小飞行器快速运动。当你的科研进步以后，将能够解锁更多的引擎和其他部件。
 
 不过现在，我们只能拿起<color=]]></string>
 <string id="437786"><![CDATA[>RT-5 “跳蚤"</color> 并将其连接到指令仓的底部。]]></string>
@@ -8864,7 +8866,7 @@ Duna卫星 Ike 挡路,这事很常见因为Ike的SOI比Duna大.一旦发现立�
 <string id="440384"><![CDATA[>拖动</color> 引擎图标从分级 0 拖到分级1，这能让我们的飞行员更舒适一点。]]></string>
 <string id="440566"><![CDATA[nameSave1]]></string>
 <string id="440585"><![CDATA[保存起来以备后用]]></string>
-<string id="440624"><![CDATA[就是这样。我们现在加一个保险 - 好，相对安全的飞行器已经准备好了。如果我们还需要这样的设计，相信你不想从头在开始再来建造一次。
+<string id="440624"><![CDATA[就是这样。我们现在加一个保险 。相对安全的飞行器已经准备好了。如果我们还需要这样的设计，相信你不想从头在开始再来建造一次。
 
 在屏幕的顶部，你会看到我们的飞行器名称。嗯。 “未命名飞船”似乎不是很给力。你为什么不换一换，起一个更有个性的名字，你还可以给飞行器添加一些描述，如果你想的话？
 
@@ -9318,136 +9320,137 @@ RCS通常效率较低，但适合任何方向的较小速度的变化（而不�
 <string id="499137"><![CDATA[Hopper]]></string>
 <string id="499150"><![CDATA[Tutorial_YPRDiagram]]></string>
 <string id="499189"><![CDATA[Squad/Tutorials/ChuteColors]]></string>
-<string id="499244"><![CDATA[欢迎来到坎巴拉太空中心发射场! 我是]]></string>
-<string id="499357"><![CDATA[ and I will teach you the basics of piloting a spacecraft.
+<string id="499244"><![CDATA[欢迎来到坎巴拉航天中心发射场! 我是]]></string>
+<string id="499357"><![CDATA[ 本教程我们将学习飞船的基本驾驶操作。
 
-I trust you've already checked the Basic Construction Tutorial, if not I recommend you do so before going through this one.
+我相信你已经学习过基本建造教程了，如果没有，我建议你去学习一下。
 
-Today we will do a run through of all the important controls for your spacecraft. Our little "Hopper" from your Basic Construction lesson with Wernher may not have all of them, but we'll do a full run through once, and see how it flys.
+今天我们将飞行器操作的所有重要部分都做一遍。小"跳蚤"就是你在基本建造课程与Wernher造的那个，我们就用它做一次完整飞行，看看它如何飞。
 
-If you're ready to go, press <color=]]></string>
+如果你准备好了，请按<color=]]></string>
 <string id="500275"><![CDATA[基础操作]]></string>
 <string id="500304"><![CDATA[基础飞行操作]]></string>
-<string id="500347"><![CDATA[Flying a spacecraft is all about being in control of a generally very chaotic situation. As a Pilot, your main flight controls will affect the pitch, yaw and roll of the ship.
+<string id="500347"><![CDATA[航天器的飞行控制关键在于如何掌控随时出现的混乱情况。作为一名飞行员，你的飞行控制将影响飞船的俯仰、 偏航和翻转。
 
-Let's look at those first. (All the other controls will be locked until they're needed or this tutorial is closed.)]]></string>
+让我们先看看这些。（完成本教程之前，将锁定所有其他无关控件）。]]></string>
 <string id="500933"><![CDATA[yprdiag]]></string>
-<string id="500948"><![CDATA[Basic Flight Controls : Pitch, Yaw and Roll]]></string>
-<string id="501035"><![CDATA[Pitch, Yaw and Roll are the three directions you will rotate your craft.
+<string id="500948"><![CDATA[基本飞行控制：俯仰，偏航和翻转]]></string>
+<string id="501035"><![CDATA[俯仰，偏航和翻转是将你的飞行器旋转到三个不同方向。
 
-To help you visualize these, we've taken a holiday snap of the "Hopper" below.]]></string>
-<string id="501341"><![CDATA[Next up, we'll see how we rotate in these directions.]]></string>
+我们放置了相机来帮助您更直观地看到“跳蚤”的飞行姿态。]]></string>
+<string id="501341"><![CDATA[接下来，我们会看到如何控制这些方向旋转。]]></string>
 <string id="501448"><![CDATA[PYRsummary]]></string>
-<string id="501469"><![CDATA[俯仰 ,偏航和滚转]]></string>
-<string id="501508"><![CDATA[You control your ship's rotation using the these controls:
+<string id="501469"><![CDATA[俯仰 ,偏航和翻转]]></string>
+<string id="501508"><![CDATA[使用下列控制来旋转飞船 ︰
 		<color=]]></string>
-<string id="501646"><![CDATA[]</color>  : Pitch Up / Down
+<string id="501646"><![CDATA[]</color>  : 上仰 / 下俯
 		<color=]]></string>
-<string id="501723"><![CDATA[]</color>  : Yaw Left / Right
+<string id="501723"><![CDATA[]</color>  : 偏航左 / 偏航右
 		<color=]]></string>
-<string id="501802"><![CDATA[]</color>  : Roll Left / Right
+<string id="501802"><![CDATA[]</color>  : 左翻转 / 右翻转
 
-By controlling Pitch, Yaw and Roll together, you can keep the ship in a controlled flight.
+通过控制俯仰、 偏航和翻转你可以保持飞船在一个可控的状态下飞行。
 
-Try it now, and notice the indicator on the lower-left side move as you provide control input.]]></string>
+现在就来试一试，并注意左下侧你提供的控制输入指示器。]]></string>
 <string id="502240"><![CDATA[基础控制总结]]></string>
-<string id="502281"><![CDATA[Throttle, plus Pitch, Yaw and Roll are the main controls you'll need to master for a successful, crash-free flight.
+<string id="502281"><![CDATA[一个成功无碰撞的飞行你需要掌握的主要控件有节流阀，偏航和翻转，再加上航向倾角（导航球）。
 
-We'll skip over the Throttle control for now as this vessel has no need for it. Don't worry, I'll explain it another time when it's of use.
+我们现在将跳过节流阀控制，因为这艘船不需要。别担心，我会在另一个教程里进行讲解。
 
-Remember that all of these controls have a limited amount of effectiveness, so bigger, heavier ships will probably respond much more sluggishly to the controls than a little small one.
+要注意所有这些控制的效率都是有限的，控制规模更大，更重的飞行器时会显得慢慢吞吞的。
 
-It's also good to keep in mind that as stages are separated from the ship, it will become lighter and this will usually mean easier to control.
+请牢记，那些没用的部件及时从飞行器上分离，更轻的质量就意味着更容易控制。
 
-Next, let's look at the rest of the Flight Controls.]]></string>
-<string id="503565"><![CDATA[In flight, all the planning you put into the staging sequence of your ship comes into play.
+接下来，让我们来看看飞行控制的其余部分。]]></string>
+<string id="503565"><![CDATA[你事先规划好的分级序列在飞行时就可以开始发挥作用了。
 
-From launch to the final deployment of the descent parachute(s), you can control the activation of several of the ship's parts by activating stages:
+从发射到降落时的降落伞，您可以通过逐一激活分级来控制飞行器各个部件的部署：
 		<color=]]></string>
-<string id="504069"><![CDATA[]</color> : Launch/Activate Next Stage
+<string id="504069"><![CDATA[]</color> : 发射 /  激活下面的分级
 
-Notice the Stage Indicator in the lower-left corner, it shows the currently active stage. Since we haven't launched yet, it's showing the first stage as active. I have your staging controls locked for now, so the stage indicator is glowing purple. 
+注意屏幕左下方角落的分级指示符，它显示了当前活动的分级。因为我们还没有发射，所以第一分级显示为活动的。我现在把你的控件临时锁定了，所以分级指示符是发光的紫色。
 
-One more thing on staging, if the staging setup is causing strife, or you change your mind about something, you can edit the stage sequence on the fly...pun intended...no need to go back to the assembly facility.]]></string>
+关于分级指示符要说一下，在发现分级设置有冲突，或者你改变计划，可以在这里编辑分级指示符的序列，而无须回到装配工厂调整。]]></string>
 <string id="505075"><![CDATA[navball]]></string>
 <string id="505090"><![CDATA[导航球]]></string>
-<string id="505113"><![CDATA[An important part of flying is knowing how your ship is oriented and where it is going. That's why a good pilot is always aware of the ship's Attitude (where it is pointing) and its Velocity Vector (where it is going). These aren't always the same direction, and as your skills improve you should pick up on these.
+<string id="505113"><![CDATA[我们知道航向是飞行中控制飞行器的一个重要的环节。这就是为什么一个好的飞行员是总是注意飞船的姿态 （它指向哪个地方） 以及速度向量 （它要去哪里）。你应该朝着这个方向提高你的技能。
 
-The big round instrument on the lower center of the screen is called the NavBall. This device sums up most of the critical information needed for proper, death-free flight.
+在屏幕下方中间的圆形仪器被称为 NavBall（导航球）。此设备有着操控飞行器所需的关键信息。
 
-Here, you see the ship's nose in relation to the horizon (when you're not pointing straight up its easily visible as a line between blue sky and the brown ground), as well as its heading (compass bearing) and speed.
+在这里，你能看到飞行器在地平仪上的姿态 （当你不是垂直向上时会更容易看清楚界限，能看到蓝蓝的天空和棕色的地面），以及飞行方位（罗盘方位） 和速度。
 
-You also get several icons that indicate things like your current velocity vector, but we'll have a look at those later.]]></string>
-<string id="506769"><![CDATA[高度计]]></string>
+您还可以利用一些目标指示来获得速度向量，那些以后我们在来学习。]]></string>
+<string id="506769"><![CDATA[altimeter]]></string>
 <string id="506788"><![CDATA[飞行指引]]></string>
-<string id="506825"><![CDATA[In the top-center part of the screen you have your Altimeter, Vertical Speed Indicator, and Atmosphere gauges.
+<string id="506825"><![CDATA[在屏幕的顶部中间位置有个仪表，包含高度计、垂直速度指示器和大气压力表。
 
-The Altimeter will show the distance to the planet's surface at Sea Level. This means the actual surface may be much closer, so watch out for the ground when landing.
+高度计显示的是你与海平面上的距离。所以意味着实际你与地表可能会很接近，所以降落时要注意地面。
 
-Your Vertical Speed Indicator shows how quickly your altitude is changing. When launching, it's considered best to keep this gauge pointing up.
+垂直速度指示器显示着你的高度是如何快速变化的。发射时最好保持这个指示器是向上升的。
 
-The Atmosphere gauge indicates how deep the ship is in the planet's atmosphere. This helps you know if the ship is high enough for orbiting without losing speed to air resistance, or judge how effective wings and controls surfaces will be.]]></string>
+大气压力表中显示的是飞行器所在位置的大气密度。这有助于您了解这艘飞船是否有足够的空气阻力，或判断机翼控制是否有效。]]></string>
 <string id="508155"><![CDATA[chuteColors]]></string>
-<string id="508178"><![CDATA[Parachute Indicators]]></string>
-<string id="508219"><![CDATA[One last thing before we give this rocket the green light.
+<string id="508178"><![CDATA[降落伞指示符]]></string>
+<string id="508219"><![CDATA[我们给这个火箭开绿灯之前做最后一件事。
 
-In the Staging stack you can see the indicator for your parachute. This indicator shows when the chute will be activated by staging--you already know that--but the background will also change color to indicate when it is safe to stage the parachute, and the foreground (the parachute bit of the icon itself) will change color depending on the parachute's state.]]></string>
-<string id="509063"><![CDATA[The left three show safety: Safe, Risky, and Unsafe to deploy. The chute is unstaged (white) in the left three. The right three show state after staging: Armed, Deployed, and Cut/shredded. When you are familiar with chute icon colors we can move on.]]></string>
-<string id="509563"><![CDATA[Ok, enough talk! I'll unlock the flight controls and you'll be clear for launch.
+在分级堆栈里你可以看到有个降落伞符号。该符号显示当前降落伞在哪个分级激活 - 这个你已经知道 - 符号的背景以及前景（降落伞样子图标）会随着降落伞的状态改变颜色。降落伞不同状态颜色各不相同。]]></string>
+<string id="509063"><![CDATA[左边三个显示当前部署的风险等级：安全，有风险，危险，前景（降落伞）不分级三个都是白色。右边三个显示部署的状态：解除保险（阶段1，属于激活，未满足部署条件不会展开），部署展开（阶段2，完全部署），剪切/切断。熟悉降落伞指示符的颜色后我们继续。]]></string>
+<string id="509563"><![CDATA[好吧，少废话！我解开飞行控制装置，准备发射。
 
-At any time you may press <color=]]></string>
-<string id="509795"><![CDATA[]</color> to pause the game. In the Pause Menu you can restart the flight, or end this Tutorial (choose <color=]]></string>
-<string id="510019"><![CDATA[>End Scenario</color>) and return to the Main Menu.
+在任何时候，你可以按<color=]]></string>
+<string id="509795"><![CDATA[]</color> 暂停游戏。暂停菜单中可以选择重新飞行或结束本教程（选择 <color=]]></string>
+<string id="510019"><![CDATA[>结束场景</color>) 并返回到主菜单。
 
 For now get, yourself prepared and hit <color=]]></string>
-<string id="510219"><![CDATA[]</color> when ready to launch!
+<string id="510219"><![CDATA[]</color> 随时准备发射！
 
-Don't forget our "Hopper" has only a solid rocket motor so there is no throttle control--that's why we didn't review the throttle here.]]></string>
+不要忘了我们的“小跳蚤”只有一个固体火箭发动机，所以没有油门控制 - 这就是为什么在这里我们不用查看节流阀。]]></string>
 <string id="510557"><![CDATA[shipLaunched]]></string>
-<string id="510582"><![CDATA[Liftoff!]]></string>
-<string id="510599"><![CDATA[And up you go! You can try practicing some of the controls we just discussed like pitch, yaw and roll.
+<string id="510582"><![CDATA[升空！]]></string>
+<string id="510599"><![CDATA[走你！您可以尝试某些练习，像前面讨论过的俯仰，偏航和翻转。
 
-Also keep an eye on the parachute icon in the staging list, remember not to stage it when the background is red!
+同时密切注意在飞行过程中的降落伞图标，切记不要在背景是红色的时候激活分级！
 
-I realize this could be too much to learn in one go, so if you forget you can always press <color=]]></string>
-<string id="511233"><![CDATA[]</color> and click <color=]]></string>
-<string id="511288"><![CDATA[>View Key Bindings</color> for a reminder.
+我意识到一下让你学习这么多可能会记不住，所以如果你忘了什么可以随时按 <color=]]></string>
+<string id="511233"><![CDATA[]</color> 然后单击<color=]]></string>
+<string id="511288"><![CDATA[>查看键位绑定</color> 看提醒。
 
-You can also see whether your crew are enjoying the trip in the lower right corner.
+你也可以看到右下角的船员是否正享受着旅行。
 
-Anyways, I'll hang around and watch, and I'll let you know when it's safe to stage your chute.]]></string>
+不管怎么说，我会陪着你一起看，到了安全降落阶段我会告诉你。]]></string>
 <string id="511736"><![CDATA[readyChute]]></string>
-<string id="511757"><![CDATA[Deploy the Parachute]]></string>
-<string id="511798"><![CDATA[Your solid motor has burned out and you're passing apoapsis (the highest point on your flight), and your speed is low enough that it's safe to stage again to deploy the parachute.
+<string id="511757"><![CDATA[部署降落伞]]></string>
+<string id="511798"><![CDATA[你的固体发动机燃料烧完了，当你通过远拱点（飞行轨道的最高点），以及速度足够低时，安全状态下再部署降落伞。
 
-Do so now, before you speed up again or hit the surface!]]></string>
+现在就这样做，在你还没开始加速并打到地面之前！]]></string>
 <string id="512274"><![CDATA[coastDown]]></string>
-<string id="512293"><![CDATA[Enjoy the Descent]]></string>
-<string id="512328"><![CDATA[And now we sit back and enjoy the descent.]]></string>
-<string id="512413"><![CDATA[Well done, you've survived your first quick flight!
+<string id="512293"><![CDATA[降落享受]]></string>
+<string id="512328"><![CDATA[正在缓慢下降中，我们坐下来享受一下。]]></string>
+<string id="512413"><![CDATA[干得好，你活着飞完了你的第一次快速飞行！
 
-When you're landed or splashed on Kerbin (and NOT in training) you can point the mouse just above the altimeter and click the recover button (on the panel that slides down) to ask to be picked up.
+当你降落在Kerbin的地表或水面（不在本训练课程内），你可以用鼠标点击高度表（在向下滑动面板上）边上的回收按钮，回收部门的人会过去接你。
 
-I've also unlocked the crew hatch, so if you feel like going out for a walk or swim you can click the EVA (Extra Vehicular Activity) button that will pop up when you mouse over the portrait of the Kerbal you want to take for a walk. You can do it just for fun, or to collect a surface sample.
+我也解锁了仓门，所以如果你想出去散步或游泳，你可以将鼠标悬停在宇航员肖像上，选择EVA（舱外活动）按钮，它们将打开仓门出散步。你这样做可以只是为了好玩或收集一些样本进行研究。
 
-This concludes today's lesson, to exit training you press <color=]]></string>
-<string id="513635"><![CDATA[]</color> to access the pause menu and choose <color=]]></string>
-<string id="513742"><![CDATA[>End Scenario</color>) to return to the Main Menu.
+今天的课程到此结束，如要退出课程 按 <color=]]></string>
+<string id="513635"><![CDATA[]</color> 打开暂停菜单，然后选择<color=]]></string>
+<string id="513742"><![CDATA[>结束场景</color>) 返回到主菜单。
 
-I hope to see you again to learn more about Suborbital flight perhaps. Bye.]]></string>
-<string id="513998"><![CDATA[Aha!, You're a curious one aren't you? The IVA button over each crewmember's portrait will let you see the ship from his own perspective.
+我希望在亚轨道飞行的课程里见到你。再见。]]></string>
+<string id="513998"><![CDATA[啊哈 ！你真是好奇的一个人，不是吗？每个船员的肖像都有个 IVA 按钮，点击后将以该船员的第一人称视角看到飞船内部。
 
-Note that in this mode, your flight UI has less instruments, since most of them can be found in the cockpit itself.
+注意，在这种模式下，用户界面只显示较少仪器，不过大多都可以在驾驶舱看见。
 
-In Internal View, right-clicking will toggle between mouse-look and interact modes, so you can look aroud without having to hold down the right mouse button. Try looking around and clicking on things, the Engineering department says there are many devices in here that actually work. They seemed to be quite proud of that, in fact.
+在内部视图中，右键单击将切换鼠标外观和交互模式，所以可以无需一直按住鼠标按钮来看你的周围。试着环顾四周，点击东西，工程部说实际上这里有许多设备在工作。事实上，他们似乎相当自豪。
 
-When there are multiple crew you can cycle through the POV of them using the <color=]]></string>
-<string id="515346"><![CDATA[]</color> key.
+当有多个乘员时，您可以通过按 [<color=]]></string>
+<string id="515346"><![CDATA[]</color> 键。
 
-Return to External View by pressing <color=]]></string>
+按返回到外部视图<color=]]></string>
 <string id="515465"><![CDATA[]</color>.]]></string>
-<string id="515486"><![CDATA[Aw, shucks, something went terribly wrong here. You might want to try to stay alive when on an actual mission, you know...
-Don't feel bad, I'll send someone to clean that up and you can try again.]]></string>
+<string id="515486"><![CDATA[噢，糟糕，在这里发生了可怕的错误，实际任务中你可能想尽量活着。
+
+别难过，我会派人来清理它，你可以选择另一个时间再尝试一次。]]></string>
 <string id="515880"><![CDATA[chuteBurnBonusPage]]></string>
 <string id="515917"><![CDATA[Oh No! Your Chute is Gone!]]></string>
 <string id="515970"><![CDATA[You staged your chute while still going too fast and it ripped up. Afraid there really isn't much that can be done now, it's shredded to ribbons!]]></string>
@@ -9633,37 +9636,37 @@ SAS可以暂时激活（或暂时停用）按住 <color=]]></string>
 如果您还想再练习一次这个，从暂停菜单选择重新开始。否则，结束场景。
 
 而且一定要继续其他教程。我的下一个教程是关于“逃逸轨道”，非常激动人心对吧。在KSC总是有很多东西要学！]]></string>
-<string id="536799"><![CDATA[Aha!, You're a curious one arent' you? The IVA button over each crewmember's portrait will let you see the ship from his own perspective.
+<string id="536799"><![CDATA[啊哈 ！你真是好奇的一个人，不是吗？每个船员的肖像都有个 IVA 按钮，点击后将以该船员的第一人称视角看到飞船内部。
 
-Note that in this mode, your flight UI has less instruments, since most of them can be found in the cockpit itself.
+注意，在这种模式下，用户界面只显示较少仪器，不过大多都可以在驾驶舱看见。
 
-In Internal View, right-clicking will toggle between mouse-look and interact modes, so you can look aroud without having to hold down the right mouse button. Try looking around and clicking on things, the Engineering department says there are many devices in here that actually work. They seemed to be quite proud of that, in fact.
+在内部视图中，右键单击将切换鼠标外观和交互模式，所以可以无需一直按住鼠标按钮来看你的周围。试着环顾四周，点击东西，工程部说实际上这里有许多设备在工作。事实上，他们似乎相当自豪。
 
-When there are multiple crew you can cycle through the POV of them using the <color=]]></string>
-<string id="538147"><![CDATA[Aw, shucks, something went terribly wrong here. You might want to try to stay alive when on an actual mission, you know...
+当有多个乘员时，您可以通过按 <color=]]></string>
+<string id="538147"><![CDATA[噢，糟糕，在这里发生了可怕的错误，实际任务中你可能想尽量活着。
 
-Don't feel bad, I'll send someone to clean that up and you can try again.]]></string>
-<string id="538543"><![CDATA[Oh no! Your chute is gone!]]></string>
-<string id="538596"><![CDATA[You staged your chute while still going too fast and it ripped up.
+别难过，我会派人来清理它，你可以选择另一个时间再尝试一次。]]></string>
+<string id="538543"><![CDATA[不好 ！你的降落伞不见了 ！]]></string>
+<string id="538596"><![CDATA[降落伞开得太快了，过高的速度把它扯烂了。
 
-Afraid there really isn't much that can be done now, it's shredded to ribbons!]]></string>
-<string id="538890"><![CDATA[I see you've found the Docking Controls.
+现在恐怕真的没有什么办法补救了，它已经分解成一条条的丝带了！]]></string>
+<string id="538890"><![CDATA[我看你已经找到了对接控制器。
 
-In this mode, controls behave somewhat differently, to make maneuvering around in orbit easier. However, that is a topic for a whole other tutorial, so let's just go back to the subject at hand for now.
+在这种模式下，控制方式有些不同，能在轨道上左右的移动而不是翻转。然而，这是另一个教程的话题，所以我们回到现在主题上。
 
-Press the Staging button on the bottom-left corner to return to the Staging Control Mode.]]></string>
+按下左下角的分段模式按钮，返回到分段控制模式。]]></string>
 <string id="539562"><![CDATA[flipOutPage]]></string>
-<string id="539585"><![CDATA[Whoah, Wipeout!]]></string>
-<string id="539616"><![CDATA[Uh oh! You've "flipped out" - you pointed your vessel too far away from the direction it was traveling, and the drag from the top of your vessel overpowered the lift and drag from your fins.
+<string id="539585"><![CDATA[哇~失败了！]]></string>
+<string id="539616"><![CDATA[啊哦！你已经"失控"了 - you pointed your vessel too far away from the direction it was traveling, and the drag from the top of your vessel overpowered the lift and drag from your fins.
 
 This means aerodynamic forces acted to keep pushing you further away from your velocity vector rather than acting to keep you aligned.
 
-To fix this you'll have to align with your velocity vector again if you can, and then burn straight up.
+为了解决这个问题，再次配合你速度向量，如果你能对齐，然后燃烧直线上升。
 
-You probably won't make it high enough, however, so you could just restart the lesson.
+但是你可能不会到达预期的高度，所以你可能需要重新开始这一课程。
 
-Press <color=]]></string>
-<string id="540686"><![CDATA[]</color> and choose Revert to try again.]]></string>
+按 <color=]]></string>
+<string id="540686"><![CDATA[]</color> 并选择再试一次。]]></string>
 <string id="540769"><![CDATA[onFlipOut]]></string>
 <string id="540788"><![CDATA[]</color> 如果必要就暂停。
 
