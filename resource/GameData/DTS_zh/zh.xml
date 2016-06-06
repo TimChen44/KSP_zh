@@ -4193,10 +4193,10 @@ Retracted skin max temp: ]]></string>
 <string id="153013"><![CDATA[ for NodeOuterAft.]]></string>
 <string id="153050"><![CDATA[ for NodeInnerFore.]]></string>
 <string id="153089"><![CDATA[ for NodeInnerAft.]]></string>
-<string id="153126"><![CDATA[仓库门移动中... (from ]]></string>
+<string id="153126"><![CDATA[舱库门移动中... (from ]]></string>
 <string id="153183"><![CDATA[,去 ]]></string>
-<string id="153194"><![CDATA[仓库门关闭. (]]></string>
-<string id="153237"><![CDATA[仓库门卡主了.未关闭.(]]></string>
+<string id="153194"><![CDATA[舱库门关闭. (]]></string>
+<string id="153237"><![CDATA[舱库门卡主了.未关闭.(]]></string>
 <string id="153304"><![CDATA[[ModuleCargoBay]: Module ]]></string>
 <string id="153355"><![CDATA[ is not an IScalarModule]]></string>
 <string id="153404"><![CDATA[Procedural/FairingsMat]]></string>
@@ -7702,14 +7702,14 @@ Spd: ]]></string>
 <string id="325666"><![CDATA[funds]]></string>
 <string id="325677"><![CDATA[[GameVariables]: Instance already exists!]]></string>
 <string id="325760"><![CDATA[游客也许会无法从载具上下来.]]></string>
-<string id="325847"><![CDATA[Crewmembers must be alive to perform EVAs.]]></string>
-<string id="325932"><![CDATA[Automatic EVA disabled. Activate a hatch.]]></string>
-<string id="326015"><![CDATA[Cannot EVA in this scenario.]]></string>
+<string id="325847"><![CDATA[执行舱外活动的机组成员必须活着。]]></string>
+<string id="325932"><![CDATA[舱外活动自动禁用。激活一个舱口。]]></string>
+<string id="326015"><![CDATA[在这种情况下无法进行舱外活动。]]></string>
 <string id="326072"><![CDATA[无法下地因为载具离地了.
 航天员能力需要升级.]]></string>
-<string id="326240"><![CDATA[Cannot EVA.]]></string>
-<string id="326263"><![CDATA[EVA currently unavailable.]]></string>
-<string id="326316"><![CDATA[EVA unavailable]]></string>
+<string id="326240"><![CDATA[不能舱外活动。]]></string>
+<string id="326263"><![CDATA[舱外活动目前无法使用]]></string>
+<string id="326316"><![CDATA[舱外活动不可用]]></string>
 <string id="326347"><![CDATA[kscComplete]]></string>
 <string id="326370"><![CDATA[editorComplete]]></string>
 <string id="326399"><![CDATA[tsComplete]]></string>
@@ -8403,7 +8403,7 @@ Cost: \F ]]></string>
 <string id="364451"><![CDATA[>暂停</color> 菜单里，希望后面的教程我还能见到你。]]></string>
 <string id="364538"><![CDATA[Finish]]></string>
 <string id="364551"><![CDATA[ivaBonusPage]]></string>
-<string id="364576"><![CDATA[仓内视图]]></string>
+<string id="364576"><![CDATA[舱内视图]]></string>
 <string id="364603"><![CDATA[啊哈 ！你真是好奇的一个人，不是吗？每个船员的肖像都有个 IVA 按钮，点击后将以该船员的第一人称视角看到飞船内部。
 
 注意，在这种模式下，用户界面只显示较少仪器，不过大多都可以在驾驶舱看见。
@@ -8743,7 +8743,7 @@ Duna卫星 Ike 挡路,这事很常见因为Ike的SOI比Duna大.一旦发现立�
  去别的行星以及其他天体的方法类似,你可以开始征服宇宙了.
 我为你的潜力感到自豪.]]></string>
 <string id="424280"><![CDATA[Squad/Tutorials/StagingStack]]></string>
-<string id="424337"><![CDATA[基本建造]]></string>
+<string id="424337"><![CDATA[基础建造]]></string>
 <string id="424374"><![CDATA[欢迎学习飞船建造教程。我是Wernher von Kerman。
 
 无论你是想将卫星送入轨道飞行横贯大陆，还是踏上Mun的表面，都需要有建造飞行器的知识。
@@ -8758,7 +8758,7 @@ Duna卫星 Ike 挡路,这事很常见因为Ike的SOI比Duna大.一旦发现立�
 完成本教程后你将有一艘能从发射台起飞的快速飞行器。
 
 我会锁定所有教程内容步骤以外的所有部件。如果这样你仍然搞砸了 （我也花了一些时间才变得像现在这样熟练 ！），您可以按 <color=]]></string>
-<string id="426328"><![CDATA[>Back</color> 按钮，回去修正错误。 （除非你把事情弄糟了，不然它不会亮起。）]]></string>
+<string id="426328"><![CDATA[>Back</color> 按钮，回去修正错误。 （除非你把事情弄糟了，不然起不了作用。）]]></string>
 <string id="426510"><![CDATA[spaceCenter]]></string>
 <string id="426533"><![CDATA[坎巴拉航天中心]]></string>
 <string id="426572"><![CDATA[我们现在是在坎巴拉航天中心。我下面将给你简单介绍一下。
@@ -8780,7 +8780,7 @@ Duna卫星 Ike 挡路,这事很常见因为Ike的SOI比Duna大.一旦发现立�
 这一部分可以是勇敢的 Kerbal 宇航员或是自动化模块控制。
 
 我们刚刚开始只有一个选择。走起，该命令模块在 <color=]]></string>
-<string id="429682"><![CDATA[>Pods</color> 标签。]]></string>
+<string id="429682"><![CDATA[>指令舱</color> 标签。]]></string>
 <string id="429719"><![CDATA[camControls]]></string>
 <string id="429742"><![CDATA[看看周围]]></string>
 <string id="429771"><![CDATA[至少有一部件被放置后，你可以用下列控制来看看周围。
@@ -8801,18 +8801,18 @@ Duna卫星 Ike 挡路,这事很常见因为Ike的SOI比Duna大.一旦发现立�
 <string id="430399"><![CDATA[addParachute]]></string>
 <string id="430424"><![CDATA[添加一个降落伞]]></string>
 <string id="430461"><![CDATA[如果您不希望飞行员是一次性的，那他或她就必须安全返回Kerbin地面（或水里）。使用降落伞就是一种简单的方式。它们可以在<color=]]></string>
-<string id="430915"><![CDATA[>Utility</color> 标签找到（通过点击左侧的工具列表中部件窗口选项卡图标来改变）。
+<string id="430915"><![CDATA[>功能</color> 标签找到（通过点击左侧的工具列表中部件窗口选项卡图标来改变）。
 
 你选择部件时可以通过鼠标悬停在工具箱中的部件上查看细节。当信息中可见有附加信息窗口时，可以用右键单击打开部件。需要注意降落伞有效直径大小和部署的最大安全速度是多少。
 
 来吧，选择<color=]]></string>
 <string id="431863"><![CDATA[>Mk16 降落伞</color> 通过 <color=]]></string>
-<string id="431932"><![CDATA[>左击</color> 选择部件。然后将其移动到指令仓的顶部，降落伞的底部与在指令仓的顶部对齐后降落伞会显示绿色，此时再次<color=]]></string>
+<string id="431932"><![CDATA[>左击</color> 选择部件。然后将其移动到指令舱的顶部，降落伞的底部与在指令舱的顶部对齐后降落伞会显示绿色，此时再次<color=]]></string>
 <string id="432314"><![CDATA[>左击</color> 安装上去]]></string>
 <string id="432377"><![CDATA[parachuteParams]]></string>
 <string id="432408"><![CDATA[调整部件选项]]></string>
 <string id="432453"><![CDATA[有些部件，这里像我们的降落伞，是有可配置选项的。想要打开选项我们需要<color=]]></string>
-<string id="432645"><![CDATA[>右击</color>安装在指令仓上的降落伞。您将看到降落伞的设置参数。
+<string id="432645"><![CDATA[>右击</color>安装在指令舱上的降落伞。您将看到降落伞的设置参数。
 
 在降落伞的设置参数中你会看到，我们可以调整打开的高度和打开大气压力;该设置在遥远的世界非常有用。
 
@@ -8825,19 +8825,19 @@ Duna卫星 Ike 挡路,这事很常见因为Ike的SOI比Duna大.一旦发现立�
 
 <color=]]></string>
 <string id="434614"><![CDATA[>点击</color> 那个 <color=]]></string>
-<string id="434673"><![CDATA[>Engines</color> 选项卡选择一个可用的引擎或固体火箭发动机。
+<string id="434673"><![CDATA[>引擎</color> 选项卡选择一个可用的引擎或固体火箭发动机。
 
-抓一个将其连接到指令仓的底部。要做到这个你可能需要缩放或移动相机。]]></string>
+抓一个将其连接到指令舱的底部。要做到这个你可能需要缩放或移动相机。]]></string>
 <string id="435073"><![CDATA[removeBACC]]></string>
 <string id="435094"><![CDATA[哎呀 ！]]></string>
 <string id="435105"><![CDATA[哎呀！我忘了你才刚刚起步。你不是一个著名的火箭科学家，而现在要架起这种飞行器你必须要比我更擅长火箭科学。哈哈，不可能 ！
 
-现在飞行器的问题在于这种固体火箭对于这个有效载荷（一个小小指令仓加一个降落伞）太强大了。飞行器会因为上升的速度过快而烧起来，这样你就回不来了。即使活下来，飞船的整体质量导致下降速度太快，降落伞无法正常运行你将会直接打到地面上！
+现在飞行器的问题在于这种固体火箭对于这个有效载荷（一个小小指令舱加一个降落伞）太强大了。飞行器会因为上升的速度过快而烧起来，这样你就回不来了。即使活下来，飞船的整体质量导致下降速度太快，降落伞无法正常运行你将会直接打到地面上！
 
 好吧，我答应教你如何解决这个问题，不过要到后面的教程才会学习，现在让我们继续。
 
 嗯，至少现在我可以告诉你删除哪些部件。拿起<color=]]></string>
-<string id="436629"><![CDATA[>BACC "Thumper"</color>要丢弃它就扔到零件工具箱里或按 <color=]]></string>
+<string id="436629"><![CDATA[>BACC "雷鸣"</color>要丢弃它就扔到零件工具箱里或按 <color=]]></string>
 <string id="436807"><![CDATA[>[Delete]</color>.]]></string>
 <string id="436844"><![CDATA[addFlea]]></string>
 <string id="436859"><![CDATA[正确的固体发动机]]></string>
@@ -8848,7 +8848,7 @@ Duna卫星 Ike 挡路,这事很常见因为Ike的SOI比Duna大.一旦发现立�
 不过它确实有足够的动力去让这个小飞行器快速运动。当你的科研进步以后，将能够解锁更多的引擎和其他部件。
 
 不过现在，我们只能拿起<color=]]></string>
-<string id="437786"><![CDATA[>RT-5 “跳蚤"</color> 并将其连接到指令仓的底部。]]></string>
+<string id="437786"><![CDATA[>RT-5 “跳蚤"</color> 并将其连接到指令舱的底部。]]></string>
 <string id="437909"><![CDATA[staging]]></string>
 <string id="437924"><![CDATA[分级堆栈]]></string>
 <string id="437959"><![CDATA[好家伙。你已经建造了一个最简单的飞行器。我们现在就可以去启动它，不过牢记安全第一，预防为主是不会错的。]]></string>
@@ -8881,7 +8881,7 @@ Duna卫星 Ike 挡路,这事很常见因为Ike的SOI比Duna大.一旦发现立�
 
 
 <color=]]></string>
-<string id="442532"><![CDATA[>注意︰纯属娱乐（大片子），当你退出时，您在此处创建任何船只都将会丢失。</color>]]></string>
+<string id="442532"><![CDATA[>注意︰纯属娱乐，当你退出时，您在此处创建任何船只都将会丢失。</color>]]></string>
 <string id="442738"><![CDATA[statename]]></string>
 <string id="442757"><![CDATA[complete]]></string>
 <string id="442774"><![CDATA[tutorialEditor_Stages]]></string>
@@ -8953,7 +8953,7 @@ Duna卫星 Ike 挡路,这事很常见因为Ike的SOI比Duna大.一旦发现立�
 <string id="447587"><![CDATA[上半截]]></string>
 <string id="447618"><![CDATA[现在我们要建造的是火箭的上半截。
 
-这上半截将为指令仓提供动力和RCS推进还有电。反正它将提供在轨道上运行的所有机动能力，还包括再入。
+这上半截将为指令舱提供动力和RCS推进还有电。反正它将提供在轨道上运行的所有机动能力，还包括再入。
 
 这将包括一个分离器（这截火箭我们不想带回家），RCS的油箱，液体油箱，4 RCS推进器，4个太阳能电池板，4节电池，以及高效的末端发动机。
 
@@ -8962,9 +8962,9 @@ Duna卫星 Ike 挡路,这事很常见因为Ike的SOI比Duna大.一旦发现立�
 <string id="448731"><![CDATA[添加分离环]]></string>
 <string id="448774"><![CDATA[首先，我们在指令舱的下面添加一个分离环，让我们能抛弃不想带回的部分。
 
-从工具箱中抓住分离器，并将其连接到指令仓底部，密切关注那个小红色三角箭头，我们前面讨论过的，确保分离器的方向正确。
+从工具箱中抓住分离器，并将其连接到指令舱底部，密切关注那个小红色三角箭头，我们前面讨论过的，确保分离器的方向正确。
 
-如果箭头向下指就不对啦。点它与指令仓分开，然后使用<color=]]></string>
+如果箭头向下指就不对啦。点它与指令舱分开，然后使用<color=]]></string>
 <string id="449640"><![CDATA[]</color> 旋转它到正确的方向，然后再重新装上。]]></string>
 <string id="449778"><![CDATA[addRCSTank]]></string>
 <string id="449799"><![CDATA[添加RCS罐]]></string>
@@ -9027,13 +9027,13 @@ RCS通常效率较低，但适合任何方向的较小速度的变化（而不�
 
 飞行的过程中CoM会一直变化，使得这个平衡点变得复杂。所以，你需要想办法找到从“湿”到“干”之间CoM的折中点。
 
-要注意，在游戏的职业生涯模式里，RCS推进器早期是不可用的。在此期间，只能利用指令仓内置的动量轮，虽然它不能让你平移，但有足够能力让你的飞船转弯。]]></string>
+要注意，在游戏的职业生涯模式里，RCS推进器早期是不可用的。在此期间，只能利用指令舱内置的动量轮，虽然它不能让你平移，但有足够能力让你的飞船转弯。]]></string>
 <string id="459223"><![CDATA[placeRCS2]]></string>
 <string id="459242"><![CDATA[放置RCS推进器]]></string>
 <string id="459293"><![CDATA[开启角度捕捉让我们调整推进器部件变得更容易。要做到这一点请通过点击左下角的捕捉图标切换或按 <color=]]></string>
 <string id="459603"><![CDATA[]</color> 键，确保我们有 <color=]]></string>
 <string id="459678"><![CDATA[>4x</color> 的对称性，然后将一组 <color=]]></string>
-<string id="459805"><![CDATA[>4 RV-105 RCS推进器模块</color> 放置在火箭的燃料罐上（放到指令仓或分离环上无效）。
+<string id="459805"><![CDATA[>4 RV-105 RCS推进器模块</color> 放置在火箭的燃料罐上（放到指令舱或分离环上无效）。
 
 这种微小的火箭一定要放置到推进剂燃料罐正确的地方。 （你需要一个提示。）
 
@@ -9047,7 +9047,7 @@ RCS通常效率较低，但适合任何方向的较小速度的变化（而不�
 
 为了保持你的电池一直有充足的电力，你将需要有个能产生电力的方式。目前，我们知道发动机在他们运行时能发电，但你不会想让发动机在轨道上运行的。这样就无法获得想要的轨道了，还会用完推进剂！
 
-我们的指令仓有一些内置的电池，但为了安全起见，你可以添加更多的电池，并可以添加太阳能板或其他的发电项目。我们两样都要。]]></string>
+我们的指令舱有一些内置的电池，但为了安全起见，你可以添加更多的电池，并可以添加太阳能板或其他的发电项目。我们两样都要。]]></string>
 <string id="462537"><![CDATA[placeElec2]]></string>
 <string id="462558"><![CDATA[添加电池和太阳能电池板]]></string>
 <string id="462625"><![CDATA[切换到 <color=]]></string>
@@ -9179,7 +9179,7 @@ RCS通常效率较低，但适合任何方向的较小速度的变化（而不�
 <string id="480265"><![CDATA[actionAbort]]></string>
 <string id="480288"><![CDATA[中止组]]></string>
 <string id="480311"><![CDATA[太好了 ！现在<color=]]></string>
-<string id="480348"><![CDATA[>单击</color> 在指令仓下方的分离器并添加 <color=]]></string>
+<string id="480348"><![CDATA[>单击</color> 在指令舱下方的分离器并添加 <color=]]></string>
 <string id="480494"><![CDATA[>Decouple</color> 项到操作小组中。
 
 然后 <color=]]></string>
@@ -9223,7 +9223,7 @@ RCS通常效率较低，但适合任何方向的较小速度的变化（而不�
 <string id="484994"><![CDATA[>打开</color> 按钮在右上角找然后加载 "Hopper", 请删除 <color=]]></string>
 <string id="485178"><![CDATA[>RT-5 "跳蚤"</color>发动机继续。
 
-要是你搞砸了，你可以重新打开零件列表选一个指令仓在配上一个降落伞，调整降落伞打开参数0.75个大气压以及1000米以上。请注意，在本教程后面我将会开放所有需要的零件让你可以放置。
+要是你搞砸了，你可以重新打开零件列表选一个指令舱在配上一个降落伞，调整降落伞打开参数0.75个大气压以及1000米以上。请注意，在本教程后面我将会开放所有需要的零件让你可以放置。
 
 如果删除后又不知怎么调整参数，那你就重新加载一次吧。]]></string>
 <string id="485996"><![CDATA[rename]]></string>
@@ -9249,15 +9249,15 @@ RCS通常效率较低，但适合任何方向的较小速度的变化（而不�
 <string id="488855"><![CDATA[]</color> 键) 可循环切换得到想要的对称模式。]]></string>
 <string id="488978"><![CDATA[先设定 <color=]]></string>
 <string id="489017"><![CDATA[>2x</color> 再拿起并放置<color=]]></string>
-<string id="489114"><![CDATA[>神秘的粘液罐</color> 在指令仓靠近顶部一侧, 你会发现，第二个已经被对称性工具放置到了对面。如果您已经放置一个孤独的罐子，那把它捡起来，确保对称性设置正确，并再次将其放置，一样一样的。
+<string id="489114"><![CDATA[>神秘的粘液罐</color> 在指令舱靠近顶部一侧, 你会发现，第二个已经被对称性工具放置到了对面。如果您已经放置一个孤独的罐子，那把它捡起来，确保对称性设置正确，并再次将其放置，一样一样的。
 
-注意放置的位置，不要把指令仓仓门堵了！]]></string>
+注意放置的位置，不要把指令舱舱门堵了！]]></string>
 <string id="489882"><![CDATA[分离配件]]></string>
-<string id="489915"><![CDATA[如果我们在这里添加了太多的部件，我们的飞行器返回时就会因为过重变得不安全（降落伞无法给太重我们减速，过高的速度打开还会撕裂。）。因此，我们需要在指令仓下面添加分离环。
+<string id="489915"><![CDATA[如果我们在这里添加了太多的部件，我们的飞行器返回时就会因为过重变得不安全（降落伞无法给太重我们减速，过高的速度打开还会撕裂。）。因此，我们需要在指令舱下面添加分离环。
 
 分离环可以在构架选项卡中找到，当我们不再需要下面的部份时可以让我们分裂飞行器。我们无法恢复丢弃的部分，但至少飞行器能（把我们带回 Kerbal!）安全再入和着陆。
 
-分离环可以以多种方式来使用，但现在我们只需要添加到指令仓底部。进入<color=]]></string>
+分离环可以以多种方式来使用，但现在我们只需要添加到指令舱底部。进入<color=]]></string>
 <string id="491119"><![CDATA[>架构</color> 标签，抓取 <color=]]></string>
 <string id="491198"><![CDATA[>TR-18A</color>，并把它。
 
@@ -9337,7 +9337,7 @@ RCS通常效率较低，但适合任何方向的较小速度的变化（而不�
 <string id="500948"><![CDATA[基本飞行控制：俯仰，偏航和翻转]]></string>
 <string id="501035"><![CDATA[俯仰，偏航和翻转是将你的飞行器旋转到三个不同方向。
 
-我们放置了相机来帮助您更直观地看到“跳蚤”的飞行姿态。]]></string>
+我们在下面放了一张相片帮助您更直观地看到“跳蚤”的飞行姿态。]]></string>
 <string id="501341"><![CDATA[接下来，我们会看到如何控制这些方向旋转。]]></string>
 <string id="501448"><![CDATA[PYRsummary]]></string>
 <string id="501469"><![CDATA[俯仰 ,偏航和翻转]]></string>
@@ -9351,7 +9351,7 @@ RCS通常效率较低，但适合任何方向的较小速度的变化（而不�
 
 通过控制俯仰、 偏航和翻转你可以保持飞船在一个可控的状态下飞行。
 
-现在就来试一试，并注意左下侧你提供的控制输入指示器。]]></string>
+现在就来试一试，并注意左下侧提供的控制输入指示器变化。]]></string>
 <string id="502240"><![CDATA[基础控制总结]]></string>
 <string id="502281"><![CDATA[一个成功无碰撞的飞行你需要掌握的主要控件有节流阀，偏航和翻转，再加上航向倾角（导航球）。
 
@@ -9368,7 +9368,7 @@ RCS通常效率较低，但适合任何方向的较小速度的变化（而不�
 		<color=]]></string>
 <string id="504069"><![CDATA[]</color> : 发射 /  激活下面的分级
 
-注意屏幕左下方角落的分级指示符，它显示了当前活动的分级。因为我们还没有发射，所以第一分级显示为活动的。我现在把你的控件临时锁定了，所以分级指示符是发光的紫色。
+注意屏幕左下方角落的分级指示符，它显示了当前活动的分级。因为我们还没有发射，所以第一分级显示为活动的。我现在把你的控件临时锁定了，所以分级指示灯是发光的紫色。
 
 关于分级指示符要说一下，在发现分级设置有冲突，或者你改变计划，可以在这里编辑分级指示符的序列，而无须回到装配工厂调整。]]></string>
 <string id="505075"><![CDATA[navball]]></string>
@@ -9394,15 +9394,15 @@ RCS通常效率较低，但适合任何方向的较小速度的变化（而不�
 <string id="508219"><![CDATA[我们给这个火箭开绿灯之前做最后一件事。
 
 在分级堆栈里你可以看到有个降落伞符号。该符号显示当前降落伞在哪个分级激活 - 这个你已经知道 - 符号的背景以及前景（降落伞样子图标）会随着降落伞的状态改变颜色。降落伞不同状态颜色各不相同。]]></string>
-<string id="509063"><![CDATA[左边三个显示当前部署的风险等级：安全，有风险，危险，前景（降落伞）不分级三个都是白色。右边三个显示部署的状态：解除保险（阶段1，属于激活，未满足部署条件不会展开），部署展开（阶段2，完全部署），剪切/切断。熟悉降落伞指示符的颜色后我们继续。]]></string>
+<string id="509063"><![CDATA[左边三个显示当前部署的风险等级：安全，有风险，危险，前景（降落伞）不分级三个都是白色。右边三个显示部署的状态：解除保险（属于激活，未满足部署条件不会展开），部署展开（有两个阶段，预展开与完全展开），剪切/切断（降落后切断或人为剪断）。熟悉降落伞指示符的颜色后我们继续。]]></string>
 <string id="509563"><![CDATA[好吧，少废话！我解开飞行控制装置，准备发射。
 
 在任何时候，你可以按<color=]]></string>
 <string id="509795"><![CDATA[]</color> 暂停游戏。暂停菜单中可以选择重新飞行或结束本教程（选择 <color=]]></string>
 <string id="510019"><![CDATA[>结束场景</color>) 并返回到主菜单。
 
-For now get, yourself prepared and hit <color=]]></string>
-<string id="510219"><![CDATA[]</color> 随时准备发射！
+如果现在准备好了就按下 <color=]]></string>
+<string id="510219"><![CDATA[]</color> 发射升空！
 
 不要忘了我们的“小跳蚤”只有一个固体火箭发动机，所以没有油门控制 - 这就是为什么在这里我们不用查看节流阀。]]></string>
 <string id="510557"><![CDATA[shipLaunched]]></string>
@@ -9411,9 +9411,9 @@ For now get, yourself prepared and hit <color=]]></string>
 
 同时密切注意在飞行过程中的降落伞图标，切记不要在背景是红色的时候激活分级！
 
-我意识到一下让你学习这么多可能会记不住，所以如果你忘了什么可以随时按 <color=]]></string>
+我意识到一下让你学习太多可能会记不住按键，所以如果你忘了可以随时按 <color=]]></string>
 <string id="511233"><![CDATA[]</color> 然后单击<color=]]></string>
-<string id="511288"><![CDATA[>查看键位绑定</color> 看提醒。
+<string id="511288"><![CDATA[>查看键位绑定</color> 查看。
 
 你也可以看到右下角的船员是否正享受着旅行。
 
@@ -9422,15 +9422,15 @@ For now get, yourself prepared and hit <color=]]></string>
 <string id="511757"><![CDATA[部署降落伞]]></string>
 <string id="511798"><![CDATA[你的固体发动机燃料烧完了，当你通过远拱点（飞行轨道的最高点），以及速度足够低时，安全状态下再部署降落伞。
 
-现在就这样做，在你还没开始加速并打到地面之前！]]></string>
+现在就激活你的降落伞，在你还没开始加速并打到地面之前！]]></string>
 <string id="512274"><![CDATA[coastDown]]></string>
 <string id="512293"><![CDATA[降落享受]]></string>
-<string id="512328"><![CDATA[正在缓慢下降中，我们坐下来享受一下。]]></string>
-<string id="512413"><![CDATA[干得好，你活着飞完了你的第一次快速飞行！
+<string id="512328"><![CDATA[正在下降中，这个过程时间会有点长，我们坐下来享受一下悠闲的时光。]]></string>
+<string id="512413"><![CDATA[干得好，你活着飞完了你的第一次快速飞行任务！
 
 当你降落在Kerbin的地表或水面（不在本训练课程内），你可以用鼠标点击高度表（在向下滑动面板上）边上的回收按钮，回收部门的人会过去接你。
 
-我也解锁了仓门，所以如果你想出去散步或游泳，你可以将鼠标悬停在宇航员肖像上，选择EVA（舱外活动）按钮，它们将打开仓门出散步。你这样做可以只是为了好玩或收集一些样本进行研究。
+我也解锁了舱门，所以如果你想出去散步或游泳，你可以将鼠标悬停在宇航员肖像上，选择EVA（舱外活动）按钮，它们将打开舱门出去。你这样做可以只是为了好玩或收集一些样本进行研究。
 
 今天的课程到此结束，如要退出课程 按 <color=]]></string>
 <string id="513635"><![CDATA[]</color> 打开暂停菜单，然后选择<color=]]></string>
@@ -9452,8 +9452,8 @@ For now get, yourself prepared and hit <color=]]></string>
 
 别难过，我会派人来清理它，你可以选择另一个时间再尝试一次。]]></string>
 <string id="515880"><![CDATA[chuteBurnBonusPage]]></string>
-<string id="515917"><![CDATA[Oh No! Your Chute is Gone!]]></string>
-<string id="515970"><![CDATA[You staged your chute while still going too fast and it ripped up. Afraid there really isn't much that can be done now, it's shredded to ribbons!]]></string>
+<string id="515917"><![CDATA[不好了！您的降落伞不见了！]]></string>
+<string id="515970"><![CDATA[打开降落伞速度太快了，过高的速度把它扯烂了。现在恐怕真的没有什么办法补救了，它已经分解成一条条的丝带了！]]></string>
 <string id="516262"><![CDATA[ChuteBurn]]></string>
 <string id="516281"><![CDATA[onFlightTutorial]]></string>
 <string id="516314"><![CDATA[FlightSuborbital]]></string>
@@ -9578,7 +9578,7 @@ SAS可以暂时激活（或暂时停用）按住 <color=]]></string>
 <string id="528495"><![CDATA[Reorient]]></string>
 <string id="528512"><![CDATA[]</color> 如果必要就暂停。
 
-当我们再次接近大气层的边缘，是时候重新调整指令仓准备好重新进入。我们只要指令舱和降落伞还有咕咕罐重新进入，但我们现在还不打算分离火箭;在现实的任务中最好保持你的上级，不到最后一刻，你永远不知道什么时候你可能需要它...
+当我们再次接近大气层的边缘，是时候重新调整指令舱准备好重新进入。我们只要指令舱和降落伞还有咕咕罐重新进入，但我们现在还不打算分离火箭;在现实的任务中最好保持你的上级，不到最后一刻，你永远不知道什么时候你可能需要它...
 
 不管怎么说，现在我们是从上至下进入，因为我们上升时是约70俯仰角度，我们很自然的在-70的俯仰角度重新再入。
 
@@ -9594,7 +9594,7 @@ SAS可以暂时激活（或暂时停用）按住 <color=]]></string>
 现阶段要丢弃不需要的零件和重量。]]></string>
 <string id="530721"><![CDATA[sasOff]]></string>
 <string id="530734"><![CDATA[气动稳定]]></string>
-<string id="530785"><![CDATA[指令仓再入中（靠近顶部会开始生产阻力）, 能靠空气动力独自维持正常稳定。
+<string id="530785"><![CDATA[指令舱再入中（靠近顶部会开始生产阻力）, 能靠空气动力独自维持正常稳定。
 
 因此，把S.A.S.关掉，利用空气为你工作。你一旦通过大气层，我们将进入下一阶段。]]></string>
 <string id="531361"><![CDATA[reentry]]></string>
@@ -9647,7 +9647,7 @@ SAS可以暂时激活（或暂时停用）按住 <color=]]></string>
 
 别难过，我会派人来清理它，你可以选择另一个时间再尝试一次。]]></string>
 <string id="538543"><![CDATA[不好 ！你的降落伞不见了 ！]]></string>
-<string id="538596"><![CDATA[降落伞开得太快了，过高的速度把它扯烂了。
+<string id="538596"><![CDATA[打开降落伞速度太快了，过高的速度把它扯烂了。
 
 现在恐怕真的没有什么办法补救了，它已经分解成一条条的丝带了！]]></string>
 <string id="538890"><![CDATA[我看你已经找到了对接控制器。
@@ -9684,13 +9684,13 @@ This means aerodynamic forces acted to keep pushing you further away from your v
 <string id="543125"><![CDATA[[Tutorial]: Could not find config node for FromMun tutorial!]]></string>
 <string id="543246"><![CDATA[欢迎学习往返Mun的课程 ！
 
-在我们的上一节课中登陆这个飞行器。我希望你的飞行员出仓去伸展一下她们的双腿，看看周围;然后返回到仓内。之后将出发回到Kerbin ！
+在我们的上一节课中登陆这个飞行器。我希望你的飞行员出舱去伸展一下她们的双腿，看看周围;然后返回到舱内。之后将出发回到Kerbin ！
 
 在这节课我会教你如何从Mun起飞到达一个稳定的轨道，然后如何从Mun轨道（或月亮）返回到母星。事实上，相同的技能也可以用于离开 Kerbin到达太阳系中其他行星那里。最后，我们会高速再入Kerbin。(隔热板︰ 需要 ！)
 
 当你准备好了，我们可以查看飞行计划。]]></string>
-<string id="544476"><![CDATA[出仓徒步旅行]]></string>
-<string id="544505"><![CDATA[若要 Valentina 宇航员出仓活动 (EVA)，请单击她肖像上的 EVA 按钮。让她跳下飞行器尝试在mun 的重力下行走。玩够了就打开她的喷射背包飞回到指令仓。她可以靠近门把手后抓住然后返回到仓内。一旦你回到仓内，或者您都不想出去，请单击<color=]]></string>
+<string id="544476"><![CDATA[出舱徒步旅行]]></string>
+<string id="544505"><![CDATA[若要 Valentina 宇航员出舱活动 (EVA)，请单击她肖像上的 EVA 按钮。让她跳下飞行器尝试在mun 的重力下行走。玩够了就打开她的喷射背包飞回到指令舱。她可以靠近门把手后抓住然后返回到舱内。一旦你回到舱内，或者您都不想出去，请单击<color=]]></string>
 <string id="545407"><![CDATA[>下一步</color>.
 
 EVA的控制：
@@ -9778,11 +9778,11 @@ EVA的控制：
 <string id="558944"><![CDATA[就像我之前教你的，向东方逆行并稳定，然后打开SAS电源接着分离火箭，您就可以安全再入。
  
 做到这一点要快，因为你降得快！]]></string>
-<string id="559348"><![CDATA[请注意，这一次的返回指令仓带有隔热罩 ︰ 虽然没有这个隔热材料也勉强可以再入，但这是非常危险的。尝试直接从比Mun远的地方回来，你将会变成为一个脆皮动物 ！
+<string id="559348"><![CDATA[请注意，这一次的返回指令舱带有隔热罩 ︰ 虽然没有这个隔热材料也勉强可以再入，但这是非常危险的。尝试直接从比Mun远的地方回来，你将会变成为一个脆皮动物 ！
 
 这是一种替代方法，以避免再入时过度的热量将轨道飞行器和降落伞烧坏，使再入更温和更慢的速度重返大气层。当然，将需要大量的额外的燃料 — — 老实说，这个方式也是蛮好玩的。
 
-这艘船本身无法自行减速，由于隔热罩 （因为它的尺寸与挂载的指令仓齐平所以没有提供额外的阻力） 又附加一定重量。出于这个原因，你的飞行器另外多装了一个径向减速降落伞。一旦降落伞图标显示“安全” （没有红色或橙色的背景），你就可以部署它。
+这艘船本身无法自行减速，由于隔热罩 （因为它的尺寸与挂载的指令舱齐平所以没有提供额外的阻力） 又附加一定重量。出于这个原因，你的飞行器另外多装了一个径向减速降落伞。一旦降落伞图标显示“安全” （没有红色或橙色的背景），你就可以部署它。
 
 这种减速降落伞装置制动效果较弱，但能工作在更高的速度和海拔高度，比常规的慢点才能安全正常打开的降落伞更强大。所以一旦径向减速降落伞工作，我们将继续。]]></string>
 <string id="561794"><![CDATA[drogueDep]]></string>
@@ -9872,7 +9872,7 @@ Once you reach only 1.5km up (or earlier if you're descending too quickly) we'll
 <string id="572181"><![CDATA[You're very close to the surface now! Slow down to only 5m/s (even slower when you can see your shadow) and land softly on the surface of another world!
 
 To make fine throttle adjustments easier, right-click on your engine and lower the thrust limiter down to 50 or so. That will make 100% on your throttle gauge only 50% throttle for the engine.]]></string>
-<string id="572875"><![CDATA[Landed!]]></string>
+<string id="572875"><![CDATA[登陆！]]></string>
 <string id="572890"><![CDATA[Congratulations! You've landed on the suface of the Mun!
 
 That's one small step for Val, one giant leap for Kerbalkind.]]></string>
@@ -10194,10 +10194,10 @@ I suggest you use the navball to orient yourself instead of looking at the ship.
 <string id="617070"><![CDATA[ is not a Tutorial Page. You can't call GoToNextPage from normal KFSMStates.]]></string>
 <string id="617224"><![CDATA[[TutorialFSM Error]: There is no previous state defined for ]]></string>
 <string id="617345"><![CDATA[。请确保它不是第一页。]]></string>
-<string id="617418"><![CDATA[您好，欢迎收看今天的Kerbal 科学方法讲座。 我是]]></string>
+<string id="617418"><![CDATA[您好，欢迎收看今天的坎巴拉科研操作基础讲座。 我是]]></string>
 <string id="617570"><![CDATA[，一个非凡科学家。本教程并不真正需要任何以前的知识，但为了收集科学点，你将要自己熟悉游戏中的每一个方面，所以你应该找些时间做完所有这些。
 
-我们现在是在Kerbal航天中心。关于飞行器建造请到基本建造教程中学习。现在，我们将专注复杂研究与发展。]]></string>
+我们现在是在坎巴拉航天中心。关于飞行器建造请到基本建造教程中学习。现在，我们将专注复杂研究与发展。]]></string>
 <string id="618352"><![CDATA[rndBuilding]]></string>
 <string id="618375"><![CDATA[研究与发展部]]></string>
 <string id="618440"><![CDATA[这个离你最近的大型复杂的研究和开发部门。在这里，您将利用科学任务奖励为你解开更多的部件。
@@ -10205,7 +10205,7 @@ I suggest you use the navball to orient yourself instead of looking at the ship.
 来吧，点击它，看看效果。]]></string>
 <string id="618882"><![CDATA[insideRnD]]></string>
 <string id="618901"><![CDATA[研究与发展部内]]></string>
-<string id="618946"><![CDATA[很好！你在方格背景中间看到的是科技树。它显示的是你在Kerbal目前研究的技术进度页面。
+<string id="618946"><![CDATA[很好！你在方格背景中间看到的是科技树。它显示的是你在坎巴拉目前研究的技术进度页面。
 
 你现在没有太多来展示，因为你不是一个像我这样的世界级科学家。至少目前还没有。但是，我相信你一定有实现这个的潜力。]]></string>
 <string id="619586"><![CDATA[unlockNextNode]]></string>
@@ -10226,9 +10226,9 @@ I suggest you use the navball to orient yourself instead of looking at the ship.
 <string id="621582"><![CDATA[这东西从哪里来？]]></string>
 <string id="621631"><![CDATA[现在，你自己可能在想，“这全部一切都有是多么美好，但我如何获得更多的科学点？”
 
-你可以做很多事情，比如收集Kerbals船员的区域报告 ，履行合同这几种，飞船搭载实验部件 （如神秘咕咕单元） 在不同的地点部署收集样本等。有很多可能性，真的。
+你可以做很多事情，比如收集坎巴拉宇航员的区域报告 ，履行合同这几种，飞船搭载实验部件 （如神秘咕咕单元） 在不同的地点部署收集样本等。有很多可能性，真的。
 
-大多数这些操作都是通过右键单击各部件显示"内容菜单"进行选择，有时是在 Kerbals 上执行。请记住，你需要将任务结果发送或安全返回 Kerbin 提交原始数据，以转换成有用的科学点。]]></string>
+大多数这些操作都是通过右键单击各部件显示"内容菜单"进行选择，有时是在 坎巴拉s 上执行。请记住，你需要将任务结果发送或安全返回 Kerbin 提交原始数据，以转换成有用的科学点。]]></string>
 <string id="623145"><![CDATA[situations]]></string>
 <string id="623166"><![CDATA[所有许多其他和我提到的活动。你可以跟踪记录以备将来参考。您可以通过单击左上角上的黄色按钮访问这些科学档案。
 
@@ -11017,7 +11017,7 @@ Box]]></string>
 <string id="655240"><![CDATA[地图轨道理发可用]]></string>
 <string id="655299"><![CDATA[飞行计划可用]]></string>
 <string id="655350"><![CDATA[>Tracking Station Upgrade required for Flight Planning</color>]]></string>
-<string id="655475"><![CDATA[坎巴拉人可以在空中出仓了]]></string>
+<string id="655475"><![CDATA[坎巴拉人可以在空中出舱了]]></string>
 <string id="655524"><![CDATA[Kerbals can disembark only on Kerbin]]></string>
 <string id="655597"><![CDATA[坎巴拉人可以再舱外插旗了]]></string>
 <string id="655658"><![CDATA[坎巴拉人可以在舱外爬墙了]]></string>
@@ -11648,7 +11648,7 @@ THE SELECTED PART IS NOT ATTACHABLE!]]></string>
 <string id="682042"><![CDATA[文字:]]></string>
 <string id="682057"><![CDATA[[FlightUIModeController ERROR]: Cannot start without references to the mode buttons]]></string>
 <string id="682225"><![CDATA[[FlightUIModeController ERROR]: Cannot start without references to the UI Sliding Tabs]]></string>
-<string id="682399"><![CDATA[Go EVA]]></string>
+<string id="682399"><![CDATA[舱外活动]]></string>
 <string id="682412"><![CDATA[MET]]></string>
 <string id="682419"><![CDATA[预计点火 : ]]></string>
 <string id="682442"><![CDATA[时间距离]]></string>
