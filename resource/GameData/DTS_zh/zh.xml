@@ -2029,7 +2029,7 @@ FX Scale: ]]></string>
 <string id="72368"><![CDATA[界面]]></string>
 <string id="72373"><![CDATA[一般]]></string>
 <string id="72388"><![CDATA[正使用]]></string>
-<string id="72411"><![CDATA[Kerbin时间(每天6小时, 每年426天)]]></string>
+<string id="72411"><![CDATA[坎星时间(每天6小时, 每年426天)]]></string>
 <string id="72478"><![CDATA[地球时间(每天24小时, 每年365天)]]></string>
 <string id="72545"><![CDATA[UI Scale: ]]></string>
 <string id="72566"><![CDATA[Camera Wobble (External Views): ]]></string>
@@ -3940,10 +3940,10 @@ Retracted skin max temp: ]]></string>
 <string id="143926"><![CDATA[<b>预展开时阻力: </b>]]></string>
 <string id="143981"><![CDATA[<b>全展开时阻力: </b>]]></string>
 <string id="144038"><![CDATA[0.####]]></string>
-<string id="144051"><![CDATA[<b>Full Deployment Altitude: </b>]]></string>
+<string id="144051"><![CDATA[<b>全面部署海拔高度：</b>]]></string>
 <string id="144118"><![CDATA[ m
 ]]></string>
-<string id="144125"><![CDATA[<b>Semi Deploy Min Pressure: </b>]]></string>
+<string id="144125"><![CDATA[<b>半部署最小压力: </b>]]></string>
 <string id="144192"><![CDATA[ atm]]></string>
 <string id="144201" noT="1"><![CDATA[deploySafe]]></string>
 <string id="144222"><![CDATA[安全]]></string>
@@ -4193,10 +4193,10 @@ Retracted skin max temp: ]]></string>
 <string id="153013"><![CDATA[ for NodeOuterAft.]]></string>
 <string id="153050"><![CDATA[ for NodeInnerFore.]]></string>
 <string id="153089"><![CDATA[ for NodeInnerAft.]]></string>
-<string id="153126"><![CDATA[仓库门移动中... (from ]]></string>
+<string id="153126"><![CDATA[舱库门移动中... (from ]]></string>
 <string id="153183"><![CDATA[,去 ]]></string>
-<string id="153194"><![CDATA[仓库门关闭. (]]></string>
-<string id="153237"><![CDATA[仓库门卡主了.未关闭.(]]></string>
+<string id="153194"><![CDATA[舱库门关闭. (]]></string>
+<string id="153237"><![CDATA[舱库门卡主了.未关闭.(]]></string>
 <string id="153304"><![CDATA[[ModuleCargoBay]: Module ]]></string>
 <string id="153355"><![CDATA[ is not an IScalarModule]]></string>
 <string id="153404"><![CDATA[Procedural/FairingsMat]]></string>
@@ -7702,14 +7702,14 @@ Spd: ]]></string>
 <string id="325666"><![CDATA[funds]]></string>
 <string id="325677"><![CDATA[[GameVariables]: Instance already exists!]]></string>
 <string id="325760"><![CDATA[游客也许会无法从载具上下来.]]></string>
-<string id="325847"><![CDATA[Crewmembers must be alive to perform EVAs.]]></string>
-<string id="325932"><![CDATA[Automatic EVA disabled. Activate a hatch.]]></string>
-<string id="326015"><![CDATA[Cannot EVA in this scenario.]]></string>
+<string id="325847"><![CDATA[执行舱外活动的机组成员必须活着。]]></string>
+<string id="325932"><![CDATA[舱外活动自动禁用。激活一个舱口。]]></string>
+<string id="326015"><![CDATA[在这种情况下无法进行舱外活动。]]></string>
 <string id="326072"><![CDATA[无法下地因为载具离地了.
 航天员能力需要升级.]]></string>
-<string id="326240"><![CDATA[Cannot EVA.]]></string>
-<string id="326263"><![CDATA[EVA currently unavailable.]]></string>
-<string id="326316"><![CDATA[EVA unavailable]]></string>
+<string id="326240"><![CDATA[不能舱外活动。]]></string>
+<string id="326263"><![CDATA[舱外活动目前无法使用]]></string>
+<string id="326316"><![CDATA[舱外活动不可用]]></string>
 <string id="326347"><![CDATA[kscComplete]]></string>
 <string id="326370"><![CDATA[editorComplete]]></string>
 <string id="326399"><![CDATA[tsComplete]]></string>
@@ -8375,7 +8375,7 @@ Cost: \F ]]></string>
 <string id="360868"><![CDATA[>下一步</color> 当你准备好，我们就会加速，直到下一个阶段。]]></string>
 <string id="361038"><![CDATA[nearAp]]></string>
 <string id="361051"><![CDATA[飞船定向]]></string>
-<string id="361088"><![CDATA[我们就快到了。现在我们需要做的是把速度在加快点免得我们往下落回Kerbin。现在的轨道基本上就是 ︰ 下降并失踪。重力会把我们拉回Kerbin ，所以我们速度要快点，否则我们将错过这次旅行。
+<string id="361088"><![CDATA[我们就快到了。现在我们需要做的是把速度在加快点免得我们往下落回坎星。现在的轨道基本上就是 ︰ 下降并失踪。重力会把我们拉回坎星 ，所以我们速度要快点，否则我们将错过这次旅行。
 
 操作你的飞行器对齐标记 （关于这个进入相关教程了解更多），或使用S.A.S.的<color=]]></string>
 <string id="361852"><![CDATA[>Manuever</color> 模式。当要调节节流阀的时候我会告诉你。]]></string>
@@ -8403,7 +8403,7 @@ Cost: \F ]]></string>
 <string id="364451"><![CDATA[>暂停</color> 菜单里，希望后面的教程我还能见到你。]]></string>
 <string id="364538"><![CDATA[Finish]]></string>
 <string id="364551"><![CDATA[ivaBonusPage]]></string>
-<string id="364576"><![CDATA[仓内视图]]></string>
+<string id="364576"><![CDATA[舱内视图]]></string>
 <string id="364603"><![CDATA[啊哈 ！你真是好奇的一个人，不是吗？每个船员的肖像都有个 IVA 按钮，点击后将以该船员的第一人称视角看到飞船内部。
 
 注意，在这种模式下，用户界面只显示较少仪器，不过大多都可以在驾驶舱看见。
@@ -8457,7 +8457,7 @@ Altitude: ]]></string>
 打开地图视图就能看到这些东西。]]></string>
 <string id="371154"><![CDATA[mapView]]></string>
 <string id="371169"><![CDATA[小行星]]></string>
-<string id="371188"><![CDATA[幸运的是，因教程的需要所以神一样的编辑敲了几下键盘，让一颗小行星进入了Kerbin引力范围形成了一个偏心但稳定的轨道。
+<string id="371188"><![CDATA[幸运的是，因教程的需要所以神一样的编辑敲了几下键盘，让一颗小行星进入了坎星引力范围形成了一个偏心但稳定的轨道。
 
 和这大约一样幸运，同时我们又能够去捕捉到它，因为在现实生活中大部分将只是飞驰而过或绕一圈后就再也没有回来。
 
@@ -8571,9 +8571,9 @@ Altitude: ]]></string>
 <string id="386724"><![CDATA[现在开始重定向你的小行星。无论你是想用它做研究材料，或落下地面上使它成为大规模杀伤性武器，还是创建一个岩石空间站，你都要携带你的石头到达目的地。]]></string>
 <string id="387244"><![CDATA[虽然现在你就可以开始设置机动节点并执行燃烧，不过这样会需要很高的燃料成本，所以要好好的计划一个更有效的路径。
 
-打开你的地图，将 Kerbin 设置为你的目标，并找到 Kerbin 轨道最接近你的位置，然后设置一个机动节点，在你的轨道相反的另一边。这时你将在一个最低的速度，使得更容易调整你的轨道。]]></string>
+打开你的地图，将 坎星 设置为你的目标，并找到 坎星 轨道最接近你的位置，然后设置一个机动节点，在你的轨道相反的另一边。这时你将在一个最低的速度，使得更容易调整你的轨道。]]></string>
 <string id="388216"><![CDATA[交会 - 几乎没有！]]></string>
-<string id="388269"><![CDATA[现在尝试创建一个机动，这将让你在Kerbin的SOI回来。听起来很简单，但要注意两件事情。
+<string id="388269"><![CDATA[现在尝试创建一个机动，这将让你在坎星的SOI回来。听起来很简单，但要注意两件事情。
 
 首先，你现在携带的是一大块石头，所以要检查燃料用完之前能不能完成节点机动。经验法则是，如果预计的燃烧时间超过10分钟，你可能会在机动完成之前就耗尽燃料。
 
@@ -8697,11 +8697,11 @@ Each option has benefits and drawbacks. Let me know which one you chose when you
 <string id="411226"><![CDATA[Size3to2Adapter]]></string>
 <string id="411257"><![CDATA[rcsTankRadialLong]]></string>
 <string id="411292"><![CDATA[Interplanetary Travel]]></string>
-<string id="411335"><![CDATA[你登陆过Mun了,对吗?这很好,但它很容易,我们今天试试复杂一点的操作,直接从低Kerbin轨道到另一个行星.这个任务的难度很大程度上取决于你打算拜访的行星.一个显而易见的原因是,要达到更远的天体需要更多的DV,但你也必须考虑到天体的特性,如大气,重力等.
+<string id="411335"><![CDATA[你登陆过Mun了,对吗?这很好,但它很容易,我们今天试试复杂一点的操作,直接从低坎星轨道到另一个行星.这个任务的难度很大程度上取决于你打算拜访的行星.一个显而易见的原因是,要达到更远的天体需要更多的DV,但你也必须考虑到天体的特性,如大气,重力等.
 所以,选择一个合适的目标星球你首先应该了解测控站的基础知识.在这里你可以了解更多关于每个天体的特性并评估你能不能完成任务,但今天没有必要了解因为我知道我们要去哪里：Duna.]]></string>
 <string id="412723"><![CDATA[让我们让揭开Duna 这个与黑暗的夜空形成鲜明对比的小红点的神秘面纱.
 打开星图,转移焦点到Duna（按[Tab]键切换）.点击屏幕右侧的行星图标访问知识库关于Duna的部分.
-正如你所看到为什么我们选择Duna做为了本次任务的目标其中一个原因是因为它的条件Duna大气层很薄而且重力比Kerbin低很多的,所以即使对于一个新玩家去Duna也应该是一个很简单的任务.]]></string>
+正如你所看到为什么我们选择Duna做为了本次任务的目标其中一个原因是因为它的条件Duna大气层很薄而且重力比坎星低很多的,所以即使对于一个新玩家去Duna也应该是一个很简单的任务.]]></string>
 <string id="413705"><![CDATA[Oberth effect]]></string>
 <string id="413732"><![CDATA[ 为了完成到Duna或其他行星的星际转移,我们需要先讲一下所谓的奥伯特效应.
 还记得近拱点和远拱点是什么吗?好吧,近拱点是一个轨道的最低点,远拱点是轨道的最高点.把你的轨道想象成一座山,你上坡是要比下坡难,对吧?这是因为当你往高处走导致动能下降.回到轨道上面来轨道的最高点是动能的最低点,因为你要从上坡变成下坡也就意味着动能从增加变成减少所以远拱点是动能最低点.
@@ -8709,7 +8709,7 @@ Each option has benefits and drawbacks. Let me know which one you chose when you
 <string id="415436"><![CDATA[Phase Angles]]></string>
 <string id="415461"><![CDATA[利用奥伯特效应规划转移轨道的时候得小心一点,时间地点十分重要因为转移十分耗时一旦失败费时费力.
 
-教程里特意把时间设置到转移的窗口附近.出了教程建议在测控站时间加速到窗口以减少等待时间.问题来了要等多长时间呢?这就很复杂了,最简便的方法是看相位角（表示太阳 Duna Kerbin之间的关系）本次教程不涉及如何计算相位角,这个很容易查到或者用插件查看.]]></string>
+教程里特意把时间设置到转移的窗口附近.出了教程建议在测控站时间加速到窗口以减少等待时间.问题来了要等多长时间呢?这就很复杂了,最简便的方法是看相位角（表示太阳 Duna 坎星之间的关系）本次教程不涉及如何计算相位角,这个很容易查到或者用插件查看.]]></string>
 <string id="417095"><![CDATA[showtime]]></string>
 <string id="417112"><![CDATA[Interplanetary transfer orbit]]></string>
 <string id="417171"><![CDATA[现在开始去Duna 按 []]></string>
@@ -8719,7 +8719,7 @@ Each option has benefits and drawbacks. Let me know which one you chose when you
 <string id="418198"><![CDATA[Correction maneuver]]></string>
 <string id="418237"><![CDATA[这个规划的轨道看起来不错,可以执行了.行星转移耗时较长可能需要两三分钟提前总时长的一半执行效率最高.
 
-执行完成后可能仍然不会被Duna捕获,这没什么.即使是老手行星际转移同样需要多次修正,一次成功很罕见. 下面要规划修正节点,因为Kerbin Duna轨道面有夹角所以需要在降交点进行常态方向的微调.这次调整对于能否着陆至关重要.结果满意的话点击下一步继续
+执行完成后可能仍然不会被Duna捕获,这没什么.即使是老手行星际转移同样需要多次修正,一次成功很罕见. 下面要规划修正节点,因为坎星 Duna轨道面有夹角所以需要在降交点进行常态方向的微调.这次调整对于能否着陆至关重要.结果满意的话点击下一步继续
 ]]></string>
 <string id="419769"><![CDATA[Encounter]]></string>
 <string id="419788"><![CDATA[执行调整之后如果一切正确,你会看到交会点.如果没看到的话建议立即修正 因为距离目标越近修正越耗费DV
@@ -8738,12 +8738,12 @@ Duna卫星 Ike 挡路,这事很常见因为Ike的SOI比Duna大.一旦发现立�
 我为你的潜力感到自豪.]]></string>
 <string id="423142"><![CDATA[干得好！现在位置不错试着降低轨道开始着陆吧. 
 
- 着陆的时候注意右键放下着陆架.不要迷信大气减速,Duna大气稀薄不够减速至安全着陆,降落伞在Duna用处也不像在Kerbin那么大,需要额外使用飞船引擎自行减速.
+ 着陆的时候注意右键放下着陆架.不要迷信大气减速,Duna大气稀薄不够减速至安全着陆,降落伞在Duna用处也不像在坎星那么大,需要额外使用飞船引擎自行减速.
 
  去别的行星以及其他天体的方法类似,你可以开始征服宇宙了.
 我为你的潜力感到自豪.]]></string>
 <string id="424280"><![CDATA[Squad/Tutorials/StagingStack]]></string>
-<string id="424337"><![CDATA[基本建造]]></string>
+<string id="424337"><![CDATA[基础建造]]></string>
 <string id="424374"><![CDATA[欢迎学习飞船建造教程。我是Wernher von Kerman。
 
 无论你是想将卫星送入轨道飞行横贯大陆，还是踏上Mun的表面，都需要有建造飞行器的知识。
@@ -8758,7 +8758,7 @@ Duna卫星 Ike 挡路,这事很常见因为Ike的SOI比Duna大.一旦发现立�
 完成本教程后你将有一艘能从发射台起飞的快速飞行器。
 
 我会锁定所有教程内容步骤以外的所有部件。如果这样你仍然搞砸了 （我也花了一些时间才变得像现在这样熟练 ！），您可以按 <color=]]></string>
-<string id="426328"><![CDATA[>Back</color> 按钮，回去修正错误。 （除非你把事情弄糟了，不然它不会亮起。）]]></string>
+<string id="426328"><![CDATA[>Back</color> 按钮，回去修正错误。 （除非你把事情弄糟了，不然起不了作用。）]]></string>
 <string id="426510"><![CDATA[spaceCenter]]></string>
 <string id="426533"><![CDATA[坎巴拉航天中心]]></string>
 <string id="426572"><![CDATA[我们现在是在坎巴拉航天中心。我下面将给你简单介绍一下。
@@ -8780,7 +8780,7 @@ Duna卫星 Ike 挡路,这事很常见因为Ike的SOI比Duna大.一旦发现立�
 这一部分可以是勇敢的 Kerbal 宇航员或是自动化模块控制。
 
 我们刚刚开始只有一个选择。走起，该命令模块在 <color=]]></string>
-<string id="429682"><![CDATA[>Pods</color> 标签。]]></string>
+<string id="429682"><![CDATA[>指令舱</color> 标签。]]></string>
 <string id="429719"><![CDATA[camControls]]></string>
 <string id="429742"><![CDATA[看看周围]]></string>
 <string id="429771"><![CDATA[至少有一部件被放置后，你可以用下列控制来看看周围。
@@ -8800,23 +8800,23 @@ Duna卫星 Ike 挡路,这事很常见因为Ike的SOI比Duna大.一旦发现立�
 <string id="430346"><![CDATA[>[Shift]</color> + <color=]]></string>
 <string id="430399"><![CDATA[addParachute]]></string>
 <string id="430424"><![CDATA[添加一个降落伞]]></string>
-<string id="430461"><![CDATA[如果您不希望飞行员是一次性的，那他或她就必须安全返回Kerbin地面（或水里）。使用降落伞就是一种简单的方式。它们可以在<color=]]></string>
-<string id="430915"><![CDATA[>Utility</color> 标签找到（通过点击左侧的工具列表中部件窗口选项卡图标来改变）。
+<string id="430461"><![CDATA[如果您不希望飞行员是一次性的，那他或她就必须安全返回坎星地面（或水里）。使用降落伞就是一种简单的方式。它们可以在<color=]]></string>
+<string id="430915"><![CDATA[>功能</color> 标签找到（通过点击左侧的工具列表中部件窗口选项卡图标来改变）。
 
 你选择部件时可以通过鼠标悬停在工具箱中的部件上查看细节。当信息中可见有附加信息窗口时，可以用右键单击打开部件。需要注意降落伞有效直径大小和部署的最大安全速度是多少。
 
 来吧，选择<color=]]></string>
 <string id="431863"><![CDATA[>Mk16 降落伞</color> 通过 <color=]]></string>
-<string id="431932"><![CDATA[>左击</color> 选择部件。然后将其移动到指令仓的顶部，降落伞的底部与在指令仓的顶部对齐后降落伞会显示绿色，此时再次<color=]]></string>
+<string id="431932"><![CDATA[>左击</color> 选择部件。然后将其移动到指令舱的顶部，降落伞的底部与在指令舱的顶部对齐后降落伞会显示绿色，此时再次<color=]]></string>
 <string id="432314"><![CDATA[>左击</color> 安装上去]]></string>
 <string id="432377"><![CDATA[parachuteParams]]></string>
 <string id="432408"><![CDATA[调整部件选项]]></string>
 <string id="432453"><![CDATA[有些部件，这里像我们的降落伞，是有可配置选项的。想要打开选项我们需要<color=]]></string>
-<string id="432645"><![CDATA[>右击</color>安装在指令仓上的降落伞。您将看到降落伞的设置参数。
+<string id="432645"><![CDATA[>右击</color>安装在指令舱上的降落伞。您将看到降落伞的设置参数。
 
 在降落伞的设置参数中你会看到，我们可以调整打开的高度和打开大气压力;该设置在遥远的世界非常有用。
 
-现在让我们检查降落伞的打开高度至少要有 1000 米，因为这毕竟是Kerbal的安全高度。对于压力滑块，将它移动到最右侧 (0.75) 。降落伞将在大于所配置的大气压力值时才被激活，该设置可防止在不合适的高度上激活降落伞。 Kerbin 0.75上 是约 2 公里的高度，所以即使你过早的部署了降落伞，它也会等到大气压力满足要求后才会激活。
+现在让我们检查降落伞的打开高度至少要有 1000 米，因为这毕竟是Kerbal的安全高度。对于压力滑块，将它移动到最右侧 (0.75) 。降落伞将在大于所配置的大气压力值时才被激活，该设置可防止在不合适的高度上激活降落伞。 坎星 0.75上 是约 2 公里的高度，所以即使你过早的部署了降落伞，它也会等到大气压力满足要求后才会激活。
 
 您可以通过在背景场景右键单击或捡起另一个部件 （如果有可用）来隐藏这些选项。当您满意，我们可以继续进行。]]></string>
 <string id="434437"><![CDATA[addBacc]]></string>
@@ -8825,19 +8825,19 @@ Duna卫星 Ike 挡路,这事很常见因为Ike的SOI比Duna大.一旦发现立�
 
 <color=]]></string>
 <string id="434614"><![CDATA[>点击</color> 那个 <color=]]></string>
-<string id="434673"><![CDATA[>Engines</color> 选项卡选择一个可用的引擎或固体火箭发动机。
+<string id="434673"><![CDATA[>引擎</color> 选项卡选择一个可用的引擎或固体火箭发动机。
 
-抓一个将其连接到指令仓的底部。要做到这个你可能需要缩放或移动相机。]]></string>
+抓一个将其连接到指令舱的底部。要做到这个你可能需要缩放或移动相机。]]></string>
 <string id="435073"><![CDATA[removeBACC]]></string>
 <string id="435094"><![CDATA[哎呀 ！]]></string>
 <string id="435105"><![CDATA[哎呀！我忘了你才刚刚起步。你不是一个著名的火箭科学家，而现在要架起这种飞行器你必须要比我更擅长火箭科学。哈哈，不可能 ！
 
-现在飞行器的问题在于这种固体火箭对于这个有效载荷（一个小小指令仓加一个降落伞）太强大了。飞行器会因为上升的速度过快而烧起来，这样你就回不来了。即使活下来，飞船的整体质量导致下降速度太快，降落伞无法正常运行你将会直接打到地面上！
+现在飞行器的问题在于这种固体火箭对于这个有效载荷（一个小小指令舱加一个降落伞）太强大了。飞行器会因为上升的速度过快而烧起来，这样你就回不来了。即使活下来，飞船的整体质量导致下降速度太快，降落伞无法正常运行你将会直接打到地面上！
 
 好吧，我答应教你如何解决这个问题，不过要到后面的教程才会学习，现在让我们继续。
 
 嗯，至少现在我可以告诉你删除哪些部件。拿起<color=]]></string>
-<string id="436629"><![CDATA[>BACC "Thumper"</color>要丢弃它就扔到零件工具箱里或按 <color=]]></string>
+<string id="436629"><![CDATA[>BACC "雷鸣"</color>要丢弃它就扔到零件工具箱里或按 <color=]]></string>
 <string id="436807"><![CDATA[>[Delete]</color>.]]></string>
 <string id="436844"><![CDATA[addFlea]]></string>
 <string id="436859"><![CDATA[正确的固体发动机]]></string>
@@ -8848,7 +8848,7 @@ Duna卫星 Ike 挡路,这事很常见因为Ike的SOI比Duna大.一旦发现立�
 不过它确实有足够的动力去让这个小飞行器快速运动。当你的科研进步以后，将能够解锁更多的引擎和其他部件。
 
 不过现在，我们只能拿起<color=]]></string>
-<string id="437786"><![CDATA[>RT-5 “跳蚤"</color> 并将其连接到指令仓的底部。]]></string>
+<string id="437786"><![CDATA[>RT-5 “跳蚤"</color> 并将其连接到指令舱的底部。]]></string>
 <string id="437909"><![CDATA[staging]]></string>
 <string id="437924"><![CDATA[分级堆栈]]></string>
 <string id="437959"><![CDATA[好家伙。你已经建造了一个最简单的飞行器。我们现在就可以去启动它，不过牢记安全第一，预防为主是不会错的。]]></string>
@@ -8881,7 +8881,7 @@ Duna卫星 Ike 挡路,这事很常见因为Ike的SOI比Duna大.一旦发现立�
 
 
 <color=]]></string>
-<string id="442532"><![CDATA[>注意︰纯属娱乐（大片子），当你退出时，您在此处创建任何船只都将会丢失。</color>]]></string>
+<string id="442532"><![CDATA[>注意︰纯属娱乐，当你退出时，您在此处创建任何船只都将会丢失。</color>]]></string>
 <string id="442738"><![CDATA[statename]]></string>
 <string id="442757"><![CDATA[complete]]></string>
 <string id="442774"><![CDATA[tutorialEditor_Stages]]></string>
@@ -8925,7 +8925,7 @@ Duna卫星 Ike 挡路,这事很常见因为Ike的SOI比Duna大.一旦发现立�
 
 但这一次，我将介绍更多先进的火箭设计概念，如多级助推器，以及额外的部件，如RCS和太阳能电池板。如果你要在轨道上花些时间，你就会须要这些。
 
-我们完成相应操作后就会有能够爬升到Kerbin轨道并能安全返回的飞行器 ——你可以在去轨道飞行教程进一步学习。]]></string>
+我们完成相应操作后就会有能够爬升到坎星轨道并能安全返回的飞行器 ——你可以在去轨道飞行教程进一步学习。]]></string>
 <string id="445550"><![CDATA[undoRedo]]></string>
 <string id="445567"><![CDATA[入门指南]]></string>
 <string id="445598"><![CDATA[你会发现，这个时候会有很多可用的部件。我会一步步向您展示建造过程，这是因为拥有进入轨道能力的飞行器比造导弹复杂得多。
@@ -8953,7 +8953,7 @@ Duna卫星 Ike 挡路,这事很常见因为Ike的SOI比Duna大.一旦发现立�
 <string id="447587"><![CDATA[上半截]]></string>
 <string id="447618"><![CDATA[现在我们要建造的是火箭的上半截。
 
-这上半截将为指令仓提供动力和RCS推进还有电。反正它将提供在轨道上运行的所有机动能力，还包括再入。
+这上半截将为指令舱提供动力和RCS推进还有电。反正它将提供在轨道上运行的所有机动能力，还包括再入。
 
 这将包括一个分离器（这截火箭我们不想带回家），RCS的油箱，液体油箱，4 RCS推进器，4个太阳能电池板，4节电池，以及高效的末端发动机。
 
@@ -8962,9 +8962,9 @@ Duna卫星 Ike 挡路,这事很常见因为Ike的SOI比Duna大.一旦发现立�
 <string id="448731"><![CDATA[添加分离环]]></string>
 <string id="448774"><![CDATA[首先，我们在指令舱的下面添加一个分离环，让我们能抛弃不想带回的部分。
 
-从工具箱中抓住分离器，并将其连接到指令仓底部，密切关注那个小红色三角箭头，我们前面讨论过的，确保分离器的方向正确。
+从工具箱中抓住分离器，并将其连接到指令舱底部，密切关注那个小红色三角箭头，我们前面讨论过的，确保分离器的方向正确。
 
-如果箭头向下指就不对啦。点它与指令仓分开，然后使用<color=]]></string>
+如果箭头向下指就不对啦。点它与指令舱分开，然后使用<color=]]></string>
 <string id="449640"><![CDATA[]</color> 旋转它到正确的方向，然后再重新装上。]]></string>
 <string id="449778"><![CDATA[addRCSTank]]></string>
 <string id="449799"><![CDATA[添加RCS罐]]></string>
@@ -9027,13 +9027,13 @@ RCS通常效率较低，但适合任何方向的较小速度的变化（而不�
 
 飞行的过程中CoM会一直变化，使得这个平衡点变得复杂。所以，你需要想办法找到从“湿”到“干”之间CoM的折中点。
 
-要注意，在游戏的职业生涯模式里，RCS推进器早期是不可用的。在此期间，只能利用指令仓内置的动量轮，虽然它不能让你平移，但有足够能力让你的飞船转弯。]]></string>
+要注意，在游戏的职业生涯模式里，RCS推进器早期是不可用的。在此期间，只能利用指令舱内置的动量轮，虽然它不能让你平移，但有足够能力让你的飞船转弯。]]></string>
 <string id="459223"><![CDATA[placeRCS2]]></string>
 <string id="459242"><![CDATA[放置RCS推进器]]></string>
 <string id="459293"><![CDATA[开启角度捕捉让我们调整推进器部件变得更容易。要做到这一点请通过点击左下角的捕捉图标切换或按 <color=]]></string>
 <string id="459603"><![CDATA[]</color> 键，确保我们有 <color=]]></string>
 <string id="459678"><![CDATA[>4x</color> 的对称性，然后将一组 <color=]]></string>
-<string id="459805"><![CDATA[>4 RV-105 RCS推进器模块</color> 放置在火箭的燃料罐上（放到指令仓或分离环上无效）。
+<string id="459805"><![CDATA[>4 RV-105 RCS推进器模块</color> 放置在火箭的燃料罐上（放到指令舱或分离环上无效）。
 
 这种微小的火箭一定要放置到推进剂燃料罐正确的地方。 （你需要一个提示。）
 
@@ -9047,7 +9047,7 @@ RCS通常效率较低，但适合任何方向的较小速度的变化（而不�
 
 为了保持你的电池一直有充足的电力，你将需要有个能产生电力的方式。目前，我们知道发动机在他们运行时能发电，但你不会想让发动机在轨道上运行的。这样就无法获得想要的轨道了，还会用完推进剂！
 
-我们的指令仓有一些内置的电池，但为了安全起见，你可以添加更多的电池，并可以添加太阳能板或其他的发电项目。我们两样都要。]]></string>
+我们的指令舱有一些内置的电池，但为了安全起见，你可以添加更多的电池，并可以添加太阳能板或其他的发电项目。我们两样都要。]]></string>
 <string id="462537"><![CDATA[placeElec2]]></string>
 <string id="462558"><![CDATA[添加电池和太阳能电池板]]></string>
 <string id="462625"><![CDATA[切换到 <color=]]></string>
@@ -9179,7 +9179,7 @@ RCS通常效率较低，但适合任何方向的较小速度的变化（而不�
 <string id="480265"><![CDATA[actionAbort]]></string>
 <string id="480288"><![CDATA[中止组]]></string>
 <string id="480311"><![CDATA[太好了 ！现在<color=]]></string>
-<string id="480348"><![CDATA[>单击</color> 在指令仓下方的分离器并添加 <color=]]></string>
+<string id="480348"><![CDATA[>单击</color> 在指令舱下方的分离器并添加 <color=]]></string>
 <string id="480494"><![CDATA[>Decouple</color> 项到操作小组中。
 
 然后 <color=]]></string>
@@ -9223,7 +9223,7 @@ RCS通常效率较低，但适合任何方向的较小速度的变化（而不�
 <string id="484994"><![CDATA[>打开</color> 按钮在右上角找然后加载 "Hopper", 请删除 <color=]]></string>
 <string id="485178"><![CDATA[>RT-5 "跳蚤"</color>发动机继续。
 
-要是你搞砸了，你可以重新打开零件列表选一个指令仓在配上一个降落伞，调整降落伞打开参数0.75个大气压以及1000米以上。请注意，在本教程后面我将会开放所有需要的零件让你可以放置。
+要是你搞砸了，你可以重新打开零件列表选一个指令舱在配上一个降落伞，调整降落伞打开参数0.75个大气压以及1000米以上。请注意，在本教程后面我将会开放所有需要的零件让你可以放置。
 
 如果删除后又不知怎么调整参数，那你就重新加载一次吧。]]></string>
 <string id="485996"><![CDATA[rename]]></string>
@@ -9249,15 +9249,15 @@ RCS通常效率较低，但适合任何方向的较小速度的变化（而不�
 <string id="488855"><![CDATA[]</color> 键) 可循环切换得到想要的对称模式。]]></string>
 <string id="488978"><![CDATA[先设定 <color=]]></string>
 <string id="489017"><![CDATA[>2x</color> 再拿起并放置<color=]]></string>
-<string id="489114"><![CDATA[>神秘的粘液罐</color> 在指令仓靠近顶部一侧, 你会发现，第二个已经被对称性工具放置到了对面。如果您已经放置一个孤独的罐子，那把它捡起来，确保对称性设置正确，并再次将其放置，一样一样的。
+<string id="489114"><![CDATA[>神秘的粘液罐</color> 在指令舱靠近顶部一侧, 你会发现，第二个已经被对称性工具放置到了对面。如果您已经放置一个孤独的罐子，那把它捡起来，确保对称性设置正确，并再次将其放置，一样一样的。
 
-注意放置的位置，不要把指令仓仓门堵了！]]></string>
+注意放置的位置，不要把指令舱舱门堵了！]]></string>
 <string id="489882"><![CDATA[分离配件]]></string>
-<string id="489915"><![CDATA[如果我们在这里添加了太多的部件，我们的飞行器返回时就会因为过重变得不安全（降落伞无法给太重我们减速，过高的速度打开还会撕裂。）。因此，我们需要在指令仓下面添加分离环。
+<string id="489915"><![CDATA[如果我们在这里添加了太多的部件，我们的飞行器返回时就会因为过重变得不安全（降落伞无法给太重我们减速，过高的速度打开还会撕裂。）。因此，我们需要在指令舱下面添加分离环。
 
 分离环可以在构架选项卡中找到，当我们不再需要下面的部份时可以让我们分裂飞行器。我们无法恢复丢弃的部分，但至少飞行器能（把我们带回 Kerbal!）安全再入和着陆。
 
-分离环可以以多种方式来使用，但现在我们只需要添加到指令仓底部。进入<color=]]></string>
+分离环可以以多种方式来使用，但现在我们只需要添加到指令舱底部。进入<color=]]></string>
 <string id="491119"><![CDATA[>架构</color> 标签，抓取 <color=]]></string>
 <string id="491198"><![CDATA[>TR-18A</color>，并把它。
 
@@ -9337,7 +9337,7 @@ RCS通常效率较低，但适合任何方向的较小速度的变化（而不�
 <string id="500948"><![CDATA[基本飞行控制：俯仰，偏航和翻转]]></string>
 <string id="501035"><![CDATA[俯仰，偏航和翻转是将你的飞行器旋转到三个不同方向。
 
-我们放置了相机来帮助您更直观地看到“跳蚤”的飞行姿态。]]></string>
+我们在下面放了一张相片帮助您更直观地看到“跳蚤”的飞行姿态。]]></string>
 <string id="501341"><![CDATA[接下来，我们会看到如何控制这些方向旋转。]]></string>
 <string id="501448"><![CDATA[PYRsummary]]></string>
 <string id="501469"><![CDATA[俯仰 ,偏航和翻转]]></string>
@@ -9351,7 +9351,7 @@ RCS通常效率较低，但适合任何方向的较小速度的变化（而不�
 
 通过控制俯仰、 偏航和翻转你可以保持飞船在一个可控的状态下飞行。
 
-现在就来试一试，并注意左下侧你提供的控制输入指示器。]]></string>
+现在就来试一试，并注意左下侧提供的控制输入指示器变化。]]></string>
 <string id="502240"><![CDATA[基础控制总结]]></string>
 <string id="502281"><![CDATA[一个成功无碰撞的飞行你需要掌握的主要控件有节流阀，偏航和翻转，再加上航向倾角（导航球）。
 
@@ -9368,7 +9368,7 @@ RCS通常效率较低，但适合任何方向的较小速度的变化（而不�
 		<color=]]></string>
 <string id="504069"><![CDATA[]</color> : 发射 /  激活下面的分级
 
-注意屏幕左下方角落的分级指示符，它显示了当前活动的分级。因为我们还没有发射，所以第一分级显示为活动的。我现在把你的控件临时锁定了，所以分级指示符是发光的紫色。
+注意屏幕左下方角落的分级指示符，它显示了当前活动的分级。因为我们还没有发射，所以第一分级显示为活动的。我现在把你的控件临时锁定了，所以分级指示灯是发光的紫色。
 
 关于分级指示符要说一下，在发现分级设置有冲突，或者你改变计划，可以在这里编辑分级指示符的序列，而无须回到装配工厂调整。]]></string>
 <string id="505075"><![CDATA[navball]]></string>
@@ -9394,15 +9394,15 @@ RCS通常效率较低，但适合任何方向的较小速度的变化（而不�
 <string id="508219"><![CDATA[我们给这个火箭开绿灯之前做最后一件事。
 
 在分级堆栈里你可以看到有个降落伞符号。该符号显示当前降落伞在哪个分级激活 - 这个你已经知道 - 符号的背景以及前景（降落伞样子图标）会随着降落伞的状态改变颜色。降落伞不同状态颜色各不相同。]]></string>
-<string id="509063"><![CDATA[左边三个显示当前部署的风险等级：安全，有风险，危险，前景（降落伞）不分级三个都是白色。右边三个显示部署的状态：解除保险（阶段1，属于激活，未满足部署条件不会展开），部署展开（阶段2，完全部署），剪切/切断。熟悉降落伞指示符的颜色后我们继续。]]></string>
+<string id="509063"><![CDATA[左边三个显示当前部署的风险等级：安全，有风险，危险，前景（降落伞）不分级三个都是白色。右边三个显示部署的状态：解除保险（属于激活，未满足部署条件不会展开），部署展开（有两个阶段，预展开与完全展开），剪切/切断（降落后切断或人为剪断）。熟悉降落伞指示符的颜色后我们继续。]]></string>
 <string id="509563"><![CDATA[好吧，少废话！我解开飞行控制装置，准备发射。
 
 在任何时候，你可以按<color=]]></string>
 <string id="509795"><![CDATA[]</color> 暂停游戏。暂停菜单中可以选择重新飞行或结束本教程（选择 <color=]]></string>
 <string id="510019"><![CDATA[>结束场景</color>) 并返回到主菜单。
 
-For now get, yourself prepared and hit <color=]]></string>
-<string id="510219"><![CDATA[]</color> 随时准备发射！
+如果现在准备好了就按下 <color=]]></string>
+<string id="510219"><![CDATA[]</color> 发射升空！
 
 不要忘了我们的“小跳蚤”只有一个固体火箭发动机，所以没有油门控制 - 这就是为什么在这里我们不用查看节流阀。]]></string>
 <string id="510557"><![CDATA[shipLaunched]]></string>
@@ -9411,9 +9411,9 @@ For now get, yourself prepared and hit <color=]]></string>
 
 同时密切注意在飞行过程中的降落伞图标，切记不要在背景是红色的时候激活分级！
 
-我意识到一下让你学习这么多可能会记不住，所以如果你忘了什么可以随时按 <color=]]></string>
+我意识到一下让你学习太多可能会记不住按键，所以如果你忘了可以随时按 <color=]]></string>
 <string id="511233"><![CDATA[]</color> 然后单击<color=]]></string>
-<string id="511288"><![CDATA[>查看键位绑定</color> 看提醒。
+<string id="511288"><![CDATA[>查看键位绑定</color> 查看。
 
 你也可以看到右下角的船员是否正享受着旅行。
 
@@ -9422,15 +9422,15 @@ For now get, yourself prepared and hit <color=]]></string>
 <string id="511757"><![CDATA[部署降落伞]]></string>
 <string id="511798"><![CDATA[你的固体发动机燃料烧完了，当你通过远拱点（飞行轨道的最高点），以及速度足够低时，安全状态下再部署降落伞。
 
-现在就这样做，在你还没开始加速并打到地面之前！]]></string>
+现在就激活你的降落伞，在你还没开始加速并打到地面之前！]]></string>
 <string id="512274"><![CDATA[coastDown]]></string>
 <string id="512293"><![CDATA[降落享受]]></string>
-<string id="512328"><![CDATA[正在缓慢下降中，我们坐下来享受一下。]]></string>
-<string id="512413"><![CDATA[干得好，你活着飞完了你的第一次快速飞行！
+<string id="512328"><![CDATA[正在下降中，这个过程时间会有点长，我们坐下来享受一下悠闲的时光。]]></string>
+<string id="512413"><![CDATA[干得好，你活着飞完了你的第一次快速飞行任务！
 
-当你降落在Kerbin的地表或水面（不在本训练课程内），你可以用鼠标点击高度表（在向下滑动面板上）边上的回收按钮，回收部门的人会过去接你。
+当你降落在坎星的地表或水面（不在本训练课程内），你可以用鼠标点击高度表（在向下滑动面板上）边上的回收按钮，回收部门的人会过去接你。
 
-我也解锁了仓门，所以如果你想出去散步或游泳，你可以将鼠标悬停在宇航员肖像上，选择EVA（舱外活动）按钮，它们将打开仓门出散步。你这样做可以只是为了好玩或收集一些样本进行研究。
+我也解锁了舱门，所以如果你想出去散步或游泳，你可以将鼠标悬停在宇航员肖像上，选择EVA（舱外活动）按钮，它们将打开舱门出去。你这样做可以只是为了好玩或收集一些样本进行研究。
 
 今天的课程到此结束，如要退出课程 按 <color=]]></string>
 <string id="513635"><![CDATA[]</color> 打开暂停菜单，然后选择<color=]]></string>
@@ -9452,8 +9452,8 @@ For now get, yourself prepared and hit <color=]]></string>
 
 别难过，我会派人来清理它，你可以选择另一个时间再尝试一次。]]></string>
 <string id="515880"><![CDATA[chuteBurnBonusPage]]></string>
-<string id="515917"><![CDATA[Oh No! Your Chute is Gone!]]></string>
-<string id="515970"><![CDATA[You staged your chute while still going too fast and it ripped up. Afraid there really isn't much that can be done now, it's shredded to ribbons!]]></string>
+<string id="515917"><![CDATA[不好了！您的降落伞不见了！]]></string>
+<string id="515970"><![CDATA[打开降落伞速度太快了，过高的速度把它扯烂了。现在恐怕真的没有什么办法补救了，它已经分解成一条条的丝带了！]]></string>
 <string id="516262"><![CDATA[ChuteBurn]]></string>
 <string id="516281"><![CDATA[onFlightTutorial]]></string>
 <string id="516314"><![CDATA[FlightSuborbital]]></string>
@@ -9578,7 +9578,7 @@ SAS可以暂时激活（或暂时停用）按住 <color=]]></string>
 <string id="528495"><![CDATA[Reorient]]></string>
 <string id="528512"><![CDATA[]</color> 如果必要就暂停。
 
-当我们再次接近大气层的边缘，是时候重新调整指令仓准备好重新进入。我们只要指令舱和降落伞还有咕咕罐重新进入，但我们现在还不打算分离火箭;在现实的任务中最好保持你的上级，不到最后一刻，你永远不知道什么时候你可能需要它...
+当我们再次接近大气层的边缘，是时候重新调整指令舱准备好重新进入。我们只要指令舱和降落伞还有咕咕罐重新进入，但我们现在还不打算分离火箭;在现实的任务中最好保持你的上级，不到最后一刻，你永远不知道什么时候你可能需要它...
 
 不管怎么说，现在我们是从上至下进入，因为我们上升时是约70俯仰角度，我们很自然的在-70的俯仰角度重新再入。
 
@@ -9594,16 +9594,16 @@ SAS可以暂时激活（或暂时停用）按住 <color=]]></string>
 现阶段要丢弃不需要的零件和重量。]]></string>
 <string id="530721"><![CDATA[sasOff]]></string>
 <string id="530734"><![CDATA[气动稳定]]></string>
-<string id="530785"><![CDATA[指令仓再入中（靠近顶部会开始生产阻力）, 能靠空气动力独自维持正常稳定。
+<string id="530785"><![CDATA[指令舱再入中（靠近顶部会开始生产阻力）, 能靠空气动力独自维持正常稳定。
 
 因此，把S.A.S.关掉，利用空气为你工作。你一旦通过大气层，我们将进入下一阶段。]]></string>
 <string id="531361"><![CDATA[reentry]]></string>
 <string id="531376"><![CDATA[再入！]]></string>
 <string id="531393"><![CDATA[]</color> 如果必要请暂停。
 
-你现在重新进入Kerbin的大气层。请务必让所有手和脚收回舱内。我们不希望你身上的任何东西被烧伤！
+你现在重新进入坎星的大气层。请务必让所有手和脚收回舱内。我们不希望你身上的任何东西被烧伤！
 
-上次我们的教程中任何时间都能打开降落伞。我们这次要做的与上次有点不同。还记得在建造教程中是你设计了这个飞行器，设置中有一个高度和0.75个大气压的项目？这意味着降落伞将不会在你执行部署步骤就会打开，直到在Kerbin的0.75大气压和2000m左右的海拔高度才会打开。等飞行器慢下来才会安全的部署。
+上次我们的教程中任何时间都能打开降落伞。我们这次要做的与上次有点不同。还记得在建造教程中是你设计了这个飞行器，设置中有一个高度和0.75个大气压的项目？这意味着降落伞将不会在你执行部署步骤就会打开，直到在坎星的0.75大气压和2000m左右的海拔高度才会打开。等飞行器慢下来才会安全的部署。
 
 
 因此，让我们现在迈出勇敢第一步，利用你的智慧在合适的高度弹出它。
@@ -9647,7 +9647,7 @@ SAS可以暂时激活（或暂时停用）按住 <color=]]></string>
 
 别难过，我会派人来清理它，你可以选择另一个时间再尝试一次。]]></string>
 <string id="538543"><![CDATA[不好 ！你的降落伞不见了 ！]]></string>
-<string id="538596"><![CDATA[降落伞开得太快了，过高的速度把它扯烂了。
+<string id="538596"><![CDATA[打开降落伞速度太快了，过高的速度把它扯烂了。
 
 现在恐怕真的没有什么办法补救了，它已经分解成一条条的丝带了！]]></string>
 <string id="538890"><![CDATA[我看你已经找到了对接控制器。
@@ -9676,21 +9676,21 @@ This means aerodynamic forces acted to keep pushing you further away from your v
 
 如果你想看看你的轨迹，你可以切换到地图 (<color=]]></string>
 <string id="542642"><![CDATA[] </color> 键），看看你的预测路径。不过，别忘了再回到飞行模式！]]></string>
-<string id="542850"><![CDATA[Oops. Looks like you're not going to clear the atmosphere]]></string>
-<string id="542965"><![CDATA[ with enough margin.]]></string>
-<string id="543006"><![CDATA[. Press <color=]]></string>
-<string id="543037"><![CDATA[>Revert Flight</color> to try again.]]></string>
+<string id="542850"><![CDATA[哎呀。看起来你不打算通过大气]]></string>
+<string id="542965"><![CDATA[ 有足够的保证金。]]></string>
+<string id="543006"><![CDATA[。 按 <color=]]></string>
+<string id="543037"><![CDATA[>重新飞行</color> 再试一次。]]></string>
 <string id="543110"><![CDATA[FromMun]]></string>
-<string id="543125"><![CDATA[[Tutorial]: Could not find config node for FromMun tutorial!]]></string>
+<string id="543125"><![CDATA[[Tutorial]: 找不到往返Mun教程配置节点！]]></string>
 <string id="543246"><![CDATA[欢迎学习往返Mun的课程 ！
 
-在我们的上一节课中登陆这个飞行器。我希望你的飞行员出仓去伸展一下她们的双腿，看看周围;然后返回到仓内。之后将出发回到Kerbin ！
+在我们的上一节课中登陆这个飞行器。我希望你的飞行员出舱去伸展一下她们的双腿，看看周围;然后返回到舱内。之后将出发回到坎星 ！
 
-在这节课我会教你如何从Mun起飞到达一个稳定的轨道，然后如何从Mun轨道（或月亮）返回到母星。事实上，相同的技能也可以用于离开 Kerbin到达太阳系中其他行星那里。最后，我们会高速再入Kerbin。(隔热板︰ 需要 ！)
+在这节课我会教你如何从Mun起飞到达一个稳定的轨道，然后如何从Mun轨道（或月亮）返回到母星。事实上，相同的技能也可以用于离开 坎星到达太阳系中其他行星那里。最后，我们会高速再入坎星。(隔热板︰ 需要 ！)
 
 当你准备好了，我们可以查看飞行计划。]]></string>
-<string id="544476"><![CDATA[出仓徒步旅行]]></string>
-<string id="544505"><![CDATA[若要 Valentina 宇航员出仓活动 (EVA)，请单击她肖像上的 EVA 按钮。让她跳下飞行器尝试在mun 的重力下行走。玩够了就打开她的喷射背包飞回到指令仓。她可以靠近门把手后抓住然后返回到仓内。一旦你回到仓内，或者您都不想出去，请单击<color=]]></string>
+<string id="544476"><![CDATA[出舱徒步旅行]]></string>
+<string id="544505"><![CDATA[若要 Valentina 宇航员出舱活动 (EVA)，请单击她肖像上的 EVA 按钮。让她跳下飞行器尝试在mun 的重力下行走。玩够了就打开她的喷射背包飞回到指令舱。她可以靠近门把手后抓住然后返回到舱内。一旦你回到舱内，或者您都不想出去，请单击<color=]]></string>
 <string id="545407"><![CDATA[>下一步</color>.
 
 EVA的控制：
@@ -9704,18 +9704,18 @@ EVA的控制：
 <string id="545707"><![CDATA[]</color>  : 喷射背包向下
 		<color=]]></string>
 <string id="545778"><![CDATA[]</color>  : 喷射背包移动]]></string>
-<string id="545837"><![CDATA[好了，继续前进。回程飞行有三个不同的阶段：从Mun的表面升空到环绕轨道，加速提升轨道至Kerbin，以及Kerbin再入。一旦你已经完成了第一阶段，建立Mun 低轨道后，我们在来讨论后面的细节。
+<string id="545837"><![CDATA[好了，继续前进。回程飞行有三个不同的阶段：从Mun的表面升空到环绕轨道，加速提升轨道至坎星，以及坎星再入。一旦你已经完成了第一阶段，建立Mun 低轨道后，我们在来讨论后面的细节。
  
 现在，下面这些就是你要做的（在这个教程中我将添加一个目标标记，帮助您转向）：
 *向上推节流阀，然后立即俯仰调整飞船向船首线90度飞行（向东），跟随目标标记。
 *当你的远拱点到达50km上方时关闭节流阀。
 *在远拱点加速让飞船进入圆形轨道。
  
-你现在做的将比Kerbin入轨教程简单得多。Mun重力比Kerbin要低得多，所以你只需要火箭的一小段就完成发射到入轨的所有一切。记住，这不单单用于Mun，而我们也将用它回家。Mun的重力比起Kerbin的弱太多，再加上不受大气影响，这一小段火箭将会具备整个登陆 到 返回的能力。 ]]></string>
+你现在做的将比坎星入轨教程简单得多。Mun重力比坎星要低得多，所以你只需要火箭的一小段就完成发射到入轨的所有一切。记住，这不单单用于Mun，而我们也将用它回家。Mun的重力比起坎星的弱太多，再加上不受大气影响，这一小段火箭将会具备整个登陆 到 返回的能力。 ]]></string>
 <string id="548035"><![CDATA[我在你的指示器上设置了目标标记。当你准备好，节流阀推到最大（按<color=]]></string>
 <string id="548217"><![CDATA[]</color>) 并立即开始转向。由本教程开始时给出的方向偏航。
 
-你的推重比 （TWR） 对于Mun低引力来说是非常高的，再有就是没有大气，所以此次返回 Kerbin 不会发生什么的灾难性的事情。我们以40 m/s俯仰角度 6 度飞行 。一如既往，你可以使用 S.A.S. 的跟随目标模式。
+你的推重比 （TWR） 对于Mun低引力来说是非常高的，再有就是没有大气，所以此次返回 坎星 不会发生什么的灾难性的事情。我们以40 m/s俯仰角度 6 度飞行 。一如既往，你可以使用 S.A.S. 的跟随目标模式。
 
 所以加油上吧，并开始转向 ！]]></string>
 <string id="549271"><![CDATA[飞起来了！或者说，横着飞吧！
@@ -9744,33 +9744,33 @@ EVA的控制：
 <string id="551812"><![CDATA[要从月球环绕到其他天体（或从地球轨道到太阳轨道），你必须达到一个逃逸速度，这点很重要，你在轨道上这样做了不少了。你要创建正确轨道确保飞船能达到逃逸速度。
  
 切换到地图视图 (按<color=]]></string>
-<string id="552442"><![CDATA[]</color> 键）。缩放视图到足够远并旋转镜头，在视图上能显示三个对象 ——你的飞船、Mun和Kerbin 。请注意您在轨道上行进方向：从顶部上看你现在是绕Mun逆时针旋转。接下来观察Mun与Kerbin的轨道方向，与母星是相同的轨道，一个“顺行”旋转的轨道。
+<string id="552442"><![CDATA[]</color> 键）。缩放视图到足够远并旋转镜头，在视图上能显示三个对象 ——你的飞船、Mun和坎星 。请注意您在轨道上行进方向：从顶部上看你现在是绕Mun逆时针旋转。接下来观察Mun与坎星的轨道方向，与母星是相同的轨道，一个“顺行”旋转的轨道。
 
 我们将弹出对面行驶的Mun的方向，但我们将关于加速推进我们自己的身边Mun轨道，为了做到这一点。让我们来看看要如何做。]]></string>
 <string id="553730"><![CDATA[createReturn]]></string>
 <string id="553755"><![CDATA[创建返回节点]]></string>
 <string id="553800"><![CDATA[删除现有的节点，然后在当前Mun轨道的创建新节点。在哪都不要紧 ; 我们将利用这个节点离开Mun轨道。
 
-拖动节点上的顺行标记手柄，直到出现逃逸轨迹（这意味着你预计出了离开Mun路径）。现在拖动节点本身并观察Kerbin的近拱点变化。大概平行于Kerbin与Mun之间的轨道上你会找到最低的 Pe弹射向量，但朝着相反的方向。（如果 Kerbin Pe 消失在 Kerbin 的表面下，拖动逆行标记手柄，减少燃烧，直到你可以再次见到 Pe 。这会保障你的再入安全。）
+拖动节点上的顺行标记手柄，直到出现逃逸轨迹（这意味着你预计出了离开Mun路径）。现在拖动节点本身并观察坎星的近拱点变化。大概平行于坎星与Mun之间的轨道上你会找到最低的 Pe弹射向量，但朝着相反的方向。（如果 坎星 Pe 消失在 坎星 的表面下，拖动逆行标记手柄，减少燃烧，直到你可以再次见到 Pe 。这会保障你的再入安全。）
 
-现在，您需要创建一个弹射机动节点，尽管现是在Mun轨道顺行，弹射到Kerbin轨道就变成了逆行方向！您可以使用同样的原理用于从Kerbin到达其他行星，但你需要注意选择合理的“发射窗口”（一个术语，行星间旅行最有效率时间段）。
+现在，您需要创建一个弹射机动节点，尽管现是在Mun轨道顺行，弹射到坎星轨道就变成了逆行方向！您可以使用同样的原理用于从坎星到达其他行星，但你需要注意选择合理的“发射窗口”（一个术语，行星间旅行最有效率时间段）。
 
-设置好Kerbin 拱点 5km至32km之间，设好后点击下一步。 （您可能需要微调节点中顺向逆向机动，或微调移动节点本身）。]]></string>
+设置好坎星 拱点 5km至32km之间，设好后点击下一步。 （您可能需要微调节点中顺向逆向机动，或微调移动节点本身）。]]></string>
 <string id="556266"><![CDATA[burnReturn]]></string>
 <string id="556287"><![CDATA[弹出 ！]]></string>
 <string id="556300"><![CDATA[加速时间并到您已经创建的节点执行机动。一旦做完我们的飞船有了明确的飞行路径就移除节点。我们火箭科学家喜欢整洁，总是一点点都要收拾干净 ！
 
-如果跑过了头产生了轨道偏离，到达Kerbin的拱点低于 5 km或高于 32 km ，你需要在路径中在调整一次，以避免返回时可能发生的灾难性事件。机动节点可以帮助您做到这一点。
+如果跑过了头产生了轨道偏离，到达坎星的拱点低于 5 km或高于 32 km ，你需要在路径中在调整一次，以避免返回时可能发生的灾难性事件。机动节点可以帮助您做到这一点。
 
 一旦你的拱点在这些范围内，您可以清除剩余的机动节点，我们将继续。]]></string>
 <string id="557460"><![CDATA[warpToKerbin]]></string>
 <string id="557485"><![CDATA[漫长的回家路]]></string>
 <string id="557522"><![CDATA[恭喜！你在回家的路上。
  
-让我们加速时间，直到你在Kerbin附近。<color=]]></string>
-<string id="557712"><![CDATA[>点击</color> 出现在Kerbin轨道附近的拱点，并选择<color=]]></string>
+让我们加速时间，直到你在坎星附近。<color=]]></string>
+<string id="557712"><![CDATA[>点击</color> 出现在坎星轨道附近的拱点，并选择<color=]]></string>
 <string id="557924"><![CDATA[>时间加速至此</color>。您可以通过按下时间加速控件进行控制 <color=]]></string>
-<string id="558112"><![CDATA[]</color> 键，但千万记住，当你接近接近Kerbin的引力时就要减少时间加速;引力会加快你的飞船的速度！
+<string id="558112"><![CDATA[]</color> 键，但千万记住，当你接近接近坎星的引力时就要减少时间加速;引力会加快你的飞船的速度！
  
 高度低于120公里我们会提前告知。如果您使用自动时间加速，接近后您可能需要手动修改到5倍或10倍时间加速。（假设你的自动加速点高度在120公里结束）。]]></string>
 <string id="558876"><![CDATA[prepForReentry]]></string>
@@ -9778,11 +9778,11 @@ EVA的控制：
 <string id="558944"><![CDATA[就像我之前教你的，向东方逆行并稳定，然后打开SAS电源接着分离火箭，您就可以安全再入。
  
 做到这一点要快，因为你降得快！]]></string>
-<string id="559348"><![CDATA[请注意，这一次的返回指令仓带有隔热罩 ︰ 虽然没有这个隔热材料也勉强可以再入，但这是非常危险的。尝试直接从比Mun远的地方回来，你将会变成为一个脆皮动物 ！
+<string id="559348"><![CDATA[请注意，这一次的返回指令舱带有隔热罩 ︰ 虽然没有这个隔热材料也勉强可以再入，但这是非常危险的。尝试直接从比Mun远的地方回来，你将会变成为一个脆皮动物 ！
 
 这是一种替代方法，以避免再入时过度的热量将轨道飞行器和降落伞烧坏，使再入更温和更慢的速度重返大气层。当然，将需要大量的额外的燃料 — — 老实说，这个方式也是蛮好玩的。
 
-这艘船本身无法自行减速，由于隔热罩 （因为它的尺寸与挂载的指令仓齐平所以没有提供额外的阻力） 又附加一定重量。出于这个原因，你的飞行器另外多装了一个径向减速降落伞。一旦降落伞图标显示“安全” （没有红色或橙色的背景），你就可以部署它。
+这艘船本身无法自行减速，由于隔热罩 （因为它的尺寸与挂载的指令舱齐平所以没有提供额外的阻力） 又附加一定重量。出于这个原因，你的飞行器另外多装了一个径向减速降落伞。一旦降落伞图标显示“安全” （没有红色或橙色的背景），你就可以部署它。
 
 这种减速降落伞装置制动效果较弱，但能工作在更高的速度和海拔高度，比常规的慢点才能安全正常打开的降落伞更强大。所以一旦径向减速降落伞工作，我们将继续。]]></string>
 <string id="561794"><![CDATA[drogueDep]]></string>
@@ -9798,15 +9798,15 @@ EVA的控制：
 <string id="562853"><![CDATA[祝贺你 ！您已经成功地从Mun 返回 ！如果这不是模拟训练将会举行盛大欢迎游行。你可以去职业生涯或沙箱完成这个使命 ！
 
 当你准备好退出任务请选择结束场景。 做得很好 ！]]></string>
-<string id="563555"><![CDATA[Thats as far as I will be taking you today. We can catch up again in the Orbit 101 tutorial where I will show you about orbits and adjusting them.
+<string id="563555"><![CDATA[今天我就带你到这里了。我们可以在轨道1号教程里继续学习有关轨道调整的课程。
 
-If you want to fly solo for a bit you can also try bringing Valentina home. You will need to turn around 180 degrees and burn retrograde until your periapsis is less than 20km. Stage away the upper stage when you hit the atmosphere's edge, orient retrograde and reenter like I taught you in the Flight Basics tutorial.
+如果你想要继续飞，你也可以尝试带Valentina回家。您只要将飞船调转 180 度逆行加速，直到轨道近拱点降到 20km以下，重新再入就像在飞行基础教程里教的那样操作就可以了。
 
-Or simply choose End Scenario from the Pause menu and I'll see you later.
+你也可以从暂停菜单中选择结束场景结束教程，下一节课再见。
 
 ]]></string>
-<string id="564643"><![CDATA[Aw, shucks, something went terribly wrong here, you might want to try to stay alive when on an actual mission. 
-Don't feel bad, you can try again another time.]]></string>
+<string id="564643"><![CDATA[噢，糟糕，在这里发生了可怕的错误，实际任务中你可能想尽量活着。
+别难过，我会派人来清理它，你可以选择另一个时间再尝试一次。]]></string>
 <string id="564963"><![CDATA[onDeath]]></string>
 <string id="564978"><![CDATA[Current Apoapsis: ]]></string>
 <string id="565015"><![CDATA[Current Terrain Alt: ]]></string>
@@ -9814,68 +9814,68 @@ Don't feel bad, you can try again another time.]]></string>
 <string id="565109"><![CDATA[ m/s]]></string>
 <string id="565118"><![CDATA[radialDrogue]]></string>
 <string id="565143"><![CDATA[MunDescent]]></string>
-<string id="565164"><![CDATA[[Tutorial]: Could not find config node for MunDescent tutorial!]]></string>
-<string id="565291"><![CDATA[Landing on the Mun]]></string>
-<string id="565328"><![CDATA[Welcome to To The Mun Part 2! In this tutorial you're going to land this vessel on the Mun.
+<string id="565164"><![CDATA[[Tutorial]: 找不到 Mun降落 教程配置节点 ！]]></string>
+<string id="565291"><![CDATA[降落在Mun]]></string>
+<string id="565328"><![CDATA[欢迎到奔月教程的第 2 部分 ！在本教程中，你要将飞船降落在Mun地表上。
 
-In To The Mun Part 1, you brought this vessel, along with its transfer stage, to low lunar orbit. Between the tutorials, that transfer stage was decoupled, so now you're down to just the land-and-return stage.
+在奔月的第 1 部分教程你已经将飞船的轨道转移到了近月轨道。用于转移轨道的分级已经分离，所以现在你只剩下降落与返回用的分级。
 
-When you're ready to begin, we'll review the flight plan.]]></string>
-<string id="566052"><![CDATA[Your flight plan to get to the surface safely will be as follows:
-	* Execute a maneuver at low throttle.
-	* Warp to the new periapsis.
-	* Burn retrograde at medium throttle, reducing speed and altitude, until you are only 1.5km above the surface.
-	* Descend at a measured pace (1m/s of speed per 10m of altitude remaining).
-	* Land softly on the Mun's surface!
+准备开始前，我们在回顾一下飞行计划。]]></string>
+<string id="566052"><![CDATA[你安全降落的飞行计划如下：
+	* 用低节流阀状态执行机动。
+	* 向新的近拱点进行时间加速。
+	* 用中等节流阀逆行，降低速度和高度，直到你距离地表仅1.5km。
+	* 保持适度的下降速度（海拔高度剩余10米左右将速度降至1m/S）。
+	* 轻轻降落在Mun的地面上！
 
-You'll notice that I've set up a maneuver node for you. This will be your descent orbit insertion burn; it's a burn that will insert you into a descent orbit that almost, but not quite, touches the Mun's surface.]]></string>
+你会注意到我已经为您设置了一个机动节点。等于在你的轨道上嵌入一个下降点;它并不是一个完全触及Mun表面的下降轨道。]]></string>
 <string id="567202"><![CDATA[burnDOI]]></string>
-<string id="567217"><![CDATA[DOI Burn]]></string>
-<string id="567234"><![CDATA[Go to the map view (press <color=]]></string>
-<string id="567301"><![CDATA[]</color>) and warp to the maneuver node as I've taught you. When its "Time to" hits 0, then execute the burn. When done, remove the node.
+<string id="567217"><![CDATA[DOI 燃烧]]></string>
+<string id="567234"><![CDATA[进入地图视图（按<color=]]></string>
+<string id="567301"><![CDATA[]</color>) 进行时间加速到机动节点，我教过你的。然后打开节流阀执行机动，让“时间”到达0。当完成后，删除该节点。
 
-Do this at low throttle so you have better control, since the burn would only take a single second at full throttle!]]></string>
+用低节流阀来做这个机动，这样你能更好的控制，因为节流阀全开的话时间只需要一两秒 ！]]></string>
 <string id="567815"><![CDATA[refineDO]]></string>
-<string id="567832"><![CDATA[Fine - Tune Periapsis]]></string>
-<string id="567875"><![CDATA[Make sure your periapsis is now set 6km. (You might need to go back to map view for this.)
+<string id="567832"><![CDATA[精细  - 调整近拱点]]></string>
+<string id="567875"><![CDATA[设置近拱点确保在6km。 （您可能需要回到地图视图）。
 
-If it's not, adjust it as I've taught you by making very fine burns, being careful to throttle up only very slightly so as not to over-do things. If you can't make fine enough corrections burning prograde and retrograde, try burning radial in/out, or even normal/antinormal.]]></string>
+如果不是，调整它，我已经教过你如何精确调整，调小你的节流阀，以免做得太过头了。如果你不能用顺行和逆行进行精确调整，可以试试径向的 向心/离心 方向调整，甚至是常态/反常态。]]></string>
 <string id="568609"><![CDATA[warpPe]]></string>
-<string id="568622"><![CDATA[Warp to Periapsis]]></string>
-<string id="568657"><![CDATA[Now we're going to warp to this new, low periapsis.
+<string id="568622"><![CDATA[加速时间到近拱点]]></string>
+<string id="568657"><![CDATA[现在我们要加速到这个新的低拱点。
 
-Click <color=]]></string>
-<string id="568791"><![CDATA[>Next</color> when ready!]]></string>
+点击<color=]]></string>
+<string id="568791"><![CDATA[>下一步</color> 开始！]]></string>
 <string id="568842"><![CDATA[warpingPe]]></string>
-<string id="568861"><![CDATA[Warping...]]></string>
-<string id="568882"><![CDATA[Hang tight and get ready to deploy your landing gear and start your braking burn!
+<string id="568861"><![CDATA[时间加速...]]></string>
+<string id="568882"><![CDATA[请耐心等待，准备部署起落架并开始制动燃烧！
 
-You'll be burning at 1/3 throttle (see the marker on the throttle gauge). This is because you want to come in gently and not kill your velocity too soon. If you kill all your speed now, you'll just start falling and pick up more speed again, which you'll have to burn more fuel to re-cancel out. 
+您将节流阀调到1/3燃烧（见油门仪表标志）。我们要轻轻地减速进入，而不要过早抵消你的速度。如果你现在抵消所有的速度，你就会开始下跌，要再次回升到更快的速度，你就必须燃烧更多的燃料。
 
-By the way, this path is a 'reverse gravity turn', similar to the one we flew on ascent in the Go For Orbit tutorial. Except, you know, reversed. 
+顺便说一句，这个路径就是“反向重力转弯”，与上升轨道教程里的类似。除非，你知道，逆转。
 
-Anyway, I'm going to enable the target indicator to assist (like we did in the Go For Orbit tutorial). Follow it during the braking burn. If your descent speed gets too high, we'll move to the next step early.]]></string>
+无论如何，我要启用目标指示器提供协助（正如我们上升轨道教程里的那样）。按照它来制动燃烧。如果你的下降速度过高，我们会及早转移到下一个步骤。]]></string>
 <string id="570360"><![CDATA[retroBraking]]></string>
-<string id="570385"><![CDATA[Braking Burn]]></string>
-<string id="570410"><![CDATA[Ok, we are getting close now. Hit <color=]]></string>
-<string id="570493"><![CDATA[]</color> to deploy your landing gear, then throttle up to 1/3 (if you're not there already) and start burning at the target marker! Remember, you can use S.A.S. <color=]]></string>
-<string id="570833"><![CDATA[>Target</color> mode to point yourself at the target if you need help.
+<string id="570385"><![CDATA[制动燃烧]]></string>
+<string id="570410"><![CDATA[好了，我们现在越来越接近。 点击<color=]]></string>
+<string id="570493"><![CDATA[]</color> 部署您的起落架，把节流阀调到1/3（如果你没有的话），并开始向目标标记燃烧！记住，你可以使用S.A.S.的<color=]]></string>
+<string id="570833"><![CDATA[>目标模式</color> 指向目标来帮助你。
 
-Don't let your vertical speed pass -100m/s, but also don't let it ever go positive, or you'll be wasting fuel by climbing instead of descending.
+不要让你的垂直速度突破-100 m/s，但也不要让它变成正数，这样你会变成爬升而不是下降只会浪费燃料。
 
-Once you reach only 1.5km up (or earlier if you're descending too quickly) we'll move on. Note: Don't forget that the altimeter up top shows altitude above sea level, not the terrain under you. ]]></string>
+一旦你高度达到仅有 1.5 公里 （如果你降得很快就不用等太久） 我们将会继续。注意 ︰ 别忘了顶上的高度计显示的是海拔高度，不是地面高度。]]></string>
 <string id="571659"><![CDATA[finalDescent]]></string>
-<string id="571684"><![CDATA[Final Descent Part 1]]></string>
-<string id="571725"><![CDATA[Almost there!Now you're going to carefully lower your velocity down to zero as you descend. Keep the descent rate equal to your height divided by 10, and keep a look out for a nice place to land!]]></string>
+<string id="571684"><![CDATA[最终下降 部分1]]></string>
+<string id="571725"><![CDATA[即将完成！现在你要仔细地降低你的速度直到零。你下降时要保持下降速率，等于现在的高度在除以10，并确保能在一个看上去比较好的地方降落！]]></string>
 <string id="572117"><![CDATA[softLanding]]></string>
-<string id="572140"><![CDATA[Final Descent Part 2]]></string>
-<string id="572181"><![CDATA[You're very close to the surface now! Slow down to only 5m/s (even slower when you can see your shadow) and land softly on the surface of another world!
+<string id="572140"><![CDATA[最终下降 部分2]]></string>
+<string id="572181"><![CDATA[你现在很接近的地面！慢下来只有5m/s（更慢的时候可以看到你的影子），并轻轻地降落在另一个世界的地面上！
 
-To make fine throttle adjustments easier, right-click on your engine and lower the thrust limiter down to 50 or so. That will make 100% on your throttle gauge only 50% throttle for the engine.]]></string>
-<string id="572875"><![CDATA[Landed!]]></string>
-<string id="572890"><![CDATA[Congratulations! You've landed on the suface of the Mun!
+为了使节流阀更容易调整，在你的发动机上右键单击并降低推力限制下调到50左右。这样能使你的节流阀即使调到100％时发动机也只有50％的推力。]]></string>
+<string id="572875"><![CDATA[登陆！]]></string>
+<string id="572890"><![CDATA[恭喜！你已经成功登陆到了Mun的表面！
 
-That's one small step for Val, one giant leap for Kerbalkind.]]></string>
+这是Val的一小步，坎星人的一大步。]]></string>
 <string id="573130"><![CDATA[Altitude above terrain: ]]></string>
 <string id="573179"><![CDATA[ m
 Vertical Speed: ]]></string>
@@ -9991,30 +9991,30 @@ If your periapsis is hiding under the Mun's surface, that means you will crash u
 并且已经准备好学习如何在太空中移动了.如果你还没有准备好,好吧,我希望你知道你在做什么.     让我们开始吧.]]></string>
 <string id="593577"><![CDATA[whatsAnOrbit]]></string>
 <string id="593602"><![CDATA[环绕轨道 101 - 基础]]></string>
-<string id="593645"><![CDATA[Orbiting is really nothing more than free-falling. The only thing is that as you fall, you're moving so fast forward that you actually miss the ground. Because up here there is no atmosphere to slow you down at this height, you will continue to free-fall endlessly around the planet, without having to use your engines.
+<string id="593645"><![CDATA[沿轨道运行也只不过是处于自由落体状态。只是你下跌时移动速度太快，实际上又错过了地面。因为在这里没有大气让你慢下来，在这样的高度，你将一直无休止地在轨道上自由落体而无需使用你的引擎。
 
-We are currently on a low, almost circular orbit around Kerbin. To get a better view of your situation, press the <color=]]></string>
-<string id="594531"><![CDATA[]</color> key to go into the Map View.]]></string>
+我们目前在坎星的几乎是圆形的低轨道上。若要获得更好的观察视野，请按 <color=]]></string>
+<string id="594531"><![CDATA[]</color> 键进入地图视图。]]></string>
 <string id="594608"><![CDATA[环绕轨道 101 - 地图视角]]></string>
-<string id="594663"><![CDATA[This is the map view. Here, you can see your ship's position and its current trajectory around the planet.
+<string id="594663"><![CDATA[这是地图视图。在这里，你可以看到你的飞船的位置和目前环绕行星的轨道。
 
-Hold right-click and move the mouse to look around and see your orbit from various angles.
+按住右键并移动鼠标来环顾四周，从不同角度看看轨道。
 
-Also, hovering over the icons on the map will display more information about them (and by right-clicking the node you will pin the info).
+此外，悬停在地图上的图标会显示有关他们（通过右键单击节点的信息）的更多信息。
 
-Close the map when you're ready (press the <color=]]></string>
-<string id="595443"><![CDATA[]</color> key again), so we can proceed.]]></string>
+当你准备好关闭地图（再次按<color=]]></string>
+<string id="595443"><![CDATA[]</color> 键），这后我们可以继续进行。]]></string>
 <string id="595524"><![CDATA[环绕轨道 101 - 姿态与 SAS]]></string>
-<string id="595587"><![CDATA[Good. Let's get practical now. I trust you already know your basic spacecraft controls...
+<string id="595587"><![CDATA[好。我们现在回到主题内容。我相信你已经知道基本的航天器控制......
 
-Up here, they're very much the same, except that the lack of an atmosphere makes the ship behave quite a bit differently. Because there is no drag slowing you down, for every input you apply, you'll have to apply an opposite one to come to a stop again.
+在这里，他们很相像，只是缺少了大气使飞船的行为有点不同。因为没有阻力让你的速度慢下来，所以每次投入的操作，你必须用另一个相对的操作来阻止。
 
-I'm going to remotely nudge your attitude controls a little. Try to get the ship back under control afterwards.
+我将远程轻轻的推一下你的飞船。你尝试着控制住它。
 
-If you find yourself totally out of control, hit <color=]]></string>
-<string id="596619"><![CDATA[]</color> to toggle the S.A.S. on, and it will automatically cancel any remaining rotations.
+如果你发现已经完全失去控制，按 <color=]]></string>
+<string id="596619"><![CDATA[]</color> 来打开S.A.S.，它会自动抵消剩余的旋转。
 
-Are you ready?]]></string>
+准备好了吗？]]></string>
 <string id="596837"><![CDATA[完成的不错！
 
 控制高度是驾驶宇宙飞船的重要技巧,掌握了它对成为专业指令长的帮助很大.
@@ -10027,155 +10027,155 @@ Are you ready?]]></string>
  下面就是它们的涵义:]]></string>
 <string id="597641"><![CDATA[顺行和逆行向量：它们指向速度向量相关分别指向飞船的前进和后退方向.]]></string>
 <string id="597955"><![CDATA[向心和离心向量: 向心指向当前环绕天体,离心相反.]]></string>
-<string id="598131"><![CDATA[常态和反常向量:垂直于轨道平面,指向轨道平面相对的的“上方”和“下方”]]></string>
+<string id="598131"><![CDATA[常态和反态常向量:垂直于轨道平面,指向轨道平面相对的的“上方”和“下方”]]></string>
 <string id="598453"><![CDATA[waitForMap1]]></string>
 <string id="598476"><![CDATA[好的！现在来打开星图
   玩一点更高大上的东西.
   ]]></string>
 <string id="598626"><![CDATA[raiseAp1]]></string>
 <string id="598643"><![CDATA[环绕轨道 - 基本机动]]></string>
-<string id="598712"><![CDATA[What we want to do now is go through some of the basic maneuvers you'll need to know. Let's try raising your Apoapsis first.
+<string id="598712"><![CDATA[我们现在要做的将能让你了解什么是基本机动飞行。让我们试着提高你的远拱点。
 
-The Apoapsis is the highest point in an orbit, and it's indicated by the node marked [Ap].
+远拱节点就是轨道的最高点，并且它用标有[AP]的节点表示。
 
-The best place to raise your apoapsis is at the Periapsis [Pe] node, which is the lowest point of your orbit. If you hover the mouse over Periapsis node, you'll see that we are going to reach it in a few minutes. Once there, we will face prograde and burn.
+提高你的远拱点最佳位置是在近拱[PE]节点，这是你的轨道的最低点。如果你将鼠标悬停在近拱节点上，你会看到我们将在几分钟内到达哪里。一旦到达那里，我们将顺行燃烧。
 
-Press <color=]]></string>
-<string id="599692"><![CDATA[]</color> to speed up time a little, so we can get there faster.]]></string>
+按<color=]]></string>
+<string id="599692"><![CDATA[]</color> 加快一点点时间，让我们可以更快地到达那里。]]></string>
 <string id="599822"><![CDATA[waitForPeriapsis1]]></string>
 <string id="599857"><![CDATA[环绕轨道 - 时间加速]]></string>
-<string id="599906"><![CDATA[好,现在时间正在以 ]]></string>
-<string id="599955"><![CDATA[ times faster than normal, so we should be there in a few moments.
+<string id="599906"><![CDATA[好,现在的时间速度比正常快 ]]></string>
+<string id="599955"><![CDATA[ 倍，所以我们稍等片刻就能到达那里。
 
-You can control time warp with the <color=]]></string>
-<string id="600177"><![CDATA[]</color> keys, or click the arrows on the panel at the top left of the screen.
+你可以控制时间加速的倍率 <color=]]></string>
+<string id="600177"><![CDATA[]</color> 键，或点击在屏幕左上角的面板上的箭头。
 
-This time, I'll put us back to normal time about a minute before we reach periapsis, and start lowering the rate even earlier.
+这一次，我会在到达拱点约一分钟的时间前恢复到正常的时间速度，我们早点在到达拱点前降低速度。
 
-Outside of training, though, you'll have to warp time down to 1x yourself, so don't go too fast or you might miss your mark. 
+不过训练之外，你必须自己将时间加速缩短到1x，不要走得太快，你可能会错过你的目标。
 
-You can also click on any given point on your orbit and click the Warp Here option. The ship's systems will automatically warp time as fast as possible to get you there.]]></string>
+您也可以点击轨道上的任意一点，选择“加速至下一个规划的变轨节点”选项。系统会自动加速尽可能快地让你到达那里。]]></string>
 <string id="601189"><![CDATA[raiseAp2]]></string>
-<string id="601206"><![CDATA[Ok, we are a few seconds away from periapsis now. Time to turn prograde and do our burn.
+<string id="601206"><![CDATA[好吧，我们还有几秒钟就到近拱点了。现在转到顺行并开始执行机动。
 
-However, instead of closing the map, let's just bring up the navball here, so we can see what's happening to our orbit as we accelerate.
+但是，不要关掉地图，在这里我们只弹出navball（导航球），这样我们可以看到加速机动时轨道发生的变化。
 
-To bring up the navball on the map, click the little tab on the bottom-center of the screen, or press the <color=]]></string>
-<string id="601890"><![CDATA[]</color> key.
+要打开地图上的navball，点击屏幕底部中央的小标签，或按<color=]]></string>
+<string id="601890"><![CDATA[]</color> 键.
 
-Oh, and if you activate your S.A.S. with <color=]]></string>
-<string id="602020"><![CDATA[]</color> you will see shortcuts to the different autopiloting vectors next to the navball. If you don't feel like maneuvering yourself right now, just click the <color=]]></string>
-<string id="602360"><![CDATA[>Orbit Prograde</color> icon.]]></string>
+哦，如果你激活 s.a.s.用<color=]]></string>
+<string id="602020"><![CDATA[]</color> 你会看到navball左边有几个飞船向量快捷方式。如果你不喜欢现在的机动，只需点击 <color=]]></string>
+<string id="602360"><![CDATA[>顺行轨道</color> 图标。]]></string>
 <string id="602419"><![CDATA[raiseAp3a]]></string>
-<string id="602438"><![CDATA[Good. Time to do our burn. Turn the ship to face the Prograde Vector now.
+<string id="602438"><![CDATA[好。飞船面对顺行向量后执行我们的机动。
 
-Remember that you can just activate the Stability Assist (<color=]]></string>
-<string id="602720"><![CDATA[]</color> key) and click the Orbit Prograde button next to the NavBall and the ships Pilot (or Probe Core) will do it for you.]]></string>
-<string id="602974"><![CDATA[记住这个图标才是顺行向量:]]></string>
+请记住，你任何时候都可以激活稳定辅助系统（<color=]]></string>
+<string id="602720"><![CDATA[]</color> 键) 然后点击NavBall旁边的向量按钮，飞行员（或探测器核心）将会为帮你操作。]]></string>
+<string id="602974"><![CDATA[顺行向量长这样:]]></string>
 <string id="603067"><![CDATA[在加速前确认船首已经对准顺行向量]]></string>
 <string id="603192"><![CDATA[raiseAp3b]]></string>
-<string id="603211"><![CDATA[Ok, we are now turned prograde. Check SAS is engaged for you to keep her steady. Press the <color=]]></string>
-<string id="603409"><![CDATA[]</color> key to accelerate at full throttle.]]></string>
+<string id="603211"><![CDATA[好了，我们现在处于顺行。检查 SAS 正在帮你稳住她。按下<color=]]></string>
+<string id="603409"><![CDATA[]</color> 重点是以最高速度加速。]]></string>
 <string id="603500"><![CDATA[raiseAp4]]></string>
-<string id="603517"><![CDATA[Notice how the opposite side of your orbit starts to rise as you accelerate?
+<string id="603517"><![CDATA[请注意加速时您的轨道的另一侧是如何开始上升的？
 
-Keep thrusting prograde until your apoapsis altitude reaches about 800,000m.]]></string>
+保持助推顺行直到你的远拱点海拔达到约80万米。]]></string>
 <string id="603827"><![CDATA[raiseAp5]]></string>
-<string id="603844"><![CDATA[Ok, cut the throttle now!
+<string id="603844"><![CDATA[好的现在降低节流阀！
 
-Hold <color=]]></string>
-<string id="603923"><![CDATA[]</color> or hit <color=]]></string>
-<string id="603972"><![CDATA[]</color> to cut throttle immediately.]]></string>
+保持 <color=]]></string>
+<string id="603923"><![CDATA[]</color> 或按 <color=]]></string>
+<string id="603972"><![CDATA[]</color> 立即减少节流阀。]]></string>
 <string id="604049"><![CDATA[raiseAp6]]></string>
-<string id="604066"><![CDATA[Well Done!
+<string id="604066"><![CDATA[做得好！
 
-This is how you raise your Apoapsis node.
+这就是如何提高你的远拱点节点。
 
-With orbital maneuvers, pretty much everything you do will affect the opposite side of your orbit. So to raise the highest point (Apoapsis), you thrust forward (or prograde) at the lowest point (Periapsis). Similarly, to raise your Periapsis, you thrust prograde at Apoapsis. We're on our way to the Apoapsis now, so let's do just that.
+随着轨道机动，你现在做的一切都会影响到轨道的另一侧。因此，要提高最高点（远拱点），则在最低点（拱点）向前推（顺行）。同样，要提高你的近拱点，就去远拱点前推顺行。让我们现在就到远拱点实施这个计划吧。
 
-Press <color=]]></string>
-<string id="604880"><![CDATA[>Next</color> when ready, and I'll warp time to get us there quickly.]]></string>
+当准备好，按 <color=]]></string>
+<string id="604880"><![CDATA[>下一步</color> 我会扭曲时间让我们快速到达那里。]]></string>
 <string id="605020"><![CDATA[waitForApoapsis1]]></string>
-<string id="605053"><![CDATA[Ok, we're on our way to the apoapsis node now. Notice how your ship loses speed as we rise. That's because we're climbing away from the planet, so we lose speed as we go higher, just like a ball does when thrown into the air back on Kerbin. 
+<string id="605053"><![CDATA[很好，我们在向远拱点节点的途中了。我们的高度正在上升，请注意你的飞船也在失去速度。这是因为我们相对星球是在攀升，就像抛向空中又回到坎星的一个球一样，所以我们在慢慢失去速度，因为我们会飞得更高。
 
-The higher you are, the slower your orbit will be. Notice how the Mun's orbital speed is around 540m/s (you can see this by hovering over the Mun's marker), while yours is far higher? That's because our orbit is so much lower than that of the Mun. 
+你越高，轨道速度会越慢。注意Mun的围绕轨道速度是540m/s（你可以将鼠标悬停在Mun的标记看到），比你则要高很多，这是因为我们比Mun的轨道的低。
 
-When we reach apoapsis, we will burn prograde again, to raise the periapsis node and circularize our orbit.]]></string>
+当我们到达远拱点，我们将再次燃烧顺行，提高近拱点节点，我们圆形化轨道。]]></string>
 <string id="606255"><![CDATA[raisePe1]]></string>
 <string id="606272"><![CDATA[环绕轨道 101 - 抬高近拱点]]></string>
-<string id="606333"><![CDATA[Ok, here we are. Same as before: turn your ship to face prograde.
+<string id="606333"><![CDATA[好吧，在这里。和以前一样：把你的飞船面对顺行。
 
-Mind that we are probably facing the other way right now, so the prograde marker might not be visible at first. But you can find it easily because it's on the opposite side from the retrograde marker. 
+请记住，我们可能会面临另一种可能，导航球上没有看到顺行标记。你可以在逆行标记的对面很容易地找到它。
 
-Once you're facing the right direction, fire up that engine and watch the periapsis rise.]]></string>
+一旦你面对正确的方向，启动引擎看近拱点上升。]]></string>
 <string id="607053"><![CDATA[raisePe2]]></string>
-<string id="607070"><![CDATA[Keep burning prograde until the orbit is nearly circular. Eccentricity will be 0 when it's perfectly circular, so keep an eye on that (Eccentricity measures how elliptical your orbit is; 0 means the orbit is circular).]]></string>
+<string id="607070"><![CDATA[保持燃烧顺行，直到轨道接近圆形。偏心为0时，它的完美的圆形。（偏心测量值越大轨道就呈椭圆形;0表示轨道是圆形的）。]]></string>
 <string id="607508"><![CDATA[raisePe3]]></string>
-<string id="607525"><![CDATA[Nicely done!
+<string id="607525"><![CDATA[做得很好！
 
-This is how you change the size of your orbit. This maneuver should come in handy in many situations.
+这就是如何改变你的轨道的大小。这个动作应该在许多情况下能派上用场。
 
-Next, we'll look into changing your orbital inclination.
+下一步，我们将考虑改变你的轨道倾角。
 
-Press <color=]]></string>
-<string id="607903"><![CDATA[>Next</color> when ready to proceed.]]></string>
+当准备好按 <color=]]></string>
+<string id="607903"><![CDATA[>下一步</color> 继续。]]></string>
 <string id="607976"><![CDATA[incChange1]]></string>
 <string id="607997"><![CDATA[环绕轨道 101 - 轨道倾角]]></string>
-<string id="608050"><![CDATA[Your orbital inclination is the angle between your orbit and Kerbin's equator. If you've managed to maintain a reasonable amount of control so far, we should still be in a nearly 0° inclination orbit. That is, even though we've changed the altitude of our orbit, it still has the same inclination as before.
+<string id="608050"><![CDATA[轨道倾角指的是你的轨道和坎星的赤道之间的角度。如果你一直保持合理的控制，到目前为止，我们仍应在接近 0 ° 倾角的轨道。也就是说，即使我们已经改变了我们的轨道高度，它和以前一样仍然具有相同的倾向。
 
-Changing inclination is done by thrusting at a 90 degree angle to your prograde vector, but without changing your pitch relative to the surface.
+变更倾角是通过在一个90度角的顺行向量助推完成的，所以相对于地面你没有改变。
 
-On our present, nearly equatorial orbit, prograde is due east. That means to increase our inclination, so that our orbit takes us into higher latitudes, we have to burn towards the normal direction.]]></string>
+我们现在位于赤道轨道上，向正东顺行。这意味着增加我们的倾角，所以我们的轨道将我们带入更高的纬度，我们必须朝着正常的方向燃烧。]]></string>
 <string id="609358"><![CDATA[NormalVectors]]></string>
-<string id="609385"><![CDATA[Orbiting 101 - Normal Vectors]]></string>
-<string id="609444"><![CDATA[If all that I just said made your head spin, the navball once again comes to your rescue. In this case, you will need to use the normal vector to change your orbital inclination. 
+<string id="609385"><![CDATA[环绕轨道 101 - 常态向量]]></string>
+<string id="609444"><![CDATA[如果我刚才说的让你头晕，navball（导航球）再一次拯救你。在这种情况下，你将需要使用常态向量来改变你的轨道倾角。
 
-Let's try that now; turn the ship to the normal vector's direction and open the throttle.]]></string>
-<string id="609986"><![CDATA[Normal Vector:]]></string>
+现在我们尝试一下;把飞船转到常态向量的方向，打开节流阀。]]></string>
+<string id="609986"><![CDATA[常态向量长这样:]]></string>
 <string id="610015"><![CDATA[incChange2]]></string>
-<string id="610036"><![CDATA[Notice how as you burn north, your orbit starts to tilt up on one side, but the periapsis and apoapsis nodes remain mostly the same? 
+<string id="610036"><![CDATA[注意你开始燃烧时你的轨道就会倾向一侧，远拱点和近拱节点是不是保持不变？
 
-That is because we are accelerating on a completely new direction, so this maneuver doesn't add or take away any energy from the orbit, as long as we are careful to continue facing normal during the burn.
+这是因为我们正在往一个新的方向加速，所以这个动作并不添加或带走任何能量，只要我们小心保持常态向量方向燃烧。
 
-Keep accelerating towards the normal until your inclination is about 10°.]]></string>
+保持向常态向量加速，直到你的轨道倾角是 10 ° 左右。]]></string>
 <string id="610866"><![CDATA[incChange3]]></string>
-<string id="610887"><![CDATA[Good! This is how you change your orbital inclination.
+<string id="610887"><![CDATA[好 ！这就是如何改变你的轨道倾角。
 
-For these maneuvers, it's always better to do it in the slowest parts of the orbit so you don't have to spend as much delta-V to turn your orbit around. That also means inclination changes on larger orbits, such as we are on now, take less fuel than the same inclination change on a lower orbit.
+对于这些机动，最好是在轨道速度最慢的部分来执行，这样你就不必花太多的delta-V 来扭转你的轨道。这也意味着在更大的轨道倾角的变化，比如我们现在，相同倾角变化比在一个较低的轨道上用更少的燃料。
 
-Also, keep in mind that changing inclination doesn't necessarily mean accelerating to the north or south. It means accelerating at right angles to your prograde vector, which on our nearly equatorial orbit, also happened to be towards the north.
+此外，请记住，改变倾角并不一定意味着加速向北或南。则表示相对轨道成直角的顺行向量，只是我们在赤道轨道附近，所以就向北直角加速。
 
-Next, let's look into the last essential maneuver you'll need to learn: lowering our orbit.]]></string>
+接下来，让我们再看你需要学习的最后一个重要机动动作 ︰ 降低我们的轨道。]]></string>
 <string id="612271"><![CDATA[lowerPe1]]></string>
 <string id="612288"><![CDATA[环绕轨道 101 - 降低近拱点]]></string>
-<string id="612349"><![CDATA[As you can imagine, lowering your orbit's altitude is very much like raising it, only in reverse.
+<string id="612349"><![CDATA[你可以想象，降低你的轨道高度非常像提高它，只是反过来。
 
-Because there's no air up here, we can use our main engines to decelerate as well as accelerate, because the ship's orientation will not cause problems with airflow and flying backwards is easy as flying forwards.
+因为这里没有大气，我们可以使用我们引擎减速及加速，因为此时飞船的方向不会导致气流问题，倒着向前飞行是易如反掌的事情。
 
-Also, since our orbit is nearly circular, we can just turn retrograde and do our burn at any time now, so let's get to it.
+此外，由于我们的轨道接近圆形，我们只需转向逆行燃烧，所以让我们动起来。
 
-Turn toward the retrograde vector and start that engine up again.]]></string>
-<string id="613357"><![CDATA[逆行向量是这样的:]]></string>
+转向到逆行向量并再次启动引擎。]]></string>
+<string id="613357"><![CDATA[逆行向量长这样:]]></string>
 <string id="613394"><![CDATA[lowerPe2]]></string>
-<string id="613411"><![CDATA[Keep burning retrograde until the periapsis altitude is around 20,000m.
+<string id="613411"><![CDATA[保持逆行燃烧，直到近拱点高度约为2万米。
 
-Try getting it as close as possible this time. If you overshoot and make it too low, turn prograde and accelerate a little to bring it back up. For precision, remember that you can fine tune your throttle using the <color=]]></string>
-<string id="614003"><![CDATA[]</color> keys.]]></string>
-<string id="614034"><![CDATA[That's it! You're now on your way back.
+尝试尽可能接近这个。如果你冲过头太低了，转顺行并加速一点点调整回来。关于精确，记住，你可以使用节流阀微调<color=]]></string>
+<string id="614003"><![CDATA[]</color> 键。]]></string>
+<string id="614034"><![CDATA[就是这个 ！你现在回来的路上。
 
-20,000m is low enough to hit the atmosphere, so you are now on a re-entry course to Kerbin. Once we're below 60,000m, the atmosphere will start slowing the ship down to the point that it won't have enough velocity to rise back up again.]]></string>
+2万米足够低到可以进入大气层，所以你现在到了坎星在再入过程。一旦我们到了6万米，大气将开始给飞船减速，它将不会在有足够的速度回到轨道上。]]></string>
 <string id="614590"><![CDATA[环绕轨道 101 - 完成 !]]></string>
-<string id="614639"><![CDATA[This is all we need to do for this lesson. You could keep playing and either perform more maneuvers or ride this path down to a landing, or you could skip to the next lesson. 
+<string id="614639"><![CDATA[这一课所有我们需要做的都完成了。你可以继续玩下去，要么执行更多的机动或继续练习着陆，或者你可以结束课程。
 
-If you do try for a landing, don't forget to decouple the capsule and deploy the parachutes.
+如果你要做一次着陆尝试，别忘了分离指令舱和部署降落伞。
 
-See you on the ground!]]></string>
+希望在地面上在次看见你 ！]]></string>
 <string id="615227"><![CDATA[Orbit101TutorialLock]]></string>
 <string id="615268"><![CDATA[好,走你...]]></string>
-<string id="615303"><![CDATA[There! You are piloting now. Stop rotation using the pitch, yaw and roll controls.
+<string id="615303"><![CDATA[好了！现在交由你控制。使用俯仰，偏航和横滚的控制停止转动。
 
-I suggest you use the navball to orient yourself instead of looking at the ship. The navball isn't affected by the camera rotation, so it should be easier to get your bearings through this instrument than by looking at the outside.
-<b>Still Rotating (]]></string>
+我建议你使用navball（导航球）来定位，而不是看你自己的飞船。它不受相机的旋转影响，所以应该更容易通过这个仪器控制。
+<b>仍在旋转中 (]]></string>
 <string id="615975"><![CDATA[°/s)...</b>]]></string>
 <string id="615998"><![CDATA[轨道偏心率: ]]></string>
 <string id="616033"><![CDATA[轨道倾角: ]]></string>
@@ -10194,10 +10194,10 @@ I suggest you use the navball to orient yourself instead of looking at the ship.
 <string id="617070"><![CDATA[ is not a Tutorial Page. You can't call GoToNextPage from normal KFSMStates.]]></string>
 <string id="617224"><![CDATA[[TutorialFSM Error]: There is no previous state defined for ]]></string>
 <string id="617345"><![CDATA[。请确保它不是第一页。]]></string>
-<string id="617418"><![CDATA[您好，欢迎收看今天的Kerbal 科学方法讲座。 我是]]></string>
+<string id="617418"><![CDATA[您好，欢迎收看今天的坎巴拉科研操作基础讲座。 我是]]></string>
 <string id="617570"><![CDATA[，一个非凡科学家。本教程并不真正需要任何以前的知识，但为了收集科学点，你将要自己熟悉游戏中的每一个方面，所以你应该找些时间做完所有这些。
 
-我们现在是在Kerbal航天中心。关于飞行器建造请到基本建造教程中学习。现在，我们将专注复杂研究与发展。]]></string>
+我们现在是在坎巴拉航天中心。关于飞行器建造请到基本建造教程中学习。现在，我们将专注复杂研究与发展。]]></string>
 <string id="618352"><![CDATA[rndBuilding]]></string>
 <string id="618375"><![CDATA[研究与发展部]]></string>
 <string id="618440"><![CDATA[这个离你最近的大型复杂的研究和开发部门。在这里，您将利用科学任务奖励为你解开更多的部件。
@@ -10205,7 +10205,7 @@ I suggest you use the navball to orient yourself instead of looking at the ship.
 来吧，点击它，看看效果。]]></string>
 <string id="618882"><![CDATA[insideRnD]]></string>
 <string id="618901"><![CDATA[研究与发展部内]]></string>
-<string id="618946"><![CDATA[很好！你在方格背景中间看到的是科技树。它显示的是你在Kerbal目前研究的技术进度页面。
+<string id="618946"><![CDATA[很好！你在方格背景中间看到的是科技树。它显示的是你在坎巴拉目前研究的技术进度页面。
 
 你现在没有太多来展示，因为你不是一个像我这样的世界级科学家。至少目前还没有。但是，我相信你一定有实现这个的潜力。]]></string>
 <string id="619586"><![CDATA[unlockNextNode]]></string>
@@ -10226,9 +10226,9 @@ I suggest you use the navball to orient yourself instead of looking at the ship.
 <string id="621582"><![CDATA[这东西从哪里来？]]></string>
 <string id="621631"><![CDATA[现在，你自己可能在想，“这全部一切都有是多么美好，但我如何获得更多的科学点？”
 
-你可以做很多事情，比如收集Kerbals船员的区域报告 ，履行合同这几种，飞船搭载实验部件 （如神秘咕咕单元） 在不同的地点部署收集样本等。有很多可能性，真的。
+你可以做很多事情，比如收集坎巴拉宇航员的区域报告 ，履行合同这几种，飞船搭载实验部件 （如神秘咕咕单元） 在不同的地点部署收集样本等。有很多可能性，真的。
 
-大多数这些操作都是通过右键单击各部件显示"内容菜单"进行选择，有时是在 Kerbals 上执行。请记住，你需要将任务结果发送或安全返回 Kerbin 提交原始数据，以转换成有用的科学点。]]></string>
+大多数这些操作都是通过右键单击各部件显示"内容菜单"进行选择，有时是在 坎巴拉s 上执行。请记住，你需要将任务结果发送或安全返回 坎星 提交原始数据，以转换成有用的科学点。]]></string>
 <string id="623145"><![CDATA[situations]]></string>
 <string id="623166"><![CDATA[所有许多其他和我提到的活动。你可以跟踪记录以备将来参考。您可以通过单击左上角上的黄色按钮访问这些科学档案。
 
@@ -11017,7 +11017,7 @@ Box]]></string>
 <string id="655240"><![CDATA[地图轨道理发可用]]></string>
 <string id="655299"><![CDATA[飞行计划可用]]></string>
 <string id="655350"><![CDATA[>Tracking Station Upgrade required for Flight Planning</color>]]></string>
-<string id="655475"><![CDATA[坎巴拉人可以在空中出仓了]]></string>
+<string id="655475"><![CDATA[坎巴拉人可以在空中出舱了]]></string>
 <string id="655524"><![CDATA[Kerbals can disembark only on Kerbin]]></string>
 <string id="655597"><![CDATA[坎巴拉人可以再舱外插旗了]]></string>
 <string id="655658"><![CDATA[坎巴拉人可以在舱外爬墙了]]></string>
@@ -11648,7 +11648,7 @@ THE SELECTED PART IS NOT ATTACHABLE!]]></string>
 <string id="682042"><![CDATA[文字:]]></string>
 <string id="682057"><![CDATA[[FlightUIModeController ERROR]: Cannot start without references to the mode buttons]]></string>
 <string id="682225"><![CDATA[[FlightUIModeController ERROR]: Cannot start without references to the UI Sliding Tabs]]></string>
-<string id="682399"><![CDATA[Go EVA]]></string>
+<string id="682399"><![CDATA[舱外活动]]></string>
 <string id="682412"><![CDATA[MET]]></string>
 <string id="682419"><![CDATA[预计点火 : ]]></string>
 <string id="682442"><![CDATA[时间距离]]></string>
