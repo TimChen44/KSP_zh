@@ -3940,16 +3940,16 @@ Retracted skin max temp: ]]></string>
 <string id="143926"><![CDATA[<b>预展开时阻力: </b>]]></string>
 <string id="143981"><![CDATA[<b>全展开时阻力: </b>]]></string>
 <string id="144038"><![CDATA[0.####]]></string>
-<string id="144051"><![CDATA[<b>全面部署海拔高度：</b>]]></string>
+<string id="144051"><![CDATA[<b>全展开离地高度：</b>]]></string>
 <string id="144118"><![CDATA[ m
 ]]></string>
-<string id="144125"><![CDATA[<b>半部署最小压力: </b>]]></string>
+<string id="144125"><![CDATA[<b>半展开最小大气压: </b>]]></string>
 <string id="144192"><![CDATA[ atm]]></string>
 <string id="144201" noT="1"><![CDATA[deploySafe]]></string>
 <string id="144222"><![CDATA[安全]]></string>
 <string id="144231"><![CDATA[风险]]></string>
 <string id="144242"><![CDATA[危险]]></string>
-<string id="144255"><![CDATA[]: Chute destroyed by aero forces and heat.</color>]]></string>
+<string id="144255"><![CDATA[]: 降落伞因过热烧毁.</color>]]></string>
 <string id="144358"><![CDATA[: chute destroyed by aero forces and heat.]]></string>
 <string id="144443"><![CDATA[semiDeploy]]></string>
 <string id="144464"><![CDATA[fullyDeploy]]></string>
