@@ -9839,7 +9839,7 @@ EVA的控制：
 <string id="567832"><![CDATA[精细  - 调整近拱点]]></string>
 <string id="567875"><![CDATA[设置近拱点确保在6km。 （您可能需要回到地图视图）。
 
-如果不是，调整它，我已经教过你如何精确调整，调小你的节流阀，以免做得太过头了。如果你不能用顺行和逆行进行精确调整，可以试试径向的 进/出 方向调整，甚至是常态/反常态。]]></string>
+如果不是，调整它，我已经教过你如何精确调整，调小你的节流阀，以免做得太过头了。如果你不能用顺行和逆行进行精确调整，可以试试径向的 向心/离心 方向调整，甚至是常态/反常态。]]></string>
 <string id="568609"><![CDATA[warpPe]]></string>
 <string id="568622"><![CDATA[加速时间到近拱点]]></string>
 <string id="568657"><![CDATA[现在我们要加速到这个新的低拱点。
@@ -9991,30 +9991,30 @@ If your periapsis is hiding under the Mun's surface, that means you will crash u
 并且已经准备好学习如何在太空中移动了.如果你还没有准备好,好吧,我希望你知道你在做什么.     让我们开始吧.]]></string>
 <string id="593577"><![CDATA[whatsAnOrbit]]></string>
 <string id="593602"><![CDATA[环绕轨道 101 - 基础]]></string>
-<string id="593645"><![CDATA[Orbiting is really nothing more than free-falling. The only thing is that as you fall, you're moving so fast forward that you actually miss the ground. Because up here there is no atmosphere to slow you down at this height, you will continue to free-fall endlessly around the planet, without having to use your engines.
+<string id="593645"><![CDATA[沿轨道运行也只不过是处于自由落体状态。只是你下跌时移动速度太快，实际上又错过了地面。因为在这里没有大气让你慢下来，在这样的高度，你将一直无休止地在轨道上自由落体而无需使用你的引擎。
 
-We are currently on a low, almost circular orbit around Kerbin. To get a better view of your situation, press the <color=]]></string>
-<string id="594531"><![CDATA[]</color> key to go into the Map View.]]></string>
+我们目前在坎星的几乎是圆形的低轨道上。若要获得更好的观察视野，请按 <color=]]></string>
+<string id="594531"><![CDATA[]</color> 键进入地图视图。]]></string>
 <string id="594608"><![CDATA[环绕轨道 101 - 地图视角]]></string>
-<string id="594663"><![CDATA[This is the map view. Here, you can see your ship's position and its current trajectory around the planet.
+<string id="594663"><![CDATA[这是地图视图。在这里，你可以看到你的飞船的位置和目前环绕行星的轨道。
 
-Hold right-click and move the mouse to look around and see your orbit from various angles.
+按住右键并移动鼠标来环顾四周，从不同角度看看轨道。
 
-Also, hovering over the icons on the map will display more information about them (and by right-clicking the node you will pin the info).
+此外，悬停在地图上的图标会显示有关他们（通过右键单击节点的信息）的更多信息。
 
-Close the map when you're ready (press the <color=]]></string>
-<string id="595443"><![CDATA[]</color> key again), so we can proceed.]]></string>
+当你准备好关闭地图（再次按<color=]]></string>
+<string id="595443"><![CDATA[]</color> 键），这后我们可以继续进行。]]></string>
 <string id="595524"><![CDATA[环绕轨道 101 - 姿态与 SAS]]></string>
-<string id="595587"><![CDATA[Good. Let's get practical now. I trust you already know your basic spacecraft controls...
+<string id="595587"><![CDATA[好。我们现在回到主题内容。我相信你已经知道基本的航天器控制......
 
-Up here, they're very much the same, except that the lack of an atmosphere makes the ship behave quite a bit differently. Because there is no drag slowing you down, for every input you apply, you'll have to apply an opposite one to come to a stop again.
+在这里，他们很相像，只是缺少了大气使飞船的行为有点不同。因为没有阻力让你的速度慢下来，所以每次投入的操作，你必须用另一个相对的操作来阻止。
 
-I'm going to remotely nudge your attitude controls a little. Try to get the ship back under control afterwards.
+我将远程轻轻的推一下你的飞船。你尝试着控制住它。
 
-If you find yourself totally out of control, hit <color=]]></string>
-<string id="596619"><![CDATA[]</color> to toggle the S.A.S. on, and it will automatically cancel any remaining rotations.
+如果你发现已经完全失去控制，按 <color=]]></string>
+<string id="596619"><![CDATA[]</color> 来打开S.A.S.，它会自动抵消剩余的旋转。
 
-Are you ready?]]></string>
+准备好了吗？]]></string>
 <string id="596837"><![CDATA[完成的不错！
 
 控制高度是驾驶宇宙飞船的重要技巧,掌握了它对成为专业指令长的帮助很大.
@@ -10027,155 +10027,155 @@ Are you ready?]]></string>
  下面就是它们的涵义:]]></string>
 <string id="597641"><![CDATA[顺行和逆行向量：它们指向速度向量相关分别指向飞船的前进和后退方向.]]></string>
 <string id="597955"><![CDATA[向心和离心向量: 向心指向当前环绕天体,离心相反.]]></string>
-<string id="598131"><![CDATA[常态和反常向量:垂直于轨道平面,指向轨道平面相对的的“上方”和“下方”]]></string>
+<string id="598131"><![CDATA[常态和反态常向量:垂直于轨道平面,指向轨道平面相对的的“上方”和“下方”]]></string>
 <string id="598453"><![CDATA[waitForMap1]]></string>
 <string id="598476"><![CDATA[好的！现在来打开星图
   玩一点更高大上的东西.
   ]]></string>
 <string id="598626"><![CDATA[raiseAp1]]></string>
 <string id="598643"><![CDATA[环绕轨道 - 基本机动]]></string>
-<string id="598712"><![CDATA[What we want to do now is go through some of the basic maneuvers you'll need to know. Let's try raising your Apoapsis first.
+<string id="598712"><![CDATA[我们现在要做的将能让你了解什么是基本机动飞行。让我们试着提高你的远拱点。
 
-The Apoapsis is the highest point in an orbit, and it's indicated by the node marked [Ap].
+远拱节点就是轨道的最高点，并且它用标有[AP]的节点表示。
 
-The best place to raise your apoapsis is at the Periapsis [Pe] node, which is the lowest point of your orbit. If you hover the mouse over Periapsis node, you'll see that we are going to reach it in a few minutes. Once there, we will face prograde and burn.
+提高你的远拱点最佳位置是在近拱[PE]节点，这是你的轨道的最低点。如果你将鼠标悬停在近拱节点上，你会看到我们将在几分钟内到达哪里。一旦到达那里，我们将顺行燃烧。
 
-Press <color=]]></string>
-<string id="599692"><![CDATA[]</color> to speed up time a little, so we can get there faster.]]></string>
+按<color=]]></string>
+<string id="599692"><![CDATA[]</color> 加快一点点时间，让我们可以更快地到达那里。]]></string>
 <string id="599822"><![CDATA[waitForPeriapsis1]]></string>
 <string id="599857"><![CDATA[环绕轨道 - 时间加速]]></string>
-<string id="599906"><![CDATA[好,现在时间正在以 ]]></string>
-<string id="599955"><![CDATA[ times faster than normal, so we should be there in a few moments.
+<string id="599906"><![CDATA[好,现在的时间速度比正常快 ]]></string>
+<string id="599955"><![CDATA[ 倍，所以我们稍等片刻就能到达那里。
 
-You can control time warp with the <color=]]></string>
-<string id="600177"><![CDATA[]</color> keys, or click the arrows on the panel at the top left of the screen.
+你可以控制时间加速的倍率 <color=]]></string>
+<string id="600177"><![CDATA[]</color> 键，或点击在屏幕左上角的面板上的箭头。
 
-This time, I'll put us back to normal time about a minute before we reach periapsis, and start lowering the rate even earlier.
+这一次，我会在到达拱点约一分钟的时间前恢复到正常的时间速度，我们早点在到达拱点前降低速度。
 
-Outside of training, though, you'll have to warp time down to 1x yourself, so don't go too fast or you might miss your mark. 
+不过训练之外，你必须自己将时间加速缩短到1x，不要走得太快，你可能会错过你的目标。
 
-You can also click on any given point on your orbit and click the Warp Here option. The ship's systems will automatically warp time as fast as possible to get you there.]]></string>
+您也可以点击轨道上的任意一点，选择“加速至下一个规划的变轨节点”选项。系统会自动加速尽可能快地让你到达那里。]]></string>
 <string id="601189"><![CDATA[raiseAp2]]></string>
-<string id="601206"><![CDATA[Ok, we are a few seconds away from periapsis now. Time to turn prograde and do our burn.
+<string id="601206"><![CDATA[好吧，我们还有几秒钟就到近拱点了。现在转到顺行并开始执行机动。
 
-However, instead of closing the map, let's just bring up the navball here, so we can see what's happening to our orbit as we accelerate.
+但是，不要关掉地图，在这里我们只弹出navball（导航球），这样我们可以看到加速机动时轨道发生的变化。
 
-To bring up the navball on the map, click the little tab on the bottom-center of the screen, or press the <color=]]></string>
-<string id="601890"><![CDATA[]</color> key.
+要打开地图上的navball，点击屏幕底部中央的小标签，或按<color=]]></string>
+<string id="601890"><![CDATA[]</color> 键.
 
-Oh, and if you activate your S.A.S. with <color=]]></string>
-<string id="602020"><![CDATA[]</color> you will see shortcuts to the different autopiloting vectors next to the navball. If you don't feel like maneuvering yourself right now, just click the <color=]]></string>
-<string id="602360"><![CDATA[>Orbit Prograde</color> icon.]]></string>
+哦，如果你激活 s.a.s.用<color=]]></string>
+<string id="602020"><![CDATA[]</color> 你会看到navball左边有几个飞船向量快捷方式。如果你不喜欢现在的机动，只需点击 <color=]]></string>
+<string id="602360"><![CDATA[>顺行轨道</color> 图标。]]></string>
 <string id="602419"><![CDATA[raiseAp3a]]></string>
-<string id="602438"><![CDATA[Good. Time to do our burn. Turn the ship to face the Prograde Vector now.
+<string id="602438"><![CDATA[好。飞船面对顺行向量后执行我们的机动。
 
-Remember that you can just activate the Stability Assist (<color=]]></string>
-<string id="602720"><![CDATA[]</color> key) and click the Orbit Prograde button next to the NavBall and the ships Pilot (or Probe Core) will do it for you.]]></string>
-<string id="602974"><![CDATA[记住这个图标才是顺行向量:]]></string>
+请记住，你任何时候都可以激活稳定辅助系统（<color=]]></string>
+<string id="602720"><![CDATA[]</color> 键) 然后点击NavBall旁边的向量按钮，飞行员（或探测器核心）将会为帮你操作。]]></string>
+<string id="602974"><![CDATA[顺行向量长这样:]]></string>
 <string id="603067"><![CDATA[在加速前确认船首已经对准顺行向量]]></string>
 <string id="603192"><![CDATA[raiseAp3b]]></string>
-<string id="603211"><![CDATA[Ok, we are now turned prograde. Check SAS is engaged for you to keep her steady. Press the <color=]]></string>
-<string id="603409"><![CDATA[]</color> key to accelerate at full throttle.]]></string>
+<string id="603211"><![CDATA[好了，我们现在处于顺行。检查 SAS 正在帮你稳住她。按下<color=]]></string>
+<string id="603409"><![CDATA[]</color> 重点是以最高速度加速。]]></string>
 <string id="603500"><![CDATA[raiseAp4]]></string>
-<string id="603517"><![CDATA[Notice how the opposite side of your orbit starts to rise as you accelerate?
+<string id="603517"><![CDATA[请注意加速时您的轨道的另一侧是如何开始上升的？
 
-Keep thrusting prograde until your apoapsis altitude reaches about 800,000m.]]></string>
+保持助推顺行直到你的远拱点海拔达到约80万米。]]></string>
 <string id="603827"><![CDATA[raiseAp5]]></string>
-<string id="603844"><![CDATA[Ok, cut the throttle now!
+<string id="603844"><![CDATA[好的现在降低节流阀！
 
-Hold <color=]]></string>
-<string id="603923"><![CDATA[]</color> or hit <color=]]></string>
-<string id="603972"><![CDATA[]</color> to cut throttle immediately.]]></string>
+保持 <color=]]></string>
+<string id="603923"><![CDATA[]</color> 或按 <color=]]></string>
+<string id="603972"><![CDATA[]</color> 立即减少节流阀。]]></string>
 <string id="604049"><![CDATA[raiseAp6]]></string>
-<string id="604066"><![CDATA[Well Done!
+<string id="604066"><![CDATA[做得好！
 
-This is how you raise your Apoapsis node.
+这就是如何提高你的远拱点节点。
 
-With orbital maneuvers, pretty much everything you do will affect the opposite side of your orbit. So to raise the highest point (Apoapsis), you thrust forward (or prograde) at the lowest point (Periapsis). Similarly, to raise your Periapsis, you thrust prograde at Apoapsis. We're on our way to the Apoapsis now, so let's do just that.
+随着轨道机动，你现在做的一切都会影响到轨道的另一侧。因此，要提高最高点（远拱点），则在最低点（拱点）向前推（顺行）。同样，要提高你的近拱点，就去远拱点前推顺行。让我们现在就到远拱点实施这个计划吧。
 
-Press <color=]]></string>
-<string id="604880"><![CDATA[>Next</color> when ready, and I'll warp time to get us there quickly.]]></string>
+当准备好，按 <color=]]></string>
+<string id="604880"><![CDATA[>下一步</color> 我会扭曲时间让我们快速到达那里。]]></string>
 <string id="605020"><![CDATA[waitForApoapsis1]]></string>
-<string id="605053"><![CDATA[Ok, we're on our way to the apoapsis node now. Notice how your ship loses speed as we rise. That's because we're climbing away from the planet, so we lose speed as we go higher, just like a ball does when thrown into the air back on Kerbin. 
+<string id="605053"><![CDATA[很好，我们在向远拱点节点的途中了。我们的高度正在上升，请注意你的飞船也在失去速度。这是因为我们相对星球是在攀升，就像抛向空中又回到坎星的一个球一样，所以我们在慢慢失去速度，因为我们会飞得更高。
 
-The higher you are, the slower your orbit will be. Notice how the Mun's orbital speed is around 540m/s (you can see this by hovering over the Mun's marker), while yours is far higher? That's because our orbit is so much lower than that of the Mun. 
+你越高，轨道速度会越慢。注意Mun的围绕轨道速度是540m/s（你可以将鼠标悬停在Mun的标记看到），比你则要高很多，这是因为我们比Mun的轨道的低。
 
-When we reach apoapsis, we will burn prograde again, to raise the periapsis node and circularize our orbit.]]></string>
+当我们到达远拱点，我们将再次燃烧顺行，提高近拱点节点，我们圆形化轨道。]]></string>
 <string id="606255"><![CDATA[raisePe1]]></string>
 <string id="606272"><![CDATA[环绕轨道 101 - 抬高近拱点]]></string>
-<string id="606333"><![CDATA[Ok, here we are. Same as before: turn your ship to face prograde.
+<string id="606333"><![CDATA[好吧，在这里。和以前一样：把你的飞船面对顺行。
 
-Mind that we are probably facing the other way right now, so the prograde marker might not be visible at first. But you can find it easily because it's on the opposite side from the retrograde marker. 
+请记住，我们可能会面临另一种可能，导航球上没有看到顺行标记。你可以在逆行标记的对面很容易地找到它。
 
-Once you're facing the right direction, fire up that engine and watch the periapsis rise.]]></string>
+一旦你面对正确的方向，启动引擎看近拱点上升。]]></string>
 <string id="607053"><![CDATA[raisePe2]]></string>
-<string id="607070"><![CDATA[Keep burning prograde until the orbit is nearly circular. Eccentricity will be 0 when it's perfectly circular, so keep an eye on that (Eccentricity measures how elliptical your orbit is; 0 means the orbit is circular).]]></string>
+<string id="607070"><![CDATA[保持燃烧顺行，直到轨道接近圆形。偏心为0时，它的完美的圆形。（偏心测量值越大轨道就呈椭圆形;0表示轨道是圆形的）。]]></string>
 <string id="607508"><![CDATA[raisePe3]]></string>
-<string id="607525"><![CDATA[Nicely done!
+<string id="607525"><![CDATA[做得很好！
 
-This is how you change the size of your orbit. This maneuver should come in handy in many situations.
+这就是如何改变你的轨道的大小。这个动作应该在许多情况下能派上用场。
 
-Next, we'll look into changing your orbital inclination.
+下一步，我们将考虑改变你的轨道倾角。
 
-Press <color=]]></string>
-<string id="607903"><![CDATA[>Next</color> when ready to proceed.]]></string>
+当准备好按 <color=]]></string>
+<string id="607903"><![CDATA[>下一步</color> 继续。]]></string>
 <string id="607976"><![CDATA[incChange1]]></string>
 <string id="607997"><![CDATA[环绕轨道 101 - 轨道倾角]]></string>
-<string id="608050"><![CDATA[Your orbital inclination is the angle between your orbit and Kerbin's equator. If you've managed to maintain a reasonable amount of control so far, we should still be in a nearly 0° inclination orbit. That is, even though we've changed the altitude of our orbit, it still has the same inclination as before.
+<string id="608050"><![CDATA[轨道倾角指的是你的轨道和坎星的赤道之间的角度。如果你一直保持合理的控制，到目前为止，我们仍应在接近 0 ° 倾角的轨道。也就是说，即使我们已经改变了我们的轨道高度，它和以前一样仍然具有相同的倾向。
 
-Changing inclination is done by thrusting at a 90 degree angle to your prograde vector, but without changing your pitch relative to the surface.
+变更倾角是通过在一个90度角的顺行向量助推完成的，所以相对于地面你没有改变。
 
-On our present, nearly equatorial orbit, prograde is due east. That means to increase our inclination, so that our orbit takes us into higher latitudes, we have to burn towards the normal direction.]]></string>
+我们现在位于赤道轨道上，向正东顺行。这意味着增加我们的倾角，所以我们的轨道将我们带入更高的纬度，我们必须朝着正常的方向燃烧。]]></string>
 <string id="609358"><![CDATA[NormalVectors]]></string>
-<string id="609385"><![CDATA[Orbiting 101 - Normal Vectors]]></string>
-<string id="609444"><![CDATA[If all that I just said made your head spin, the navball once again comes to your rescue. In this case, you will need to use the normal vector to change your orbital inclination. 
+<string id="609385"><![CDATA[环绕轨道 101 - 常态向量]]></string>
+<string id="609444"><![CDATA[如果我刚才说的让你头晕，navball（导航球）再一次拯救你。在这种情况下，你将需要使用常态向量来改变你的轨道倾角。
 
-Let's try that now; turn the ship to the normal vector's direction and open the throttle.]]></string>
-<string id="609986"><![CDATA[Normal Vector:]]></string>
+现在我们尝试一下;把飞船转到常态向量的方向，打开节流阀。]]></string>
+<string id="609986"><![CDATA[常态向量长这样:]]></string>
 <string id="610015"><![CDATA[incChange2]]></string>
-<string id="610036"><![CDATA[Notice how as you burn north, your orbit starts to tilt up on one side, but the periapsis and apoapsis nodes remain mostly the same? 
+<string id="610036"><![CDATA[注意你开始燃烧时你的轨道就会倾向一侧，远拱点和近拱节点是不是保持不变？
 
-That is because we are accelerating on a completely new direction, so this maneuver doesn't add or take away any energy from the orbit, as long as we are careful to continue facing normal during the burn.
+这是因为我们正在往一个新的方向加速，所以这个动作并不添加或带走任何能量，只要我们小心保持常态向量方向燃烧。
 
-Keep accelerating towards the normal until your inclination is about 10°.]]></string>
+保持向常态向量加速，直到你的轨道倾角是 10 ° 左右。]]></string>
 <string id="610866"><![CDATA[incChange3]]></string>
-<string id="610887"><![CDATA[Good! This is how you change your orbital inclination.
+<string id="610887"><![CDATA[好 ！这就是如何改变你的轨道倾角。
 
-For these maneuvers, it's always better to do it in the slowest parts of the orbit so you don't have to spend as much delta-V to turn your orbit around. That also means inclination changes on larger orbits, such as we are on now, take less fuel than the same inclination change on a lower orbit.
+对于这些机动，最好是在轨道速度最慢的部分来执行，这样你就不必花太多的delta-V 来扭转你的轨道。这也意味着在更大的轨道倾角的变化，比如我们现在，相同倾角变化比在一个较低的轨道上用更少的燃料。
 
-Also, keep in mind that changing inclination doesn't necessarily mean accelerating to the north or south. It means accelerating at right angles to your prograde vector, which on our nearly equatorial orbit, also happened to be towards the north.
+此外，请记住，改变倾角并不一定意味着加速向北或南。则表示相对轨道成直角的顺行向量，只是我们在赤道轨道附近，所以就向北直角加速。
 
-Next, let's look into the last essential maneuver you'll need to learn: lowering our orbit.]]></string>
+接下来，让我们再看你需要学习的最后一个重要机动动作 ︰ 降低我们的轨道。]]></string>
 <string id="612271"><![CDATA[lowerPe1]]></string>
 <string id="612288"><![CDATA[环绕轨道 101 - 降低近拱点]]></string>
-<string id="612349"><![CDATA[As you can imagine, lowering your orbit's altitude is very much like raising it, only in reverse.
+<string id="612349"><![CDATA[你可以想象，降低你的轨道高度非常像提高它，只是反过来。
 
-Because there's no air up here, we can use our main engines to decelerate as well as accelerate, because the ship's orientation will not cause problems with airflow and flying backwards is easy as flying forwards.
+因为这里没有大气，我们可以使用我们引擎减速及加速，因为此时飞船的方向不会导致气流问题，倒着向前飞行是易如反掌的事情。
 
-Also, since our orbit is nearly circular, we can just turn retrograde and do our burn at any time now, so let's get to it.
+此外，由于我们的轨道接近圆形，我们只需转向逆行燃烧，所以让我们动起来。
 
-Turn toward the retrograde vector and start that engine up again.]]></string>
-<string id="613357"><![CDATA[逆行向量是这样的:]]></string>
+转向到逆行向量并再次启动引擎。]]></string>
+<string id="613357"><![CDATA[逆行向量长这样:]]></string>
 <string id="613394"><![CDATA[lowerPe2]]></string>
-<string id="613411"><![CDATA[Keep burning retrograde until the periapsis altitude is around 20,000m.
+<string id="613411"><![CDATA[保持逆行燃烧，直到近拱点高度约为2万米。
 
-Try getting it as close as possible this time. If you overshoot and make it too low, turn prograde and accelerate a little to bring it back up. For precision, remember that you can fine tune your throttle using the <color=]]></string>
-<string id="614003"><![CDATA[]</color> keys.]]></string>
-<string id="614034"><![CDATA[That's it! You're now on your way back.
+尝试尽可能接近这个。如果你冲过头太低了，转顺行并加速一点点调整回来。关于精确，记住，你可以使用节流阀微调<color=]]></string>
+<string id="614003"><![CDATA[]</color> 键。]]></string>
+<string id="614034"><![CDATA[就是这个 ！你现在回来的路上。
 
-20,000m is low enough to hit the atmosphere, so you are now on a re-entry course to Kerbin. Once we're below 60,000m, the atmosphere will start slowing the ship down to the point that it won't have enough velocity to rise back up again.]]></string>
+2万米足够低到可以进入大气层，所以你现在到了坎星在再入过程。一旦我们到了6万米，大气将开始给飞船减速，它将不会在有足够的速度回到轨道上。]]></string>
 <string id="614590"><![CDATA[环绕轨道 101 - 完成 !]]></string>
-<string id="614639"><![CDATA[This is all we need to do for this lesson. You could keep playing and either perform more maneuvers or ride this path down to a landing, or you could skip to the next lesson. 
+<string id="614639"><![CDATA[这一课所有我们需要做的都完成了。你可以继续玩下去，要么执行更多的机动或继续练习着陆，或者你可以结束课程。
 
-If you do try for a landing, don't forget to decouple the capsule and deploy the parachutes.
+如果你要做一次着陆尝试，别忘了分离指令舱和部署降落伞。
 
-See you on the ground!]]></string>
+希望在地面上在次看见你 ！]]></string>
 <string id="615227"><![CDATA[Orbit101TutorialLock]]></string>
 <string id="615268"><![CDATA[好,走你...]]></string>
-<string id="615303"><![CDATA[There! You are piloting now. Stop rotation using the pitch, yaw and roll controls.
+<string id="615303"><![CDATA[好了！现在交由你控制。使用俯仰，偏航和横滚的控制停止转动。
 
-I suggest you use the navball to orient yourself instead of looking at the ship. The navball isn't affected by the camera rotation, so it should be easier to get your bearings through this instrument than by looking at the outside.
-<b>Still Rotating (]]></string>
+我建议你使用navball（导航球）来定位，而不是看你自己的飞船。它不受相机的旋转影响，所以应该更容易通过这个仪器控制。
+<b>仍在旋转中 (]]></string>
 <string id="615975"><![CDATA[°/s)...</b>]]></string>
 <string id="615998"><![CDATA[轨道偏心率: ]]></string>
 <string id="616033"><![CDATA[轨道倾角: ]]></string>
