@@ -3940,16 +3940,16 @@ Retracted skin max temp: ]]></string>
 <string id="143926"><![CDATA[<b>预展开时阻力: </b>]]></string>
 <string id="143981"><![CDATA[<b>全展开时阻力: </b>]]></string>
 <string id="144038"><![CDATA[0.####]]></string>
-<string id="144051"><![CDATA[<b>全面部署海拔高度：</b>]]></string>
+<string id="144051"><![CDATA[<b>全展开离地高度：</b>]]></string>
 <string id="144118"><![CDATA[ m
 ]]></string>
-<string id="144125"><![CDATA[<b>半部署最小压力: </b>]]></string>
+<string id="144125"><![CDATA[<b>半展开最小大气压: </b>]]></string>
 <string id="144192"><![CDATA[ atm]]></string>
 <string id="144201" noT="1"><![CDATA[deploySafe]]></string>
 <string id="144222"><![CDATA[安全]]></string>
 <string id="144231"><![CDATA[风险]]></string>
 <string id="144242"><![CDATA[危险]]></string>
-<string id="144255"><![CDATA[]: Chute destroyed by aero forces and heat.</color>]]></string>
+<string id="144255"><![CDATA[]: 降落伞因过热烧毁.</color>]]></string>
 <string id="144358"><![CDATA[: chute destroyed by aero forces and heat.]]></string>
 <string id="144443"><![CDATA[semiDeploy]]></string>
 <string id="144464"><![CDATA[fullyDeploy]]></string>
@@ -4196,7 +4196,7 @@ Retracted skin max temp: ]]></string>
 <string id="153126"><![CDATA[舱库门移动中... (from ]]></string>
 <string id="153183"><![CDATA[,去 ]]></string>
 <string id="153194"><![CDATA[舱库门关闭. (]]></string>
-<string id="153237"><![CDATA[舱库门卡主了.未关闭.(]]></string>
+<string id="153237"><![CDATA[舱库门卡住了.未关闭.(]]></string>
 <string id="153304"><![CDATA[[ModuleCargoBay]: Module ]]></string>
 <string id="153355"><![CDATA[ is not an IScalarModule]]></string>
 <string id="153404"><![CDATA[Procedural/FairingsMat]]></string>
@@ -7702,11 +7702,10 @@ Spd: ]]></string>
 <string id="325666"><![CDATA[funds]]></string>
 <string id="325677"><![CDATA[[GameVariables]: Instance already exists!]]></string>
 <string id="325760"><![CDATA[游客也许会无法从载具上下来.]]></string>
-<string id="325847"><![CDATA[执行舱外活动的机组成员必须活着。]]></string>
+<string id="325847"><![CDATA[执行舱外活动的机组成员必须存活。]]></string>
 <string id="325932"><![CDATA[舱外活动自动禁用。激活一个舱口。]]></string>
-<string id="326015"><![CDATA[在这种情况下无法进行舱外活动。]]></string>
-<string id="326072"><![CDATA[无法下地因为载具离地了.
-航天员能力需要升级.]]></string>
+<string id="326015"><![CDATA[该场景下无法进行舱外活动。]]></string>
+<string id="326072"><![CDATA[载具离开坎星无法进行舱外活动。航天员中心需要升级。]]></string>
 <string id="326240"><![CDATA[不能舱外活动。]]></string>
 <string id="326263"><![CDATA[舱外活动目前无法使用]]></string>
 <string id="326316"><![CDATA[舱外活动不可用]]></string>
@@ -8743,7 +8742,7 @@ Duna卫星 Ike 挡路,这事很常见因为Ike的SOI比Duna大.一旦发现立�
  去别的行星以及其他天体的方法类似,你可以开始征服宇宙了.
 我为你的潜力感到自豪.]]></string>
 <string id="424280"><![CDATA[Squad/Tutorials/StagingStack]]></string>
-<string id="424337"><![CDATA[基础建造]]></string>
+<string id="424337"><![CDATA[飞船建造基础]]></string>
 <string id="424374"><![CDATA[欢迎学习飞船建造教程。我是Wernher von Kerman。
 
 无论你是想将卫星送入轨道飞行横贯大陆，还是踏上Mun的表面，都需要有建造飞行器的知识。
@@ -8847,19 +8846,19 @@ Duna卫星 Ike 挡路,这事很常见因为Ike的SOI比Duna大.一旦发现立�
 
 不过它确实有足够的动力去让这个小飞行器快速运动。当你的科研进步以后，将能够解锁更多的引擎和其他部件。
 
-不过现在，我们只能拿起<color=]]></string>
+不过现在，我们只能凑合着用<color=]]></string>
 <string id="437786"><![CDATA[>RT-5 “跳蚤"</color> 并将其连接到指令舱的底部。]]></string>
 <string id="437909"><![CDATA[staging]]></string>
-<string id="437924"><![CDATA[分级堆栈]]></string>
+<string id="437924"><![CDATA[分级动作指示栈]]></string>
 <string id="437959"><![CDATA[好家伙。你已经建造了一个最简单的飞行器。我们现在就可以去启动它，不过牢记安全第一，预防为主是不会错的。]]></string>
-<string id="438267"><![CDATA[在右下角你会看到分级堆栈 — — 现在降落伞和引擎图标都在数字 0的分级框内。此堆栈显示的是我们的部件会在火箭哪个"阶段"激活。]]></string>
+<string id="438267"><![CDATA[在右下角你会看到分级动作指示栈 — — 现在降落伞和引擎图标都在数字 0的分级框内。此堆栈显示的是我们的部件会在火箭哪个"阶段"激活。]]></string>
 <string id="438679"><![CDATA[这里显示当我们激活分级时，将会同时触发引擎和降落伞。虽然打开降落伞飞行会很有趣，但你飞不了多远。
 
-要解决此问题，我们需要将发动机和 降落伞放到不同的分级上。如果您将鼠标移动到数字"0"的分级堆栈上，你将看到一个小 + 和-显示在方框的左侧。 <color=]]></string>
+要解决此问题，我们需要将发动机和 降落伞放到不同的分级上。如果您将鼠标移动到数字"0"的分级动作指示栈上，你将看到一个小 + 和-显示在方框的左侧。 <color=]]></string>
 <string id="439511"><![CDATA[>单击</color> 那个 <color=]]></string>
 <string id="439564"><![CDATA[>加号</color> 按钮添加一个新的阶段。如果你添加了太多，单击减号按钮，将额外的删除。请确保你正好有两个分级。]]></string>
 <string id="439884"><![CDATA[staging2]]></string>
-<string id="439901"><![CDATA[调整分级堆栈]]></string>
+<string id="439901"><![CDATA[调整分级动作指示栈]]></string>
 <string id="439956"><![CDATA[非常好。值得注意的是，分级激活顺序是从数字最大的开始激活，然后倒数。因此，我们的第一个分级将是数字1的分级（引擎），我们的第二个将是数字0的分级（降落伞）。
 
 现在<color=]]></string>
@@ -9143,7 +9142,7 @@ RCS通常效率较低，但适合任何方向的较小速度的变化（而不�
 <string id="474148"><![CDATA[修改分级操作]]></string>
 <string id="474171"><![CDATA[非常好！轨道火箭所有组件我们已经装完了，我们在细致巡查一下就能收工了。
 
-首先，我们应该检查分级堆栈操作那里显示的顺序。我已经给你强调这个很幸运，因为只有助推器点火你是不会有足够的推力让火箭飞起来的 ！
+首先，我们应该检查分级动作指示栈操作那里显示的顺序。我已经给你强调这个很幸运，因为只有助推器点火你是不会有足够的推力让火箭飞起来的 ！
 
 拖动回旋图标下移到固推同一阶段。
 
@@ -9263,15 +9262,15 @@ RCS通常效率较低，但适合任何方向的较小速度的变化（而不�
 
 安装时需要注意分离环上有三角箭头。箭头指向那一侧表示分离一侧。确保箭头向上对着指令舱。（默认情况下）]]></string>
 <string id="491636"><![CDATA[autostageExplain]]></string>
-<string id="491669"><![CDATA[重温分级堆栈]]></string>
-<string id="491726"><![CDATA[做得好。我希望你还记得，在先前教程里，我们有学习过如何给火箭分级添加发动机和调整分级堆栈。 
+<string id="491669"><![CDATA[重温分级动作指示栈]]></string>
+<string id="491726"><![CDATA[做得好。我希望你还记得，在先前教程里，我们有学习过如何给火箭分级添加发动机和调整分级动作指示栈。 
 
 当您添加一个分离器后，额外的分级会自动添加到堆栈，使分离器下方的发动机不会与上方的同时点火。
 
 当然你可以任意移动分级的一切，但我希望节省您的时间。
 
 如果你想返回到默认分级设置，点击 <color=]]></string>
-<string id="492726"><![CDATA[>Reset</color> 按钮，在分级堆栈的底部（右下角）。]]></string>
+<string id="492726"><![CDATA[>Reset</color> 按钮，在分级动作指示栈的底部（右下角）。]]></string>
 <string id="492841"><![CDATA[placeTanks]]></string>
 <string id="492862"><![CDATA[加入一些燃料罐]]></string>
 <string id="492907"><![CDATA[这一次，我们将使用液体火箭发动机。这些发动机不像固体火箭发动机，自己不携带推进剂，所以我们需要添加一些燃油箱。
@@ -9293,7 +9292,7 @@ RCS通常效率较低，但适合任何方向的较小速度的变化（而不�
 你在这里看到的是“回旋”引擎，，该引擎与我们之前使用的“跳蚤”明显不同。这是一种液体的发动机，它需要（燃烧）液体燃料和氧化剂，我们刚才添加到火箭上的那些罐子里装的就是。
 
 附加 <color=]]></string>
-<string id="495417"><![CDATA[>LV-T45 "回旋"</color> 到火箭的底部，此时可以看到分级堆栈的变化。]]></string>
+<string id="495417"><![CDATA[>LV-T45 "回旋"</color> 到火箭的底部，此时可以看到分级动作指示栈的变化。]]></string>
 <string id="495665"><![CDATA[placeFins]]></string>
 <string id="495684"><![CDATA[添加平衡翼]]></string>
 <string id="495731"><![CDATA[这么快我们就到这里了，你虽然做的很好，但要想成为像我这样有才干的人还早。
@@ -9393,7 +9392,7 @@ RCS通常效率较低，但适合任何方向的较小速度的变化（而不�
 <string id="508178"><![CDATA[降落伞指示符]]></string>
 <string id="508219"><![CDATA[我们给这个火箭开绿灯之前做最后一件事。
 
-在分级堆栈里你可以看到有个降落伞符号。该符号显示当前降落伞在哪个分级激活 - 这个你已经知道 - 符号的背景以及前景（降落伞样子图标）会随着降落伞的状态改变颜色。降落伞不同状态颜色各不相同。]]></string>
+在分级动作指示栈里你可以看到有个降落伞符号。该符号显示当前降落伞在哪个分级激活 - 这个你已经知道 - 符号的背景以及前景（降落伞样子图标）会随着降落伞的状态改变颜色。降落伞不同状态颜色各不相同。]]></string>
 <string id="509063"><![CDATA[左边三个显示当前部署的风险等级：安全，有风险，危险，前景（降落伞）不分级三个都是白色。右边三个显示部署的状态：解除保险（属于激活，未满足部署条件不会展开），部署展开（有两个阶段，预展开与完全展开），剪切/切断（降落后切断或人为剪断）。熟悉降落伞指示符的颜色后我们继续。]]></string>
 <string id="509563"><![CDATA[好吧，少废话！我解开飞行控制装置，准备发射。
 
@@ -9991,9 +9990,9 @@ If your periapsis is hiding under the Mun's surface, that means you will crash u
 并且已经准备好学习如何在太空中移动了.如果你还没有准备好,好吧,我希望你知道你在做什么.     让我们开始吧.]]></string>
 <string id="593577"><![CDATA[whatsAnOrbit]]></string>
 <string id="593602"><![CDATA[环绕轨道 101 - 基础]]></string>
-<string id="593645"><![CDATA[沿轨道运行也只不过是处于自由落体状态。只是你下跌时移动速度太快，实际上又错过了地面。因为在这里没有大气让你慢下来，在这样的高度，你将一直无休止地在轨道上自由落体而无需使用你的引擎。
+<string id="593645"><![CDATA[沿轨道运行和自由落体状态几乎没有区别。只是你下落时移动速度太快而无法落地。在这样的高度，你将一直无休止地在轨道上“自由落体”而无需使用引擎，因为在这里没有大气让你慢下来。
 
-我们目前在坎星的几乎是圆形的低轨道上。若要获得更好的观察视野，请按 <color=]]></string>
+我们目前在坎星的接近圆形的低轨道上。若要获得更好的观察视野，请按 <color=]]></string>
 <string id="594531"><![CDATA[]</color> 键进入地图视图。]]></string>
 <string id="594608"><![CDATA[环绕轨道 101 - 地图视角]]></string>
 <string id="594663"><![CDATA[这是地图视图。在这里，你可以看到你的飞船的位置和目前环绕行星的轨道。
@@ -10027,7 +10026,7 @@ If your periapsis is hiding under the Mun's surface, that means you will crash u
  下面就是它们的涵义:]]></string>
 <string id="597641"><![CDATA[顺行和逆行向量：它们指向速度向量相关分别指向飞船的前进和后退方向.]]></string>
 <string id="597955"><![CDATA[向心和离心向量: 向心指向当前环绕天体,离心相反.]]></string>
-<string id="598131"><![CDATA[常态和反态常向量:垂直于轨道平面,指向轨道平面相对的的“上方”和“下方”]]></string>
+<string id="598131"><![CDATA[常态和反常态向量:垂直于轨道平面,指向轨道平面相对的的“上方”和“下方”]]></string>
 <string id="598453"><![CDATA[waitForMap1]]></string>
 <string id="598476"><![CDATA[好的！现在来打开星图
   玩一点更高大上的东西.
@@ -11017,12 +11016,12 @@ Box]]></string>
 <string id="655240"><![CDATA[地图轨道理发可用]]></string>
 <string id="655299"><![CDATA[飞行计划可用]]></string>
 <string id="655350"><![CDATA[>Tracking Station Upgrade required for Flight Planning</color>]]></string>
-<string id="655475"><![CDATA[坎巴拉人可以在空中出舱了]]></string>
+<string id="655475"><![CDATA[坎巴拉人可以进行舱外活动了]]></string>
 <string id="655524"><![CDATA[Kerbals can disembark only on Kerbin]]></string>
 <string id="655597"><![CDATA[坎巴拉人可以再舱外插旗了]]></string>
 <string id="655658"><![CDATA[坎巴拉人可以在舱外爬墙了]]></string>
 <string id="655731"><![CDATA[坎巴拉人可以在舱外收集表面标本了]]></string>
-<string id="655810"><![CDATA[>Astronaut Complex Upgrade required for EVA Surface Sample</color>]]></string>
+<string id="655810"><![CDATA[>航天员中心需要升级才能开启舱外活动时进行地表取样的功能。</color>]]></string>
 <string id="655944"><![CDATA[位置目标追踪中]]></string>
 <string id="655991"><![CDATA[Track Class ]]></string>
 <string id="656016"><![CDATA[对象或者更大]]></string>
