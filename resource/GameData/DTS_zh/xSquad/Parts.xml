@@ -4004,4 +4004,30 @@
     </Values>
   </Config>
 
+<Config name="MK1CrewCabin">
+
+    <Values>
+
+      <Value name="title"><![CDATA[MK1乘员舱]]></Value>
+
+      <Value name="manufacturer"><![CDATA[C7航空部门]]></Value>
+
+      <Value name="description"><![CDATA[一个舒适的商务飞机乘客舱衍生产品，改造升级后供航天器使用。]]></Value>
+
+    </Values>
+  </Config>
+
+<Config name="GearSmall">
+
+    <Values>
+
+      <Value name="title"><![CDATA[LEY-35中型起落架]]></Value>
+
+      <Value name="manufacturer"><![CDATA[光年轮胎公司]]></Value>
+
+      <Value name="description"><![CDATA[高性能收放式起落架。这个更大的版本有两个大轮胎，以支持大又重的飞机。加长的组件提高了离地间隙。]]></Value>
+
+    </Values>
+  </Config>
+  
  </Configs>
