@@ -8619,94 +8619,95 @@ Altitude: ]]></string>
 Note that this page is added with AddState instead of AddPage, because we don't want this page to be part of the normal tutorial sequence.]]></string>
 <string id="394170"><![CDATA[Yep]]></string>
 <string id="394177"><![CDATA[ManeuverNode_vectors]]></string>
-<string id="394218"><![CDATA[Hello, today we'll be going over a very exciting process: making two separate ships attach so they can share resources, crew, or simply become a bigger ship. 
+<string id="394218"><![CDATA[您好，今天我们将要准备一个非常激动人心的过程：将两个独立安装制作的飞船他们能够共享资源，船员，或者干脆成为一个更大的飞船。
 
-If you're interested in orbiter-lander missions or creating space stations, this will be a must, so pay attention.
+如果你对航天飞机，着陆器的飞行任务，或建立空间站感兴趣，这将是必须会的一项技能，所以要注意。
 
-Let's begin.]]></string>
-<string id="394796"><![CDATA[Coplanar Orbits]]></string>
-<string id="394827"><![CDATA[In order to dock to another ship, the first thing you have to do is catch up to it. "Rendezvous" with it, to use the technical lingo. To accomplish that, the first thing you have to do is put your ship in a coplanar orbit, meaning an orbit with the exact same inclination.
+让我们开始。]]></string>
+<string id="394796"><![CDATA[共面轨道]]></string>
+<string id="394827"><![CDATA[为了能停靠到另一艘飞船上，你第一件必须做的事就是赶上它。 就是与目标“交会 ”，这是个技术术语。为了完成这个任务，你必须做的另一件事就是让你的飞船进入共面轨道，就是具有与目标相同倾角的轨道。
 
-Open your map (<color=]]></string>
-<string id="395421"><![CDATA[]</color> key) to see the scenario at hand.]]></string>
-<string id="395508"><![CDATA[Look at those poor guys! They're doomed to orbit Kerbin forever, unless you go to their rescue, which you should, because our space program's reputation will go down if we leave people marooned out in space. If you play around with the camera, you will notice that your orbit and theirs don't have the same inclination. That means that if the ships ever did pass close to each other, they would do so at dangerously high speed and just zip on past each other on different paths. In this situation, the first thing we need to do is align our orbit with that of the other ship.
+打开地图（<color=]]></string>
+<string id="395421"><![CDATA[]</color> 键) 来看看目前的方案。]]></string>
+<string id="395508"><![CDATA[看看这些可怜的家伙！他们会永远呆在坎星轨道，除非你去拯救他们，如果我们飞出去的宇航员都会困在太空中，我们的航天计划的声誉就会下降，你不会让这样的事情发生对吧。如果你旋转镜头，你会发现你的飞船轨道倾角与他们的轨道倾角并不相同。这意味着，就算飞船足够接近对方，也因为会像拉开的拉链一样飞往不同的路径，你不想在高速运动中做这样危险的事情吧。在这种情况下，我们需要做的就是将我们的轨道倾角调整到与他们的相同。
 
 <color=]]></string>
-<string id="396678"><![CDATA[>Click</color> on the ship named "Stranded" and set it as your target.]]></string>
-<string id="396820"><![CDATA[Ascending and Descending Nodes]]></string>
-<string id="396881"><![CDATA[Good. Now you will notice a few new things have appeared on your orbit. Green ascending and descending node indicators now show the points where the plane of your orbit crosses the plane of the target orbit, and white dotted lines connect these points to your own orbit line.]]></string>
+<string id="396678"><![CDATA[>单击</color> 名为“Stranded”的飞船，并将它设为你的目标。]]></string>
+<string id="396820"><![CDATA[升交节点和降交节点]]></string>
+<string id="396881"><![CDATA[好。现在，你会发现一些新的东西出现在你的轨道。多出了绿色升交点和降交点指标显示，用一根白色虚线链接在你的轨道平面与目标轨道平面上。]]></string>
 <string id="397433"><![CDATA[如下图所示：]]></string>
-<string id="397504"><![CDATA[We want to have your orbit coincide with that of the target, so let's start that job at one of the points where the paths already cross. Go ahead and add a maneuver node at the nearest of the two nodes (probably the ascending node) and manipulate the normal direction handles so that your inclination with respect to the target orbit is zero. 
+<string id="397504"><![CDATA[我们希望你的轨道与目标的吻合，所以让我们开始这项工作。继续前进，在最近的节点（可能是升交点）添加机动节点并操纵常态向量或反常态向量，使得相对于目标轨道的倾角为零。
 
-You can mouse over the AN/DN line as it moves around the orbit to know the estimated inclination after the burn. If you can't seem to get exactly zero,  try moving the maneuver node itself a bit.
+您可以通过用鼠标拉动节点得到估计的AN / DN倾斜度。如果你无法得到完全为零的结果，尝试移动机动节点本身。
 
-Execute the burn when you're ready.]]></string>
-<string id="398660"><![CDATA[Transfer Orbit]]></string>
-<string id="398689"><![CDATA[Outstanding! Now your orbit and the stranded ship's are coplanar.
+当您准备好执行机动。
+]]></string>
+<string id="398660"><![CDATA[转移轨道]]></string>
+<string id="398689"><![CDATA[优秀！现在你的轨道和受困的飞船是共面。
 
-The next step is to generate a transfer orbit, much like you do when you're targeting another celestial body, which will transfer your ship from one orbit to the other. Create a maneuver node on your orbit (it doesn't really matter where since we're going to move it around anyway), and then extend the prograde vector until you get an intersecting orbit. Some of the other new indicators in target mode are the orange pair and pink pair of closest approach markers. Play with the prograde and the node position until you get the matching colored pair of these intersection nodes close to each other: ideally within a 5km range.]]></string>
-<string id="400081"><![CDATA[That looks nice. Now, execute that planned maneuver as precisely as possible. You will most likely not get it exactly as the maneuver node predicts. For better precision, I recommend you burn at full throttle until the delta-V counter on the node is down to about 10m/s, and then cut your engine. Then make a few short, low-throttle burns to fine-tune the intercept. ]]></string>
-<string id="400817"><![CDATA[Enroute to Rendezvous]]></string>
-<string id="400860"><![CDATA[Good! Now you're in a trajectory that will get you very close to your target. If you think you can get even closer, I suggest fine-tuning the encounter using your RCS thrusters instead of the main engine. However, no matter how close you get, you'll still be going too fast to actually do anything about it unless we do one more thing. And that is to step on the brakes at the right time.
+接下来的步骤是生成一个转移轨道，将你的飞船从一个轨道转移到另一个轨道，就像到另一个天体一样。在你的轨道上创建机动节点（其实在哪里的都无所谓，因为我们要移动它的），再拉顺行向量，直到你得到一个与目标相交的轨道。在路径中出现了一些新的指标：橙色和粉红色的与目标最接近的标记。调整顺行和节点的位置，直到你得到的颜色匹配彼此接近相交节点 ︰ 理想情况下在 5 公里范围内。]]></string>
+<string id="400081"><![CDATA[这看起来不错。现在，执行该计划的机动尽可能准确。作为机动节点预测，结果可能不是很准确。为了得到更好的精确度，我建议你用全油门燃烧，直到节点上的ΔV（DV）计数器下降到约10米/秒，然后再关闭你的引擎。然后做一个短短的，低油门燃烧微调拦截。 ]]></string>
+<string id="400817"><![CDATA[在交会的途中]]></string>
+<string id="400860"><![CDATA[好 ！现在你的轨迹将会让你非常接近你的目标。如果你想更接近目标，我建议用RCS 推进器微调而不要用主引擎来交会。当然，不管多么接近目标你的速度仍然太快，这是我们本来就是要做的事情，除非我们做另一件事。那就是在正确的时间踩刹车。
 
-That is of course just a figure of speech because there's no such thing as a brake pedal in spacecraft. For now, let's wait until we're about 15km away from the target. Once there, make sure that the navball is in "Target" mode so that the proper indicators will be displayed during the critical final maneuvers. If it isn't, click the velocimeter a few times until it is. While in target mode, turn toward the retrograde marker and burn at full throttle until your relative velocity drops below 50m/s.]]></string>
-<string id="402646"><![CDATA[Rendezvous - Full Stop]]></string>
-<string id="402691"><![CDATA[Okay, you are now pretty close to the target ship and you're moving slowly with respect to it, but we have to come to a full stop or we'll drift away.
+这当然只是一种比喻，因为把刹车踏板装在航天器上这种事没人会去做。现在，让我们等待我们与目标距离到 15 公里。确保导航球是在"目标"模式，以便在关键的最后机动期间指示器显示正确的指标。如果不是，请单击测速仪直到它是目标模式，转向逆行标记并用全速燃烧，直到你与目标的相对速度下降到低于 50 m/s。]]></string>
+<string id="402646"><![CDATA[交会 -完全停止]]></string>
+<string id="402691"><![CDATA[好了，你现在几乎是在慢慢靠近靶船，但我们要让飞船完全停止否则我们就会渐行渐远。
 
-First of all, leave map view now because you are close enough for the main display to be not just useful, but advantageous. Watch until you're about 5 km away from the target. Point your ship towards retrograde again, then press <color=]]></string>
-<string id="403469"><![CDATA[]</color> to turn on your RCS thrusters, and finally press and hold <color=]]></string>
-<string id="403621"><![CDATA[]</color> until your speed drops to zero.
+首先，现在离开地图视图，因为你足够接近所以用主要显示还是有利的。看着直到你与目标距离约 5 公里。再一次将你的飞船转向逆行，然后按 <color=]]></string>
+<string id="403469"><![CDATA[]</color> 打开您的RCS推进器，最后按下并一直按住 <color=]]></string>
+<string id="403621"><![CDATA[]</color> 直到你的速度下降到零。
 
-If RCS is taking too long, you can throttle up slightly, but just briefly or you'll over-burn!
+如果用RCS时间会太长，你可以稍微给点油门，但只是短暂的，否则你烧过头整个人都不好了！
 
-Oh, and one more thing: always remember to turn off your RCS thrusters when you're not using them, so their attempts to help you hold attitude do not accidentally push you off course.]]></string>
+哦，还有一件事：永远记住，当你不使用RCS推进器时请关掉它们，因为他们在试图帮助你保持姿态时会不小心把你推离航向。]]></string>
 <string id="404267"><![CDATA[beginApproach]]></string>
-<string id="404294"><![CDATA[Now we're not moving with respect to the target. Good. All that's left to do is to approach carefully.
+<string id="404294"><![CDATA[好，现在我们相对于目标不在移动。 剩下所要做的就是慢慢地接近。
 
-This time point your ship towards the target and thrust forward using your RCS. In this step, don't let your speed go beyond 10 m/s to make sure that you will be able to stop in time to prevent a collision. If you start drifting away, brake to a stop again and start the approach once more. Once you're closer than 100 meters we'll proceed.]]></string>
-<string id="405184"><![CDATA[This is what the Target icon looks like.]]></string>
-<string id="405265"><![CDATA[BRAKE! NOW!
+这个时候建议你用RCS来朝着目标推进。在这个步骤中，不要让你的速度超越10米/秒，以确保您能够及时制止，以避免发生碰撞。如果你开始渐行渐远，刹车停下来，并用相同的方法再试一次。一旦你接近100多米，我们将继续进行教程。]]></string>
+<string id="405184"><![CDATA[这目标的图标是什么样子。]]></string>
+<string id="405265"><![CDATA[刹车！ 现在！
 
- Sorry, I didn't mean to startle you. Now is a good time to deploy your docking port. Right click it and press the open shield button. Also, now that you're this close it's time to make a little adjustment. Right now you're targeting the whole ship, but we can get more precise than that. <color=]]></string>
-<string id="405885"><![CDATA[>Right-click</color> the target ship's docking port and set it as target. Note how the distance changed: the target port is used as the position for your indicators now. Also, <color=]]></string>
-<string id="406253"><![CDATA[>right-click</color> your own port and click the <color=]]></string>
-<string id="406366"><![CDATA[>Control from Here</color> button. Now the indicators are measuring themselves from one docking port to the other which will make this much easier.
+ 对不起，我不是故意要吓着你。现在是部署对接口的好时机。右键单击它，然后按部署按钮。此外，在做进一步亲密接触前我们还要在做一点调整。现在所定位的目标是一整艘飞船，但我们可以在更精确一点。<color=]]></string>
+<string id="405885"><![CDATA[>用鼠标右键单击</color> 目标飞船的对接口，并设置为目标。注意距离现在改变了：现在的目标端口是您的目标指标位置。 在用 <color=]]></string>
+<string id="406253"><![CDATA[>用鼠标右键单击</color> 你自己的端口并选择 <color=]]></string>
+<string id="406366"><![CDATA[>从这里控制</color> 按钮。现在各项测量指标对像更变为本飞船的对接端口与目标对接端口，使得对接变得更容易。
 
-Once that's all done, approach the target ship again, very slowly: the idea is to get both docking ports to line up and just barely touch.]]></string>
+一旦这么做了，再次非常缓慢的接近目标 ︰ 既排队停靠港口和勉强触摸。]]></string>
 <string id="406942"><![CDATA[conclusion2]]></string>
 <string id="406965"><![CDATA[Alignment]]></string>
-<string id="406984"><![CDATA[In order to get the docking ports to touch each other, you need to align your docking port to the other ship's. This basically means that you want your prograde vector and the target vector to overlap on the navball. There are a few measures which can help with that.
+<string id="406984"><![CDATA[为了能让对接端口互相接触，你需要调整您的对接端口与其他飞船的端口对齐。这基本意思就是希望导航球的顺行向量与目标向量重叠。有些工具可以提供帮助。
 
-- You can change the camera mode with <color=]]></string>
-<string id="407614"><![CDATA[]</color> to find one of your liking, I recommend the chase mode for this task.
+- 你可以用对接模式 <color=]]></string>
+<string id="407614"><![CDATA[]</color> 我建议要找到一个你喜欢的模式完成这项追逐任务。
 
-- Apart from staging mode, your HUD also has a docking mode, so press the docking mode button under the staging display on the lower left of the screen. What this does is change to an alternate control scheme, from rotation to translation, so that your <color=]]></string>
-<string id="408298"><![CDATA[]</color> keys will control translation and <color=]]></string>
-<string id="408401"><![CDATA[]</color> are up and down. It's a bit like controlling a Kerbal in EVA flight.
+-除了临时分段模式，您的 HUD 还有一个对接模式，在显示屏幕左下方的临时模式下面那个就是，按下它。这样就从旋转更改到平移另一个控制方案，以便您能用 <color=]]></string>
+<string id="408298"><![CDATA[]</color> 键控制平移和 <color=]]></string>
+<string id="408401"><![CDATA[]</color> 向上和向下。有点像控制 Kerbal宇航员EVA 。
 
-- Using docking mode isn't strictly necessary, since you can use the <color=]]></string>
-<string id="408715"><![CDATA[]</color> keys to translate in the normal staging mode as well. Use whichever mode works best for you. If you get confused, you can <color=]]></string>
-<string id="408995"><![CDATA[>View Key Bindings</color> at any time in the Pause menu.]]></string>
+-并不是必须使用对接模式的，因为您也可以使用 <color=]]></string>
+<string id="408715"><![CDATA[]</color> 键在临时模式下正常平移。你可以选择更适合你的模式。要记不住按键你随时都可以用 <color=]]></string>
+<string id="408995"><![CDATA[>查看按键绑定</color> 它在暂停菜单中。]]></string>
 <string id="409110"><![CDATA[conclusion3]]></string>
-<string id="409133"><![CDATA[Docking - Conclusion]]></string>
-<string id="409174"><![CDATA[However you decide to do it, the point is you have to get both docking ports aligned as closely as possible. Once they're about a Kerbal's height apart, you will see their built-in magnetic assist kick in, and they will attract each other to an actual dock.
+<string id="409133"><![CDATA[对接 - 总结]]></string>
+<string id="409174"><![CDATA[不管你打算用什么方式来做，关键还是你必须尽可能的对齐和接近两个对接端口。一旦距离足够接近，他们内置磁力辅助装置就会相互吸引到一起并自动锁紧基座。
 
-To get a better view, you might want to press <color=]]></string>
-<string id="409800"><![CDATA[]</color> multiple times to get Locked mode so your controls align with your view, or even go to internal view with <color=]]></string>
-<string id="410048"><![CDATA[]</color>.
+为了获得更好的视野，你可以需要按 <color=]]></string>
+<string id="409800"><![CDATA[]</color> 多次转换模式来帮助控制,甚至要去内部视图 <color=]]></string>
+<string id="410048"><![CDATA[]</color>。
 
-I'll leave you to do that. If an attempt doesn't go well, back away about a ship's length (to reset the magnetic assist) and try again. Outside of these tutorials, you can also use the quicksave and quickload feature <color=]]></string>
-<string id="410522"><![CDATA[]</color> keys to back up time for additional attempts. Keep in mind that this feature is not available in all difficulty settings, though.]]></string>
+我会让你自己来做这些。如果尝试几次对接都不顺利，可以先后退一艘船的长度距离 （重置磁力辅助），然后重试。在这些教程，您还可以使用 quicksave 和 quickload 的功能 <color=]]></string>
+<string id="410522"><![CDATA[]</color> 键用上一个时间备份再进行尝试。请记住，虽然这个功能很好，但不是在所有难度设置下都能用的。]]></string>
 <string id="410802"><![CDATA[conclusion4]]></string>
-<string id="410825"><![CDATA[Docking - End]]></string>
-<string id="410852"><![CDATA[Well done! Let me tell you, you just did one of the hardest things there is to do with spacecraft. Congrats!
+<string id="410825"><![CDATA[对接 - 完成]]></string>
+<string id="410852"><![CDATA[做得好!让我告诉你,对接宇宙飞船是你所做的最困难的事情之一。恭喜!
 
-Now, to conclude your rescue mission successfully you have two options. you can transfer fuel to the stranded ship, undock and leave them to their fate, I don't recommend it, but if you want to do that press <color=]]></string>
-<string id="411504"><![CDATA[]</color> + right click on the fuel tanks you'll be transferring to and from.
+现在，你的救援任务成功结束，你有两个选择。你可以把燃料转移到受困的飞船，取消停靠，并将它们的命运留给自己，但我不建议这样做，除非你希望新闻报道是这样的 <color=]]></string>
+<string id="411504"><![CDATA[]</color> +右键点击从你的油箱将油转移到目标。
 
-The other option is to transfer the crew to your ship, undock (right click the docking port to get this menu option), and take a road trip back to Kerbin. To move personnel, click on the stranded ship's capsule door and select the Kerbal(s) to transfer, one at a time, then select your own ship's pod. The cabin below the decoupler won't be surviving the return trip, it's below the decoupler!
+另一种选择是将船员转移到你的船，取消停靠（右键单击对接端口得到这个菜单选项），并带回到坎星。要移动的人员，请点击受困船的舱门口，并选择乘员转移（S），一次一个，然后选择你自己的飞船的指令舱。然后再入，记得将没用的分级分离！
 
-Each option has benefits and drawbacks. Let me know which one you chose when you're back on solid ground.]]></string>
+每个选择都有优点和缺点。我知道你会选择能回到坎星地面上那一个。]]></string>
 <string id="412664"><![CDATA[docking]]></string>
 <string id="412679"><![CDATA[Size3to2Adapter]]></string>
 <string id="412710"><![CDATA[rcsTankRadialLong]]></string>
@@ -9673,11 +9674,11 @@ SAS可以暂时激活（或暂时停用）按住 <color=]]></string>
 按下左下角的分段模式按钮，返回到分段控制模式。]]></string>
 <string id="541029"><![CDATA[flipOutPage]]></string>
 <string id="541052"><![CDATA[哇~失败了！]]></string>
-<string id="541083"><![CDATA[啊哦！你已经"失控"了 - you pointed your vessel too far away from the direction it was traveling, and the drag from the top of your vessel overpowered the lift and drag from your fins.
+<string id="541083"><![CDATA[啊哦！你已经"失控"了 - 你的飞船偏离航向太远了, 顶部的阻力阻止了飞船的升力。
 
-This means aerodynamic forces acted to keep pushing you further away from your velocity vector rather than acting to keep you aligned.
+也就是说现在的空气动力是持续推动你远离速度向量，而不是帮助你保持对齐。
 
-为了解决这个问题，再次配合你速度向量，如果你能对齐，然后燃烧直线上升。
+为了解决这个问题，你要再次对齐速度向量，如果你还能对齐，然后加速燃烧上升。
 
 但是你可能不会到达预期的高度，所以你可能需要重新开始这一课程。
 
@@ -9904,95 +9905,95 @@ Target Speed: ]]></string>
 <string id="574879"><![CDATA[ m/s ]]></string>
 <string id="574890"><![CDATA[munflight1lock]]></string>
 <string id="574919"><![CDATA[飞向月球 : 第一部分]]></string>
-<string id="574956"><![CDATA[Welcome to the first in a series of lessons designed to prepare you for flight in and around Kerbin's local system.
+<string id="574956"><![CDATA[欢迎来到了坎星星系飞行系列课程，课程的第一部分将讲解从一个星体飞往另一个星体的过程。
 
-I've been inspired by that famous work of Jules Kerman, "From Kerbin to the Mun." We'll take a leaf out of his book, and go one better by returning as well!
+受著名的Jules Kerman的启发，“来自坎星的Mun”。我们会把一片叶子从他的书中拿出来，然后再放一个更好的！
 
-In our first lesson we will be starting from LKO (Low Kerbin Orbit) and travelling to the Mun, ending in Low Munar Orbit. I'm going to assume you've completed the flight tutorials preceding this as well as Orbiting 101, but if not, you really should go do them first.
+在我们的第一课，我们会从LKO（低坎星轨道）启动并飞行到Mun，在Mun低环绕轨道结束。我会假设你已经完成了前面的飞行教程，以及绕行101飞行教程，如果没有，你真的应该先去完成他们。
 
-When you're ready to go, hit <color=]]></string>
+当你准备好了，点 <color=]]></string>
 <string id="576118"><![CDATA[explainTMI]]></string>
 <string id="576139"><![CDATA[转移轨道]]></string>
-<string id="576170"><![CDATA[An important part of flights between celestial objects is a transfer orbit, which basically means an orbit used to change between two orbits. In our case, the periapsis of our orbit will be very near to Kerbin, and the apoapsis will extend to just beyond the Mun's orbit. Interplanetary trajectories are much the same, but on a much larger scale.
+<string id="576170"><![CDATA[天体之间的飞行中的重要组成部分是转移轨道，该轨道用于从一个轨道改变到另一个轨道。在这里我们举个例子哈，如在非常接近坎星的轨道近拱点加速，将远拱点一直扩展到刚刚超越Mun的轨道，这样就是一个转移轨道了。星际间的转移也是大致相同的，只是距离范围更大。
 
-Now, press the <color=]]></string>
-<string id="576912"><![CDATA[]</color> key to go into the map view, so we can get an overview of Kerbin's local system.]]></string>
+现在，按 <color=]]></string>
+<string id="576912"><![CDATA[]</color> 键进入地图视图，在这里我们可以看到坎星本地系统（坎星与两个卫星形成的系统）的概述。]]></string>
 <string id="577094"><![CDATA[mapOpen1]]></string>
-<string id="577111"><![CDATA[To perform a successful transfer, you'll need to arrange for your ship and the target to arrive at the same place at the same time. 
+<string id="577111"><![CDATA[要执行成功转移，你就要学会控制飞船到达目标同一时间所在的地点。
 
-If you really know what you're doing you can calculate your own transfer orbit on the fly, or you could try eyeballing it. However, it's much easier to use maneuver nodes, so let's do that now.
+你可以试着盯着目标或许可以自己计算出转移轨道，如果你确定自己要这么做。可是，使用机动节点会更容易些，因此，让我们现在这样做。
 
 <color=]]></string>
-<string id="577785"><![CDATA[>Click</color> anywhere on your orbit, then click <color=]]></string>
-<string id="577900"><![CDATA[>Add Maneuver</color>.
+<string id="577785"><![CDATA[>点击</color> 轨道任意位置，然后单击 <color=]]></string>
+<string id="577900"><![CDATA[>添加机动节点</color>.
 
-Do note that when playing a career-mode game, maneuver nodes will not be immediately available; you will have some facility upgrading to do before you have access to them.]]></string>
+请注意，在职业生涯游戏模式中，你未对一些设施进行升级前机动节点功能无法使用。]]></string>
 <string id="578292"><![CDATA[mapOpen2]]></string>
-<string id="578309"><![CDATA[Maneuver Nodes]]></string>
-<string id="578338"><![CDATA[Maneuver nodes let you plan orbital maneuvers ahead of time, and most importantly, you can do so without wasting precious propellant.
+<string id="578309"><![CDATA[机动节点]]></string>
+<string id="578338"><![CDATA[机动节点可以让你提前规划轨道机动，最重要的是，这样做可以不用浪费宝贵的推进剂。
 
-As you can see, maneuver nodes have six handles: the green ones are prograde and retrograde, the purple ones normal and antinormal, and the blue ones are radial in and radial out.
+正如你所看到的，机动的节点有六个手柄：绿色的是顺行和逆行，在紫色的常态和反常态，蓝色的是向心和离心。
 
-I'm not going to go into detail about these right now because these are the same vectors on the navball you saw in the Orbiting 101 tutorial. For now, just remember that prograde and retrograde help you grow or shrink your orbit, and normal and antinormal help you tilt it.]]></string>
+我不打算进一步讲解这些细节，因为这些都是轨道飞行101教程里学过的。现在，只要记住改变轨道可以用：顺行和逆行能帮助你放大或缩小，用常态与反常态来帮你倾斜。]]></string>
 <string id="579518"><![CDATA[maneuver1]]></string>
-<string id="579537"><![CDATA[You can click and drag the different handles to see how a burn made in that direction, for that duration, would affect the resultant orbit.
+<string id="579537"><![CDATA[您可以单击并拖动不同的手柄，就能了解如何在该方向持续燃烧来改变并产生轨道的。
 
-In our particular case, we want to bring the apoapsis up just enough to intercept the Mun's orbit at a point around 45 degrees ahead of Mun's current position.
+我们希望把远拱点设到刚好在Mun当前位置的45度左右拦截轨道上。
 
-If your trajectory is correct, the orbit line will shift colors when it gets close to Mun. This indicates the point where your ship will transition from the influence of Kerbin's gravity to that of the Mun. The region in which the pull from that body's gravity is strongest is its "Sphere of Influence", or SOI. (In real life the gravitational influence of all planets and moons matters too.)]]></string>
+如果你的轨迹是正确的转移轨道，当它靠近Mun将改变颜色。这表示你的飞船在一个从坎星的引力范围到Mun的引力范围的过渡点上。把你从引力中拉出来的区域就是其"影响范围"或 SOI。（在现实生活中所有的行星和卫星的引力影响也很重要）。]]></string>
 <string id="580927"><![CDATA[maneuver2]]></string>
-<string id="580946"><![CDATA[Let's get to it then! With the handles showing (you might need to click on the node to make them appear), pull the prograde handle until your post-maneuver orbit reaches as high as that of the Mun. But going that high is not enough to achieve an actual encounter. As I said before, timing also matters. So you may also need to move the node itself until you get an intercept (SOI change) with the Mun. You can do this by clicking on the inner circle of the node and dragging it forward or back along the line of your current orbital path.
+<string id="580946"><![CDATA[咱们开始做吧 ！借助显示的手柄 （您可能需要单击节点使它们出现）， 拉顺行手柄，直到你机动后的轨道高过Mun。但是只有高不足以实现遭遇。正如我之前所说，时机也很重要。所以你可能还需要移动节点本身，直到你得到一个被Mun拦截的轨道 （SOI 变化），你可以这样做，点击节点内圈上并拖动它沿着当前的轨道向前或向后移动。
 
-Don't forget that you can zoom the camera back to see a wider region of space, and if you want to start the burn planning over, you can delete the maneuver node and create a new one from scratch.
+别忘了，可以缩放镜头看到一个更广泛的区域空间，如果你想要自己规划机动，你可以删除机动节点并创建一个新的从头开始。
 
-To delete a node, right-click the manuever node while it's open and then click on the red delete icon. You can also click on the next-orbit or previous-orbit buttons, if you want to move the node forward or back in time by a whole orbit. Very useful if it gets behind you by mistake!]]></string>
+若要删除一个节点，在机动节点打开状态下右键单击，然后点击红色的删除图标。如果你想要将整个的轨道节点的时间推迟或提前，你可以点击“+”下一轨道（增加一圈）或“-”上一轨道（减少一圈）的按钮。这个在你弥补错误时非常有用！]]></string>
 <string id="582988"><![CDATA[maneuversuccess]]></string>
-<string id="583019"><![CDATA[Warp to Maneuver]]></string>
-<string id="583052"><![CDATA[There we go! You've planned a trans-munar injection maneuver; your post-maneuver orbit will enter the Mun's sphere of influence.
+<string id="583019"><![CDATA[时间加速至机动点]]></string>
+<string id="583052"><![CDATA[我们出发去那里 ！你已经策划了一个跳跃机动;机动后你的轨道将进入Mun的影响范围。
 
-There are a few things to notice now, so bring up your NavBall. You will find a few indicators and displays that weren't there before you added the maneuver node. (We saw these during the Go For Orbit tutorial, too, if you remember, but allow me to refresh your memory).
+现在有几个事情需要注意，所以把你的导航球打开了。你会发现在你添加的机动节点之前，有些指示器和显示器是不存在的。（我们转移轨道中看到的这些与轨道教程里是一样的，如果你还记得，但请允许我唤醒你的记忆）。
 
-The bar on the right is a graphical depiction of the velocity change (delta-V for short) required to perform the burn you've plotted. Below that you will also see the approximate time necessary to make the maneuver and deplete that graphical display of the burn. A new timer also counts down to the moment your ship will reach the maneuver node. 
+在右边以图形方式显示的是执行本次策划燃烧所需要的速度变化量 (简称△V，也有人叫DV) 。在图形下面还将看到完成机动燃烧所需的大致时间。还有一个新的计时器以倒计时的方式显示飞船到达机动节的剩余时间。
 
-We can speed up time to get to the burn position faster by clicking any point on the orbit beyond the maneuver node and then clicking warp to next maneuver. Do that now.
+我们可以在超过机动点任意轨道位置点击，选择时间加速到节点，然后加速时间。现在就做。
 
-If for some reason your maneuver node gets messed up, or you delete it, just re-plot a new one. Since it's only a plan/simulation of a burn, you haven't lost anything.]]></string>
+如果由于某种原因你获取的机动节点搞砸了，你只须删除它，重新策划了一个新的就行了。因为它只是策划/模拟的燃烧，执行前你还没有丢失任何东西。]]></string>
 <string id="585230"><![CDATA[maneuverexecute]]></string>
-<string id="585261"><![CDATA[Maneuver Execution]]></string>
-<string id="585298"><![CDATA[We're getting close to maneuver time! There is one final step to take before performing the burn: you need to point your vessel down the planned vector, represented by the blue cross (or an arrow pointing to it).
+<string id="585261"><![CDATA[执行机动]]></string>
+<string id="585298"><![CDATA[我们正在接近机动时间！执行机动前最后一步：您需要将你的船头指向机动点向量，由蓝十字（或一个指向向量的箭头）表示。
 
-Once oriented you can worry about the burn. Here's an expert tip: look at the burn time estimate, halve it, and start your burn when the T-minus timer reads that number. If your burn time is 20 seconds, say, start burning at T-10s. This is because the maneuver node assumes an intantaneous burn, so if you average the burn around it it produces a more accurate orbit than if you only start burning at the time of the node so the average point is later.
+一旦对准你可以不用担心燃烧了。我这个专家给你个提示：看估计燃烧时间，并在计时器负数的读数只有估计时间的一半时开始你的烧伤。如，燃烧时间为20秒，也就开始在T-10S燃烧。因为机动节点只是假定了一个即时燃烧，所以如果你平均一下它将产生更精确的轨道，如果你只是在节点开始的时间燃烧就会比平均点晚。
 
-(Sometimes your estimated time will display N/A. An instant of full-thrust burn towards the manuever icon will reset this number without changing your current orbit enough to be a problem.)
+（有时候你的估计时间会显示N / A。这个不足以成为一个问题，只要全推力向着机动点图标燃烧将会不改变轨道的情况下重置数字。）
 
-In our example, applying this tip means you should start your burn about when the countdown timer reads T-40 seconds.]]></string>
+在我们的例子中，你应该在倒计时T－40S时开始执行你的机动。]]></string>
 <string id="587252"><![CDATA[executionsuccess]]></string>
-<string id="587285"><![CDATA[Trans-Munar Injection Complete!]]></string>
-<string id="587348"><![CDATA[Good work! But you may have noticed your actual orbit is not exactly the one you had planned. This is because real burns are never instantaneous. However, close enough is good enough, as long as the trajectory markers are showing that we got a Mun encounter pretty close to the one we wanted.
+<string id="587285"><![CDATA[转移入轨完成！]]></string>
+<string id="587348"><![CDATA[干得好！但是，你可能已经注意到实际的轨道和你策划的不完全一样。这是因为真正的机动燃烧是永远不会瞬间完成的。然而我们只要足够接近Mun就够用了。
 
-If you're not quite satisfied with your Munar intercept, you can still fine-tune it a bit by making small burns in various directions, but be careful not to overdo it. A counter-burn can undo a goof, but you still don't want to be wasting fuel.
+如果你不是很满意Mun的转移拦截，你仍然可以通过在各个方向的小机动进行微调，但要小心，不要过头。混日子的一个个反燃烧可以相互抵消，但你不想浪费燃料吧。
 
-Now we'll wait for you to be sucked up by the Mun's gravity. But since that can take around six hours, you'll probably want to use the "warp here" trick like we used before, or plain old time warp, to shorten the wait. Try warping to just inside the Mun's SOI.]]></string>
+现在，等待Mun的引力将我们吸过去。但需要大约六个小时的时间，你可能会想“加速时间到那里”像我们之前使用过的那个，或用普通时间加速，缩短等待。尝试加速到Mun的SOI。]]></string>
 <string id="588950"><![CDATA[transfersuccess2]]></string>
-<string id="588983"><![CDATA[Munar Orbit Insertion]]></string>
+<string id="588983"><![CDATA[Mun的轨道插入]]></string>
 <string id="589026"><![CDATA[transfersuccess2b]]></string>
 <string id="589061"><![CDATA[transfersuccess3]]></string>
-<string id="589094"><![CDATA[Now that you're not on an escape trajectory, try to get yourself into a reasonably circular orbit below at least ]]></string>
-<string id="589322"><![CDATA[m.
+<string id="589094"><![CDATA[既然你不是要进入逃逸轨道，就尝试让自己进入一个合理的环绕轨道]]></string>
+<string id="589322"><![CDATA[米
 
-Remember, you can use yet another maneuver node. If your periapsis is also higher than ]]></string>
-<string id="589506"><![CDATA[m, you'll need to lower your apoapsis first to make it your new periapsis, then burn at periapsis to lower the other end, too.]]></string>
-<string id="589760"><![CDATA[Tutorial Complete!]]></string>
-<string id="589797"><![CDATA[Good work! You're now in a stable, circular orbit around the Mun with a ship fully capable of landing. Capable of landing, anyway, after you decouple the transfer stage so that it's not in the way. (See To The Mun Part 2 for a tutorial on landing).
+记住，你可以使用另一个机动节点。如果你的近拱点也高于 ]]></string>
+<string id="589506"><![CDATA[米，你需要首先降低你的远拱点，然后到新的远拱点将另一端降低。]]></string>
+<string id="589760"><![CDATA[教程完成！]]></string>
+<string id="589797"><![CDATA[干得不错！你现在有一艘在Mun的稳定环绕轨道上，完全有能力降落到Mun的飞船。登陆与分离转移阶段不是本节课的内容。 （见的Mun第2部分，着陆的教程）。
 
-Today you've learnt how to use maneuver nodes to plan future orbits, set out to travel to another world, and parked in orbit around it. In our next lesson we'll cover the landing procedure, which I'm really looking forward to showing you.
+今天，你已经学会了如何使用机动节点，规划未来的轨道，出发旅行到另一个世界，并停在它周围的轨道上。在我们的下节课我们将讨论的着陆程序，我真的很期待向您展示。
 
-Landing on another body is a both exciting and terrifying experience, but for now I'm running late for lunch, so I will see you later.]]></string>
-<string id="591047"><![CDATA[You are now in the Mun's sphere of influence, and Mun's is the only gravity affecting the motion of your ship. But you're on an escape trajectory relative to the Mun, which means that you are moving too quickly to orbit the Mun. If we didn't do anything, you'd whiz on past it and "escape." You will need to slow below escape velocity (burn retrograde) at periapsis in order to be "captured" and insert into Munar orbit. Remember the Orbit 101 tutorial: it's best to change your apoapsis at periapsis, and capturing is effectively changing your apoapsis from something far beyond Mun's SOI to a height that never leaves Mun's SOI, so we will perform that maneuver at periapsis.
+降落在另一个星体上是一个既令人兴奋又恐怖的体验，但现在，我吃饭要迟到了，所以先走一步，希望下节课在见到你。]]></string>
+<string id="591047"><![CDATA[您现在在Mun的星体影响范围内，Mun只是影响了你的飞船运动重心。相对于Mun，你在一个逃逸轨道上，这意味着你正在一个快速绕开Mun引力并逃跑出去的轨迹上。如果我们现在不做任何事情，你会呼啸而过并“逃跑”。您需要在近拱将速度放慢至低于逃逸速度（燃烧逆行）才能被Mun“捕获”，并进入Mun环绕轨道。还记得轨道101教程：就是最好是在近拱点改变你的远拱点，降低远拱高度至Mun的引力范围内，并被有效地捕获，所以我们将在近拱执行机动。
 
-If your periapsis is hiding under the Mun's surface, that means you will crash unless you do something. You can fix this by creating a maneuver about half-way to the Mun (or even earlier), and then adjust either of the blue handles (radial in or radial out) to shift the periapsis to the altitude that you want it to be (say 50km). Execute that maneuver if necessary and we'll continue.]]></string>
-<string id="593179"><![CDATA[Unfortunately, rookie, you've passed through Mun's sphere of influence without achieving orbit. Try the tutorial again.]]></string>
-<string id="593419"><![CDATA[We'll be using a maneuver node again to perform the capture burn and insert into munar orbit: add a node at periapsis. Once you've started to execute your capture burn and your velocity is a bit lower than escape (you have a reasonable munar apoapsis, and therefore are in orbit and unlikely to escape by an errant thruster fire), we'll proceed.]]></string>
+如果你的拱点在Mun的表面之下隐藏，这意味着你会撞上地面，除非你就是要做这样的事情。您可以通过在到Mun的中途创建一个机动（甚至更早）解决这个问题，然后再调整蓝色手柄（向心或离心）将近拱转移到你希望的高度（50公里）。如果需要，执行该机动我们将继续。]]></string>
+<string id="593179"><![CDATA[很不幸，菜鸟，你已经通过Mun的影响范围但没有实现轨道转移。重新本教程再试一次。]]></string>
+<string id="593419"><![CDATA[我们将使用一个机动节点再次执行捕获机动并进入mun环绕轨道 ︰ 在拱点添加一个节点。一旦你已经开始执行捕获机动并且你的速度低于逃逸速度 （你有一个合理的 mun远拱点，因此在轨道上并不太可能出什么差错），我们会继续。]]></string>
 <string id="594111"><![CDATA[Current Eccentricity: ]]></string>
 <string id="594156"><![CDATA[ (Target: 0.8)]]></string>
 <string id="594185"><![CDATA[After Planned Manuever: None Found]]></string>
@@ -10240,11 +10241,11 @@ If your periapsis is hiding under the Mun's surface, that means you will crash u
 不知道怎样选择下一步？别担心;你可以在任何时候选择一个节点，有用的信息将显示在右窗格中。这包括它包含了哪些新部件，需要多少科学点去研究它。]]></string>
 <string id="623026"><![CDATA[whereDoesIt]]></string>
 <string id="623049"><![CDATA[这东西从哪里来？]]></string>
-<string id="623098"><![CDATA[Now, you're probably thinking to yourself, "This is all nice and jolly, but how do I get more science?"
+<string id="623098"><![CDATA[现在，你自己可能在想，“这是多么美好和快乐，但我如何获得更多的科学点？”
 
-You can get more by doing many things, such as gathering crew reports from regions your Kerbals visit, fulfilling some kinds of contracts, collecting samples from various locations, equipping your ships with parts for experiments (such as the Mystery Goo Containment Unit) and using them, etc. There are many possibilities, really.
+你可以做很多事情，比如收集来自坎星宇航员的地区报告，履行各种类的合同，从不同地点采集样品，用实验部件装备到飞船上进行实验（如神秘的粘液罐单元），还有其他方面的，很多，真的。
 
-Most of these actions are performed through "context menus" which are displayed when you right-click on various parts, and sometimes on Kerbals. Just keep in mind that your mission needs to transmit the results or survive a physical return to Kerbin in order for the raw data points to be converted into useful science.]]></string>
+大多数部件的操作行为都是通过在部件上单击鼠标右键，在弹出的菜单进行选择。请记住，你的任务需要将数据发送回坎星或安全回收飞船，得以将数据转换成有用的科学点。]]></string>
 <string id="624614"><![CDATA[situations]]></string>
 <string id="624635"><![CDATA[所有许多其他和我提到的活动。你可以跟踪记录以备将来参考。您可以通过单击左上角上的黄色按钮访问这些科学档案。
 
