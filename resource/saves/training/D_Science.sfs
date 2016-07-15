@@ -1,8 +1,8 @@
 GAME
 {
 	version = 1.0.0
-	Title = Science Basics
-	Description = In this tutorial Wernher von Kerman will walk you through the Kerbal Scientific Method, you will learn how experimentation works and why it's so cool!
+	Title = 科研基础操作
+	Description = 在本教程中Wernher von Kerman将引导您学习 Kerbal 的科研方法，同时您会认可实验工作是那么酷的一件事情 ！
 	Mode = CAREER
     // scene to load when starting this save.
 	scene = 5
