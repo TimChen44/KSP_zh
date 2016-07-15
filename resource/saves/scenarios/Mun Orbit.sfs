@@ -1,8 +1,8 @@
 GAME
 {
 	version = 1.1.0
-	Title = 登陆Mun
-	Description = Kerbal11任务飞船位于Mun低轨道。本次任务使用的飞船由两个对接的模块登陆舱、指令舱组成。登陆舱脱离指令舱，登陆Mun然后返回轨道，与指令舱交会对接之后，着陆器上升级将被丢弃，船员离开Mun轨道回家。
+	Title = Mun Orbit
+	Description = The Kerbal 11 Mission in low Mun Orbit. This mission is comprised of two docked vehicles, the Landing Module and the Command Module. The lander is undocked from the Command module, flies down to land, then returns to orbit where the Command Module will rendezvous and dock with it. After that, the lander is discarded and the crew leaves Mun orbit to return home. The crew forgot a heat shield, however, so if they want to live they'll need to use their ample propellant reserves to slow down when they get there...
 	Mode = SCENARIO
 	Status = 1
 	scene = 7
@@ -8280,27 +8280,6 @@ GAME
 				}
 			}
 		}
-	}
-	LoaderInfo
-	{
-		FPS v0.0.0.0 = False
-		FPS.dll = False
-		ModuleManager.2.6.21 v2.6.21.0 = False
-		KramaxAutoPilot v1.0.0.38403 / v1.0.0.0 = False
-		KramaxAutoPilot = False
-		Paul&Pauli = False
-		ModuleManager.2.6.21.dll = False
-		ModuleManager.ConfigCache = False
-		ModuleManager.ConfigSHA = False
-		ModuleManager.Physics = False
-		ModuleManager.TechTree = False
-		KerbalKonstructs v1.0.0.0 = False
-		KerbalKonstructs = False
-		Real Launch Sites = False
-		PlaneMode = False
-		EnhancedNavBall = False
-		AsteroidDay = False
-		Source = False
 	}
 	ROSTER
 	{
