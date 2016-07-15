@@ -1,8 +1,8 @@
 GAME
 {
 	version = 1.1.0
-	Title = Station One
-	Description = Space Station 1 is a small refueling outpost at low Kerbin orbit where ships can stop to fill up before leaving on interplanetary missions.
+	Title = 空间站一号
+	Description = 空间站一号是一个位于坎星低轨道的小型补给站，执行星际任务的飞船可以在这里临时停靠并获得补给。
 	linkURL = 
 	linkCaption = 
 	Mode = SCENARIO
