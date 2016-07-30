@@ -2,10 +2,16 @@
 # 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
 ################################################################################
 
-/src/DTSDebug
-/src/DTS_Addon/bin/Debug
-/src/DTS_Addon/obj/Debug
-/src/DTS_zh/bin/Debug
-/src/KSP_zh/bin/Debug
-/src/KSP_zh/obj/Debug
-/src/DTS_zh/obj/Debug
+./src/DTSDebug
+./src/DTS_Addon/bin/Debug
+./src/DTS_Addon/obj/Debug
+./src/DTS_zh/bin/Debug
+./src/KSP_zh/bin/Debug
+./src/KSP_zh/obj/Debug
+./src/DTS_zh/obj/Debug
+./src/DTS_Addon/bin/Release
+./src/DTS_Addon/obj/Release
+./src/DTS_zh/bin/Release
+./src/KSP_zh/bin/Release
+./src/KSP_zh/obj/Release
+./src/DTS_zh/obj/Release
