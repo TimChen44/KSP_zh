@@ -86,6 +86,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(68, 21);
             this.textBox1.TabIndex = 3;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label2
             // 
@@ -179,7 +180,6 @@
             this.button7.TabIndex = 2;
             this.button7.Text = "提取文本x64";
             this.button7.UseVisualStyleBackColor = true;
-            this.button7.Visible = false;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button8
@@ -191,7 +191,6 @@
             this.button8.TabIndex = 9;
             this.button8.Text = "汉化新版资源x64";
             this.button8.UseVisualStyleBackColor = true;
-            this.button8.Visible = false;
             this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button9
@@ -203,7 +202,6 @@
             this.button9.TabIndex = 10;
             this.button9.Text = "汉化资源x32->x64";
             this.button9.UseVisualStyleBackColor = true;
-            this.button9.Visible = false;
             this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button10
@@ -221,6 +219,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(521, 322);
+            this.Controls.Add(this.button7);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button8);
@@ -232,7 +231,6 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.button7);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);

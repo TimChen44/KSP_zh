@@ -68,63 +68,78 @@ namespace KSP_zh
 
         }
 
-        //public static void GetText64(string ksppath, string vel)
-        //{
+        public static void GetText64(string ksppath, string vel)
+        {
 
-        //    string s = "QXNzZW1ibHktQ1NoYXJwQXNzZW1ibHktQ1NoYXJw";
-        //    byte[] bytes = Convert.FromBase64String(s);
-        //    s = Encoding.UTF8.GetString(bytes, 0, bytes.Length);
-        //    System.Reflection.Assembly dll = System.Reflection.Assembly.LoadFile(ksppath + @"\KSP_x64_Data\Managed\Assembly-CSharp.dll");
-        //    Stream stream = dll.GetManifestResourceStream(s);
-        //    byte[] num = Getbyte(stream);
-
-
-        //    Encoding encoding2 = Encoding.Unicode;
-
-        //    StringBuilder en = new StringBuilder();
-        //    StringBuilder zh = new StringBuilder();
-        //    int count = 0;
-        //    int id = 0x1;
-
-        //    string temp = @"<string id=""{0}""><![CDATA[{1}]]></string>";
-        //    //<string id="1"><![CDATA[Detonator]]></string>
-
-        //    en.AppendLine("<en>");
-        //    zh.AppendLine("<zh>");
-
-        //    while (id < num.Length)
-        //    {
-        //        string strID = id.ToString();
-        //        count = num[id];
-        //        if (count == 0x80)
-        //        {
-        //            count = num[id + 1];
-        //            id += 1;
-        //        }
-        //        else if (count > 0x80)
-        //        {
-        //            count = (count & -129) << 8;
-        //            count |= num[id + 1];
-        //            id += 1;
-        //        }
-        //        string str1 = encoding2.GetString(num, id + 1, count);
-        //        en.AppendLine(string.Format(temp, strID, str1));
-        //        zh.AppendLine(string.Format(temp, strID, str1));
-        //        id = id + 1 + count;
-        //    }
-        //    en.AppendLine("</en>");
-        //    zh.AppendLine("</zh>");
-
-        //    if (System.IO.Directory.Exists(Application.StartupPath + "\\" + vel) == false)
-        //        System.IO.Directory.CreateDirectory(Application.StartupPath + "\\" + vel);
-
-        //    File.WriteAllText(Application.StartupPath + "\\" + vel + @"\zh_x64.xml", zh.ToString());
-        //    File.WriteAllText(Application.StartupPath + "\\" + vel + @"\en_x64.xml", en.ToString());
-
-        //    return;
+            string s = "QXNzZW1ibHktQ1NoYXJwJA==";
+            byte[] bytes = Convert.FromBase64String(s);
+            s = Encoding.UTF8.GetString(bytes, 0, bytes.Length);
+            System.Reflection.Assembly dll = System.Reflection.Assembly.LoadFile(ksppath + @"\KSP_x64_Data\Managed\Assembly-CSharp.dll");
+            Stream stream = dll.GetManifestResourceStream(s);
+            byte[] num = Getbyte(stream);
 
 
-        //}
+            Encoding encoding2 = Encoding.Unicode;
+
+            StringBuilder en = new StringBuilder();
+            StringBuilder zh = new StringBuilder();
+            int count = 0;
+            int id = 0x1;
+
+            string temp = @"<string id=""{0}""><![CDATA[{1}]]></string>";
+            //< string id = "1" >< ![CDATA[Detonator]] ></ string >
+
+            en.AppendLine("<en>");
+            zh.AppendLine("<zh>");
+
+            while (id < num.Length)
+            {
+                string strID = id.ToString();
+                if ((num[id] & 0x80) == 0)
+                {
+                    count = num[id];
+                    id++;
+                }
+                else if ((num[id] & 0x40) == 0)
+                {
+                    count = (num[id] & -129) << 8;
+                    count |= num[id + 1];
+                    id += 2;
+                }
+                else
+                {
+                    count = (num[id] & -193) << 0x18;
+                    count |= num[id + 1] << 0x10;
+                    count |= num[id + 2] << 8;
+                    count |= num[id + 3];
+                    id += 4;
+                }
+                string str1 = null;
+                if (count < 1)
+                {
+                    str1 = string.Empty;
+                }
+                else
+                {
+                    str1 = encoding2.GetString(num, id, count);
+                }
+                en.AppendLine(string.Format(temp, strID, str1));
+                zh.AppendLine(string.Format(temp, strID, str1));
+                id = id + 1 + count;
+            }
+            en.AppendLine("</en>");
+            zh.AppendLine("</zh>");
+
+            if (System.IO.Directory.Exists(Application.StartupPath + "\\" + vel) == false)
+                System.IO.Directory.CreateDirectory(Application.StartupPath + "\\" + vel);
+
+            File.WriteAllText(Application.StartupPath + "\\" + vel + @"\zh_x64.xml", zh.ToString());
+            File.WriteAllText(Application.StartupPath + "\\" + vel + @"\en_x64.xml", en.ToString());
+
+            return;
+
+
+        }
 
 
         internal static byte[] Getbyte(Stream steam)
