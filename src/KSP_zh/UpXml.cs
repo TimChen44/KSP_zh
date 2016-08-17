@@ -4,7 +4,6 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
-using System.Linq;
 using System.Windows.Forms;
 using System.Xml;
 using System.Diagnostics;
@@ -248,63 +247,63 @@ namespace KSP_zh
         //}
 
 
-        //public static void CreateXmlUP_x32to64(string ksppath, string vel, Label label)
-        //{
-        //    Dictionary<int, string> vel_en_x64 = LoadDict(vel + @"\en_x64.xml");
+        public static void CreateXmlUP_x32to64(string ksppath, string vel, Label label)
+        {
+            Dictionary<int, Item> vel_en_x64 = LoadDict(vel + @"\en_x64.xml");
 
-        //    Dictionary<int, string> vel_en = LoadDict(vel + @"\en.xml");
-        //    Dictionary<int, string> vel_zh = LoadDict(vel + @"\zh_up.xml");
+            Dictionary<int, Item> vel_en = LoadDict(vel + @"\en.xml");
+            Dictionary<int, Item> vel_zh = LoadDict(vel + @"\zh_up.xml");
 
-        //    StringBuilder en_up = new StringBuilder();
-        //    StringBuilder zh_up = new StringBuilder();
-        //    string temp = @"<string id=""{0}""><![CDATA[{1}]]></string>";
-        //    en_up.AppendLine("<en>");
-        //    zh_up.AppendLine("<zh>");
+            StringBuilder en_up = new StringBuilder();
+            StringBuilder zh_up = new StringBuilder();
+            string temp = @"<string id=""{0}""><![CDATA[{1}]]></string>";
+            en_up.AppendLine("<en>");
+            zh_up.AppendLine("<zh>");
 
-        //    StringBuilder en_lose = new StringBuilder();
-        //    StringBuilder zh_lose = new StringBuilder();
-        //    en_lose.AppendLine("<en>");
-        //    zh_lose.AppendLine("<zh>");
+            StringBuilder en_lose = new StringBuilder();
+            StringBuilder zh_lose = new StringBuilder();
+            en_lose.AppendLine("<en>");
+            zh_lose.AppendLine("<zh>");
 
-        //    int i = 0;
-        //    int count = vel_zh.Count;
-        //    foreach (var item in vel_zh)
-        //    {
-        //        i++;
-        //        label.Text = i.ToString() + "/" + count.ToString();
-        //        Application.DoEvents();
+            int i = 0;
+            int count = vel_zh.Count;
+            foreach (var item in vel_zh)
+            {
+                i++;
+                label.Text = i.ToString() + "/" + count.ToString();
+                Application.DoEvents();
 
-        //        var en = vel_en.AsParallel().First(x => x.Key == item.Key);
+                var en = vel_en.AsParallel().First(x => x.Key == item.Key);
 
-        //        var en_x64s = vel_en_x64.AsParallel().Where(x => x.Value == en.Value);
-        //        if (en_x64s.Count() == 1)
-        //        {//找到条目
-        //            var en_x64 = en_x64s.First();
+                var en_x64s = vel_en_x64.AsParallel().Where(x => x.Value.Text == en.Value.Text);
+                if (en_x64s.Count() == 1)
+                {//找到条目
+                    var en_x64 = en_x64s.First();
 
-        //            en_up.AppendLine(string.Format(temp, en_x64.Key, en_x64.Value));
-        //            zh_up.AppendLine(string.Format(temp, en_x64.Key, item.Value));
-        //        }
-        //        else
-        //        {//找不到条目
-        //            en_lose.AppendLine(string.Format(temp, item.Key, en.Value));
-        //            zh_lose.AppendLine(string.Format(temp, item.Key, item.Value));
-        //        }
+                    en_up.AppendLine(string.Format(temp, en_x64.Key, en_x64.Value.Text));
+                    zh_up.AppendLine(string.Format(temp, en_x64.Key, item.Value.Text));
+                }
+                else
+                {//找不到条目
+                    en_lose.AppendLine(string.Format(temp, item.Key, en.Value.Text));
+                    zh_lose.AppendLine(string.Format(temp, item.Key, item.Value.Text));
+                }
 
-        //    }
+            }
 
-        //    en_up.AppendLine("</en>");
-        //    zh_up.AppendLine("</zh>");
+            en_up.AppendLine("</en>");
+            zh_up.AppendLine("</zh>");
 
-        //    en_lose.AppendLine("</en>");
-        //    zh_lose.AppendLine("</zh>");
+            en_lose.AppendLine("</en>");
+            zh_lose.AppendLine("</zh>");
 
-        //    File.WriteAllText(Application.StartupPath + "\\" + vel + @"\en_up_x64.xml", en_up.ToString());
-        //    File.WriteAllText(Application.StartupPath + "\\" + vel + @"\zh_up_x64.xml", zh_up.ToString());
+            File.WriteAllText(Application.StartupPath + "\\" + vel + @"\en_up_x64.xml", en_up.ToString());
+            File.WriteAllText(Application.StartupPath + "\\" + vel + @"\zh_up_x64.xml", zh_up.ToString());
 
-        //    File.WriteAllText(Application.StartupPath + "\\" + vel + @"\en_lose_x64.xml", en_lose.ToString());
-        //    File.WriteAllText(Application.StartupPath + "\\" + vel + @"\zh_lose_x64.xml", zh_lose.ToString());
+            File.WriteAllText(Application.StartupPath + "\\" + vel + @"\en_lose_x64.xml", en_lose.ToString());
+            File.WriteAllText(Application.StartupPath + "\\" + vel + @"\zh_lose_x64.xml", zh_lose.ToString());
 
-        //}
+        }
 
         public static Dictionary<int, Item> LoadDict(string xmlPath)
         {

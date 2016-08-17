@@ -12,7 +12,7 @@ namespace KSP_zh
 {
     public partial class Form1 : Form
     {
-        static string KSPPath = @"C:\Program Files (x86)\Steam\SteamApps\common\Kerbal Space Program";
+        static string KSPPath = @"E:\SteamLibrary\SteamApps\common\Kerbal Space Program";
         static string vel = "0.0";
 
         public Form1()
@@ -99,28 +99,33 @@ namespace KSP_zh
 
         private void button9_Click(object sender, EventArgs e)
         {
-            ////if (oldvel.Text == "")
-            ////{
-            ////    MessageBox.Show("比对版本不能为空");
-            ////    return;
-            ////}
-            //vel = textBox1.Text;
-            //UpXml.CreateXmlUP_x32to64(KSPPath, vel, label4);
+            if (oldvel.Text == "")
+            {
+                MessageBox.Show("比对版本不能为空");
+                return;
+            }
+            vel = textBox1.Text;
+            UpXml.CreateXmlUP_x32to64(KSPPath, vel, label4);
 
-            //MessageBox.Show("OK");
+            MessageBox.Show("OK");
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-            //ExtractText.GetText64(KSPPath, vel);
-            //// ExtractCfg.Extract(KSPPath, vel);
-            //MessageBox.Show("OK");
+            ExtractText.GetText64(KSPPath, vel);
+            ExtractCfg.Extract(KSPPath, vel);
+            MessageBox.Show("OK");
         }
 
         private void button10_Click(object sender, EventArgs e)
         {
             UpXml.GetZH();
             MessageBox.Show("OK");
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
