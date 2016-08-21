@@ -1548,7 +1548,7 @@ FX Scale: ]]></string>
 <string id="56929"><![CDATA[Dismiss Forward]]></string>
 <string id="56960"><![CDATA[Dismiss Back]]></string>
 <string id="56985"><![CDATA[Simple]]></string>
-<string id="56998"><![CDATA[进展]]></string>
+<string id="56998" noT="1"><![CDATA[Advanced]]></string>
 <string id="57015"><![CDATA[In]]></string>
 <string id="57020"><![CDATA[Out]]></string>
 <string id="57027"><![CDATA[UIAdditional]]></string>
@@ -4429,7 +4429,7 @@ Retracted skin max temp: ]]></string>
 <string id="165140"><![CDATA[_NotSun]]></string>
 <string id="165155"><![CDATA[[PartTestConstraint]: Error parsing type ]]></string>
 <string id="165238"><![CDATA[ in constraint for ModuleTestSubject.]]></string>
-<string id="165313"><![CDATA[test]]></string>
+<string id="165313" noT="1"><![CDATA[test]]></string>
 <string id="165322"><![CDATA[[PartTestConstraint]: Error parsing value of type repeatability, value =  ]]></string>
 <string id="165472"><![CDATA[body]]></string>
 <string id="165481"><![CDATA[situationMask]]></string>
@@ -5733,7 +5733,7 @@ Burn time: ]]></string>
 <string id="225347"><![CDATA[notes]]></string>
 <string id="225358"><![CDATA[situation]]></string>
 <string id="225377"><![CDATA[uniqueID]]></string>
-<string id="225394"><![CDATA[haul]]></string>
+<string id="225394" noT="1"><![CDATA[haul]]></string>
 <string id="225403"><![CDATA[repeatability]]></string>
 <string id="225430"><![CDATA[ in constraint for Part Test Contract.]]></string>
 <string id="225507"><![CDATA[tested]]></string>
@@ -5834,15 +5834,15 @@ Spd: ]]></string>
 <string id="229602"><![CDATA[finalSituation]]></string>
 <string id="229631"><![CDATA[vessel]]></string>
 <string id="229644"><![CDATA[FirstLaunch]]></string>
-<string id="229667"><![CDATA[We want you to ]]></string>
-<string id="229698"><![CDATA[ the ]]></string>
-<string id="229709"><![CDATA[Haul ]]></string>
+<string id="229667"><![CDATA[我们希望你 ]]></string>
+<string id="229698"><![CDATA[ 这个 ]]></string>
+<string id="229709"><![CDATA[搭载 ]]></string>
 <string id="229720"><![CDATA[Haul Complete! This will help us a great deal. Thanks!]]></string>
 <string id="229829"><![CDATA[测试完成!我们得到了很好的数据.十分感谢!]]></string>
 <string id="229930"><![CDATA[to the Launch Site]]></string>
 <string id="229967"><![CDATA[当处于发射台]]></string>
-<string id="230004"><![CDATA[into flight above ]]></string>
-<string id="230041"><![CDATA[当在以下星球飞行:]]></string>
+<string id="230004"><![CDATA[当在以下星球飞行：]]></string>
+<string id="230041"><![CDATA[当在以下星球飞行: ]]></string>
 <string id="230072"><![CDATA[to solid ground on ]]></string>
 <string id="230111"><![CDATA[to the surface of ]]></string>
 <string id="230148"><![CDATA[当降落于以下星球:]]></string>
@@ -6612,7 +6612,7 @@ Spd: ]]></string>
 <string id="280467"><![CDATA[thermometer]]></string>
 <string id="280490"><![CDATA[sensorThermometer]]></string>
 <string id="280525"><![CDATA[Atmospheric Survey Definition]]></string>
-<string id="280584"><![CDATA[atmospheric]]></string>
+<string id="280584"><![CDATA[大气]]></string>
 <string id="280607"><![CDATA[abnormalities]]></string>
 <string id="280634"><![CDATA[Barometer Survey Objective]]></string>
 <string id="280687"><![CDATA[barometerScan]]></string>
@@ -6906,13 +6906,13 @@ Spd: ]]></string>
 <string id="297284"><![CDATA[on its own orbit around the sun.]]></string>
 <string id="297349"><![CDATA[StationContract]]></string>
 <string id="297380"><![CDATA[附近]]></string>
-<string id="297393"><![CDATA[Conduct a focused ]]></string>
-<string id="297430"><![CDATA[ survey of ]]></string>
+<string id="297393"><![CDATA[集中开展 ]]></string>
+<string id="297430"><![CDATA[ 调查，地点 ]]></string>
 <string id="297453"><![CDATA[Conduct ]]></string>
 <string id="297470"><![CDATA[ surveys of ]]></string>
 <string id="297495" noT="2"><![CDATA[survey]]></string>
 <string id="297508"><![CDATA[我们需要测试我们新获得的科技,来此一次严格的测试吧,去]]></string>
-<string id="297656"><![CDATA[. Go to the designated test site and gather some ]]></string>
+<string id="297656"><![CDATA[。前往指定的测试地点，并收集一些 ]]></string>
 <string id="297755"><![CDATA[ has detected some ]]></string>
 <string id="297794"><![CDATA[ to the ]]></string>
 <string id="297811"><![CDATA[. Head in that direction and follow up with a series of ]]></string>
@@ -7858,7 +7858,7 @@ Spd: ]]></string>
 <string id="336051"><![CDATA[<color=orange>没有足够的科学点研究此节点.</color>]]></string>
 <string id="336178"><![CDATA[[RDTech]: 节点需要的科学点超过限制.]]></string>
 <string id="336263"><![CDATA[<color=orange>不能研究技术超过 ]]></string>
-<string id="336360"><![CDATA[这个等级的科研点.</color>]]></string>
+<string id="336360"><![CDATA[个科研点的技术。</color>]]></string>
 <string id="336423"><![CDATA[[RDTech]: 该科技已被解锁]]></string>
 <string id="336494"><![CDATA[hideEmpty]]></string>
 <string id="336513"><![CDATA[TechTree]]></string>
@@ -8063,7 +8063,7 @@ Cost: \F ]]></string>
 <string id="345279"><![CDATA[ Recovery Dialog Handler]]></string>
 <string id="345328"><![CDATA[科研报告来自<i>]]></string>
 <string id="345375"><![CDATA[</i>]]></string>
-<string id="345384"><![CDATA[<i>的任务报告]]></string>
+<string id="345384"><![CDATA[<i>任务报告来自：]]></string>
 <string id="345431"><![CDATA[MissionSummaryDialog]]></string>
 <string id="345472"><![CDATA[[Mission Summary Dialog]: 正在跳过 ]]></string>
 <string id="345543"><![CDATA[因为只有碎片.]]></string>
@@ -11907,14 +11907,14 @@ Never]]></string>
 <string id="698423"><![CDATA[label_description]]></string>
 <string id="698458"><![CDATA[RDDropDownList OnTrue]]></string>
 <string id="698501"><![CDATA[没有关于此技术的资料]]></string>
-<string id="698580"><![CDATA[>Researched</color>]]></string>
+<string id="698580"><![CDATA[>已研究</color>]]></string>
 <string id="698619"><![CDATA[>© ]]></string>
 <string id="698626"><![CDATA[
 
-无法研发技术通过 ]]></string>
+设施等级太低无法研究超过 ]]></string>
 <string id="698699"><![CDATA[
 
-Technology has unresearched requirements.</color>]]></string>
+必要技术妹有研究。</color>]]></string>
 <string id="698802"><![CDATA[RESEARCHED]]></string>
 <string id="698823"><![CDATA[RESEARCHABLE]]></string>
 <string id="698848"><![CDATA[FADED]]></string>
