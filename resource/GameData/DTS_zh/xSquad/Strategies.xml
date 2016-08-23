@@ -55,7 +55,7 @@
   <Config name="RecoveryTransponders">
 
     <Values>
-      <Value name="title"><![CDATA[回收定位]]></Value>
+      <Value name="title"><![CDATA[定位回收]]></Value>
       <Value name="desc"><![CDATA[远距离回收的成本太贵了,如果我们在零件上 加上定位装置,应该能够提高不少回收价值,不 过别忘了,这些装置也不便宜,你看着办吧.]]></Value>
     </Values>
   </Config>
@@ -67,10 +67,15 @@
     </Values>
   </Config>
   <Config name="researchIPsellout">
-
     <Values>
       <Value name="title"><![CDATA[出售资产]]></Value>
       <Value name="desc"><![CDATA[瘦死的骆驼比马大,无论如何我们还是有点底 子的.把那些旧的罐子喷子或者外太空带回来 的不明物体拿出来,我相信我们可以从一些大 的机构或集团卖一个好价钱.]]></Value>
+    </Values>
+  </Config>
+  <Config name="LeadershipInitiative">
+    <Values>
+        <Value name="title"><![CDATA[领导项目]]></Value>
+        <Value name="desc"><![CDATA[为推动航天事业持续发展、争取公众的关心和支持，我们计划与学术界合作以出让部分研究成果的形式筹集资金实现非核心工程项目外包，集中精力攻关核心问题。]]></Value>
     </Values>
   </Config>
 </Configs>
