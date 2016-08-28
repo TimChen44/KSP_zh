@@ -1530,14 +1530,14 @@ FX Scale: ]]></string>
 <string id="55773"><![CDATA[Offset: Local]]></string>
 <string id="55800"><![CDATA[Rotation: Absolute]]></string>
 <string id="55837"><![CDATA[Rotation: Local]]></string>
-<string id="55868"><![CDATA[Select a set of two or more parts to re-root...]]></string>
-<string id="55963"><![CDATA[Select a part as the new root]]></string>
+<string id="55868"><![CDATA[选择一组两个或更多个组件re-root...]]></string>
+<string id="55963"><![CDATA[选择一个组件作为新的基础]]></string>
 <string id="56022"><![CDATA[[EditorLogic]: Selected Part was lost for unknown reasons! This is possibly unwanted behaviour.]]></string>
 <string id="56214"><![CDATA[选择一个组件调整偏移量]]></string>
 <string id="56281"><![CDATA[选择一个组件进行旋转]]></string>
 <string id="56328"><![CDATA[<color=orange>无法对单个组件使用改变根组件工具</color>]]></string>
 <string id="56458"><![CDATA[<color=orange>没有当前选中组件可以有效附着的其他组件</color>]]></string>
-<string id="56620"><![CDATA[Select a part to Place]]></string>
+<string id="56620"><![CDATA[选择组件放置于]]></string>
 <string id="56665"><![CDATA[mk1pod]]></string>
 <string id="56678"><![CDATA[rootPartsOnly]]></string>
 <string id="56705"><![CDATA[无法作为第一个部件]]></string>
@@ -2880,8 +2880,8 @@ Ext Temp: ]]></string>
 <string id="103567"><![CDATA[超强连接点]]></string>
 <string id="103604"><![CDATA[无坠落伤害]]></string>
 <string id="103635"><![CDATA[忽视最高温度]]></string>
-<string id="103680"><![CDATA[Infinite Propellant]]></string>
-<string id="103719"><![CDATA[Infinite Electricity]]></string>
+<string id="103680"><![CDATA[无限推进剂]]></string>
+<string id="103719"><![CDATA[无限电力]]></string>
 <string id="103760"><![CDATA[地图可见生物群落]]></string>
 <string id="103803"><![CDATA[允许在编辑器中部件剪切 [Bug Hazard!]]]></string>
 <string id="103892"><![CDATA[不检查部件构架连接点强度]]></string>
@@ -2915,7 +2915,7 @@ Ext Temp: ]]></string>
 <string id="105194"><![CDATA[Max Progress]]></string>
 <string id="105219"><![CDATA[All game progression has been fully completed.]]></string>
 <string id="105312"><![CDATA[Early game progression on ]]></string>
-<string id="105365"><![CDATA[ has been completed.]]></string>
+<string id="105365"><![CDATA[已经完成.]]></string>
 <string id="105406"><![CDATA[Progress modifications are not available at this time.]]></string>
 <string id="105515"><![CDATA[_ResourceMap]]></string>
 <string id="105540"><![CDATA[Ecc: ]]></string>
@@ -3546,7 +3546,7 @@ bitmask: ]]></string>
 <string id="129149"><![CDATA[OpenURL called for ]]></string>
 <string id="129188"><![CDATA[confirmQuitDialog]]></string>
 <string id="129223"><![CDATA[真的要退出吗?]]></string>
-<string id="129248"><![CDATA[Quit]]></string>
+<string id="129248"><![CDATA[退出]]></string>
 <string id="129257"><![CDATA[PlayAmbienceLoop]]></string>
 <string id="129290"><![CDATA[ x]]></string>
 <string id="129295"><![CDATA[ Beta]]></string>
@@ -3873,7 +3873,7 @@ Looking for ]]></string>
 <string id="142866"><![CDATA[') 'size' 值格式不正确]]></string>
 <string id="142937"><![CDATA[method]]></string>
 <string id="142950"><![CDATA[') 'method'值格式不正确]]></string>
-<string id="143025"><![CDATA[ElectricCharge]]></string>
+<string id="143025"><![CDATA[电力]]></string>
 <string id="143054"><![CDATA[Resource System Error: Resource id ]]></string>
 <string id="143125"><![CDATA[不存在于部件]]></string>
 <string id="143172"><![CDATA[Cannot add an InternalPart:ConfigNode contains no InternalPart name]]></string>
@@ -4051,7 +4051,7 @@ Retracted skin max temp: ]]></string>
 <string id="149835"><![CDATA[RCS: Enable Staging]]></string>
 <string id="149874"><![CDATA[RCS: Disable Staging]]></string>
 <string id="149915"><![CDATA[RCSthruster]]></string>
-<string id="149938"><![CDATA[MonoPropellant]]></string>
+<string id="149938"><![CDATA[Mono推进剂]]></string>
 <string id="149967"><![CDATA[fx_gasJet_white]]></string>
 <string id="149998"><![CDATA[rcsGroup]]></string>
 <string id="150015"><![CDATA[STAGE_PRIORITY_FLOW]]></string>
@@ -4644,8 +4644,7 @@ Time w/]]></string>
 <string id="173572"><![CDATA[可收集的数据: ]]></string>
 <string id="173609"><![CDATA[自行可动的: ]]></string>
 <string id="173634"><![CDATA[可重设的: ]]></string>
-<string id="173659"><![CDATA[
-Reset requires: ]]></string>
+<string id="173659"><![CDATA[重设需求: ]]></string>
 <string id="173694"><![CDATA[重设花费: ]]></string>
 <string id="173719"><![CDATA[Experiment: Enable Staging]]></string>
 <string id="173772"><![CDATA[Experiment: Disable Staging]]></string>
@@ -5473,8 +5472,8 @@ Burn time: ]]></string>
 <string id="215049"><![CDATA[0.0000]]></string>
 <string id="215062"><![CDATA[{0}]]></string>
 <string id="215069"><![CDATA[({0} avg.)]]></string>
-<string id="215090"><![CDATA[Scanning mode: ]]></string>
-<string id="215121"><![CDATA[Scanning resource: ]]></string>
+<string id="215090"><![CDATA[扫描模式: ]]></string>
+<string id="215121"><![CDATA[扫描资源: ]]></string>
 <string id="215160"><![CDATA[OverlayGenerator]]></string>
 <string id="215193"><![CDATA[No survey data available for {0}]]></string>
 <string id="215258"><![CDATA[OverlaySetup]]></string>
@@ -5608,14 +5607,14 @@ Burn time: ]]></string>
 <string id="221352"><![CDATA[处罚 ]]></string>
 <string id="221375"><![CDATA[资金从玩家以惩罚任务失败]]></string>
 <string id="221454"><![CDATA[声望]]></string>
-<string id="221543"><![CDATA[A new contract has been offered by ]]></string>
-<string id="221614"><![CDATA[A contract offer has been withdrawn by ]]></string>
+<string id="221543"><![CDATA[新的合同已经提供，来自 ]]></string>
+<string id="221614"><![CDATA[一个合同已经被撤回因为]]></string>
 <string id="221693"><![CDATA[Our contract for ]]></string>
-<string id="221728"><![CDATA[ has been cancelled: ]]></string>
-<string id="221771"><![CDATA[We have accepted a contract offer from ]]></string>
-<string id="221850"><![CDATA[ has expired: ]]></string>
-<string id="221879"><![CDATA[We have failed our contract for ]]></string>
-<string id="221944"><![CDATA[We have completed a contract for ]]></string>
+<string id="221728"><![CDATA[已经取消: ]]></string>
+<string id="221771"><![CDATA[我们已经接受了合同从 ]]></string>
+<string id="221850"><![CDATA[已过期: ]]></string>
+<string id="221879"><![CDATA[我们搞砸了合同：]]></string>
+<string id="221944"><![CDATA[我们完成了合同：]]></string>
 <string id="222011"><![CDATA[<color=#B4D455>£  ]]></string>
 <string id="222048"><![CDATA[  </color>]]></string>
 <string id="222069"><![CDATA[<color=#6DCFF6>© ]]></string>
@@ -5649,10 +5648,10 @@ Burn time: ]]></string>
 <string id="222652"><![CDATA[   </color>]]></string>
 <string id="222675"><![CDATA[<color=#B4D455>£  -]]></string>
 <string id="222714"><![CDATA[<color=#E0D503>¡ -]]></string>
-<string id="222751"><![CDATA[Advance]]></string>
-<string id="222766"><![CDATA[完成后	]]></string>
-<string id="222787"><![CDATA[Failure]]></string>
-<string id="222802"><![CDATA[截止日期]]></string>
+<string id="222751"><![CDATA[提前奖励]]></string>
+<string id="222766"><![CDATA[完成奖励]]></string>
+<string id="222787"><![CDATA[失败惩罚]]></string>
+<string id="222802"><![CDATA[超期惩罚]]></string>
 <string id="222817"><![CDATA[<color=#E0D503>¡-]]></string>
 <string id="222852"><![CDATA[<b><color=#]]></string>
 <string id="222875"><![CDATA[:</color></b> ]]></string>
@@ -5833,13 +5832,13 @@ Spd: ]]></string>
 <string id="229636"><![CDATA[vessel]]></string>
 <string id="229649"><![CDATA[FirstLaunch]]></string>
 <string id="229672"><![CDATA[我们希望你 ]]></string>
-<string id="229703"><![CDATA[ 这个 ]]></string>
+<string id="229703"><![CDATA[这个]]></string>
 <string id="229714"><![CDATA[搭载 ]]></string>
 <string id="229725"><![CDATA[Haul Complete! This will help us a great deal. Thanks!]]></string>
 <string id="229834"><![CDATA[测试完成!我们得到了很好的数据.十分感谢!]]></string>
 <string id="229935"><![CDATA[to the Launch Site]]></string>
 <string id="229972"><![CDATA[当处于发射台]]></string>
-<string id="230009"><![CDATA[当在以下星球飞行 ]]></string>
+<string id="230009"><![CDATA[into flight above ]]></string>
 <string id="230046"><![CDATA[当在以下星球飞行:]]></string>
 <string id="230077"><![CDATA[to solid ground on ]]></string>
 <string id="230116"><![CDATA[to the surface of ]]></string>
@@ -6581,7 +6580,7 @@ Spd: ]]></string>
 <string id="279355"><![CDATA[ReputationMultiplier]]></string>
 <string id="279396"><![CDATA[The base reputation reward per waypoint]]></string>
 <string id="279475"><![CDATA[Crew Report Survey Objective]]></string>
-<string id="279532"><![CDATA[crewReport]]></string>
+<string id="279532"><![CDATA[舱内报告]]></string>
 <string id="279553"><![CDATA[获取一份舱内报告]]></string>
 <string id="279590"><![CDATA[report]]></string>
 <string id="279603"><![CDATA[CrewRequired]]></string>
@@ -6598,7 +6597,7 @@ Spd: ]]></string>
 <string id="280014"><![CDATA[seismicScan]]></string>
 <string id="280037"><![CDATA[读取加速度数值]]></string>
 <string id="280080"><![CDATA[Tech]]></string>
-<string id="280089"><![CDATA[sensorAccelerometer]]></string>
+<string id="280089"><![CDATA[引力传感器]]></string>
 <string id="280128"><![CDATA[Technology research required to appear]]></string>
 <string id="280205"><![CDATA[Temperature Survey Definition]]></string>
 <string id="280264"><![CDATA[temperature]]></string>
@@ -6626,17 +6625,17 @@ Spd: ]]></string>
 <string id="281088"><![CDATA[gravimetric]]></string>
 <string id="281111"><![CDATA[anomalies]]></string>
 <string id="281130"><![CDATA[Gravioli Detector Survey Objective]]></string>
-<string id="281199"><![CDATA[gravityScan]]></string>
+<string id="281199"><![CDATA[引力检测]]></string>
 <string id="281222"><![CDATA[记录重力焦点]]></string>
 <string id="281277"><![CDATA[gravity]]></string>
 <string id="281292"><![CDATA[sensorGravimeter]]></string>
 <string id="281325"><![CDATA[PART_REQUEST]]></string>
 <string id="281350"><![CDATA[A potential science lab request for outposts]]></string>
-<string id="281439"><![CDATA[Trivial]]></string>
+<string id="281439"><![CDATA[不重要的]]></string>
 <string id="281454"><![CDATA[Easy Contracts]]></string>
-<string id="281483"><![CDATA[Significant]]></string>
+<string id="281483"><![CDATA[重大]]></string>
 <string id="281506"><![CDATA[Medium Contracts]]></string>
-<string id="281539"><![CDATA[Exceptional]]></string>
+<string id="281539"><![CDATA[优秀]]></string>
 <string id="281562"><![CDATA[Hard Contracts]]></string>
 <string id="281591"><![CDATA[Article]]></string>
 <string id="281606"><![CDATA[Article (A/An) to be used prior to part description]]></string>
@@ -6831,16 +6830,16 @@ Spd: ]]></string>
 <string id="291946"><![CDATA[deliverySituation]]></string>
 <string id="291981"><![CDATA[probe]]></string>
 <string id="291992"><![CDATA[Position ]]></string>
-<string id="292011"><![CDATA[ in an adjusted orbit of ]]></string>
+<string id="292011"><![CDATA[调整后的轨道位于 ]]></string>
 <string id="292062"><![CDATA[把一颗卫星放到赤道轨道位于 ]]></string>
 <string id="292153"><![CDATA[把一颗卫星放到极地轨道位于]]></string>
-<string id="292232"><![CDATA[Position satellite into a ]]></string>
+<string id="292232"><![CDATA[调整卫星加入 ]]></string>
 <string id="292285"><![CDATA[ network around ]]></string>
 <string id="292318"><![CDATA[ into a ]]></string>
 <string id="292335"><![CDATA[控制卫星位置于]]></string>
 <string id="292384"><![CDATA[环绕于]]></string>
-<string id="292413"><![CDATA[Position satellite into a tundra network around ]]></string>
-<string id="292510"><![CDATA[ into a tundra network around ]]></string>
+<string id="292413"><![CDATA[调整卫星加入苔原网络环绕 ]]></string>
+<string id="292510"><![CDATA[加入苔原网络环绕 ]]></string>
 <string id="292571"><![CDATA[把一颗卫星放到苔原轨道位于]]></string>
 <string id="292660"><![CDATA[控制卫星位置于]]></string>
 <string id="292705"><![CDATA[轨道于]]></string>
@@ -6852,34 +6851,34 @@ Spd: ]]></string>
 <string id="292877"><![CDATA[Stationary ]]></string>
 <string id="292900"><![CDATA[Synchronous ]]></string>
 <string id="292925"><![CDATA[satellites]]></string>
-<string id="292946"><![CDATA[We have new plans for ]]></string>
-<string id="292991"><![CDATA[. We need you to move it into a nearby orbit.]]></string>
+<string id="292946"><![CDATA[我们有新的计划关于 ]]></string>
+<string id="292991"><![CDATA[.我们需要您将它移动到附近的轨道.]]></string>
 <string id="293082"><![CDATA[我们要你按照说明制造一颗卫星并发射到赤道轨道环绕]]></string>
 <string id="293286"><![CDATA[[我们要你按照说明制造一颗卫星并发射到极地轨道环绕]]></string>
-<string id="293478"><![CDATA[We see an opportunity on ]]></string>
-<string id="293529"><![CDATA[ to utilize existing assets to start building a ]]></string>
-<string id="293626"><![CDATA[ satellite network.]]></string>
-<string id="293665"><![CDATA[We noticed that ]]></string>
+<string id="293478"><![CDATA[我们看到一个机会在 ]]></string>
+<string id="293529"><![CDATA[利用现有的资产开始建立 ]]></string>
+<string id="293626"><![CDATA[卫星网络.]]></string>
+<string id="293665"><![CDATA[我们注意到 ]]></string>
 <string id="293698"><![CDATA[ is in a prime position to integrate into our ]]></string>
-<string id="293791"><![CDATA[ satellite network around ]]></string>
+<string id="293791"><![CDATA[ 卫星网络环绕 ]]></string>
 <string id="293844"><![CDATA[我们要你按照说明制造一颗卫星并发射到大偏心率轨道]]></string>
 <string id="294032"><![CDATA[ “闪电”轨道环绕 ]]></string>
-<string id="294085"><![CDATA[ to utilize existing assets to start building a tundra satellite network.]]></string>
-<string id="294233"><![CDATA[ is in a prime position to integrate into our tundra satellite network around ]]></string>
+<string id="294085"><![CDATA[利用现有资产，开始建立一个苔原卫星网络.]]></string>
+<string id="294233"><![CDATA[ is in a prime position to 整合到我们苔原卫星网络环绕 ]]></string>
 <string id="294391"><![CDATA[我们要你按照说明制造一颗卫星并发射到大偏心率苔原轨道环绕]]></string>
 <string id="294619"><![CDATA[我们要你按照说明制造一颗卫星并进入到]]></string>
 <string id="294763"><![CDATA[我们要你按照说明制造一颗卫星并发射到高特殊轨道环绕]]></string>
-<string id="294971"><![CDATA[You have successfully moved ]]></string>
-<string id="295028"><![CDATA[ into its intended orbit of ]]></string>
+<string id="294971"><![CDATA[您已成功转移 ]]></string>
+<string id="295028"><![CDATA[进入预定轨道位于]]></string>
 <string id="295085"><![CDATA[你已经成功发射卫星到赤道轨道环绕]]></string>
 <string id="295235"><![CDATA[你已经成功发射卫星到极地轨道环绕]]></string>
-<string id="295375"><![CDATA[You have successfully increased the coverage of our ]]></string>
+<string id="295375"><![CDATA[您已经成功地提高了覆盖范围关于 ]]></string>
 <string id="295480"><![CDATA[ satellite network above ]]></string>
-<string id="295531"><![CDATA[You have successfully integrated ]]></string>
+<string id="295531"><![CDATA[您已成功整合]]></string>
 <string id="295598"><![CDATA[ into our ]]></string>
 <string id="295619"><![CDATA[你已经成功发射卫星到]]></string>
-<string id="295720"><![CDATA[You have successfully increased the coverage of our tundra satellite network above ]]></string>
-<string id="295888"><![CDATA[ into our tundra satellite network above ]]></string>
+<string id="295720"><![CDATA[您已成功地增加苔原卫星网络的覆盖范围位于 ]]></string>
+<string id="295888"><![CDATA[进入我们的苔原卫星网络位于 ]]></string>
 <string id="295971"><![CDATA[你已经成功发射卫星到苔原轨道环绕]]></string>
 <string id="296113"><![CDATA[你已经成功发射卫星进入到]]></string>
 <string id="296206"><![CDATA[你已经成功发射卫星到轨道]]></string>
@@ -6889,19 +6888,19 @@ Spd: ]]></string>
 <string id="296386"><![CDATA[SatelliteContract]]></string>
 <string id="296421"><![CDATA[PotatoRoid]]></string>
 <string id="296442"><![CDATA[Expand station "]]></string>
-<string id="296475"><![CDATA[Build a new orbital station ]]></string>
-<string id="296532"><![CDATA[on a solar orbit.]]></string>
+<string id="296475"><![CDATA[建造一个新的轨道空间站 ]]></string>
+<string id="296532"><![CDATA[在太阳轨道上.]]></string>
 <string id="296567"><![CDATA[环绕]]></string>
 <string id="296582"><![CDATA[ Station ]]></string>
-<string id="296601"><![CDATA[We need to build up our infrastructure around ]]></string>
-<string id="296694"><![CDATA[ to support future missions. We can do this by expanding the station "]]></string>
+<string id="296601"><![CDATA[我们需要建立基础设施围绕 ]]></string>
+<string id="296694"><![CDATA[以支持未来的任务。我们可以通过扩展空间站做到这一点 "]]></string>
 <string id="296836"><![CDATA[[建造一个新的空间站作为中转并支援]]></string>
 <string id="296959"><![CDATA[ kerbals in ]]></string>
-<string id="296984"><![CDATA[a solar orbit.]]></string>
+<string id="296984"><![CDATA[一个太阳轨道.]]></string>
 <string id="297013"><![CDATA[轨道位于]]></string>
-<string id="297032"><![CDATA[You have finished constructing the necessary additions on the station "]]></string>
-<string id="297176"><![CDATA[You have finished construction of a new orbital station ]]></string>
-<string id="297289"><![CDATA[on its own orbit around the sun.]]></string>
+<string id="297032"><![CDATA[你已经完成空间站的必要补给 "]]></string>
+<string id="297176"><![CDATA[你已经完成了一个新的轨道空间站建设 ]]></string>
+<string id="297289"><![CDATA[在太阳轨道上.]]></string>
 <string id="297354"><![CDATA[StationContract]]></string>
 <string id="297385"><![CDATA[附近]]></string>
 <string id="297398"><![CDATA[集中开展 ]]></string>
@@ -6910,14 +6909,14 @@ Spd: ]]></string>
 <string id="297475"><![CDATA[ surveys of ]]></string>
 <string id="297500"><![CDATA[survey]]></string>
 <string id="297513"><![CDATA[我们需要测试我们新获得的科技,来此一次严格的测试吧,去]]></string>
-<string id="297661"><![CDATA[。前往指定的测试地点，并收集一些 ]]></string>
-<string id="297760"><![CDATA[ has detected some ]]></string>
-<string id="297799"><![CDATA[ to the ]]></string>
-<string id="297816"><![CDATA[. Head in that direction and follow up with a series of ]]></string>
-<string id="297929"><![CDATA[We want to confirm some theories about some ]]></string>
-<string id="298018"><![CDATA[. Head there and take a few ]]></string>
-<string id="298075"><![CDATA[Your assistance in gathering these ]]></string>
-<string id="298146"><![CDATA[ has been indispensable. Thank you!]]></string>
+<string id="297661"><![CDATA[. 前往指定的试验场地，并收集了一些 ]]></string>
+<string id="297760"><![CDATA[检测到一些]]></string>
+<string id="297799"><![CDATA[前往]]></string>
+<string id="297816"><![CDATA[. 前往这个方向并且跟进这个系列关于]]></string>
+<string id="297929"><![CDATA[我们想确认一些理论]]></string>
+<string id="298018"><![CDATA[. 到达那里，并取得一些 ]]></string>
+<string id="298075"><![CDATA[协助取得这些]]></string>
+<string id="298146"><![CDATA[已经不可或缺。 谢谢！]]></string>
 <string id="298217"><![CDATA[警报!这是一个对气态星球的调查——按照计划.]]></string>
 <string id="298338"><![CDATA[centerLatitude]]></string>
 <string id="298367"><![CDATA[centerLongitude]]></string>
@@ -7011,7 +7010,7 @@ Spd: ]]></string>
 <string id="302439"><![CDATA[ 那不是休眠火山.去那儿然后插上旗帜.]]></string>
 <string id="302562"><![CDATA[Flying on ]]></string>
 <string id="302583"><![CDATA[ should not be anything like flying on ]]></string>
-<string id="302662"><![CDATA[, so you might have better luck there.]]></string>
+<string id="302662"><![CDATA[, 所以你可能有好运.]]></string>
 <string id="302739"><![CDATA[你今天真是好运！很简单只要前往 ]]></string>
 <string id="302820"><![CDATA[然后越过它.易如反掌.完全没有风险！现在请签这份免责保证书.]]></string>
 <string id="302956"><![CDATA[有些不安,我们所有的任务指向 ]]></string>
@@ -7032,7 +7031,7 @@ Spd: ]]></string>
 <string id="304793"><![CDATA[.是什么让可能变成了不可能?]]></string>
 <string id="304856"><![CDATA[起飞前先给我们一份快速舱内报告.如果控制面板上的灯快速的闪烁,没事的,踹一脚就好了.]]></string>
 <string id="305134"><![CDATA[有时候科学抛出一个诡异的弧线球然后问一个困难的问题,好吧,是我问的.我们要去,呃,特指你,前往]]></string>
-<string id="305352"><![CDATA[We need to perform a space walk in orbit]]></string>
+<string id="305352"><![CDATA[我们需要进行一次太空行走]]></string>
 <string id="305433"><![CDATA[ of ]]></string>
 <string id="305442"><![CDATA[. This time try to keep your helmet free of bodily fluids.]]></string>
 <string id="305559"><![CDATA[那个载具附近就是 ]]></string>
@@ -7043,12 +7042,12 @@ Spd: ]]></string>
 <string id="306160"><![CDATA[是太空探索的下一个合理步骤.摸爬滚打,浑身淤青都是值得的.]]></string>
 <string id="306384"><![CDATA[最终,我们能坐下,吃上一口小点心在]]></string>
 <string id="306485"><![CDATA[不用穿过房间来追逐它！]]></string>
-<string id="306558"><![CDATA[A few snack breaks, some counseling, and these crew members will be good as new!]]></string>
+<string id="306558"><![CDATA[吃一些东西，休息一下，这些小绿人将完好如新，和刚出厂一样！]]></string>
 <string id="306720"><![CDATA[It's like a vessel handshake, with minimal shaking and no hands. Congratulations!]]></string>
 <string id="306884"><![CDATA[好吧,这次行动花费了我们一半的资金.干得好.]]></string>
 <string id="306995"><![CDATA[这也就只能叫“发射”了.我们还能要求什么呢?好吧我们还会要求加强一些部分.]]></string>
 <string id="307199"><![CDATA[漂亮！现在这面摇动地旗帜看起来如此庄严！]]></string>
-<string id="307369"><![CDATA[Talk about coming in hot! We are receiving atmospheric telemetry now.]]></string>
+<string id="307369"><![CDATA[谈论即将到来的炎热！我们现在正在进行大气检测。]]></string>
 <string id="307509"><![CDATA[谈谈近距离接触吧！再近一点他们都会被压成纸的.]]></string>
 <string id="307641"><![CDATA[一次返航从]]></string>
 <string id="307680"><![CDATA[?！确定任报告没有出错?怎么可能?]]></string>
@@ -7270,9 +7269,9 @@ Spd: ]]></string>
 <string id="319273"><![CDATA[你正在进入]]></string>
 <string id="319308"><![CDATA[@]]></string>
 <string id="319311"><![CDATA[收集探测数据于]]></string>
-<string id="319366"><![CDATA[You have located the source of the ]]></string>
+<string id="319366"><![CDATA[你已经找到源头在]]></string>
 <string id="319437"><![CDATA[ is not the source of the ]]></string>
-<string id="319490"><![CDATA[. Continue to the next location.]]></string>
+<string id="319490"><![CDATA[. 继续，去下一个地点.]]></string>
 <string id="319555"><![CDATA[合同日志: 探测不能置于]]></string>
 <string id="319630"><![CDATA[ waypoint - the survey definition is misconfigured.]]></string>
 <string id="319733"><![CDATA[spaceflight]]></string>
@@ -7282,7 +7281,7 @@ Spd: ]]></string>
 <string id="319813"><![CDATA[米的距离]]></string>
 <string id="319838"><![CDATA[上方]]></string>
 <string id="319853"><![CDATA[环绕]]></string>
-<string id="319866"><![CDATA[Navigation waypoint deactivated.]]></string>
+<string id="319866"><![CDATA[导航航标停用.]]></string>
 <string id="319931"><![CDATA[Navigation set to ]]></string>
 <string id="319968"><![CDATA[VesselDestinationParameter]]></string>
 <string id="320021"><![CDATA[manned ]]></string>
@@ -7856,7 +7855,7 @@ Spd: ]]></string>
 <string id="336056"><![CDATA[<color=orange>没有足够的科学点研究此节点.</color>]]></string>
 <string id="336183"><![CDATA[[RDTech]: 节点需要的科学点超过限制.]]></string>
 <string id="336268"><![CDATA[<color=orange>不能研究技术超过 ]]></string>
-<string id="336365"><![CDATA[个科研点的技术。</color>]]></string>
+<string id="336365"><![CDATA[这个等级的科研点.</color>]]></string>
 <string id="336428"><![CDATA[[RDTech]: 该科技已被解锁]]></string>
 <string id="336499"><![CDATA[hideEmpty]]></string>
 <string id="336518"><![CDATA[TechTree]]></string>
@@ -8026,7 +8025,7 @@ Total Biomes: ]]></string>
 <string id="344043"><![CDATA[Starting Process ]]></string>
 <string id="344078"><![CDATA[ "]]></string>
 <string id="344083"><![CDATA[Modified Part Configs:]]></string>
-<string id="344128"><![CDATA[打开]]></string>
+<string id="344128"><![CDATA[Open]]></string>
 <string id="344137"><![CDATA[Save All]]></string>
 <string id="344154"><![CDATA[Discard All]]></string>
 <string id="344177"><![CDATA[manufacturer]]></string>
@@ -8046,7 +8045,7 @@ Total Biomes: ]]></string>
 这些也会被添加至质量工具条.
 ]]></string>
 <string id="344816"><![CDATA[
-Cost: \F ]]></string>
+价格: \F ]]></string>
 <string id="344837"><![CDATA[Utility Settings:]]></string>
 <string id="344872"><![CDATA[Show Parts in Node Tooltips]]></string>
 <string id="344927"><![CDATA[Save Settings]]></string>
@@ -8061,7 +8060,7 @@ Cost: \F ]]></string>
 <string id="345284"><![CDATA[ Recovery Dialog Handler]]></string>
 <string id="345333"><![CDATA[科研报告来自<i>]]></string>
 <string id="345380"><![CDATA[</i>]]></string>
-<string id="345389"><![CDATA[<i>任务报告来自：]]></string>
+<string id="345389"><![CDATA[<i>的任务报告]]></string>
 <string id="345436"><![CDATA[MissionSummaryDialog]]></string>
 <string id="345477"><![CDATA[[Mission Summary Dialog]: 正在跳过 ]]></string>
 <string id="345548"><![CDATA[因为只有碎片.]]></string>
@@ -11600,9 +11599,9 @@ THE SELECTED PART IS NOT ATTACHABLE!]]></string>
 <string id="682469"><![CDATA[cm]]></string>
 <string id="682474"><![CDATA[<b>质量 : </b>]]></string>
 <string id="682501"><![CDATA[ t
-<b>Crash Tolerance: </b>]]></string>
+<b>耐撞强度 ： </b>]]></string>
 <string id="682556"><![CDATA[ m/s
-<b>Max. Temp. Int/Skin: </b>]]></string>
+<b>最高温度  内/外: </b>]]></string>
 <string id="682623"><![CDATA[
 <b>成员数量 : </b>]]></string>
 <string id="682670"><![CDATA[
