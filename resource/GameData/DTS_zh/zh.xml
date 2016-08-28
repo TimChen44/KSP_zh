@@ -5852,7 +5852,7 @@ Spd: ]]></string>
 <string id="230252"><![CDATA[当溅落于以下星球:]]></string>
 <string id="230287"><![CDATA[into a sub-orbital trajectory over ]]></string>
 <string id="230358"><![CDATA[当处于以下星球 (亚轨道):]]></string>
-<string id="230425"><![CDATA[into an escape trajectory out of ]]></string>
+<string id="230425"><![CDATA[进入逃逸轨道逃出 ]]></string>
 <string id="230492"><![CDATA[当处于以下星球 (逃逸轨道):]]></string>
 <string id="230555"><![CDATA[to solid ground in ]]></string>
 <string id="230594"><![CDATA[to the surface in ]]></string>
@@ -6908,16 +6908,16 @@ Spd: ]]></string>
 <string id="297380"><![CDATA[附近]]></string>
 <string id="297393"><![CDATA[集中开展 ]]></string>
 <string id="297430"><![CDATA[ 调查，地点 ]]></string>
-<string id="297453"><![CDATA[Conduct ]]></string>
-<string id="297470"><![CDATA[ surveys of ]]></string>
+<string id="297453"><![CDATA[进行 ]]></string>
+<string id="297470"><![CDATA[ 采集，地点 ]]></string>
 <string id="297495" noT="2"><![CDATA[survey]]></string>
 <string id="297508"><![CDATA[我们需要测试我们新获得的科技,来此一次严格的测试吧,去]]></string>
 <string id="297656"><![CDATA[。前往指定的测试地点，并收集一些 ]]></string>
 <string id="297755"><![CDATA[ has detected some ]]></string>
 <string id="297794"><![CDATA[ to the ]]></string>
 <string id="297811"><![CDATA[. Head in that direction and follow up with a series of ]]></string>
-<string id="297924"><![CDATA[We want to confirm some theories about some ]]></string>
-<string id="298013"><![CDATA[. Head there and take a few ]]></string>
+<string id="297924"><![CDATA[我们想确认一些相关理论 ]]></string>
+<string id="298013"><![CDATA[。到达那里，并采集一些 ]]></string>
 <string id="298070"><![CDATA[Your assistance in gathering these ]]></string>
 <string id="298141"><![CDATA[ has been indispensable. Thank you!]]></string>
 <string id="298212"><![CDATA[警报!这是一个对气态星球的调查——按照计划.]]></string>
