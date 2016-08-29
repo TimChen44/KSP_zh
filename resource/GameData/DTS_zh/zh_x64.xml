@@ -3873,7 +3873,7 @@ Looking for ]]></string>
 <string id="142866"><![CDATA[') 'size' 值格式不正确]]></string>
 <string id="142937"><![CDATA[method]]></string>
 <string id="142950"><![CDATA[') 'method'值格式不正确]]></string>
-<string id="143025"><![CDATA[电力]]></string>
+<string id="143025" noT="1"><![CDATA[ElectricCharge]]></string>
 <string id="143054"><![CDATA[Resource System Error: Resource id ]]></string>
 <string id="143125"><![CDATA[不存在于部件]]></string>
 <string id="143172"><![CDATA[Cannot add an InternalPart:ConfigNode contains no InternalPart name]]></string>
@@ -5838,7 +5838,7 @@ Spd: ]]></string>
 <string id="229834"><![CDATA[测试完成!我们得到了很好的数据.十分感谢!]]></string>
 <string id="229935"><![CDATA[to the Launch Site]]></string>
 <string id="229972"><![CDATA[当处于发射台]]></string>
-<string id="230009"><![CDATA[into flight above ]]></string>
+<string id="230009"><![CDATA[当在以下星球飞行 ]]></string>
 <string id="230046"><![CDATA[当在以下星球飞行:]]></string>
 <string id="230077"><![CDATA[to solid ground on ]]></string>
 <string id="230116"><![CDATA[to the surface of ]]></string>
@@ -5849,7 +5849,7 @@ Spd: ]]></string>
 <string id="230257"><![CDATA[当溅落于以下星球:]]></string>
 <string id="230292"><![CDATA[into a sub-orbital trajectory over ]]></string>
 <string id="230363"><![CDATA[当处于以下星球 (亚轨道):]]></string>
-<string id="230430"><![CDATA[into an escape trajectory out of ]]></string>
+<string id="230430"><![CDATA[进入逃逸轨道逃出 ]]></string>
 <string id="230497"><![CDATA[当处于以下星球 (逃逸轨道):]]></string>
 <string id="230560"><![CDATA[to solid ground in ]]></string>
 <string id="230599"><![CDATA[to the surface in ]]></string>
@@ -6905,16 +6905,16 @@ Spd: ]]></string>
 <string id="297385"><![CDATA[附近]]></string>
 <string id="297398"><![CDATA[集中开展 ]]></string>
 <string id="297435"><![CDATA[ 调查，地点 ]]></string>
-<string id="297458"><![CDATA[Conduct ]]></string>
-<string id="297475"><![CDATA[ surveys of ]]></string>
+<string id="297458"><![CDATA[进行 ]]></string>
+<string id="297475"><![CDATA[ 采集，地点]]></string>
 <string id="297500"><![CDATA[survey]]></string>
 <string id="297513"><![CDATA[我们需要测试我们新获得的科技,来此一次严格的测试吧,去]]></string>
 <string id="297661"><![CDATA[. 前往指定的试验场地，并收集了一些 ]]></string>
 <string id="297760"><![CDATA[检测到一些]]></string>
 <string id="297799"><![CDATA[前往]]></string>
 <string id="297816"><![CDATA[. 前往这个方向并且跟进这个系列关于]]></string>
-<string id="297929"><![CDATA[我们想确认一些理论]]></string>
-<string id="298018"><![CDATA[. 到达那里，并取得一些 ]]></string>
+<string id="297929"><![CDATA[我们想确认一些相关理论]]></string>
+<string id="298018"><![CDATA[。到达那里，并采集一些 ]]></string>
 <string id="298075"><![CDATA[协助取得这些]]></string>
 <string id="298146"><![CDATA[已经不可或缺。 谢谢！]]></string>
 <string id="298217"><![CDATA[警报!这是一个对气态星球的调查——按照计划.]]></string>
