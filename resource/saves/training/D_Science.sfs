@@ -14,7 +14,7 @@ GAME
 		{
 			CanQuickSave = False
 			CanQuickLoad = False
-			CanAutoSave = False
+			CanAutoSave = True
 			CanUseMap = True
 			CanSwitchVesselsNear = True
 			CanSwitchVesselsFar = False

@@ -8281,27 +8281,6 @@ GAME
 			}
 		}
 	}
-	LoaderInfo
-	{
-		FPS v0.0.0.0 = False
-		FPS.dll = False
-		ModuleManager.2.6.21 v2.6.21.0 = False
-		KramaxAutoPilot v1.0.0.38403 / v1.0.0.0 = False
-		KramaxAutoPilot = False
-		Paul&Pauli = False
-		ModuleManager.2.6.21.dll = False
-		ModuleManager.ConfigCache = False
-		ModuleManager.ConfigSHA = False
-		ModuleManager.Physics = False
-		ModuleManager.TechTree = False
-		KerbalKonstructs v1.0.0.0 = False
-		KerbalKonstructs = False
-		Real Launch Sites = False
-		PlaneMode = False
-		EnhancedNavBall = False
-		AsteroidDay = False
-		Source = False
-	}
 	ROSTER
 	{
 		KERBAL
