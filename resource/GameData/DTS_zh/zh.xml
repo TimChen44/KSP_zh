@@ -3514,8 +3514,8 @@ bitmask: ]]></string>
 <string id="127271"><![CDATA[开始新的游戏]]></string>
 <string id="127300"><![CDATA[[MainMenu Error]: Flag Browser button is set, but GameDatabase has no instance!]]></string>
 <string id="127460"><![CDATA[newGameDialog]]></string>
-<string id="127487"><![CDATA[Save Name:]]></string>
-<string id="127508"><![CDATA[游戏模式;]]></string>
+<string id="127487"><![CDATA[存档名称：]]></string>
+<string id="127508"><![CDATA[游戏模式：]]></string>
 <string id="127529" noT="1"><![CDATA[Sandbox]]></string>
 <string id="127544" noT="1"><![CDATA[Science]]></string>
 <string id="127559" noT="1"><![CDATA[Career]]></string>
