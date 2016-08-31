@@ -8155,9 +8155,9 @@ Total Biomes: ]]></string>
 <string id="348475"><![CDATA[Auto Expire In]]></string>
 <string id="348504"><![CDATA[Minimum Duration]]></string>
 <string id="348537"><![CDATA[Maximum Duration]]></string>
-<string id="348570"><![CDATA[消耗设置]]></string>
+<string id="348570"><![CDATA[开启策略花费]]></string>
 <string id="348591"><![CDATA[<b><color=]]></string>
-<string id="348612"><![CDATA[>Effects:</color></b>
+<string id="348612"><![CDATA[>效果：</color></b>
 
 ]]></string>
 <string id="348659"><![CDATA[管理设施不能支持多余]]></string>
@@ -11911,7 +11911,7 @@ Never]]></string>
 设施等级太低无法研究超过 ]]></string>
 <string id="698728"><![CDATA[
 
-必要技术妹有研究。</color>]]></string>
+必要技术没有研究。</color>]]></string>
 <string id="698831"><![CDATA[RESEARCHED]]></string>
 <string id="698852"><![CDATA[RESEARCHABLE]]></string>
 <string id="698877"><![CDATA[FADED]]></string>
