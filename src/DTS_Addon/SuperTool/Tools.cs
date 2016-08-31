@@ -271,7 +271,7 @@ namespace DTS_Addon
                 {
                     if (GUI.Button(new Rect(400, nSort * 20, 40, 20), "显/藏"))
                     {
-                        node.gameObject.SetActive(!node.gameObject.active);
+                        node.gameObject.SetActive(!node.gameObject.activeSelf);
                     }
                     else if (GUI.Button(new Rect(440, nSort * 20, 30, 20), "详"))
                     {
@@ -328,7 +328,7 @@ namespace DTS_Addon
                 for (int i = 0; i < Components.Count; i++)
                 {
                     var compt = Components[i];
-                    GUI.Label(new Rect(0, i * 20, 260, 20), (compt.gameObject.active == true ? "O" : "X") + " - " + compt.GetType().Name + ":" + compt.GetType().FullName);
+                    GUI.Label(new Rect(0, i * 20, 260, 20), (compt.gameObject.activeSelf == true ? "O" : "X") + " - " + compt.GetType().Name + ":" + compt.GetType().FullName);
                     if (GUI.Button(new Rect(260, i * 20, 30, 20), "编"))
                     {
                         Component = compt;
@@ -490,7 +490,7 @@ namespace DTS_Addon
                 for (int i = 0; i < CaptureComponents.Count; i++)
                 {
                     var compt = CaptureComponents[i];
-                    GUI.Label(new Rect(0, i * 20, 260, 20), (compt.gameObject.active == true ? "O" : "X") + " - " + compt.GetType().Name + ":" + compt.GetType().FullName);
+                    GUI.Label(new Rect(0, i * 20, 260, 20), (compt.gameObject.activeSelf == true ? "O" : "X") + " - " + compt.GetType().Name + ":" + compt.GetType().FullName);
                     if (GUI.Button(new Rect(260, i * 20, 30, 20), "编"))
                     {
                         SObject = compt.gameObject;
@@ -532,7 +532,7 @@ namespace DTS_Addon
                 }
                 Script.TrimEnd(',');
             }
-            oneTitle = string.Format("{2}{1}-{0}({3})", go.name, go.active == true ? "O" : "X", HasScript == true ? ">" : "", Script);
+            oneTitle = string.Format("{2}{1}-{0}({3})", go.name, go.activeSelf == true ? "O" : "X", HasScript == true ? ">" : "", Script);
             /*-----------*/
 
             sort = nodeSort;
@@ -553,7 +553,7 @@ namespace DTS_Addon
         {
             if (gameObject != null)
                 return string.Format("{2}-{0} - {1} {3}", gameObject.tag, gameObject.name,
-                    gameObject.active == true ? "O" : "X",
+                    gameObject.activeSelf == true ? "O" : "X",
                    IsFind == true ? "<--" : "");
             else
                 return "--" + oneTitle;
