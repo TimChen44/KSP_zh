@@ -1548,7 +1548,7 @@ FX Scale: ]]></string>
 <string id="56930"><![CDATA[Dismiss Forward]]></string>
 <string id="56961"><![CDATA[Dismiss Back]]></string>
 <string id="56986"><![CDATA[Simple]]></string>
-<string id="56999" not="1"><![CDATA[Advanced]]></string>
+<string id="56999" noT="1"><![CDATA[Advanced]]></string>
 <string id="57016"><![CDATA[In]]></string>
 <string id="57021"><![CDATA[Out]]></string>
 <string id="57028"><![CDATA[UIAdditional]]></string>
@@ -3514,8 +3514,8 @@ bitmask: ]]></string>
 <string id="127272"><![CDATA[开始新的游戏]]></string>
 <string id="127301"><![CDATA[[MainMenu Error]: Flag Browser button is set, but GameDatabase has no instance!]]></string>
 <string id="127461"><![CDATA[newGameDialog]]></string>
-<string id="127488"><![CDATA[Save Name:]]></string>
-<string id="127509"><![CDATA[游戏模式;]]></string>
+<string id="127488"><![CDATA[存档名称：]]></string>
+<string id="127509"><![CDATA[游戏模式：]]></string>
 <string id="127530"><![CDATA[Sandbox]]></string>
 <string id="127545"><![CDATA[Science]]></string>
 <string id="127560"><![CDATA[Career]]></string>
@@ -4427,7 +4427,7 @@ Retracted skin max temp: ]]></string>
 <string id="165145"><![CDATA[_NotSun]]></string>
 <string id="165160"><![CDATA[[PartTestConstraint]: Error parsing type ]]></string>
 <string id="165243"><![CDATA[ in constraint for ModuleTestSubject.]]></string>
-<string id="165318"noT="1"><![CDATA[test]]></string>
+<string id="165318" noT="1"><![CDATA[test]]></string>
 <string id="165327"><![CDATA[[PartTestConstraint]: Error parsing value of type repeatability, value =  ]]></string>
 <string id="165477"><![CDATA[body]]></string>
 <string id="165486"><![CDATA[situationMask]]></string>
