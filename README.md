@@ -15,13 +15,11 @@ v1.1.3.1289
 
 ###汉化截图
 **开始界面**
-![alt tag](https://github.com/TimChen44/KSP_zh/blob/master/doc/screenshot2.png)
+![alt tag](./doc/screenshot2.png)
 
-**设置界面**
-![alt tag](https://github.com/TimChen44/KSP_zh/blob/master/doc/screenshot3.png)
 
 **火箭总装**
-![alt tag](https://github.com/TimChen44/KSP_zh/blob/master/doc/screenshot4.png)
+![alt tag](./doc/screenshot4.png)
 
 #感谢
 
