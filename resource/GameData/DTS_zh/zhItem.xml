@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Items>
-  <Item scene="SPACECENTER"  type="SpriteText" path="panel_RnD/RDScreen(Clone)/panelManager/panel_technology/RightPanel/RDpanel/Panel_node/node_description">
+  <Item scene="SPACECENTER"  type="TMP_Text" path="panel_RnD/RDScreen(Clone)/panelManager/panel_technology/RightPanel/RDpanel/Panel_node/node_description">
     <string name="The technology we started out with."><![CDATA[这是最基础的科技.]]></string>
     <string name="More engines, more fuel, more ambitious ideas."><![CDATA[更强的引擎,更多的燃料,更高远的志向.]]></string>
     <string name="The art and science of landing and walking away from it."><![CDATA[成功着陆并安全走出舱外的科技支持.]]></string>
@@ -58,7 +58,7 @@
     <string name="Nanolathing"><![CDATA[构建技术领域的超新星科技.]]></string>
   </Item>
 
-  <Item scene="TRACKSTATION"  type="SpriteText" path="KnowledgeBase/KnowledgeContainer/Planets/MainPanel/Panel manager/Panel1/description">
+  <Item scene="TRACKSTATION"  type="TMP_Text" path="KnowledgeBase/KnowledgeContainer/Planets/MainPanel/Panel manager/Panel1/description">
     <string name="A unique world, Kerbin has flat plains, soaring mountains and wide, blue oceans. Home to the Kerbals, it has just the right conditions to support a vast, seemingly undepletable population of the eager green creatures.&#x000A;&#x000A;Reaching a stable orbit around Kerbin is one of the first things budding space programs strive for. It is said that he who can get his ship into orbit is halfway to anywhere."><![CDATA[一个独一无二的世界,Kerbin拥有平坦的平原,高耸的山脉,以及宽广蔚蓝的海洋.作为Kerbal人的家园,它正好处在一个极佳的条件之下,能够容纳这些大量的,而且看上去数量还不会减少的积极努力着的绿色生物们.刚刚开始发展的太空计划的奋斗目标之一是要到达一个稳定的绕Kerbin轨道.有人说,如果可以让飞船进入轨道,无论你要去哪,你的梦想就已经成功了一半了.]]></string>
     <string name="The Mun, is a large satellite orbiting Kerbin. It is mostly gray in appearance, with craters of various sizes dotting its otherwise smooth surface.&#x000A;&#x000A;The Muns discovery is widely regarded as one of the more important breakthroughs of Kerbal evolution. Granted, it didnt happen all that long ago, but its still fair to say Kerbals are wiser and more evolved now than they were back then."><![CDATA[Mun是一颗围绕着Kerbin旋转的大型卫星.它的外表看起来主要是灰色的,各种大小的陨石坑点缀着它那本来平坦的表面.对Mun的探索被广泛认为是Kerbal进化史上最重要的突破之一.当然,这只不过是不久前的事情,但还是可以公平地说,现在的Kerbal人比起以前来要更聪明,也更加高等了.]]></string>
     <string name="Minmus is the smallest moon orbiting Kerbin. From the surface of Kerbin, it can be seen on clear days as a tiny blue speck in the sky. &#x000A;&#x000A;It is often mistaken as dirt on telescope lenses or dead pixels, but the top minds at the Kerbal Astronomical Society assure us it is a real moon nevertheless."><![CDATA[Minmus是Kerbin最小的一颗卫星.天气好的时候,从Kerbin上可以看见它就像是天空中的一颗蓝色小斑点.它经常被误认为是望远镜镜片上的污点或者是一个坏点,但Kerbal天文学会的专家向我们保证,尽管如此它还是一颗真真正正的卫星.]]></string>
@@ -78,19 +78,19 @@
     <string name="Theres been a considerable amount of controversy around the status of Eeloo as being a proper planet or a just lump of ice going around the Sun. The debate is still ongoing, since most academic summits held to address the issue have devolved into, on good days, petty name calling, and on worse ones, all-out brawls."><![CDATA[对于Eeloo到底是名副其实的行星,还是只是一颗"围绕着太阳的冰疙瘩",目前存在着相当多的争论.这场辩论还将继续,因为大部分的学术峰会都加入进来阐述他们的论点,从友好的问候,到指名骂姓,再到更加糟糕的全面论战.]]></string>
   </Item>
 
-  <Item scene="SPACECENTER"  type="SpriteText" path="panel_MC/MissionControl(Clone)/panelManager/panel_main/placement/anchor/subCategories/panel_view/anchor_buttons/panel_available/text_offer">
+  <Item scene="SPACECENTER"  type="TMP_Text" path="panel_MC/MissionControl(Clone)/panelManager/panel_main/placement/anchor/subCategories/panel_view/anchor_buttons/panel_available/text_offer">
     <string name="Expires"><![CDATA[过期时限.]]></string>
   </Item>
 
-  <Item scene="SPACECENTER"  type="SpriteText" path="panel_MC/MissionControl(Clone)/panelManager/panel_main/placement/anchor/subCategories/panel_view/anchor_buttons/panel_available/text_expirytime">
+  <Item scene="SPACECENTER"  type="TMP_Text" path="panel_MC/MissionControl(Clone)/panelManager/panel_main/placement/anchor/subCategories/panel_view/anchor_buttons/panel_available/text_expirytime">
     <string name="Never"><![CDATA[永不过期.]]></string>
   </Item>
 
-  <Item scene="SPACECENTER"  type="SpriteText" path="panel_MC/MissionControl(Clone)/panelManager/panel_main/placement/anchor/subCategories/panel_view/anchor_buttons/panel_active/text_deadline">
+  <Item scene="SPACECENTER"  type="TMP_Text" path="panel_MC/MissionControl(Clone)/panelManager/panel_main/placement/anchor/subCategories/panel_view/anchor_buttons/panel_active/text_deadline">
     <string name="Deadline"><![CDATA[完成时限.]]></string>
   </Item>
 
-  <Item scene="SPACECENTER"  type="SpriteText" path="panel_MC/MissionControl(Clone)/panelManager/panel_main/placement/anchor/subCategories/panel_view/anchor_buttons/panel_active/text_deadlinetime">
+  <Item scene="SPACECENTER"  type="TMP_Text" path="panel_MC/MissionControl(Clone)/panelManager/panel_main/placement/anchor/subCategories/panel_view/anchor_buttons/panel_active/text_deadlinetime">
     <string name="Never"><![CDATA[永久.]]></string>
   </Item>
 </Items>

@@ -12,7 +12,7 @@ namespace DTS_Addon.Scene
     {
         void OnGUI()
         {
-            GUI.Label(new Rect(10, 10, 200, 20), "PSystemSpawn");
+            //GUI.Label(new Rect(10, 10, 200, 20), "PSystemSpawn");
         }
     }
 }

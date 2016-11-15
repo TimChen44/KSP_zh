@@ -4,6 +4,9 @@ using System.Collections.Generic;
 using System.Text;
 using System.Xml;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
+
 
 namespace DTS_Addon
 {
@@ -57,20 +60,12 @@ namespace DTS_Addon
                 {
                     switch (item.Type)
                     {
-                        case "SpriteText":
-                            var st = item.NowObject.gameObject.GetComponent<SpriteText>();
+                        case "TMP_Text":
+                            var st = item.NowObject.gameObject.GetComponent<TMP_Text>();
                             if (st == null) continue;
-                            if (item.zDict.ContainsKey(st.Text))
+                            if (item.zDict.ContainsKey(st.text))
                             {
-                                st.Text = item.zDict[st.Text];
-                            }
-                            break;
-                        case "SpriteTextRich":
-                            var str = item.NowObject.gameObject.GetComponent<SpriteTextRich>();
-                            if (str == null) continue;
-                            if (item.zDict.ContainsKey(str.Text))
-                            {
-                                str.Text = item.zDict[str.Text];
+                                st.text = item.zDict[st.text];
                             }
                             break;
                     }
