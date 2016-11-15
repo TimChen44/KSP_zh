@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Text;
 using System.IO;
 using UnityEngine;
+using TMPro;
+
 namespace DTS_zh
 {
     //已经被DTS_Addon.xFont替代
@@ -32,97 +34,10 @@ namespace DTS_zh
 
         //private static Dictionary<string, SpriteFontMultiple.SpriteFontInstance> SSList = new Dictionary<string, SpriteFontMultiple.SpriteFontInstance>();
 
-        public static void getFontInfoRich(SpriteTextRich ST)
-        {
-            return;
-           // if (FontList.Count == 0)
-           // {
-           //     loadFontList();
-           // }
-
-           //// Debug.LogWarning("[xFont:getFontInfoRich]font.name:" + ST.font.name);
-           // for (int i = 0; i < ST.font.fonts.Length; i++)
-           // {
-
-           //     string str = "";
-           //     switch (ST.font.fonts[i].fontText.name)
-           //     {
-           //         case "Arial, Fancy":
-           //             str = "cn12";
-           //             break;
-
-           //         case "Arial10":
-           //             str = "cn10";
-           //             break;
-
-           //         case "Arial11":
-           //             str = "cn10";
-           //             break;
-
-           //         case "Arial12":
-           //             str = "cn12";
-           //             break;
-
-           //         case "Arial14":
-           //             str = "cn14";
-           //             break;
-
-           //         case "Arial14Bold":
-           //             str = "cn14b";
-           //             break;
-
-           //         case "Arial16":
-           //             str = "cn16";
-           //             break;
-
-           //         case "Arial16_Mk2":
-           //             str = "cn16b";
-           //             break;
-
-           //         case "Calibri12":
-           //             str = "cn12";
-           //             break;
-
-           //         case "Calibri14":
-           //             str = "cn14";
-           //             break;
-
-           //         case "Calibri16":
-           //             str = "cn16";
-           //             break;
-
-           //         default:
-           //             str = "cn12";
-           //             Debug.LogWarning("[xFont]" + ST.font.name + " is Null");
-           //             break;
-           //     }
-           //     if (ST.font.fonts[i].fontText.name != str)
-           //     {
-           //         Debug.Log("[xFont]font[" + i.ToString() + "].name:" + ST.font.fonts[i].name);
-
-           //         Debug.Log("[xFont]font[" + i.ToString() + "].material.name:" + ST.font.fonts[i].material.name);
-           //         Debug.Log("[xFont]font[" + i.ToString() + "].fontText.name:" + ST.font.fonts[i].fontText.name);
-
-           //         ST.font.fonts[i].fontText = FontList[str].fontDef;
-           //         ST.font.fonts[i].material = FontList[str].fontMat;
-           //         //if (SSList.ContainsKey(str) == false)
-           //         //{
-           //         //    SpriteFont sf = new SpriteFont(FontList[str].fontDef);
-           //         //    SpriteFontMultiple.SpriteFontInstance ss = new SpriteFontMultiple.SpriteFontInstance();
-           //         //    ss.SpriteFont = sf;
-           //         //    ss.material = FontList[str].fontMat;
-           //         //    SSList.Add(str, ss);
-           //         //}
-           //         //ST.font.fonts[i] = SSList[str];
-
-           //         Debug.Log("[xFont]font[" + i.ToString() + "].name:" + str + " - OK");
-           //     }
-           // }
-        }
 
 
 
-        public static void getFontInfo(SpriteText ST)
+        public static void getFontInfo(TMP_Text ST)
         {
             return;
             //if (FontList.Count == 0)

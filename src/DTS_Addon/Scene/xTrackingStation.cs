@@ -27,7 +27,7 @@ namespace DTS_Addon.Scene
           //  var go=GameObject.Find("description");
           //if (go!=null )
           //{
-          //    var st = go.GetComponent<SpriteText>();
+          //    var st = go.GetComponent<TMP_Text>();
           //    if (st != null) st.Text = DateTime.Now.ToString();
           //}
         }

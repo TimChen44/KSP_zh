@@ -14,7 +14,7 @@ namespace DTS_zh
     {
         private static Dictionary<string, string> dict_Field;
 
-        //Assembly-CSharp-firstpass\SpriteText.ProcessString
+        //Assembly-CSharp-firstpass\TMP_Text.ProcessString
         //str = xText.Trans(str);
         public static string Trans(string value)
         {

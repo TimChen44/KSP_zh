@@ -2,6 +2,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using TMPro;
+
 
 namespace DTS_Addon
 {
@@ -103,9 +105,9 @@ namespace DTS_Addon
             {
                 foreach (var item in Nodes) fTextMeshNode(item);
             }
-            else if (GUI.Button(new Rect(290, 20, 60, 20), "SpriteText"))
+            else if (GUI.Button(new Rect(290, 20, 60, 20), "TMP_Text"))
             {
-                foreach (var item in Nodes) fSpriteText(item);
+                foreach (var item in Nodes) fTMP_Text(item);
             }
             else if (GUI.Button(new Rect(350, 20, 60, 20), "AllNode"))
             {
@@ -174,14 +176,14 @@ namespace DTS_Addon
                 fTextMeshNode(item);
             }
         }
-        public void fSpriteText(Node node)
+        public void fTMP_Text(Node node)
         {
             if (node.gameObject != null)
             {
-                var spriteText = node.gameObject.GetComponent<SpriteText>();
-                if (spriteText != null)
+                var TMP_Texts = node.gameObject.GetComponent<TMP_Text>();
+                if (TMP_Texts != null)
                 {
-                    node.visable = spriteText.text.ToLower().Contains(findText.ToLower());
+                    node.visable = TMP_Texts.text.ToLower().Contains(findText.ToLower());
                     if (node.visable == true) SetP(node);
                 }
                 else
@@ -341,7 +343,7 @@ namespace DTS_Addon
 
 
 
-                //SpriteTextRich str = SObject.GetComponent<SpriteTextRich>();
+                //TMP_TextRich str = SObject.GetComponent<TMP_TextRich>();
 
                 //if (str != null)
                 //{

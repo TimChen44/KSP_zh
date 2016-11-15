@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using UnityEngine;
-
+using System.Diagnostics;
 namespace DTS_Addon.Scene
 {
     [KSPAddon(KSPAddon.Startup.Flight, false)]
@@ -17,10 +17,10 @@ namespace DTS_Addon.Scene
         {
 
         }
-
+        [Conditional("DEBUG")]
         void OnGUI()
         {
-            //GUI.Label(new Rect(10, 10, 200, 20), "Flight");
+            GUI.Label(new Rect(10, 10, 200, 20), "Flight");
         }
     }
 }

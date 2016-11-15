@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 
 using System.Text;
-
+using TMPro;
 using System.Xml;
 using UnityEngine;
 
@@ -26,17 +26,17 @@ namespace DTS_Addon
 
 
         string nowText = "";
-        TextMesh loadText;
+        TextMeshPro loadText;
         System.Random random = new System.Random();
 
         void Update()
         {
             if (loadText == null)
             {
-                var go = GameObject.Find("Text");
+                var go = GameObject.Find("TMP_Text");
                 if (go == null) return;
 
-                loadText = go.GetComponent<TextMesh>();
+                loadText = go.GetComponent<TextMeshPro>();
                 loadText.fontSize = 16;
             }
 

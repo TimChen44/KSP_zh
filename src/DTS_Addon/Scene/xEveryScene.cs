@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 
 using System.Text;
-
+using TMPro;
 using UnityEngine;
 
 namespace DTS_Addon.Scene
@@ -13,6 +13,7 @@ namespace DTS_Addon.Scene
  
         void Start()
         {
+            if (xFont.fontDef == null) xFont.LoadxFont();
 
         }
 
@@ -21,7 +22,7 @@ namespace DTS_Addon.Scene
 
         void Update()
         {
-
+                
         }
 
 
@@ -85,7 +86,13 @@ namespace DTS_Addon.Scene
         //    }
         //}
 
-
+        void OnGUI()
+        {
+            foreach (TMP_Text text in Resources.FindObjectsOfTypeAll<TMP_Text>())
+            {
+                text.font = xFont.fontDef;
+            }
+        }
     }
 
 
