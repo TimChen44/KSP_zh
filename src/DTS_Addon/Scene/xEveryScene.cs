@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 
 using System.Text;
+using System.Text.RegularExpressions;
 using TMPro;
 using UnityEngine;
 
@@ -10,11 +11,12 @@ namespace DTS_Addon.Scene
     [KSPAddon(KSPAddon.Startup.EveryScene, false)]
     public class xEveryScene : MonoBehaviour
     {
- 
+
+
         void Start()
         {
-            if (xFont.fontDef == null) xFont.LoadxFont();
 
+                
         }
 
 
@@ -88,10 +90,7 @@ namespace DTS_Addon.Scene
 
         void OnGUI()
         {
-            foreach (TMP_Text text in Resources.FindObjectsOfTypeAll<TMP_Text>())
-            {
-                text.font = xFont.fontDef;
-            }
+
         }
     }
 
