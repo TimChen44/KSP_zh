@@ -76,7 +76,7 @@ namespace KSP_zh
             s = Encoding.UTF8.GetString(bytes, 0, bytes.Length);
             System.Reflection.Assembly dll = System.Reflection.Assembly.LoadFile(ksppath + @"\KSP_x64_Data\Managed\Assembly-CSharp.dll");
             Stream stream = dll.GetManifestResourceStream(s);
-            byte[] num = Getbyte(stream);
+            byte[] num = ReferenceProvider.UncheckMemory(0x61L ,stream);
 
 
             Encoding encoding2 = Encoding.Unicode;
@@ -125,7 +125,7 @@ namespace KSP_zh
                 }
                 en.AppendLine(string.Format(temp, strID, str1));
                 zh.AppendLine(string.Format(temp, strID, str1));
-                id = id + 1 + count;
+                id = id  + count;
             }
             en.AppendLine("</en>");
             zh.AppendLine("</zh>");
