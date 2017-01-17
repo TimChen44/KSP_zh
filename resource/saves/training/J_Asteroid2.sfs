@@ -1,7 +1,7 @@
 GAME
 {
 	version = 1.0.0
-	Title = 捕获小行星Ⅱ
+	Title = 捕获小行星 II
 	Description = 第二部分是如何捕获附近小行星以及决定其用途。
 	Mode = 3
 	scene = 7

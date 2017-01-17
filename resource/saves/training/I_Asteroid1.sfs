@@ -1,7 +1,7 @@
 GAME
 {
 	version = 0.21.0
-	Title = 捕获小行星Ⅰ
+	Title = 捕获小行星 I
 	Description = 捕获小行星任务将带领玩家了解捕获小行星的全部过程，第一部分是如何变轨以与小行星交会。
 	Mode = 3
 	scene = 7
