@@ -4030,4 +4030,95 @@
     </Values>
   </Config>
   
+ <Config name="HeatShield0">
+
+    <Values>
+
+      <Value name="title"><![CDATA[微小隔热底 (0.625m)]]></Value>
+
+      <Value name="manufacturer"><![CDATA[O.M.B拆迁办]]></Value>
+
+      <Value name="description"><![CDATA[一个微小的隔热结构]]></Value>
+
+    </Values>
+  </Config>
+
+<Config name="RelayAntenna5">
+
+    <Values>
+
+      <Value name="title"><![CDATA[RA-2 中继天线]]></Value>
+
+      <Value name="manufacturer"><![CDATA[基本粒子同步电子工业]]></Value>
+
+      <Value name="description"><![CDATA[一个具有自动存储以及先进寻路算法转发能力的中继天线。]]></Value>
+
+    </Values>
+  </Config>
+
+<Config name="RelayAntenna50">
+
+    <Values>
+
+      <Value name="title"><![CDATA[RA-15 中继天线]]></Value>
+
+      <Value name="manufacturer"><![CDATA[基本粒子同步电子工业]]></Value>
+
+      <Value name="description"><![CDATA[一个具有自动存储以及先进寻路算法转发能力的中继天线。]]></Value>
+
+    </Values>
+  </Config>
+
+<Config name="RelayAntenna100">
+
+    <Values>
+
+      <Value name="title"><![CDATA[RA-100 中继天线]]></Value>
+
+      <Value name="manufacturer"><![CDATA[基本粒子同步电子工业]]></Value>
+
+      <Value name="description"><![CDATA[一个具有自动存储以及先进寻路算法转发能力的中继天线。]]></Value>
+
+    </Values>
+  </Config>
+
+<Config name="HighGainAntenna5">
+
+    <Values>
+
+      <Value name="title"><![CDATA[HG-5高增益天线]]></Value>
+
+      <Value name="manufacturer"><![CDATA[基本粒子同步电子工业]]></Value>
+
+      <Value name="description"><![CDATA[短距离双向通信天线，可直接处理通信的短程中继器。]]></Value>
+
+    </Values>
+  </Config>
+
+<Config name="SurfAntenna">
+
+    <Values>
+
+      <Value name="title"><![CDATA[通讯天线 16-S]]></Value>
+
+      <Value name="manufacturer"><![CDATA[基本粒子同步电子工业]]></Value>
+
+      <Value name="description"><![CDATA[表面安装版的通讯天线16-S]]></Value>
+
+    </Values>
+  </Config>
+
+<Config name="ScienceBox">
+
+    <Values>
+
+      <Value name="title"><![CDATA[实验存储单元]]></Value>
+
+      <Value name="manufacturer"><![CDATA[实践工程小组]]></Value>
+
+      <Value name="description"><![CDATA[在发现废旧的快餐盒也能存储实验数据后，坎星工程师们创造了这个历史性的实验存储单元，帮助科学家把宝贵的科学数据安全带回。]]></Value>
+
+    </Values>
+  </Config>
+ 
  </Configs>
